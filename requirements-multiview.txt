@@ -1,0 +1,2 @@
+# CPU sparse alignment plus existing single-photo neural structure; no weights fetched on install.
+-e .[models,layout,multiview]

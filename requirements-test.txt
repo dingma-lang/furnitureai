@@ -1,0 +1,2 @@
+# Tests use standard-library unittest; no model or search dependencies needed.
+-e .

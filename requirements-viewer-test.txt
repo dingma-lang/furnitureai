@@ -1,0 +1,2 @@
+# Optional browser verification only; no downloaded browser required.
+playwright==1.55.0

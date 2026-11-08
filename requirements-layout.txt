@@ -1,0 +1,2 @@
+# Optional perspective-room experiment. Installing packages does not fetch weights.
+-e .[models,layout]

@@ -1,0 +1,2 @@
+# Optional local user-supplied PDF text extraction. No automatic document downloads.
+PyPDF2>=3,<4

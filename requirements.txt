@@ -1,0 +1,2 @@
+# Editable install with local model inference and FAISS; does not download weights.
+-e .[models,search]
