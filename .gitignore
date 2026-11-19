@@ -8,6 +8,12 @@
 /simulator-assets/
 /reports/*
 !/reports/abo-training-plan.md
+!/reports/phase9-multiview-v1/
+/reports/phase9-multiview-v1/*
+!/reports/phase9-multiview-v1/report.md
+!/reports/phase9-multiview-v1/summary.csv
+!/reports/phase9-multiview-v1/protocol.json
+!/reports/phase9-multiview-v1/tests.json
 
 # Private machine configuration and credentials.
 /.aws/
