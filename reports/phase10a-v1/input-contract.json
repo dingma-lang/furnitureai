@@ -1,0 +1,83 @@
+{
+  "configs": {
+    "heads-original-lr1e-5.json": "f9b23328000ae08ebcdf5101bb841eea674ba8729a846c685bd8504d35104da8",
+    "heads-original-lr3e-5.json": "5675e7fc3ab68fc289fe17dcc6bfaee86a5f36ed020f835cec2fc5995734549f"
+  },
+  "data_manifest_sha256": "f37d9e0e38fc943cac40f158143641de5ae4323b0154aa59bff8e04061929ad3",
+  "implementation": {
+    "audit.py": "69f2299859e7a1394953736bdb55d45a72ae48c37da1583b4c711ca7c5c292bc",
+    "closeout.py": "f23cec1155842a4ec20342149e9b49b89c1c403dd4439ad386b3a0180b12f497",
+    "common.py": "cf7a62560dd084b4cecdb8ddcfb38e5890bc3468c13bf756017a1cb5cb58ee1e",
+    "evaluation.py": "b9b590020656ca1f3d5c328b720715094404b4fdda317d5ab00f18887869095b",
+    "expanded.py": "9fe2454b2ecf647493521aff6798df0722bc4438be2add4ebbd59424efe2acff",
+    "inventory.py": "25c3462f6a7434e1476a19bb5d4127b8509b9616c11cefca07cad97525624a6d",
+    "photo_check.py": "dc4bdb18a1a82b3992ab3911ace298ae800b30be970f41d4ccda7d389205b2f2",
+    "policy.py": "ef66f86d923137553645de45354f6c6c69f0529be00f4724e28c7ef9ca6f9dd5",
+    "protocol.py": "e4fd23893bc051585d5d39827aa024b3774de918cc59e5ca2669d77b64375454",
+    "recovery.py": "04ec967686f4749cb4a202913bea79b0225f030e885dcac118acafcbe9e7e840",
+    "rights.py": "7f1f0f43b9a9545e145faf93d768e804f454b707061559a77169f5472e24578b",
+    "test_preflight.py": "b01b1efa85b2cb06dc2f12d5fb8086e15aa47950b0c7c3878f5c1406b98456cf"
+  },
+  "loss": {
+    "classification": "masked focal BCE",
+    "giou_weight": 2,
+    "l1_weight": 5,
+    "mask_head": false,
+    "objectness": false
+  },
+  "model_files": {
+    "added_tokens.json": "e5dc0da35d20111e8ff3fdfc03682beca23d5f94ed74331bce81786b2636a24f",
+    "config.json": "ba9df8c25a4b8461887dd0a93d9252c9cd84697fe8d49a9d8794ce409af9acb2",
+    "furniture-ai-baseline.json": "acf284e1419cd4bd3afd1515f5ab10f49103e82a0dc51e7d52ec7dec9813a957",
+    "merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "model.safetensors": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "preprocessor_config.json": "cf3e396635b797ee1a464e1b2836e98748f8edac19e89aaa2c93b55ac15b0064",
+    "special_tokens_map.json": "d6e2b9cf664efbad2d22998b8d3da986abcbeed3e0825ad33605c9401f9cf73e",
+    "tokenizer_config.json": "b55cda6198e152ded427c8a9b3faf1cccf27a7fa080697a62f6ff143f511f44f",
+    "vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+  },
+  "preprocessing": {
+    "augmentations": false,
+    "classes": [
+      "sofa",
+      "chair",
+      "table",
+      "bed",
+      "desk",
+      "cabinet",
+      "lamp"
+    ],
+    "normalization": {
+      "do_normalize": true,
+      "do_pad": true,
+      "do_rescale": true,
+      "do_resize": true,
+      "image_mean": [
+        0.48145466,
+        0.4578275,
+        0.40821073
+      ],
+      "image_processor_type": "Owlv2ImageProcessor",
+      "image_std": [
+        0.26862954,
+        0.26130258,
+        0.27577711
+      ],
+      "processor_class": "Owlv2Processor",
+      "resample": 2,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "height": 960,
+        "width": 960
+      }
+    },
+    "padding": "bottom/right square",
+    "patch_size": 16,
+    "resize": [
+      960,
+      960
+    ],
+    "source_coordinate_frame": "original EXIF orientation1"
+  },
+  "training_authorized": false
+}

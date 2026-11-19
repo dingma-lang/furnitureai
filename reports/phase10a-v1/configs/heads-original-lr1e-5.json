@@ -1,0 +1,65 @@
+{
+  "accumulation": 4,
+  "allocated_vram_stop_bytes": 6979321856,
+  "backbone": "frozen_eval",
+  "base": {
+    "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+    "bytes": 619918824,
+    "independent_backup_verified": false,
+    "path": "models/owlv2-original-baseline-20261103/model.safetensors",
+    "sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+  },
+  "batch_size": 1,
+  "checkpoint_policy": "New immutable head delta + optimizer/scaler/RNG/group cursor + binding + SHA256 receipt; reserve-before-call ledger",
+  "classes": [
+    "sofa",
+    "chair",
+    "table",
+    "bed",
+    "desk",
+    "cabinet",
+    "lamp"
+  ],
+  "epochs": 5,
+  "expected_optimizer_updates": 75,
+  "fit_id": "heads-original-lr1e-5",
+  "gradient_clip": 1.0,
+  "initialization": "original_owlv2",
+  "learning_rate": 1e-05,
+  "manifest_sha256": "f37d9e0e38fc943cac40f158143641de5ae4323b0154aa59bff8e04061929ad3",
+  "max_updates": 150,
+  "memory_fraction": 0.8,
+  "mode": "heads",
+  "objectness": "frozen_unsupervised",
+  "per_fit_seconds": 1800,
+  "precision": "fp16_if_independently_verified_else_stop",
+  "preserved_comparator": {
+    "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+    "bytes": 18984973,
+    "independent_backup_verified": false,
+    "path": "data/open-images/experiments/phase5c-v1/heads-lr3e-5/checkpoints/step-00028-epoch-003-423df965eed9.pt",
+    "sha256": "d7c30f22eacd0483062b17f44776ff769f886a5a5f546fbf81e5f3d2b4e877a6"
+  },
+  "prompts": [
+    "a photo of a sofa",
+    "a photo of a chair",
+    "a photo of a table",
+    "a photo of a bed",
+    "a photo of a desk",
+    "a photo of a cabinet",
+    "a photo of a lamp"
+  ],
+  "queue_wall_seconds": 3600,
+  "recovery_policy": "Resume only a committed matching receipt; an uncertain optimizer boundary blocks replay",
+  "run_destination": "data/open-images/experiments/phase10b-heads-v1/heads-original-lr1e-5",
+  "seed": 20261118,
+  "supported_positive_categories": [
+    "sofa",
+    "chair",
+    "bed"
+  ],
+  "total_queue_max_updates": 300,
+  "training_authorized": false,
+  "unmatched_negative_policy": "Only explicit safe-core native source negatives; no absent/NEX/filtered-instance negatives",
+  "weight_decay": 0.01
+}

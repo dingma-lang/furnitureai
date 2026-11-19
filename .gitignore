@@ -14,6 +14,15 @@
 !/reports/phase9-multiview-v1/summary.csv
 !/reports/phase9-multiview-v1/protocol.json
 !/reports/phase9-multiview-v1/tests.json
+!/reports/phase10a-v1/
+/reports/phase10a-v1/*
+!/reports/phase10a-v1/report.md
+!/reports/phase10a-v1/summary-final-v2.json
+!/reports/phase10a-v1/tests-final-v2.json
+!/reports/phase10a-v1/evaluation-protocol.json
+!/reports/phase10a-v1/input-contract.json
+!/reports/phase10a-v1/configs/
+!/reports/phase10a-v1/configs/*.json
 
 # Private machine configuration and credentials.
 /.aws/

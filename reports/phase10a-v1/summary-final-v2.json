@@ -1,0 +1,174 @@
+{
+  "backup_bytes": 10490220990,
+  "backup_checkpoint_candidates": 320,
+  "backup_files": 9973,
+  "broader_seven_class_training_ready": false,
+  "conservative_boxes": 243,
+  "conservative_groups": 75,
+  "conservative_images": 78,
+  "excluded_photos_without_supported_positive": 42,
+  "fp_observable_internal_development": {
+    "bed": 5,
+    "chair": 4,
+    "sofa": 1
+  },
+  "github_phase9_push": "BLOCKED: HTTPS credentials unavailable; gh and GCM not installed",
+  "inactive_boxes": 130,
+  "internal_partitions": {
+    "inner_development": {
+      "boxes": 61,
+      "groups": 19,
+      "images": 19,
+      "per_category": {
+        "bed": {
+          "boxes": 9,
+          "groups": 6,
+          "images": 6,
+          "masks": 4
+        },
+        "cabinet": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "chair": {
+          "boxes": 39,
+          "groups": 11,
+          "images": 11,
+          "masks": 29
+        },
+        "desk": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "sofa": {
+          "boxes": 13,
+          "groups": 9,
+          "images": 9,
+          "masks": 13
+        },
+        "table": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        }
+      }
+    },
+    "optimization": {
+      "boxes": 182,
+      "groups": 56,
+      "images": 59,
+      "per_category": {
+        "bed": {
+          "boxes": 28,
+          "groups": 22,
+          "images": 25,
+          "masks": 15
+        },
+        "cabinet": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "chair": {
+          "boxes": 114,
+          "groups": 40,
+          "images": 42,
+          "masks": 88
+        },
+        "desk": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "sofa": {
+          "boxes": 40,
+          "groups": 32,
+          "images": 34,
+          "masks": 38
+        },
+        "table": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        }
+      }
+    }
+  },
+  "model_input_contract_sha256": "3d304f13cc77da99a2e16501d26b8dd50cba692434d73ac000a31e962b7137be",
+  "new_model_forwards": 0,
+  "original33_overlays_inactive": true,
+  "original_models_unchanged": true,
+  "per_category": {
+    "bed": {
+      "boxes": 37,
+      "groups": 28,
+      "images": 31,
+      "masks": 19
+    },
+    "cabinet": {
+      "boxes": 0,
+      "groups": 0,
+      "images": 0,
+      "masks": 0
+    },
+    "chair": {
+      "boxes": 153,
+      "groups": 51,
+      "images": 53,
+      "masks": 117
+    },
+    "desk": {
+      "boxes": 0,
+      "groups": 0,
+      "images": 0,
+      "masks": 0
+    },
+    "lamp": {
+      "boxes": 0,
+      "groups": 0,
+      "images": 0,
+      "masks": 0
+    },
+    "sofa": {
+      "boxes": 53,
+      "groups": 41,
+      "images": 43,
+      "masks": 51
+    },
+    "table": {
+      "boxes": 0,
+      "groups": 0,
+      "images": 0,
+      "masks": 0
+    }
+  },
+  "prospective_boxes": 373,
+  "prospective_groups": 114,
+  "prospective_images": 120,
+  "rights_evidence_replayed": 120,
+  "status": "PREPARATION_COMPLETE_NOT_APPROVED_FOR_TRAINING",
+  "tests_passed": 121,
+  "training_execution_worker": "Not supplied or authorized; prepared building blocks and durable recovery scaffold only",
+  "training_updates": 0,
+  "usable_explicit_negative_images": 3
+}

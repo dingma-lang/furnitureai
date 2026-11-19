@@ -1,0 +1,50 @@
+{
+  "ap_floor": 0.001,
+  "exposed18": "Historical reference only; not a hyperparameter selection pool",
+  "exposed36": "Now exposed; no repeated selection or unrestricted tuning",
+  "frozen": "No scoring or image decoding in Phase10A",
+  "independent_plan": "Select using internal grouped development, lock code/config/checkpoint/threshold. Request separate permission for one reserved-set comparison. Audit seven-class native coverage first; Cabinet unit labels and exhaustive FP coverage remain missing. Do not broaden frozen membership or revise labels without approval.",
+  "matching_iou": [
+    0.5,
+    0.75
+  ],
+  "metric_scope": "Native partial annotations with source-specific observable FP scope; unknown is unscored",
+  "metrics": [
+    "full_PR_curves",
+    "matched_recall_precision",
+    "AP50",
+    "AP75",
+    "per_category_P_R",
+    "TP_FP_FN",
+    "matched_IoU",
+    "duplicate_FP",
+    "fragmentation_and_mixed_object_heuristics",
+    "latency",
+    "allocated_and_reserved_VRAM"
+  ],
+  "model_companions": [
+    "immutable_original",
+    "immutable_phase5c_adapted"
+  ],
+  "model_inference_authorized": false,
+  "nms_iou": 0.5,
+  "operating_confidence": 0.15,
+  "per_category_reporting_required": true,
+  "primary": "Maximize precision envelope at both original and Phase5C baseline recalls measured on inner-development; unreachable recall fails qualification",
+  "qualification": {
+    "category_ap75_drop_over_pp_requires_failure": 5,
+    "max_ap75_loss_pp": 2,
+    "max_recall_loss_objects": 1,
+    "min_precision_gain_pp": 3,
+    "no_per_category_recall_loss_for_supported_classes": true
+  },
+  "selection_partition": "training-derived inner_development only",
+  "tie_break": [
+    "macro_AP75_supported",
+    "F1_at_fixed_0.15",
+    "lower_latency",
+    "fit_id"
+  ],
+  "training_authorized": false,
+  "unsupported_categories": "Table/Desk/Cabinet/Lamp inactive positives; no seven-class performance claim. Native-only diagnostics must remain separate."
+}
