@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "active_optimization_photographs": 59,
+    "corrected_training_ready": false,
+    "diagnostic_prediction_reviews": 56,
+    "excluded_prospective_train": 42,
+    "explicit_chair_negative_photos_in120": 0,
+    "external_development": 36,
+    "human_verified_complete_training_photos": 0,
+    "internal_validation": 19,
+    "other_optimization_photos_without_evidence": 50,
+    "priority_training_scope_reviews": 9,
+    "prospective_training_photographs": 120,
+    "scored_FP_reviews": 48,
+    "total_review_items": 65,
+    "trustworthy_new_chair_negative_records": 0,
+    "unscored_controls": 8
+  },
+  "private_manifest": "data/open-images/preparation/phase10c2-v1/negative-candidates-v1.json",
+  "private_manifest_sha256": "7ab657e5fd058cd51966a9355032ebe801d23569d96a4d2314f5a08bea7caa8f",
+  "queue_path": "data/open-images/preparation/phase10c2-v1/review-queue.json",
+  "queue_sha256": "5316a455484f59e3ad9457e5e135c23ffad73b2ededa09ccffe295e8ed81325b",
+  "raw_photographs_or_private_dataset_uploaded": false,
+  "schema": "phase10c2-private-inventory-index-v1"
+}

@@ -38,6 +38,15 @@
 !/reports/phase10c-v1/inference-recovery-request.json
 !/reports/phase10c-v1/tests.json
 !/reports/phase10c-v1/precision-analysis.png
+!/reports/phase10c2-v1/
+/reports/phase10c2-v1/*
+!/reports/phase10c2-v1/report.md
+!/reports/phase10c2-v1/candidate-manifest-index.json
+!/reports/phase10c2-v1/arm-A-phase10b.json
+!/reports/phase10c2-v1/arm-B-corrected.json
+!/reports/phase10c2-v1/experiment-protocol.json
+!/reports/phase10c2-v1/tests.json
+!/reports/phase10c2-v1/preservation-summary.json
 
 # Private machine configuration and credentials.
 /.aws/

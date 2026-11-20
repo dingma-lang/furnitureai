@@ -1,0 +1,26 @@
+{
+  "approved": false,
+  "arms": 2,
+  "compare": "Same pixels, positives, full source rows, seed, initialization, masks outside trusted added negatives, coefficient normalization and class/head scope; only trusted Chair-negative mask differs",
+  "exclude": "All56 reviewed predictions are internal validation and never train; no new images/labels in primary A/B",
+  "expected_updates_per_arm": 75,
+  "independent_80precision_90recall_claim_allowed": false,
+  "max_updates_total": 150,
+  "metrics": [
+    "P/R@.15",
+    "precision@matched reference recall",
+    "AP50",
+    "AP75",
+    "ChairFP/FN",
+    "Sofa/BedTP/AP75",
+    "per-image predictions",
+    "score distributions",
+    "runtime/VRAM"
+  ],
+  "no_frozen_scoring": true,
+  "no_tuning_on_exposed_19": true,
+  "reject": "No measurable added trusted-negative terms, uncertain evidence, leakage, changing inputs between arms, nonfinite values, resource limits or failed gates; do not expand budget",
+  "status": "BLOCKED_PENDING_EVIDENCE_AND_VALID_EVALUATION",
+  "success": "Primary: >=30% fewer Chair FP at0.15 with Chair FN not greater than original, precision>=original+3pp at original recall, no Sofa/BedTP loss and no per-category AP75 drop>2pp. B must improve over A as well. Exploratory internal evidence only.",
+  "unresolved": "Need trusted scope reviews on existing optimization images and a genuinely unexposed evaluation protocol; no current evidence supports a valid independent accuracy comparison"
+}

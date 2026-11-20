@@ -1,0 +1,54 @@
+{
+  "CPU_only": true,
+  "GPU_forwards": 0,
+  "model_optimizer_updates": 0,
+  "passed": 190,
+  "status": "PASS",
+  "suites": [
+    {
+      "log_sha256": "d13b6bc79daf1098f35164030bc8ce0819d0c9a77dc631a46845f246f29415e0",
+      "passed": 22,
+      "suite": "phase10c2-v1"
+    },
+    {
+      "log_sha256": "69d5469c988b981fd860a89143ae3210c37216207a2f2630b4b70f4a1adf608c",
+      "passed": 9,
+      "suite": "chair-fp-audit-v1"
+    },
+    {
+      "log_sha256": "0fb023f8bb4c871cb116dffa300e006c5a3a410bcbfecbb8524095a13ad7bf37",
+      "passed": 16,
+      "suite": "phase10c-v1"
+    },
+    {
+      "log_sha256": "7ce4be609bcbc231a4b096b1ae0c6a988a0c2e5313cea0616ca2afeea920f834",
+      "passed": 22,
+      "suite": "phase10b-v1"
+    },
+    {
+      "log_sha256": "0ff7623c849119ad339dfabc9b9499dd2d2fdd07b6a626f2526ac919fb3dcfde",
+      "passed": 32,
+      "suite": "phase10a-v1"
+    },
+    {
+      "log_sha256": "fa1adc72b3911a32bc316ef38388bb2e6dfccc1f0e43f581912b8f99021122fe",
+      "passed": 18,
+      "suite": "phase5b-v1"
+    },
+    {
+      "log_sha256": "9c5228c8638b3e9696e75b10fef463049c008c6eb234abad60f0cd1ae8234f6c",
+      "passed": 12,
+      "suite": "phase5c-v1"
+    },
+    {
+      "log_sha256": "b4c59748f29f8bba7a08ed1dae7dd48568769b09fa87072015f770748d19e973",
+      "passed": 25,
+      "suite": "phase8a-v1"
+    },
+    {
+      "log_sha256": "b90d956301352f4be805484637f9878fa1d99fd0fff71ecae7b2346f039b36fb",
+      "passed": 34,
+      "suite": "phase9-v1"
+    }
+  ]
+}
