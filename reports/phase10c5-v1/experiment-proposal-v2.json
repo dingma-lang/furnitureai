@@ -1,0 +1,120 @@
+{
+  "data": {
+    "auxiliary_annotations_not_activated": true,
+    "current_human_confirmed_Chair_negative_regions": 0,
+    "inactive_expansion_pool": 42,
+    "internal_validation_photos": 19,
+    "minimum_regions": 6,
+    "minimum_training_groups": 3,
+    "optimization_photos": 59,
+    "positive_boxes": 182,
+    "source_groups": 56,
+    "unknowns_ignored": true
+  },
+  "enabled": false,
+  "evaluation": {
+    "IoU": [
+      0.5,
+      0.75
+    ],
+    "exposed_panels": "19 internal, 18 historical, 36 fresh: never independent success proof; no reserved/frozen scoring",
+    "freeze_before": "photo IDs, source groups, annotation guide, primary threshold and selected checkpoint",
+    "independent_metrics": "one controlled comparison on eligible identical examples; paired creator-group bootstrap; no threshold tuning or retraining after inspection",
+    "independent_proposal": "120 previously unexposed, rights-verified real rooms, target120 source/creator groups; indoor clutter and seating/plant/person distractors; seven-class exhaustive box review with stools taxonomy; incomplete categories ignored",
+    "metrics": [
+      "AP50",
+      "AP75",
+      "fixed-threshold P/R/TP/FP/FN",
+      "precision at matched recall",
+      "full PR curves",
+      "per-photo/class unmatched predictions with completeness caveat",
+      "localization IoU",
+      "duplicates/fragmentation",
+      "score distributions/calibration where labels complete",
+      "latency",
+      "peak VRAM"
+    ],
+    "synthetic_or_catalogue": "separate sources, never substitutes for independent real-room evaluation",
+    "threshold": 0.15
+  },
+  "future_GPU_approval_requires": [
+    "versioned human export and CPU validation",
+    "at least six Chair-free regions in three optimization groups",
+    "unchanged source/checkpoint hashes",
+    "exact configuration and data overlay hashes",
+    "separate explicit training authorization"
+  ],
+  "initialization": "original immutable OWLv2",
+  "later_separate_ablations": [
+    {
+      "hypothesis": "Explicit Person/Plant etc positives and only verified class-specific negatives; no generic Other output",
+      "id": "D-named-aux",
+      "prerequisites": "Separate authorization of exact native labels, dedup, rights and masks; freeze data/loss first; then isolate auxiliary weight/sampling",
+      "status": "not scheduled"
+    },
+    {
+      "freeze": "all original parameters and logits",
+      "hypothesis": "Only seven prompt slots adapted; named non-furniture output invariant by construction",
+      "id": "D-residual",
+      "limitations": "Does not teach new general categories; no performance claim; prompt mapping and full pipeline still need authorized GPU verification",
+      "module": "g5_objective.FurnitureResidual",
+      "status": "CPU component only; not connected to runner"
+    },
+    {
+      "hypothesis": "Freeze or regularize class logit shift/scale, or teacher distillation on named general-object prompts",
+      "id": "D-anchor",
+      "prerequisites": "Independent architecture/calibration ablation; teacher inference needs separate approval; no existing general-object prediction cache",
+      "status": "design only"
+    }
+  ],
+  "primary_ablation": {
+    "allocated_VRAM_stop_GiB": 6.5,
+    "arms": [
+      {
+        "id": "A",
+        "negative_objective": "legacy Phase10B"
+      },
+      {
+        "id": "C",
+        "negative_objective": "Phase10C.2 trusted regions; disabled unless reviewed"
+      }
+    ],
+    "baseline_context": [
+      "immutable original",
+      "historical Phase10B saved predictions"
+    ],
+    "batch_size": 1,
+    "candidate_selection": "training-only source-grouped internal development; 19 exposed photos diagnostic, not independent evidence",
+    "failure": "No meaningful mask difference, Chair score inflation/recall collapse, or material per-category/localization regression",
+    "frozen": "vision, text, objectness and all remaining parameters",
+    "gradient_accumulation": 4,
+    "learning_rate": 1e-05,
+    "loss": "legacy matcher/focal alpha0.25 gamma2; cls1 L1=5 GIoU2, same GT normalization; only trusted negative mask differs",
+    "max_epochs_per_arm": 5,
+    "max_total_updates": 150,
+    "max_updates_per_arm": 75,
+    "name": "identical model/data: legacy supervision versus additive trusted Chair-negative regions",
+    "queue_seconds": 3600,
+    "safety": [
+      "Zero-update CUDA/AMP/memory smoke first",
+      "Verify nonzero actual-query mask difference before training",
+      "Stop on nonfinite loss, frozen-parameter change, leakage or memory/runtime limit",
+      "Do not silently change negative coefficient or sampling to obtain improvement"
+    ],
+    "seed": 6105,
+    "success": "Higher precision at original matched recall; original recall within 2 percentage points; report bootstrap paired group interval and all per-category regressions",
+    "trainable": "same 12 class_head and box_head tensors; 1,579,526 parameters"
+  },
+  "schema": "phase10c5-inactive-experiment-proposal-v1",
+  "source_manifest_sha256": "ec55e01d968b584819c790de2c2a843bd87d9af960642601d65187807800b937",
+  "target_categories": [
+    "sofa",
+    "chair",
+    "table",
+    "bed",
+    "desk",
+    "cabinet",
+    "lamp"
+  ],
+  "training_authorized": false
+}

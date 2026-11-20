@@ -1,0 +1,8 @@
+{
+  "GPU_forwards": 0,
+  "actual_model_query_contrast_requires_future_authorized_smoke": true,
+  "changed_mask_terms": 0,
+  "meaningful_fixture_contrast": false,
+  "optimizer_updates": 0,
+  "scope": "CPU synthetic grid and internal coordinate probes only; not actual model predictions"
+}

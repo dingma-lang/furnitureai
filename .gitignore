@@ -68,6 +68,17 @@
 !/reports/phase10c4-v1/browser-tests*.json
 !/reports/phase10c4-v1/initial-mask-summary.json
 !/reports/phase10c4-v1/preservation-summary.json
+!/reports/phase10c5-v1/
+/reports/phase10c5-v1/*
+!/reports/phase10c5-v1/report.md
+!/reports/phase10c5-v1/inventory-summary.json
+!/reports/phase10c5-v1/review-summary.json
+!/reports/phase10c5-v1/model-audit-v2.json
+!/reports/phase10c5-v1/experiment-proposal-v2.json
+!/reports/phase10c5-v1/initial-mask-summary.json
+!/reports/phase10c5-v1/tests*.json
+!/reports/phase10c5-v1/browser-tests*.json
+!/reports/phase10c5-v1/preservation-summary.json
 
 # Private machine configuration and credentials.
 /.aws/

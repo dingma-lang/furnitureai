@@ -1,0 +1,25 @@
+{
+  "diagnostic_photos": 8,
+  "diagnostic_prediction_objects": 56,
+  "geometric_separation_is_not_Chair_absence_proof": true,
+  "human_approved_hard_negatives": 0,
+  "registry_sha256": "596fba2cb2fda3c40db131a280771869d79c9f39296079a166c0e4d5bd50416c",
+  "source_candidates_with_geometric_separation": 369,
+  "source_grounded_review_objects": 934,
+  "source_review_groups": {
+    "animals": 8,
+    "clothing_bags": 78,
+    "furniture_parts": 11,
+    "kitchen_appliances": 26,
+    "people": 77,
+    "people_parts": 11,
+    "plants_flowers": 35,
+    "protected_furniture": 309,
+    "screens": 54,
+    "tableware_small_objects": 283,
+    "wall_art": 12,
+    "windows_doors": 30
+  },
+  "training_enabled": false,
+  "training_photos": 59
+}
