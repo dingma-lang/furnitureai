@@ -1,0 +1,64 @@
+{
+  "CPU_tests": 224,
+  "GPU_forwards": 0,
+  "optimizer_updates": 0,
+  "real_human_regions_created": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "log_sha256": "fa576dc855bc06c1fc58ef30a40313ebf7413f5bfd11a3741262393d0287421e",
+      "passed": 26,
+      "suite": "phase10c4-v1"
+    },
+    {
+      "log_sha256": "4deb301c05281ee9f36443fa7fbe0f916172fc78cfeec50ca66440d566704c86",
+      "passed": 8,
+      "suite": "phase10c3-v1"
+    },
+    {
+      "log_sha256": "eee7a81f7073c9e2bb860b91c78cb885a1fbc8347ae164f46128193b612bb40a",
+      "passed": 22,
+      "suite": "phase10c2-v1"
+    },
+    {
+      "log_sha256": "0974597fc0ad90ac647607bc063428ede7093766d7200f4f35bac9cafb81158f",
+      "passed": 9,
+      "suite": "chair-fp-audit-v1"
+    },
+    {
+      "log_sha256": "2ae40aab64fd55f5c366be8bb928816b3088cb79cb5231e3407549dc27bd31a2",
+      "passed": 16,
+      "suite": "phase10c-v1"
+    },
+    {
+      "log_sha256": "944da525893114e108a5e060fb8fc5b2b50078d089bae6ba41ee6bad9be22cc8",
+      "passed": 22,
+      "suite": "phase10b-v1"
+    },
+    {
+      "log_sha256": "309a8fed594c33789ca6b48bc0247e036040219cba96bb0e75110b2afd48d13a",
+      "passed": 32,
+      "suite": "phase10a-v1"
+    },
+    {
+      "log_sha256": "3857367cbedc5eeb1c26edd1a455e8e36887da46c3aa2b58b139b4eef882f91a",
+      "passed": 18,
+      "suite": "phase5b-v1"
+    },
+    {
+      "log_sha256": "226172b0cd8ba74416aa7479d8f16ff83e5114e0315a67e2375082c83ed8276f",
+      "passed": 12,
+      "suite": "phase5c-v1"
+    },
+    {
+      "log_sha256": "0d3b1ed735708b33a9f6203442537775c7b95a58c105f967f19d2d698d005a97",
+      "passed": 25,
+      "suite": "phase8a-v1"
+    },
+    {
+      "log_sha256": "a7859df9e97905a1914b84d138223a968bb83e8843206c8e43493ef4d95d3cef",
+      "passed": 34,
+      "suite": "phase9-v1"
+    }
+  ]
+}

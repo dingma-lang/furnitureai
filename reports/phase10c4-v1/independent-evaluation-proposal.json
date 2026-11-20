@@ -1,0 +1,43 @@
+{
+  "acquisition": "Separate exact manifest approval and photo-specific commercially compatible rights/attribution checks before any download. No source or licensing assumed available now.",
+  "annotations": "Human-reviewed whole-object native boxes, visible/occluded/truncated flags, instance/group identity, per-category completeness and unresolved regions. Missing labels never become confirmed negatives.",
+  "category_coverage": "Seek at least15 photos and50 confirmed boxes per category with overlapping categories allowed; report actual support, not promised counts;120photos may be insufficient for sparse categories.",
+  "comparison": "Freeze original baseline, A, B checkpoints and preprocessing before one approved evaluation. Identical prompts, confidence0.15, NMS0.5/cap300, score floor0.001, source-native matching IoU0.5/0.75; category mapping pinned before scoring.",
+  "completeness": "Chair completeness explicitly includes seating/bar stools. Unresolved subtype/unit/occlusion regions excluded with coverage reported.",
+  "download_authorized": false,
+  "execution_authorized": false,
+  "goal": "80%precision AND90%recall simultaneously overall and per-category with uncertainty/support; distinguish target point estimates from supported confidence bounds",
+  "matched_recall": "PR-envelope comparison descriptive only; no thresholds selected or tuned on independent evaluation",
+  "metrics": [
+    "precision/recall@.15",
+    "AP50/AP75",
+    "per-categoryTPFPFN",
+    "localizationIoU",
+    "duplicate/fragment counts",
+    "score distributions",
+    "runtime/peakVRAM",
+    "category/annotation coverage",
+    "95%source-group bootstrap intervals"
+  ],
+  "partitions": "New evaluation-only source groups, excluded from all optimization, negative-region annotation, threshold tuning and model/epoch selection",
+  "photo_ids_finalized": false,
+  "power_limit": "120photos/50boxes per class are a pilot, not a proof of high recall with tight uncertainty. Predefine an expansion/power plan before evaluating further checkpoints.",
+  "proposed_photos": 120,
+  "purpose": "Independent real-room detection evaluation across seven furniture categories under commercial-compatible photograph rights",
+  "required_exclusions": [
+    "all training image IDs/source URLs/hash/pixel duplicates",
+    "all known creator/source/family groups in training or development",
+    "all previously exposed Phase5/9/10 panels",
+    "official Phase2B holdout and existing reserved/frozen material unless separately authorized"
+  ],
+  "separate_from_training_annotations": true,
+  "source_group_target": 120,
+  "status": "PROPOSAL_ONLY_NO_IMAGES_SELECTED_OR_ACQUIRED",
+  "taxonomy": {
+    "Cabinet": "whole cabinet/storage unit; specify built-in run treatment",
+    "Chair": "ordinary chairs, seating stools and bar stools; footstools/ottomans/step stools separate",
+    "Desk/Table": "define ordinary whole-object units; no automatic cross-taxonomy substitution",
+    "Lamp": "define standalone lamps versus fixtures"
+  },
+  "training_mask_boundary": "Evaluation photographs and reviews can never be served by this negative-annotation tool or converted to training negatives"
+}

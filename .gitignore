@@ -58,6 +58,16 @@
 !/reports/phase10c3-v1/preflight-gates.json
 !/reports/phase10c3-v1/tests.json
 !/reports/phase10c3-v1/preservation-summary.json
+!/reports/phase10c4-v1/
+/reports/phase10c4-v1/*
+!/reports/phase10c4-v1/report.md
+!/reports/phase10c4-v1/summary.json
+!/reports/phase10c4-v1/training-preflight.json
+!/reports/phase10c4-v1/independent-evaluation-proposal.json
+!/reports/phase10c4-v1/tests.json
+!/reports/phase10c4-v1/browser-tests*.json
+!/reports/phase10c4-v1/initial-mask-summary.json
+!/reports/phase10c4-v1/preservation-summary.json
 
 # Private machine configuration and credentials.
 /.aws/

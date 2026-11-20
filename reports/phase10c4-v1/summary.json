@@ -1,0 +1,23 @@
+{
+  "clarification_items": 24,
+  "confirmed_negative_rectangles": 0,
+  "confirmed_source_groups": 0,
+  "diagnostic_only_clarifications": 21,
+  "eligible_training_photos": 59,
+  "human_rectangles_prefilled": false,
+  "known_training_groups": 56,
+  "orientation_counts": {
+    "1": 59,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0
+  },
+  "priority_photos": 9,
+  "registry_sha256": "1fbdd90df73ee5d9fce5cda065bd01bad780ff1b328be840cdf9c20339e30f08",
+  "training_enabled": false,
+  "training_scope_clarifications": 3
+}

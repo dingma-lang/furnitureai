@@ -1,0 +1,36 @@
+{
+  "Phase10D_started": false,
+  "conditional_AB": {
+    "accumulation": 4,
+    "allocated_VRAM_max_bytes": 6979321856,
+    "arms": 2,
+    "base": "original OWLv2",
+    "batch_size": 1,
+    "epochs_max_per_arm": 5,
+    "learning_rate": 1e-05,
+    "new_training_storage_max_bytes": 4294967296,
+    "precision": "FP32",
+    "queue_seconds": 3600,
+    "same_images_positives_head_scope_and_source_groups": true,
+    "seed": 20261118,
+    "updates_max_per_arm": 75,
+    "updates_max_total": 150
+  },
+  "confirmed_regions": 0,
+  "confirmed_source_groups": 0,
+  "current_mask_difference": 0,
+  "gates": [
+    ">=6confirmed nonoverlapping rectangles in>=3 source groups",
+    "taxonomy/identity/coordinate/overlap verification",
+    "nonzero safe CPU fixture mask difference",
+    "unchanged original positives and data partitions",
+    "separate evidence/experiment approval",
+    "future zero-update GPU smoke observes actual negative terms",
+    "independent evaluation protocol approved separately"
+  ],
+  "minimum_groups": 3,
+  "minimum_regions": 6,
+  "status": "ANNOTATION_PENDING_NOT_TRAINING_AUTHORIZED",
+  "training_enabled": false,
+  "updated_mask_manifest": "Generated separately per validated human export; no fabricated evidence"
+}
