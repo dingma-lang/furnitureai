@@ -23,6 +23,12 @@
 !/reports/phase10a-v1/input-contract.json
 !/reports/phase10a-v1/configs/
 !/reports/phase10a-v1/configs/*.json
+!/reports/phase10b-v1/
+/reports/phase10b-v1/*
+!/reports/phase10b-v1/report.md
+!/reports/phase10b-v1/history-summary.json
+!/reports/phase10b-v1/summary-final-v2.json
+!/reports/phase10b-v1/tests-final-v3.json
 
 # Private machine configuration and credentials.
 /.aws/

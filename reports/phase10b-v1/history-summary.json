@@ -1,0 +1,619 @@
+{
+  "all_experiment_metadata_records": 104,
+  "artifact_allocated_by_class": {
+    "essential": 4153974784,
+    "historical": 3246538752,
+    "reproducible_temporary": 29138944,
+    "unresolved": 3082596352
+  },
+  "conditional_recovery_upper_bound": 3275677696,
+  "dataset_cohorts": [
+    {
+      "allocated_bytes": 113111040,
+      "annotations": "Listings/image metadata, not detection boxes",
+      "dataset": "ABO Phase1 metadata",
+      "exclusions": "Accessories, category conflicts, shared identities screened",
+      "future_utility": "Metadata for classification/retrieval expansion; no room-detection negatives",
+      "images": 0,
+      "licence": "Preserved ABO CC BY4.0 documentation; source attribution retained",
+      "path": "data/abo/metadata/phase1-v1",
+      "source": "Official Amazon Berkeley Objects",
+      "trained_models": [],
+      "validation_evaluation_role": "Candidate selection only"
+    },
+    {
+      "allocated_bytes": 10649600,
+      "annotations": {
+        "diagnostic_only": 24,
+        "flagged": 74,
+        "provisional_candidate": 461,
+        "quarantined_product": 18,
+        "rejected_for_whole_object_learning": 47
+      },
+      "dataset": "ABO original image pilot",
+      "exclusions": {
+        "component": 1,
+        "detail": 32,
+        "diagram": 16,
+        "multipack": 1,
+        "packaging": 1,
+        "scope_mismatch": 1,
+        "swatch": 3,
+        "wrong_class": 4
+      },
+      "future_utility": "Frozen-feature catalogue classification/retrieval, not detector training",
+      "images": 624,
+      "licence": "ABO saved CC BY4.0 records",
+      "path": "data/abo/image-pilots/phase1b-v1",
+      "source": "Official ABO small image objects",
+      "trained_models": [
+        "Phase2A",
+        "auto-training-v1",
+        "weak-training-v1"
+      ],
+      "validation_evaluation_role": "402-feature cache:275 weak train,59 validation,68 test; weak training later288 views/130 products; official reviewed evaluator remains gated"
+    },
+    {
+      "allocated_bytes": 29507584,
+      "annotations": "Weak product categories; no scene boxes/masks",
+      "dataset": "ABO Phase3 expansion",
+      "exclusions": {
+        "provisionally_eligible": 350,
+        "quarantined": 304,
+        "rejected": 605,
+        "unresolved": 225
+      },
+      "future_utility": "Useful weak catalogue supervision, with identity/filtering bias limitations",
+      "images": 1484,
+      "licence": "ABO saved CC BY4.0 records",
+      "path": "data/abo/image-pilots/phase3-expansion-v1",
+      "source": "Official ABO small image objects",
+      "trained_models": [
+        "phase3-gpu-v1"
+      ],
+      "validation_evaluation_role": "350 newly eligible vectors combined with182 baseline training images;106-image45-product comparison panel excluded from updates"
+    },
+    {
+      "allocated_bytes": 63164416,
+      "annotations": "63eligible:27train/18dev/18reserved",
+      "dataset": "Open Images Phase5",
+      "exclusions": "32rights slots not acquired;50 unresolved and5scene quarantines",
+      "future_utility": "Real-room native positives; partial scope and unit policy required; no absent-label negatives",
+      "images": 118,
+      "licence": "Photograph-specific saved CC BY2.0 evidence; annotation CC BY4.0, retained separately",
+      "path": "data/open-images/image-pilots/phase5-v1",
+      "source": "Official Open Images / COCO source objects with native annotations",
+      "trained_models": [
+        "Phase5B original baseline; Phase5C two head fits"
+      ],
+      "validation_evaluation_role": "18development exposed;18reserved untouched"
+    },
+    {
+      "allocated_bytes": 18710528,
+      "annotations": "52eligible unmasked boxes",
+      "dataset": "Open Images Phase6A",
+      "exclusions": "27quarantined",
+      "future_utility": "Real-room native positives; partial scope and unit policy required; no absent-label negatives",
+      "images": 41,
+      "licence": "Photograph-specific saved CC BY2.0 evidence; annotation CC BY4.0, retained separately",
+      "path": "data/open-images/image-pilots/phase6a-v1",
+      "source": "Official Open Images / COCO source objects with native annotations",
+      "trained_models": [
+        "No new fitting; included in prospective expanded pool"
+      ],
+      "validation_evaluation_role": "9prospective train/5freshdev now exposed"
+    },
+    {
+      "allocated_bytes": 27435008,
+      "annotations": "362native boxes/masks;280eligible boxes/masks",
+      "dataset": "COCO Phase6D",
+      "exclusions": "16quarantined/1rejected",
+      "future_utility": "Real-room native positives; partial scope and unit policy required; no absent-label negatives",
+      "images": 72,
+      "licence": "Photograph-specific saved CC BY2.0 evidence; annotation CC BY4.0, retained separately",
+      "path": "data/coco/image-pilots/phase6d-v1",
+      "source": "Official Open Images / COCO source objects with native annotations",
+      "trained_models": [
+        "No detector fit yet"
+      ],
+      "validation_evaluation_role": "45prospective train/10freshdev now exposed"
+    },
+    {
+      "allocated_bytes": 16097280,
+      "annotations": "81eligible core boxes/masks:63train/18dev",
+      "dataset": "LVIS Phase7",
+      "exclusions": "18quarantined;33existing-photo overlays stay inactive",
+      "future_utility": "Real-room native positives; partial scope and unit policy required; no absent-label negatives",
+      "images": 66,
+      "licence": "Photograph-specific saved CC BY2.0 evidence; annotation CC BY4.0, retained separately",
+      "path": "data/lvis/image-pilots/phase7-v1",
+      "source": "Official Open Images / COCO source objects with native annotations",
+      "trained_models": [
+        "No detector fit yet"
+      ],
+      "validation_evaluation_role": "40prospective train/8freshdev now exposed"
+    },
+    {
+      "allocated_bytes": 17174528,
+      "annotations": "99native;39provisional and60inactive",
+      "dataset": "LVIS Phase8C",
+      "exclusions": "8quarantined; category/unit and visual-registration restrictions",
+      "future_utility": "Real-room native positives; partial scope and unit policy required; no absent-label negatives",
+      "images": 27,
+      "licence": "Photograph-specific saved CC BY2.0 evidence; annotation CC BY4.0, retained separately",
+      "path": "data/lvis/image-pilots/phase8b-v1",
+      "source": "Official Open Images / COCO source objects with native annotations",
+      "trained_models": [
+        "No detector fit yet"
+      ],
+      "validation_evaluation_role": "6prospective train/13freshdev now exposed"
+    },
+    {
+      "allocated_bytes": 215408640,
+      "annotations": "Native source categories/boxes/masks; exact class counts preserved in local audit reports",
+      "dataset": "Open Images metadata",
+      "exclusions": "Rights-unverified photos not eligible",
+      "future_utility": "Reusable native annotation inventory; no photograph downloads authorized",
+      "images": 0,
+      "licence": "Annotation CC BY4.0; does not grant photo rights",
+      "path": "data/open-images/metadata/phase5-v1",
+      "source": "Official preserved annotation archives/CSVs",
+      "trained_models": [],
+      "validation_evaluation_role": "Metadata and candidate auditing only"
+    },
+    {
+      "allocated_bytes": 786518016,
+      "annotations": "Native source categories/boxes/masks; exact class counts preserved in local audit reports",
+      "dataset": "COCO2017 metadata",
+      "exclusions": "Rights-unverified photos not eligible",
+      "future_utility": "Reusable native annotation inventory; no photograph downloads authorized",
+      "images": 0,
+      "licence": "Annotation CC BY4.0; does not grant photo rights",
+      "path": "data/coco/metadata/phase6b-v1",
+      "source": "Official preserved annotation archives/CSVs",
+      "trained_models": [],
+      "validation_evaluation_role": "Metadata and candidate auditing only"
+    },
+    {
+      "allocated_bytes": 458854400,
+      "annotations": "Native source categories/boxes/masks; exact class counts preserved in local audit reports",
+      "dataset": "LVIS metadata",
+      "exclusions": "Rights-unverified photos not eligible",
+      "future_utility": "Reusable native annotation inventory; no photograph downloads authorized",
+      "images": 0,
+      "licence": "Annotation CC BY4.0; does not grant photo rights",
+      "path": "data/lvis/metadata/phase7-v1",
+      "source": "Official preserved annotation archives/CSVs",
+      "trained_models": [],
+      "validation_evaluation_role": "Metadata and candidate auditing only"
+    },
+    {
+      "allocated_bytes": 0,
+      "annotations": "243boxes/187masks;130targets remain inactive",
+      "dataset": "Combined Phase10B eligibility",
+      "exclusions": "42photos without supported positives; four broad categories unsupported",
+      "future_utility": "Ready for bounded three-category diagnostics after separate GPU approval",
+      "images": 78,
+      "licence": "Saved rights and annotation provenance retained",
+      "path": "data/open-images/preparation/phase10b-v1",
+      "source": "Derived immutable Phase10A pool",
+      "trained_models": [],
+      "validation_evaluation_role": "59optimization/19training-derived inner validation; not trained"
+    }
+  ],
+  "extra_reports_unresolved": [
+    "reports/gpu-owlv2-rtx4070-test01",
+    "reports/photo-replacement-simulator-v1",
+    "reports/m6-consumer-developer-integration",
+    "reports/m5-viewpoint-matching",
+    "reports/photo-simulator-compositing-v2",
+    "reports/m4-visibility-aware",
+    "reports/m3-local-inpainting",
+    "reports/photo-simulator-geometry-v1",
+    "reports/gpu-filter-comparison01",
+    "reports/m5-automatic-furniture-representation"
+  ],
+  "models": [
+    {
+      "architecture": "google/owlv2-base-patch16-ensemble",
+      "base_checkpoint": {
+        "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+        "bytes": 619918824,
+        "independent_backup_verified": false,
+        "path": "models/owlv2-original-baseline-20261103/model.safetensors",
+        "sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+      },
+      "disposition": "essential immutable default",
+      "improvements": "Immutable production/reference detector",
+      "model": "Original OWLv2",
+      "regressions_or_limits": "Exposed18:P21.71 R68.29 AP50 72.16 AP75 51.91; partial native labels",
+      "settings": "Pinned original processor;960pixel baseline",
+      "source": "data/open-images/experiments/phase5b-v1/report.md",
+      "training_dataset": "No local detector updates",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    },
+    {
+      "architecture": "google/siglip2-base-patch16-224",
+      "base_checkpoint": {
+        "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+        "bytes": 1500800904,
+        "independent_backup_verified": false,
+        "path": "models/siglip2-base-patch16-224-phase2a-v1/model.safetensors",
+        "sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b"
+      },
+      "disposition": "essential pinned encoder",
+      "improvements": "Reusable catalogue/crop features",
+      "model": "SigLIP2 encoder",
+      "regressions_or_limits": "Not independently validated as a real-room verifier",
+      "settings": "224pixel preprocessing;768-dimensional normalized embeddings",
+      "source": "data/abo/experiments/phase2a-v1/experiment-lock.json",
+      "training_dataset": "Frozen in all local classifier experiments",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    },
+    {
+      "architecture": "Frozen SigLIP2 + linear head",
+      "base_checkpoint": {
+        "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+        "bytes": 1500800904,
+        "independent_backup_verified": false,
+        "path": "models/siglip2-base-patch16-224-phase2a-v1/model.safetensors",
+        "sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b"
+      },
+      "disposition": "historical comparator",
+      "improvements": "Completed50epochs; training agreement improved",
+      "model": "Phase2A classifier",
+      "regressions_or_limits": "97.82%image/99.23%product are weak training metrics, not verified accuracy",
+      "settings": {
+        "classes": [
+          "sofa",
+          "chair",
+          "table",
+          "bed",
+          "desk",
+          "cabinet",
+          "lamp"
+        ],
+        "feature_scope": 402,
+        "full_experiment_cpu_fallback": false,
+        "gpu_required": true,
+        "learning_rate": 0.001,
+        "main_epochs": 50,
+        "model_revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+        "model_weights_sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b",
+        "optimizer": "AdamW",
+        "proposal_not_finalized": true,
+        "seed": 20261103,
+        "smoke_epochs": 3,
+        "source_files": {
+          "data/abo/curation/phase1c-v1/inventory-v2/inventory.json": "e0a027ce58d69e6e8dff6c7e301b0ef89f6cc83d5ff00ebfd8cb9d9f1483ce68",
+          "data/abo/training-prep/phase1d-v1/proposal-v2/classification-weak-train.json": "5f75abc3ac31faf619cbf3b9c45d0c2b36e5670e6c613f3d5aadfa99648abe14",
+          "data/abo/training-prep/phase1d-v1/proposal-v2/eligibility-inventory.json": "d3c8478385a6d0e93a3beed37b82b8a637de2b6895a5efff55293fbf5287b166",
+          "data/abo/training-prep/phase1d-v1/proposal-v2/split-proposal.json": "c090eed097212f3e1bfd4f3999deda38a91269f09440d8c84b9b78a69610a3a4",
+          "data/abo/training-prep/phase1d-v1/proposal-v2/weak-classification-eligibility.json": "8cadeb5c5e307e792cacfb6adebb4149724d18692bb044af878dd08b35329bec"
+        },
+        "training_images": 275,
+        "training_products": 130,
+        "validation_checkpoint_selection": false,
+        "weight_decay": 0.0001
+      },
+      "source": "data/abo/experiments/phase2a-v1/report.md",
+      "training_dataset": "275images/130products",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    },
+    {
+      "architecture": "Frozen SigLIP2 + linear/MLP/cosine classifiers",
+      "base_checkpoint": {
+        "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+        "bytes": 1500800904,
+        "independent_backup_verified": false,
+        "path": "models/siglip2-base-patch16-224-phase2a-v1/model.safetensors",
+        "sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b"
+      },
+      "disposition": "historical comparator, superseded for selected catalogue head",
+      "improvements": "Best internal macroF1 about83.43%",
+      "model": "auto-training-v1",
+      "regressions_or_limits": "Adaptive training-derived weak-label selection; no official holdout accuracy",
+      "settings": {
+        "configs": [
+          {
+            "kind": "linear",
+            "lr": 0.001,
+            "name": "linear-lr1e3-wd1e4",
+            "wd": 0.0001
+          },
+          {
+            "kind": "linear",
+            "lr": 0.0003,
+            "name": "linear-lr3e4-wd1e4",
+            "wd": 0.0001
+          },
+          {
+            "kind": "linear",
+            "lr": 0.001,
+            "name": "linear-lr1e3-wd1e2",
+            "wd": 0.01
+          },
+          {
+            "kind": "linear",
+            "lr": 0.003,
+            "name": "linear-lr3e3-wd1e3",
+            "wd": 0.001
+          },
+          {
+            "dropout": 0.2,
+            "hidden": 64,
+            "kind": "mlp",
+            "lr": 0.001,
+            "name": "mlp64-d20-lr1e3",
+            "wd": 0.0001
+          },
+          {
+            "dropout": 0.3,
+            "hidden": 128,
+            "kind": "mlp",
+            "lr": 0.0005,
+            "name": "mlp128-d30-lr5e4",
+            "wd": 0.001
+          },
+          {
+            "dropout": 0.4,
+            "hidden": 128,
+            "kind": "mlp",
+            "lr": 0.001,
+            "name": "mlp128-d40-lr1e3",
+            "wd": 0.01
+          },
+          {
+            "dropout": 0.4,
+            "hidden": 64,
+            "kind": "mlp",
+            "lr": 0.0003,
+            "name": "mlp64-d40-lr3e4",
+            "wd": 0.001
+          }
+        ],
+        "fold_count": 3,
+        "max_epochs": 65,
+        "patience": 12,
+        "scope": "TRAIN partition only; locked holdout not used",
+        "signature": {
+          "code_sha256": "d551d3e3cc63e568f173294cc1706047d9b91499682a29311f44932bcef10539",
+          "feature_sha256": "b8dedef6c7d6fbd8e69949eee0821f45941a6ca0219917e57bd1c1b67a828c5b",
+          "model_processor_fingerprint": "b5d0736ddf111580ada6d0bd9d207c423a2324d250962ddbbb6d7095229dee91"
+        },
+        "timestamp_utc": "2026-11-04T20:28:55.515390+00:00"
+      },
+      "source": "data/abo/experiments/auto-training-v1",
+      "training_dataset": "275train views",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    },
+    {
+      "architecture": "Frozen SigLIP2 + linear/MLP/cosine classifiers",
+      "base_checkpoint": {
+        "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+        "bytes": 1500800904,
+        "independent_backup_verified": false,
+        "path": "models/siglip2-base-patch16-224-phase2a-v1/model.safetensors",
+        "sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b"
+      },
+      "disposition": "historical comparator, superseded for selected catalogue head",
+      "improvements": "Cosine mean product macroF1 91.44%,foldSD12.49pp",
+      "model": "weak-training-v1",
+      "regressions_or_limits": "Adaptive training-derived weak-label selection; no official holdout accuracy",
+      "settings": {
+        "configs": [
+          {
+            "kind": "linear",
+            "lr": 0.003,
+            "name": "linear-reference",
+            "wd": 0.001
+          },
+          {
+            "kind": "linear",
+            "lr": 0.01,
+            "name": "linear-lr1e2",
+            "wd": 0.001
+          },
+          {
+            "kind": "linear",
+            "lr": 0.003,
+            "name": "linear-smooth05",
+            "smoothing": 0.05,
+            "wd": 0.01
+          },
+          {
+            "dropout": 0.2,
+            "hidden": 64,
+            "kind": "mlp",
+            "lr": 0.001,
+            "name": "mlp64-d20",
+            "wd": 0.001
+          },
+          {
+            "dropout": 0.4,
+            "hidden": 64,
+            "kind": "mlp",
+            "lr": 0.003,
+            "name": "mlp64-d40",
+            "wd": 0.01
+          },
+          {
+            "dropout": 0.3,
+            "hidden": 128,
+            "kind": "mlp",
+            "lr": 0.001,
+            "name": "mlp128-d30",
+            "wd": 0.01
+          },
+          {
+            "kind": "cosine",
+            "lr": 0.003,
+            "name": "cosine-head",
+            "wd": 0.001
+          },
+          {
+            "kind": "centroid",
+            "name": "nearest-centroid"
+          }
+        ],
+        "policy": {
+          "batch_size": 4,
+          "class_prompts": [
+            "a photograph of a complete sofa",
+            "a photograph of a complete chair",
+            "a photograph of a complete table",
+            "a photograph of a complete bed",
+            "a photograph of a complete desk",
+            "a photograph of a complete cabinet",
+            "a photograph of a complete lamp",
+            "a close-up photograph of fabric or wood texture",
+            "a furniture dimension drawing or diagram",
+            "a photograph of a furniture part or accessory",
+            "a collage of multiple furniture products",
+            "a photograph of packaging",
+            "a blank image"
+          ],
+          "encoder_adaptation": false,
+          "extra_view_margin": 0.01,
+          "folds": 3,
+          "human_review_required": false,
+          "max_epochs": 80,
+          "max_local_images": 5000,
+          "max_new_image_features": 256,
+          "max_new_storage_bytes": 1073741824,
+          "max_queue_seconds": 1800,
+          "max_white_fraction": 0.99,
+          "min_gray_std": 8,
+          "min_laplacian_variance": 8,
+          "min_side": 96,
+          "patience": 12,
+          "seed": 20261104,
+          "strong_contradiction_margin": 0.06
+        },
+        "runtime_budget_is_per_invocation": true,
+        "scope": "PROVISIONAL WEAK-LABEL DEVELOPMENT; not human-verified accuracy; adaptive internal model selection"
+      },
+      "source": "data/abo/experiments/weak-training-v1",
+      "training_dataset": "288images/130products",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    },
+    {
+      "architecture": "Frozen SigLIP2 + cosine head",
+      "base_checkpoint": {
+        "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+        "bytes": 28649,
+        "independent_backup_verified": false,
+        "path": "data/abo/experiments/phase3-gpu-v1/final-selected/best.pt",
+        "sha256": "51097ebf696a7765d023c8c02a9e4ea14965e0da04877cdd65be4416b9c13f0d"
+      },
+      "disposition": "selected catalogue classifier, retain baseline and final head",
+      "improvements": "Matched106-image45-product panel macroF1 79.13%\u219288.96%",
+      "model": "Phase3 expanded classifier",
+      "regressions_or_limits": "Both models correctly classify 41/45 products; expansion gains both bed examples and one cabinet, loses two tables and one sofa. Macro-F1 improvement reflects class balance, not more total correct products. Single frozen-panel comparison after training-only selection; provisional weak-label agreement, not verified accuracy",
+      "settings": {
+        "config": {
+          "balance": "sqrt",
+          "kind": "cosine",
+          "lr": 0.003,
+          "name": "cosine-reference",
+          "wd": 0.001
+        },
+        "fold_balanced_accuracy": [
+          1.0,
+          1.0,
+          0.9698412698412698
+        ],
+        "fold_epochs": [
+          12,
+          6,
+          5
+        ],
+        "fold_macro_f1": [
+          1.0,
+          1.0,
+          0.9722791828054986
+        ],
+        "mean_balanced_accuracy": 0.9899470899470899,
+        "mean_macro_f1": 0.9907597276018328,
+        "name": "cosine-reference",
+        "sd_macro_f1": 0.016004621269401772
+      },
+      "source": "data/abo/experiments/phase3-gpu-v1/results-report.json",
+      "training_dataset": "532images/281listing IDs/280known groups",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    },
+    {
+      "architecture": "OWLv212-tensor class/box head delta",
+      "base_checkpoint": {
+        "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+        "bytes": 619918824,
+        "independent_backup_verified": false,
+        "path": "models/owlv2-original-baseline-20261103/model.safetensors",
+        "sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+      },
+      "disposition": "historical adaptation comparator",
+      "improvements": "See native18-photo per-category comparison; selected3e-5 AP50 79.56 P30.21 R70.73 AP75 53.60",
+      "model": "Phase5C heads-lr1e-5",
+      "regressions_or_limits": "Table FP increase; Bed/Table localization regressions; Cabinetry annotation influence",
+      "settings": {
+        "accumulation": 4,
+        "batch": 1,
+        "epochs": 10,
+        "learning_rate": 1e-05,
+        "updates": 70
+      },
+      "source": "data/open-images/experiments/phase5c-v1/heads-lr1e-5",
+      "training_dataset": "27OpenImages train photographs",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    },
+    {
+      "architecture": "OWLv212-tensor class/box head delta",
+      "base_checkpoint": {
+        "backup_status": "Not in Git; no independent off-workstation backup was verified. No large copies made.",
+        "bytes": 619918824,
+        "independent_backup_verified": false,
+        "path": "models/owlv2-original-baseline-20261103/model.safetensors",
+        "sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+      },
+      "disposition": "essential adapted comparator",
+      "improvements": "See native18-photo per-category comparison; selected3e-5 AP50 79.56 P30.21 R70.73 AP75 53.60",
+      "model": "Phase5C heads-lr3e-5",
+      "regressions_or_limits": "Table FP increase; Bed/Table localization regressions; Cabinetry annotation influence",
+      "settings": {
+        "accumulation": 4,
+        "batch": 1,
+        "epochs": 10,
+        "learning_rate": 3e-05,
+        "updates": 70
+      },
+      "source": "data/open-images/experiments/phase5c-v1/heads-lr3e-5",
+      "training_dataset": "27OpenImages train photographs",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    },
+    {
+      "architecture": "Original/adapted OWLv2 plus crops, fusion and optional SigLIP",
+      "base_checkpoint": "Immutable references",
+      "disposition": "historical inference reports, no new weights",
+      "improvements": "Some source-relative FP reduction",
+      "model": "Phase4/5/9 inference methods",
+      "regressions_or_limits": "No reliable precision gain at comparable recall;36-photo comparison now exposed",
+      "settings": "Phase4 roomcomparison; Phase5cropgate; Phase9fixed15arms8views/model/photo",
+      "source": "reports/phase9-multiview-v1/report.md",
+      "training_dataset": "No model updates",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    },
+    {
+      "architecture": "OWLv2 head-only",
+      "base_checkpoint": "Original OWLv2",
+      "disposition": "pending separate authorization",
+      "improvements": "No results: not trained",
+      "model": "Phase10A/10B prepared heads",
+      "regressions_or_limits": "Four categories inactive; very limited FP-observable validation",
+      "settings": "LR1e-5/3e-5,batch1,acc4,\u22645epochs,\u2264150updates/fit,\u2264300total,\u22641hour,6.5GiB",
+      "source": "reports/phase10a-v1/report.md",
+      "training_dataset": "Prepared59optimization/19innerdev",
+      "weights_needed": "Retain selected/final baseline and last committed recovery state; no cleanup without backup/approval"
+    }
+  ],
+  "nothing_deleted_or_moved": true
+}

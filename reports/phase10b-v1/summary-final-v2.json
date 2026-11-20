@@ -1,0 +1,210 @@
+{
+  "GPU_smoke_executed": false,
+  "GPU_smoke_gate_implemented": true,
+  "eligible_boxes": 243,
+  "eligible_groups": 75,
+  "eligible_images": 78,
+  "environment": {
+    "Windows": "Windows11 build26200",
+    "branch": "experiment/phase10b-recovery-training-prep",
+    "client_date": "2026-11-19",
+    "cuda": "13.2",
+    "cuda_available": true,
+    "disks": {
+      "/home/tristary/furniture-ai-ml": {
+        "free_bytes": 992707866624
+      },
+      "/mnt/c": {
+        "free_bytes": 552832544768
+      }
+    },
+    "driver": "595.79",
+    "gpu": "RTX4070 Laptop GPU",
+    "model_inference": 0,
+    "model_parameter_updates": 0,
+    "packages_installed": 0,
+    "python": "/home/tristary/furniture-ai-ml/.venv/bin/python",
+    "python_version": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "source_branch": "experiment/phase10a-expanded-preflight",
+    "source_commit": "e12cb3ceef02d7a8b63d9e9744876ea73b5835c7",
+    "timezone": "America/Los_Angeles",
+    "torch": "2.14.1+cu132",
+    "vram_mib": 8188
+  },
+  "historical_dataset_cohorts": 12,
+  "historical_model_families": 10,
+  "internal_partitions": {
+    "inner_development": {
+      "boxes": 61,
+      "groups": 19,
+      "images": 19,
+      "per_category": {
+        "bed": {
+          "boxes": 9,
+          "groups": 6,
+          "images": 6,
+          "masks": 4
+        },
+        "cabinet": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "chair": {
+          "boxes": 39,
+          "groups": 11,
+          "images": 11,
+          "masks": 29
+        },
+        "desk": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "sofa": {
+          "boxes": 13,
+          "groups": 9,
+          "images": 9,
+          "masks": 13
+        },
+        "table": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        }
+      }
+    },
+    "optimization": {
+      "boxes": 182,
+      "groups": 56,
+      "images": 59,
+      "per_category": {
+        "bed": {
+          "boxes": 28,
+          "groups": 22,
+          "images": 25,
+          "masks": 15
+        },
+        "cabinet": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "chair": {
+          "boxes": 114,
+          "groups": 40,
+          "images": 42,
+          "masks": 88
+        },
+        "desk": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        },
+        "sofa": {
+          "boxes": 40,
+          "groups": 32,
+          "images": 34,
+          "masks": 38
+        },
+        "table": {
+          "boxes": 0,
+          "groups": 0,
+          "images": 0,
+          "masks": 0
+        }
+      }
+    }
+  },
+  "no_independent_accuracy_established": true,
+  "per_category": {
+    "bed": {
+      "boxes": 37,
+      "groups": 28,
+      "images": 31,
+      "masks": 19
+    },
+    "cabinet": {
+      "boxes": 0,
+      "groups": 0,
+      "images": 0,
+      "masks": 0
+    },
+    "chair": {
+      "boxes": 153,
+      "groups": 51,
+      "images": 53,
+      "masks": 117
+    },
+    "desk": {
+      "boxes": 0,
+      "groups": 0,
+      "images": 0,
+      "masks": 0
+    },
+    "lamp": {
+      "boxes": 0,
+      "groups": 0,
+      "images": 0,
+      "masks": 0
+    },
+    "sofa": {
+      "boxes": 53,
+      "groups": 41,
+      "images": 43,
+      "masks": 51
+    },
+    "table": {
+      "boxes": 0,
+      "groups": 0,
+      "images": 0,
+      "masks": 0
+    }
+  },
+  "prospective_boxes": 373,
+  "prospective_images": 120,
+  "raw_dataset_history": "data/open-images/preparation/phase10b-v1/dataset-history.json",
+  "recovery": {
+    "apparent_candidate_photographs": 14,
+    "apparent_candidates_by_category": {
+      "desk": 3,
+      "lamp": 9,
+      "table": 5
+    },
+    "cabinet_whole_object_recovery": "No complete whole-cabinet target verified; prioritize filing-unit110/111, retain four individual kitchen fronts and clipped radio cabinet inactive",
+    "classifications": {
+      "multi_object_or_unit_ambiguous": 3,
+      "partial_or_fragmented": 71,
+      "taxonomy_conflict": 18,
+      "valid_complete_candidate": 17,
+      "visually_ambiguous": 21
+    },
+    "contact_pages": 11,
+    "human_approvals": 0,
+    "newly_eligible_targets": 0,
+    "previous33_overlays_inactive": true,
+    "targets_inspected": 130
+  },
+  "recovery_conditional_upper_bound_bytes": 3275677696,
+  "status": "COMPLETE_PREPARATION_ONLY",
+  "tests_passed": 143,
+  "training_authorized": false,
+  "training_worker_GPU_smoke_not_run": true
+}
