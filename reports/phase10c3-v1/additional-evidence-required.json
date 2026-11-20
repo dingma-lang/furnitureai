@@ -1,0 +1,32 @@
+{
+  "acceptable_alternative": "Verified Chair+seating-stool completeness with corrected separately versioned annotations; not inferred from current missing/ambiguous decisions",
+  "additional_protocol_gate": "An approved independent evaluation plan is missing. No tuning on exposed or reserved material. Primary historic-native metrics cannot be called broad Chair+stool accuracy.",
+  "altered_positive_box_or_new_photo_requires_separate_data_change_experiment": true,
+  "first_future_GPU_gate": "Separately approved zero-update smoke must observe nonzero trusted Chair-negative terms and equal positive/matching/data contracts before either arm may train",
+  "frozen_source_rows_required": true,
+  "minimum_is_engineering_pilot_not_power_calculation": true,
+  "minimum_proposed_readiness_gate": {
+    "independent_known_groups": 3,
+    "negative_regions_per_photo": 2,
+    "optimization_photos": 3,
+    "total_regions_at_least": 6
+  },
+  "primary_AB_positives_images_and_scope_must_match": true,
+  "requested_GPU_training_approval_now": false,
+  "required_region_fields": [
+    "original image ID",
+    "photo SHA256",
+    "optimization partition and source group",
+    "normalized XYXY coordinates",
+    "native annotation digest",
+    "taxonomy SHA256",
+    "explicit Chair/seating-stool/partial-object absence confirmation",
+    "potential-positive/uncertain regions to protect",
+    "reviewer",
+    "date",
+    "specific evidence",
+    "explicit human confirmation"
+  ],
+  "status": "BLOCKED",
+  "validation_diagnostics_must_not_supply_training_negatives": true
+}

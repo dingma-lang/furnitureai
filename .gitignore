@@ -47,6 +47,17 @@
 !/reports/phase10c2-v1/experiment-protocol.json
 !/reports/phase10c2-v1/tests.json
 !/reports/phase10c2-v1/preservation-summary.json
+!/reports/phase10c3-v1/
+/reports/phase10c3-v1/*
+!/reports/phase10c3-v1/report.md
+!/reports/phase10c3-v1/summary.json
+!/reports/phase10c3-v1/mask-difference-summary.json
+!/reports/phase10c3-v1/conditional-arm-A.json
+!/reports/phase10c3-v1/conditional-arm-B.json
+!/reports/phase10c3-v1/additional-evidence-required.json
+!/reports/phase10c3-v1/preflight-gates.json
+!/reports/phase10c3-v1/tests.json
+!/reports/phase10c3-v1/preservation-summary.json
 
 # Private machine configuration and credentials.
 /.aws/

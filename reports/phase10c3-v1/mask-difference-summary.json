@@ -1,0 +1,16 @@
+{
+  "CUDA_initialized": false,
+  "algebra": "With evidence=[] the permitted-region mask is identicallyFalse for any query boxes; added mask isFalse, hence both targets/masks are unchanged for every possible input, not only this fixture",
+  "all_target_and_mask_tensors_bitwise_equal": true,
+  "corrected_added_chair_negative_terms": 0,
+  "execution_gate": "No trusted Chair evidence: A/B would be an identity comparison",
+  "legacy_chair_negative_terms": 0,
+  "matched_native_positives": 182,
+  "meaningful_AB_difference": false,
+  "model_forwards": 0,
+  "optimization_photos": 59,
+  "optimizer_updates": 0,
+  "scope": "CPU synthetic60x60 query boxes with native-positive boxes injected; not model inference or actual future optimizer-batch counts",
+  "torch_version": "2.14.1+cu132",
+  "total_fixture_queries": 212400
+}

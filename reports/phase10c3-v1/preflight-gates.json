@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "accepted_Chair_negative_regions": "FAIL0",
+    "exact_source_photo_identity": "PASS17",
+    "fair_base_data_positive_labels_updates": "PASS conditional configs lock identical contracts",
+    "fresh_independent_evaluation": "BLOCKED",
+    "human_export_schema_and_confirmations": "PASS65",
+    "new_mask_terms": "FAIL0; all masks identical",
+    "project_taxonomy": "PASS user includes seating/bar stools; native labels preserved",
+    "same_evaluation_protocol": "Conditional native protocol matches; independent evaluated membership missing",
+    "saved_prediction_box_identity": "PASS56",
+    "semantic_review_quality": "24 clarification flags; not silently corrected",
+    "training_authorization": "NOT_GRANTED",
+    "training_partition_isolation": "PASS59 optimization rows only"
+  },
+  "conditional_budget": {
+    "accumulation": 4,
+    "allocated_VRAM_bytes": 6979321856,
+    "arms": 2,
+    "batch_size": 1,
+    "epochs_each": 5,
+    "learning_rate": 1e-05,
+    "new_storage_bytes": 4294967296,
+    "precision": "FP32",
+    "queue_seconds": 3600,
+    "seed": 20261118,
+    "updates_each": 75,
+    "updates_total": 150,
+    "weight_decay": 0.01
+  },
+  "recommendations": "Do not run the identity A/B. Review trusted negative regions on existing optimization photos under confirmed taxonomy; rerun CPU preflight; then seek bounded experiment authorization.",
+  "reject": "No trusted mask contrast, contaminated membership, altered positives/data between arms, recall-only threshold tradeoff, no matched-recall precision improvement, nonfinite gradients or resource violations; no automatic expanded queue",
+  "status": "NOT_READY_FOR_GPU_APPROVAL",
+  "support": "B must reduce ChairFP>=30% against original and beat A without increased ChairFN; gain>=3pp precision at matched recall, preserve Sofa/BedTP and avoid>2pp category AP75 loss. Freeze acceptable evaluation membership and original reference before execution; exposed-panel changes remain descriptive."
+}

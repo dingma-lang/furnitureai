@@ -1,0 +1,23 @@
+{
+  "GPU_forwards": 0,
+  "accepted_training_negative_images": 0,
+  "accepted_training_negative_regions": 0,
+  "all_new_chair_negative_masks_unknown": true,
+  "meaningful_AB_contrast": false,
+  "optimizer_updates": 0,
+  "policy_sha256": "cf6def5362a3bf2a1365243d7a5360daf7109696e320c994824e8242ea0393d9",
+  "prediction_boxes_verified": 56,
+  "project_Chair_includes_stools_user_confirmed": true,
+  "semantic_clarification_items": 24,
+  "source_photos_byte_verified": 17,
+  "status": "BLOCKED_NO_TRUSTED_NEGATIVE_REGIONS",
+  "structural_pass": 65,
+  "submitted": 65,
+  "supervision_manifest_path": "data/open-images/preparation/phase10c3-v1/supervision-manifest-v1.json",
+  "supervision_manifest_sha256": "501fb86de6235b2d008a6a62c840fa6f2f3123f0e99d136ad45ae1017bb4ca6c",
+  "training_enabled": false,
+  "training_groups_preserved": 56,
+  "training_rows_preserved": 59,
+  "unreviewed_optimization_images": 50,
+  "whole_scope_declined": 9
+}
