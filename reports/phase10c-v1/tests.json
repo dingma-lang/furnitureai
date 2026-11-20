@@ -1,0 +1,57 @@
+{
+  "passed": 159,
+  "preservation": {
+    "GPU_model_forwards": 0,
+    "Mac_project_modified": false,
+    "annotation_overlays_activated": 0,
+    "datasets_or_models_downloaded": 0,
+    "eligible_image_hashes": 78,
+    "historical_data_model_files": 9973,
+    "historical_data_modified": false,
+    "historical_implementation_files": 27,
+    "phase10b_report_artifacts": 24,
+    "phase10b_snapshots": 160,
+    "reserved_or_frozen_images_decoded": 0,
+    "source_group_isolation": true,
+    "status": "PASS",
+    "training_updates": 0
+  },
+  "status": "PASS",
+  "suites": [
+    {
+      "log_sha256": "5279643a142e3d376b04e0fa1c4ae736be26a7415475bb259a4b578203e89939",
+      "passed": 16,
+      "suite": "phase10c-v1"
+    },
+    {
+      "log_sha256": "e62fb38d1dc2a7197b33dd533947d98ca10796db928640e54edd2b4a96818e65",
+      "passed": 22,
+      "suite": "phase10b-v1"
+    },
+    {
+      "log_sha256": "037acf7a97034e8ec18ea7e7302181008311c5d7c6e99ae64f0d5e294f4e07ed",
+      "passed": 32,
+      "suite": "phase10a-v1"
+    },
+    {
+      "log_sha256": "e1b57d029730f8768e030d67360165cc469f1e8ec78542184a3c35105c2a3f98",
+      "passed": 18,
+      "suite": "phase5b-v1"
+    },
+    {
+      "log_sha256": "0814462cd2b0c23a08a76a9cb3627ace039134652f35841b1c20a3d774586abd",
+      "passed": 12,
+      "suite": "phase5c-v1"
+    },
+    {
+      "log_sha256": "228b37bdf66507f417fac31a9141b71bf5bf68d7a3589dd4578d2230349da4c6",
+      "passed": 25,
+      "suite": "phase8a-v1"
+    },
+    {
+      "log_sha256": "d096e0eb564bbdce8f8048da8f55d50a30477508523224fe407855fc7b6c0e53",
+      "passed": 34,
+      "suite": "phase9-v1"
+    }
+  ]
+}

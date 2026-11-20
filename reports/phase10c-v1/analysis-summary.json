@@ -1,0 +1,1938 @@
+{
+  "comparisons": {
+    "heads-original-lr1e-5": {
+      "best_precision_at_90_recall": {
+        "fp": 723,
+        "precision": 0.07069408740359898,
+        "recall": 0.9016393442622951,
+        "threshold": 0.15956248342990875,
+        "tp": 55
+      },
+      "best_recall_at_80_precision": {
+        "fp": 9,
+        "precision": 0.8085106382978723,
+        "recall": 0.6229508196721312,
+        "threshold": 0.8907974362373352,
+        "tp": 38
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.7964796479647963,
+          "ap75": 0.6689847556184189,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 88,
+          "mean_matched_iou": 0.8754546627518186,
+          "precision": 0.08333333333333333,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 71
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 294
+        },
+        "chair": {
+          "ap50": 0.6661874004774015,
+          "ap75": 0.44481667387103174,
+          "duplicate_fp": 3,
+          "fn": 2,
+          "fp": 641,
+          "mean_matched_iou": 0.7811993703985823,
+          "precision": 0.05457227138643068,
+          "recall": 0.9487179487179487,
+          "tp": 37,
+          "unknown_unmatched": 2930
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 327
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 477
+        },
+        "sofa": {
+          "ap50": 0.7623762376237624,
+          "ap75": 0.693069306930693,
+          "duplicate_fp": 0,
+          "fn": 3,
+          "fp": 21,
+          "mean_matched_iou": 0.8778712195677345,
+          "precision": 0.3225806451612903,
+          "recall": 0.7692307692307693,
+          "tp": 10,
+          "unknown_unmatched": 172
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 65
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 31,
+        "fragmentation_candidates": 46,
+        "mixed_object_candidates": 73
+      },
+      "duplicate_fp": 4,
+      "fixed": {
+        "ap50": 0.74168109535532,
+        "ap75": 0.6022902454733812,
+        "fn": 6,
+        "fp": 750,
+        "precision": 0.06832298136645963,
+        "recall": 0.9016393442622951,
+        "tp": 55
+      },
+      "matched_original_recall": {
+        "fp": 15,
+        "precision": 0.7368421052631579,
+        "recall": 0.6885245901639344,
+        "threshold": 0.87326580286026,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.040314264595508575,
+          "0.5": 0.1972603052854538,
+          "0.9": 0.6849773526191711
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1364
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr1e-5-epoch1": {
+      "best_precision_at_90_recall": null,
+      "best_recall_at_80_precision": {
+        "fp": 9,
+        "precision": 0.8085106382978723,
+        "recall": 0.6229508196721312,
+        "threshold": 0.5713304877281189,
+        "tp": 38
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.8071287128712872,
+          "ap75": 0.6783026874115982,
+          "duplicate_fp": 0,
+          "fn": 1,
+          "fp": 24,
+          "mean_matched_iou": 0.8824728630519671,
+          "precision": 0.25,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 73
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 607
+        },
+        "chair": {
+          "ap50": 0.5507948139870877,
+          "ap75": 0.36027623371013134,
+          "duplicate_fp": 1,
+          "fn": 12,
+          "fp": 128,
+          "mean_matched_iou": 0.8208107429550751,
+          "precision": 0.17419354838709677,
+          "recall": 0.6923076923076923,
+          "tp": 27,
+          "unknown_unmatched": 1516
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 757
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 1083
+        },
+        "sofa": {
+          "ap50": 0.8908949718501261,
+          "ap75": 0.693069306930693,
+          "duplicate_fp": 0,
+          "fn": 1,
+          "fp": 5,
+          "mean_matched_iou": 0.8357452605240123,
+          "precision": 0.7058823529411765,
+          "recall": 0.9230769230769231,
+          "tp": 12,
+          "unknown_unmatched": 319
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 243
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 19,
+        "fragmentation_candidates": 20,
+        "mixed_object_candidates": 32
+      },
+      "duplicate_fp": 1,
+      "fixed": {
+        "ap50": 0.749606166236167,
+        "ap75": 0.5772160760174742,
+        "fn": 14,
+        "fp": 157,
+        "precision": 0.23039215686274508,
+        "recall": 0.7704918032786885,
+        "tp": 47
+      },
+      "matched_original_recall": {
+        "fp": 59,
+        "precision": 0.4158415841584158,
+        "recall": 0.6885245901639344,
+        "threshold": 0.3033481240272522,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.004683355800807476,
+          "0.5": 0.030894678086042404,
+          "0.9": 0.2898087501525879
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1054
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr1e-5-epoch2": {
+      "best_precision_at_90_recall": {
+        "fp": 811,
+        "precision": 0.06351039260969978,
+        "recall": 0.9016393442622951,
+        "threshold": 0.03774193301796913,
+        "tp": 55
+      },
+      "best_recall_at_80_precision": {
+        "fp": 9,
+        "precision": 0.8163265306122449,
+        "recall": 0.6557377049180327,
+        "threshold": 0.7784408926963806,
+        "tp": 40
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.8045471213788045,
+          "ap75": 0.6760437948556759,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 46,
+          "mean_matched_iou": 0.8793968012248403,
+          "precision": 0.14814814814814814,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 58
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 416
+        },
+        "chair": {
+          "ap50": 0.5986558302193841,
+          "ap75": 0.38141734930735227,
+          "duplicate_fp": 1,
+          "fn": 6,
+          "fp": 325,
+          "mean_matched_iou": 0.7931385929427996,
+          "precision": 0.09217877094972067,
+          "recall": 0.8461538461538461,
+          "tp": 33,
+          "unknown_unmatched": 2341
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 515
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 762
+        },
+        "sofa": {
+          "ap50": 0.8746370877689273,
+          "ap75": 0.6004908183126006,
+          "duplicate_fp": 0,
+          "fn": 1,
+          "fp": 16,
+          "mean_matched_iou": 0.8519844070411806,
+          "precision": 0.42857142857142855,
+          "recall": 0.9230769230769231,
+          "tp": 12,
+          "unknown_unmatched": 291
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 131
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 28,
+        "fragmentation_candidates": 36,
+        "mixed_object_candidates": 55
+      },
+      "duplicate_fp": 2,
+      "fixed": {
+        "ap50": 0.759280013122372,
+        "ap75": 0.5526506541585429,
+        "fn": 8,
+        "fp": 387,
+        "precision": 0.12045454545454545,
+        "recall": 0.8688524590163934,
+        "tp": 53
+      },
+      "matched_original_recall": {
+        "fp": 36,
+        "precision": 0.5384615384615384,
+        "recall": 0.6885245901639344,
+        "threshold": 0.6372328400611877,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.013836868107318878,
+          "0.5": 0.08449696004390717,
+          "0.9": 0.4927940368652344
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1186
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr1e-5-epoch3": {
+      "best_precision_at_90_recall": {
+        "fp": 692,
+        "precision": 0.0748663101604278,
+        "recall": 0.9180327868852459,
+        "threshold": 0.10823456197977066,
+        "tp": 56
+      },
+      "best_recall_at_80_precision": {
+        "fp": 10,
+        "precision": 0.803921568627451,
+        "recall": 0.6721311475409836,
+        "threshold": 0.8555036783218384,
+        "tp": 41
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.7971711456859971,
+          "ap75": 0.6695898161244697,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 81,
+          "mean_matched_iou": 0.8811487127819926,
+          "precision": 0.0898876404494382,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 77
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 343
+        },
+        "chair": {
+          "ap50": 0.6180480517683805,
+          "ap75": 0.40549260320585057,
+          "duplicate_fp": 2,
+          "fn": 5,
+          "fp": 474,
+          "mean_matched_iou": 0.7824241878673506,
+          "precision": 0.06692913385826772,
+          "recall": 0.8717948717948718,
+          "tp": 34,
+          "unknown_unmatched": 2539
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 416
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 585
+        },
+        "sofa": {
+          "ap50": 0.8956152758132957,
+          "ap75": 0.6004908183126006,
+          "duplicate_fp": 0,
+          "fn": 1,
+          "fp": 25,
+          "mean_matched_iou": 0.8486532962019567,
+          "precision": 0.32432432432432434,
+          "recall": 0.9230769230769231,
+          "tp": 12,
+          "unknown_unmatched": 319
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 93
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 28,
+        "fragmentation_candidates": 44,
+        "mixed_object_candidates": 73
+      },
+      "duplicate_fp": 3,
+      "fixed": {
+        "ap50": 0.7702781577558911,
+        "ap75": 0.5585244125476403,
+        "fn": 7,
+        "fp": 580,
+        "precision": 0.08517350157728706,
+        "recall": 0.8852459016393442,
+        "tp": 54
+      },
+      "matched_original_recall": {
+        "fp": 27,
+        "precision": 0.6086956521739131,
+        "recall": 0.6885245901639344,
+        "threshold": 0.7695281505584717,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.023470891639590263,
+          "0.5": 0.13629183173179626,
+          "0.9": 0.607492983341217
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1328
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr1e-5-epoch4": {
+      "best_precision_at_90_recall": {
+        "fp": 298,
+        "precision": 0.1558073654390935,
+        "recall": 0.9016393442622951,
+        "threshold": 0.39134812355041504,
+        "tp": 55
+      },
+      "best_recall_at_80_precision": {
+        "fp": 10,
+        "precision": 0.803921568627451,
+        "recall": 0.6721311475409836,
+        "threshold": 0.8841729164123535,
+        "tp": 41
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.795205836373111,
+          "ap75": 0.6678701704756942,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 87,
+          "mean_matched_iou": 0.8783741252619511,
+          "precision": 0.08421052631578947,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 65
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 304
+        },
+        "chair": {
+          "ap50": 0.635131077062493,
+          "ap75": 0.41258242450016297,
+          "duplicate_fp": 3,
+          "fn": 3,
+          "fp": 582,
+          "mean_matched_iou": 0.7724633944145619,
+          "precision": 0.05825242718446602,
+          "recall": 0.9230769230769231,
+          "tp": 36,
+          "unknown_unmatched": 2746
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 357
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 514
+        },
+        "sofa": {
+          "ap50": 0.8510136727958512,
+          "ap75": 0.6004908183126006,
+          "duplicate_fp": 0,
+          "fn": 1,
+          "fp": 24,
+          "mean_matched_iou": 0.8471460892428957,
+          "precision": 0.3333333333333333,
+          "recall": 0.9230769230769231,
+          "tp": 12,
+          "unknown_unmatched": 280
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 81
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 32,
+        "fragmentation_candidates": 47,
+        "mixed_object_candidates": 81
+      },
+      "duplicate_fp": 4,
+      "fixed": {
+        "ap50": 0.7604501954104851,
+        "ap75": 0.5603144710961526,
+        "fn": 5,
+        "fp": 693,
+        "precision": 0.07476635514018691,
+        "recall": 0.9180327868852459,
+        "tp": 56
+      },
+      "matched_original_recall": {
+        "fp": 16,
+        "precision": 0.7241379310344828,
+        "recall": 0.6885245901639344,
+        "threshold": 0.856610119342804,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.03710339590907097,
+          "0.5": 0.17975705862045288,
+          "0.9": 0.6690637469291687
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1353
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr1e-5-epoch5": {
+      "best_precision_at_90_recall": {
+        "fp": 723,
+        "precision": 0.07069408740359898,
+        "recall": 0.9016393442622951,
+        "threshold": 0.15956248342990875,
+        "tp": 55
+      },
+      "best_recall_at_80_precision": {
+        "fp": 9,
+        "precision": 0.8085106382978723,
+        "recall": 0.6229508196721312,
+        "threshold": 0.8907974362373352,
+        "tp": 38
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.7964796479647963,
+          "ap75": 0.6689847556184189,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 88,
+          "mean_matched_iou": 0.8754546627518186,
+          "precision": 0.08333333333333333,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 71
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 294
+        },
+        "chair": {
+          "ap50": 0.6661874004774015,
+          "ap75": 0.44481667387103174,
+          "duplicate_fp": 3,
+          "fn": 2,
+          "fp": 641,
+          "mean_matched_iou": 0.7811993703985823,
+          "precision": 0.05457227138643068,
+          "recall": 0.9487179487179487,
+          "tp": 37,
+          "unknown_unmatched": 2930
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 327
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 477
+        },
+        "sofa": {
+          "ap50": 0.7623762376237624,
+          "ap75": 0.693069306930693,
+          "duplicate_fp": 0,
+          "fn": 3,
+          "fp": 21,
+          "mean_matched_iou": 0.8778712195677345,
+          "precision": 0.3225806451612903,
+          "recall": 0.7692307692307693,
+          "tp": 10,
+          "unknown_unmatched": 172
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 65
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 31,
+        "fragmentation_candidates": 46,
+        "mixed_object_candidates": 73
+      },
+      "duplicate_fp": 4,
+      "fixed": {
+        "ap50": 0.74168109535532,
+        "ap75": 0.6022902454733812,
+        "fn": 6,
+        "fp": 750,
+        "precision": 0.06832298136645963,
+        "recall": 0.9016393442622951,
+        "tp": 55
+      },
+      "matched_original_recall": {
+        "fp": 15,
+        "precision": 0.7368421052631579,
+        "recall": 0.6885245901639344,
+        "threshold": 0.87326580286026,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.040314264595508575,
+          "0.5": 0.1972603052854538,
+          "0.9": 0.6849773526191711
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1364
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr3e-5": {
+      "best_precision_at_90_recall": {
+        "fp": 291,
+        "precision": 0.15895953757225434,
+        "recall": 0.9016393442622951,
+        "threshold": 0.38446563482284546,
+        "tp": 55
+      },
+      "best_recall_at_80_precision": {
+        "fp": 9,
+        "precision": 0.82,
+        "recall": 0.6721311475409836,
+        "threshold": 0.8791672587394714,
+        "tp": 41
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.7986798679867986,
+          "ap75": 0.6709099481376709,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 80,
+          "mean_matched_iou": 0.8759707153116723,
+          "precision": 0.09090909090909091,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 68
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 290
+        },
+        "chair": {
+          "ap50": 0.6242784947861312,
+          "ap75": 0.3945471222695461,
+          "duplicate_fp": 2,
+          "fn": 3,
+          "fp": 571,
+          "mean_matched_iou": 0.7701531112599568,
+          "precision": 0.05930807248764415,
+          "recall": 0.9230769230769231,
+          "tp": 36,
+          "unknown_unmatched": 2794
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 328
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 504
+        },
+        "sofa": {
+          "ap50": 0.8246110325318247,
+          "ap75": 0.7463823305407464,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 25,
+          "mean_matched_iou": 0.8802653841464714,
+          "precision": 0.3055555555555556,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 280
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 83
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 27,
+        "fragmentation_candidates": 44,
+        "mixed_object_candidates": 70
+      },
+      "duplicate_fp": 3,
+      "fixed": {
+        "ap50": 0.7491897984349182,
+        "ap75": 0.6039464669826545,
+        "fn": 6,
+        "fp": 676,
+        "precision": 0.07523939808481532,
+        "recall": 0.9016393442622951,
+        "tp": 55
+      },
+      "matched_original_recall": {
+        "fp": 29,
+        "precision": 0.5915492957746479,
+        "recall": 0.6885245901639344,
+        "threshold": 0.792401134967804,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.03297650068998337,
+          "0.5": 0.17293038964271545,
+          "0.9": 0.6583814024925232
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1353
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr3e-5-epoch1": {
+      "best_precision_at_90_recall": {
+        "fp": 291,
+        "precision": 0.15895953757225434,
+        "recall": 0.9016393442622951,
+        "threshold": 0.38446563482284546,
+        "tp": 55
+      },
+      "best_recall_at_80_precision": {
+        "fp": 9,
+        "precision": 0.82,
+        "recall": 0.6721311475409836,
+        "threshold": 0.8791672587394714,
+        "tp": 41
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.7986798679867986,
+          "ap75": 0.6709099481376709,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 80,
+          "mean_matched_iou": 0.8759707153116723,
+          "precision": 0.09090909090909091,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 68
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 290
+        },
+        "chair": {
+          "ap50": 0.6242784947861312,
+          "ap75": 0.3945471222695461,
+          "duplicate_fp": 2,
+          "fn": 3,
+          "fp": 571,
+          "mean_matched_iou": 0.7701531112599568,
+          "precision": 0.05930807248764415,
+          "recall": 0.9230769230769231,
+          "tp": 36,
+          "unknown_unmatched": 2794
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 328
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 504
+        },
+        "sofa": {
+          "ap50": 0.8246110325318247,
+          "ap75": 0.7463823305407464,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 25,
+          "mean_matched_iou": 0.8802653841464714,
+          "precision": 0.3055555555555556,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 280
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 83
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 27,
+        "fragmentation_candidates": 44,
+        "mixed_object_candidates": 70
+      },
+      "duplicate_fp": 3,
+      "fixed": {
+        "ap50": 0.7491897984349182,
+        "ap75": 0.6039464669826545,
+        "fn": 6,
+        "fp": 676,
+        "precision": 0.07523939808481532,
+        "recall": 0.9016393442622951,
+        "tp": 55
+      },
+      "matched_original_recall": {
+        "fp": 29,
+        "precision": 0.5915492957746479,
+        "recall": 0.6885245901639344,
+        "threshold": 0.792401134967804,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.03297650068998337,
+          "0.5": 0.17293038964271545,
+          "0.9": 0.6583814024925232
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1353
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr3e-5-epoch2": {
+      "best_precision_at_90_recall": {
+        "fp": 627,
+        "precision": 0.08064516129032258,
+        "recall": 0.9016393442622951,
+        "threshold": 0.3804771602153778,
+        "tp": 55
+      },
+      "best_recall_at_80_precision": {
+        "fp": 7,
+        "precision": 0.8,
+        "recall": 0.45901639344262296,
+        "threshold": 0.953302800655365,
+        "tp": 28
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.793528133301135,
+          "ap75": 0.666402180287715,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 125,
+          "mean_matched_iou": 0.8751733758593726,
+          "precision": 0.06015037593984962,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 54
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 183
+        },
+        "chair": {
+          "ap50": 0.5681388765062699,
+          "ap75": 0.337781032917193,
+          "duplicate_fp": 3,
+          "fn": 2,
+          "fp": 1004,
+          "mean_matched_iou": 0.7676062900032115,
+          "precision": 0.03554274735830932,
+          "recall": 0.9487179487179487,
+          "tp": 37,
+          "unknown_unmatched": 3418
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 164
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 270
+        },
+        "sofa": {
+          "ap50": 0.6859284393912538,
+          "ap75": 0.4101838755304102,
+          "duplicate_fp": 0,
+          "fn": 3,
+          "fp": 24,
+          "mean_matched_iou": 0.7880543850056351,
+          "precision": 0.29411764705882354,
+          "recall": 0.7692307692307693,
+          "tp": 10,
+          "unknown_unmatched": 168
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 37
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 25,
+        "fragmentation_candidates": 48,
+        "mixed_object_candidates": 91
+      },
+      "duplicate_fp": 4,
+      "fixed": {
+        "ap50": 0.682531816399553,
+        "ap75": 0.471455696245106,
+        "fn": 6,
+        "fp": 1153,
+        "precision": 0.04552980132450331,
+        "recall": 0.9016393442622951,
+        "tp": 55
+      },
+      "matched_original_recall": {
+        "fp": 38,
+        "precision": 0.525,
+        "recall": 0.6885245901639344,
+        "threshold": 0.8895618319511414,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.12185323983430862,
+          "0.5": 0.36370545625686646,
+          "0.9": 0.824792742729187
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1406
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr3e-5-epoch3": {
+      "best_precision_at_90_recall": {
+        "fp": 668,
+        "precision": 0.07607192254495158,
+        "recall": 0.9016393442622951,
+        "threshold": 0.49568459391593933,
+        "tp": 55
+      },
+      "best_recall_at_80_precision": {
+        "fp": 4,
+        "precision": 0.8181818181818182,
+        "recall": 0.29508196721311475,
+        "threshold": 0.9773075580596924,
+        "tp": 18
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.7064960721424254,
+          "ap75": 0.6123878585041602,
+          "duplicate_fp": 2,
+          "fn": 1,
+          "fp": 195,
+          "mean_matched_iou": 0.8757628210655825,
+          "precision": 0.03940886699507389,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 65
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 158
+        },
+        "chair": {
+          "ap50": 0.5060344001139968,
+          "ap75": 0.30256508082012773,
+          "duplicate_fp": 3,
+          "fn": 2,
+          "fp": 1068,
+          "mean_matched_iou": 0.7713457053897446,
+          "precision": 0.0334841628959276,
+          "recall": 0.9487179487179487,
+          "tp": 37,
+          "unknown_unmatched": 3432
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 141
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 198
+        },
+        "sofa": {
+          "ap50": 0.6871062106210621,
+          "ap75": 0.3877887788778878,
+          "duplicate_fp": 1,
+          "fn": 3,
+          "fp": 26,
+          "mean_matched_iou": 0.7809208165129096,
+          "precision": 0.2777777777777778,
+          "recall": 0.7692307692307693,
+          "tp": 10,
+          "unknown_unmatched": 220
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 27
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 32,
+        "fragmentation_candidates": 49,
+        "mixed_object_candidates": 88
+      },
+      "duplicate_fp": 6,
+      "fixed": {
+        "ap50": 0.6332122276258282,
+        "ap75": 0.43424723940072524,
+        "fn": 6,
+        "fp": 1289,
+        "precision": 0.04092261904761905,
+        "recall": 0.9016393442622951,
+        "tp": 55
+      },
+      "matched_original_recall": {
+        "fp": 69,
+        "precision": 0.3783783783783784,
+        "recall": 0.6885245901639344,
+        "threshold": 0.9082720279693604,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.1830923855304718,
+          "0.5": 0.49123212695121765,
+          "0.9": 0.8841251730918884
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1459
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "heads-original-lr3e-5-epoch4": {
+      "best_precision_at_90_recall": {
+        "fp": 433,
+        "precision": 0.11270491803278689,
+        "recall": 0.9016393442622951,
+        "threshold": 0.681212306022644,
+        "tp": 55
+      },
+      "best_recall_at_80_precision": null,
+      "categories": {
+        "bed": {
+          "ap50": 0.6742574257425742,
+          "ap75": 0.5789603960396039,
+          "duplicate_fp": 1,
+          "fn": 2,
+          "fp": 124,
+          "mean_matched_iou": 0.8663244303729958,
+          "precision": 0.05343511450381679,
+          "recall": 0.7777777777777778,
+          "tp": 7,
+          "unknown_unmatched": 33
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 132
+        },
+        "chair": {
+          "ap50": 0.44114703606171923,
+          "ap75": 0.27770588484006076,
+          "duplicate_fp": 3,
+          "fn": 0,
+          "fp": 1098,
+          "mean_matched_iou": 0.7724934512434103,
+          "precision": 0.03430079155672823,
+          "recall": 1.0,
+          "tp": 39,
+          "unknown_unmatched": 3650
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 89
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 149
+        },
+        "sofa": {
+          "ap50": 0.6323369179023166,
+          "ap75": 0.24133663366336633,
+          "duplicate_fp": 0,
+          "fn": 3,
+          "fp": 30,
+          "mean_matched_iou": 0.7671340179347697,
+          "precision": 0.25,
+          "recall": 0.7692307692307693,
+          "tp": 10,
+          "unknown_unmatched": 253
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 21
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 29,
+        "fragmentation_candidates": 51,
+        "mixed_object_candidates": 86
+      },
+      "duplicate_fp": 4,
+      "fixed": {
+        "ap50": 0.5825804599022034,
+        "ap75": 0.3660009715143437,
+        "fn": 5,
+        "fp": 1252,
+        "precision": 0.04281345565749235,
+        "recall": 0.9180327868852459,
+        "tp": 56
+      },
+      "matched_original_recall": {
+        "fp": 91,
+        "precision": 0.3157894736842105,
+        "recall": 0.6885245901639344,
+        "threshold": 0.9110913276672363,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.2496938556432724,
+          "0.5": 0.5605006814002991,
+          "0.9": 0.9078454375267029
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 1373
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "original": {
+      "best_precision_at_90_recall": null,
+      "best_recall_at_80_precision": {
+        "fp": 7,
+        "precision": 0.8444444444444444,
+        "recall": 0.6229508196721312,
+        "threshold": 0.24228498339653015,
+        "tp": 38
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.794059405940594,
+          "ap75": 0.6478076379066479,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 5,
+          "mean_matched_iou": 0.8786225566742453,
+          "precision": 0.5833333333333334,
+          "recall": 0.7777777777777778,
+          "tp": 7,
+          "unknown_unmatched": 59
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 851
+        },
+        "chair": {
+          "ap50": 0.554594786135146,
+          "ap75": 0.3174523448295566,
+          "duplicate_fp": 1,
+          "fn": 15,
+          "fp": 19,
+          "mean_matched_iou": 0.81292981134276,
+          "precision": 0.5581395348837209,
+          "recall": 0.6153846153846154,
+          "tp": 24,
+          "unknown_unmatched": 634
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 934
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 1505
+        },
+        "sofa": {
+          "ap50": 0.900990099009901,
+          "ap75": 0.693069306930693,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 1,
+          "mean_matched_iou": 0.8606409239958919,
+          "precision": 0.9166666666666666,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 264
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 477
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 14,
+        "fragmentation_candidates": 4,
+        "mixed_object_candidates": 15
+      },
+      "duplicate_fp": 1,
+      "fixed": {
+        "ap50": 0.7498814303618803,
+        "ap75": 0.5527764298889658,
+        "fn": 19,
+        "fp": 25,
+        "precision": 0.6268656716417911,
+        "recall": 0.6885245901639344,
+        "tp": 42
+      },
+      "matched_original_recall": {
+        "fp": 19,
+        "precision": 0.6885245901639344,
+        "recall": 0.6885245901639344,
+        "threshold": 0.16735556721687317,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.0018778570229187608,
+          "0.5": 0.010451293550431728,
+          "0.9": 0.15708710253238678
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 632
+      },
+      "simultaneous_80_precision_90_recall": false
+    },
+    "phase5c": {
+      "best_precision_at_90_recall": null,
+      "best_recall_at_80_precision": {
+        "fp": 5,
+        "precision": 0.8780487804878049,
+        "recall": 0.5901639344262295,
+        "threshold": 0.27607640624046326,
+        "tp": 36
+      },
+      "categories": {
+        "bed": {
+          "ap50": 0.7852815132259494,
+          "ap75": 0.6478076379066479,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 5,
+          "mean_matched_iou": 0.8770186850564495,
+          "precision": 0.5833333333333334,
+          "recall": 0.7777777777777778,
+          "tp": 7,
+          "unknown_unmatched": 84
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 590
+        },
+        "chair": {
+          "ap50": 0.5775587037349348,
+          "ap75": 0.3565683808413907,
+          "duplicate_fp": 2,
+          "fn": 15,
+          "fp": 24,
+          "mean_matched_iou": 0.819665851269373,
+          "precision": 0.5,
+          "recall": 0.6153846153846154,
+          "tp": 24,
+          "unknown_unmatched": 549
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 1324
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 1018
+        },
+        "sofa": {
+          "ap50": 0.8726026448798726,
+          "ap75": 0.750825082508251,
+          "duplicate_fp": 1,
+          "fn": 2,
+          "fp": 2,
+          "mean_matched_iou": 0.8767055900724187,
+          "precision": 0.8461538461538461,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 234
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 1254
+        }
+      },
+      "diagnostics": {
+        "category_disagreement_candidates": 11,
+        "fragmentation_candidates": 3,
+        "mixed_object_candidates": 39
+      },
+      "duplicate_fp": 3,
+      "fixed": {
+        "ap50": 0.7451476206135856,
+        "ap75": 0.5850670337520966,
+        "fn": 19,
+        "fp": 31,
+        "precision": 0.5753424657534246,
+        "recall": 0.6885245901639344,
+        "tp": 42
+      },
+      "matched_original_recall": {
+        "fp": 31,
+        "precision": 0.5753424657534246,
+        "recall": 0.6885245901639344,
+        "threshold": 0.15306150913238525,
+        "tp": 42
+      },
+      "scored_event_confidence": {
+        "quantiles": {
+          "0.1": 0.003055885434150696,
+          "0.5": 0.018503423780202866,
+          "0.9": 0.17153707146644592
+        },
+        "scope": "pooled scored TP/FP only; unknown/ignored proposals absent; no category identity",
+        "scored_events": 647
+      },
+      "simultaneous_80_precision_90_recall": false
+    }
+  },
+  "completed_metric_epochs": {
+    "heads-original-lr1e-5": 5,
+    "heads-original-lr3e-5": 4
+  },
+  "confirmed_root_cause": false,
+  "coverage": {
+    "inner_development": {
+      "classes": {
+        "bed": {
+          "FP_observable_images": 5,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 0,
+          "positive_boxes": 9,
+          "positive_images": 6
+        },
+        "cabinet": {
+          "FP_observable_images": 0,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 0,
+          "positive_boxes": 0,
+          "positive_images": 0
+        },
+        "chair": {
+          "FP_observable_images": 4,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 0,
+          "positive_boxes": 39,
+          "positive_images": 11
+        },
+        "desk": {
+          "FP_observable_images": 0,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 2,
+          "positive_boxes": 0,
+          "positive_images": 0
+        },
+        "lamp": {
+          "FP_observable_images": 0,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 6,
+          "positive_boxes": 0,
+          "positive_images": 0
+        },
+        "sofa": {
+          "FP_observable_images": 1,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 0,
+          "positive_boxes": 13,
+          "positive_images": 9
+        },
+        "table": {
+          "FP_observable_images": 0,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 14,
+          "positive_boxes": 0,
+          "positive_images": 0
+        }
+      },
+      "groups": 19,
+      "images": 19,
+      "sources": {
+        "legacy_openimages": 3,
+        "phase6a_openimages": 3,
+        "phase6d_coco": 9,
+        "phase7_LVIS": 1,
+        "phase8c_LVIS": 3
+      }
+    },
+    "optimization": {
+      "classes": {
+        "bed": {
+          "FP_observable_images": 17,
+          "explicit_negative_images": 1,
+          "ignored_boxes": 0,
+          "positive_boxes": 28,
+          "positive_images": 25
+        },
+        "cabinet": {
+          "FP_observable_images": 0,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 6,
+          "positive_boxes": 0,
+          "positive_images": 0
+        },
+        "chair": {
+          "FP_observable_images": 9,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 1,
+          "positive_boxes": 114,
+          "positive_images": 42
+        },
+        "desk": {
+          "FP_observable_images": 0,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 8,
+          "positive_boxes": 0,
+          "positive_images": 0
+        },
+        "lamp": {
+          "FP_observable_images": 0,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 8,
+          "positive_boxes": 0,
+          "positive_images": 0
+        },
+        "sofa": {
+          "FP_observable_images": 4,
+          "explicit_negative_images": 2,
+          "ignored_boxes": 0,
+          "positive_boxes": 40,
+          "positive_images": 34
+        },
+        "table": {
+          "FP_observable_images": 0,
+          "explicit_negative_images": 0,
+          "ignored_boxes": 47,
+          "positive_boxes": 0,
+          "positive_images": 0
+        }
+      },
+      "groups": 56,
+      "images": 59,
+      "sources": {
+        "legacy_openimages": 13,
+        "phase6a_openimages": 5,
+        "phase6d_coco": 36,
+        "phase7_LVIS": 3,
+        "phase8c_LVIS": 2
+      }
+    }
+  },
+  "epoch5_metrics_recovered": false,
+  "historical_component_loss_values_available": false,
+  "loss": {
+    "heads-original-lr1e-5": {
+      "1": {
+        "components_available": false,
+        "mean_update_total_loss": 0.7619835852748817,
+        "sample_weighted_total_loss": 0.7655807119809975,
+        "updates": 15
+      },
+      "2": {
+        "components_available": false,
+        "mean_update_total_loss": 0.5405644065803952,
+        "sample_weighted_total_loss": 0.5389243945226831,
+        "updates": 15
+      },
+      "3": {
+        "components_available": false,
+        "mean_update_total_loss": 0.5000757363935312,
+        "sample_weighted_total_loss": 0.49608425897056774,
+        "updates": 15
+      },
+      "4": {
+        "components_available": false,
+        "mean_update_total_loss": 0.4667357263879644,
+        "sample_weighted_total_loss": 0.46875414466958937,
+        "updates": 15
+      },
+      "5": {
+        "components_available": false,
+        "mean_update_total_loss": 0.4496986207862695,
+        "sample_weighted_total_loss": 0.45192265586327696,
+        "updates": 15
+      }
+    },
+    "heads-original-lr3e-5": {
+      "1": {
+        "components_available": false,
+        "mean_update_total_loss": 0.6762357909646298,
+        "sample_weighted_total_loss": 0.6783439145754959,
+        "updates": 15
+      },
+      "2": {
+        "components_available": false,
+        "mean_update_total_loss": 0.48553302619192334,
+        "sample_weighted_total_loss": 0.48489074888875927,
+        "updates": 15
+      },
+      "3": {
+        "components_available": false,
+        "mean_update_total_loss": 0.4637424187527763,
+        "sample_weighted_total_loss": 0.45982448781950996,
+        "updates": 15
+      },
+      "4": {
+        "components_available": false,
+        "mean_update_total_loss": 0.42953809094097883,
+        "sample_weighted_total_loss": 0.43114169245049105,
+        "updates": 15
+      },
+      "5": {
+        "components_available": false,
+        "mean_update_total_loss": 0.3915090360575252,
+        "sample_weighted_total_loss": 0.39185538711184165,
+        "updates": 15
+      }
+    }
+  },
+  "per_category_confidence_distribution_available": false,
+  "phase5c_prior_training_overlap_count": 3,
+  "runtime": {
+    "cuda_initialized": false,
+    "gil_enabled": true,
+    "jit_available": true,
+    "jit_enabled": false,
+    "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "profile_active": false,
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "torch": "2.14.1+cu132",
+    "trace_active": false
+  },
+  "saved_epoch5_predictions_found": false,
+  "scope": "Provisional source-native internal validation; no independent accuracy claim",
+  "training_or_inference_run": false,
+  "validation_records": 9
+}

@@ -1,0 +1,26 @@
+{
+  "ap_score_floor": 0.001,
+  "approved": false,
+  "checkpoint": "data/open-images/experiments/phase10b-heads-v1/heads-original-lr3e-5/checkpoints/update-0075-ca40fb61879a4f838a6e254227a700d5.pt",
+  "checkpoint_sha256": "3c8774892d6ba85ddb01f735fa9391790e4200259dd302176ab429a863d6eb2f",
+  "confidence": 0.15,
+  "destination": "data/open-images/experiments/phase10c-recovery-v1",
+  "frozen_or_reserved_images_allowed": false,
+  "manifest_sha256": "ec55e01d968b584819c790de2c2a843bd87d9af960642601d65187807800b937",
+  "matching_iou": [
+    0.5,
+    0.75
+  ],
+  "max_allocated_vram_bytes": 6979321856,
+  "max_forwards": 19,
+  "max_new_storage_bytes": 134217728,
+  "max_raw_bytes_per_image": 512000,
+  "max_seconds": 600,
+  "models": 1,
+  "nms_iou": 0.5,
+  "nms_max_boxes": 300,
+  "optimizer_updates": 0,
+  "precision": "FP32 identical to historical validation",
+  "schema": "phase10c-inference-only-v1",
+  "training_allowed": false
+}

@@ -29,6 +29,15 @@
 !/reports/phase10b-v1/history-summary.json
 !/reports/phase10b-v1/summary-final-v2.json
 !/reports/phase10b-v1/tests-final-v3.json
+!/reports/phase10c-v1/
+/reports/phase10c-v1/*
+!/reports/phase10c-v1/report.md
+!/reports/phase10c-v1/analysis-summary.json
+!/reports/phase10c-v1/comparison.csv
+!/reports/phase10c-v1/box-only-config.json
+!/reports/phase10c-v1/inference-recovery-request.json
+!/reports/phase10c-v1/tests.json
+!/reports/phase10c-v1/precision-analysis.png
 
 # Private machine configuration and credentials.
 /.aws/
