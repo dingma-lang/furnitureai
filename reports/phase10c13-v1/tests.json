@@ -1,0 +1,10 @@
+{
+  "CPU_only_unit_tests": true,
+  "additional_analysis_tests": 4,
+  "postrun_log_sha256": "20bd066b075851caa183730e6be5c54f6a9f3093fa44747fd26c1dcfb89ba753",
+  "postrun_passed": 9,
+  "preflight": 149,
+  "real_GPU_training_tests": "Only the single authorized experiment; no retries or extra variants",
+  "status": "PASS",
+  "total_distinct_relevant_tests": 153
+}

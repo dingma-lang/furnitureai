@@ -1,0 +1,139 @@
+{
+  "alignment": "Exact photo and query indices across original/C8B/C11/C13;score quantiles in results.json",
+  "changes": {
+    "mean_shared_logit_increase_reduction_fraction_vs_C11": 0.39510824496716823,
+    "precision_delta_at015_vs_C11": 0.056929052685836326,
+    "projection_joint_L2_reduction_fraction_vs_C11": 0.8447750272787125,
+    "recall_delta_at015_vs_C11": -0.08196721311475408
+  },
+  "logit_drift": {
+    "corrected_B": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 4.4592026086233085,
+      "common_mean": 4.2529433009285285,
+      "common_mode_fraction_squared_delta": 0.9544677345734228,
+      "common_mode_shift_quantiles": {
+        "0": 0.6219978332519531,
+        "0.1": 2.5023507118225097,
+        "0.5": 4.222805414881025,
+        "0.9": 6.046971505028861,
+        "0.99": 7.317758015223904,
+        "1": 9.35773059300014
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 5.234718883229986,
+        "cabinet": 3.1725915067952926,
+        "chair": 5.422518171422861,
+        "desk": 3.886242640671732,
+        "lamp": 3.29427766346839,
+        "sofa": 5.18727061433687,
+        "table": 3.5729836265745707
+      },
+      "semantic_residual_RMS": 0.9739489841677121
+    },
+    "frozen_calibration": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 3.128431384244021,
+      "common_mean": 3.011034903365643,
+      "common_mode_fraction_squared_delta": 0.9032465475249832,
+      "common_mode_shift_quantiles": {
+        "0": 0.4150270734514509,
+        "0.1": 1.9417592593601773,
+        "0.5": 2.9826085567474365,
+        "0.9": 4.139381088529315,
+        "0.99": 4.988118901252744,
+        "1": 6.499213899884905
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 3.8362226501724286,
+        "cabinet": 1.8653638930554906,
+        "chair": 4.2479853308714866,
+        "desk": 2.606196534579616,
+        "lamp": 2.001496741679267,
+        "sofa": 4.20103761428994,
+        "table": 2.318941558911273
+      },
+      "semantic_residual_RMS": 1.023898046558813
+    },
+    "projection_regularized": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 1.8553653709814388,
+      "common_mean": 1.8213501871619568,
+      "common_mode_fraction_squared_delta": 0.9158148026760233,
+      "common_mode_shift_quantiles": {
+        "0": 0.2110121590750558,
+        "0.1": 1.4240074702671597,
+        "0.5": 1.81036308833531,
+        "0.9": 2.2687141554696217,
+        "0.99": 2.6114881719861702,
+        "1": 3.1099282673427036
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 2.0713250409315576,
+        "cabinet": 1.1945465924383933,
+        "chair": 2.661273741017393,
+        "desk": 1.5922692376744392,
+        "lamp": 1.2754496950975704,
+        "sofa": 2.5142592642465162,
+        "table": 1.4403277387278297
+      },
+      "semantic_residual_RMS": 0.5625271447686943
+    }
+  },
+  "parameter_drift": {
+    "corrected_B": {
+      "class_head.dense0.bias": {
+        "L2": 0.005840462968350684,
+        "max_abs": 0.0004585646092891693,
+        "relative_L2": 0.058092256568576556,
+        "tensor_sha256": "9a7d4938985f4006b55ee69c36fc859e2595c8a5c17f4787ad6c953c49455efc"
+      },
+      "class_head.dense0.weight": {
+        "L2": 0.14520893152082318,
+        "max_abs": 0.0005401168018579483,
+        "relative_L2": 0.014968295427839772,
+        "tensor_sha256": "d9086e8b18e429e4d1e99420c6fa926e27c7f9bb349c1783dad23155e9696e02"
+      },
+      "joint_L2": 0.14532633897922217
+    },
+    "frozen_calibration": {
+      "class_head.dense0.bias": {
+        "L2": 0.006170257945540215,
+        "max_abs": 0.0004498441703617573,
+        "relative_L2": 0.06137256748463607,
+        "tensor_sha256": "60d8430614bbd1e093ba2664ce36c569cbe7b3ac1386388e0cf0cd3998b2dfb5"
+      },
+      "class_head.dense0.weight": {
+        "L2": 0.14573774306205836,
+        "max_abs": 0.0005395859479904175,
+        "relative_L2": 0.015022805899695454,
+        "tensor_sha256": "2ae044b5b1bd134ab3260a40121ed72e4fe49e1ed6ccd9f4c9876dad57d0efe4"
+      },
+      "joint_L2": 0.14586830305428608
+    },
+    "projection_regularized": {
+      "class_head.dense0.bias": {
+        "L2": 0.002418404597739452,
+        "max_abs": 0.00045624934136867523,
+        "relative_L2": 0.024054699283228096,
+        "tensor_sha256": "da93ae579bf886745f02d130827f77efa237ba0465b4a6b01e369253ef480db2"
+      },
+      "class_head.dense0.weight": {
+        "L2": 0.02251287962993356,
+        "max_abs": 0.0005130948738951702,
+        "relative_L2": 0.0023206522470962353,
+        "tensor_sha256": "522c79e1d220ac5e4b361c58746612cb75a033bfaa7885f9a1258b4451d1cebd"
+      },
+      "joint_L2": 0.02264240336250206
+    }
+  },
+  "photo_count": 19,
+  "projection_weight_and_bias_not_functionally_separated": true,
+  "query_count": 68400
+}

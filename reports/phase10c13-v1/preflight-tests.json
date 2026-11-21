@@ -1,0 +1,45 @@
+{
+  "GPU_forwards": 0,
+  "only_one_arm_authorized": true,
+  "passed": 149,
+  "prepared_C12_code_unchanged": true,
+  "status": "PASS",
+  "suites": [
+    {
+      "log_sha256": "7c904fe16b9aba7cc2d6b9d5935a311f27a92a4fc740dcab4a00a39779068d80",
+      "passed": 5,
+      "suite": "C13"
+    },
+    {
+      "log_sha256": "97ea8de5b2aa8a5c192d638b7c8aa5b77634b054756ca4d58ebc47cdb2d63103",
+      "passed": 31,
+      "suite": "C12"
+    },
+    {
+      "log_sha256": "747797bb49c20bde6eaafb40924603c2abf7c975a9b48c8b3b6c1eca86dd1f27",
+      "passed": 13,
+      "suite": "C11"
+    },
+    {
+      "log_sha256": "c3fd44bcf874e9f911de756372b70f303429a3473d6243f3fd5fa152986c6ac7",
+      "passed": 21,
+      "suite": "frozen_scope"
+    },
+    {
+      "log_sha256": "e425f4a1582c6c236378db7928d2259ff79589f73a7e8002e4eb421b25e68147",
+      "passed": 16,
+      "suite": "C8_loss"
+    },
+    {
+      "log_sha256": "ab8f5263fadb5eea7c23238edbb90bf172aa3a12389f250c0f02d6d6563b64f1",
+      "passed": 31,
+      "suite": "C6_masks"
+    },
+    {
+      "log_sha256": "26f2324767483cdcc6facd3f2c9a6630508d9f1bcd8b9889d55ffa3ddb2a72fd",
+      "passed": 32,
+      "suite": "expanded_base"
+    }
+  ],
+  "training_updates": 0
+}

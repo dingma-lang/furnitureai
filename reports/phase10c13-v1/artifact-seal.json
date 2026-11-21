@@ -1,0 +1,17 @@
+{
+  "branch": "experiment/phase10c13-projection-preservation-ablation",
+  "final_checkpoint": {
+    "file": "checkpoints/update-075-4972103e1d39.pt",
+    "sha256": "f74aba1fd4d44a33ffa0caed150db182ad37f50000c94b83fedceda6fc7fd994",
+    "updates": 75
+  },
+  "model_weights_and_photos_local_only": true,
+  "original_prepared_C12_code_modified": false,
+  "parent_commit": "423dfd0de60b685dccff271c97fe89fa53549412",
+  "private_allocated_bytes_at_sealing": 1683943424,
+  "private_files": 625,
+  "private_logical_bytes_at_sealing": 1682389654,
+  "private_seal": "data/open-images/preparation/phase10c13-v1/ARTIFACT-SHA256SUMS",
+  "private_seal_sha256": "b6a1d9900031a0b9ca1d304b75d223899522d978963c4d9b0e0a79223c1001ed",
+  "public_seal": "reports/phase10c13-v1/SHA256SUMS"
+}

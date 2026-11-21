@@ -1,0 +1,14 @@
+{
+  "FP32_equivalence_verified": true,
+  "config_file_sha256": "122bb0de6d3356403d70ef003ab50527c6aa1e4b495e0101485a45b871ddf3e9",
+  "config_semantic_sha256": "54b8c3551681cd8dac7e7120b31b85e66f1c2b57aafc5d8726fea358d1b7f3f9",
+  "effective_FP32_lambda": 78.92716217041016,
+  "max_GPU_seconds": 600,
+  "max_VRAM_bytes": 6979321856,
+  "max_epochs": 5,
+  "max_optimizer_updates": 75,
+  "prepared_decimal_lambda": 78.92715855598048,
+  "user_decimal_lambda": 78.92715856,
+  "user_reference": "Current user attached Phase10C.13:exactly one original-init frozen-calibration projection-preservation arm;no extra variants/downloads/Phase10D",
+  "user_training_authorized": true
+}

@@ -1,0 +1,35 @@
+{
+  "categories": {
+    "bed": {
+      "C11_only_GT_matches": 0,
+      "C13_only_GT_matches": 0,
+      "IoU75_crossings_down": 0,
+      "IoU75_crossings_up": 0,
+      "common_GT_matches": 8,
+      "mean_C11_IoU_on_common_GT": 0.8792580454736945,
+      "mean_C13_IoU_on_common_GT": 0.8790528069587404,
+      "mean_IoU_delta_on_common_GT": -0.0002052385149539787
+    },
+    "chair": {
+      "C11_only_GT_matches": 5,
+      "C13_only_GT_matches": 0,
+      "IoU75_crossings_down": 0,
+      "IoU75_crossings_up": 0,
+      "common_GT_matches": 30,
+      "mean_C11_IoU_on_common_GT": 0.8040937959339506,
+      "mean_C13_IoU_on_common_GT": 0.8042991894646473,
+      "mean_IoU_delta_on_common_GT": 0.00020539353069675136
+    },
+    "sofa": {
+      "C11_only_GT_matches": 0,
+      "C13_only_GT_matches": 0,
+      "IoU75_crossings_down": 2,
+      "IoU75_crossings_up": 0,
+      "common_GT_matches": 12,
+      "mean_C11_IoU_on_common_GT": 0.861970865863421,
+      "mean_C13_IoU_on_common_GT": 0.8274750153133374,
+      "mean_IoU_delta_on_common_GT": -0.03449585055008381
+    }
+  },
+  "scope": "Same GT identities matched atIoU0.5/confidence0.15;descriptive,not fixed prediction boxes or an independent test"
+}

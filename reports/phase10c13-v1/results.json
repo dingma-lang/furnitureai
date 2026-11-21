@@ -1,0 +1,3001 @@
+{
+  "changes_vs_C11": {
+    "mean_shared_logit_increase_reduction_fraction_vs_C11": 0.39510824496716823,
+    "precision_delta_at015_vs_C11": 0.056929052685836326,
+    "projection_joint_L2_reduction_fraction_vs_C11": 0.8447750272787125,
+    "recall_delta_at015_vs_C11": -0.08196721311475408
+  },
+  "comparison": {
+    "corrected_B": {
+      "categories": {
+        "bed": {
+          "ap50": 0.795205836373111,
+          "ap75": 0.6678701704756942,
+          "duplicate_fp": 2,
+          "fn": 1,
+          "fp": 124,
+          "mean_matched_iou": 0.8798944982916397,
+          "precision": 0.06060606060606061,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 118
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 287
+        },
+        "chair": {
+          "ap50": 0.6686687214498289,
+          "ap75": 0.4340753904228194,
+          "duplicate_fp": 2,
+          "fn": 0,
+          "fp": 636,
+          "mean_matched_iou": 0.7696435841148689,
+          "precision": 0.057777777777777775,
+          "recall": 1.0,
+          "tp": 39,
+          "unknown_unmatched": 2684
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 342
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 468
+        },
+        "sofa": {
+          "ap50": 0.7934936350777935,
+          "ap75": 0.5544554455445545,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 28,
+          "mean_matched_iou": 0.8401146007195699,
+          "precision": 0.28205128205128205,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 260
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 67
+        }
+      },
+      "headline": {
+        "ap50": 0.7524560643002444,
+        "ap75": 0.552133668814356,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 28,
+          "fragmentation_candidates": 47,
+          "mixed_object_candidates": 79
+        },
+        "f1": 0.1278941565600882,
+        "fn": 3,
+        "fp": 788,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.06855791962174941,
+        "recall": 0.9508196721311475,
+        "tp": 58
+      },
+      "precision_at_matched_recall": {
+        "corrected_B": {
+          "fp": 749,
+          "precision": 0.07187112763320942,
+          "recall": 0.9508196721311475,
+          "threshold": 0.1639142632484436,
+          "tp": 58
+        },
+        "frozen_calibration": {
+          "fp": 295,
+          "precision": 0.15714285714285714,
+          "recall": 0.9016393442622951,
+          "threshold": 0.44277676939964294,
+          "tp": 55
+        },
+        "original": {
+          "fp": 10,
+          "precision": 0.8076923076923077,
+          "recall": 0.6885245901639344,
+          "threshold": 0.8897318243980408,
+          "tp": 42
+        }
+      },
+      "raw_Chair_query_counts": {
+        "0.15": 4855,
+        "0.5": 926,
+        "0.8": 161
+      },
+      "raw_aligned_query_score_quantiles": {
+        "bed": {
+          "0": 4.526457260575429e-18,
+          "0.1": 5.816861638912768e-06,
+          "0.5": 0.0015239884036836295,
+          "0.9": 0.025046644801132435,
+          "0.99": 0.19782306147818118,
+          "1": 0.9864466894709452
+        },
+        "cabinet": {
+          "0": 5.909989951532261e-18,
+          "0.1": 1.0856946905011348e-06,
+          "0.5": 0.00047005522779296763,
+          "0.9": 0.01303726463624836,
+          "0.99": 0.12247095420574274,
+          "1": 0.7444387001947596
+        },
+        "chair": {
+          "0": 1.2583245124975726e-17,
+          "0.1": 9.40287032427836e-06,
+          "0.5": 0.003918066851327154,
+          "0.9": 0.10325462273053818,
+          "0.99": 0.5632222522061439,
+          "1": 0.9835369676731153
+        },
+        "desk": {
+          "0": 1.0224487829607685e-17,
+          "0.1": 2.336010238223096e-06,
+          "0.5": 0.0010643039284612456,
+          "0.9": 0.026130240272849707,
+          "0.99": 0.19650390368939474,
+          "1": 0.9381269620383839
+        },
+        "lamp": {
+          "0": 8.279631972105151e-18,
+          "0.1": 1.2400794499810148e-06,
+          "0.5": 0.0004136591202691225,
+          "0.9": 0.015220290212662855,
+          "0.99": 0.1352676742129973,
+          "1": 0.9046612080591793
+        },
+        "sofa": {
+          "0": 5.486486407860129e-18,
+          "0.1": 2.2749873282172335e-06,
+          "0.5": 0.0011672837727433123,
+          "0.9": 0.026389741305893926,
+          "0.99": 0.25294861808450125,
+          "1": 0.972285300197438
+        },
+        "table": {
+          "0": 6.542161832818146e-18,
+          "0.1": 1.3907630103779677e-06,
+          "0.5": 0.0006357594968034645,
+          "0.9": 0.01767197588934233,
+          "0.99": 0.15592780484522595,
+          "1": 0.8894448260863034
+        }
+      },
+      "thresholds": {
+        "0.15": {
+          "bed": {
+            "fn": 1,
+            "ignored": 0,
+            "precision": 0.06060606060606061,
+            "predictions": 205,
+            "recall": 0.8888888888888888,
+            "scored_FP_area_bins": {
+              "1-5%": 53,
+              "5-20%": 48,
+              "<1%": 15,
+              ">=20%": 8
+            },
+            "scored_fp": 124,
+            "tp": 8,
+            "unknown_unmatched": 73
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 211,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 211
+          },
+          "chair": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": 0.057777777777777775,
+            "predictions": 2130,
+            "recall": 1.0,
+            "scored_FP_area_bins": {
+              "1-5%": 132,
+              "5-20%": 41,
+              "<1%": 449,
+              ">=20%": 14
+            },
+            "scored_fp": 636,
+            "tp": 39,
+            "unknown_unmatched": 1455
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 181,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 181
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 247,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 247
+          },
+          "sofa": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.28205128205128205,
+            "predictions": 246,
+            "recall": 0.8461538461538461,
+            "scored_FP_area_bins": {
+              "1-5%": 13,
+              "5-20%": 3,
+              "<1%": 9,
+              ">=20%": 3
+            },
+            "scored_fp": 28,
+            "tp": 11,
+            "unknown_unmatched": 207
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 60,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 60
+          }
+        },
+        "0.5": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.23333333333333334,
+            "predictions": 43,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {
+              "1-5%": 6,
+              "5-20%": 15,
+              ">=20%": 2
+            },
+            "scored_fp": 23,
+            "tp": 7,
+            "unknown_unmatched": 13
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 57,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 57
+          },
+          "chair": {
+            "fn": 5,
+            "ignored": 0,
+            "precision": 0.13877551020408163,
+            "predictions": 497,
+            "recall": 0.8717948717948718,
+            "scored_FP_area_bins": {
+              "1-5%": 50,
+              "5-20%": 10,
+              "<1%": 150,
+              ">=20%": 1
+            },
+            "scored_fp": 211,
+            "tp": 34,
+            "unknown_unmatched": 252
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 45,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 45
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 52,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 52
+          },
+          "sofa": {
+            "fn": 3,
+            "ignored": 0,
+            "precision": 0.5555555555555556,
+            "predictions": 73,
+            "recall": 0.7692307692307693,
+            "scored_FP_area_bins": {
+              "1-5%": 6,
+              "5-20%": 2
+            },
+            "scored_fp": 8,
+            "tp": 10,
+            "unknown_unmatched": 55
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 29,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 29
+          }
+        },
+        "0.8": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.875,
+            "predictions": 11,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {
+              "5-20%": 1
+            },
+            "scored_fp": 1,
+            "tp": 7,
+            "unknown_unmatched": 3
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "chair": {
+            "fn": 11,
+            "ignored": 0,
+            "precision": 0.417910447761194,
+            "predictions": 103,
+            "recall": 0.717948717948718,
+            "scored_FP_area_bins": {
+              "1-5%": 9,
+              "5-20%": 3,
+              "<1%": 26,
+              ">=20%": 1
+            },
+            "scored_fp": 39,
+            "tp": 28,
+            "unknown_unmatched": 36
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 10,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 10
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 6,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 6
+          },
+          "sofa": {
+            "fn": 3,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 16,
+            "recall": 0.7692307692307693,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 10,
+            "unknown_unmatched": 6
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 7,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 7
+          }
+        }
+      },
+      "unknown_unmatched_at_015": 2434
+    },
+    "frozen_calibration": {
+      "categories": {
+        "bed": {
+          "ap50": 0.7995049504950495,
+          "ap75": 0.6716318953323904,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 61,
+          "mean_matched_iou": 0.8792580454736945,
+          "precision": 0.11594202898550725,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 69
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 267
+        },
+        "chair": {
+          "ap50": 0.6196456761753943,
+          "ap75": 0.39949645231471764,
+          "duplicate_fp": 1,
+          "fn": 4,
+          "fp": 486,
+          "mean_matched_iou": 0.7770192396566916,
+          "precision": 0.0671785028790787,
+          "recall": 0.8974358974358975,
+          "tp": 35,
+          "unknown_unmatched": 2812
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 294
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 468
+        },
+        "sofa": {
+          "ap50": 0.883671990892469,
+          "ap75": 0.7463823305407464,
+          "duplicate_fp": 0,
+          "fn": 1,
+          "fp": 26,
+          "mean_matched_iou": 0.8619708658634212,
+          "precision": 0.3157894736842105,
+          "recall": 0.9230769230769231,
+          "tp": 12,
+          "unknown_unmatched": 322
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 66
+        }
+      },
+      "headline": {
+        "ap50": 0.7676075391876376,
+        "ap75": 0.6058368927292849,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 29,
+          "fragmentation_candidates": 44,
+          "mixed_object_candidates": 61
+        },
+        "f1": 0.15965166908563136,
+        "fn": 6,
+        "fp": 573,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.0875796178343949,
+        "recall": 0.9016393442622951,
+        "tp": 55
+      },
+      "precision_at_matched_recall": {
+        "corrected_B": {
+          "fp": 739,
+          "precision": 0.07277289836888332,
+          "recall": 0.9508196721311475,
+          "threshold": 0.09152288734912872,
+          "tp": 58
+        },
+        "frozen_calibration": {
+          "fp": 419,
+          "precision": 0.1160337552742616,
+          "recall": 0.9016393442622951,
+          "threshold": 0.21746230125427246,
+          "tp": 55
+        },
+        "original": {
+          "fp": 32,
+          "precision": 0.5675675675675675,
+          "recall": 0.6885245901639344,
+          "threshold": 0.7298039197921753,
+          "tp": 42
+        }
+      },
+      "raw_Chair_query_counts": {
+        "0.15": 2714,
+        "0.5": 440,
+        "0.8": 70
+      },
+      "raw_aligned_query_score_quantiles": {
+        "bed": {
+          "0": 3.490723764139475e-18,
+          "0.1": 7.961528190389064e-07,
+          "0.5": 0.0003899241603307946,
+          "0.9": 0.009150949674334063,
+          "0.99": 0.0878800912210783,
+          "1": 0.9751417072888352
+        },
+        "cabinet": {
+          "0": 4.457709220601862e-18,
+          "0.1": 1.7023852989424218e-07,
+          "0.5": 0.00012422778818749726,
+          "0.9": 0.005982355340905815,
+          "0.99": 0.06703508893879437,
+          "1": 0.6315525161692506
+        },
+        "chair": {
+          "0": 9.927128856360513e-18,
+          "0.1": 1.7505205852769663e-06,
+          "0.5": 0.0011799467595796295,
+          "0.9": 0.053589074979976836,
+          "0.99": 0.40950060723015036,
+          "1": 0.9730826318114307
+        },
+        "desk": {
+          "0": 7.865897300057391e-18,
+          "0.1": 3.8765387320397435e-07,
+          "0.5": 0.0002906287472339956,
+          "0.9": 0.011916652903204686,
+          "0.99": 0.11079951237661853,
+          "1": 0.8967191194305638
+        },
+        "lamp": {
+          "0": 6.275571634156894e-18,
+          "0.1": 1.8824405422318766e-07,
+          "0.5": 0.00010788622092202925,
+          "0.9": 0.0070363894955559145,
+          "0.99": 0.08113534779801933,
+          "1": 0.8534529424558844
+        },
+        "sofa": {
+          "0": 4.697461441460894e-18,
+          "0.1": 5.077709242157406e-07,
+          "0.5": 0.00044469913038605206,
+          "0.9": 0.013993158439952498,
+          "0.99": 0.17588420256227885,
+          "1": 0.9641690295149723
+        },
+        "table": {
+          "0": 5.046065611692669e-18,
+          "0.1": 2.427951145584226e-07,
+          "0.5": 0.0001774897396927,
+          "0.9": 0.008332146896915318,
+          "0.99": 0.08941702184721993,
+          "1": 0.8307997479703738
+        }
+      },
+      "thresholds": {
+        "0.15": {
+          "bed": {
+            "fn": 1,
+            "ignored": 0,
+            "precision": 0.11594202898550725,
+            "predictions": 95,
+            "recall": 0.8888888888888888,
+            "scored_FP_area_bins": {
+              "1-5%": 24,
+              "5-20%": 28,
+              "<1%": 4,
+              ">=20%": 5
+            },
+            "scored_fp": 61,
+            "tp": 8,
+            "unknown_unmatched": 26
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 143,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 143
+          },
+          "chair": {
+            "fn": 4,
+            "ignored": 0,
+            "precision": 0.0671785028790787,
+            "predictions": 1370,
+            "recall": 0.8974358974358975,
+            "scored_FP_area_bins": {
+              "1-5%": 105,
+              "5-20%": 30,
+              "<1%": 340,
+              ">=20%": 11
+            },
+            "scored_fp": 486,
+            "tp": 35,
+            "unknown_unmatched": 849
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 95,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 95
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 176,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 176
+          },
+          "sofa": {
+            "fn": 1,
+            "ignored": 0,
+            "precision": 0.3157894736842105,
+            "predictions": 219,
+            "recall": 0.9230769230769231,
+            "scored_FP_area_bins": {
+              "1-5%": 12,
+              "5-20%": 3,
+              "<1%": 8,
+              ">=20%": 3
+            },
+            "scored_fp": 26,
+            "tp": 12,
+            "unknown_unmatched": 181
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 43,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 43
+          }
+        },
+        "0.5": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.4375,
+            "predictions": 21,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {
+              "1-5%": 2,
+              "5-20%": 6,
+              ">=20%": 1
+            },
+            "scored_fp": 9,
+            "tp": 7,
+            "unknown_unmatched": 5
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 31,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 31
+          },
+          "chair": {
+            "fn": 12,
+            "ignored": 0,
+            "precision": 0.1875,
+            "predictions": 257,
+            "recall": 0.6923076923076923,
+            "scored_FP_area_bins": {
+              "1-5%": 30,
+              "5-20%": 6,
+              "<1%": 80,
+              ">=20%": 1
+            },
+            "scored_fp": 117,
+            "tp": 27,
+            "unknown_unmatched": 113
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 24,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 24
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 29,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 29
+          },
+          "sofa": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.7857142857142857,
+            "predictions": 53,
+            "recall": 0.8461538461538461,
+            "scored_FP_area_bins": {
+              "1-5%": 3
+            },
+            "scored_fp": 3,
+            "tp": 11,
+            "unknown_unmatched": 39
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 18,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 18
+          }
+        },
+        "0.8": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 7,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 7,
+            "unknown_unmatched": 0
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "chair": {
+            "fn": 15,
+            "ignored": 0,
+            "precision": 0.6486486486486487,
+            "predictions": 51,
+            "recall": 0.6153846153846154,
+            "scored_FP_area_bins": {
+              "1-5%": 5,
+              "<1%": 8
+            },
+            "scored_fp": 13,
+            "tp": 24,
+            "unknown_unmatched": 14
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 4,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 4
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 3,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 3
+          },
+          "sofa": {
+            "fn": 3,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 15,
+            "recall": 0.7692307692307693,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 10,
+            "unknown_unmatched": 5
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 1,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 1
+          }
+        }
+      },
+      "unknown_unmatched_at_015": 1513
+    },
+    "original": {
+      "categories": {
+        "bed": {
+          "ap50": 0.794059405940594,
+          "ap75": 0.6478076379066479,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 5,
+          "mean_matched_iou": 0.8786225566742453,
+          "precision": 0.5833333333333334,
+          "recall": 0.7777777777777778,
+          "tp": 7,
+          "unknown_unmatched": 59
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 851
+        },
+        "chair": {
+          "ap50": 0.554594786135146,
+          "ap75": 0.3174523448295566,
+          "duplicate_fp": 1,
+          "fn": 15,
+          "fp": 19,
+          "mean_matched_iou": 0.81292981134276,
+          "precision": 0.5581395348837209,
+          "recall": 0.6153846153846154,
+          "tp": 24,
+          "unknown_unmatched": 634
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 934
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 1505
+        },
+        "sofa": {
+          "ap50": 0.900990099009901,
+          "ap75": 0.693069306930693,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 1,
+          "mean_matched_iou": 0.8606409239958919,
+          "precision": 0.9166666666666666,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 264
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 477
+        }
+      },
+      "headline": {
+        "ap50": 0.7498814303618803,
+        "ap75": 0.5527764298889658,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 14,
+          "fragmentation_candidates": 4,
+          "mixed_object_candidates": 15
+        },
+        "f1": 0.65625,
+        "fn": 19,
+        "fp": 25,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.6268656716417911,
+        "recall": 0.6885245901639344,
+        "tp": 42
+      },
+      "precision_at_matched_recall": {
+        "corrected_B": null,
+        "frozen_calibration": null,
+        "original": {
+          "fp": 19,
+          "precision": 0.6885245901639344,
+          "recall": 0.6885245901639344,
+          "threshold": 0.16735556721687317,
+          "tp": 42
+        }
+      },
+      "raw_Chair_query_counts": {
+        "0.15": 82,
+        "0.5": 3,
+        "0.8": 0
+      },
+      "raw_aligned_query_score_quantiles": {
+        "bed": {
+          "0": 2.0227821658119206e-18,
+          "0.1": 8.778720388150218e-09,
+          "0.5": 6.749985708333007e-06,
+          "0.9": 0.0005097089070851165,
+          "0.99": 0.008360349277462492,
+          "1": 0.672371852545472
+        },
+        "cabinet": {
+          "0": 3.276093177264751e-18,
+          "0.1": 2.122952769934807e-08,
+          "0.5": 1.7100934923022872e-05,
+          "0.9": 0.0013915885753453333,
+          "0.99": 0.018143490218728738,
+          "1": 0.32786591365281076
+        },
+        "chair": {
+          "0": 4.5420763052850165e-18,
+          "0.1": 1.8474583655426727e-08,
+          "0.5": 1.3602036346686396e-05,
+          "0.9": 0.0015450852066294096,
+          "0.99": 0.02390669366366878,
+          "1": 0.5353265237197463
+        },
+        "desk": {
+          "0": 5.182328710428711e-18,
+          "0.1": 1.9786451518427542e-08,
+          "0.5": 1.8562561166576856e-05,
+          "0.9": 0.0015640006817093976,
+          "0.99": 0.020140378791929682,
+          "1": 0.5784872395014091
+        },
+        "lamp": {
+          "0": 4.485975433311348e-18,
+          "0.1": 2.04589724850547e-08,
+          "0.5": 1.2754176524577711e-05,
+          "0.9": 0.0014208608384661929,
+          "0.99": 0.02189873733348309,
+          "1": 0.5856735462172101
+        },
+        "sofa": {
+          "0": 2.5062589806728808e-18,
+          "0.1": 4.072090089626397e-09,
+          "0.5": 5.29382148124272e-06,
+          "0.9": 0.000506763125080157,
+          "0.99": 0.011341248355012701,
+          "1": 0.5418968880339906
+        },
+        "table": {
+          "0": 3.4708332002607796e-18,
+          "0.1": 1.7020428053398876e-08,
+          "0.5": 1.5330463424438076e-05,
+          "0.9": 0.0013477703320297534,
+          "0.99": 0.019188873868981306,
+          "1": 0.4801205527630552
+        }
+      },
+      "thresholds": {
+        "0.15": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.5833333333333334,
+            "predictions": 16,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {
+              "1-5%": 1,
+              "5-20%": 4
+            },
+            "scored_fp": 5,
+            "tp": 7,
+            "unknown_unmatched": 4
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 59,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 59
+          },
+          "chair": {
+            "fn": 15,
+            "ignored": 0,
+            "precision": 0.5581395348837209,
+            "predictions": 57,
+            "recall": 0.6153846153846154,
+            "scored_FP_area_bins": {
+              "1-5%": 6,
+              "5-20%": 1,
+              "<1%": 11,
+              ">=20%": 1
+            },
+            "scored_fp": 19,
+            "tp": 24,
+            "unknown_unmatched": 14
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 22,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 22
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 56,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 56
+          },
+          "sofa": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.9166666666666666,
+            "predictions": 41,
+            "recall": 0.8461538461538461,
+            "scored_FP_area_bins": {
+              "1-5%": 1
+            },
+            "scored_fp": 1,
+            "tp": 11,
+            "unknown_unmatched": 29
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 33,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 33
+          }
+        },
+        "0.5": {
+          "bed": {
+            "fn": 4,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 5,
+            "recall": 0.5555555555555556,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 5,
+            "unknown_unmatched": 0
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "chair": {
+            "fn": 36,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 3,
+            "recall": 0.07692307692307693,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 3,
+            "unknown_unmatched": 0
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 2,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 2
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 1,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 1
+          },
+          "sofa": {
+            "fn": 10,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 3,
+            "recall": 0.23076923076923078,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 3,
+            "unknown_unmatched": 0
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          }
+        },
+        "0.8": {
+          "bed": {
+            "fn": 9,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": 0.0,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "chair": {
+            "fn": 39,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": 0.0,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "sofa": {
+            "fn": 13,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": 0.0,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          }
+        }
+      },
+      "unknown_unmatched_at_015": 217
+    },
+    "projection_regularized": {
+      "categories": {
+        "bed": {
+          "ap50": 0.8101592767972449,
+          "ap75": 0.6809544308468114,
+          "duplicate_fp": 0,
+          "fn": 1,
+          "fp": 34,
+          "mean_matched_iou": 0.8790528069587404,
+          "precision": 0.19047619047619047,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 52
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 422
+        },
+        "chair": {
+          "ap50": 0.5625005432663633,
+          "ap75": 0.3619494611260046,
+          "duplicate_fp": 1,
+          "fn": 9,
+          "fp": 247,
+          "mean_matched_iou": 0.8042991894646474,
+          "precision": 0.10830324909747292,
+          "recall": 0.7692307692307693,
+          "tp": 30,
+          "unknown_unmatched": 2274
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 510
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 781
+        },
+        "sofa": {
+          "ap50": 0.8853097979481206,
+          "ap75": 0.5456545654565458,
+          "duplicate_fp": 0,
+          "fn": 1,
+          "fp": 15,
+          "mean_matched_iou": 0.8274750153133373,
+          "precision": 0.4444444444444444,
+          "recall": 0.9230769230769231,
+          "tp": 12,
+          "unknown_unmatched": 321
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 131
+        }
+      },
+      "headline": {
+        "ap50": 0.7526565393372429,
+        "ap75": 0.5295194858097872,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 24,
+          "fragmentation_candidates": 32,
+          "mixed_object_candidates": 42
+        },
+        "f1": 0.2457002457002457,
+        "fn": 11,
+        "fp": 296,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.14450867052023122,
+        "recall": 0.819672131147541,
+        "tp": 50
+      },
+      "precision_at_matched_recall": {
+        "corrected_B": null,
+        "frozen_calibration": null,
+        "original": {
+          "fp": 33,
+          "precision": 0.56,
+          "recall": 0.6885245901639344,
+          "threshold": 0.5471108555793762,
+          "tp": 42
+        }
+      },
+      "raw_Chair_query_counts": {
+        "0.15": 1049,
+        "0.5": 141,
+        "0.8": 26
+      },
+      "raw_aligned_query_score_quantiles": {
+        "bed": {
+          "0": 2.6108633063715827e-18,
+          "0.1": 7.651597521783736e-08,
+          "0.5": 5.9416463857797836e-05,
+          "0.9": 0.0032258903591814523,
+          "0.99": 0.0466220604554755,
+          "1": 0.9561139446003257
+        },
+        "cabinet": {
+          "0": 3.918801929550927e-18,
+          "0.1": 7.155289618699639e-08,
+          "0.5": 5.977321742675912e-05,
+          "0.9": 0.00411392805734834,
+          "0.99": 0.05086289650750421,
+          "1": 0.5923103290445385
+        },
+        "chair": {
+          "0": 6.6984800496445274e-18,
+          "0.1": 2.686206528106518e-07,
+          "0.5": 0.00021382015360231049,
+          "0.9": 0.018820412558502562,
+          "0.99": 0.20878803161962195,
+          "1": 0.9299798282878637
+        },
+        "desk": {
+          "0": 6.4587203505714946e-18,
+          "0.1": 1.0313388475294108e-07,
+          "0.5": 9.753712940009449e-05,
+          "0.9": 0.006704647526955098,
+          "0.99": 0.07574799327896373,
+          "1": 0.8661520829287594
+        },
+        "lamp": {
+          "0": 5.397471645845569e-18,
+          "0.1": 7.564449220158652e-08,
+          "0.5": 4.8421289462041924e-05,
+          "0.9": 0.00460414242316319,
+          "0.99": 0.06302410812125547,
+          "1": 0.83562594234682
+        },
+        "sofa": {
+          "0": 3.475960933188826e-18,
+          "0.1": 5.548475500476767e-08,
+          "0.5": 7.30908982989671e-05,
+          "0.9": 0.004989298505113247,
+          "0.99": 0.09651822806582332,
+          "1": 0.9350756911448965
+        },
+        "table": {
+          "0": 4.232324244335493e-18,
+          "0.1": 7.698996027251251e-08,
+          "0.5": 6.890886255938705e-05,
+          "0.9": 0.005026741561835957,
+          "0.99": 0.06203795068418857,
+          "1": 0.7897676876170603
+        }
+      },
+      "thresholds": {
+        "0.15": {
+          "bed": {
+            "fn": 1,
+            "ignored": 0,
+            "precision": 0.19047619047619047,
+            "predictions": 53,
+            "recall": 0.8888888888888888,
+            "scored_FP_area_bins": {
+              "1-5%": 14,
+              "5-20%": 14,
+              "<1%": 4,
+              ">=20%": 2
+            },
+            "scored_fp": 34,
+            "tp": 8,
+            "unknown_unmatched": 11
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 128,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 128
+          },
+          "chair": {
+            "fn": 9,
+            "ignored": 0,
+            "precision": 0.10830324909747292,
+            "predictions": 556,
+            "recall": 0.7692307692307693,
+            "scored_FP_area_bins": {
+              "1-5%": 57,
+              "5-20%": 17,
+              "<1%": 167,
+              ">=20%": 6
+            },
+            "scored_fp": 247,
+            "tp": 30,
+            "unknown_unmatched": 279
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 90,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 90
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 160,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 160
+          },
+          "sofa": {
+            "fn": 1,
+            "ignored": 0,
+            "precision": 0.4444444444444444,
+            "predictions": 158,
+            "recall": 0.9230769230769231,
+            "scored_FP_area_bins": {
+              "1-5%": 8,
+              "<1%": 6,
+              ">=20%": 1
+            },
+            "scored_fp": 15,
+            "tp": 12,
+            "unknown_unmatched": 131
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 51,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 51
+          }
+        },
+        "0.5": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.5833333333333334,
+            "predictions": 16,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {
+              "1-5%": 1,
+              "5-20%": 3,
+              ">=20%": 1
+            },
+            "scored_fp": 5,
+            "tp": 7,
+            "unknown_unmatched": 4
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 19,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 19
+          },
+          "chair": {
+            "fn": 15,
+            "ignored": 0,
+            "precision": 0.42857142857142855,
+            "predictions": 85,
+            "recall": 0.6153846153846154,
+            "scored_FP_area_bins": {
+              "1-5%": 8,
+              "5-20%": 1,
+              "<1%": 22,
+              ">=20%": 1
+            },
+            "scored_fp": 32,
+            "tp": 24,
+            "unknown_unmatched": 29
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 19,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 19
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 28,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 28
+          },
+          "sofa": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.7857142857142857,
+            "predictions": 43,
+            "recall": 0.8461538461538461,
+            "scored_FP_area_bins": {
+              "1-5%": 3
+            },
+            "scored_fp": 3,
+            "tp": 11,
+            "unknown_unmatched": 29
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 14,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 14
+          }
+        },
+        "0.8": {
+          "bed": {
+            "fn": 3,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 6,
+            "recall": 0.6666666666666666,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 6,
+            "unknown_unmatched": 0
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "chair": {
+            "fn": 20,
+            "ignored": 0,
+            "precision": 0.8636363636363636,
+            "predictions": 25,
+            "recall": 0.48717948717948717,
+            "scored_FP_area_bins": {
+              "1-5%": 1,
+              "<1%": 2
+            },
+            "scored_fp": 3,
+            "tp": 19,
+            "unknown_unmatched": 3
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 2,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 2
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 1,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 1
+          },
+          "sofa": {
+            "fn": 4,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 11,
+            "recall": 0.6923076923076923,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 9,
+            "unknown_unmatched": 2
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          }
+        }
+      },
+      "unknown_unmatched_at_015": 850
+    }
+  },
+  "epochs": [
+    {
+      "endpoint": {
+        "joint_L2": 0.0,
+        "parameter_displacements": {
+          "class_head.dense0.bias": 0.0,
+          "class_head.dense0.weight": 0.0
+        },
+        "unweighted_LSP": 0.0,
+        "update": 0,
+        "weighted_LSP": 0.0
+      },
+      "epoch": 0,
+      "loss_means": {
+        "Chair_negative_classification": 1.1471754651551803e-07,
+        "Chair_positive_classification": 0.35335178626701236,
+        "added_Chair_negative_loss": 1.1471755539925379e-07,
+        "box_loss": 0.443301260471344,
+        "classification_loss": 0.869236013541619,
+        "existing_total_loss": 1.3125372678041458,
+        "legacy_negative_classification": 0.0,
+        "positive_classification": 0.86923590178291,
+        "projection_penalty": 0.0,
+        "total_loss": 1.3125372678041458,
+        "weighted_projection_penalty": 0.0
+      },
+      "photos": 24,
+      "regularizer_gradient_norm": 0.0,
+      "scope": "Fixed24 optimization probes before training",
+      "updates": 0
+    },
+    {
+      "added_Chair_term_occurrences": 294,
+      "endpoint": {
+        "joint_L2": 0.0294587233143265,
+        "parameter_displacements": {
+          "class_head.dense0.bias": 0.0024891598808287215,
+          "class_head.dense0.weight": 0.02935337224915932
+        },
+        "unweighted_LSP": 0.0004339081896550219,
+        "update": 15,
+        "weighted_LSP": 0.03424714048364036
+      },
+      "epoch": 1,
+      "gradient_norm_quantiles": {
+        "data_gradient_norm": {
+          "0": 9.887303017440377,
+          "0.1": 12.379039729840198,
+          "0.5": 20.157288808038867,
+          "0.9": 32.406417295296734,
+          "0.99": 33.36287516390208,
+          "1": 33.39013924045136
+        },
+        "regularization_gradient_norm": {
+          "0": 0.0,
+          "0.1": 0.6163261703247371,
+          "0.5": 1.8296744754572256,
+          "0.9": 2.3332724535365155,
+          "0.99": 2.3493525920451543,
+          "1": 2.349493079909028
+        },
+        "regularization_to_data_ratio": {
+          "0": 0.0,
+          "0.1": 0.021549059601904307,
+          "0.5": 0.08237030806019077,
+          "0.9": 0.18127616240542502,
+          "0.99": 0.23113803953589512,
+          "1": 0.23752580365186865
+        }
+      },
+      "loss_means": {
+        "Chair_negative_classification": 9.55024135721072e-08,
+        "Chair_positive_classification": 0.13751421482854728,
+        "added_Chair_negative_loss": 9.550240505867241e-08,
+        "box_loss": 0.44945685767521293,
+        "classification_loss": 0.405261601500955,
+        "existing_total_loss": 0.8547184570866116,
+        "legacy_negative_classification": 0.0002561006497718015,
+        "positive_classification": 0.40500540503150767,
+        "projection_penalty": 0.00024450945661016506,
+        "total_loss": 0.8740169001837909,
+        "weighted_projection_penalty": 0.01929843743031813
+      },
+      "photos": 59,
+      "protected_violations": 0,
+      "scope": "Means across59 optimization-photo presentations during epoch;endpoint is post-update snapshot",
+      "updates": 15
+    },
+    {
+      "added_Chair_term_occurrences": 292,
+      "endpoint": {
+        "joint_L2": 0.02521538429530538,
+        "parameter_displacements": {
+          "class_head.dense0.bias": 0.0034272274253046926,
+          "class_head.dense0.weight": 0.02498138741813938
+        },
+        "unweighted_LSP": 0.0003179078025799666,
+        "update": 30,
+        "weighted_LSP": 0.025091559540412367
+      },
+      "epoch": 2,
+      "gradient_norm_quantiles": {
+        "data_gradient_norm": {
+          "0": 7.042270058194436,
+          "0.1": 7.818214583862044,
+          "0.5": 11.682746706614473,
+          "0.9": 19.663219221914773,
+          "0.99": 22.638972962351904,
+          "1": 22.70185000842913
+        },
+        "regularization_gradient_norm": {
+          "0": 2.0209701060340426,
+          "0.1": 2.0529644782980827,
+          "0.5": 2.1034401490637253,
+          "0.9": 2.275203419799609,
+          "0.99": 2.3198766663825587,
+          "1": 2.3250934325672916
+        },
+        "regularization_to_data_ratio": {
+          "0": 0.09145441836919582,
+          "0.1": 0.11328680857080663,
+          "0.5": 0.1840849118571723,
+          "0.9": 0.2757896484948711,
+          "0.99": 0.2902440677418474,
+          "1": 0.2908380353034809
+        }
+      },
+      "loss_means": {
+        "Chair_negative_classification": 1.4304202476810367e-06,
+        "Chair_positive_classification": 0.06585065020303542,
+        "added_Chair_negative_loss": 1.4304202494875013e-06,
+        "box_loss": 0.44135473062426356,
+        "classification_loss": 0.23232654206379774,
+        "existing_total_loss": 0.6736812725410624,
+        "legacy_negative_classification": 0.0027731579325903774,
+        "positive_classification": 0.22955195284971447,
+        "projection_penalty": 0.00037044138446355523,
+        "total_loss": 0.7029191562432354,
+        "weighted_projection_penalty": 0.029237887395893114
+      },
+      "photos": 59,
+      "protected_violations": 0,
+      "scope": "Means across59 optimization-photo presentations during epoch;endpoint is post-update snapshot",
+      "updates": 30
+    },
+    {
+      "added_Chair_term_occurrences": 288,
+      "endpoint": {
+        "joint_L2": 0.0229955170271613,
+        "parameter_displacements": {
+          "class_head.dense0.bias": 0.0032957531405761026,
+          "class_head.dense0.weight": 0.022758115356567823
+        },
+        "unweighted_LSP": 0.0002643969016732327,
+        "update": 45,
+        "weighted_LSP": 0.020868096180073216
+      },
+      "epoch": 3,
+      "gradient_norm_quantiles": {
+        "data_gradient_norm": {
+          "0": 2.054235067221867,
+          "0.1": 4.46713295011322,
+          "0.5": 9.338324581552355,
+          "0.9": 14.892140347997298,
+          "0.99": 15.33316506012181,
+          "1": 15.360065325268453
+        },
+        "regularization_gradient_norm": {
+          "0": 1.7986157728301617,
+          "0.1": 1.8050248195724068,
+          "0.5": 1.81472391027502,
+          "0.9": 1.941237445083783,
+          "0.99": 1.9852693775899073,
+          "1": 1.990178725841882
+        },
+        "regularization_to_data_ratio": {
+          "0": 0.1170968830367736,
+          "0.1": 0.1216647434123157,
+          "0.5": 0.19387185258312378,
+          "0.9": 0.41796868174183305,
+          "0.99": 0.8191820051252406,
+          "1": 0.8836624658455859
+        }
+      },
+      "loss_means": {
+        "Chair_negative_classification": 2.6512838279269097e-06,
+        "Chair_positive_classification": 0.037673483593823484,
+        "added_Chair_negative_loss": 2.651283808657954e-06,
+        "box_loss": 0.4439801687406281,
+        "classification_loss": 0.15276755849148593,
+        "existing_total_loss": 0.5967477232975474,
+        "legacy_negative_classification": 0.005381899996329162,
+        "positive_classification": 0.14738300792570522,
+        "projection_penalty": 0.0002745305517514757,
+        "total_loss": 0.6184156501697282,
+        "weighted_projection_penalty": 0.021667917085401084
+      },
+      "photos": 59,
+      "protected_violations": 0,
+      "scope": "Means across59 optimization-photo presentations during epoch;endpoint is post-update snapshot",
+      "updates": 45
+    },
+    {
+      "added_Chair_term_occurrences": 287,
+      "endpoint": {
+        "joint_L2": 0.02276077183495479,
+        "parameter_displacements": {
+          "class_head.dense0.bias": 0.0028583621002755467,
+          "class_head.dense0.weight": 0.022580577951562257
+        },
+        "unweighted_LSP": 0.00025902636726143555,
+        "update": 60,
+        "weighted_LSP": 0.020444215159022956
+      },
+      "epoch": 4,
+      "gradient_norm_quantiles": {
+        "data_gradient_norm": {
+          "0": 0.6039110149456152,
+          "0.1": 3.0781838970365425,
+          "0.5": 8.8106271954006,
+          "0.9": 13.60487803321247,
+          "0.99": 19.047912783153627,
+          "1": 19.85624556423183
+        },
+        "regularization_gradient_norm": {
+          "0": 1.771919482337922,
+          "0.1": 1.7757845552706801,
+          "0.5": 1.81500773588449,
+          "0.9": 1.8431706099148453,
+          "0.99": 1.8510844159238162,
+          "1": 1.852226323378645
+        },
+        "regularization_to_data_ratio": {
+          "0": 0.09140739773857176,
+          "0.1": 0.1327126997451445,
+          "0.5": 0.20773733375700423,
+          "0.9": 0.6304553272828278,
+          "0.99": 2.650791912737869,
+          "1": 2.961026784703433
+        }
+      },
+      "loss_means": {
+        "Chair_negative_classification": 6.323349230244967e-06,
+        "Chair_positive_classification": 0.029830731449044957,
+        "added_Chair_negative_loss": 6.323348730245678e-06,
+        "box_loss": 0.43641738896652804,
+        "classification_loss": 0.14010032171346998,
+        "existing_total_loss": 0.5765177094835346,
+        "legacy_negative_classification": 0.006687144448949119,
+        "positive_classification": 0.1334068517415721,
+        "projection_penalty": 0.00026342626394688196,
+        "total_loss": 0.5973091946314957,
+        "weighted_projection_penalty": 0.020791487421019602
+      },
+      "photos": 59,
+      "protected_violations": 0,
+      "scope": "Means across59 optimization-photo presentations during epoch;endpoint is post-update snapshot",
+      "updates": 60
+    },
+    {
+      "added_Chair_term_occurrences": 282,
+      "endpoint": {
+        "joint_L2": 0.02264240336250206,
+        "parameter_displacements": {
+          "class_head.dense0.bias": 0.002418404597739452,
+          "class_head.dense0.weight": 0.02251287962993356
+        },
+        "unweighted_LSP": 0.00025633921501512237,
+        "update": 75,
+        "weighted_LSP": 0.020232125867614137
+      },
+      "epoch": 5,
+      "gradient_norm_quantiles": {
+        "data_gradient_norm": {
+          "0": 1.0814838275347367,
+          "0.1": 2.8200903010613168,
+          "0.5": 6.962613075994265,
+          "0.9": 16.0014697577049,
+          "0.99": 23.25785767927094,
+          "1": 24.32010015956965
+        },
+        "regularization_gradient_norm": {
+          "0": 1.796443131353638,
+          "0.1": 1.8033449014747323,
+          "0.5": 1.828744700952733,
+          "0.9": 1.8391134673763028,
+          "0.99": 1.8403261299107379,
+          "1": 1.8403404323420522
+        },
+        "regularization_to_data_ratio": {
+          "0": 0.07453616621463312,
+          "0.1": 0.11498278141712226,
+          "0.5": 0.26236359422067723,
+          "0.9": 0.6824214782491675,
+          "0.99": 1.5666307992177428,
+          "1": 1.6909588977593792
+        }
+      },
+      "loss_means": {
+        "Chair_negative_classification": 1.4555812131013562e-05,
+        "Chair_positive_classification": 0.020124896950635,
+        "added_Chair_negative_loss": 1.4555812088636914e-05,
+        "box_loss": 0.4321006831981368,
+        "classification_loss": 0.12994683588094322,
+        "existing_total_loss": 0.5620475213153887,
+        "legacy_negative_classification": 0.009821824982004651,
+        "positive_classification": 0.12011045762168794,
+        "projection_penalty": 0.00026729239656005875,
+        "total_loss": 0.5831441477698794,
+        "weighted_projection_penalty": 0.02109663043234308
+      },
+      "photos": 59,
+      "protected_violations": 0,
+      "scope": "Means across59 optimization-photo presentations during epoch;endpoint is post-update snapshot",
+      "updates": 75
+    }
+  ],
+  "gradient_records": [
+    {
+      "combined_gradient_norm": 33.39013924045136,
+      "data_gradient_norm": 33.39013924045136,
+      "epoch": 1,
+      "regularization_gradient_norm": 0.0,
+      "regularization_to_data_ratio": 0.0,
+      "update": 1
+    },
+    {
+      "combined_gradient_norm": 24.839006797164302,
+      "data_gradient_norm": 24.890473271611484,
+      "epoch": 1,
+      "regularization_gradient_norm": 0.4945342736253461,
+      "regularization_to_data_ratio": 0.019868415848459615,
+      "update": 2
+    },
+    {
+      "combined_gradient_norm": 33.091455509177806,
+      "data_gradient_norm": 33.19539583652794,
+      "epoch": 1,
+      "regularization_gradient_norm": 0.7990140153738237,
+      "regularization_to_data_ratio": 0.024070025232071343,
+      "update": 3
+    },
+    {
+      "combined_gradient_norm": 21.36491125401689,
+      "data_gradient_norm": 21.49285790360181,
+      "epoch": 1,
+      "regularization_gradient_norm": 1.0657730967782706,
+      "regularization_to_data_ratio": 0.049587314146792294,
+      "update": 4
+    },
+    {
+      "combined_gradient_norm": 19.979697432214778,
+      "data_gradient_norm": 20.157288808038867,
+      "epoch": 1,
+      "regularization_gradient_norm": 1.2957230278560152,
+      "regularization_to_data_ratio": 0.06428062028556498,
+      "update": 5
+    },
+    {
+      "combined_gradient_norm": 25.999225438080934,
+      "data_gradient_norm": 26.221447895920605,
+      "epoch": 1,
+      "regularization_gradient_norm": 1.4851586211905252,
+      "regularization_to_data_ratio": 0.05663907756297387,
+      "update": 6
+    },
+    {
+      "combined_gradient_norm": 30.95195729920594,
+      "data_gradient_norm": 31.222949483449927,
+      "epoch": 1,
+      "regularization_gradient_norm": 1.6611748351802231,
+      "regularization_to_data_ratio": 0.05320364868350273,
+      "update": 7
+    },
+    {
+      "combined_gradient_norm": 18.03548956788833,
+      "data_gradient_norm": 18.277700235808805,
+      "epoch": 1,
+      "regularization_gradient_norm": 1.8296744754572256,
+      "regularization_to_data_ratio": 0.10010419537752425,
+      "update": 8
+    },
+    {
+      "combined_gradient_norm": 23.448001035398917,
+      "data_gradient_norm": 23.768442639971013,
+      "epoch": 1,
+      "regularization_gradient_norm": 1.9578139423653864,
+      "regularization_to_data_ratio": 0.08237030806019077,
+      "update": 9
+    },
+    {
+      "combined_gradient_norm": 12.321934942100315,
+      "data_gradient_norm": 12.58251591009608,
+      "epoch": 1,
+      "regularization_gradient_norm": 2.08041872748346,
+      "regularization_to_data_ratio": 0.16534203034976128,
+      "update": 10
+    },
+    {
+      "combined_gradient_norm": 17.38551029351716,
+      "data_gradient_norm": 17.730574209386834,
+      "epoch": 1,
+      "regularization_gradient_norm": 2.169894057635945,
+      "regularization_to_data_ratio": 0.12238148815773661,
+      "update": 11
+    },
+    {
+      "combined_gradient_norm": 16.621952536100142,
+      "data_gradient_norm": 16.94468296775021,
+      "epoch": 1,
+      "regularization_gradient_norm": 2.249356077090075,
+      "regularization_to_data_ratio": 0.13274701458688476,
+      "update": 12
+    },
+    {
+      "combined_gradient_norm": 18.33927987614479,
+      "data_gradient_norm": 18.697512540328653,
+      "epoch": 1,
+      "regularization_gradient_norm": 2.310446741090681,
+      "regularization_to_data_ratio": 0.12356973881457653,
+      "update": 13
+    },
+    {
+      "combined_gradient_norm": 9.68275763029052,
+      "data_gradient_norm": 9.887303017440377,
+      "epoch": 1,
+      "regularization_gradient_norm": 2.3484895951670715,
+      "regularization_to_data_ratio": 0.23752580365186865,
+      "update": 14
+    },
+    {
+      "combined_gradient_norm": 11.869645094182088,
+      "data_gradient_norm": 12.243388943002945,
+      "epoch": 1,
+      "regularization_gradient_norm": 2.349493079909028,
+      "regularization_to_data_ratio": 0.19189891710920084,
+      "update": 15
+    },
+    {
+      "combined_gradient_norm": 10.52644296470526,
+      "data_gradient_norm": 10.830198421044816,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.3250934325672916,
+      "regularization_to_data_ratio": 0.21468613428626215,
+      "update": 16
+    },
+    {
+      "combined_gradient_norm": 13.201155357815352,
+      "data_gradient_norm": 13.65215580734089,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.2878308169620554,
+      "regularization_to_data_ratio": 0.16758018654693846,
+      "update": 17
+    },
+    {
+      "combined_gradient_norm": 13.062402649673864,
+      "data_gradient_norm": 13.545841463518936,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.2562623240559403,
+      "regularization_to_data_ratio": 0.16656494394478236,
+      "update": 18
+    },
+    {
+      "combined_gradient_norm": 15.281524730967961,
+      "data_gradient_norm": 15.778955678684937,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.2316090747618973,
+      "regularization_to_data_ratio": 0.14142945326707995,
+      "update": 19
+    },
+    {
+      "combined_gradient_norm": 8.305964883242472,
+      "data_gradient_norm": 7.710991267721524,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.2099347028245275,
+      "regularization_to_data_ratio": 0.28659540986324167,
+      "update": 20
+    },
+    {
+      "combined_gradient_norm": 11.230381497748429,
+      "data_gradient_norm": 11.682746706614473,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.1718093378704624,
+      "regularization_to_data_ratio": 0.1858988637184815,
+      "update": 21
+    },
+    {
+      "combined_gradient_norm": 9.021181645772742,
+      "data_gradient_norm": 9.38381648743892,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.1375071064207667,
+      "regularization_to_data_ratio": 0.22778654178521196,
+      "update": 22
+    },
+    {
+      "combined_gradient_norm": 21.616094539691872,
+      "data_gradient_norm": 22.252728250734666,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.1034401490637253,
+      "regularization_to_data_ratio": 0.09452504543995773,
+      "update": 23
+    },
+    {
+      "combined_gradient_norm": 13.646800077670083,
+      "data_gradient_norm": 14.219766048915526,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.087295733355013,
+      "regularization_to_data_ratio": 0.1467883315502368,
+      "update": 24
+    },
+    {
+      "combined_gradient_norm": 22.047630635637287,
+      "data_gradient_norm": 22.70185000842913,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.0761844884256093,
+      "regularization_to_data_ratio": 0.09145441836919582,
+      "update": 25
+    },
+    {
+      "combined_gradient_norm": 11.69589400749559,
+      "data_gradient_norm": 12.173154070444424,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.0763717843065423,
+      "regularization_to_data_ratio": 0.1705697448903427,
+      "update": 26
+    },
+    {
+      "combined_gradient_norm": 7.498212787135064,
+      "data_gradient_norm": 7.979049558072825,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.0712097147376545,
+      "regularization_to_data_ratio": 0.25958100644231524,
+      "update": 27
+    },
+    {
+      "combined_gradient_norm": 10.60604406059965,
+      "data_gradient_norm": 11.191418097540508,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.0601712140425072,
+      "regularization_to_data_ratio": 0.1840849118571723,
+      "update": 28
+    },
+    {
+      "combined_gradient_norm": 7.5242815762937445,
+      "data_gradient_norm": 7.042270058194436,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.0481599878018,
+      "regularization_to_data_ratio": 0.2908380353034809,
+      "update": 29
+    },
+    {
+      "combined_gradient_norm": 8.57735234647789,
+      "data_gradient_norm": 9.019789007145366,
+      "epoch": 2,
+      "regularization_gradient_norm": 2.0209701060340426,
+      "regularization_to_data_ratio": 0.22405957660795112,
+      "update": 30
+    },
+    {
+      "combined_gradient_norm": 7.102441734212887,
+      "data_gradient_norm": 7.538644384105,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.990178725841882,
+      "regularization_to_data_ratio": 0.26399689711297597,
+      "update": 31
+    },
+    {
+      "combined_gradient_norm": 4.443270840234664,
+      "data_gradient_norm": 4.765194250031546,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.9551119526134915,
+      "regularization_to_data_ratio": 0.4102900847327574,
+      "update": 32
+    },
+    {
+      "combined_gradient_norm": 10.840151405052934,
+      "data_gradient_norm": 11.511545430547928,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.9204256837892204,
+      "regularization_to_data_ratio": 0.16682605262478747,
+      "update": 33
+    },
+    {
+      "combined_gradient_norm": 4.88350771444475,
+      "data_gradient_norm": 5.295272775325878,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.894042693760938,
+      "regularization_to_data_ratio": 0.35768557619666275,
+      "update": 34
+    },
+    {
+      "combined_gradient_norm": 6.657123056186851,
+      "data_gradient_norm": 6.250280307194997,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.8595425037400357,
+      "regularization_to_data_ratio": 0.29751345737237217,
+      "update": 35
+    },
+    {
+      "combined_gradient_norm": 11.014308984548824,
+      "data_gradient_norm": 11.712490507758844,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.8278810944748556,
+      "regularization_to_data_ratio": 0.1560625464980305,
+      "update": 36
+    },
+    {
+      "combined_gradient_norm": 13.738726450878929,
+      "data_gradient_norm": 14.478470008661722,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.805443590469381,
+      "regularization_to_data_ratio": 0.12469850677518256,
+      "update": 37
+    },
+    {
+      "combined_gradient_norm": 14.566317355705092,
+      "data_gradient_norm": 15.360065325268453,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.7986157728301617,
+      "regularization_to_data_ratio": 0.1170968830367736,
+      "update": 38
+    },
+    {
+      "combined_gradient_norm": 3.8581089494031553,
+      "data_gradient_norm": 4.2684254168343365,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.805918490347026,
+      "regularization_to_data_ratio": 0.4230877464145501,
+      "update": 39
+    },
+    {
+      "combined_gradient_norm": 7.940187499752239,
+      "data_gradient_norm": 8.660309978639459,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.8088886302353233,
+      "regularization_to_data_ratio": 0.20887111831988964,
+      "update": 40
+    },
+    {
+      "combined_gradient_norm": 2.0751038620833997,
+      "data_gradient_norm": 2.054235067221867,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.815250424927748,
+      "regularization_to_data_ratio": 0.8836624658455859,
+      "update": 41
+    },
+    {
+      "combined_gradient_norm": 15.641306818998036,
+      "data_gradient_norm": 15.167920574221016,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.81472391027502,
+      "regularization_to_data_ratio": 0.11964223450373779,
+      "update": 42
+    },
+    {
+      "combined_gradient_norm": 13.35981508331863,
+      "data_gradient_norm": 14.121544526542865,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.8058168835321282,
+      "regularization_to_data_ratio": 0.12787672624180121,
+      "update": 43
+    },
+    {
+      "combined_gradient_norm": 9.996081929548245,
+      "data_gradient_norm": 10.748620670489132,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.804745638974424,
+      "regularization_to_data_ratio": 0.16790485907921585,
+      "update": 44
+    },
+    {
+      "combined_gradient_norm": 8.665426831802211,
+      "data_gradient_norm": 9.338324581552355,
+      "epoch": 3,
+      "regularization_gradient_norm": 1.8104382866480793,
+      "regularization_to_data_ratio": 0.19387185258312378,
+      "update": 45
+    },
+    {
+      "combined_gradient_norm": 10.163069782343209,
+      "data_gradient_norm": 10.939598946857709,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.8149709016649105,
+      "regularization_to_data_ratio": 0.16590835829372363,
+      "update": 46
+    },
+    {
+      "combined_gradient_norm": 6.944419299768491,
+      "data_gradient_norm": 7.622527878052898,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.8207374282474402,
+      "regularization_to_data_ratio": 0.23886267880892686,
+      "update": 47
+    },
+    {
+      "combined_gradient_norm": 12.065424954496224,
+      "data_gradient_norm": 12.866385836590144,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.8271217979154384,
+      "regularization_to_data_ratio": 0.14200738428964005,
+      "update": 48
+    },
+    {
+      "combined_gradient_norm": 2.318642201711428,
+      "data_gradient_norm": 2.4750508588848446,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.8440698415584404,
+      "regularization_to_data_ratio": 0.7450634135208446,
+      "update": 49
+    },
+    {
+      "combined_gradient_norm": 13.680743077955865,
+      "data_gradient_norm": 12.888535105378441,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.852226323378645,
+      "regularization_to_data_ratio": 0.1437111594323627,
+      "update": 50
+    },
+    {
+      "combined_gradient_norm": 7.189750968649165,
+      "data_gradient_norm": 7.889749369256374,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.8418217624494524,
+      "regularization_to_data_ratio": 0.23344490125711662,
+      "update": 51
+    },
+    {
+      "combined_gradient_norm": 8.253605272938636,
+      "data_gradient_norm": 8.8106271954006,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.8338751213460955,
+      "regularization_to_data_ratio": 0.20814353855573764,
+      "update": 52
+    },
+    {
+      "combined_gradient_norm": 3.5773341080691807,
+      "data_gradient_norm": 3.9828834542640887,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.8263241160840238,
+      "regularization_to_data_ratio": 0.45854319792580295,
+      "update": 53
+    },
+    {
+      "combined_gradient_norm": 20.450724339233826,
+      "data_gradient_norm": 19.85624556423183,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.81500773588449,
+      "regularization_to_data_ratio": 0.09140739773857176,
+      "update": 54
+    },
+    {
+      "combined_gradient_norm": 8.403003516446867,
+      "data_gradient_norm": 9.265075820772218,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.7959014842282262,
+      "regularization_to_data_ratio": 0.19383559497719716,
+      "update": 55
+    },
+    {
+      "combined_gradient_norm": 13.17949524961637,
+      "data_gradient_norm": 14.082439985101823,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.7816574045696272,
+      "regularization_to_data_ratio": 0.12651624338214745,
+      "update": 56
+    },
+    {
+      "combined_gradient_norm": 7.7240032517963195,
+      "data_gradient_norm": 8.544071693704202,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.7749226730788024,
+      "regularization_to_data_ratio": 0.20773733375700423,
+      "update": 57
+    },
+    {
+      "combined_gradient_norm": 8.928063489808006,
+      "data_gradient_norm": 9.772269196980067,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.771919482337922,
+      "regularization_to_data_ratio": 0.18132119026003704,
+      "update": 58
+    },
+    {
+      "combined_gradient_norm": 5.362154929385397,
+      "data_gradient_norm": 6.051688815521925,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.777077378558497,
+      "regularization_to_data_ratio": 0.29364982779690957,
+      "update": 59
+    },
+    {
+      "combined_gradient_norm": 1.566360594341571,
+      "data_gradient_norm": 0.6039110149456152,
+      "epoch": 4,
+      "regularization_gradient_norm": 1.7881966908314018,
+      "regularization_to_data_ratio": 2.961026784703433,
+      "update": 60
+    },
+    {
+      "combined_gradient_norm": 7.1996991885688555,
+      "data_gradient_norm": 7.925008424192518,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.796443131353638,
+      "regularization_to_data_ratio": 0.22668028034767398,
+      "update": 61
+    },
+    {
+      "combined_gradient_norm": 2.1190812102026846,
+      "data_gradient_norm": 2.2546881947154533,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8102915212896562,
+      "regularization_to_data_ratio": 0.8029010510334086,
+      "update": 62
+    },
+    {
+      "combined_gradient_norm": 6.153447040629058,
+      "data_gradient_norm": 7.041567618087633,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8198025378109761,
+      "regularization_to_data_ratio": 0.25843713168875354,
+      "update": 63
+    },
+    {
+      "combined_gradient_norm": 3.981993259065843,
+      "data_gradient_norm": 4.617455999496916,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8309978319414595,
+      "regularization_to_data_ratio": 0.39653823060597687,
+      "update": 64
+    },
+    {
+      "combined_gradient_norm": 5.122386821122267,
+      "data_gradient_norm": 5.75259613543483,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8374262602631894,
+      "regularization_to_data_ratio": 0.3194081797164614,
+      "update": 65
+    },
+    {
+      "combined_gradient_norm": 6.583740254516537,
+      "data_gradient_norm": 7.280191616877714,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8402382721183783,
+      "regularization_to_data_ratio": 0.25277332918712503,
+      "update": 66
+    },
+    {
+      "combined_gradient_norm": 3.071174761656363,
+      "data_gradient_norm": 3.668193460580112,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8403404323420522,
+      "regularization_to_data_ratio": 0.5017021190728062,
+      "update": 67
+    },
+    {
+      "combined_gradient_norm": 15.767186456402843,
+      "data_gradient_norm": 16.73265387172174,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8338559854311167,
+      "regularization_to_data_ratio": 0.10959743741130876,
+      "update": 68
+    },
+    {
+      "combined_gradient_norm": 7.015457553777054,
+      "data_gradient_norm": 7.878281688278381,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8351539217116948,
+      "regularization_to_data_ratio": 0.2329383480210043,
+      "update": 69
+    },
+    {
+      "combined_gradient_norm": 15.549521327435366,
+      "data_gradient_norm": 14.90469358667964,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8341834781646373,
+      "regularization_to_data_ratio": 0.12306079742584251,
+      "update": 70
+    },
+    {
+      "combined_gradient_norm": 6.077076277591501,
+      "data_gradient_norm": 6.962613075994265,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8267361917857408,
+      "regularization_to_data_ratio": 0.26236359422067723,
+      "update": 71
+    },
+    {
+      "combined_gradient_norm": 1.5732910074660988,
+      "data_gradient_norm": 1.0814838275347367,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.828744700952733,
+      "regularization_to_data_ratio": 1.6909588977593792,
+      "update": 72
+    },
+    {
+      "combined_gradient_norm": 4.779459465311807,
+      "data_gradient_norm": 5.604392477396007,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.8202955750982446,
+      "regularization_to_data_ratio": 0.3247980191323104,
+      "update": 73
+    },
+    {
+      "combined_gradient_norm": 24.76714765377293,
+      "data_gradient_norm": 24.32010015956965,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.812727027850209,
+      "regularization_to_data_ratio": 0.07453616621463312,
+      "update": 74
+    },
+    {
+      "combined_gradient_norm": 6.948348239573202,
+      "data_gradient_norm": 6.844284369862732,
+      "epoch": 5,
+      "regularization_gradient_norm": 1.7987138215981164,
+      "regularization_to_data_ratio": 0.26280524367432023,
+      "update": 75
+    }
+  ],
+  "logit_drift_vs_original": {
+    "corrected_B": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 4.4592026086233085,
+      "common_mean": 4.2529433009285285,
+      "common_mode_fraction_squared_delta": 0.9544677345734228,
+      "common_mode_shift_quantiles": {
+        "0": 0.6219978332519531,
+        "0.1": 2.5023507118225097,
+        "0.5": 4.222805414881025,
+        "0.9": 6.046971505028861,
+        "0.99": 7.317758015223904,
+        "1": 9.35773059300014
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 5.234718883229986,
+        "cabinet": 3.1725915067952926,
+        "chair": 5.422518171422861,
+        "desk": 3.886242640671732,
+        "lamp": 3.29427766346839,
+        "sofa": 5.18727061433687,
+        "table": 3.5729836265745707
+      },
+      "semantic_residual_RMS": 0.9739489841677121
+    },
+    "frozen_calibration": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 3.128431384244021,
+      "common_mean": 3.011034903365643,
+      "common_mode_fraction_squared_delta": 0.9032465475249832,
+      "common_mode_shift_quantiles": {
+        "0": 0.4150270734514509,
+        "0.1": 1.9417592593601773,
+        "0.5": 2.9826085567474365,
+        "0.9": 4.139381088529315,
+        "0.99": 4.988118901252744,
+        "1": 6.499213899884905
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 3.8362226501724286,
+        "cabinet": 1.8653638930554906,
+        "chair": 4.2479853308714866,
+        "desk": 2.606196534579616,
+        "lamp": 2.001496741679267,
+        "sofa": 4.20103761428994,
+        "table": 2.318941558911273
+      },
+      "semantic_residual_RMS": 1.023898046558813
+    },
+    "projection_regularized": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 1.8553653709814388,
+      "common_mean": 1.8213501871619568,
+      "common_mode_fraction_squared_delta": 0.9158148026760233,
+      "common_mode_shift_quantiles": {
+        "0": 0.2110121590750558,
+        "0.1": 1.4240074702671597,
+        "0.5": 1.81036308833531,
+        "0.9": 2.2687141554696217,
+        "0.99": 2.6114881719861702,
+        "1": 3.1099282673427036
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 2.0713250409315576,
+        "cabinet": 1.1945465924383933,
+        "chair": 2.661273741017393,
+        "desk": 1.5922692376744392,
+        "lamp": 1.2754496950975704,
+        "sofa": 2.5142592642465162,
+        "table": 1.4403277387278297
+      },
+      "semantic_residual_RMS": 0.5625271447686943
+    }
+  },
+  "negative_training_diagnostics": {
+    "protected_violations": 0,
+    "score_quantiles": {
+      "0": 9.640143774110972e-11,
+      "0.1": 4.114290543677951e-05,
+      "0.5": 0.0007264875213164841,
+      "0.9": 0.0065540990885532766,
+      "0.99": 0.022130263691104612,
+      "1": 0.12326005134924531
+    },
+    "term_occurrences": 1443,
+    "terms_at_least015": 0,
+    "terms_at_least05": 0
+  },
+  "paired_uncertainty": {
+    "caveat": "Exploratory paired known-source-group bootstrap of fixed-threshold counts on the exposed partial-label panel;does not repair incomplete annotations or prove population performance/causal significance",
+    "comparisons": {
+      "corrected_B": {
+        "precision_delta_95_percentile_interval": [
+          0.03266699079570335,
+          0.21569043008585154
+        ],
+        "precision_valid_resamples": 2000,
+        "recall_delta_95_percentile_interval": [
+          -0.29034299714169054,
+          0.023824041811846636
+        ],
+        "recall_valid_resamples": 2000
+      },
+      "frozen_calibration": {
+        "precision_delta_95_percentile_interval": [
+          0.02768402667201364,
+          0.14056532965088958
+        ],
+        "precision_valid_resamples": 2000,
+        "recall_delta_95_percentile_interval": [
+          -0.1460674157303371,
+          0.0
+        ],
+        "recall_valid_resamples": 2000
+      },
+      "original": {
+        "precision_delta_95_percentile_interval": [
+          -0.649527067746581,
+          -0.34670738298378073
+        ],
+        "precision_valid_resamples": 2000,
+        "recall_delta_95_percentile_interval": [
+          0.022727272727272707,
+          0.2328767123287671
+        ],
+        "recall_valid_resamples": 2000
+      }
+    },
+    "known_source_groups": 19,
+    "resamples": 2000,
+    "seed": 6106
+  },
+  "projection_parameter_drift": {
+    "corrected_B": {
+      "class_head.dense0.bias": {
+        "L2": 0.005840462968350684,
+        "max_abs": 0.0004585646092891693,
+        "relative_L2": 0.058092256568576556,
+        "tensor_sha256": "9a7d4938985f4006b55ee69c36fc859e2595c8a5c17f4787ad6c953c49455efc"
+      },
+      "class_head.dense0.weight": {
+        "L2": 0.14520893152082318,
+        "max_abs": 0.0005401168018579483,
+        "relative_L2": 0.014968295427839772,
+        "tensor_sha256": "d9086e8b18e429e4d1e99420c6fa926e27c7f9bb349c1783dad23155e9696e02"
+      },
+      "joint_L2": 0.14532633897922217
+    },
+    "frozen_calibration": {
+      "class_head.dense0.bias": {
+        "L2": 0.006170257945540215,
+        "max_abs": 0.0004498441703617573,
+        "relative_L2": 0.06137256748463607,
+        "tensor_sha256": "60d8430614bbd1e093ba2664ce36c569cbe7b3ac1386388e0cf0cd3998b2dfb5"
+      },
+      "class_head.dense0.weight": {
+        "L2": 0.14573774306205836,
+        "max_abs": 0.0005395859479904175,
+        "relative_L2": 0.015022805899695454,
+        "tensor_sha256": "2ae044b5b1bd134ab3260a40121ed72e4fe49e1ed6ccd9f4c9876dad57d0efe4"
+      },
+      "joint_L2": 0.14586830305428608
+    },
+    "projection_regularized": {
+      "class_head.dense0.bias": {
+        "L2": 0.002418404597739452,
+        "max_abs": 0.00045624934136867523,
+        "relative_L2": 0.024054699283228096,
+        "tensor_sha256": "da93ae579bf886745f02d130827f77efa237ba0465b4a6b01e369253ef480db2"
+      },
+      "class_head.dense0.weight": {
+        "L2": 0.02251287962993356,
+        "max_abs": 0.0005130948738951702,
+        "relative_L2": 0.0023206522470962353,
+        "tensor_sha256": "522c79e1d220ac5e4b361c58746612cb75a033bfaa7885f9a1258b4451d1cebd"
+      },
+      "joint_L2": 0.02264240336250206
+    }
+  },
+  "protocol": {
+    "AP": "101-point macro over3 supported classes",
+    "AP_floor": 0.001,
+    "Chair_stool_native_taxonomy_limit_retained": true,
+    "FP_complete_photo_counts": {
+      "bed": 5,
+      "cabinet": 0,
+      "chair": 4,
+      "desk": 0,
+      "lamp": 0,
+      "sofa": 1,
+      "table": 0
+    },
+    "GT": 61,
+    "NMS": 0.5,
+    "all_comparison_manifests_match": true,
+    "cap": 300,
+    "confidence": 0.15,
+    "independent_verified_accuracy": false,
+    "internal_photos": 19,
+    "known_source_groups": 19,
+    "reserved_or_frozen_scored": false,
+    "supported_classes": [
+      "chair",
+      "sofa",
+      "bed"
+    ],
+    "unknown_unmatched_are_not_confirmed_mistakes": true,
+    "unsupported_classes": [
+      "table",
+      "desk",
+      "cabinet",
+      "lamp"
+    ]
+  },
+  "queue": {
+    "additional_training_authorized": false,
+    "experiment_count": 1,
+    "seconds": 224.59310925297905,
+    "updates": 75
+  },
+  "resource": {
+    "another_experiment_authorized": false,
+    "calibration_unchanged": true,
+    "epochs": 5,
+    "final_checkpoint": {
+      "file": "checkpoints/update-075-4972103e1d39.pt",
+      "sha256": "f74aba1fd4d44a33ffa0caed150db182ad37f50000c94b83fedceda6fc7fd994",
+      "updates": 75
+    },
+    "forwards": 467,
+    "frozen_sha256": "8f41ed451288568ab05b523dd6a352cb73ab0becacc75a34fb45e67eda35f006",
+    "original_backbone_sha256": "224b9eeaffa0b9086a31b7d5a3cc4ac62467d4dcdabe4211dbfa8502755f9e31",
+    "peak_allocated_bytes": 2026482176,
+    "peak_device_used_bytes": 3610771456,
+    "peak_reserved_bytes": 2325741568,
+    "projection_preservation": {
+      "accumulation": "Average existing+weighted_penalty per microbatch; each optimizer group contributes penalty once including final3",
+      "enabled": true,
+      "form": "half_squared_L2_sum",
+      "frozen_calibration_keys": [
+        "class_head.logit_scale.bias",
+        "class_head.logit_scale.weight",
+        "class_head.logit_shift.bias",
+        "class_head.logit_shift.weight"
+      ],
+      "lambda_value": 78.92715855598048,
+      "reference_hashes": {
+        "class_head.dense0.bias": "0ccca625f1cfed8c5e59577d450ed29a4e36af53d14db57b568536a91e33c37f",
+        "class_head.dense0.weight": "811fc56b1ea98acce237fc1b921c3d681e483feed625f38c173316f0cb54c37f"
+      },
+      "scalars": 393728,
+      "schema": "phase10c12-projection-preservation-v1",
+      "selected_keys": [
+        "class_head.dense0.weight",
+        "class_head.dense0.bias"
+      ]
+    },
+    "seconds": 220.9194074549887,
+    "training_backwards": 295,
+    "updates": 75
+  }
+}

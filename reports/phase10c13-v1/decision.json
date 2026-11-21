@@ -1,0 +1,19 @@
+{
+  "Chair_TPs_lost_vs_C11": 5,
+  "Phase10D": false,
+  "Sofa_AP75_regression": true,
+  "classification": "B",
+  "fixed_threshold_precision_increased": true,
+  "independent_verified_success": false,
+  "lambda_adjusted_after_results": false,
+  "matched_recall_precision_improved_vs_C11": false,
+  "name": "Over-regularized under exposed internal protocol",
+  "next_action": "Separately authorize a training-only audit of saved high-confidence queries for source-supported Chair-negative supervision before preparing another controlled hard-negative experiment",
+  "next_training_started": false,
+  "production_replaced": false,
+  "projection_drift_reduced": true,
+  "provisional": true,
+  "regularization_globally_dominates_data_gradient": false,
+  "shared_inflation_reduced": true,
+  "updates_regularization_norm_exceeds_data": 2
+}

@@ -1,0 +1,36 @@
+{
+  "C11_preservation": {
+    "C11_final_checkpoint_sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "C11_private_files": 626,
+    "C11_public_files": 31,
+    "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+  },
+  "C12_private_files": 13,
+  "C12_public_files": 27,
+  "C8_private_files": 1310,
+  "Phase10D": false,
+  "decimal_representation": {
+    "effective_FP32": 78.92716217041016,
+    "loss_and_gradient_FP32_identical": true,
+    "not_a_hyperparameter_change": true,
+    "prepared_full_precision": 78.92715855598048,
+    "user_authorized": 78.92715856
+  },
+  "development_rows_sha256": "918e97671b214b0a902e31a058763188d24ad0adaf50aa338a43dd2115b30c43",
+  "implementation_difference_from_prepared_C12": "None;execute original sealed launch12.py/future_worker12.py/objective12.py",
+  "intentional_optimization_difference_from_C11": "Only implemented L2-SP on class_head.dense0.weight+bias;4 calibration tensors frozen;eight trainable tensors unchanged",
+  "internal_development_photos": 19,
+  "known_source_groups": 56,
+  "manifest_sha256": "ec55e01d968b584819c790de2c2a843bd87d9af960642601d65187807800b937",
+  "new_source_annotations": 0,
+  "original_heads_match_C11_initialization": true,
+  "parent_commit": "423dfd0de60b685dccff271c97fe89fa53549412",
+  "positive_boxes": 182,
+  "reporting_differences": [
+    "C12 prepared diagnostic logging additionally partitions projection regularizer/data gradients and stores objective/reference metadata",
+    "Epoch2/4 summaries use already recorded training updates and snapshots;no extra model forwards"
+  ],
+  "status": "PASS",
+  "train_photos": 59,
+  "training_rows_sha256": "f6e440afc30115654d9818234d2955c2ce37e08ef46a3f875ec66bd8e1304a91"
+}
