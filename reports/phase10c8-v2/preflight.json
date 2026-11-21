@@ -1,0 +1,16 @@
+{
+  "internal_dev_photos": 19,
+  "model_files_verified": 9,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "positive_boxes": 182,
+  "same_initialization_and_settings": true,
+  "seven_categories_unchanged": true,
+  "sole_intentional_difference": "Chair-negative mask policy",
+  "source_evidence_validated": true,
+  "source_regions": 41,
+  "status": "PASS",
+  "stools_policy_sha256": "cf6def5362a3bf2a1365243d7a5360daf7109696e320c994824e8242ea0393d9",
+  "train_groups": 56,
+  "train_photos": 59,
+  "validation_never_optimization": true
+}

@@ -1,0 +1,8 @@
+{
+  "all_checkpoints_remain_local": true,
+  "failed_zero_update_v1_attempt_preserved": true,
+  "private_seal_path": "data/open-images/experiments/phase10c8-ab-v2/ARTIFACT-SHA256SUMS",
+  "private_seal_sha256": "b7aa9daede9119b0e34b61e14c2bc7d8639c406b8385f45f0c794cc70e0f25e9",
+  "sealed_files": 1310,
+  "sealed_logical_bytes": 2937478052
+}

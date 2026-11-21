@@ -1,0 +1,33 @@
+{
+  "categories": {
+    "bed": {
+      "A_only_TP_IoUs": [],
+      "B_only_TP_IoUs": [],
+      "common_TP_instances": 8,
+      "common_TP_mean_IoU_A": 0.879487381396286,
+      "common_TP_mean_IoU_B": 0.8798944982916397,
+      "delta": 0.00040711689535366524
+    },
+    "chair": {
+      "A_only_TP_IoUs": [],
+      "B_only_TP_IoUs": [
+        0.739720772810018
+      ],
+      "common_TP_instances": 38,
+      "common_TP_mean_IoU_A": 0.7742777956716633,
+      "common_TP_mean_IoU_B": 0.7704310265176282,
+      "delta": -0.0038467691540351456
+    },
+    "sofa": {
+      "A_only_TP_IoUs": [],
+      "B_only_TP_IoUs": [
+        0.5081739831789632
+      ],
+      "common_TP_instances": 10,
+      "common_TP_mean_IoU_A": 0.8738323454209149,
+      "common_TP_mean_IoU_B": 0.8733086624736306,
+      "delta": -0.0005236829472843318
+    }
+  },
+  "scope": "Same GT instances matched at confidence0.15 IoU0.5 on19internal photos"
+}

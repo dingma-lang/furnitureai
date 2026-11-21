@@ -1,0 +1,44 @@
+{
+  "extra_evidence_seals": [
+    {
+      "checked": 14,
+      "seal": "data/open-images/preparation/phase10c5-v1/INITIAL-SHA256SUMS",
+      "sha256": "37b1c8adc9517935f1868863432a84f3bc054708ac2ad38d1fef832de4733cc4"
+    },
+    {
+      "checked": 9,
+      "seal": "data/open-images/preparation/phase10c5-v2/INITIAL-SHA256SUMS",
+      "sha256": "02ad8b7b6a9e70d13db4abbbdcab772edb6f6869f26c7ffdd7ba9247905dc019"
+    },
+    {
+      "checked": 480,
+      "seal": "data/open-images/preparation/phase10c6-v1/INITIAL-SHA256SUMS",
+      "sha256": "71c6dbdec2f36d181cf747ba723d14d51afa3fbd4f9fa02e8d01ee132521c9a6"
+    },
+    {
+      "checked": 116,
+      "seal": "data/open-images/experiments/phase10c7-query-smoke-v1/SHA256SUMS",
+      "sha256": "84e52ee877d2af895483ac1d54d30bac9315029153e95452f1507f2b48a6b9a3"
+    }
+  ],
+  "historical": {
+    "GPU_model_forwards": 0,
+    "Mac_project_modified": false,
+    "annotation_overlays_activated": 0,
+    "datasets_or_models_downloaded": 0,
+    "eligible_image_hashes": 78,
+    "historical_data_model_files": 9973,
+    "historical_data_modified": false,
+    "historical_implementation_files": 27,
+    "phase10b_report_artifacts": 24,
+    "phase10b_snapshots": 160,
+    "reserved_or_frozen_images_decoded": 0,
+    "source_group_isolation": true,
+    "status": "PASS",
+    "training_updates": 0
+  },
+  "main_commit": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "private_images_uploaded": false,
+  "source_binding_reverified": true,
+  "status": "PASS"
+}

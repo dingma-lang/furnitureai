@@ -1,0 +1,104 @@
+{
+  "A-control": {
+    "accumulation": 4,
+    "arm": "A-control",
+    "base_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "batch_size": 1,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "frozen": "vision/text/objectness/all remaining parameters",
+    "gradient_clip_norm": 1.0,
+    "initialization": "original OWLv2",
+    "last_group_normalization": "actual group size3",
+    "learning_rate": 1e-05,
+    "loss_coefficients": {
+      "GIoU": 2,
+      "L1": 5,
+      "alpha": 0.25,
+      "classification": 1,
+      "gamma": 2
+    },
+    "max_epochs": 5,
+    "max_updates": 75,
+    "negative_policy": "legacy_Phase10B",
+    "nonfinite_policy": "stop arm immediately, no replay or loss-weight tuning",
+    "optimizer": "AdamW",
+    "precision": "FP16 autocast; FP32 loss/weights",
+    "probe_epochs": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "probe_objective": "actual current GradScaler scale; autograd.grad on additional-negative and used classification loss; no probe optimizer updates",
+    "probe_photos": "exact24 C7 source photos",
+    "scaler_growth_interval": 2000,
+    "scaler_init": 128,
+    "seed": 6106,
+    "snapshots": "after every committed optimizer update; unique immutable filenames",
+    "source_configuration": null,
+    "trainable": "same12 class_head/box_head tensors",
+    "weight_decay": 0.01
+  },
+  "B-corrected": {
+    "accumulation": 4,
+    "arm": "B-corrected",
+    "base_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "batch_size": 1,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "frozen": "vision/text/objectness/all remaining parameters",
+    "gradient_clip_norm": 1.0,
+    "initialization": "original OWLv2",
+    "last_group_normalization": "actual group size3",
+    "learning_rate": 1e-05,
+    "loss_coefficients": {
+      "GIoU": 2,
+      "L1": 5,
+      "alpha": 0.25,
+      "classification": 1,
+      "gamma": 2
+    },
+    "max_epochs": 5,
+    "max_updates": 75,
+    "negative_policy": "source_polygon_visible_Chair_negative",
+    "nonfinite_policy": "stop arm immediately, no replay or loss-weight tuning",
+    "optimizer": "AdamW",
+    "precision": "FP16 autocast; FP32 loss/weights",
+    "probe_epochs": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "probe_objective": "actual current GradScaler scale; autograd.grad on additional-negative and used classification loss; no probe optimizer updates",
+    "probe_photos": "exact24 C7 source photos",
+    "scaler_growth_interval": 2000,
+    "scaler_init": 128,
+    "seed": 6106,
+    "snapshots": "after every committed optimizer update; unique immutable filenames",
+    "source_configuration": {
+      "approval_reference": "User Phase10C.8 matched A/B training authorization",
+      "approved": true,
+      "enabled": true,
+      "evidence_sha256": "b89b0a2fd7b24988dc0c2e95de6249cd8c87ae418ae9727814c003c1be7f93e2",
+      "legacy_loss": {
+        "GIoU": 2,
+        "L1": 5,
+        "alpha": 0.25,
+        "classification": 1,
+        "gamma": 2
+      },
+      "manifest_sha256": "14dc82bb002903defcefeac14d506362cacacca0c6675793a7062356e2d57cdd",
+      "mode": "source_polygon_negative_v1"
+    },
+    "trainable": "same12 class_head/box_head tensors",
+    "weight_decay": 0.01
+  }
+}

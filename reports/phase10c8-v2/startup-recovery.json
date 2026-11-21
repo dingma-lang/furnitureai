@@ -1,0 +1,11 @@
+{
+  "correction": "Explicit local module path plus isolated-process import regression test",
+  "environment_changed": false,
+  "failed_forwards": 0,
+  "failed_optimizer_updates": 0,
+  "failed_output": "data/open-images/experiments/phase10c8-ab-v1/",
+  "failure": "Standalone worker import path omitted tools/phase10a-v1",
+  "failure_record_preserved": true,
+  "no_training_replay": true,
+  "successful_preflight_output": "data/open-images/experiments/phase10c8-ab-v2/"
+}

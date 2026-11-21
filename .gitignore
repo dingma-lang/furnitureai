@@ -108,6 +108,13 @@
 !/reports/phase10c7-v1/execution-provenance.json
 !/reports/phase10c7-v1/preservation.json
 !/reports/phase10c7-v1/tests.json
+!/reports/phase10c8-v2/
+/reports/phase10c8-v2/*
+!/reports/phase10c8-v2/*.md
+!/reports/phase10c8-v2/*.json
+!/reports/phase10c8-v2/*.csv
+!/reports/phase10c8-v2/*.svg
+!/reports/phase10c8-v2/SHA256SUMS
 
 # Private machine configuration and credentials.
 /.aws/
