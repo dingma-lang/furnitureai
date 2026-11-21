@@ -1,0 +1,13 @@
+{
+  "C8_private": 1310,
+  "C8_public": 32,
+  "C9_private": 51,
+  "C9_public": 45,
+  "Phase10D_authorized": false,
+  "development_diagnostic_photos": 19,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "positive_boxes": 182,
+  "status": "PASS",
+  "training_authorized": false,
+  "training_photos": 59
+}

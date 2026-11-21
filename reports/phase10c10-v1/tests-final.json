@@ -1,0 +1,33 @@
+{
+  "CUDA_initialized": false,
+  "disabled_v3_code_pins_valid": true,
+  "initial_fixture_errors": "Two initial CPU test fixtures were corrected: identical synthetic frozen-backbone initialization on restore, and named optimizer groups matching Torch requirements. No real model/GPU run failed or was retried.",
+  "old_config_drafts_preserved": true,
+  "passed": 119,
+  "pretrained_model_optimizer_updates": 0,
+  "real_photograph_model_forwards": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "log_sha256": "68e15d952d452d4dda87f41c941468b66d3b6a4ac944c8999e69df259cc0ea24",
+      "passed": 40,
+      "suite": "phase10c10-v1"
+    },
+    {
+      "log_sha256": "5e3908c5e2d597d008b84c7a4eaef84620e120cf13caebbc804dddd11fccdbd6",
+      "passed": 16,
+      "suite": "phase10c8-v1"
+    },
+    {
+      "log_sha256": "994eb5a8a711cf14e29f2889c11e0cba0b76b7c162d61a81a61f91b63d3c753c",
+      "passed": 31,
+      "suite": "phase10c6-v1"
+    },
+    {
+      "log_sha256": "14f5956be56fa07a948c49af095b287b707ce4323306f3d33c70cd978690d7e4",
+      "passed": 32,
+      "suite": "phase10a-v1"
+    }
+  ],
+  "synthetic_full_75_update_test": true
+}

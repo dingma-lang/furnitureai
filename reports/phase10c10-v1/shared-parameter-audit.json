@@ -1,0 +1,154 @@
+{
+  "C8_original_non_head_frozen_hashes": {
+    "A-control": "224b9eeaffa0b9086a31b7d5a3cc4ac62467d4dcdabe4211dbfa8502755f9e31",
+    "B-corrected": "224b9eeaffa0b9086a31b7d5a3cc4ac62467d4dcdabe4211dbfa8502755f9e31"
+  },
+  "detection_calibration": "Two distinct768\u21921 Linear modules class_head.logit_shift and class_head.logit_scale, four tensors total; activation scale=ELU(raw)+1, not exp(owlv2.logit_scale).",
+  "parameters": {
+    "layer_norm.bias": {
+      "A_equal_original_via_frozen_hash": true,
+      "B_equal_original_via_frozen_hash": true,
+      "direct_signed_gradients_saved": false,
+      "in_C8_head_optimizer": false,
+      "optimizer_updates": 0,
+      "original": {
+        "L2": 0.2398331495053541,
+        "count": 768,
+        "max": 0.036899976432323456,
+        "mean": 0.005178128496841812,
+        "min": -0.013419859111309052,
+        "scalar": null,
+        "shape": [
+          768
+        ],
+        "std": 0.006934171901521694,
+        "tensor_sha256": "a9bc2454e0b041eaa0c909a6d91b561906e0d37474783fa08559fa4c78a0fa7f"
+      }
+    },
+    "layer_norm.weight": {
+      "A_equal_original_via_frozen_hash": true,
+      "B_equal_original_via_frozen_hash": true,
+      "direct_signed_gradients_saved": false,
+      "in_C8_head_optimizer": false,
+      "optimizer_updates": 0,
+      "original": {
+        "L2": 27.895231727756162,
+        "count": 768,
+        "max": 1.0750350952148438,
+        "mean": 1.006415242717291,
+        "min": 0.8703643679618835,
+        "scalar": null,
+        "shape": [
+          768
+        ],
+        "std": 0.018347521652635514,
+        "tensor_sha256": "bf912d5eb8158e875377ffc32cbf4ee0f86b2accfbd7ead23b50d4a4808aa9e8"
+      }
+    },
+    "owlv2.logit_scale": {
+      "A_equal_original_via_frozen_hash": true,
+      "B_equal_original_via_frozen_hash": true,
+      "direct_signed_gradients_saved": false,
+      "in_C8_head_optimizer": false,
+      "optimizer_updates": 0,
+      "original": {
+        "L2": 4.605170249938965,
+        "count": 1,
+        "max": 4.605170249938965,
+        "mean": 4.605170249938965,
+        "min": 4.605170249938965,
+        "scalar": 4.605170249938965,
+        "shape": [],
+        "std": 0.0,
+        "tensor_sha256": "3db3c898c72c83ee2b8a27b49a4c45517a4524f466e7a1b77afabf5ae77e8f78"
+      }
+    },
+    "owlv2.text_projection.weight": {
+      "A_equal_original_via_frozen_hash": true,
+      "B_equal_original_via_frozen_hash": true,
+      "direct_signed_gradients_saved": false,
+      "in_C8_head_optimizer": false,
+      "optimizer_updates": 0,
+      "original": {
+        "L2": 6.602474761701694,
+        "count": 262144,
+        "max": 0.11595563590526581,
+        "mean": -1.8450192857981038e-05,
+        "min": -0.13943415880203247,
+        "scalar": null,
+        "shape": [
+          512,
+          512
+        ],
+        "std": 0.012895445320124009,
+        "tensor_sha256": "17908018d77e20fb7bb9651f8444070ca20d32405e6e0b20a201e3c4bb365229"
+      }
+    },
+    "owlv2.vision_model.post_layernorm.bias": {
+      "A_equal_original_via_frozen_hash": true,
+      "B_equal_original_via_frozen_hash": true,
+      "direct_signed_gradients_saved": false,
+      "in_C8_head_optimizer": false,
+      "optimizer_updates": 0,
+      "original": {
+        "L2": 10.079137716701348,
+        "count": 768,
+        "max": 1.068547248840332,
+        "mean": 0.1935795448389399,
+        "min": -1.7158323526382446,
+        "scalar": null,
+        "shape": [
+          768
+        ],
+        "std": 0.3079031111429381,
+        "tensor_sha256": "248e814bac24a831edcc0fb673eaf81470844722afd031b58cc85e08c6fd23a0"
+      }
+    },
+    "owlv2.vision_model.post_layernorm.weight": {
+      "A_equal_original_via_frozen_hash": true,
+      "B_equal_original_via_frozen_hash": true,
+      "direct_signed_gradients_saved": false,
+      "in_C8_head_optimizer": false,
+      "optimizer_updates": 0,
+      "original": {
+        "L2": 26.357371546116525,
+        "count": 768,
+        "max": 1.822265386581421,
+        "mean": 0.9457312231340135,
+        "min": -0.2055600881576538,
+        "scalar": null,
+        "shape": [
+          768
+        ],
+        "std": 0.10081722824676899,
+        "tensor_sha256": "91d076a35548cb8cf2ac78c7921d8e490c6d95618f65d78ded6b0105eb76cf98"
+      }
+    },
+    "owlv2.visual_projection.weight": {
+      "A_equal_original_via_frozen_hash": true,
+      "B_equal_original_via_frozen_hash": true,
+      "direct_signed_gradients_saved": false,
+      "in_C8_head_optimizer": false,
+      "optimizer_updates": 0,
+      "original": {
+        "L2": 22.648765741872605,
+        "count": 393216,
+        "max": 0.16519911587238312,
+        "mean": -3.935773505055922e-05,
+        "min": -0.16420727968215942,
+        "scalar": null,
+        "shape": [
+          512,
+          768
+        ],
+        "std": 0.036118415646983835,
+        "tensor_sha256": "129a10721a68209a1011f5f37f9c2f95140111252d60b58ef65b4bb5c3d11b3c"
+      }
+    }
+  },
+  "proof_scope": "C8 metadata records same original-initialized frozen hash before/after each arm and exact12-head optimizer. Separate full trained-backbone tensors were not serialized; equality follows that preserved hash/scope evidence.",
+  "real_image_model_forwards": 0,
+  "role_of_owlv2_logit_scale": "Frozen scalar exponentiated for auxiliary global contrastive logits_per_text/logits_per_image. These are not the detection class logits or final scores.",
+  "role_of_text_projection": "Frozen text projection plus norm provides text queries; class_head normalizes again with1e-6.",
+  "role_of_visual_projection": "Frozen pooled CLIP visual projection for auxiliary contrastive image embedding; detection patch features instead use vision post-LayerNorm, patch\u00d7CLS multiplication and final layer_norm."
+}

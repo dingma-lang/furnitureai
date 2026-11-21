@@ -1,0 +1,120 @@
+{
+  "bounds": {
+    "A": {
+      "activated_scale_change_abs_bound": 0.16527428038804448,
+      "bias_only_counterfactual_logit_abs_bound": 0.053427690056570554,
+      "calibration_only_counterfactual_logit_abs_bound": 30.62983834992695,
+      "interpretation": "Universal envelopes, not observed contributions or additive percentages. Feature-dependent calibration changes are not ruled out; bias-only drift is far too small. Projection remains capable of recreating broad drift.",
+      "projection_only_logit_abs_bound_with_pretrained_calibration": 257.1210289004845,
+      "raw_scale_change_envelope": {
+        "center": -3.7623003382873275e-05,
+        "max": 0.16519903438127875,
+        "max_abs": 0.16527428038804448,
+        "min": -0.16527428038804448,
+        "radius": 0.16523665738466162
+      },
+      "raw_shift_change_envelope": {
+        "center": 3.368406666984556e-05,
+        "max": 0.20925451677275447,
+        "max_abs": 0.20925451677275447,
+        "min": -0.2091871486394148,
+        "radius": 0.20922083270608463
+      }
+    },
+    "B": {
+      "activated_scale_change_abs_bound": 0.16431033006704898,
+      "bias_only_counterfactual_logit_abs_bound": 0.052926477189297085,
+      "calibration_only_counterfactual_logit_abs_bound": 30.47557748568928,
+      "interpretation": "Universal envelopes, not observed contributions or additive percentages. Feature-dependent calibration changes are not ruled out; bias-only drift is far too small. Projection remains capable of recreating broad drift.",
+      "projection_only_logit_abs_bound_with_pretrained_calibration": 257.1210289004845,
+      "raw_scale_change_envelope": {
+        "center": -3.6918205701400725e-05,
+        "max": 0.1642364936556462,
+        "max_abs": 0.16431033006704898,
+        "min": -0.16431033006704898,
+        "radius": 0.16427341186134758
+      },
+      "raw_shift_change_envelope": {
+        "center": 3.314177316588211e-05,
+        "max": 0.20822505141388917,
+        "max_abs": 0.20822505141388917,
+        "min": -0.2081587678675574,
+        "radius": 0.2081919096407233
+      }
+    }
+  },
+  "derivation": "Final frozen LayerNorm gives f=gamma*u+beta; sum(u)=0 and||u||2<=sqrt(768) in real arithmetic. Bound each linear form by its centered gamma-weighted norm. ELU+1 is1-Lipschitz and normalized cosine magnitude<=1.",
+  "exact_real_query_attribution_available": false,
+  "future_method": "Cache real pre-head f and text from existing planned initial diagnostic forwards, verify endpoints against saved original/A/B logits, then calculate all8 CPU head-group combinations and six-order Shapley contributions. This is functional head attribution conditional on fixed activations, not causal training-dynamics attribution.",
+  "missing_evidence": "Actual frozen pre-head feature and text vectors, per-query shift/scale values and normalized projection outputs were not cached. Weight norms/common-mode statistics cannot yield a unique causal component split.",
+  "numeric_caveat": "Analytic real-arithmetic envelopes using saved FP32 parameter values, not measured activations or a formal IEEE rounding-error certificate.",
+  "observed_common_logit_statistics": {
+    "control": {
+      "caveat": "Statistical common category shift only; cannot identify dense0 versus shift/scale causal contributions without saved intermediate embeddings",
+      "common_mode_fraction_squared_delta": 0.9545554528809379,
+      "common_mode_shift_quantiles": {
+        "0": 0.6296392168317523,
+        "0.1": 2.524986985751561,
+        "0.5": 4.250861687319619,
+        "0.9": 6.083790097917829,
+        "0.99": 7.359431527001512,
+        "1": 9.405061449323382
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 5.26001403956251,
+        "cabinet": 3.1955978267029206,
+        "chair": 5.472655219275205,
+        "desk": 3.914671519768066,
+        "lamp": 3.316230734991664,
+        "sofa": 5.213845444010645,
+        "table": 3.600073681764389
+      },
+      "semantic_residual_RMS": 0.9793722102478497
+    },
+    "corrected": {
+      "caveat": "Statistical common category shift only; cannot identify dense0 versus shift/scale causal contributions without saved intermediate embeddings",
+      "common_mode_fraction_squared_delta": 0.9544677345734228,
+      "common_mode_shift_quantiles": {
+        "0": 0.6219978332519531,
+        "0.1": 2.5023507118225097,
+        "0.5": 4.222805414881025,
+        "0.9": 6.046971505028861,
+        "0.99": 7.317758015223904,
+        "1": 9.35773059300014
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 5.234718883229986,
+        "cabinet": 3.1725915067952926,
+        "chair": 5.422518171422861,
+        "desk": 3.886242640671732,
+        "lamp": 3.29427766346839,
+        "sofa": 5.18727061433687,
+        "table": 3.5729836265745707
+      },
+      "semantic_residual_RMS": 0.9739489841677121
+    }
+  },
+  "original_activated_scale_upper_bound": 128.56051445024224,
+  "original_raw_scale_envelope": {
+    "center": 0.06989985988368982,
+    "max": 127.56051445024224,
+    "max_abs": 127.56051445024224,
+    "min": -127.42071473047486,
+    "radius": 127.49061459035855
+  },
+  "original_shift_envelope": {
+    "center": -4.525958823566742,
+    "max": 12.295090152480547,
+    "max_abs": 21.347007799614033,
+    "min": -21.347007799614033,
+    "radius": 16.82104897604729
+  },
+  "real_counterfactuals_computed": 0,
+  "real_model_forwards": 0,
+  "synthetic_tests_are_not_real_activation_evidence": true,
+  "unchanged_feature_parameters": "C8 original-backbone frozen hashes agree for both arms; vision/text/final LayerNorm parameters were not optimized. Post-projection normalization can still change when dense0 changes."
+}

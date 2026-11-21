@@ -1,0 +1,12 @@
+{
+  "config_file_sha256": "6f1bd6ab6443d0a22d5655bf58b30f4fe28cc29939223936f04637dfc34f8333",
+  "config_semantic_sha256": "6985977e00d55523cedc2ded7257c2f7b624e20f3a0f799695e309f83b40816f",
+  "configuration_file": "reports/phase10c10-v1/experiment-disabled-v3.json",
+  "explicit_approval_needed": true,
+  "future_experiment_directory_created": false,
+  "loss_and_data_match_C8_corrected": true,
+  "optimizer_updates": 0,
+  "real_model_forwards": 0,
+  "sole_training_change": "Freeze4 calibration tensors (1538scalars); train8 tensors (1577988scalars)",
+  "status": "CPU_PREFLIGHT_ONLY"
+}

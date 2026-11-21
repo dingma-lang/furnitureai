@@ -1,0 +1,42 @@
+{
+  "Phase10D_authorized": false,
+  "attribution": "Validate reconstructed original/A/B/candidate endpoints before all8 CPU projection/shift/scale swaps and six-order functional Shapley. Abort attribution if reconstruction fails; never invent activations.",
+  "cache": "Pre-head/text activations from19 already-planned initial FP32 diagnostic forwards, no extra encoder forwards; saved atomically and private. None exist during this preflight.",
+  "frozen_original_calibration": {
+    "hashes": {
+      "class_head.logit_scale.bias": "69be7f155569d897139b6335e3b30357b4c3ebb18ddd60cc280c72b4dd82065c",
+      "class_head.logit_scale.weight": "985588774b8321bd5d419b7fa3e874bc75fac25818a86470f1ede992ba2b07d1",
+      "class_head.logit_shift.bias": "da4fdc6288b5f478c4261b6c93439a0fc3e9f8cb6b8700bcddd44688f1fb3de8",
+      "class_head.logit_shift.weight": "8ecf31509b44f2dc64e11d1f44b9cd30c9ce18daaace2a04baff6faeb2d4aa6a"
+    },
+    "keys": [
+      "class_head.logit_scale.bias",
+      "class_head.logit_scale.weight",
+      "class_head.logit_shift.bias",
+      "class_head.logit_shift.weight"
+    ],
+    "scalar_count": 1538
+  },
+  "metrics": [
+    "Shared seven-category logit drift on same query indices",
+    "Chair raw/post-NMS score distributions and FP counts at.15/.50/.80",
+    "Precision/recall at.15; matched-original-recall PR envelope; AP50/AP75; TP/FP/FN",
+    "Per-category Sofa/Bed recall, AP75 and matched IoU regressions",
+    "Duplicate/fragment/mixed crop diagnostics with annotation uncertainty",
+    "Per-parameter gradient norms and byte hashes, calibration gradients None",
+    "Exact actual training-query mask counts, scores, source-region IDs and protected-positive violations"
+  ],
+  "persistent_guard": "FrozenScope used at every mode transition and before/after every step; no legacy configure_heads call after installation; frozen gradients must be None and excluded from AdamW including weight decay",
+  "reference": "Original/C8 A/C8 B, same frozen19-photo exposed internal protocol; not independent acceptance",
+  "reporting": "Primary endpoint epoch5 fixed; milestones descriptive, no threshold/hyperparameter changes or independent/frozen scoring; preserve raw predictions before separate CPU metrics",
+  "stop": "Nonfinite loss/gradient; frozen scope/bytes drift; model/source/config mismatch; unsafe resource/cursor/checkpoint; no automatic retries or extra variants",
+  "success_proposal": {
+    "Chair_FP_relative_reduction_at_015_at_least": 0.2,
+    "Chair_recall_absolute_drop_at_most": 0.03,
+    "aggregate_recall_drop_at_most": 0.03,
+    "matched_recall_precision_drop_at_most": 0.02,
+    "not_an_independent_success_claim": true,
+    "per_category": "No concealed Sofa/Bed recall/AP75 regressions; report uncertainty and counts"
+  },
+  "training_authorized": false
+}

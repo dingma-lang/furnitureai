@@ -1,0 +1,1320 @@
+{
+  "all12heads_trainable_previously": true,
+  "arms": {
+    "A": {
+      "box_head.dense0.bias": {
+        "Adam_first_moment_L2": 0.0006396589712845436,
+        "Adam_first_moment_nonzero": 768,
+        "change": {
+          "absolute_L2": 0.0015152116334536665,
+          "changed_elements": 768,
+          "max_absolute": 0.0002916790544986725,
+          "mean_signed": -2.05516076630848e-06,
+          "relative_L2": 0.010760971951993097,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.14082889168510285,
+          "count": 768,
+          "max": 0.017596352845430374,
+          "mean": 0.0017077938103321106,
+          "min": -0.018438389524817467,
+          "scalar": null,
+          "shape": [
+            768
+          ],
+          "std": 0.004786164261648678,
+          "tensor_sha256": "aabc6c96b526d8dec9275223a43cfa37ba1afb7dc4aae121e4c7407c2c7aea93"
+        }
+      },
+      "box_head.dense0.weight": {
+        "Adam_first_moment_L2": 0.018648767527446538,
+        "Adam_first_moment_nonzero": 589824,
+        "change": {
+          "absolute_L2": 0.09235611303099613,
+          "changed_elements": 589816,
+          "max_absolute": 0.0006138645112514496,
+          "mean_signed": -7.587756842514877e-07,
+          "relative_L2": 0.0031664057784085687,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 29.16724457286697,
+          "count": 589824,
+          "max": 0.5691429972648621,
+          "mean": -0.0019479455100167634,
+          "min": -0.5095145106315613,
+          "scalar": null,
+          "shape": [
+            768,
+            768
+          ],
+          "std": 0.03792819393441352,
+          "tensor_sha256": "d31702388e70b87d0e588d9f29975480be0258f9aae39bf5d61e64b73139569c"
+        }
+      },
+      "box_head.dense1.bias": {
+        "Adam_first_moment_L2": 0.0004479513977968811,
+        "Adam_first_moment_nonzero": 768,
+        "change": {
+          "absolute_L2": 0.0010866997994452574,
+          "changed_elements": 768,
+          "max_absolute": 0.000237323809415102,
+          "mean_signed": -2.7093211558693042e-06,
+          "relative_L2": 0.009730723664770687,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.11163196139073027,
+          "count": 768,
+          "max": 0.010045773349702358,
+          "mean": 0.0020051653553100715,
+          "min": -0.023389752954244614,
+          "scalar": null,
+          "shape": [
+            768
+          ],
+          "std": 0.0034936337826342156,
+          "tensor_sha256": "f9f7ce7535dedf25407ba76c9080478085657beb421cbea8a5975207d94237ef"
+        }
+      },
+      "box_head.dense1.weight": {
+        "Adam_first_moment_L2": 0.010675225798595868,
+        "Adam_first_moment_nonzero": 589824,
+        "change": {
+          "absolute_L2": 0.0592649398765393,
+          "changed_elements": 589814,
+          "max_absolute": 0.00045355595648288727,
+          "mean_signed": 7.607791457609948e-07,
+          "relative_L2": 0.0020456844633015008,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 28.970707713815038,
+          "count": 589824,
+          "max": 0.6961480379104614,
+          "mean": -0.0007431314199734727,
+          "min": -0.4171163737773895,
+          "scalar": null,
+          "shape": [
+            768,
+            768
+          ],
+          "std": 0.037714955088703754,
+          "tensor_sha256": "0bcc77ee3b1c9e89173ed4e8e293611b4697f4aaff981778cc5c2b005cae1a02"
+        }
+      },
+      "box_head.dense2.bias": {
+        "Adam_first_moment_L2": 0.0035418559334674474,
+        "Adam_first_moment_nonzero": 4,
+        "change": {
+          "absolute_L2": 3.326953471343213e-05,
+          "changed_elements": 4,
+          "max_absolute": 2.9278453439474106e-05,
+          "mean_signed": -9.496521670371294e-06,
+          "relative_L2": 0.001788217613005551,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.018601266293985248,
+          "count": 4,
+          "max": 0.013274572789669037,
+          "mean": 0.005433001584606245,
+          "min": -0.0028492913115769625,
+          "scalar": null,
+          "shape": [
+            4
+          ],
+          "std": 0.007548792666155559,
+          "tensor_sha256": "e82e8c4b048347803c9cc0fbcfe7b04c6558b70534dfcc6de7e549527f252ad8"
+        }
+      },
+      "box_head.dense2.weight": {
+        "Adam_first_moment_L2": 0.09321336578487577,
+        "Adam_first_moment_nonzero": 3072,
+        "change": {
+          "absolute_L2": 0.0034680611031783167,
+          "changed_elements": 3072,
+          "max_absolute": 0.0002970397472381592,
+          "mean_signed": 1.5696071707186712e-07,
+          "relative_L2": 0.004788456921051182,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.7241952550065284,
+          "count": 3072,
+          "max": 0.11752336472272873,
+          "mean": -0.0008340477241435459,
+          "min": -0.16305561363697052,
+          "scalar": null,
+          "shape": [
+            4,
+            768
+          ],
+          "std": 0.013039425577777526,
+          "tensor_sha256": "5fad1e789580d8bb1eb7ceedb8840792cd89b99fb547911dcfb07f4d96a0731a"
+        }
+      },
+      "class_head.dense0.bias": {
+        "Adam_first_moment_L2": 0.000572730847085159,
+        "Adam_first_moment_nonzero": 512,
+        "change": {
+          "absolute_L2": 0.005888556543354361,
+          "changed_elements": 512,
+          "max_absolute": 0.0004590321332216263,
+          "mean_signed": -3.5292855216084718e-06,
+          "relative_L2": 0.058570620067078916,
+          "scalar_signed": null
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 2.1538523584186075e-06,
+            "classification_gradient_norm_max": 2.1383562131138047,
+            "classification_gradient_norm_mean": 1.4383440232200577,
+            "classification_gradient_norm_min": 0.8213644051655268,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.00013082483537169424,
+            "classification_gradient_norm_max": 1.6491881654157465,
+            "classification_gradient_norm_mean": 0.5417043986148351,
+            "classification_gradient_norm_min": 0.01738014610474939,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.005632613397229966,
+            "classification_gradient_norm_max": 1.0657207066980934,
+            "classification_gradient_norm_mean": 0.14307944210836818,
+            "classification_gradient_norm_min": 0.0003454120735092115,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.02261261338473224,
+            "classification_gradient_norm_max": 0.9927330699804682,
+            "classification_gradient_norm_mean": 0.10178559078138301,
+            "classification_gradient_norm_min": 0.00022905593838569397,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.10216283992481817,
+          "count": 512,
+          "max": 0.011927050538361073,
+          "mean": 9.711895242503488e-05,
+          "min": -0.00759729091078043,
+          "scalar": null,
+          "shape": [
+            512
+          ],
+          "std": 0.004513957657347919,
+          "tensor_sha256": "f0876e74df310f2b7a4e747c6d899159e55a73abab40c656dc182338583f76ff"
+        }
+      },
+      "class_head.dense0.weight": {
+        "Adam_first_moment_L2": 0.018255594049067122,
+        "Adam_first_moment_nonzero": 393216,
+        "change": {
+          "absolute_L2": 0.14589049633175644,
+          "changed_elements": 393216,
+          "max_absolute": 0.0005409996956586838,
+          "mean_signed": 9.700399923073752e-07,
+          "relative_L2": 0.015038551873751336,
+          "scalar_signed": null
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 5.960120109915306e-05,
+            "classification_gradient_norm_max": 59.300698175810105,
+            "classification_gradient_norm_mean": 39.477102047602024,
+            "classification_gradient_norm_min": 22.699534802489886,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.0036197620341146424,
+            "classification_gradient_norm_max": 45.26008199687045,
+            "classification_gradient_norm_mean": 14.910319009680977,
+            "classification_gradient_norm_min": 0.47946246460897324,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.15574388855181032,
+            "classification_gradient_norm_max": 29.577077257914397,
+            "classification_gradient_norm_mean": 3.9502099340688823,
+            "classification_gradient_norm_min": 0.009517337455589988,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.6250709523054122,
+            "classification_gradient_norm_max": 27.552439522853714,
+            "classification_gradient_norm_mean": 2.813080740381983,
+            "classification_gradient_norm_min": 0.006314559417124588,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 9.700365610341478,
+          "count": 393216,
+          "max": 0.12975654006004333,
+          "mean": 4.030712680244888e-06,
+          "min": -0.11613977700471878,
+          "scalar": null,
+          "shape": [
+            512,
+            768
+          ],
+          "std": 0.015469365401815725,
+          "tensor_sha256": "1501add20cbfc80765f5f82355b6c01a6f8a826058cddfb8add62b8e78ed1701"
+        }
+      },
+      "class_head.logit_scale.bias": {
+        "Adam_first_moment_L2": 1.3360984212340554e-06,
+        "Adam_first_moment_nonzero": 1,
+        "change": {
+          "absolute_L2": 0.000292263925075531,
+          "changed_elements": 1,
+          "max_absolute": 0.000292263925075531,
+          "mean_signed": -0.000292263925075531,
+          "relative_L2": 0.002602963610798314,
+          "scalar_signed": -0.000292263925075531
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 7.627143835028012e-08,
+            "classification_gradient_norm_max": 0.111572265625,
+            "classification_gradient_norm_mean": 0.037918408711751304,
+            "classification_gradient_norm_min": 0.0041046142578125,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 3.088556695729494e-06,
+            "classification_gradient_norm_max": 0.030181884765625,
+            "classification_gradient_norm_mean": 0.007461413741111755,
+            "classification_gradient_norm_min": 6.973743438720703e-05,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 7.047523589183886e-05,
+            "classification_gradient_norm_max": 0.0167236328125,
+            "classification_gradient_norm_mean": 0.001229415958126386,
+            "classification_gradient_norm_min": 1.0699033737182617e-05,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.0001893390241699914,
+            "classification_gradient_norm_max": 0.008453369140625,
+            "classification_gradient_norm_mean": 0.0006937400127450625,
+            "classification_gradient_norm_min": 7.197260856628418e-06,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.11198895424604416,
+          "count": 1,
+          "max": 0.11198895424604416,
+          "mean": 0.11198895424604416,
+          "min": 0.11198895424604416,
+          "scalar": 0.11198895424604416,
+          "shape": [
+            1
+          ],
+          "std": 0.0,
+          "tensor_sha256": "ec317b45e214c5d2e6501c4b2c0df7998dfc06dabd2bfc8b4c28d8f2efa557e7"
+        }
+      },
+      "class_head.logit_scale.weight": {
+        "Adam_first_moment_L2": 0.00011851196865733402,
+        "Adam_first_moment_nonzero": 768,
+        "change": {
+          "absolute_L2": 0.006202653433509368,
+          "changed_elements": 768,
+          "max_absolute": 0.0003947317600250244,
+          "mean_signed": 6.672938930781432e-05,
+          "relative_L2": 0.0013328820840626684,
+          "scalar_signed": null
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 2.1105142951836188e-06,
+            "classification_gradient_norm_max": 3.0938160991879533,
+            "classification_gradient_norm_mean": 1.0432456269814085,
+            "classification_gradient_norm_min": 0.11380029431976818,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 8.543841033645514e-05,
+            "classification_gradient_norm_max": 0.8378670850103107,
+            "classification_gradient_norm_mean": 0.20537627286224938,
+            "classification_gradient_norm_min": 0.0019289147560613686,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.0019466709642314034,
+            "classification_gradient_norm_max": 0.46406073885027826,
+            "classification_gradient_norm_mean": 0.03408001450285145,
+            "classification_gradient_norm_min": 0.0002942106663597183,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.005225106931272913,
+            "classification_gradient_norm_max": 0.23465354347853246,
+            "classification_gradient_norm_mean": 0.019201223350586605,
+            "classification_gradient_norm_min": 0.00019797647539108562,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 4.6498944763576295,
+          "count": 768,
+          "max": 0.5201280117034912,
+          "mean": -0.03469086158384016,
+          "min": -0.5136428475379944,
+          "scalar": null,
+          "shape": [
+            1,
+            768
+          ],
+          "std": 0.16416322117549054,
+          "tensor_sha256": "57a52a925e843f15aebdc262c42c6b30a9a72160d1f8957e6c9d7d0343d640ba"
+        }
+      },
+      "class_head.logit_shift.bias": {
+        "Adam_first_moment_L2": 0.0015387774910777807,
+        "Adam_first_moment_nonzero": 1,
+        "change": {
+          "absolute_L2": 0.0003647804260253906,
+          "changed_elements": 1,
+          "max_absolute": 0.0003647804260253906,
+          "mean_signed": 0.0003647804260253906,
+          "relative_L2": 7.96061855983357e-05,
+          "scalar_signed": 0.0003647804260253906
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 6.022475038965543e-06,
+            "classification_gradient_norm_max": 9.3671875,
+            "classification_gradient_norm_mean": 4.1986083984375,
+            "classification_gradient_norm_min": 1.8466796875,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.0003748827924331029,
+            "classification_gradient_norm_max": 4.9921875,
+            "classification_gradient_norm_mean": 1.598192850748698,
+            "classification_gradient_norm_min": 0.04632568359375,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.01628553415260588,
+            "classification_gradient_norm_max": 3.83984375,
+            "classification_gradient_norm_mean": 0.4511129856109619,
+            "classification_gradient_norm_min": 0.0010395050048828125,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.0651695562992245,
+            "classification_gradient_norm_max": 3.5625,
+            "classification_gradient_norm_mean": 0.3258928855260213,
+            "classification_gradient_norm_min": 0.0006837844848632812,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 4.5819478034973145,
+          "count": 1,
+          "max": -4.5819478034973145,
+          "mean": -4.5819478034973145,
+          "min": -4.5819478034973145,
+          "scalar": -4.5819478034973145,
+          "shape": [
+            1
+          ],
+          "std": 0.0,
+          "tensor_sha256": "7365e2465870fa737de59cf74854dd466a4a7bfcf6b9f73f32839bb85ebef2f1"
+        }
+      },
+      "class_head.logit_shift.weight": {
+        "Adam_first_moment_L2": 0.0506516839851835,
+        "Adam_first_moment_nonzero": 768,
+        "change": {
+          "absolute_L2": 0.007835703176045412,
+          "changed_elements": 768,
+          "max_absolute": 0.0005163354799151421,
+          "mean_signed": -8.248559662919301e-05,
+          "relative_L2": 0.01267195811445394,
+          "scalar_signed": null
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 0.000166661978211397,
+            "classification_gradient_norm_max": 259.78060284247954,
+            "classification_gradient_norm_mean": 115.08788730411307,
+            "classification_gradient_norm_min": 50.9844230845543,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.010368378724674556,
+            "classification_gradient_norm_max": 136.331827888796,
+            "classification_gradient_norm_mean": 43.892681130431356,
+            "classification_gradient_norm_min": 1.27585444640864,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.4503007010223743,
+            "classification_gradient_norm_max": 106.54806955978856,
+            "classification_gradient_norm_mean": 12.433932678171303,
+            "classification_gradient_norm_min": 0.028586207615198443,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 1.8017000436670632,
+            "classification_gradient_norm_max": 98.88633659173502,
+            "classification_gradient_norm_mean": 8.996488499246013,
+            "classification_gradient_norm_min": 0.01881546467670734,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.6203843292658603,
+          "count": 768,
+          "max": 0.09497533738613129,
+          "mean": -0.0036711017951661282,
+          "min": -0.07535672932863235,
+          "scalar": null,
+          "shape": [
+            1,
+            768
+          ],
+          "std": 0.02208312860306344,
+          "tensor_sha256": "66678ab1f334be9c049cb33a94473c4eca2ec2a68fd9f1b0044f25611cc5f976"
+        }
+      }
+    },
+    "B": {
+      "box_head.dense0.bias": {
+        "Adam_first_moment_L2": 0.0006721300119591715,
+        "Adam_first_moment_nonzero": 768,
+        "change": {
+          "absolute_L2": 0.001521839726098675,
+          "changed_elements": 768,
+          "max_absolute": 0.0002915035584010184,
+          "mean_signed": -2.405545628173892e-06,
+          "relative_L2": 0.01080804439882059,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.14081547045295986,
+          "count": 768,
+          "max": 0.01759493723511696,
+          "mean": 0.0017074434254702453,
+          "min": -0.018438249826431274,
+          "scalar": null,
+          "shape": [
+            768
+          ],
+          "std": 0.004785775077581936,
+          "tensor_sha256": "5fbea64d4493cb5be6153280d936b05965cdebaea4d3a00e9c3f7d741cc8dcd0"
+        }
+      },
+      "box_head.dense0.weight": {
+        "Adam_first_moment_L2": 0.019394401893636816,
+        "Adam_first_moment_nonzero": 589824,
+        "change": {
+          "absolute_L2": 0.09233960762916234,
+          "changed_elements": 589819,
+          "max_absolute": 0.000611376017332077,
+          "mean_signed": -6.887925276889136e-07,
+          "relative_L2": 0.003165839894916656,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 29.16724640425283,
+          "count": 589824,
+          "max": 0.5691416263580322,
+          "mean": -0.0019478755268602006,
+          "min": -0.5095093846321106,
+          "scalar": null,
+          "shape": [
+            768,
+            768
+          ],
+          "std": 0.03792819991635753,
+          "tensor_sha256": "0adc264d078db88cca71fc0645bb52f61ca4a21f821448eebc9a4ed433635c8c"
+        }
+      },
+      "box_head.dense1.bias": {
+        "Adam_first_moment_L2": 0.00046344280809909805,
+        "Adam_first_moment_nonzero": 768,
+        "change": {
+          "absolute_L2": 0.0011005652901865518,
+          "changed_elements": 768,
+          "max_absolute": 0.00023786351084709167,
+          "mean_signed": -4.490190104178282e-06,
+          "relative_L2": 0.009854880546872669,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.11160067728030483,
+          "count": 768,
+          "max": 0.01004425622522831,
+          "mean": 0.0020033844863617625,
+          "min": -0.023390045389533043,
+          "scalar": null,
+          "shape": [
+            768
+          ],
+          "std": 0.0034933540380257607,
+          "tensor_sha256": "0fae0d6d0e6803f65389ae53a9da9b9ed34601408e1f2504706bbaeef96f1aa8"
+        }
+      },
+      "box_head.dense1.weight": {
+        "Adam_first_moment_L2": 0.01075412245809488,
+        "Adam_first_moment_nonzero": 589824,
+        "change": {
+          "absolute_L2": 0.05920262025450712,
+          "changed_elements": 589816,
+          "max_absolute": 0.00045211147516965866,
+          "mean_signed": 5.362237248069991e-07,
+          "relative_L2": 0.002043533338491189,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 28.970673017475473,
+          "count": 589824,
+          "max": 0.696148157119751,
+          "mean": -0.0007433559753944267,
+          "min": -0.41711050271987915,
+          "scalar": null,
+          "shape": [
+            768,
+            768
+          ],
+          "std": 0.03771490547711924,
+          "tensor_sha256": "93bbd87871bab9a892d06a97045f5c32322eff68967bcfe1f2b0054f26178400"
+        }
+      },
+      "box_head.dense2.bias": {
+        "Adam_first_moment_L2": 0.005425997247729238,
+        "Adam_first_moment_nonzero": 4,
+        "change": {
+          "absolute_L2": 3.711777048891567e-05,
+          "changed_elements": 4,
+          "max_absolute": 3.150897100567818e-05,
+          "mean_signed": -1.0412972187623382e-05,
+          "relative_L2": 0.001995057986698527,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.01859813401493312,
+          "count": 4,
+          "max": 0.01327102817595005,
+          "mean": 0.005432085134088993,
+          "min": -0.0028515218291431665,
+          "scalar": null,
+          "shape": [
+            4
+          ],
+          "std": 0.007547522660142362,
+          "tensor_sha256": "da6248441ae6d65b938302df7b9cc240420a3e24807d10469e4526866c2f56f9"
+        }
+      },
+      "box_head.dense2.weight": {
+        "Adam_first_moment_L2": 0.09753732171550736,
+        "Adam_first_moment_nonzero": 3072,
+        "change": {
+          "absolute_L2": 0.0034666355302622005,
+          "changed_elements": 3072,
+          "max_absolute": 0.00030077993869781494,
+          "mean_signed": 4.097480451881186e-07,
+          "relative_L2": 0.004786488589382982,
+          "scalar_signed": null
+        },
+        "gradient_probes": [],
+        "gradient_record_scope": "Only aggregate class/total-head training gradient norms saved; no per-box-tensor gradient norm record",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.7241540316004001,
+          "count": 3072,
+          "max": 0.11752710491418839,
+          "mean": -0.0008337949368154296,
+          "min": -0.1630515456199646,
+          "scalar": null,
+          "shape": [
+            4,
+            768
+          ],
+          "std": 0.013038696464621835,
+          "tensor_sha256": "8d646fb1d9fa39e1a7a3f65b82e3ad994dc76875a5ddb16b48c817eab411484f"
+        }
+      },
+      "class_head.dense0.bias": {
+        "Adam_first_moment_L2": 0.0005160300856270202,
+        "Adam_first_moment_nonzero": 512,
+        "change": {
+          "absolute_L2": 0.005840462968350684,
+          "changed_elements": 512,
+          "max_absolute": 0.0004585646092891693,
+          "mean_signed": -3.3681219449022137e-06,
+          "relative_L2": 0.058092256568576556,
+          "scalar_signed": null
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 2.1538523584186075e-06,
+            "classification_gradient_norm_max": 2.1383562131138047,
+            "classification_gradient_norm_mean": 1.438333519100497,
+            "classification_gradient_norm_min": 0.8213644051655268,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.00013082483541990343,
+            "classification_gradient_norm_max": 1.649188150322835,
+            "classification_gradient_norm_mean": 0.5416299511980708,
+            "classification_gradient_norm_min": 0.0173792046433424,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.005421372126449685,
+            "classification_gradient_norm_max": 1.0624590826382065,
+            "classification_gradient_norm_mean": 0.1409751810730874,
+            "classification_gradient_norm_min": 0.00034319378108094547,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.02044007603193465,
+            "classification_gradient_norm_max": 0.9702242502234025,
+            "classification_gradient_norm_mean": 0.10182876116514399,
+            "classification_gradient_norm_min": 0.00021706434878959204,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.1021479258736981,
+          "count": 512,
+          "max": 0.011923997662961483,
+          "mean": 9.728011600174113e-05,
+          "min": -0.0075980727560818195,
+          "scalar": null,
+          "shape": [
+            512
+          ],
+          "std": 0.004513294919760811,
+          "tensor_sha256": "9a7d4938985f4006b55ee69c36fc859e2595c8a5c17f4787ad6c953c49455efc"
+        }
+      },
+      "class_head.dense0.weight": {
+        "Adam_first_moment_L2": 0.016793080305036477,
+        "Adam_first_moment_nonzero": 393216,
+        "change": {
+          "absolute_L2": 0.14520893152082318,
+          "changed_elements": 393216,
+          "max_absolute": 0.0005401168018579483,
+          "mean_signed": 9.272029550337421e-07,
+          "relative_L2": 0.014968295427839772,
+          "scalar_signed": null
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 5.960120109915306e-05,
+            "classification_gradient_norm_max": 59.300696427761544,
+            "classification_gradient_norm_mean": 39.47710171603108,
+            "classification_gradient_norm_min": 22.699534802489886,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.0036197620240289996,
+            "classification_gradient_norm_max": 45.260081470586,
+            "classification_gradient_norm_mean": 14.908391883688902,
+            "classification_gradient_norm_min": 0.47946218231397425,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.1499116355728234,
+            "classification_gradient_norm_max": 29.493733760153585,
+            "classification_gradient_norm_mean": 3.8955631307992387,
+            "classification_gradient_norm_min": 0.009462928447849054,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.5650714340200377,
+            "classification_gradient_norm_max": 27.02211035054132,
+            "classification_gradient_norm_mean": 2.828410943221577,
+            "classification_gradient_norm_min": 0.006019421535814122,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 9.70038572948261,
+          "count": 393216,
+          "max": 0.1297575682401657,
+          "mean": 3.987875642971255e-06,
+          "min": -0.1161392331123352,
+          "scalar": null,
+          "shape": [
+            512,
+            768
+          ],
+          "std": 0.015469397497313565,
+          "tensor_sha256": "d9086e8b18e429e4d1e99420c6fa926e27c7f9bb349c1783dad23155e9696e02"
+        }
+      },
+      "class_head.logit_scale.bias": {
+        "Adam_first_moment_L2": 1.0057068493551924e-06,
+        "Adam_first_moment_nonzero": 1,
+        "change": {
+          "absolute_L2": 0.000289037823677063,
+          "changed_elements": 1,
+          "max_absolute": 0.000289037823677063,
+          "mean_signed": -0.000289037823677063,
+          "relative_L2": 0.0025742312773678793,
+          "scalar_signed": -0.000289037823677063
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 7.627143835028012e-08,
+            "classification_gradient_norm_max": 0.111572265625,
+            "classification_gradient_norm_mean": 0.037918408711751304,
+            "classification_gradient_norm_min": 0.0041046142578125,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 3.088556695729494e-06,
+            "classification_gradient_norm_max": 0.030181884765625,
+            "classification_gradient_norm_mean": 0.007458460827668508,
+            "classification_gradient_norm_min": 6.99162483215332e-05,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 6.867665797472e-05,
+            "classification_gradient_norm_max": 0.0165863037109375,
+            "classification_gradient_norm_mean": 0.0012259480232993762,
+            "classification_gradient_norm_min": 1.0974705219268799e-05,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.0001857470100124677,
+            "classification_gradient_norm_max": 0.0077972412109375,
+            "classification_gradient_norm_mean": 0.0008100395401318868,
+            "classification_gradient_norm_min": 8.501112461090088e-06,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.11199218034744263,
+          "count": 1,
+          "max": 0.11199218034744263,
+          "mean": 0.11199218034744263,
+          "min": 0.11199218034744263,
+          "scalar": 0.11199218034744263,
+          "shape": [
+            1
+          ],
+          "std": 0.0,
+          "tensor_sha256": "6e5e39dab77cbca18eea7ca5c9d5e5cad0a42d0212e76398a22ce2970dd67f65"
+        }
+      },
+      "class_head.logit_scale.weight": {
+        "Adam_first_moment_L2": 0.00011383011799004548,
+        "Adam_first_moment_nonzero": 768,
+        "change": {
+          "absolute_L2": 0.0061634708641021,
+          "changed_elements": 768,
+          "max_absolute": 0.0003911256790161133,
+          "mean_signed": 6.59875550278836e-05,
+          "relative_L2": 0.001324462180334315,
+          "scalar_signed": null
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 2.1105142951836188e-06,
+            "classification_gradient_norm_max": 3.0938160991859927,
+            "classification_gradient_norm_mean": 1.0432454859881612,
+            "classification_gradient_norm_min": 0.11380029431976818,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 8.543841033645514e-05,
+            "classification_gradient_norm_max": 0.8378668203563083,
+            "classification_gradient_norm_mean": 0.20530101914187418,
+            "classification_gradient_norm_min": 0.0019336779324513752,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.0018972807684839398,
+            "classification_gradient_norm_max": 0.4608099196467499,
+            "classification_gradient_norm_mean": 0.03408439558816959,
+            "classification_gradient_norm_min": 0.0003015166278507401,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.005126860615778679,
+            "classification_gradient_norm_max": 0.21935300301632238,
+            "classification_gradient_norm_mean": 0.0224993642511519,
+            "classification_gradient_norm_min": 0.00023247360861200798,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 4.649923974120164,
+          "count": 768,
+          "max": 0.5201288461685181,
+          "mean": -0.03469160341812009,
+          "min": -0.5136429071426392,
+          "scalar": null,
+          "shape": [
+            1,
+            768
+          ],
+          "std": 0.16416415232600937,
+          "tensor_sha256": "d84d1d4a90de66e307a376c166f445682e24d19f1c39af1b95e0bd38e904659a"
+        }
+      },
+      "class_head.logit_shift.bias": {
+        "Adam_first_moment_L2": 0.0008587743504904211,
+        "Adam_first_moment_nonzero": 1,
+        "change": {
+          "absolute_L2": 0.00036144256591796875,
+          "changed_elements": 1,
+          "max_absolute": 0.00036144256591796875,
+          "mean_signed": 0.00036144256591796875,
+          "relative_L2": 7.88777629850176e-05,
+          "scalar_signed": 0.00036144256591796875
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 6.022475038965543e-06,
+            "classification_gradient_norm_max": 9.3671875,
+            "classification_gradient_norm_mean": 4.198445638020833,
+            "classification_gradient_norm_min": 1.8466796875,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.0003748827924331029,
+            "classification_gradient_norm_max": 4.9921875,
+            "classification_gradient_norm_mean": 1.5978673299153645,
+            "classification_gradient_norm_min": 0.04632568359375,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.01566543383523822,
+            "classification_gradient_norm_max": 3.822265625,
+            "classification_gradient_norm_mean": 0.43625084559122723,
+            "classification_gradient_norm_min": 0.00102996826171875,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.05843830007749299,
+            "classification_gradient_norm_max": 3.4296875,
+            "classification_gradient_norm_mean": 0.28189706802368164,
+            "classification_gradient_norm_min": 0.0006151199340820312,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 4.581951141357422,
+          "count": 1,
+          "max": -4.581951141357422,
+          "mean": -4.581951141357422,
+          "min": -4.581951141357422,
+          "scalar": -4.581951141357422,
+          "shape": [
+            1
+          ],
+          "std": 0.0,
+          "tensor_sha256": "8634ac7978c4256cf3eaeb3b4c6e8d4f5618110990cf8dd44a859d9faa25c128"
+        }
+      },
+      "class_head.logit_shift.weight": {
+        "Adam_first_moment_L2": 0.03680108866529414,
+        "Adam_first_moment_nonzero": 768,
+        "change": {
+          "absolute_L2": 0.007793976656866125,
+          "changed_elements": 768,
+          "max_absolute": 0.0005152085795998573,
+          "mean_signed": -8.168392170423051e-05,
+          "relative_L2": 0.012604477673781003,
+          "scalar_signed": null
+        },
+        "gradient_probes": [
+          {
+            "added_negative_gradient_norm_mean": 0.000166661978211397,
+            "classification_gradient_norm_max": 259.78060284247954,
+            "classification_gradient_norm_mean": 115.0878860676487,
+            "classification_gradient_norm_min": 50.9844230845543,
+            "epoch": 0,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.010368378724674556,
+            "classification_gradient_norm_max": 136.331827888796,
+            "classification_gradient_norm_mean": 43.88348986859365,
+            "classification_gradient_norm_min": 1.2758545083104913,
+            "epoch": 1,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 0.433071586585471,
+            "classification_gradient_norm_max": 106.15265799401162,
+            "classification_gradient_norm_mean": 12.047711931196645,
+            "classification_gradient_norm_min": 0.028338692602752694,
+            "epoch": 3,
+            "nonzero_photos": 24
+          },
+          {
+            "added_negative_gradient_norm_mean": 1.6152861236699032,
+            "classification_gradient_norm_max": 95.69791407727,
+            "classification_gradient_norm_mean": 7.976512688982949,
+            "classification_gradient_norm_min": 0.017075269090066268,
+            "epoch": 5,
+            "nonzero_photos": 24
+          }
+        ],
+        "gradient_record_scope": "Named classification-only and additional-negative norm probes at0/1/3/5; signed full minibatch gradients were not saved",
+        "in_optimizer": true,
+        "optimizer_steps": 75,
+        "value": {
+          "L2": 0.6203620319870525,
+          "count": 768,
+          "max": 0.09497250616550446,
+          "mean": -0.0036703001202411656,
+          "min": -0.07535373419523239,
+          "scalar": null,
+          "shape": [
+            1,
+            768
+          ],
+          "std": 0.02208244623753183,
+          "tensor_sha256": "77bc75f33e06da46c0503bef25077c166ee873356adaf35b69398126de954dc5"
+        }
+      }
+    }
+  },
+  "calibration_modules": 2,
+  "calibration_scalars": 1538,
+  "calibration_tensors": 4,
+  "checkpoint_optimizer_name_mapping": "Executed worker constructs optimizer and checkpoint weights from the same ordered model.named_parameters dictionary; serialized param IDs0..11 verified against shapes and75step counters",
+  "exact_per_query_attribution_activations_available": false,
+  "intermediate_array_schemas": [
+    {
+      "arrays": [
+        "boxes",
+        "labels",
+        "logits",
+        "scores",
+        "square_cxcywh"
+      ],
+      "files": 152
+    },
+    {
+      "arrays": [
+        "logits",
+        "square_cxcywh"
+      ],
+      "files": 192
+    },
+    {
+      "arrays": [
+        "logits",
+        "original_xyxy_normalized",
+        "original_xyxy_pixels",
+        "square_cxcywh"
+      ],
+      "files": 24
+    }
+  ],
+  "missing": [
+    "Pre-classification image feature vectors f[q]",
+    "Original text query embeddings t[c]",
+    "Per-query logit-shift values",
+    "Per-query raw/activated logit-scale values",
+    "Normalized projected image embeddings",
+    "Objectness logits"
+  ],
+  "original": {
+    "box_head.dense0.bias": {
+      "L2": 0.14080620600196123,
+      "count": 768,
+      "max": 0.017581764608621597,
+      "mean": 0.0017098489710984193,
+      "min": -0.018377982079982758,
+      "scalar": null,
+      "shape": [
+        768
+      ],
+      "std": 0.0047845611516176174,
+      "tensor_sha256": "d7811a7e54fe957c8d2f3b2a491240cf24c43aacad15c69961c04dea86e720b6"
+    },
+    "box_head.dense0.weight": {
+      "L2": 29.16749131168209,
+      "count": 589824,
+      "max": 0.5689324140548706,
+      "mean": -0.001947186734332512,
+      "min": -0.5095499753952026,
+      "scalar": null,
+      "shape": [
+        768,
+        768
+      ],
+      "std": 0.03792855459419434,
+      "tensor_sha256": "8b54d731e13f2fc01cd98890e9ce0da260f46b9a2e08d4b53143820a3f376189"
+    },
+    "box_head.dense1.bias": {
+      "L2": 0.1116771821791187,
+      "count": 768,
+      "max": 0.010061503387987614,
+      "mean": 0.0020078746764659408,
+      "min": -0.023483727127313614,
+      "scalar": null,
+      "shape": [
+        768
+      ],
+      "std": 0.003493959517658895,
+      "tensor_sha256": "fccf2df937082beda0fd635a586e1a8cb21374f526172f02ff2d9c336cdf3503"
+    },
+    "box_head.dense1.weight": {
+      "L2": 28.970714174017566,
+      "count": 589824,
+      "max": 0.6961976289749146,
+      "mean": -0.0007438921991192338,
+      "min": -0.41729772090911865,
+      "scalar": null,
+      "shape": [
+        768,
+        768
+      ],
+      "std": 0.03771494850407529,
+      "tensor_sha256": "e3698d847d95ea39e8a9f848362a0191e6790ba98a6b542a8f3ea0918abbfce7"
+    },
+    "box_head.dense2.bias": {
+      "L2": 0.018604857972243257,
+      "count": 4,
+      "max": 0.013289647176861763,
+      "mean": 0.0054424981062766165,
+      "min": -0.0028200128581374884,
+      "scalar": null,
+      "shape": [
+        4
+      ],
+      "std": 0.007544163267388327,
+      "tensor_sha256": "63c28f5b0a792591a2e7c72e0695b6eca6407cb76b1e4d4a4b0c4ca6a8257153"
+    },
+    "box_head.dense2.weight": {
+      "L2": 0.7242544227414693,
+      "count": 3072,
+      "max": 0.11722632497549057,
+      "mean": -0.0008342046848606177,
+      "min": -0.16298356652259827,
+      "scalar": null,
+      "shape": [
+        4,
+        768
+      ],
+      "std": 0.013040485235129979,
+      "tensor_sha256": "2641bd5138654c9a10cd7676550dd40bdd13a8863bfc27b1076e760de3d20588"
+    },
+    "class_head.dense0.bias": {
+      "L2": 0.10053771902381092,
+      "count": 512,
+      "max": 0.011611183173954487,
+      "mean": 0.00010064823794664335,
+      "min": -0.0074139307253062725,
+      "scalar": null,
+      "shape": [
+        512
+      ],
+      "std": 0.0044420413275713735,
+      "tensor_sha256": "0ccca625f1cfed8c5e59577d450ed29a4e36af53d14db57b568536a91e33c37f"
+    },
+    "class_head.dense0.weight": {
+      "L2": 9.70110004982531,
+      "count": 393216,
+      "max": 0.1301313191652298,
+      "mean": 3.060672687937513e-06,
+      "min": -0.1159575879573822,
+      "scalar": null,
+      "shape": [
+        512,
+        768
+      ],
+      "std": 0.015470536849427898,
+      "tensor_sha256": "811fc56b1ea98acce237fc1b921c3d681e483feed625f38c173316f0cb54c37f"
+    },
+    "class_head.logit_scale.bias": {
+      "L2": 0.11228121817111969,
+      "count": 1,
+      "max": 0.11228121817111969,
+      "mean": 0.11228121817111969,
+      "min": 0.11228121817111969,
+      "scalar": 0.11228121817111969,
+      "shape": [
+        1
+      ],
+      "std": 0.0,
+      "tensor_sha256": "69be7f155569d897139b6335e3b30357b4c3ebb18ddd60cc280c72b4dd82065c"
+    },
+    "class_head.logit_scale.weight": {
+      "L2": 4.6535650134957764,
+      "count": 768,
+      "max": 0.520423173904419,
+      "mean": -0.03475759097314798,
+      "min": -0.5139574408531189,
+      "scalar": null,
+      "shape": [
+        1,
+        768
+      ],
+      "std": 0.1642844891602342,
+      "tensor_sha256": "985588774b8321bd5d419b7fa3e874bc75fac25818a86470f1ede992ba2b07d1"
+    },
+    "class_head.logit_shift.bias": {
+      "L2": 4.58231258392334,
+      "count": 1,
+      "max": -4.58231258392334,
+      "mean": -4.58231258392334,
+      "min": -4.58231258392334,
+      "scalar": -4.58231258392334,
+      "shape": [
+        1
+      ],
+      "std": 0.0,
+      "tensor_sha256": "da4fdc6288b5f478c4261b6c93439a0fc3e9f8cb6b8700bcddd44688f1fb3de8"
+    },
+    "class_head.logit_shift.weight": {
+      "L2": 0.6183498323836647,
+      "count": 768,
+      "max": 0.0946456640958786,
+      "mean": -0.003588616198536935,
+      "min": -0.07495792955160141,
+      "scalar": null,
+      "shape": [
+        1,
+        768
+      ],
+      "std": 0.022022304139769945,
+      "tensor_sha256": "8ecf31509b44f2dc64e11d1f44b9cd30c9ce18daaace2a04baff6faeb2d4aa6a"
+    }
+  },
+  "original_and_all_historical_checkpoints_read_only": true,
+  "real_model_forwards": 0
+}

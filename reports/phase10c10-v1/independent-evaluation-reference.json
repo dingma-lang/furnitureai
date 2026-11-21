@@ -1,0 +1,7 @@
+{
+  "future_acceptance_images_acquired": 0,
+  "future_acceptance_scored": false,
+  "path": "reports/phase10c9-v1/independent-evaluation-protocol.json",
+  "sha256": "0ec35495e54a759bc798aca2cad4813afd970e32b45776871464c197e19fcff5",
+  "training_masks_from_evaluation": false
+}

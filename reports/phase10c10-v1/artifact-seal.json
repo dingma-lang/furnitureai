@@ -1,0 +1,7 @@
+{
+  "exact_calibration_scalar_table_private": true,
+  "no_model_weights_or_photographs_uploaded": true,
+  "private_artifacts": 10,
+  "private_seal": "data/open-images/preparation/phase10c10-v1/ARTIFACT-SHA256SUMS",
+  "private_seal_sha256": "fcd2ceb06631d69bb272c4c9bac1e9fba0e6fd3efaa6a8ffd6ba1a45934942f1"
+}
