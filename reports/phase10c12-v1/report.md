@@ -111,7 +111,7 @@ The existing C9 protocol proposes **140 unseen real-room/source groups**, at lea
 - **Zero photographs are established as a qualified, complete seven-class independent acceptance pool by this audit.** This does not mean no independent photographs exist elsewhere; qualification has not been demonstrated.
 - Chair must include seating/bar stools; footstools/ottomans/step stools remain separate. Cabinet-front/whole-unit, Desk/Table and standalone Lamp/fixture semantics require explicit consistent policies. Uncertain objects remain ignored, not confirmed negatives.
 
-No evaluation photographs were opened, reannotated, reassigned or used to construct training masks. The exposed 19-photo panel, historical 18/36-photo panels and training photographs cannot be repurposed as new independent evaluation data.
+No evaluation photographs were decoded, visually reviewed, reannotated, reassigned or used to construct training masks. Historical preservation checks read file bytes for hashing; they do not score or visually inspect images. The exposed 19-photo panel, historical 18/36-photo panels and training photographs cannot be repurposed as new independent evaluation data.
 
 ## Verification, preservation and next approval
 
