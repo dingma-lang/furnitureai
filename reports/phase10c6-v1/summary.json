@@ -1,0 +1,136 @@
+{
+  "GPU_forwards": 0,
+  "additional_metadata_geometry_audit": 447,
+  "additional_objects_inspected": 85,
+  "automatically_screened_candidates": 37,
+  "by_category": [
+    {
+      "automatic": 0,
+      "category": "animals",
+      "known_groups": 4,
+      "source_verified": 0,
+      "total": 8,
+      "uncertain": 8
+    },
+    {
+      "automatic": 6,
+      "category": "clothing_bags",
+      "known_groups": 11,
+      "source_verified": 2,
+      "total": 14,
+      "uncertain": 6
+    },
+    {
+      "automatic": 7,
+      "category": "furniture_parts",
+      "known_groups": 5,
+      "source_verified": 0,
+      "total": 11,
+      "uncertain": 4
+    },
+    {
+      "automatic": 1,
+      "category": "kitchen_appliances",
+      "known_groups": 8,
+      "source_verified": 2,
+      "total": 8,
+      "uncertain": 5
+    },
+    {
+      "automatic": 3,
+      "category": "people",
+      "known_groups": 20,
+      "source_verified": 17,
+      "total": 77,
+      "uncertain": 57
+    },
+    {
+      "automatic": 4,
+      "category": "people_parts",
+      "known_groups": 3,
+      "source_verified": 0,
+      "total": 8,
+      "uncertain": 4
+    },
+    {
+      "automatic": 4,
+      "category": "plants_flowers",
+      "known_groups": 18,
+      "source_verified": 4,
+      "total": 35,
+      "uncertain": 27
+    },
+    {
+      "automatic": 2,
+      "category": "screens",
+      "known_groups": 14,
+      "source_verified": 8,
+      "total": 20,
+      "uncertain": 10
+    },
+    {
+      "automatic": 4,
+      "category": "tableware_small_objects",
+      "known_groups": 8,
+      "source_verified": 1,
+      "total": 9,
+      "uncertain": 4
+    },
+    {
+      "automatic": 5,
+      "category": "wall_art",
+      "known_groups": 3,
+      "source_verified": 0,
+      "total": 8,
+      "uncertain": 3
+    },
+    {
+      "automatic": 1,
+      "category": "windows_doors",
+      "known_groups": 9,
+      "source_verified": 7,
+      "total": 10,
+      "uncertain": 2
+    }
+  ],
+  "candidate_groups": 47,
+  "downloads": 0,
+  "exclusions": "All saved Phase10C.2 Chair false-positive review predictions are internal-validation diagnostics; none become training negatives",
+  "human_confirmations_created": 0,
+  "initial_candidates": 123,
+  "model_forwards": 0,
+  "objects_inspected": 208,
+  "original_furniture_photos": 59,
+  "original_positive_boxes": 182,
+  "original_source_groups": 56,
+  "photographs_inspected": 50,
+  "policy": {
+    "calibrated_probability_available": false,
+    "human_reviewed": false,
+    "independent_from_detector_predictions": true,
+    "mask_inward_margin_pixels": 3,
+    "minimum_area_pixels": 256,
+    "minimum_inspected_region_side_pixels": 32,
+    "minimum_side_pixels": 12,
+    "missing_labels_are_not_negatives": true,
+    "mixed_visual_candidate_boxes_protected": true,
+    "other_categories_unknown": true,
+    "reviewed_by": "assistant_visual_inspection",
+    "scope": "Visible pixels of the named object only; no claim about hidden objects or full photograph completeness",
+    "source": "COCO/LVIS native non-Chair visible instance polygon plus actual assistant visual inspection",
+    "spatial": "One simple source polygon; fully interior rectangle; at least2px exact boundary clearance; zero protected/uncertain overlap",
+    "target": "chair",
+    "training_enabled": false,
+    "version": "source-visible-instance-mask-chair-negative-v1"
+  },
+  "policy_sha256": "bbaa383db87e2d69d2b63257d33f635d76c41b77db9d23af28323e8db6b89f31",
+  "schema": "phase10c6-automatic-review-summary-v1",
+  "source_annotations_can_be_imperfect": true,
+  "source_verified_groups": 24,
+  "source_verified_is_not_human_verified_accuracy": true,
+  "source_verified_photos": 24,
+  "source_verified_regions": 41,
+  "source_verified_semantics": "Native visible non-Chair polygon, exact isolated spatial region, actual assistant visual inspection and zero protected/uncertain overlap",
+  "training_activated": false,
+  "uncertain_or_rejected": 130
+}

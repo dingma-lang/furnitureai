@@ -1,0 +1,120 @@
+{
+  "actually_visually_inspected_candidates": 208,
+  "alias_records_not_additional_independent_targets": 9,
+  "categories": [
+    {
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "category": "animals",
+      "inspected": 8,
+      "source_verified_groups": 0,
+      "source_verified_photos": 0
+    },
+    {
+      "A": 2,
+      "B": 6,
+      "C": 6,
+      "category": "clothing_bags",
+      "inspected": 14,
+      "source_verified_groups": 2,
+      "source_verified_photos": 2
+    },
+    {
+      "A": 0,
+      "B": 7,
+      "C": 4,
+      "category": "furniture_parts",
+      "inspected": 11,
+      "source_verified_groups": 0,
+      "source_verified_photos": 0
+    },
+    {
+      "A": 2,
+      "B": 1,
+      "C": 5,
+      "category": "kitchen_appliances",
+      "inspected": 8,
+      "source_verified_groups": 2,
+      "source_verified_photos": 2
+    },
+    {
+      "A": 17,
+      "B": 3,
+      "C": 57,
+      "category": "people",
+      "inspected": 77,
+      "source_verified_groups": 10,
+      "source_verified_photos": 10
+    },
+    {
+      "A": 0,
+      "B": 4,
+      "C": 4,
+      "category": "people_parts",
+      "inspected": 8,
+      "source_verified_groups": 0,
+      "source_verified_photos": 0
+    },
+    {
+      "A": 4,
+      "B": 4,
+      "C": 27,
+      "category": "plants_flowers",
+      "inspected": 35,
+      "source_verified_groups": 4,
+      "source_verified_photos": 4
+    },
+    {
+      "A": 8,
+      "B": 2,
+      "C": 10,
+      "category": "screens",
+      "inspected": 20,
+      "source_verified_groups": 8,
+      "source_verified_photos": 8
+    },
+    {
+      "A": 1,
+      "B": 4,
+      "C": 4,
+      "category": "tableware_small_objects",
+      "inspected": 9,
+      "source_verified_groups": 1,
+      "source_verified_photos": 1
+    },
+    {
+      "A": 0,
+      "B": 5,
+      "C": 3,
+      "category": "wall_art",
+      "inspected": 8,
+      "source_verified_groups": 0,
+      "source_verified_photos": 0
+    },
+    {
+      "A": 7,
+      "B": 1,
+      "C": 2,
+      "category": "windows_doors",
+      "inspected": 10,
+      "source_verified_groups": 6,
+      "source_verified_photos": 6
+    }
+  ],
+  "eligibility_gate_failures": {
+    "Overlap with visually uncertain source region C102": 1,
+    "Overlapping accepted source target; preserve without duplicate weighting": 5
+  },
+  "explicit_source_image_level_chair_negatives": 0,
+  "native_records_excluded_before_visual_inspection": 426,
+  "objects_not_proven_independent": true,
+  "rejection_outcomes": {
+    "clear_nonchair": 6,
+    "mixed_or_uncertain": 43,
+    "unreliable_resolution": 81
+  },
+  "source_A_relies_on_visible_instance_polygons": true,
+  "source_inventory_geometric_object_hypotheses": 625,
+  "source_inventory_raw_nonfurniture_records": 643
+}

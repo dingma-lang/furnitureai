@@ -1,0 +1,102 @@
+{
+  "actual_model_query_coverage": "unmeasured; mandatory separately authorized smoke",
+  "automatic_B_excluded": true,
+  "bounds": {
+    "allocated_VRAM_stop_GiB": 6.5,
+    "batch_size": 1,
+    "gradient_accumulation": 4,
+    "max_configurations": 2,
+    "max_epochs_per_configuration": 5,
+    "max_queue_seconds": 3600,
+    "max_total_updates": 150,
+    "max_updates_per_configuration": 75
+  },
+  "controlled_arms": [
+    {
+      "initialization": "immutable original OWLv2",
+      "loss": "unchanged Phase10B mask",
+      "name": "legacy"
+    },
+    {
+      "initialization": "same immutable original OWLv2",
+      "loss": "identical legacy objective plus only validated source-interior Chair-negative mask",
+      "name": "source-mask"
+    }
+  ],
+  "development": "same19 source-group-isolated internal-validation photos; exposed diagnostic panel, not independent real-world accuracy",
+  "enabled": false,
+  "failure_criteria": [
+    "no actual query-mask contrast",
+    "precision gain only from recall collapse",
+    "Chair score inflation increases",
+    "material Sofa/Bed localization or recall regression",
+    "loss/GPU/memory limit failure"
+  ],
+  "frozen": [
+    "vision encoder",
+    "text encoder",
+    "objectness",
+    "all other parameters"
+  ],
+  "independent_evaluation": "Separate future rights-verified, unexposed real-room protocol; source/creator/hash/perceptual isolation; whole-object seven-class completeness including stools; freeze model/threshold before one evaluation; no reserved/frozen scoring now",
+  "meaningful_coordinate_difference": 352,
+  "next_approval": {
+    "action": "zero-update GPU smoke only",
+    "allocated_VRAM_GiB": 6.5,
+    "followed_by_training": false,
+    "max_seconds": 600,
+    "maximum_forward_passes": 24,
+    "optimizer_updates": 0,
+    "photo_manifest": "data/open-images/preparation/phase10c6-v1/proposed-smoke-photos.json",
+    "photo_manifest_sha256": "5908ee2a746c541b02837f5a936da6ce1fc9762fbacdace252099e03e4fb203c",
+    "photos": 24,
+    "purpose": "Check actual original-detector query coverage, positive-mask preservation and CUDA/AMP memory safety on exact24 source-verified training photos"
+  },
+  "nonfurniture_knowledge": "Encoder/text/objectness stay immutable, but shared classification-head forgetting is still possible; residual/affine anchoring and named auxiliary prompts must be separate ablations, not mixed into this mask test",
+  "optimization_photos": 59,
+  "optimization_source_groups": 56,
+  "policy_sha256": "bbaa383db87e2d69d2b63257d33f635d76c41b77db9d23af28323e8db6b89f31",
+  "reference_models": [
+    "immutable original OWLv2",
+    "historical Phase10B checkpoints/predictions; no repeated training needed for historical reference"
+  ],
+  "retained_positive_boxes": 182,
+  "safeguards": [
+    "hash original/frozen parameters",
+    "zero nonfinite-loss tolerance",
+    "monitor classification shift/scale drift and per-category score inflation",
+    "preserve positive masks",
+    "no global background or Other output",
+    "stop if real source-negative query coverage zero"
+  ],
+  "schema": "phase10c6-inactive-controlled-comparison-v1",
+  "scoring": [
+    "fixed.15 P/R TP/FP/FN",
+    "precision at matched original recall",
+    "AP50/AP75/full PR curves",
+    "Chair FP per photo and category",
+    "recall/localization/category regressions",
+    "score calibration distributions",
+    "duplicate/fragment analysis",
+    "latency/VRAM"
+  ],
+  "source_evidence_file": "data/open-images/preparation/phase10c6-v1/source-negative-evidence.json",
+  "source_evidence_sha256": "48f26dd93572bd166a31270479df11accc1899d9896304eaba5028aaf7cd1448",
+  "source_verified_groups": 24,
+  "source_verified_regions": 41,
+  "trainable_scope": "same12 class_head/box_head tensors,1,579,526parameters; no extra architecture change",
+  "training_authorized": false,
+  "training_manifest_sha256": "7c5b1849905f1a01600e1ea25ad8e3fbd0026c662af7393a680f0911cfcc3db5",
+  "uncertain_C_excluded": true,
+  "unchanged_between_arms": [
+    "59 photos and fixed group assignments",
+    "prompt/category order",
+    "seed6106",
+    "learning rate1e-5",
+    "data order and update count",
+    "matching and GT normalization",
+    "focal alpha.25 gamma2",
+    "classification1 L1=5 GIoU2",
+    "confidence.15/NMS.5/AP definitions"
+  ]
+}

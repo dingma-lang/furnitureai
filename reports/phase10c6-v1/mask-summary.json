@@ -1,0 +1,13 @@
+{
+  "actual_GPU_query_coverage_unmeasured": true,
+  "changed_mask_terms": 352,
+  "loss_coefficients_unchanged": true,
+  "meaningful_coordinate_fixture_difference": true,
+  "model_forwards": 0,
+  "only_Chair_negative_mask_added": true,
+  "optimizer_updates": 0,
+  "positives_preserved": true,
+  "region_interior_probes_added": 41,
+  "scope": "CPU synthetic grid plus strictly interior source-region coordinate probes; not actual OWLv2 predictions",
+  "training_enabled": false
+}

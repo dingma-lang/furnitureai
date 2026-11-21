@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "dashboard loads automatic results",
+    "summary metrics shown",
+    "source-supported tier default",
+    "accepted candidate shown",
+    "mask differences displayed",
+    "actual query limitation explicit",
+    "all results visible without repeated review",
+    "photograph overlays shown",
+    "automatic never human confirmed",
+    "automatic-only tier filter",
+    "uncertain tier filter",
+    "category filter",
+    "source-group filter",
+    "category/group count table",
+    "permanent legend",
+    "optional append-only correction flow",
+    "correction does not rewrite frozen results"
+  ],
+  "model_forwards": 0,
+  "real_human_corrections": 0,
+  "status": "PASS"
+}
