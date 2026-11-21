@@ -1,0 +1,29 @@
+{
+  "GPU_code_hashes": {
+    "tools/phase10c7-v1/analyze7.py": "e343ce8df473809ae0c8b967fda919d370bad05bcf34326ef55cc84365117f10",
+    "tools/phase10c7-v1/common7.py": "ab09e82923e3f01c3062e78c625c88ca7527d8251d3776463f40f82b92011386",
+    "tools/phase10c7-v1/gpu7.py": "fdb7ff5adc897b6a597d3fc09dc6469b1cd412762b27806cf0f927bab4b7dafd",
+    "tools/phase10c7-v1/launch7.py": "9d0b09b0d37cebcf810ea1fe5de1ef7edf0709761680ad2632bf87070950a150",
+    "tools/phase10c7-v1/preflight7.py": "e03b35787357ca69750d95c7ffe04e704f549ff3a63d71a616b970a07eba510a",
+    "tools/phase10c7-v1/test_smoke7.py": "30396f2528092b190dfaf276698d236176fba19c56e654e01090f0a09a8db4a8"
+  },
+  "authorization_scope": "User Phase10C.7 exact24 optimization photos,24forwards,600sec,6.5GiB,zero updates",
+  "base_commit": "b3b512641323d82f5703f910f94ea4cd63dd828f",
+  "binding_sha256": "7e3a29df8eb2ae04b7d0551318d2c889267c8dfcbdf65fb89b0c051b936bc999",
+  "checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "environment": {
+    "Pillow": "13.0.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "torch": "2.14.1+cu132",
+    "transformers": "4.57.6"
+  },
+  "model_final_state_sha256": "1e9898fc0424baff3802f00ede8cb00e19972cb1e07581de98feed369a59b4af",
+  "model_initial_state_sha256": "1e9898fc0424baff3802f00ede8cb00e19972cb1e07581de98feed369a59b4af",
+  "no_environment_installations": true,
+  "precision": "float32 original weights; CUDA fp16 autocast as Phase10B optimization",
+  "supplemental_CPU_code_hashes": {
+    "signal7.py": "04f042b0ae02dc4beb8ab666067a0501360ce58f6182c22850e28363b125103e",
+    "verify7.py": "a8a4a90e7c020cebcd6e978327c4d3aac8a0ec86110fdc09845c9a905224e146"
+  }
+}

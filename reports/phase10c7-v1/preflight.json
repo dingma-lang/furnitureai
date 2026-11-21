@@ -1,0 +1,11 @@
+{
+  "files_verified": 33,
+  "groups": 24,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "photos": 24,
+  "positive_ignored_geometry_preserved": true,
+  "regions": 41,
+  "status": "PASS",
+  "training_authorized": false,
+  "validation_images_accessed": false
+}

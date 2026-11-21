@@ -1,0 +1,22 @@
+{
+  "CPU_only": true,
+  "Chair_score_quantiles": {
+    "0": 9.640143774110972e-11,
+    "0.25": 4.289832358180486e-05,
+    "0.5": 0.0001579642770307742,
+    "0.75": 0.0005038451561487243,
+    "0.9": 0.00112273543286005,
+    "0.95": 0.0016525436195900546,
+    "1": 0.01905089958582299
+  },
+  "above_001": 1,
+  "above_005": 0,
+  "above_015": 0,
+  "additional_focal_loss_sum_float64": 2.7532299643893853e-06,
+  "backward_calls": 0,
+  "code_sha256": "04f042b0ae02dc4beb8ab666067a0501360ce58f6182c22850e28363b125103e",
+  "mean_image_additional_focal_loss_float64": 1.1471791518289105e-07,
+  "model_forwards": 0,
+  "new_queries": 292,
+  "scope": "Signal magnitude on added negative queries only; not detection precision/recall or performance improvement"
+}

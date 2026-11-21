@@ -1,0 +1,242 @@
+[
+  {
+    "additional_Chair_negative_queries": 2,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.9839805960655212,
+    "index": 1,
+    "legacy_classification_loss": 0.9839805960655212,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 0
+  },
+  {
+    "additional_Chair_negative_queries": 1,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.08710749447345734,
+    "index": 2,
+    "legacy_classification_loss": 0.08710749447345734,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 0
+  },
+  {
+    "additional_Chair_negative_queries": 7,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.9970124363899231,
+    "index": 3,
+    "legacy_classification_loss": 0.9970124363899231,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 2,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 2,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.19349195063114166,
+    "index": 4,
+    "legacy_classification_loss": 0.19349195063114166,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 3,
+    "zero_coverage_region_count": 2
+  },
+  {
+    "additional_Chair_negative_queries": 27,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.414622962474823,
+    "index": 5,
+    "legacy_classification_loss": 0.414622962474823,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 2,
+    "zero_coverage_region_count": 0
+  },
+  {
+    "additional_Chair_negative_queries": 12,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.5834031105041504,
+    "index": 6,
+    "legacy_classification_loss": 0.5834030508995056,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 3,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 8,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.1636863797903061,
+    "index": 7,
+    "legacy_classification_loss": 0.1636863797903061,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 2,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 0,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 1.6546087265014648,
+    "index": 8,
+    "legacy_classification_loss": 1.6546087265014648,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 49,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.9611908793449402,
+    "index": 9,
+    "legacy_classification_loss": 0.9611908793449402,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 2,
+    "zero_coverage_region_count": 0
+  },
+  {
+    "additional_Chair_negative_queries": 0,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.27935078740119934,
+    "index": 10,
+    "legacy_classification_loss": 0.27935078740119934,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 34,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 4.179687023162842,
+    "index": 11,
+    "legacy_classification_loss": 4.179687023162842,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 0
+  },
+  {
+    "additional_Chair_negative_queries": 15,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 1.211456537246704,
+    "index": 12,
+    "legacy_classification_loss": 1.211456537246704,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 0
+  },
+  {
+    "additional_Chair_negative_queries": 0,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.2973482310771942,
+    "index": 13,
+    "legacy_classification_loss": 0.2973482310771942,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 0,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.21740774810314178,
+    "index": 14,
+    "legacy_classification_loss": 0.21740774810314178,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 2,
+    "zero_coverage_region_count": 2
+  },
+  {
+    "additional_Chair_negative_queries": 1,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 1.562079668045044,
+    "index": 15,
+    "legacy_classification_loss": 1.562079668045044,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 2,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 29,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 1.4253040552139282,
+    "index": 16,
+    "legacy_classification_loss": 1.425301432609558,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 0
+  },
+  {
+    "additional_Chair_negative_queries": 64,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.6948714852333069,
+    "index": 17,
+    "legacy_classification_loss": 0.6948714852333069,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 2,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 9,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.3704700767993927,
+    "index": 18,
+    "legacy_classification_loss": 0.3704700767993927,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 3,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 0,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.3827107846736908,
+    "index": 19,
+    "legacy_classification_loss": 0.3827107846736908,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 2,
+    "zero_coverage_region_count": 2
+  },
+  {
+    "additional_Chair_negative_queries": 2,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.24553674459457397,
+    "index": 20,
+    "legacy_classification_loss": 0.24553674459457397,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 2,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 1,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.8409278392791748,
+    "index": 21,
+    "legacy_classification_loss": 0.8409278392791748,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 0
+  },
+  {
+    "additional_Chair_negative_queries": 11,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.8459897041320801,
+    "index": 22,
+    "legacy_classification_loss": 0.8459897041320801,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 3,
+    "zero_coverage_region_count": 1
+  },
+  {
+    "additional_Chair_negative_queries": 4,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 0.22834917902946472,
+    "index": 23,
+    "legacy_classification_loss": 0.22834917902946472,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 0
+  },
+  {
+    "additional_Chair_negative_queries": 14,
+    "coordinate_membership_discrepancies": 0,
+    "corrected_classification_loss": 2.041069746017456,
+    "index": 24,
+    "legacy_classification_loss": 2.041069746017456,
+    "positive_or_protected_overlap_targets": 0,
+    "source_region_count": 1,
+    "zero_coverage_region_count": 0
+  }
+]

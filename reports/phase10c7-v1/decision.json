@@ -1,0 +1,25 @@
+{
+  "Phase10D_authorized": false,
+  "automatic_next_experiment": false,
+  "future_controls": [
+    "same initial weights, data/order/seed, updates and loss coefficients",
+    "only the negative mask differs",
+    "log per-image source-region coverage and negative-loss contribution through training",
+    "track Chair score inflation and Sofa/Bed localization/recall",
+    "stop safely on loss of signal, nonfinite values or resource breach",
+    "no repeated optimization on exposed/frozen panels"
+  ],
+  "gradient_impact": "Unmeasured; no backward passes. AMP numerical/gradient signal and dynamic query coverage must be monitored in a future approved experiment",
+  "mean_additional_focal_loss_float64": 1.1471791518289105e-07,
+  "not_claimed": [
+    "improved detection precision/recall",
+    "independent real-room accuracy",
+    "proven prevention of score inflation",
+    "elimination of missing-label or automatic-evidence errors"
+  ],
+  "rationale": "292 real additional valid Chair-negative terms across19 source groups and24 source regions; zero overlap/coordinate/positive-mask violations; objective differs",
+  "recommendation": "A",
+  "scope": "Ready only for a separately authorized controlled diagnostic training comparison",
+  "strength_caveat": "Original-model added queries are easy negatives: median score0.000158, maximum0.01905, zero>=0.15; initial focal contribution is very small",
+  "training_authorized": false
+}

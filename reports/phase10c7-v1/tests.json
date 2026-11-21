@@ -1,0 +1,11 @@
+{
+  "CPU_backward_calls": 0,
+  "CPU_model_forwards": 0,
+  "CPU_optimizer_steps": 0,
+  "CPU_tests": 19,
+  "actual_query_arrays_verified": 24,
+  "added_terms_reconcile": true,
+  "command": "CUDA_VISIBLE_DEVICES='' HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 .venv/bin/python -B -m unittest discover -s tools/phase10c7-v1 -p 'test*.py' -v",
+  "query_region_ownership_unique": true,
+  "status": "PASS"
+}

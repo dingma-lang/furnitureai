@@ -1,0 +1,10 @@
+{
+  "no_new_forwards": true,
+  "query_boxes_clipped": false,
+  "regions_covered": 24,
+  "regions_uncovered": 17,
+  "source_region_pixels_expanded": false,
+  "zero_reason_counts": {
+    "No full predicted box contained in region": 17
+  }
+}
