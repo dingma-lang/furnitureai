@@ -1,0 +1,48 @@
+{
+  "browser": {
+    "checks": [
+      "Three identical-frame saved-model panels",
+      "Photos sorted by scoped FP burden",
+      "High-score filter retains one FP and one unknown per model",
+      "Scored FP filter excludes unknown predictions",
+      "Incomplete annotations remain separately unscored",
+      "Click preserves exact query identity and coordinates",
+      "Rendering cap does not modify saved predictions",
+      "Separate optimization-training photo pool",
+      "Training scope warns no label verification",
+      "Evidence navigation returns to diagnostic-only pool",
+      "Assistant evidence shown without human confirmation",
+      "No training or supervision-write endpoint",
+      "Local registered photograph loads",
+      "Score and object-size distribution charts render",
+      "No automatic negative activation"
+    ],
+    "human_reviews_created": 0,
+    "model_forwards": 0,
+    "status": "PASS"
+  },
+  "passed": 101,
+  "status": "PASS",
+  "suites": [
+    {
+      "log_sha256": "0a38f97731a054667312ae5b6595fe7dd28753140d38815929751a63d6c2735b",
+      "passed": 22,
+      "suite": "phase10c9-v1"
+    },
+    {
+      "log_sha256": "2b93c4602c2a21e7535e59c1ef7a3ef6ac2ad31d6fe926f06dfcc180505c487c",
+      "passed": 16,
+      "suite": "phase10c8-v1"
+    },
+    {
+      "log_sha256": "b10c2c4f56e6371262198d96604df704c9c7571ad16356bd819880af896df638",
+      "passed": 31,
+      "suite": "phase10c6-v1"
+    },
+    {
+      "log_sha256": "08a3448ff7f15b86be9ba3ab1c2d544aa4227bf74b41de2b7ecf0149e069f744",
+      "passed": 32,
+      "suite": "phase10a-v1"
+    }
+  ]
+}

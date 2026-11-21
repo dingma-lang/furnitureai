@@ -1,0 +1,63 @@
+{
+  "Phase10D_authorized": false,
+  "approval_required": "Explicit approval for exactly this one bounded calibration-frozen diagnostic. No GPU execution is authorized by C9.",
+  "comparison": "Previously fixed C8 B and original on the same19-photo diagnostic protocol; final epoch endpoint fixed before results, no threshold tuning, no additional control rerun",
+  "data": {
+    "development_photos": 19,
+    "development_role": "Exposed internal diagnostic comparison only; never gradient updates or negative mining",
+    "known_source_groups": 56,
+    "negative_regions": 41,
+    "new_negative_candidates_activated": 0,
+    "optimization_photos": 59,
+    "positive_boxes": 182,
+    "source_manifest_sha256": "ec55e01d968b584819c790de2c2a843bd87d9af960642601d65187807800b937"
+  },
+  "frozen": "Vision/text encoders, objectness, both class-head calibration modules, and all remaining parameters",
+  "hypothesis": "Pretrained shared per-query calibration may resist the observed common-category logit inflation; dense projection drift remains a competing explanation, so an ablation is required",
+  "initialization": "Exact immutable original OWLv2; not continuation of an inflated checkpoint",
+  "predeclared_evidence_criteria": {
+    "Chair_FP_relative_reduction_at_015_at_least": 0.2,
+    "Chair_recall_absolute_drop_at_most": 0.03,
+    "aggregate_recall_drop_at_most": 0.03,
+    "matched_recall_precision_drop_at_most": 0.02,
+    "not_an_independent_success_claim": true,
+    "per_category": "No concealed Sofa/Bed recall/AP75 regressions; report uncertainty and counts"
+  },
+  "preservation": "Unique new outputs, original weights and all prior artifacts immutable; predictions saved before separate CPU metrics",
+  "settings": {
+    "batch_size": 1,
+    "gradient_accumulation": 4,
+    "learning_rate": 1e-05,
+    "loss_weights": "Exactly C8: classification1/L1=5/GIoU=2/focal alpha.25 gamma2",
+    "max_epochs": 5,
+    "max_gpu_seconds": 600,
+    "max_optimizer_updates": 75,
+    "max_vram_gib": 6.5,
+    "optimizer": "AdamW",
+    "precision": "Same C8 FP16 autocast, FP32 loss, GradScaler128",
+    "sampling": "Same C8 deterministic order",
+    "seed": 6106,
+    "weight_decay": 0.01
+  },
+  "single_change": "Freeze original class_head.logit_shift and class_head.logit_scale weights+biases while retaining the C8 corrected objective",
+  "status": "NOT_AUTHORIZED",
+  "stop_conditions": [
+    "Any nonfinite loss/gradient or unsafe memory/time/update event",
+    "Frozen calibration/backbone drift or checkpoint integrity failure",
+    "Positive/ignored masks changed or protected negative overlap",
+    "No material precision gain at comparable recall: do not extend epochs, tune thresholds, add weights or launch another variant"
+  ],
+  "trainable": [
+    "class_head.dense0.weight",
+    "class_head.dense0.bias",
+    "box_head.dense0.weight",
+    "box_head.dense0.bias",
+    "box_head.dense1.weight",
+    "box_head.dense1.bias",
+    "box_head.dense2.weight",
+    "box_head.dense2.bias"
+  ],
+  "trainable_parameters": 1577988,
+  "trainable_tensors": 8,
+  "training_authorized": false
+}

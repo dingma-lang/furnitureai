@@ -1,0 +1,296 @@
+{
+  "analytic_focal_example": {
+    "easy_loss": 2.956461443967183e-12,
+    "hard_loss": 0.12996509635498973,
+    "hard_to_easy_loss_ratio": 43959679102.25599,
+    "p_easy": 0.0001579642770307742,
+    "p_hard": 0.5,
+    "same_positive_count_divisor_cancels_in_ratio": true
+  },
+  "broad_confidence_mechanism": "Positive-only Chair supervision can lower loss via shared shift/scale as well as semantic projection. Shared parameters affect ignored logits. This is permitted by the mask, not explicit all-query positive labels. Attribution specifically to calibration layers requires a controlled freeze ablation.",
+  "formula": "z[q,c] = (cosine(dense0(image_feature[q]), text[c]) + logit_shift(image_feature[q])) * (ELU(logit_scale(image_feature[q])) + 1); score[q] = sigmoid(max_c z[q,c])",
+  "head_tensor_changes": {
+    "control": {
+      "box_head.dense0.bias": {
+        "delta_L2": 0.0015152116334536665,
+        "max_abs_delta": 0.0002916790544986725,
+        "mean_delta": -2.05516076630848e-06,
+        "original_L2": 0.1408062060019612,
+        "relative_delta_L2": 0.010760971951993097
+      },
+      "box_head.dense0.weight": {
+        "delta_L2": 0.09235611303099613,
+        "max_abs_delta": 0.0006138645112514496,
+        "mean_delta": -7.587756842514877e-07,
+        "original_L2": 29.167491311683428,
+        "relative_delta_L2": 0.0031664057784085687
+      },
+      "box_head.dense1.bias": {
+        "delta_L2": 0.0010866997994452574,
+        "max_abs_delta": 0.000237323809415102,
+        "mean_delta": -2.7093211558693042e-06,
+        "original_L2": 0.11167718217911869,
+        "relative_delta_L2": 0.009730723664770687
+      },
+      "box_head.dense1.weight": {
+        "delta_L2": 0.0592649398765393,
+        "max_abs_delta": 0.00045355595648288727,
+        "mean_delta": 7.607791457609948e-07,
+        "original_L2": 28.970714174019033,
+        "relative_delta_L2": 0.0020456844633015008
+      },
+      "box_head.dense2.bias": {
+        "delta_L2": 3.326953471343213e-05,
+        "max_abs_delta": 2.9278453439474106e-05,
+        "mean_delta": -9.496521670371294e-06,
+        "original_L2": 0.018604857972243257,
+        "relative_delta_L2": 0.001788217613005551
+      },
+      "box_head.dense2.weight": {
+        "delta_L2": 0.0034680611031783167,
+        "max_abs_delta": 0.0002970397472381592,
+        "mean_delta": 1.5696071707186712e-07,
+        "original_L2": 0.7242544227414691,
+        "relative_delta_L2": 0.004788456921051182
+      },
+      "class_head.dense0.bias": {
+        "delta_L2": 0.005888556543354361,
+        "max_abs_delta": 0.0004590321332216263,
+        "mean_delta": -3.5292855216084718e-06,
+        "original_L2": 0.10053771902381091,
+        "relative_delta_L2": 0.058570620067078916
+      },
+      "class_head.dense0.weight": {
+        "delta_L2": 0.14589049633175644,
+        "max_abs_delta": 0.0005409996956586838,
+        "mean_delta": 9.700399923073752e-07,
+        "original_L2": 9.701100049825765,
+        "relative_delta_L2": 0.015038551873751336
+      },
+      "class_head.logit_scale.bias": {
+        "delta_L2": 0.000292263925075531,
+        "max_abs_delta": 0.000292263925075531,
+        "mean_delta": -0.000292263925075531,
+        "original_L2": 0.11228121817111969,
+        "relative_delta_L2": 0.002602963610798314
+      },
+      "class_head.logit_scale.weight": {
+        "delta_L2": 0.006202653433509368,
+        "max_abs_delta": 0.0003947317600250244,
+        "mean_delta": 6.672938930781432e-05,
+        "original_L2": 4.653565013495775,
+        "relative_delta_L2": 0.0013328820840626684
+      },
+      "class_head.logit_shift.bias": {
+        "delta_L2": 0.0003647804260253906,
+        "max_abs_delta": 0.0003647804260253906,
+        "mean_delta": 0.0003647804260253906,
+        "original_L2": 4.58231258392334,
+        "relative_delta_L2": 7.96061855983357e-05
+      },
+      "class_head.logit_shift.weight": {
+        "delta_L2": 0.007835703176045412,
+        "max_abs_delta": 0.0005163354799151421,
+        "mean_delta": -8.248559662919301e-05,
+        "original_L2": 0.6183498323836646,
+        "relative_delta_L2": 0.01267195811445394
+      }
+    },
+    "corrected": {
+      "box_head.dense0.bias": {
+        "delta_L2": 0.001521839726098675,
+        "max_abs_delta": 0.0002915035584010184,
+        "mean_delta": -2.405545628173892e-06,
+        "original_L2": 0.1408062060019612,
+        "relative_delta_L2": 0.01080804439882059
+      },
+      "box_head.dense0.weight": {
+        "delta_L2": 0.09233960762916234,
+        "max_abs_delta": 0.000611376017332077,
+        "mean_delta": -6.887925276889136e-07,
+        "original_L2": 29.167491311683428,
+        "relative_delta_L2": 0.003165839894916656
+      },
+      "box_head.dense1.bias": {
+        "delta_L2": 0.0011005652901865518,
+        "max_abs_delta": 0.00023786351084709167,
+        "mean_delta": -4.490190104178282e-06,
+        "original_L2": 0.11167718217911869,
+        "relative_delta_L2": 0.009854880546872669
+      },
+      "box_head.dense1.weight": {
+        "delta_L2": 0.05920262025450712,
+        "max_abs_delta": 0.00045211147516965866,
+        "mean_delta": 5.362237248069991e-07,
+        "original_L2": 28.970714174019033,
+        "relative_delta_L2": 0.002043533338491189
+      },
+      "box_head.dense2.bias": {
+        "delta_L2": 3.711777048891567e-05,
+        "max_abs_delta": 3.150897100567818e-05,
+        "mean_delta": -1.0412972187623382e-05,
+        "original_L2": 0.018604857972243257,
+        "relative_delta_L2": 0.001995057986698527
+      },
+      "box_head.dense2.weight": {
+        "delta_L2": 0.0034666355302622005,
+        "max_abs_delta": 0.00030077993869781494,
+        "mean_delta": 4.097480451881186e-07,
+        "original_L2": 0.7242544227414691,
+        "relative_delta_L2": 0.004786488589382982
+      },
+      "class_head.dense0.bias": {
+        "delta_L2": 0.005840462968350684,
+        "max_abs_delta": 0.0004585646092891693,
+        "mean_delta": -3.3681219449022137e-06,
+        "original_L2": 0.10053771902381091,
+        "relative_delta_L2": 0.058092256568576556
+      },
+      "class_head.dense0.weight": {
+        "delta_L2": 0.14520893152082318,
+        "max_abs_delta": 0.0005401168018579483,
+        "mean_delta": 9.272029550337421e-07,
+        "original_L2": 9.701100049825765,
+        "relative_delta_L2": 0.014968295427839772
+      },
+      "class_head.logit_scale.bias": {
+        "delta_L2": 0.000289037823677063,
+        "max_abs_delta": 0.000289037823677063,
+        "mean_delta": -0.000289037823677063,
+        "original_L2": 0.11228121817111969,
+        "relative_delta_L2": 0.0025742312773678793
+      },
+      "class_head.logit_scale.weight": {
+        "delta_L2": 0.0061634708641021,
+        "max_abs_delta": 0.0003911256790161133,
+        "mean_delta": 6.59875550278836e-05,
+        "original_L2": 4.653565013495775,
+        "relative_delta_L2": 0.001324462180334315
+      },
+      "class_head.logit_shift.bias": {
+        "delta_L2": 0.00036144256591796875,
+        "max_abs_delta": 0.00036144256591796875,
+        "mean_delta": 0.00036144256591796875,
+        "original_L2": 4.58231258392334,
+        "relative_delta_L2": 7.88777629850176e-05
+      },
+      "class_head.logit_shift.weight": {
+        "delta_L2": 0.007793976656866125,
+        "max_abs_delta": 0.0005152085795998573,
+        "mean_delta": -8.168392170423051e-05,
+        "original_L2": 0.6183498323836646,
+        "relative_delta_L2": 0.012604477673781003
+      }
+    }
+  },
+  "loss": "Matched class positives + explicit-native-negative masks + B source-region Chair negatives. Other classes on a matched query and unmatched unknown regions remain ignored. No softmax, objectness loss or universal background target.",
+  "matching": "Hungarian cost -sigmoid(class_logit)+5L1+2(1-GIoU), recomputed each image; matched positives always override negatives. Added region membership is nondifferentiable and never directly a box regression target.",
+  "model_forwards": 0,
+  "native_global_negative_photos": {
+    "bed": 1,
+    "sofa": 2
+  },
+  "negative_inventory": {
+    "area_fraction_quantiles": {
+      "0": 0.0036125000000000007,
+      "0.1": 0.004230093676814995,
+      "0.5": 0.010208333333333335,
+      "0.9": 0.031563245823389006,
+      "0.99": 0.0636834112149533,
+      "1": 0.06750000000000002
+    },
+    "native_label_counts": {
+      "Christmas_tree": 2,
+      "backpack": 1,
+      "bowl": 1,
+      "curtain": 7,
+      "handbag": 1,
+      "laptop": 3,
+      "person": 17,
+      "potted plant": 2,
+      "refrigerator": 2,
+      "television_set": 1,
+      "tv": 4
+    },
+    "photos": 24,
+    "regions": 41,
+    "source_groups": 24
+  },
+  "normalization": "Sum of active focal terms / positive GT count per photo. Not divided by3600queries, valid negatives or active terms. Positive and negative terms share the same divisor; sparse coverage and p^gamma suppress easy negatives independently of that divisor.",
+  "objectness": "Computed by separate frozen head but unused by the executed loss and final score/NMS. Saved arrays omit objectness and intermediate feature vectors; no retrospective objectness-gating or internal-layer decomposition can be claimed",
+  "optimizer_updates": 0,
+  "parameter_tensors_loaded_CPU_only": true,
+  "preserved_parameters": {
+    "accumulation": 4,
+    "base_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "batch_size": 1,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "frozen": "vision/text/objectness/all remaining parameters",
+    "gradient_clip_norm": 1.0,
+    "initialization": "original OWLv2",
+    "last_group_normalization": "actual group size3",
+    "learning_rate": 1e-05,
+    "loss_coefficients": {
+      "GIoU": 2,
+      "L1": 5,
+      "alpha": 0.25,
+      "classification": 1,
+      "gamma": 2
+    },
+    "max_epochs": 5,
+    "max_updates": 75,
+    "nonfinite_policy": "stop arm immediately, no replay or loss-weight tuning",
+    "optimizer": "AdamW",
+    "precision": "FP16 autocast; FP32 loss/weights",
+    "probe_epochs": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "probe_objective": "actual current GradScaler scale; autograd.grad on additional-negative and used classification loss; no probe optimizer updates",
+    "probe_photos": "exact24 C7 source photos",
+    "scaler_growth_interval": 2000,
+    "scaler_init": 128,
+    "seed": 6106,
+    "snapshots": "after every committed optimizer update; unique immutable filenames",
+    "trainable": "same12 class_head/box_head tensors",
+    "weight_decay": 0.01
+  },
+  "query_selection": "All60x60=3600 patch features; per-query max over7 prompts, not DETR object queries and not top-objectness filtering",
+  "source_files": {
+    "corrected_loss": {
+      "path": "tools/phase10c8-v1/loss8.py",
+      "sha256": "0f9f3ecfe66a332bfb1038cf996e9bfa85213a587dc928545fde980ed8e3c7f1"
+    },
+    "executed_worker": {
+      "path": "tools/phase10c8-v1/worker8.py",
+      "sha256": "4f8c4dc6a9faad2075b6d107b69121db293a67e6910683a3e856348bc03c2811"
+    },
+    "legacy_loss": {
+      "path": "tools/phase10a-v1/expanded.py",
+      "sha256": "9fe2454b2ecf647493521aff6798df0722bc4438be2add4ebbd59424efe2acff"
+    },
+    "saved_metric_postprocessing": {
+      "path": "tools/phase10c8-v1/metrics8.py",
+      "sha256": "f0150346a258f50ca093c2b952534bed0b4b788dbf91a2623b10beebfdc4c15a"
+    },
+    "transformers_architecture": {
+      "path": ".venv/lib/python3.14/site-packages/transformers/models/owlv2/modeling_owlv2.py",
+      "sha256": "1997720a152f18cb753d4fee1942a9384a1f443f59c64764420b4da0a0a1f1e7"
+    },
+    "transformers_postprocessor": {
+      "path": ".venv/lib/python3.14/site-packages/transformers/models/owlv2/image_processing_owlv2.py",
+      "sha256": "84f6ec6905f91abcdd8fd8a5d8ca42519634932d2715579de057f58e27da2252"
+    }
+  },
+  "training_positive_counts": {
+    "bed": 28,
+    "chair": 114,
+    "sofa": 40
+  }
+}

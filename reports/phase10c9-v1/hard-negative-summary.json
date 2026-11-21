@@ -1,0 +1,25 @@
+{
+  "development_or_evaluation_mining": false,
+  "existing_source_regions": 41,
+  "funnel": {
+    "not_overlapping_any_protected_box": 108,
+    "out_of_frame": 160,
+    "protected_or_uncertain_overlap": 1095,
+    "raw_top_Chair_queries_ge05": 1363
+  },
+  "genuinely_new_eligible_regions_before_fresh_visual_verification": 0,
+  "metadata_native_annotations": 1005,
+  "metadata_training_photos": 59,
+  "model_forwards": 0,
+  "native_labels": {},
+  "new_spatial_candidates_pending_visual": 0,
+  "saved_query_photos": 24,
+  "thresholds_top_Chair_query_counts": {
+    "0.15": 7236,
+    "0.5": 1363,
+    "0.8": 178
+  },
+  "training_activated": false,
+  "training_photos_without_saved_model_queries": 35,
+  "unverified_unprotected_queries": 108
+}

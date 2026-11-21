@@ -1,0 +1,11 @@
+{
+  "GPU_disabled": true,
+  "default_photo": "757a1631131f4ba3",
+  "model_forwards": 0,
+  "production_or_label_changes": false,
+  "real_photo_pool": 43,
+  "rendered_model_panels": 3,
+  "screenshot": "data/open-images/diagnostics/phase10c9-v1/live-dashboard.png",
+  "screenshot_sha256": "490344130db9611f6077d435c9aa2668dda9335fb4e8542c40be6e202bc95d2a",
+  "status": "PASS"
+}

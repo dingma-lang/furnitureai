@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "Three identical-frame saved-model panels",
+    "Photos sorted by scoped FP burden",
+    "High-score filter retains one FP and one unknown per model",
+    "Scored FP filter excludes unknown predictions",
+    "Incomplete annotations remain separately unscored",
+    "Click preserves exact query identity and coordinates",
+    "Original pixel coordinates and source frame are explicit",
+    "Rendering cap does not modify saved predictions",
+    "Separate optimization-training photo pool",
+    "Training scope warns no label verification",
+    "Evidence navigation returns to diagnostic-only pool",
+    "Assistant evidence shown without human confirmation",
+    "No training or supervision-write endpoint",
+    "Local registered photograph loads",
+    "Score and object-size distribution charts render",
+    "No automatic negative activation"
+  ],
+  "human_reviews_created": 0,
+  "model_forwards": 0,
+  "status": "PASS"
+}

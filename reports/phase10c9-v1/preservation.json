@@ -1,0 +1,30 @@
+{
+  "C8_original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "C8_private_sealed_files": 1310,
+  "C8_public_sealed_files": 32,
+  "Phase10D_started": false,
+  "development_mining": false,
+  "historical": {
+    "GPU_model_forwards": 0,
+    "Mac_project_modified": false,
+    "annotation_overlays_activated": 0,
+    "datasets_or_models_downloaded": 0,
+    "eligible_image_hashes": 78,
+    "historical_data_model_files": 9973,
+    "historical_data_modified": false,
+    "historical_implementation_files": 27,
+    "phase10b_report_artifacts": 24,
+    "phase10b_snapshots": 160,
+    "reserved_or_frozen_images_decoded": 0,
+    "source_group_isolation": true,
+    "status": "PASS",
+    "training_updates": 0
+  },
+  "main_commit": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "new_activated_training_labels": 0,
+  "new_human_reviews": 0,
+  "new_model_forwards": 0,
+  "optimizer_updates": 0,
+  "photo_or_model_downloads": 0,
+  "status": "PASS"
+}

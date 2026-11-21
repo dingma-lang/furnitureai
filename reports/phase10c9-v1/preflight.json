@@ -1,0 +1,14 @@
+{
+  "C8_private_sealed_files": 1310,
+  "C8_public_sealed_files": 32,
+  "Phase10D_authorized": false,
+  "downloads_authorized": false,
+  "eligible_photo_hashes_verified": 78,
+  "internal_dev_photos": 19,
+  "model_forwards_authorized": 0,
+  "optimizer_updates_authorized": 0,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "prior_commit": "02e7e6ac7b487b96a61af1035fe07081179e5ce9",
+  "status": "PASS",
+  "train_photos": 59
+}

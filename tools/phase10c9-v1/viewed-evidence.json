@@ -1,0 +1,167 @@
+{
+  "human_reviewed": false,
+  "method": "Actually viewed all nine listed contact plates with local image-view tool during Phase10C.9; assistant observations only",
+  "plates": [
+    {
+      "path": "data/open-images/diagnostics/phase10c9-v1/plates/development-01.jpg",
+      "sample_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ],
+      "sha256": "a9e14d498cf3e2a1e5fae95790798be899c81a6b9aab74397349fa0f8c9f9267"
+    },
+    {
+      "path": "data/open-images/diagnostics/phase10c9-v1/plates/development-02.jpg",
+      "sample_ids": [
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "sha256": "78fff6a66f2ca83e64058748e42588abc30d8b980d0d8a2a5bf16103c4a3b2a7"
+    },
+    {
+      "path": "data/open-images/diagnostics/phase10c9-v1/plates/development-03.jpg",
+      "sample_ids": [
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018"
+      ],
+      "sha256": "f3d90258f27dbed3827a36fab8982e7dbb23637f739fee0adc2722ba930cf11f"
+    },
+    {
+      "path": "data/open-images/diagnostics/phase10c9-v1/plates/development-04.jpg",
+      "sample_ids": [
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024"
+      ],
+      "sha256": "bc4257d12ab5cf6f2e6baee9f29fd3574d75f7d7d8ab1b3354eebf4cc16f72d7"
+    },
+    {
+      "path": "data/open-images/diagnostics/phase10c9-v1/plates/development-05.jpg",
+      "sample_ids": [
+        "S025",
+        "S026",
+        "S027",
+        "S028",
+        "S029",
+        "S030"
+      ],
+      "sha256": "86a36fa5b91b1ae0b5be21a7d9b64a8c9bfb52f92f98ed753d73342da01726a5"
+    },
+    {
+      "path": "data/open-images/diagnostics/phase10c9-v1/plates/development-06.jpg",
+      "sample_ids": [
+        "S031",
+        "S032",
+        "S033",
+        "S034",
+        "S035",
+        "S036"
+      ],
+      "sha256": "4eda9897eca9daa033985739e93d7126b0fe58efe51ce8f4ae77e90100337cf5"
+    },
+    {
+      "path": "data/open-images/diagnostics/phase10c9-v1/plates/development-07.jpg",
+      "sample_ids": [
+        "S037",
+        "S038",
+        "S039",
+        "S040"
+      ],
+      "sha256": "7c0461ad6e009ce198e20c7688d7f3573592e8c800486a4b8e415d77ca4c526b"
+    },
+    {
+      "path": "data/open-images/diagnostics/phase10c9-v1/plates/training-01.jpg",
+      "sample_ids": [
+        "T001",
+        "T002",
+        "T003",
+        "T004",
+        "T005",
+        "T006"
+      ],
+      "sha256": "45efb763f646697fac0b39f2cef91b34092f7c3c1066e3d90767ac5dd744ffd7"
+    },
+    {
+      "path": "data/open-images/diagnostics/phase10c9-v1/plates/training-02.jpg",
+      "sample_ids": [
+        "T007",
+        "T008",
+        "T009",
+        "T010",
+        "T011",
+        "T012"
+      ],
+      "sha256": "982d92dcf499255c456a1de4d5c915e46a8833a02988f1d6c90117799414445a"
+    }
+  ],
+  "sample_digests": {
+    "S001": "28bddc07a9d5e9390bd28c678a1cd6af99f7c11b5126a3b03a596ac2fe7e0c1a",
+    "S002": "4ab0090294848c07348b0e51ac9e59b0121dfb01069fbe4f7d9436079c3a7c16",
+    "S003": "0d1bf91706f18e595dedb9cd96b7734364d9d9789ea09841760973b5ca8bdbe5",
+    "S004": "4d39017702d6d5b98a398894a8d195423985f627eda00cdb7ea7474ee566d6a4",
+    "S005": "3956d4449698d984f14e5e944ca03c154dd00b5ae0f8b88c882bf6b3bb602482",
+    "S006": "c0aba6d18e5e9f33a2a55f2fa00efc290c29b7a2d74ebf5ce8626fe3ee03154f",
+    "S007": "3808a73574c9654491cdd0c5676f5b16c8164b391e2d8fe25b7266e3c6c41e4b",
+    "S008": "405e4d549831384f41fb63e62f6384e6ae7f9bac73a983d1e1d114f76c1971a0",
+    "S009": "08d6134ef60953e5a8d2074d18f49a66939fe06d686644993dae8c5060ca76ee",
+    "S010": "520fd2bfc81c3054249e965604a7f456310369251eaebe5bd5a5757618541b45",
+    "S011": "ee5e235bf17ea1362ff47bcaf3cfca23b2fd90fe355a59d22b16597c3d345be7",
+    "S012": "dd1253ea0cef32be0716ed7041c3e0323a544937f28c1ae32d629d5a3cd23bb8",
+    "S013": "d1f39025eea57e10056ad3a5aac62c3ae9819c8a39a258e6d90a977515497bd7",
+    "S014": "143ffaf82d2a2315099e8783dfbfe2a495053206eedd281478c02781702a01b9",
+    "S015": "f77c1cffa7ddd94e05716e188e3c6528febd562b164a438765ce745e0dd8f793",
+    "S016": "d836acb69ed735a1cdfb6456efa6df04be87e45cc93243f923fb5280a9a210f7",
+    "S017": "fc58137203de1a3ee89f561c59a955f252dd47c533a0555ff0f4b83b32cf24be",
+    "S018": "cdbffb77dd76bb6c4a627d15e01f9e593d2b75db4a34fedc5211a6175b554417",
+    "S019": "b6de75595275b037dda09212412e3156e48a5a5a7b3dc7e62b63722fee6bef0d",
+    "S020": "bcb3fee1dfc9f26d5dde0b013e3fac844c2d3d4706bd3295f960034fc1dbc045",
+    "S021": "b531c42192ed129b93228934309b00bb1ba48e2bf139b1aff97880020db41ae8",
+    "S022": "a5962c3449e298853fd1d053aa98fd511c36c500a6fa185ddef02c5c88597ab9",
+    "S023": "2d2a547dc8fffd471289d8296e656baecdc6825016185b85107f7a8f0e67e2ee",
+    "S024": "732e85a76ef8de5b2cf68160808ca7066be1b454dbc919bd4737e7280d0b3e1d",
+    "S025": "ef32d459280f75a2aa28308ed859dac2d6545dedfd3f222872dcee16e3f5d460",
+    "S026": "de21233285ae21044746dfa1a57d5d5781d3d1a51c9670c5583623a3623e6342",
+    "S027": "e873936726215c64576e5341e104532d195328c13650ddacec5f2d2835c5067f",
+    "S028": "42627fd20e26ce3b4f0926d50cc69d28430119609cd3b9897321a42b1b44dc4c",
+    "S029": "652d992a77b6536b9753a79f6e1f9e6f796f817b5dbaf5a914e19f36794bd943",
+    "S030": "7c48b79c3d518908225b67ec05eb92f92c65912088280638100e608707495ce5",
+    "S031": "470e68a2d21ae4555e8e2e378079fe05ecd5a6c5fb976dd88fdae9bba9b8846e",
+    "S032": "2f994e21cb5909f0621cce7847f802fe2fafc48d9fd9deebaa00c8c7cd7c44e5",
+    "S033": "b75defcff418c66c8e97ac1063e331df028bf98b18755cc4373c3e1a63671ce9",
+    "S034": "1c11016a76bf51a32ea41e167e11e18263d49ea904556a916262fc7dcbf4485d",
+    "S035": "a578c364bca4e25ed818927825c2fdd2cca244fa9c3c79847e52022d60054baf",
+    "S036": "796d424d58b86860125ad9b55489b39bcce8fc347d59e5a15cc24f39522fac63",
+    "S037": "a049ffa225a7cb00ac1edc6cc9f396f4eb0363d9d4bb0ed6b4a37c5e3d79df51",
+    "S038": "2bcf63afa85202e542914ef28573eb696f1864d396dccdb989e7fc6b792327d0",
+    "S039": "8634fa7fd60f635b1f7b8afe1d69a8a1781e8abd865ecf8aac53441e11525412",
+    "S040": "cbaa4e9690f649b9cc9f62c50f998e69c1258bef311cb88390e56bdf10acb9a7",
+    "T001": "69005271d551d8c265c25119bb7693e038223a2181566915cabe90a32d1becfd",
+    "T002": "499e369506bcab835ae2473f05d226bcee1c74cb696f4c8e0fae1cfa89c8da8d",
+    "T003": "ee725bd40c16d0090bc1b101bed5ddf28d252d2ad7dcd64807033584ca379bf8",
+    "T004": "7703748deece9909adfa6a380271280cc0737dd2a7b064820ad4306529183281",
+    "T005": "9861168448050286dc6444df1756666b99cb50f6d9cba6fd6629d979199c08ea",
+    "T006": "5ba9d9d84dd3ae7a419cda744959d41e8b51c48d28b8dc34e68a061fc175fd3f",
+    "T007": "19e485422d08a964f9e01a677d39b0964e2d268c9ed2968225ab942baec9debf",
+    "T008": "45095d4222b29dfcb84d1ab29e56b2b186c955fa89596aa5d7d11a2d22b39e55",
+    "T009": "f79b7fad52a61d48c083a9d2cfbf14a3abd7809c38cd920081f1d0d19f140702",
+    "T010": "4d99d475a0e4bddbcbfa39272b77ce3303850a7f1a61b40df8515a786ce2c4ff",
+    "T011": "f7eee645fd3d23120d1d8b4ba3a62ef7d4d4110f2cb66e66ed006c9c4e5b969c",
+    "T012": "d1099f89d10b0fd0c906534dcffe299142ee125fd95c56fbc62933e4b10146d9"
+  },
+  "training_enabled": false
+}

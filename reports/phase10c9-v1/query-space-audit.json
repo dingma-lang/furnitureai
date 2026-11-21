@@ -1,0 +1,134 @@
+{
+  "clipping": "Compare saved unclipped predicted boxes with original frame; flag is diagnostic, not automatically a false positive",
+  "high_score_Chair_negatives_received": 0,
+  "model_forwards": 0,
+  "query_grid": "Observed60x60; anchor flags refer to patch centers before inverse square padding, not to proof of predicted-box validity",
+  "thresholds": {
+    "control": {
+      "0.15": {
+        "fp": 660,
+        "fp_box_was_clipped": 51,
+        "fp_duplicate": 2,
+        "fp_fragment_heuristic": 161,
+        "fp_near_known_Chair_IoU_ge01": 128,
+        "fp_padding_anchor": 1,
+        "fp_tiny_area_lt1pct": 466,
+        "tp": 38,
+        "unknown_unmatched": 1503
+      },
+      "0.5": {
+        "fp": 222,
+        "fp_box_was_clipped": 9,
+        "fp_duplicate": 2,
+        "fp_fragment_heuristic": 69,
+        "fp_near_known_Chair_IoU_ge01": 66,
+        "fp_padding_anchor": 0,
+        "fp_tiny_area_lt1pct": 158,
+        "tp": 35,
+        "unknown_unmatched": 264
+      },
+      "0.8": {
+        "fp": 40,
+        "fp_box_was_clipped": 0,
+        "fp_duplicate": 1,
+        "fp_fragment_heuristic": 13,
+        "fp_near_known_Chair_IoU_ge01": 13,
+        "fp_padding_anchor": 0,
+        "fp_tiny_area_lt1pct": 26,
+        "tp": 28,
+        "unknown_unmatched": 38
+      }
+    },
+    "corrected": {
+      "0.15": {
+        "fp": 636,
+        "fp_box_was_clipped": 48,
+        "fp_duplicate": 2,
+        "fp_fragment_heuristic": 157,
+        "fp_near_known_Chair_IoU_ge01": 129,
+        "fp_padding_anchor": 2,
+        "fp_tiny_area_lt1pct": 449,
+        "tp": 39,
+        "unknown_unmatched": 1455
+      },
+      "0.5": {
+        "fp": 211,
+        "fp_box_was_clipped": 8,
+        "fp_duplicate": 2,
+        "fp_fragment_heuristic": 65,
+        "fp_near_known_Chair_IoU_ge01": 65,
+        "fp_padding_anchor": 0,
+        "fp_tiny_area_lt1pct": 150,
+        "tp": 34,
+        "unknown_unmatched": 252
+      },
+      "0.8": {
+        "fp": 39,
+        "fp_box_was_clipped": 0,
+        "fp_duplicate": 1,
+        "fp_fragment_heuristic": 13,
+        "fp_near_known_Chair_IoU_ge01": 13,
+        "fp_padding_anchor": 0,
+        "fp_tiny_area_lt1pct": 26,
+        "tp": 28,
+        "unknown_unmatched": 36
+      }
+    },
+    "original": {
+      "0.15": {
+        "fp": 19,
+        "fp_box_was_clipped": 0,
+        "fp_duplicate": 1,
+        "fp_fragment_heuristic": 6,
+        "fp_near_known_Chair_IoU_ge01": 7,
+        "fp_padding_anchor": 0,
+        "fp_tiny_area_lt1pct": 11,
+        "tp": 24,
+        "unknown_unmatched": 14
+      },
+      "0.5": {
+        "tp": 3
+      }
+    }
+  },
+  "training_loss_target_occurrences": {
+    "A-control": {
+      "above_015": 7,
+      "above_05": 0,
+      "above_08": 0,
+      "actual_additional_gradient_applied": false,
+      "added_Chair_negative_occurrences": 1429,
+      "all_query_occurrences": 1062000,
+      "max_added_Chair_score": 0.31795547296854265,
+      "positive_Chair_target_occurrences": 570,
+      "scores": {
+        "0": 9.640143774110972e-11,
+        "0.1": 0.00010214065013024292,
+        "0.5": 0.0026316739748845795,
+        "0.9": 0.02237145983776148,
+        "0.99": 0.0909057740645066,
+        "1": 0.31795547296854265
+      },
+      "training_photo_occurrences": 295
+    },
+    "B-corrected": {
+      "above_015": 7,
+      "above_05": 0,
+      "above_08": 0,
+      "actual_additional_gradient_applied": true,
+      "added_Chair_negative_occurrences": 1429,
+      "all_query_occurrences": 1062000,
+      "max_added_Chair_score": 0.3076699540534292,
+      "positive_Chair_target_occurrences": 570,
+      "scores": {
+        "0": 9.640143774110972e-11,
+        "0.1": 0.00010214065013024292,
+        "0.5": 0.0026316739748845795,
+        "0.9": 0.022032264112695956,
+        "0.99": 0.08786363756869034,
+        "1": 0.3076699540534292
+      },
+      "training_photo_occurrences": 295
+    }
+  }
+}

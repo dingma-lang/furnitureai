@@ -1,0 +1,71 @@
+{
+  "C9_clarification": "Explicitly annotate the expanded Chair concept including seating/bar stools. Native Chair exhaustiveness alone is insufficient. Preserve uncertain objects as ignored; audit object-level completeness without detector-output-driven source selection.",
+  "C9_no_acceptance_images_accessed": true,
+  "acceptance": {
+    "future_point_targets": {
+      "precision": 0.8,
+      "recall": 0.9
+    },
+    "joint_at_same_predeclared_operating_point": true,
+    "no_independent_claim_before_complete_annotation_and_scoring": true,
+    "uncertainty": "95percent source-group bootstrap confidence intervals (2000 deterministic resamples) plus per-category counts; only140 rooms and minimum50instances/class may leave wide intervals. Point-target attainment alone is not proof the population rate exceeds the target."
+  },
+  "annotations": {
+    "Chair": "ordinary chairs, seating stools, bar stools",
+    "Chair_exclusions": [
+      "footstools",
+      "ottomans",
+      "step stools"
+    ],
+    "cabinet": "Whole freestanding cabinet; fronts, built-in wall storage or multi-unit assemblies require explicit policy and ambiguity flags",
+    "complete_all_seven_categories": true,
+    "lamp": "Whole standalone floor/table lamp; ceiling lights and attached fixtures excluded or separately labeled",
+    "quality": "Independent second annotator on all category identities and uncertain boxes, at least20percent double box annotation, disagreement adjudication without model predictions; explicit per-category completeness",
+    "table_desk": "Native purpose and whole-object identity; ambiguous work/dining surfaces explicitly ignored, never silently remapped",
+    "visibility": "Record truncation, occlusion, crowd/group and minimum size; annotate all discernible instances; uncertain or unresolvable regions ignored, not negatives"
+  },
+  "category_order": [
+    "sofa",
+    "chair",
+    "table",
+    "bed",
+    "desk",
+    "cabinet",
+    "lamp"
+  ],
+  "frozen_protocol": {
+    "ap_score_floor": 0.001,
+    "confidence": 0.15,
+    "matching_iou": [
+      0.5,
+      0.75
+    ],
+    "max_detections": 300,
+    "metrics": [
+      "Micro/macro and per-category precision/recall",
+      "AP50/AP75 and full PR curves",
+      "Matched-recall precision as descriptive comparison only",
+      "TP/FP/FN, duplicates, fragmentation and localization by category",
+      "Occlusion/truncation/size strata",
+      "Latency and peak VRAM"
+    ],
+    "models": "Immutable original and one preselected experimental checkpoint; one controlled comparison; no repeated acceptance-set optimization",
+    "nms_iou": 0.5,
+    "preprocessing": "Pinned original OWLv2 processor with exact box transform",
+    "prompts": "a photo of a <category>",
+    "threshold_selection": "Any operating-point calibration requires a separate development set; freeze before acceptance images are scored"
+  },
+  "isolation": [
+    "Exact image/source hashes, COCO/Open Images/LVIS IDs, creator/source groups and near-duplicates checked against all training and exposed development material",
+    "Entire room/property/capture session and known family remain in one group; unresolved identity relationships quarantined",
+    "No evaluation image or annotation used to construct negative training targets or tune prompts/thresholds"
+  ],
+  "minimum_fully_annotated_instances_per_category": 50,
+  "proposed_distinct_source_groups": 140,
+  "proposed_photos": 140,
+  "resource_and_authorization": "No photographs acquired or annotated by this proposal. Exact source manifest, transfer/storage and annotation cost require separate approval; no evaluation is run now.",
+  "rights": "Individually authorized photographs or independently verified commercially compatible rights, attribution and source evidence required before acquisition.",
+  "sampling": "Freeze source-stratified room/camera selection before model outputs; no catalogue or synthetic evaluation images. Do not select using detector scores.",
+  "scope": "Future independent real-room acceptance, separate from every exposed internal or historical panel",
+  "status": "PROPOSAL_ONLY_NOT_AUTHORIZED"
+}
