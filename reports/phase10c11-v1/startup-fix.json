@@ -1,0 +1,11 @@
+{
+  "CUDA_initialized": false,
+  "experiment_output_directory_created": false,
+  "failed_attempt": "Standalone launch11 import common10 path absent",
+  "fix": "Explicit local C10 module path in isolated C11 launcher and worker; fresh-process CPU import regression test",
+  "model_forwards": 0,
+  "new_config": "reports/phase10c11-v1/authorized-config-v2.json",
+  "old_authorized_draft_preserved": true,
+  "optimizer_updates": 0,
+  "training_variant_changed": false
+}

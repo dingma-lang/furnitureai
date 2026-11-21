@@ -1,0 +1,26 @@
+{
+  "C10_private_files": 10,
+  "C10_public_files": 33,
+  "C8_private_files": 1310,
+  "historical": {
+    "GPU_model_forwards": 0,
+    "Mac_project_modified": false,
+    "annotation_overlays_activated": 0,
+    "datasets_or_models_downloaded": 0,
+    "eligible_image_hashes": 78,
+    "historical_data_model_files": 9973,
+    "historical_data_modified": false,
+    "historical_implementation_files": 27,
+    "phase10b_report_artifacts": 24,
+    "phase10b_snapshots": 160,
+    "reserved_or_frozen_images_decoded": 0,
+    "source_group_isolation": true,
+    "status": "PASS",
+    "training_updates": 0
+  },
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "phase10D_activated": false,
+  "status": "PASS",
+  "training_and_development_source_hashes_checked": 78,
+  "training_or_inference_in_this_verifier": 0
+}

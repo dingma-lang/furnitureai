@@ -1,0 +1,210 @@
+{
+  "Phase10D_authorized": false,
+  "activation_cache": {
+    "bytes_per_file_max": 12000000,
+    "contents": [
+      "frozen pre-head feature_map flattened3600x768",
+      "text_embeds7x512"
+    ],
+    "enabled": true,
+    "extra_encoder_forwards": 0,
+    "files_max": 19,
+    "not_available_now": true,
+    "purpose": "Later CPU endpoint-validated projection/shift/scale head swaps for original and historical A/B; never used in optimization",
+    "scope": "Same19 planned initial FP32 internal-development forwards only"
+  },
+  "code_hashes": {
+    "tools/phase10c10-v1/attribution10.py": "9730cb54b5447b14959fcfc03e913ae815874109e4c586eb95dca33426629cbf",
+    "tools/phase10c10-v1/audit10.py": "cd76ec3c6be896351a2b3a5c9838ee56b6ee20ed3db7b681a7836fc4a9202df0",
+    "tools/phase10c10-v1/common10.py": "ac7c8a57eba6eeea1fd0dbe78c2bc856faf76201b1198e2c7fbc2900b959ae57",
+    "tools/phase10c10-v1/config10.py": "ec37a097cbaa239dad23c2357481e53f461c8279d2811c138c8b3a379ba9db49",
+    "tools/phase10c10-v1/freeze10.py": "087691e685ff32321d316a22d76e8f1015dc8421126a9d4adb2ed6a446e3571b",
+    "tools/phase10c10-v1/future_diagnostics10.py": "047c4b3d204e628ddec61ff63540bceaaa022cba76274c6a05fdc01461bd47b0",
+    "tools/phase10c10-v1/future_worker10.py": "81fc166342241feff2207e1d4fabd835e9a270973fe619999093213fd9bc8d3e",
+    "tools/phase10c10-v1/launch10.py": "bfefbb3978844a9174746b02868d3f05d95f389eea498eb69aa2076ea8fd1507",
+    "tools/phase10c10-v1/prepare10.py": "b4ff7649e343c3a9fb82cbf764c82ee6b1fa66b66ea7e44e8b25f077f513c36e",
+    "tools/phase10c10-v1/test_preflight10.py": "b655f7312bdfab2629bb9e111037287567d9410854a8cb2ce614392f538bb1ce",
+    "tools/phase10c11-v1/activate11.py": "07cc7f9bbb7062a32c792ba908df381294e2eeb2230b60d43dfb8d6bea323576",
+    "tools/phase10c11-v1/common11.py": "abfcdcfc3a252e4611b32f0967ff9c91a0d32fab8acf2ec22af782fa3d61e982",
+    "tools/phase10c11-v1/launch11.py": "1d3da0fa37110fca08830f504aeec155f702691b3d8563c86619284b9c2be071",
+    "tools/phase10c11-v1/observe11.py": "6cd089168e336f1e3613f8a3a388ded6cacd343f803bd1b72c7461565c59b7d7",
+    "tools/phase10c11-v1/prepare11.py": "f8d798b77a0c0a26a892627be13fd1bee5e9ff3a951624c7df1572bb7b8d8a9e",
+    "tools/phase10c11-v1/test_execution11.py": "e92d8516a914183a15ced93adf05945fea8a6042db7c5449365acfc6ec35d884",
+    "tools/phase10c11-v1/worker11.py": "0dbf40ba33f32f5c3fa245dabdda5886af52f6143b1bb801e2262cbe02c2c10f"
+  },
+  "data": {
+    "development_photos": 19,
+    "development_rows_sha256": "918e97671b214b0a902e31a058763188d24ad0adaf50aa338a43dd2115b30c43",
+    "known_source_groups": 56,
+    "manifest": "data/open-images/preparation/phase10b-v1/eligibility-manifest.json",
+    "manifest_sha256": "ec55e01d968b584819c790de2c2a843bd87d9af960642601d65187807800b937",
+    "new_annotations": 0,
+    "positive_boxes": 182,
+    "source_regions": 41,
+    "train_photos": 59,
+    "training_rows_sha256": "f6e440afc30115654d9818234d2955c2ce37e08ef46a3f875ec66bd8e1304a91"
+  },
+  "destination": "data/open-images/experiments/phase10c10-calibration-frozen-v1",
+  "evaluation": {
+    "AP": "macro supported-class101point interpolation",
+    "IoU": [
+      0.5,
+      0.75
+    ],
+    "ap_score_floor": 0.001,
+    "category_order": [
+      "sofa",
+      "chair",
+      "table",
+      "bed",
+      "desk",
+      "cabinet",
+      "lamp"
+    ],
+    "checkpoint_comparisons": [
+      1,
+      3,
+      5
+    ],
+    "confidence": 0.15,
+    "inference_precision": "FP32 identical to historical validation; training/probes use FP16 autocast",
+    "matched_recall": "PR-envelope precision at original reference recall, descriptive only; no threshold adopted",
+    "metric_implementation": "unchanged tools/phase10c-v1/metric_cpu.py",
+    "metric_implementation_sha256": "a6a1c8454efca6969620a06739ee0b72d50027a7986f43551917bb88a90e8460",
+    "nms_cap": 300,
+    "nms_iou": 0.5,
+    "official_reserved_frozen_images": false,
+    "partial_labels": "Unchanged native scopes; COCO absent labels unknown; LVIS non-exhaustive flags preserved",
+    "primary_endpoint": "epoch5, fixed before results; no adaptive best-epoch selection",
+    "prompts": [
+      "a photo of a sofa",
+      "a photo of a chair",
+      "a photo of a table",
+      "a photo of a bed",
+      "a photo of a desk",
+      "a photo of a cabinet",
+      "a photo of a lamp"
+    ],
+    "row_ids": [
+      "1229d5e203956ac6",
+      "22a5848e375335e3",
+      "666a614b3123dff9",
+      "757a1631131f4ba3",
+      "cbc8443a05cf29cc",
+      "coco2017:000000068162",
+      "coco2017:000000127256",
+      "coco2017:000000195911",
+      "coco2017:000000217546",
+      "coco2017:000000253212",
+      "coco2017:000000279122",
+      "coco2017:000000305093",
+      "coco2017:000000424683",
+      "coco2017:000000426988",
+      "coco2017:000000436273",
+      "coco2017:000000452459",
+      "coco2017:000000484123",
+      "coco2017:000000558142",
+      "d224c4e1ea5c3d49"
+    ],
+    "rows_sha256": "918e97671b214b0a902e31a058763188d24ad0adaf50aa338a43dd2115b30c43",
+    "scope": "Already exposed19-photo training-derived internal diagnostics; not independent acceptance"
+  },
+  "experiment_count": 1,
+  "frozen_calibration_keys": [
+    "class_head.logit_scale.bias",
+    "class_head.logit_scale.weight",
+    "class_head.logit_shift.bias",
+    "class_head.logit_shift.weight"
+  ],
+  "frozen_calibration_scalars": 1538,
+  "independent_evaluation": "Separate unconsumed protocol; no reserved/frozen/official scoring",
+  "initialization": {
+    "path": "models/owlv2-original-baseline-20261103",
+    "sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "type": "original_full_pretrained_OWLv2"
+  },
+  "intended_change": "Only original class_head.logit_shift and class_head.logit_scale weights+biases are removed from the C8 corrected arm optimizer",
+  "limits": {
+    "initial_output_storage_guard_bytes": 4294967296,
+    "max_epochs": 5,
+    "max_gpu_seconds": 600,
+    "max_model_forwards": 467,
+    "max_optimizer_updates": 75,
+    "max_vram_bytes": 6979321856
+  },
+  "optimization_settings": {
+    "accumulation": 4,
+    "batch_size": 1,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "gradient_clip_norm": 1.0,
+    "last_group_normalization": "actual group size3",
+    "learning_rate": 1e-05,
+    "loss_coefficients": {
+      "GIoU": 2,
+      "L1": 5,
+      "alpha": 0.25,
+      "classification": 1,
+      "gamma": 2
+    },
+    "max_epochs": 5,
+    "max_updates": 75,
+    "optimizer": "AdamW",
+    "precision": "FP16 autocast; FP32 loss/weights",
+    "probe_epochs": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "scaler_growth_interval": 2000,
+    "scaler_init": 128,
+    "seed": 6106,
+    "weight_decay": 0.01
+  },
+  "primary_endpoint": "Final epoch5 only, fixed before execution; milestones0/1/3/5 are diagnostic, no adaptive selection",
+  "reference": {
+    "arm": "C8 B corrected epoch5",
+    "binding_sha256": "11b9cd31d2b70296f3e497bcd489fa18558fc323d80a562cb853ff9931a2c7f3",
+    "checkpoint": {
+      "bytes": 18978125,
+      "epoch": 4,
+      "file": "B-corrected/checkpoints/update-075-9164284d514b.pt",
+      "sha256": "986d511ae2c80ced12a4a8542bdd300af0477230246a4df1ef22ffdf8519a930",
+      "updates": 75
+    }
+  },
+  "required_approval": "New versioned authorized config plus explicit approval record bound to its SHA256; disabled config must remain unchanged",
+  "resume": "Fresh run only. Unique per-update snapshots preserve cursor/RNG/optimizer/scaler. No automatic replay after failure or uncertain update.",
+  "schema": "phase10c10-one-calibration-freeze-v1",
+  "source_configuration": {
+    "approval_reference": "User explicitly authorizes Phase10C.11 one-arm frozen-calibration experiment",
+    "approved": true,
+    "enabled": true,
+    "evidence_sha256": "b89b0a2fd7b24988dc0c2e95de6249cd8c87ae418ae9727814c003c1be7f93e2",
+    "legacy_loss": {
+      "GIoU": 2,
+      "L1": 5,
+      "alpha": 0.25,
+      "classification": 1,
+      "gamma": 2
+    },
+    "manifest_sha256": "14dc82bb002903defcefeac14d506362cacacca0c6675793a7062356e2d57cdd",
+    "mode": "source_polygon_negative_v1"
+  },
+  "trainable_keys": [
+    "box_head.dense0.bias",
+    "box_head.dense0.weight",
+    "box_head.dense1.bias",
+    "box_head.dense1.weight",
+    "box_head.dense2.bias",
+    "box_head.dense2.weight",
+    "class_head.dense0.bias",
+    "class_head.dense0.weight"
+  ],
+  "trainable_parameters": 1577988,
+  "training_authorized": true
+}

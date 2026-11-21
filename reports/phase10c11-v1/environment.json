@@ -1,0 +1,9 @@
+{
+  "CPU_metrics_process_GPU_hidden": true,
+  "CUDA_build": "13.2",
+  "GPU_read_only_postrun_query": "NVIDIA GeForce RTX 4070 Laptop GPU, 595.79, 8188 MiB",
+  "environment_changes": 0,
+  "executable": "/home/tristary/furniture-ai-ml/.venv/bin/python",
+  "python": "3.14.4",
+  "torch": "2.14.1+cu132"
+}

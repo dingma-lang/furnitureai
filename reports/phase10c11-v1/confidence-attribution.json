@@ -1,0 +1,135 @@
+{
+  "common_logit_drift": {
+    "corrected_B": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 4.4592026086233085,
+      "common_mean": 4.2529433009285285,
+      "common_mode_fraction_squared_delta": 0.9544677345734228,
+      "common_mode_shift_quantiles": {
+        "0": 0.6219978332519531,
+        "0.1": 2.5023507118225097,
+        "0.5": 4.222805414881025,
+        "0.9": 6.046971505028861,
+        "0.99": 7.317758015223904,
+        "1": 9.35773059300014
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 5.234718883229986,
+        "cabinet": 3.1725915067952926,
+        "chair": 5.422518171422861,
+        "desk": 3.886242640671732,
+        "lamp": 3.29427766346839,
+        "sofa": 5.18727061433687,
+        "table": 3.5729836265745707
+      },
+      "semantic_residual_RMS": 0.9739489841677121
+    },
+    "frozen_calibration": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 3.128431384244021,
+      "common_mean": 3.011034903365643,
+      "common_mode_fraction_squared_delta": 0.9032465475249832,
+      "common_mode_shift_quantiles": {
+        "0": 0.4150270734514509,
+        "0.1": 1.9417592593601773,
+        "0.5": 2.9826085567474365,
+        "0.9": 4.139381088529315,
+        "0.99": 4.988118901252744,
+        "1": 6.499213899884905
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 3.8362226501724286,
+        "cabinet": 1.8653638930554906,
+        "chair": 4.2479853308714866,
+        "desk": 2.606196534579616,
+        "lamp": 2.001496741679267,
+        "sofa": 4.20103761428994,
+        "table": 2.318941558911273
+      },
+      "semantic_residual_RMS": 1.023898046558813
+    }
+  },
+  "extra_encoder_forwards": 0,
+  "functional_attribution": {
+    "A": {
+      "max_GPU_endpoint_abs_error": 8.7738037109375e-05,
+      "mean_Chair_contribution": {
+        "projection": 4.1202473829211765,
+        "scale": 0.015355923728368394,
+        "shift": 1.3370518594729057
+      },
+      "mean_all_category_contribution": {
+        "projection": 2.9280790116531548,
+        "scale": 0.01673886026100449,
+        "shift": 1.3370518599224677
+      },
+      "photos": 19,
+      "queries": 68400
+    },
+    "B": {
+      "max_GPU_endpoint_abs_error": 7.915496826171875e-05,
+      "mean_Chair_contribution": {
+        "projection": 4.079836809346824,
+        "scale": 0.015268801705187907,
+        "shift": 1.3274123837420646
+      },
+      "mean_all_category_contribution": {
+        "projection": 2.9089094433773535,
+        "scale": 0.016621294367401913,
+        "shift": 1.3274123850282875
+      },
+      "photos": 19,
+      "queries": 68400
+    },
+    "candidate": {
+      "max_GPU_endpoint_abs_error": 0.0001010894775390625,
+      "mean_Chair_contribution": {
+        "projection": 4.24798533220756,
+        "scale": 0.0,
+        "shift": 0.0
+      },
+      "mean_all_category_contribution": {
+        "projection": 3.0110348984691075,
+        "scale": 0.0,
+        "shift": 0.0
+      },
+      "photos": 19,
+      "queries": 68400
+    }
+  },
+  "projection_changes": {
+    "corrected_B": {
+      "class_head.dense0.bias": {
+        "delta_L2": 0.00584046296622937,
+        "delta_max_abs": 0.0004585646092891693,
+        "original_L2": 0.10053771902381091,
+        "relative_delta_L2": 0.05809225654747688
+      },
+      "class_head.dense0.weight": {
+        "delta_L2": 0.14520893152387976,
+        "delta_max_abs": 0.0005401168018579483,
+        "original_L2": 9.701100049825765,
+        "relative_delta_L2": 0.014968295428154846
+      }
+    },
+    "frozen_calibration": {
+      "class_head.dense0.bias": {
+        "delta_L2": 0.0061702579452827646,
+        "delta_max_abs": 0.0004498441703617573,
+        "original_L2": 0.10053771902381091,
+        "relative_delta_L2": 0.06137256748207534
+      },
+      "class_head.dense0.weight": {
+        "delta_L2": 0.1457377430628136,
+        "delta_max_abs": 0.0005395859479904175,
+        "original_L2": 9.701100049825765,
+        "relative_delta_L2": 0.015022805899773303
+      }
+    }
+  },
+  "scope": "Endpoint-validated functional head counterfactuals conditional on actual cached activations, not causal training dynamics"
+}

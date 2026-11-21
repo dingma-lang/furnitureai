@@ -1,0 +1,34 @@
+{
+  "logging_loss_and_gradients_unchanged": true,
+  "old_C10_sources_unchanged": true,
+  "passed": 128,
+  "standalone_imports_verified": true,
+  "status": "PASS",
+  "suites": [
+    {
+      "log_sha256": "6aa35670a3f64e19da6c00e5ae551e84bffff0155b47c1c308ef45403d2a6806",
+      "passed": 9,
+      "suite": "phase10c11-v1"
+    },
+    {
+      "log_sha256": "3c8b29f8e3aa62218d423bb63ea2663b6647264d71f5d56ef73d482e9c9914ad",
+      "passed": 40,
+      "suite": "phase10c10-v1"
+    },
+    {
+      "log_sha256": "975218981d357fcd838fe7c9dbcfdfc751e7495a41d322fd6237ed99fbb5886a",
+      "passed": 16,
+      "suite": "phase10c8-v1"
+    },
+    {
+      "log_sha256": "4a430d43bd468f9e0981c5529b654435266bc4d23c2fd10cedcfc2bf36862c6f",
+      "passed": 31,
+      "suite": "phase10c6-v1"
+    },
+    {
+      "log_sha256": "9c5dfdd660937a71f382f6f54245cc945a5686c68249dd38b7cbd39ef5ccdeca",
+      "passed": 32,
+      "suite": "phase10a-v1"
+    }
+  ]
+}

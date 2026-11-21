@@ -1,0 +1,53 @@
+{
+  "CPU_metrics_environment": "Same existing .venv Python; CUDA_VISIBLE_DEVICES empty,2 BLAS/OMP threads; no environment or metric changes",
+  "GPU_device": null,
+  "another_arm_executed": false,
+  "atomic_raw_prediction_markers": [
+    {
+      "epoch": 0,
+      "sha256": "8162c8cccad2f88247a53676b6cca33cb54cb4ea9f1dd7df2c064f9f314f4ba9"
+    },
+    {
+      "epoch": 1,
+      "sha256": "7f328d1dcfaef4403c5125688b589f53d8416df525357155e16987fa151c8e27"
+    },
+    {
+      "epoch": 3,
+      "sha256": "6bc067a13a0bac7a9049ae8ab5c8bbf97faaefe6bc2e1113e2c1e570562f6990"
+    },
+    {
+      "epoch": 5,
+      "sha256": "47c4c10c4497eb85fd52e7b65e9dd7188ad2c7611e2db29f986681ad1157bdfd"
+    }
+  ],
+  "authorized_config_file": "reports/phase10c11-v1/authorized-config-v2.json",
+  "authorized_config_sha256": "2c1fd3b5460311fd13fa8f6961583558ad012c648f40e7fddb7a1cffa30a4474",
+  "initial_zero_GPU_startup_error": "Standalone module import failed before destination/CUDA creation;fixed isolated import path and regression-tested,then ran the one authorized arm",
+  "new_downloads": 0,
+  "phase10D": false,
+  "queue": {
+    "additional_training_authorized": false,
+    "experiment_count": 1,
+    "seconds": 213.65392207997502,
+    "updates": 75
+  },
+  "worker": {
+    "another_experiment_authorized": false,
+    "calibration_unchanged": true,
+    "epochs": 5,
+    "final_checkpoint": {
+      "file": "checkpoints/update-075-bf8be48ddf59.pt",
+      "sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+      "updates": 75
+    },
+    "forwards": 467,
+    "frozen_sha256": "8f41ed451288568ab05b523dd6a352cb73ab0becacc75a34fb45e67eda35f006",
+    "original_backbone_sha256": "224b9eeaffa0b9086a31b7d5a3cc4ac62467d4dcdabe4211dbfa8502755f9e31",
+    "peak_allocated_bytes": 2024382976,
+    "peak_device_used_bytes": 3612868608,
+    "peak_reserved_bytes": 2327838720,
+    "seconds": 211.00897771501332,
+    "training_backwards": 295,
+    "updates": 75
+  }
+}

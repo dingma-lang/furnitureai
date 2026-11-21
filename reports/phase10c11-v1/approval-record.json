@@ -1,0 +1,11 @@
+{
+  "Phase10D_authorized": false,
+  "config_file_sha256": "798714aa07a8b215f13557cfa753a3ebe01a03dc5ecd0e7d7801110a79ca392a",
+  "config_semantic_sha256": "4a447c015799dde82ee948612f4224de1d693452f8c77626da1dfab526379837",
+  "max_GPU_seconds": 600,
+  "max_VRAM_bytes": 6979321856,
+  "max_epochs": 5,
+  "max_optimizer_updates": 75,
+  "user_reference": "Explicit current user instruction: Phase10C.11 Frozen-Calibration GPU Ablation; exactly one arm at1e-5,5epochs/75updates,600GPUseconds including inference,6.5GiB;no extra variants/Phase10D",
+  "user_training_authorized": true
+}

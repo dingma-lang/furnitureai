@@ -1,0 +1,1832 @@
+{
+  "common_logit_drift": {
+    "corrected_B": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 4.4592026086233085,
+      "common_mean": 4.2529433009285285,
+      "common_mode_fraction_squared_delta": 0.9544677345734228,
+      "common_mode_shift_quantiles": {
+        "0": 0.6219978332519531,
+        "0.1": 2.5023507118225097,
+        "0.5": 4.222805414881025,
+        "0.9": 6.046971505028861,
+        "0.99": 7.317758015223904,
+        "1": 9.35773059300014
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 5.234718883229986,
+        "cabinet": 3.1725915067952926,
+        "chair": 5.422518171422861,
+        "desk": 3.886242640671732,
+        "lamp": 3.29427766346839,
+        "sofa": 5.18727061433687,
+        "table": 3.5729836265745707
+      },
+      "semantic_residual_RMS": 0.9739489841677121
+    },
+    "frozen_calibration": {
+      "caveat": "Aligned raw queries, same photos/backbone. Common-mode statistics are descriptive; separately endpoint-validated functional attribution uses actual cached features.",
+      "common_RMS": 3.128431384244021,
+      "common_mean": 3.011034903365643,
+      "common_mode_fraction_squared_delta": 0.9032465475249832,
+      "common_mode_shift_quantiles": {
+        "0": 0.4150270734514509,
+        "0.1": 1.9417592593601773,
+        "0.5": 2.9826085567474365,
+        "0.9": 4.139381088529315,
+        "0.99": 4.988118901252744,
+        "1": 6.499213899884905
+      },
+      "fraction_queries_Chair_logit_increases": 1.0,
+      "fraction_queries_all_seven_logits_increase": 1.0,
+      "mean_logit_delta_by_category": {
+        "bed": 3.8362226501724286,
+        "cabinet": 1.8653638930554906,
+        "chair": 4.2479853308714866,
+        "desk": 2.606196534579616,
+        "lamp": 2.001496741679267,
+        "sofa": 4.20103761428994,
+        "table": 2.318941558911273
+      },
+      "semantic_residual_RMS": 1.023898046558813
+    }
+  },
+  "comparison": {
+    "corrected_B": {
+      "aligned_query_total": 68400,
+      "categories": {
+        "bed": {
+          "ap50": 0.795205836373111,
+          "ap75": 0.6678701704756942,
+          "duplicate_fp": 2,
+          "fn": 1,
+          "fp": 124,
+          "mean_matched_iou": 0.8798944982916397,
+          "precision": 0.06060606060606061,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 118
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 287
+        },
+        "chair": {
+          "ap50": 0.6686687214498289,
+          "ap75": 0.4340753904228194,
+          "duplicate_fp": 2,
+          "fn": 0,
+          "fp": 636,
+          "mean_matched_iou": 0.7696435841148689,
+          "precision": 0.057777777777777775,
+          "recall": 1.0,
+          "tp": 39,
+          "unknown_unmatched": 2684
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 342
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 468
+        },
+        "sofa": {
+          "ap50": 0.7934936350777935,
+          "ap75": 0.5544554455445545,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 28,
+          "mean_matched_iou": 0.8401146007195699,
+          "precision": 0.28205128205128205,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 260
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 67
+        }
+      },
+      "headline": {
+        "ap50": 0.7524560643002444,
+        "ap75": 0.552133668814356,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 28,
+          "fragmentation_candidates": 47,
+          "mixed_object_candidates": 79
+        },
+        "f1": 0.1278941565600882,
+        "fn": 3,
+        "fp": 788,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.06855791962174941,
+        "recall": 0.9508196721311475,
+        "tp": 58
+      },
+      "precision_at_B_recall": {
+        "fp": 749,
+        "precision": 0.07187112763320942,
+        "recall": 0.9508196721311475,
+        "threshold": 0.1639142632484436,
+        "tp": 58
+      },
+      "precision_at_original_recall": {
+        "fp": 10,
+        "precision": 0.8076923076923077,
+        "recall": 0.6885245901639344,
+        "threshold": 0.8897318243980408,
+        "tp": 42
+      },
+      "queries_per_photo": 3600,
+      "raw_aligned_query_score_quantiles": {
+        "bed": {
+          "0": 4.526457260575429e-18,
+          "0.1": 5.816861638912768e-06,
+          "0.5": 0.0015239884036836295,
+          "0.9": 0.025046644801132435,
+          "0.99": 0.19782306147818118,
+          "1": 0.9864466894709452
+        },
+        "cabinet": {
+          "0": 5.909989951532261e-18,
+          "0.1": 1.0856946905011348e-06,
+          "0.5": 0.00047005522779296763,
+          "0.9": 0.01303726463624836,
+          "0.99": 0.12247095420574274,
+          "1": 0.7444387001947596
+        },
+        "chair": {
+          "0": 1.2583245124975726e-17,
+          "0.1": 9.40287032427836e-06,
+          "0.5": 0.003918066851327154,
+          "0.9": 0.10325462273053818,
+          "0.99": 0.5632222522061439,
+          "1": 0.9835369676731153
+        },
+        "desk": {
+          "0": 1.0224487829607685e-17,
+          "0.1": 2.336010238223096e-06,
+          "0.5": 0.0010643039284612456,
+          "0.9": 0.026130240272849707,
+          "0.99": 0.19650390368939474,
+          "1": 0.9381269620383839
+        },
+        "lamp": {
+          "0": 8.279631972105151e-18,
+          "0.1": 1.2400794499810148e-06,
+          "0.5": 0.0004136591202691225,
+          "0.9": 0.015220290212662855,
+          "0.99": 0.1352676742129973,
+          "1": 0.9046612080591793
+        },
+        "sofa": {
+          "0": 5.486486407860129e-18,
+          "0.1": 2.2749873282172335e-06,
+          "0.5": 0.0011672837727433123,
+          "0.9": 0.026389741305893926,
+          "0.99": 0.25294861808450125,
+          "1": 0.972285300197438
+        },
+        "table": {
+          "0": 6.542161832818146e-18,
+          "0.1": 1.3907630103779677e-06,
+          "0.5": 0.0006357594968034645,
+          "0.9": 0.01767197588934233,
+          "0.99": 0.15592780484522595,
+          "1": 0.8894448260863034
+        }
+      },
+      "same_query_Chair_scores_at_least": {
+        "0.15": 4855,
+        "0.5": 926,
+        "0.8": 161
+      },
+      "thresholds": {
+        "0.15": {
+          "bed": {
+            "fn": 1,
+            "ignored": 0,
+            "precision": 0.06060606060606061,
+            "predictions": 205,
+            "recall": 0.8888888888888888,
+            "scored_FP_area_bins": {
+              "1-5%": 53,
+              "5-20%": 48,
+              "<1%": 15,
+              ">=20%": 8
+            },
+            "scored_fp": 124,
+            "tp": 8,
+            "unknown_unmatched": 73
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 211,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 211
+          },
+          "chair": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": 0.057777777777777775,
+            "predictions": 2130,
+            "recall": 1.0,
+            "scored_FP_area_bins": {
+              "1-5%": 132,
+              "5-20%": 41,
+              "<1%": 449,
+              ">=20%": 14
+            },
+            "scored_fp": 636,
+            "tp": 39,
+            "unknown_unmatched": 1455
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 181,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 181
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 247,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 247
+          },
+          "sofa": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.28205128205128205,
+            "predictions": 246,
+            "recall": 0.8461538461538461,
+            "scored_FP_area_bins": {
+              "1-5%": 13,
+              "5-20%": 3,
+              "<1%": 9,
+              ">=20%": 3
+            },
+            "scored_fp": 28,
+            "tp": 11,
+            "unknown_unmatched": 207
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 60,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 60
+          }
+        },
+        "0.5": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.23333333333333334,
+            "predictions": 43,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {
+              "1-5%": 6,
+              "5-20%": 15,
+              ">=20%": 2
+            },
+            "scored_fp": 23,
+            "tp": 7,
+            "unknown_unmatched": 13
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 57,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 57
+          },
+          "chair": {
+            "fn": 5,
+            "ignored": 0,
+            "precision": 0.13877551020408163,
+            "predictions": 497,
+            "recall": 0.8717948717948718,
+            "scored_FP_area_bins": {
+              "1-5%": 50,
+              "5-20%": 10,
+              "<1%": 150,
+              ">=20%": 1
+            },
+            "scored_fp": 211,
+            "tp": 34,
+            "unknown_unmatched": 252
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 45,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 45
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 52,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 52
+          },
+          "sofa": {
+            "fn": 3,
+            "ignored": 0,
+            "precision": 0.5555555555555556,
+            "predictions": 73,
+            "recall": 0.7692307692307693,
+            "scored_FP_area_bins": {
+              "1-5%": 6,
+              "5-20%": 2
+            },
+            "scored_fp": 8,
+            "tp": 10,
+            "unknown_unmatched": 55
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 29,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 29
+          }
+        },
+        "0.8": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.875,
+            "predictions": 11,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {
+              "5-20%": 1
+            },
+            "scored_fp": 1,
+            "tp": 7,
+            "unknown_unmatched": 3
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "chair": {
+            "fn": 11,
+            "ignored": 0,
+            "precision": 0.417910447761194,
+            "predictions": 103,
+            "recall": 0.717948717948718,
+            "scored_FP_area_bins": {
+              "1-5%": 9,
+              "5-20%": 3,
+              "<1%": 26,
+              ">=20%": 1
+            },
+            "scored_fp": 39,
+            "tp": 28,
+            "unknown_unmatched": 36
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 10,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 10
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 6,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 6
+          },
+          "sofa": {
+            "fn": 3,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 16,
+            "recall": 0.7692307692307693,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 10,
+            "unknown_unmatched": 6
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 7,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 7
+          }
+        }
+      },
+      "unknown_unmatched_at_015": 2434
+    },
+    "frozen_calibration": {
+      "aligned_query_total": 68400,
+      "categories": {
+        "bed": {
+          "ap50": 0.7995049504950495,
+          "ap75": 0.6716318953323904,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 61,
+          "mean_matched_iou": 0.8792580454736945,
+          "precision": 0.11594202898550725,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 69
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 267
+        },
+        "chair": {
+          "ap50": 0.6196456761753943,
+          "ap75": 0.39949645231471764,
+          "duplicate_fp": 1,
+          "fn": 4,
+          "fp": 486,
+          "mean_matched_iou": 0.7770192396566916,
+          "precision": 0.0671785028790787,
+          "recall": 0.8974358974358975,
+          "tp": 35,
+          "unknown_unmatched": 2812
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 294
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 468
+        },
+        "sofa": {
+          "ap50": 0.883671990892469,
+          "ap75": 0.7463823305407464,
+          "duplicate_fp": 0,
+          "fn": 1,
+          "fp": 26,
+          "mean_matched_iou": 0.8619708658634212,
+          "precision": 0.3157894736842105,
+          "recall": 0.9230769230769231,
+          "tp": 12,
+          "unknown_unmatched": 322
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 66
+        }
+      },
+      "headline": {
+        "ap50": 0.7676075391876376,
+        "ap75": 0.6058368927292849,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 29,
+          "fragmentation_candidates": 44,
+          "mixed_object_candidates": 61
+        },
+        "f1": 0.15965166908563136,
+        "fn": 6,
+        "fp": 573,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.0875796178343949,
+        "recall": 0.9016393442622951,
+        "tp": 55
+      },
+      "precision_at_B_recall": {
+        "fp": 739,
+        "precision": 0.07277289836888332,
+        "recall": 0.9508196721311475,
+        "threshold": 0.09152288734912872,
+        "tp": 58
+      },
+      "precision_at_original_recall": {
+        "fp": 32,
+        "precision": 0.5675675675675675,
+        "recall": 0.6885245901639344,
+        "threshold": 0.7298039197921753,
+        "tp": 42
+      },
+      "queries_per_photo": 3600,
+      "raw_aligned_query_score_quantiles": {
+        "bed": {
+          "0": 3.490723764139475e-18,
+          "0.1": 7.961528190389064e-07,
+          "0.5": 0.0003899241603307946,
+          "0.9": 0.009150949674334063,
+          "0.99": 0.0878800912210783,
+          "1": 0.9751417072888352
+        },
+        "cabinet": {
+          "0": 4.457709220601862e-18,
+          "0.1": 1.7023852989424218e-07,
+          "0.5": 0.00012422778818749726,
+          "0.9": 0.005982355340905815,
+          "0.99": 0.06703508893879437,
+          "1": 0.6315525161692506
+        },
+        "chair": {
+          "0": 9.927128856360513e-18,
+          "0.1": 1.7505205852769663e-06,
+          "0.5": 0.0011799467595796295,
+          "0.9": 0.053589074979976836,
+          "0.99": 0.40950060723015036,
+          "1": 0.9730826318114307
+        },
+        "desk": {
+          "0": 7.865897300057391e-18,
+          "0.1": 3.8765387320397435e-07,
+          "0.5": 0.0002906287472339956,
+          "0.9": 0.011916652903204686,
+          "0.99": 0.11079951237661853,
+          "1": 0.8967191194305638
+        },
+        "lamp": {
+          "0": 6.275571634156894e-18,
+          "0.1": 1.8824405422318766e-07,
+          "0.5": 0.00010788622092202925,
+          "0.9": 0.0070363894955559145,
+          "0.99": 0.08113534779801933,
+          "1": 0.8534529424558844
+        },
+        "sofa": {
+          "0": 4.697461441460894e-18,
+          "0.1": 5.077709242157406e-07,
+          "0.5": 0.00044469913038605206,
+          "0.9": 0.013993158439952498,
+          "0.99": 0.17588420256227885,
+          "1": 0.9641690295149723
+        },
+        "table": {
+          "0": 5.046065611692669e-18,
+          "0.1": 2.427951145584226e-07,
+          "0.5": 0.0001774897396927,
+          "0.9": 0.008332146896915318,
+          "0.99": 0.08941702184721993,
+          "1": 0.8307997479703738
+        }
+      },
+      "same_query_Chair_scores_at_least": {
+        "0.15": 2714,
+        "0.5": 440,
+        "0.8": 70
+      },
+      "thresholds": {
+        "0.15": {
+          "bed": {
+            "fn": 1,
+            "ignored": 0,
+            "precision": 0.11594202898550725,
+            "predictions": 95,
+            "recall": 0.8888888888888888,
+            "scored_FP_area_bins": {
+              "1-5%": 24,
+              "5-20%": 28,
+              "<1%": 4,
+              ">=20%": 5
+            },
+            "scored_fp": 61,
+            "tp": 8,
+            "unknown_unmatched": 26
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 143,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 143
+          },
+          "chair": {
+            "fn": 4,
+            "ignored": 0,
+            "precision": 0.0671785028790787,
+            "predictions": 1370,
+            "recall": 0.8974358974358975,
+            "scored_FP_area_bins": {
+              "1-5%": 105,
+              "5-20%": 30,
+              "<1%": 340,
+              ">=20%": 11
+            },
+            "scored_fp": 486,
+            "tp": 35,
+            "unknown_unmatched": 849
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 95,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 95
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 176,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 176
+          },
+          "sofa": {
+            "fn": 1,
+            "ignored": 0,
+            "precision": 0.3157894736842105,
+            "predictions": 219,
+            "recall": 0.9230769230769231,
+            "scored_FP_area_bins": {
+              "1-5%": 12,
+              "5-20%": 3,
+              "<1%": 8,
+              ">=20%": 3
+            },
+            "scored_fp": 26,
+            "tp": 12,
+            "unknown_unmatched": 181
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 43,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 43
+          }
+        },
+        "0.5": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.4375,
+            "predictions": 21,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {
+              "1-5%": 2,
+              "5-20%": 6,
+              ">=20%": 1
+            },
+            "scored_fp": 9,
+            "tp": 7,
+            "unknown_unmatched": 5
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 31,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 31
+          },
+          "chair": {
+            "fn": 12,
+            "ignored": 0,
+            "precision": 0.1875,
+            "predictions": 257,
+            "recall": 0.6923076923076923,
+            "scored_FP_area_bins": {
+              "1-5%": 30,
+              "5-20%": 6,
+              "<1%": 80,
+              ">=20%": 1
+            },
+            "scored_fp": 117,
+            "tp": 27,
+            "unknown_unmatched": 113
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 24,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 24
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 29,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 29
+          },
+          "sofa": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.7857142857142857,
+            "predictions": 53,
+            "recall": 0.8461538461538461,
+            "scored_FP_area_bins": {
+              "1-5%": 3
+            },
+            "scored_fp": 3,
+            "tp": 11,
+            "unknown_unmatched": 39
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 18,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 18
+          }
+        },
+        "0.8": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 7,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 7,
+            "unknown_unmatched": 0
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "chair": {
+            "fn": 15,
+            "ignored": 0,
+            "precision": 0.6486486486486487,
+            "predictions": 51,
+            "recall": 0.6153846153846154,
+            "scored_FP_area_bins": {
+              "1-5%": 5,
+              "<1%": 8
+            },
+            "scored_fp": 13,
+            "tp": 24,
+            "unknown_unmatched": 14
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 4,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 4
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 3,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 3
+          },
+          "sofa": {
+            "fn": 3,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 15,
+            "recall": 0.7692307692307693,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 10,
+            "unknown_unmatched": 5
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 1,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 1
+          }
+        }
+      },
+      "unknown_unmatched_at_015": 1513
+    },
+    "original": {
+      "aligned_query_total": 68400,
+      "categories": {
+        "bed": {
+          "ap50": 0.794059405940594,
+          "ap75": 0.6478076379066479,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 5,
+          "mean_matched_iou": 0.8786225566742453,
+          "precision": 0.5833333333333334,
+          "recall": 0.7777777777777778,
+          "tp": 7,
+          "unknown_unmatched": 59
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 851
+        },
+        "chair": {
+          "ap50": 0.554594786135146,
+          "ap75": 0.3174523448295566,
+          "duplicate_fp": 1,
+          "fn": 15,
+          "fp": 19,
+          "mean_matched_iou": 0.81292981134276,
+          "precision": 0.5581395348837209,
+          "recall": 0.6153846153846154,
+          "tp": 24,
+          "unknown_unmatched": 634
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 934
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 1505
+        },
+        "sofa": {
+          "ap50": 0.900990099009901,
+          "ap75": 0.693069306930693,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 1,
+          "mean_matched_iou": 0.8606409239958919,
+          "precision": 0.9166666666666666,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 264
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 477
+        }
+      },
+      "headline": {
+        "ap50": 0.7498814303618803,
+        "ap75": 0.5527764298889658,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 14,
+          "fragmentation_candidates": 4,
+          "mixed_object_candidates": 15
+        },
+        "f1": 0.65625,
+        "fn": 19,
+        "fp": 25,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.6268656716417911,
+        "recall": 0.6885245901639344,
+        "tp": 42
+      },
+      "precision_at_B_recall": null,
+      "precision_at_original_recall": {
+        "fp": 19,
+        "precision": 0.6885245901639344,
+        "recall": 0.6885245901639344,
+        "threshold": 0.16735556721687317,
+        "tp": 42
+      },
+      "queries_per_photo": 3600,
+      "raw_aligned_query_score_quantiles": {
+        "bed": {
+          "0": 2.0227821658119206e-18,
+          "0.1": 8.778720388150218e-09,
+          "0.5": 6.749985708333007e-06,
+          "0.9": 0.0005097089070851165,
+          "0.99": 0.008360349277462492,
+          "1": 0.672371852545472
+        },
+        "cabinet": {
+          "0": 3.276093177264751e-18,
+          "0.1": 2.122952769934807e-08,
+          "0.5": 1.7100934923022872e-05,
+          "0.9": 0.0013915885753453333,
+          "0.99": 0.018143490218728738,
+          "1": 0.32786591365281076
+        },
+        "chair": {
+          "0": 4.5420763052850165e-18,
+          "0.1": 1.8474583655426727e-08,
+          "0.5": 1.3602036346686396e-05,
+          "0.9": 0.0015450852066294096,
+          "0.99": 0.02390669366366878,
+          "1": 0.5353265237197463
+        },
+        "desk": {
+          "0": 5.182328710428711e-18,
+          "0.1": 1.9786451518427542e-08,
+          "0.5": 1.8562561166576856e-05,
+          "0.9": 0.0015640006817093976,
+          "0.99": 0.020140378791929682,
+          "1": 0.5784872395014091
+        },
+        "lamp": {
+          "0": 4.485975433311348e-18,
+          "0.1": 2.04589724850547e-08,
+          "0.5": 1.2754176524577711e-05,
+          "0.9": 0.0014208608384661929,
+          "0.99": 0.02189873733348309,
+          "1": 0.5856735462172101
+        },
+        "sofa": {
+          "0": 2.5062589806728808e-18,
+          "0.1": 4.072090089626397e-09,
+          "0.5": 5.29382148124272e-06,
+          "0.9": 0.000506763125080157,
+          "0.99": 0.011341248355012701,
+          "1": 0.5418968880339906
+        },
+        "table": {
+          "0": 3.4708332002607796e-18,
+          "0.1": 1.7020428053398876e-08,
+          "0.5": 1.5330463424438076e-05,
+          "0.9": 0.0013477703320297534,
+          "0.99": 0.019188873868981306,
+          "1": 0.4801205527630552
+        }
+      },
+      "same_query_Chair_scores_at_least": {
+        "0.15": 82,
+        "0.5": 3,
+        "0.8": 0
+      },
+      "thresholds": {
+        "0.15": {
+          "bed": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.5833333333333334,
+            "predictions": 16,
+            "recall": 0.7777777777777778,
+            "scored_FP_area_bins": {
+              "1-5%": 1,
+              "5-20%": 4
+            },
+            "scored_fp": 5,
+            "tp": 7,
+            "unknown_unmatched": 4
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 59,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 59
+          },
+          "chair": {
+            "fn": 15,
+            "ignored": 0,
+            "precision": 0.5581395348837209,
+            "predictions": 57,
+            "recall": 0.6153846153846154,
+            "scored_FP_area_bins": {
+              "1-5%": 6,
+              "5-20%": 1,
+              "<1%": 11,
+              ">=20%": 1
+            },
+            "scored_fp": 19,
+            "tp": 24,
+            "unknown_unmatched": 14
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 22,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 22
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 56,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 56
+          },
+          "sofa": {
+            "fn": 2,
+            "ignored": 0,
+            "precision": 0.9166666666666666,
+            "predictions": 41,
+            "recall": 0.8461538461538461,
+            "scored_FP_area_bins": {
+              "1-5%": 1
+            },
+            "scored_fp": 1,
+            "tp": 11,
+            "unknown_unmatched": 29
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 33,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 33
+          }
+        },
+        "0.5": {
+          "bed": {
+            "fn": 4,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 5,
+            "recall": 0.5555555555555556,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 5,
+            "unknown_unmatched": 0
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "chair": {
+            "fn": 36,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 3,
+            "recall": 0.07692307692307693,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 3,
+            "unknown_unmatched": 0
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 2,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 2
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 1,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 1
+          },
+          "sofa": {
+            "fn": 10,
+            "ignored": 0,
+            "precision": 1.0,
+            "predictions": 3,
+            "recall": 0.23076923076923078,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 3,
+            "unknown_unmatched": 0
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          }
+        },
+        "0.8": {
+          "bed": {
+            "fn": 9,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": 0.0,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "cabinet": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "chair": {
+            "fn": 39,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": 0.0,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "desk": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "lamp": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "sofa": {
+            "fn": 13,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": 0.0,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          },
+          "table": {
+            "fn": 0,
+            "ignored": 0,
+            "precision": null,
+            "predictions": 0,
+            "recall": null,
+            "scored_FP_area_bins": {},
+            "scored_fp": 0,
+            "tp": 0,
+            "unknown_unmatched": 0
+          }
+        }
+      },
+      "unknown_unmatched_at_015": 217
+    }
+  },
+  "functional_attribution": {
+    "A": {
+      "max_GPU_endpoint_abs_error": 8.7738037109375e-05,
+      "mean_Chair_contribution": {
+        "projection": 4.1202473829211765,
+        "scale": 0.015355923728368394,
+        "shift": 1.3370518594729057
+      },
+      "mean_all_category_contribution": {
+        "projection": 2.9280790116531548,
+        "scale": 0.01673886026100449,
+        "shift": 1.3370518599224677
+      },
+      "photos": 19,
+      "queries": 68400
+    },
+    "B": {
+      "max_GPU_endpoint_abs_error": 7.915496826171875e-05,
+      "mean_Chair_contribution": {
+        "projection": 4.079836809346824,
+        "scale": 0.015268801705187907,
+        "shift": 1.3274123837420646
+      },
+      "mean_all_category_contribution": {
+        "projection": 2.9089094433773535,
+        "scale": 0.016621294367401913,
+        "shift": 1.3274123850282875
+      },
+      "photos": 19,
+      "queries": 68400
+    },
+    "candidate": {
+      "max_GPU_endpoint_abs_error": 0.0001010894775390625,
+      "mean_Chair_contribution": {
+        "projection": 4.24798533220756,
+        "scale": 0.0,
+        "shift": 0.0
+      },
+      "mean_all_category_contribution": {
+        "projection": 3.0110348984691075,
+        "scale": 0.0,
+        "shift": 0.0
+      },
+      "photos": 19,
+      "queries": 68400
+    }
+  },
+  "original_Chair_GT_matched_query_anchor": {
+    "queries": 24,
+    "score_quantiles": {
+      "corrected_B": {
+        "0": 0.8104825158886211,
+        "0.1": 0.9018884868568171,
+        "0.5": 0.9494097242938428,
+        "0.9": 0.9685672204354416,
+        "0.99": 0.9800127245045229,
+        "1": 0.9809590025942387
+      },
+      "frozen_calibration": {
+        "0": 0.7298039293431134,
+        "0.1": 0.8591950122155121,
+        "0.5": 0.9234524216760626,
+        "0.9": 0.9518161679513772,
+        "0.99": 0.9679031224332558,
+        "1": 0.9694658091380096
+      },
+      "original": {
+        "0": 0.16735555297580326,
+        "0.1": 0.2038539208827996,
+        "0.5": 0.3338535464100191,
+        "0.9": 0.5003617550490993,
+        "0.99": 0.5336215162849112,
+        "1": 0.5353265237197463
+      }
+    },
+    "selection": "Original@0.15 TP queries followed at identical photo/query indices; not independently rematched predictions"
+  },
+  "projection_changes": {
+    "corrected_B": {
+      "class_head.dense0.bias": {
+        "delta_L2": 0.00584046296622937,
+        "delta_max_abs": 0.0004585646092891693,
+        "original_L2": 0.10053771902381091,
+        "relative_delta_L2": 0.05809225654747688
+      },
+      "class_head.dense0.weight": {
+        "delta_L2": 0.14520893152387976,
+        "delta_max_abs": 0.0005401168018579483,
+        "original_L2": 9.701100049825765,
+        "relative_delta_L2": 0.014968295428154846
+      }
+    },
+    "frozen_calibration": {
+      "class_head.dense0.bias": {
+        "delta_L2": 0.0061702579452827646,
+        "delta_max_abs": 0.0004498441703617573,
+        "original_L2": 0.10053771902381091,
+        "relative_delta_L2": 0.06137256748207534
+      },
+      "class_head.dense0.weight": {
+        "delta_L2": 0.1457377430628136,
+        "delta_max_abs": 0.0005395859479904175,
+        "original_L2": 9.701100049825765,
+        "relative_delta_L2": 0.015022805899773303
+      }
+    }
+  },
+  "protocol": {
+    "AP": "101-point macro over3 supported categories",
+    "FP_scoring_photos": {
+      "bed": 5,
+      "cabinet": 0,
+      "chair": 4,
+      "desk": 0,
+      "lamp": 0,
+      "sofa": 1,
+      "table": 0
+    },
+    "GT": 61,
+    "NMS_IoU": 0.5,
+    "confidence": 0.15,
+    "independent_verified_accuracy": false,
+    "maximum_predictions": 300,
+    "photos": 19,
+    "reserved_or_frozen_scored": false,
+    "score_floor": 0.001,
+    "stools_taxonomy_caveat": "Project Chair includes seating/bar stools; native Chair protocols retain historical separate Stool semantics. No labels or evaluation rules changed.",
+    "supported_classes": [
+      "chair",
+      "sofa",
+      "bed"
+    ],
+    "unknown_unmatched_are_not_confirmed_errors": true,
+    "unsupported_classes": [
+      "table",
+      "desk",
+      "cabinet",
+      "lamp"
+    ]
+  },
+  "resource": {
+    "another_experiment_authorized": false,
+    "calibration_unchanged": true,
+    "epochs": 5,
+    "final_checkpoint": {
+      "file": "checkpoints/update-075-bf8be48ddf59.pt",
+      "sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+      "updates": 75
+    },
+    "forwards": 467,
+    "frozen_sha256": "8f41ed451288568ab05b523dd6a352cb73ab0becacc75a34fb45e67eda35f006",
+    "original_backbone_sha256": "224b9eeaffa0b9086a31b7d5a3cc4ac62467d4dcdabe4211dbfa8502755f9e31",
+    "peak_allocated_bytes": 2024382976,
+    "peak_device_used_bytes": 3612868608,
+    "peak_reserved_bytes": 2327838720,
+    "seconds": 211.00897771501332,
+    "training_backwards": 295,
+    "updates": 75
+  },
+  "training": {
+    "epochs": [
+      {
+        "added_Chair_term_occurrences": 294,
+        "epoch": 1,
+        "image_mean": {
+          "Chair_negative_classification": 9.998090295725514e-08,
+          "Chair_positive_classification": 0.13253355560177085,
+          "Chair_source_negative_classification": 9.998090295725514e-08,
+          "added_Chair_negative_loss": 9.998090120206781e-08,
+          "box_loss": 0.462851709228451,
+          "classification_loss": 0.35627121007133083,
+          "legacy_negative_classification": 0.00028572704690366476,
+          "positive_classification": 0.35598538501061877,
+          "total_loss": 0.8191229158033759
+        },
+        "images": 59,
+        "preclip_gradient_norms": {
+          "class_head.dense0.bias": {
+            "0": 0.28393331780310377,
+            "0.1": 0.327599158085859,
+            "0.5": 0.734415106158592,
+            "0.9": 1.114575701425231,
+            "0.99": 1.2208217753418384,
+            "1": 1.2210072798031169
+          },
+          "class_head.dense0.weight": {
+            "0": 7.749467287469088,
+            "0.1": 8.95882387205431,
+            "0.5": 19.947436437319723,
+            "0.9": 30.276151224607062,
+            "0.99": 33.334946389884685,
+            "1": 33.36785539573675
+          }
+        },
+        "protected_violations": 0
+      },
+      {
+        "added_Chair_term_occurrences": 292,
+        "epoch": 2,
+        "image_mean": {
+          "Chair_negative_classification": 4.60942251975841e-06,
+          "Chair_positive_classification": 0.026033897720357715,
+          "Chair_source_negative_classification": 4.60942251975841e-06,
+          "added_Chair_negative_loss": 4.609422812644653e-06,
+          "box_loss": 0.4626980360786794,
+          "classification_loss": 0.10315745122488036,
+          "legacy_negative_classification": 0.007724213919018285,
+          "positive_classification": 0.09542862627186893,
+          "total_loss": 0.5658554891913624
+        },
+        "images": 59,
+        "preclip_gradient_norms": {
+          "class_head.dense0.bias": {
+            "0": 0.07601082150341504,
+            "0.1": 0.12450017224231227,
+            "0.5": 0.3719416374219584,
+            "0.9": 0.568192021184046,
+            "0.99": 0.7418123946529013,
+            "1": 0.7698068108487811
+          },
+          "class_head.dense0.weight": {
+            "0": 2.0828642401959425,
+            "0.1": 3.410942492761008,
+            "0.5": 10.113207043445835,
+            "0.9": 15.489328653411276,
+            "0.99": 20.517764193465933,
+            "1": 21.32721281219611
+          }
+        },
+        "protected_violations": 0
+      },
+      {
+        "added_Chair_term_occurrences": 286,
+        "epoch": 3,
+        "image_mean": {
+          "Chair_negative_classification": 1.3944315568474405e-05,
+          "Chair_positive_classification": 0.008700469446366542,
+          "Chair_source_negative_classification": 1.3944315568474405e-05,
+          "added_Chair_negative_loss": 1.3944317973300272e-05,
+          "box_loss": 0.4497794289205034,
+          "classification_loss": 0.06587302661340554,
+          "legacy_negative_classification": 0.01730075945793572,
+          "positive_classification": 0.04855832304691815,
+          "total_loss": 0.5156524537478463
+        },
+        "images": 59,
+        "preclip_gradient_norms": {
+          "class_head.dense0.bias": {
+            "0": 0.029205926851971802,
+            "0.1": 0.03748817489490727,
+            "0.5": 0.24874710802725142,
+            "0.9": 0.5933550788737133,
+            "0.99": 1.7546880859504,
+            "1": 1.9208959661662817
+          },
+          "class_head.dense0.weight": {
+            "0": 0.7979155367694035,
+            "0.1": 1.0318997165028847,
+            "0.5": 6.7754588146370756,
+            "0.9": 16.488225502899027,
+            "0.99": 47.81549468554241,
+            "1": 52.298506129411905
+          }
+        },
+        "protected_violations": 0
+      },
+      {
+        "added_Chair_term_occurrences": 282,
+        "epoch": 4,
+        "image_mean": {
+          "Chair_negative_classification": 3.551895555235248e-05,
+          "Chair_positive_classification": 0.005561857057774293,
+          "Chair_source_negative_classification": 3.551895555235248e-05,
+          "added_Chair_negative_loss": 3.551895826542143e-05,
+          "box_loss": 0.4267297904875319,
+          "classification_loss": 0.05874455995703009,
+          "legacy_negative_classification": 0.012053859941029952,
+          "positive_classification": 0.046655181513245735,
+          "total_loss": 0.4854743497098907
+        },
+        "images": 59,
+        "preclip_gradient_norms": {
+          "class_head.dense0.bias": {
+            "0": 0.0017975267892174952,
+            "0.1": 0.01800625441317391,
+            "0.5": 0.2016293530705488,
+            "0.9": 0.44940352875335243,
+            "0.99": 1.3998231105910661,
+            "1": 1.5392793536942722
+          },
+          "class_head.dense0.weight": {
+            "0": 0.04928707103895154,
+            "0.1": 0.4926761861691876,
+            "0.5": 5.520910524107949,
+            "0.9": 12.381575012566117,
+            "0.99": 38.12564680698556,
+            "1": 41.89296999080572
+          }
+        },
+        "protected_violations": 0
+      },
+      {
+        "added_Chair_term_occurrences": 279,
+        "epoch": 5,
+        "image_mean": {
+          "Chair_negative_classification": 9.701618106385597e-05,
+          "Chair_positive_classification": 0.003641188226815834,
+          "Chair_source_negative_classification": 9.701618106385597e-05,
+          "added_Chair_negative_loss": 9.701617490935156e-05,
+          "box_loss": 0.42349720102245525,
+          "classification_loss": 0.04273912249429054,
+          "legacy_negative_classification": 0.009633230203289097,
+          "positive_classification": 0.03300887565492149,
+          "total_loss": 0.4662363232444909
+        },
+        "images": 59,
+        "preclip_gradient_norms": {
+          "class_head.dense0.bias": {
+            "0": 0.013064987276424005,
+            "0.1": 0.02755853204544614,
+            "0.5": 0.16377156134184515,
+            "0.9": 0.3350473713524252,
+            "0.99": 1.2427662917579383,
+            "1": 1.3876088354568212
+          },
+          "class_head.dense0.weight": {
+            "0": 0.357091984031998,
+            "0.1": 0.7577615684683656,
+            "0.5": 4.5060545601211,
+            "0.9": 9.305713078947974,
+            "0.99": 33.845719870550596,
+            "1": 37.77456305556977
+          }
+        },
+        "protected_violations": 0
+      }
+    ],
+    "image_mean_caveat": "Diagnostic unweighted means across59 per-image normalized losses; optimizer accumulation remains original C8B averaging within groups of4,last3.",
+    "known_products_or_independent_physical_identities_not_established": true,
+    "negative_score_quantiles": {
+      "0": 9.640143774110972e-11,
+      "0.1": 6.362152294838283e-05,
+      "0.5": 0.0014269596332777224,
+      "0.9": 0.012920473039078978,
+      "0.99": 0.04845613964225316,
+      "1": 0.20657374614669016
+    },
+    "negative_term_occurrences": 1433,
+    "negative_terms_at_least_015": 3,
+    "negative_terms_at_least_05": 0,
+    "probes": [
+      {
+        "added_Chair_score_quantiles": {
+          "0": 9.640143774110972e-11,
+          "0.1": 1.2127022783476034e-05,
+          "0.5": 0.0001579642770307742,
+          "0.9": 0.00112273543286005,
+          "0.99": 0.0026434853957601695,
+          "1": 0.01905089958582299
+        },
+        "added_terms": 292,
+        "added_terms_at_least_015": 0,
+        "added_terms_at_least_05": 0,
+        "epoch": 0,
+        "known_groups_with_coverage": 19,
+        "photos_with_coverage": 19,
+        "protected_violations": 0,
+        "regions_with_coverage": 24,
+        "regions_without_coverage": 17
+      },
+      {
+        "added_Chair_score_quantiles": {
+          "0": 8.458957415578321e-10,
+          "0.1": 6.33300432934542e-05,
+          "0.5": 0.0005884267437741516,
+          "0.9": 0.003907280723074635,
+          "0.99": 0.010179311363652827,
+          "1": 0.058560826873748875
+        },
+        "added_terms": 292,
+        "added_terms_at_least_015": 0,
+        "added_terms_at_least_05": 0,
+        "epoch": 1,
+        "known_groups_with_coverage": 20,
+        "photos_with_coverage": 20,
+        "protected_violations": 0,
+        "regions_with_coverage": 25,
+        "regions_without_coverage": 16
+      },
+      {
+        "added_Chair_score_quantiles": {
+          "0": 8.677780804233224e-09,
+          "0.1": 0.00031952389049752234,
+          "0.5": 0.0024822767076302155,
+          "0.9": 0.014205215567584209,
+          "0.99": 0.04553580524160013,
+          "1": 0.1571368534705856
+        },
+        "added_terms": 283,
+        "added_terms_at_least_015": 1,
+        "added_terms_at_least_05": 0,
+        "epoch": 3,
+        "known_groups_with_coverage": 19,
+        "photos_with_coverage": 19,
+        "protected_violations": 0,
+        "regions_with_coverage": 24,
+        "regions_without_coverage": 17
+      },
+      {
+        "added_Chair_score_quantiles": {
+          "0": 2.472069661042253e-08,
+          "0.1": 0.0005907104251718618,
+          "0.5": 0.004382336640730745,
+          "0.9": 0.02391638709985853,
+          "0.99": 0.09126660994944434,
+          "1": 0.21967211902506864
+        },
+        "added_terms": 281,
+        "added_terms_at_least_015": 2,
+        "added_terms_at_least_05": 0,
+        "epoch": 5,
+        "known_groups_with_coverage": 19,
+        "photos_with_coverage": 19,
+        "protected_violations": 0,
+        "regions_with_coverage": 24,
+        "regions_without_coverage": 17
+      }
+    ],
+    "training_group_count": 56,
+    "training_photo_presentations": 295,
+    "updates": 75
+  }
+}

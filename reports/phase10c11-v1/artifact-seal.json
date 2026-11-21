@@ -1,0 +1,17 @@
+{
+  "final_checkpoint": {
+    "file": "checkpoints/update-075-bf8be48ddf59.pt",
+    "sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "updates": 75
+  },
+  "parent_commit": "a8835ce934f2c96e388dae965ee5701ac46206ad",
+  "prepared_config_hashes_verified": true,
+  "private_allocated_bytes_at_sealing": 1683177472,
+  "private_files": 626,
+  "private_logical_bytes_at_sealing": 1681932352,
+  "private_seal": "data/open-images/preparation/phase10c11-v1/ARTIFACT-SHA256SUMS",
+  "private_seal_sha256": "6904f2bea28d5b902d49b0c246711f584a5a13f44669e067e2b9ed0a768d14b5",
+  "public_seal": "reports/phase10c11-v1/SHA256SUMS",
+  "source_branch": "experiment/phase10c11-frozen-calibration-ablation",
+  "weights_photographs_raw_queries_and_activations_not_for_Git": true
+}

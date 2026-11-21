@@ -1,0 +1,11 @@
+{
+  "CPU_only_tests": true,
+  "all_executed_configuration_code_pins_unchanged": true,
+  "new_analysis_tests": 4,
+  "postrun_log": "data/open-images/preparation/phase10c11-v1/postrun-tests.log",
+  "postrun_log_sha256": "52337d0e8bbff18dea89dbe2c87683a9838ef77861b4adb41d21bfc9170e6ae2",
+  "postrun_suite_passed": 13,
+  "preflight_distinct": 128,
+  "status": "PASS",
+  "total_distinct_relevant_tests": 132
+}

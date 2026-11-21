@@ -1,0 +1,29 @@
+{
+  "C10_private_sealed_files": 10,
+  "C10_public_sealed_files": 33,
+  "Phase10D_authorized": false,
+  "development_photos": 19,
+  "diagnostic_execution_differences": [
+    "Standalone initialization rechecks19 FP32 development photos;467 total forward ceiling versus448 for C8B which reused A reference",
+    "Detached logging adds Chair-only positive/negative loss components; original loss tensor/parts/gradients unchanged",
+    "CPU initial raw-output comparison against saved C8 original occurs before first optimizer update"
+  ],
+  "future_destination_was_unused": true,
+  "historical_weights_modified": false,
+  "known_training_groups": 56,
+  "limits": {
+    "arms": 1,
+    "lr": 1e-05,
+    "max_GPU_seconds_including_inference": 600,
+    "max_VRAM_bytes": 6979321856,
+    "max_epochs": 5,
+    "max_updates": 75
+  },
+  "only_intended_optimization_change": "Freeze4 original class-head calibration tensors; remaining data/loss/order/optimizer identical to C8B",
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "original_data_manifest_sha256": "ec55e01d968b584819c790de2c2a843bd87d9af960642601d65187807800b937",
+  "parent_commit": "a8835ce934f2c96e388dae965ee5701ac46206ad",
+  "positive_boxes": 182,
+  "status": "PASS",
+  "training_photos": 59
+}
