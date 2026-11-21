@@ -1,0 +1,302 @@
+{
+  "CPU_tests": 286,
+  "Mac_project_modified": false,
+  "base_commit": "85c3cc5fe6b242f4ee5bc0245d1d9397b47bf10d",
+  "browser_checks": 54,
+  "data_policy": {
+    "Chair_includes": [
+      "ordinary chairs",
+      "seating stools",
+      "bar stools"
+    ],
+    "named_objects_do_not_prove_Chair_absence": true,
+    "native_photograph_rights": "Existing photograph-specific evidence replayed; no new rights claim or network audit",
+    "other_furniture_never_generic_background": true,
+    "separate_protected": [
+      "footstools",
+      "ottomans",
+      "step stools"
+    ],
+    "source_annotations_unchanged": true,
+    "source_groups_not_physical_independence_proof": true,
+    "unavailable_native_supervision": [
+      "walls/floors/ceilings",
+      "reflections/shadows",
+      "verified tabletop-edge/bed-rail negatives"
+    ],
+    "unknowns_ignored": true
+  },
+  "diagnostic_predictions": 56,
+  "downloads": 0,
+  "evidence_inventory": [
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "people",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 24,
+      "local_photos": 24,
+      "native_annotation_candidates": 81,
+      "object_hypothesis_clusters": 81,
+      "primary59_annotations": 77,
+      "primary59_groups": 20,
+      "primary59_photos": 20,
+      "source_datasets": {
+        "COCO": 76,
+        "OpenImages": 5
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "people_parts",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 3,
+      "local_photos": 3,
+      "native_annotation_candidates": 12,
+      "object_hypothesis_clusters": 11,
+      "primary59_annotations": 12,
+      "primary59_groups": 3,
+      "primary59_photos": 3,
+      "source_datasets": {
+        "OpenImages": 12
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "plants_flowers",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 19,
+      "local_photos": 21,
+      "native_annotation_candidates": 36,
+      "object_hypothesis_clusters": 36,
+      "primary59_annotations": 35,
+      "primary59_groups": 18,
+      "primary59_photos": 20,
+      "source_datasets": {
+        "COCO": 24,
+        "LVIS": 10,
+        "OpenImages": 2
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "animals",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 10,
+      "local_photos": 10,
+      "native_annotation_candidates": 17,
+      "object_hypothesis_clusters": 17,
+      "primary59_annotations": 8,
+      "primary59_groups": 4,
+      "primary59_photos": 4,
+      "source_datasets": {
+        "COCO": 9,
+        "LVIS": 8
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "wall_art",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 7,
+      "local_photos": 7,
+      "native_annotation_candidates": 21,
+      "object_hypothesis_clusters": 21,
+      "primary59_annotations": 12,
+      "primary59_groups": 3,
+      "primary59_photos": 3,
+      "source_datasets": {
+        "LVIS": 21
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "windows_doors",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 18,
+      "local_photos": 18,
+      "native_annotation_candidates": 36,
+      "object_hypothesis_clusters": 36,
+      "primary59_annotations": 30,
+      "primary59_groups": 14,
+      "primary59_photos": 14,
+      "source_datasets": {
+        "LVIS": 26,
+        "OpenImages": 10
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "screens",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 52,
+      "local_photos": 56,
+      "native_annotation_candidates": 301,
+      "object_hypothesis_clusters": 260,
+      "primary59_annotations": 61,
+      "primary59_groups": 21,
+      "primary59_photos": 22,
+      "source_datasets": {
+        "COCO": 149,
+        "LVIS": 152
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "kitchen_appliances",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 13,
+      "local_photos": 13,
+      "native_annotation_candidates": 33,
+      "object_hypothesis_clusters": 30,
+      "primary59_annotations": 29,
+      "primary59_groups": 11,
+      "primary59_photos": 11,
+      "source_datasets": {
+        "COCO": 19,
+        "LVIS": 13,
+        "OpenImages": 1
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "tableware_small_objects",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 60,
+      "local_photos": 65,
+      "native_annotation_candidates": 465,
+      "object_hypothesis_clusters": 457,
+      "primary59_annotations": 287,
+      "primary59_groups": 35,
+      "primary59_photos": 38,
+      "source_datasets": {
+        "COCO": 307,
+        "LVIS": 158
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "clothing_bags",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 28,
+      "local_photos": 28,
+      "native_annotation_candidates": 84,
+      "object_hypothesis_clusters": 81,
+      "primary59_annotations": 81,
+      "primary59_groups": 26,
+      "primary59_photos": 26,
+      "source_datasets": {
+        "COCO": 15,
+        "LVIS": 60,
+        "OpenImages": 9
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "furniture_parts",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 9,
+      "local_photos": 11,
+      "native_annotation_candidates": 47,
+      "object_hypothesis_clusters": 47,
+      "primary59_annotations": 11,
+      "primary59_groups": 5,
+      "primary59_photos": 5,
+      "source_datasets": {
+        "LVIS": 37,
+        "OpenImages": 10
+      }
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "walls_floors_ceilings",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 0,
+      "local_photos": 0,
+      "native_annotation_candidates": 0,
+      "object_hypothesis_clusters": 0,
+      "primary59_annotations": 0,
+      "primary59_groups": 0,
+      "primary59_photos": 0,
+      "source_datasets": {}
+    },
+    {
+      "annotation_counts_are_not_independent_physical_objects": true,
+      "category": "fragments_reflections_shadows",
+      "human_confirmed_new_hard_negatives": 0,
+      "known_source_groups": 0,
+      "local_photos": 0,
+      "native_annotation_candidates": 0,
+      "object_hypothesis_clusters": 0,
+      "primary59_annotations": 0,
+      "primary59_groups": 0,
+      "primary59_photos": 0,
+      "source_datasets": {}
+    }
+  ],
+  "experimental_branch": "experiment/phase10c5-fast-review-v2",
+  "implementation": [
+    "automatic next-unreviewed progression",
+    "completed/remaining counts, including uncertain decisions",
+    "pause progression for detailed review",
+    "Undo returns to modified item",
+    "replayable source-bound edit history",
+    "export and restore draft geometry",
+    "source/prediction overlays",
+    "category-specific additive mask compiler",
+    "legacy C3/C2 evidence validation",
+    "atomic versioned export completion"
+  ],
+  "inactive_expansion_photos": 42,
+  "interface_url": "http://localhost:8769/",
+  "model_audit": {
+    "checkpoint_hashes_reverified": true,
+    "frozen": [
+      "vision encoder",
+      "text encoder",
+      "objectness"
+    ],
+    "local_non_furniture_loss_labels": [],
+    "locally_updated": [
+      "shared classification projection",
+      "classification shift/scale",
+      "box head"
+    ],
+    "non_furniture_performance": "Untested: saved predictions include furniture prompts only; no new inference",
+    "original_open_vocabulary": true,
+    "potential_issue": "Shared classification-head score inflation; general-object forgetting is a hypothesis, not established",
+    "reference": "reports/phase10c5-v1/model-audit-v2.json",
+    "weights_or_defaults_modified": false
+  },
+  "model_forwards": 0,
+  "new_human_approved_negative_regions": 0,
+  "new_masks_without_review": 0,
+  "next_gate": "At least six explicit Chair-free regions in three optimization source groups, validated hashes and meaningful query-mask contrast, then separate GPU authorization",
+  "optimizer_updates": 0,
+  "prior_interfaces_unchanged": [
+    8766,
+    8768
+  ],
+  "queue_source_objects": 934,
+  "retained_source_positive_boxes": 182,
+  "schema": "phase10c5-followup-v2-summary",
+  "source_attachment_complete": false,
+  "source_attachment_ending": "Do not require users to type bounding-box coordinates or repeatedly complete unnecessary",
+  "supervision_manifest": "data/open-images/preparation/phase10c5-v2/supervision-manifest-initial-v2.json",
+  "training_budget_proposed": {
+    "VRAM_GiB": 6.5,
+    "accumulation": 4,
+    "arms": 2,
+    "batch": 1,
+    "epochs_per_arm": 5,
+    "seconds": 3600,
+    "total_updates": 150,
+    "updates_per_arm": 75
+  },
+  "training_photos": 59,
+  "training_proposal": "reports/phase10c5-v1/experiment-proposal-v2.json",
+  "training_proposal_enabled": false,
+  "training_source_groups": 56,
+  "unchanged_main_commit": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "validation_examples_never_training": true,
+  "verified_C4_commit": "015b3f9237fb8b002a0228c3640a0e74f95e1fee"
+}

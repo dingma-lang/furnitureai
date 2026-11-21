@@ -79,6 +79,13 @@
 !/reports/phase10c5-v1/tests*.json
 !/reports/phase10c5-v1/browser-tests*.json
 !/reports/phase10c5-v1/preservation-summary.json
+!/reports/phase10c5-v2/
+/reports/phase10c5-v2/*
+!/reports/phase10c5-v2/summary.json
+!/reports/phase10c5-v2/tests.json
+!/reports/phase10c5-v2/tests-final.json
+!/reports/phase10c5-v2/preservation.json
+!/reports/phase10c5-v2/browser-tests*.json
 
 # Private machine configuration and credentials.
 /.aws/

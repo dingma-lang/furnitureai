@@ -1,0 +1,76 @@
+{
+  "CPU_tests": 286,
+  "GPU_forwards": 0,
+  "optimizer_updates": 0,
+  "real_human_decisions_created": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "exit_code": 0,
+      "latest_targeted_command": "CUDA_VISIBLE_DEVICES= .venv/bin/python -B -m unittest discover -s tools/phase10c5-v2 -p test*.py -v",
+      "passed": 31,
+      "suite": "phase10c5-v2"
+    },
+    {
+      "log_sha256": "15342c8a3e34696aabd5ca683bb07ed9d607b19f1073999f832598ac09451fd6",
+      "passed": 31,
+      "suite": "phase10c5-v1"
+    },
+    {
+      "log_sha256": "324f745fa1c9678dc1b9455cdede25070e659465973d3fec739859a15902dd95",
+      "passed": 26,
+      "suite": "phase10c4-v1"
+    },
+    {
+      "log_sha256": "6b157dafe0fa070d199cbd5a124902d20fbf4e70d81c2200197f20fc31696efe",
+      "passed": 8,
+      "suite": "phase10c3-v1"
+    },
+    {
+      "log_sha256": "c6be46ebd27adba38f032e00ca2ac6e4007d0b3f0688219ede49b2797532d650",
+      "passed": 22,
+      "suite": "phase10c2-v1"
+    },
+    {
+      "log_sha256": "69d5469c988b981fd860a89143ae3210c37216207a2f2630b4b70f4a1adf608c",
+      "passed": 9,
+      "suite": "chair-fp-audit-v1"
+    },
+    {
+      "log_sha256": "081aaf22e4374be1fc0530da7230d3a4d86e7aa3b00eaadc6faa1af392b28110",
+      "passed": 16,
+      "suite": "phase10c-v1"
+    },
+    {
+      "log_sha256": "4c10bb10249209f59e2d90777f6870064580677d927431681123cd7706069882",
+      "passed": 22,
+      "suite": "phase10b-v1"
+    },
+    {
+      "log_sha256": "39bf0dc9c0ea300394ba34088917af27b922187e02c98954d63caaf6ffcc63fd",
+      "passed": 32,
+      "suite": "phase10a-v1"
+    },
+    {
+      "log_sha256": "43826b677a0ba27329936a64ea37b1db153490ebeaca61ec94cc7905e7dc3281",
+      "passed": 18,
+      "suite": "phase5b-v1"
+    },
+    {
+      "log_sha256": "8001dcb92f136a4b23e43a6d35fabf87a51fa94895dbf27cb7c8c0084c753348",
+      "passed": 12,
+      "suite": "phase5c-v1"
+    },
+    {
+      "log_sha256": "fbe34c956e3f3d0b120a114464aa2656fb31ff21ed7f27d0b1fcfa39439af8e2",
+      "passed": 25,
+      "suite": "phase8a-v1"
+    },
+    {
+      "log_sha256": "ed36a03ae230bff5b7988582a0386f8fbeb22f869a3ec28dba07626b929339cc",
+      "passed": 34,
+      "suite": "phase9-v1"
+    }
+  ],
+  "unchanged_prior_suites_reused": true
+}
