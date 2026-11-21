@@ -1,0 +1,12 @@
+{
+  "GPU_execution": false,
+  "branch": "experiment/phase10c12-projection-preservation",
+  "disabled_configuration_sha256": "2664f1a0db5deabdf7f405a85ea8632dd29fc1895abe809c47f382479f2bce90",
+  "new_model_checkpoints": 0,
+  "parent_commit": "63ad5c3ca0ac51bf24e72575a39927d8222b6d9c",
+  "private_allocated_bytes": 106496,
+  "private_files": 13,
+  "private_seal": "data/open-images/preparation/phase10c12-v1/ARTIFACT-SHA256SUMS-v2",
+  "private_seal_sha256": "6417177a1816772cedfc875e42852c9e94f5509237772608b7f7941a5f27a440",
+  "public_seal": "reports/phase10c12-v1/SHA256SUMS"
+}

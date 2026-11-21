@@ -1,0 +1,41 @@
+{
+  "C12_experiment_directory_created": false,
+  "CPU_only": true,
+  "GPU_forwards": 0,
+  "old_C10_execution_absence_tests_not_applicable_after_C11": true,
+  "passed": 142,
+  "real_training_updates": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "log_sha256": "8913a59d128b81dfc68cfd617b6014bb2e2f1614387ff46a2fead7358a2a50c4",
+      "passed": 29,
+      "suite": "C12"
+    },
+    {
+      "log_sha256": "74292b06e8908b664b0771f3628e0118d98222678da90d861f0e70c1e9e5d9df",
+      "passed": 13,
+      "suite": "C11"
+    },
+    {
+      "log_sha256": "dfbae96b97ed3f98021459377233147eebf6243a598311172d57c7c279a65ca1",
+      "passed": 21,
+      "suite": "frozen_scope"
+    },
+    {
+      "log_sha256": "ba3770cac4cb8e7b5184c1094493f8cddaad8bc405c5014a16fa36cf9188b615",
+      "passed": 16,
+      "suite": "C8_loss"
+    },
+    {
+      "log_sha256": "49513dfabf55a9002370c144063c526d88ebbc2185dc06ce2c0dd2121d3ffaaa",
+      "passed": 31,
+      "suite": "C6_mask"
+    },
+    {
+      "log_sha256": "b6ef84a212a00558afe107fad10858f19ee55088fdcf4030e13f63ccfaafe750",
+      "passed": 32,
+      "suite": "expanded_base"
+    }
+  ]
+}

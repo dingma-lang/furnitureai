@@ -1,0 +1,33 @@
+{
+  "C11": {
+    "C11_final_checkpoint_sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "C11_private_files": 626,
+    "C11_public_files": 31,
+    "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+  },
+  "C12_checkpoint_written": false,
+  "C12_experiment_directory_created": false,
+  "Mac_project_modified": false,
+  "Phase10D": false,
+  "all_C11_seals_preserved": true,
+  "historical": {
+    "GPU_model_forwards": 0,
+    "Mac_project_modified": false,
+    "annotation_overlays_activated": 0,
+    "datasets_or_models_downloaded": 0,
+    "eligible_image_hashes": 78,
+    "historical_data_model_files": 9973,
+    "historical_data_modified": false,
+    "historical_implementation_files": 27,
+    "phase10b_report_artifacts": 24,
+    "phase10b_snapshots": 160,
+    "reserved_or_frozen_images_decoded": 0,
+    "source_group_isolation": true,
+    "status": "PASS",
+    "training_updates": 0
+  },
+  "new_downloads": 0,
+  "new_real_model_forwards": 0,
+  "production_modified": false,
+  "status": "PASS"
+}

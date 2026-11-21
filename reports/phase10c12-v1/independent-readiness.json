@@ -1,0 +1,62 @@
+{
+  "all_seven_complete_source_disjoint_acceptance_pool_established": false,
+  "audited_metadata": [
+    {
+      "path": "reports/phase10c9-v1/independent-evaluation-protocol.json",
+      "sha256": "0ec35495e54a759bc798aca2cad4813afd970e32b45776871464c197e19fcff5"
+    },
+    {
+      "path": "data/lvis/image-pilots/phase8b-v1/combined-training-readiness.json",
+      "sha256": "63790c304664421b8d223d2a7c482c7502d6ccf4551a1837e3bd63a5ef1a9e4c"
+    },
+    {
+      "path": "data/open-images/image-pilots/phase5-v1/partition-indexes/frozen_evaluation.json",
+      "sha256": "cb0dc191fa5e83774defea7fb735a27df099fb08483202d05d60d1f40396beb3"
+    },
+    {
+      "path": "data/open-images/image-pilots/phase5-v1/screening-final-v1/screening.json",
+      "sha256": "83684c5244677c70f3ff6db155c7be03b08583c9dd082e7048db279cd64dca68"
+    }
+  ],
+  "combined_readiness_fully_independently_verified_seven_class_photos": 0,
+  "combined_readiness_rows": 156,
+  "existing_holdout_membership_changed": false,
+  "frozen_intersection_with_current_training_and_development": {
+    "identity_group": 0,
+    "image_id": 0,
+    "sha256": 0
+  },
+  "frozen_missing_identity_metadata": {
+    "identity_group": 0,
+    "image_id": 0,
+    "sha256": 16
+  },
+  "historical_frozen_human_reviewed": 0,
+  "historical_frozen_metadata_members": 60,
+  "historical_frozen_scene_verified": 0,
+  "historical_frozen_statuses": {
+    "provisional_candidate": 18,
+    "quarantined_licensing_not_acquired": 16,
+    "quarantined_scene": 3,
+    "unresolved_screening": 23
+  },
+  "minimum_instances_per_category": 50,
+  "missing": [
+    "Exact separately authorized unseen source manifest and commercially compatible photo-specific rights",
+    "140 proposed unseen room/source groups; minimum50 fully annotated instances/category,actual support audited before scoring",
+    "Complete seven-class whole-object taxonomy including seating/bar stools; Cabinet/Desk/Table/Lamp unit policies; ignored uncertain objects",
+    "Independent annotation QA and adjudication without model prediction-driven selection",
+    "Room/session/creator/source/hash/perceptual isolation from all training and exposed development material",
+    "Predeclared common operating point and one frozen selected checkpoint; no acceptance-set tuning",
+    "Source-group confidence intervals and power limitations; no80%precision/90%recall claim from current panel"
+  ],
+  "model_scores_computed": 0,
+  "photo_bodies_opened": 0,
+  "proposed_unseen_photos": 140,
+  "protocol": "reports/phase10c9-v1/independent-evaluation-protocol.json",
+  "protocol_sha256": "0ec35495e54a759bc798aca2cad4813afd970e32b45776871464c197e19fcff5",
+  "protocol_status": "PROPOSAL_ONLY_NOT_AUTHORIZED",
+  "qualification_zero_means_no_pool_proven_not_no_photos_exist": true,
+  "qualified_independent_photos_established": 0,
+  "status": "NOT_READY"
+}

@@ -1,0 +1,19 @@
+{
+  "GPU_process_started": false,
+  "checks": [
+    {
+      "entry": "launch12.py",
+      "exit_code": 1,
+      "intended_refusal": true
+    },
+    {
+      "entry": "evaluate12.py",
+      "exit_code": 1,
+      "intended_refusal": true
+    }
+  ],
+  "configuration_sha256": "2664f1a0db5deabdf7f405a85ea8632dd29fc1895abe809c47f382479f2bce90",
+  "experiment_directory_created": false,
+  "separate_user_training_authorization_required": true,
+  "status": "PASS"
+}

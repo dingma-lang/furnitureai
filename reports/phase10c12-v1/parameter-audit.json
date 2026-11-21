@@ -1,0 +1,112 @@
+{
+  "architecture_source": ".venv/lib/python3.14/site-packages/transformers/models/owlv2/modeling_owlv2.py",
+  "architecture_source_sha256": "1997720a152f18cb753d4fee1942a9384a1f443f59c64764420b4da0a0a1f1e7",
+  "attribution_used_only_to_verify_previous_phase_not_to_select_lambda": true,
+  "calibration_unchanged_in_all76_snapshots": true,
+  "classification_projection": {
+    "class_head.dense0.bias": {
+      "drift_L2": 0.006170257945540215,
+      "max_abs_drift": 0.0004498441703617573,
+      "original_L2": 0.10053771902381091,
+      "original_sha256": "0ccca625f1cfed8c5e59577d450ed29a4e36af53d14db57b568536a91e33c37f",
+      "relative_drift_L2": 0.06137256748463607,
+      "scalars": 512,
+      "shape": [
+        512
+      ],
+      "trained_sha256": "60d8430614bbd1e093ba2664ce36c569cbe7b3ac1386388e0cf0cd3998b2dfb5"
+    },
+    "class_head.dense0.weight": {
+      "drift_L2": 0.14573774306205836,
+      "max_abs_drift": 0.0005395859479904175,
+      "original_L2": 9.701100049825765,
+      "original_sha256": "811fc56b1ea98acce237fc1b921c3d681e483feed625f38c173316f0cb54c37f",
+      "relative_drift_L2": 0.015022805899695454,
+      "scalars": 393216,
+      "shape": [
+        512,
+        768
+      ],
+      "trained_sha256": "2ae044b5b1bd134ab3260a40121ed72e4fe49e1ed6ccd9f4c9876dad57d0efe4"
+    }
+  },
+  "frozen_calibration_hashes": {
+    "class_head.logit_scale.bias": "69be7f155569d897139b6335e3b30357b4c3ebb18ddd60cc280c72b4dd82065c",
+    "class_head.logit_scale.weight": "985588774b8321bd5d419b7fa3e874bc75fac25818a86470f1ede992ba2b07d1",
+    "class_head.logit_shift.bias": "da4fdc6288b5f478c4261b6c93439a0fc3e9f8cb6b8700bcddd44688f1fb3de8",
+    "class_head.logit_shift.weight": "8ecf31509b44f2dc64e11d1f44b9cd30c9ce18daaace2a04baff6faeb2d4aa6a"
+  },
+  "historical_functional_attribution": {
+    "max_GPU_endpoint_abs_error": 0.0001010894775390625,
+    "mean_Chair_contribution": {
+      "projection": 4.24798533220756,
+      "scale": 0.0,
+      "shift": 0.0
+    },
+    "mean_all_category_contribution": {
+      "projection": 3.0110348984691075,
+      "scale": 0.0,
+      "shift": 0.0
+    },
+    "photos": 19,
+    "queries": 68400
+  },
+  "no_gpu_calls": true,
+  "optimizer": {
+    "amsgrad": false,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "capturable": false,
+    "decoupled_weight_decay": true,
+    "differentiable": false,
+    "eps": 1e-08,
+    "foreach": null,
+    "fused": null,
+    "lr": 1e-05,
+    "maximize": false,
+    "param_names": [
+      "class_head.dense0.weight",
+      "class_head.dense0.bias",
+      "box_head.dense0.weight",
+      "box_head.dense0.bias",
+      "box_head.dense1.weight",
+      "box_head.dense1.bias",
+      "box_head.dense2.weight",
+      "box_head.dense2.bias"
+    ],
+    "params": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "weight_decay": 0.01
+  },
+  "optimizer_steps": 75,
+  "original_backbone_sha256": "224b9eeaffa0b9086a31b7d5a3cc4ac62467d4dcdabe4211dbfa8502755f9e31",
+  "preservation": {
+    "C11_final_checkpoint_sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "C11_private_files": 626,
+    "C11_public_files": 31,
+    "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+  },
+  "trainable_keys": [
+    "class_head.dense0.weight",
+    "class_head.dense0.bias",
+    "box_head.dense0.weight",
+    "box_head.dense0.bias",
+    "box_head.dense1.weight",
+    "box_head.dense1.bias",
+    "box_head.dense2.weight",
+    "box_head.dense2.bias"
+  ],
+  "trainable_scalars": 1577988,
+  "verified_implementation": "Owlv2ClassPredictionHead: dense0(768->512), normalized image/text similarity, then (similarity+logit_shift(image_features))*(ELU(logit_scale(image_features))+1). Four frozen calibration tensors are separate from dense0.",
+  "whole_frozen_sha256": "8f41ed451288568ab05b523dd6a352cb73ab0becacc75a34fb45e67eda35f006"
+}

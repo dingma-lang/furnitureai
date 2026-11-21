@@ -1,0 +1,817 @@
+{
+  "all59_last_epoch_mean_box": 0.42349720102245525,
+  "all59_last_epoch_mean_classification": 0.04273912249429054,
+  "development_activations_used": false,
+  "development_metrics_used": false,
+  "endpoint_regularizer_gradient_norm": 11.51297068345855,
+  "final_probe_classification": 0.02954726518661725,
+  "formula": "lambda=(mean_C11_optimization_probe_classification_E0-mean_E5)/(0.5*sum_projection_squared_drift_at_C11_update75)",
+  "hyperparameter_search": false,
+  "initial_probe_classification": 0.869236013541619,
+  "known_source_groups": 24,
+  "lambda_value": 78.92715855598048,
+  "last_epoch_counterfactual_preupdate_gradient_ratio_quantiles": {
+    "0": 0.3001746998405238,
+    "0.1": 1.1718523442059459,
+    "0.5": 2.415834468950353,
+    "0.9": 14.008935904554848,
+    "0.99": 28.974540818429887,
+    "1": 31.236209428057347
+  },
+  "last_epoch_existing_projection_gradient_norm_quantiles": {
+    "0": 0.35733090959563213,
+    "0.1": 0.7582625386072825,
+    "0.5": 4.5090296986261365,
+    "0.9": 9.31174366295969,
+    "0.99": 33.8685285786005,
+    "1": 37.800040639124376
+  },
+  "limitations": [
+    "24 fixed evidence-containing training photos are a biased subset of59; endpoint energy matching is a transparent diagnostic convention, not an empirical optimum",
+    "Box-head movement can change discrete Hungarian assignment and region coverage; the observed classification gain is not a projection-only causal gain",
+    "At the historical endpoint the penalty is strong relative to residual classification loss and can reduce recall; future behavior is unmeasured",
+    "Saved gradient norms lack direction; comparison is counterfactual along C11 trajectory, not an AdamW step prediction; clipping and adaptive moments couple updates"
+  ],
+  "method": "single_training_probe_endpoint_energy_match_v1",
+  "normalization": "One joint half-squared sum across393728 projection scalars; no parameter-count, positive-box or category normalization",
+  "number_of_proposed_strengths": 1,
+  "pairs": [
+    {
+      "final_classification": 0.003865780308842659,
+      "identity_group": "flickr-account:_cck_",
+      "image_id": "coco2017:000000002270",
+      "initial_classification": 0.9839805960655212,
+      "source_sha256": "92ffe39f2f500ad1ad717913c91743ddab315d92bda40b82ef54868ffc64e034"
+    },
+    {
+      "final_classification": 0.00011339674529153854,
+      "identity_group": "flickr-account:68258082@n06",
+      "image_id": "coco2017:000000002347",
+      "initial_classification": 0.08710749447345734,
+      "source_sha256": "f53fcd6b58dc5ee082e98962af461a3ddd317e4858a3d667301c460e0e12092d"
+    },
+    {
+      "final_classification": 0.002708982676267624,
+      "identity_group": "flickr-account:mikecogh",
+      "image_id": "coco2017:000000030347",
+      "initial_classification": 0.9970124363899231,
+      "source_sha256": "1136e04bdc8a729ba237ee8058ee5678bf4ade1d80ab134285d987b3b9e9b5d4"
+    },
+    {
+      "final_classification": 0.0016754333628341556,
+      "identity_group": "flickr-account:davidgiesberg",
+      "image_id": "coco2017:000000037367",
+      "initial_classification": 0.19349196553230286,
+      "source_sha256": "bf4aff524aeec5679841dc035dccbb433cd8a3965961f7e2f2e6befb9d9f8bc1"
+    },
+    {
+      "final_classification": 0.0048580230213701725,
+      "identity_group": "flickr-account:98894271@n00",
+      "image_id": "coco2017:000000074638",
+      "initial_classification": 0.4146229326725006,
+      "source_sha256": "ed17d24441f56adfed9a237095868bd67f75e5a6be29d30f998ef81cb3c65322"
+    },
+    {
+      "final_classification": 0.007208452094346285,
+      "identity_group": "flickr-account:laruth",
+      "image_id": "coco2017:000000108375",
+      "initial_classification": 0.5834031105041504,
+      "source_sha256": "f81372558c6b3db24a97a43b6003b81b4ddf4ed33bad7310c55b3413889b5fad"
+    },
+    {
+      "final_classification": 8.832247112877667e-05,
+      "identity_group": "flickr-account:johanl",
+      "image_id": "coco2017:000000114729",
+      "initial_classification": 0.16368642449378967,
+      "source_sha256": "acb61870e19b1872e4806403156cee5b081c392f336999c5b43203ff79b8f87a"
+    },
+    {
+      "final_classification": 0.046976540237665176,
+      "identity_group": "flickr-account:picturesbyann",
+      "image_id": "coco2017:000000121824",
+      "initial_classification": 1.6546087265014648,
+      "source_sha256": "3a33d92ce1a003df839e8019c74a7111db3a1e95f31baf00fcebdb26a35a5e7b"
+    },
+    {
+      "final_classification": 0.037188537418842316,
+      "identity_group": "flickr-account:pagel",
+      "image_id": "coco2017:000000165742",
+      "initial_classification": 0.9611908793449402,
+      "source_sha256": "bbf2fa416484c30d525a4292750884081265b82db7f7f4eeeae57ca4a4dd744a"
+    },
+    {
+      "final_classification": 0.0007292432710528374,
+      "identity_group": "flickr-account:portobaytrade",
+      "image_id": "coco2017:000000178671",
+      "initial_classification": 0.27935081720352173,
+      "source_sha256": "4ad40541866febcdb63481660040826c231b88cf7ae39e3124565609c4e65182"
+    },
+    {
+      "final_classification": 0.012989473529160023,
+      "identity_group": "flickr-account:vxla",
+      "image_id": "coco2017:000000192834",
+      "initial_classification": 4.179687023162842,
+      "source_sha256": "47bd179d729bba8740b06529c43a117468ea59611e97104781db09332ef01416"
+    },
+    {
+      "final_classification": 0.41224801540374756,
+      "identity_group": "flickr-account:emilysnuffer",
+      "image_id": "coco2017:000000195507",
+      "initial_classification": 1.211456537246704,
+      "source_sha256": "aaad533df2a39f3d987075661f85bb606fd62af88c58734c59330af4bf55d9a9"
+    },
+    {
+      "final_classification": 0.006111836060881615,
+      "identity_group": "flickr-account:kassandrabay",
+      "image_id": "coco2017:000000197201",
+      "initial_classification": 0.2973482608795166,
+      "source_sha256": "acb4e5181ee14e4a624fa1b7bf70410c9d3685cb6660bf5487cc540d4af101f8"
+    },
+    {
+      "final_classification": 0.009341800585389137,
+      "identity_group": "flickr-account:mugland",
+      "image_id": "coco2017:000000231450",
+      "initial_classification": 0.21740774810314178,
+      "source_sha256": "6ab27153f9f4a41d63a545d683d58070d57faa334b7fa3355b86cc21681e9f74"
+    },
+    {
+      "final_classification": 0.08405496925115585,
+      "identity_group": "flickr-account:jonnygoldstein",
+      "image_id": "coco2017:000000263212",
+      "initial_classification": 1.562079668045044,
+      "source_sha256": "516a098cb4b4cf6de1f49d49ae9d2022bb87c3c28ad53dae5886485ca103009a"
+    },
+    {
+      "final_classification": 0.04508266597986221,
+      "identity_group": "flickr-account:mikebabcock",
+      "image_id": "coco2017:000000294698",
+      "initial_classification": 1.4253040552139282,
+      "source_sha256": "a9a0af5b76b04a7778202493e5ac9ccc9948bdd4287ccfb6e4f90139a18424b8"
+    },
+    {
+      "final_classification": 0.0017581003485247493,
+      "identity_group": "flickr-account:kojach",
+      "image_id": "coco2017:000000373101",
+      "initial_classification": 0.6948715448379517,
+      "source_sha256": "dba61783cd85e88c7fe89519d16d878a0140047de70f3f7a7a46d4807ae445d0"
+    },
+    {
+      "final_classification": 0.008076190948486328,
+      "identity_group": "flickr-account:vintagedept",
+      "image_id": "coco2017:000000404592",
+      "initial_classification": 0.3704701066017151,
+      "source_sha256": "40df0339309be0d40211a8b775f4ede3655bf1c38b7bc355d894912a6e74a969"
+    },
+    {
+      "final_classification": 0.007088472601026297,
+      "identity_group": "flickr-account:nduran",
+      "image_id": "coco2017:000000421108",
+      "initial_classification": 0.3827107846736908,
+      "source_sha256": "8500868d021bc1c7cf6f0cf8509e04503b5ce3a75697b5d1efa81da5a10dff9a"
+    },
+    {
+      "final_classification": 0.0006652011070400476,
+      "identity_group": "flickr-account:donabelandewen",
+      "image_id": "coco2017:000000449850",
+      "initial_classification": 0.24553674459457397,
+      "source_sha256": "863779966af51c2c9ee1ddbbdc208e600b59299e3dcbbf04e9d1ad4782e9a1a9"
+    },
+    {
+      "final_classification": 0.00933156069368124,
+      "identity_group": "flickr-account:snaks",
+      "image_id": "coco2017:000000463290",
+      "initial_classification": 0.8409278392791748,
+      "source_sha256": "816ecbb4466fdedf4ea20cbcdc7502e7a212d778c48adb6589f06eba6b3d3fd1"
+    },
+    {
+      "final_classification": 0.0061850398778915405,
+      "identity_group": "flickr-account:deepphoto",
+      "image_id": "coco2017:000000477263",
+      "initial_classification": 0.8459897041320801,
+      "source_sha256": "7cd125da8a5a6f852f33045cfc77552f294fbd5abfad869226667c7d69bb4e04"
+    },
+    {
+      "final_classification": 0.0007507439004257321,
+      "identity_group": "flickr-account:marcusspaapen",
+      "image_id": "coco2017:000000543194",
+      "initial_classification": 0.22834917902946472,
+      "source_sha256": "1a2e4e70074867e685173f4bd4089c39839a702a7b6b61ee0fd52da18a60cd6b"
+    },
+    {
+      "final_classification": 3.7582583900075406e-05,
+      "identity_group": "flickr-account:oldrebel",
+      "image_id": "coco2017:000000580827",
+      "initial_classification": 2.041069746017456,
+      "source_sha256": "c98549f3ab5ba8de14a06e7b5eafa59d44fb92aa482f035dd52953a7f5281062"
+    }
+  ],
+  "penalty_form": "0.5*sum((W-W0)^2)+0.5*sum((b-b0)^2)",
+  "per_update_counterfactual_gradient_scales": [
+    {
+      "counterfactual_regularizer_gradient_norm": 0.0,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 33.39013924045136,
+      "norm_ratio_to_existing": 0.0,
+      "preupdate_projection_distance": 0.0,
+      "update": 1
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 0.49453424892697956,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 24.8904732742807,
+      "norm_ratio_to_existing": 0.01986841485404704,
+      "preupdate_projection_distance": 0.006265704454268709,
+      "update": 2
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 0.8664770919648579,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 33.15528167197176,
+      "norm_ratio_to_existing": 0.026133908332841745,
+      "preupdate_projection_distance": 0.010978186822097412,
+      "update": 3
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 1.186809688979604,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 21.309550940470277,
+      "norm_ratio_to_existing": 0.055693791591152716,
+      "preupdate_projection_distance": 0.01503677201476648,
+      "update": 4
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 1.4910112298084994,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 19.960951529650696,
+      "norm_ratio_to_existing": 0.07469640049943006,
+      "preupdate_projection_distance": 0.018890978176427996,
+      "update": 5
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 1.7785492218422099,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 26.00880084649347,
+      "norm_ratio_to_existing": 0.06838259219790194,
+      "preupdate_projection_distance": 0.0225340586736154,
+      "update": 6
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 2.0666927066636758,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 25.04974323120704,
+      "norm_ratio_to_existing": 0.08250354854292416,
+      "preupdate_projection_distance": 0.026184810709964142,
+      "update": 7
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 2.366040965527749,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 17.66703568987402,
+      "norm_ratio_to_existing": 0.13392404968558824,
+      "preupdate_projection_distance": 0.02997752622564757,
+      "update": 8
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 2.6676095285080788,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 22.895731174352196,
+      "norm_ratio_to_existing": 0.1165112181041126,
+      "preupdate_projection_distance": 0.033798372794784315,
+      "update": 9
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 2.9632776044496967,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 8.11998115812453,
+      "norm_ratio_to_existing": 0.36493651238152924,
+      "preupdate_projection_distance": 0.037544460723845006,
+      "update": 10
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 3.2435094464655627,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 16.548910374519995,
+      "norm_ratio_to_existing": 0.1959953479148407,
+      "preupdate_projection_distance": 0.041094972957439566,
+      "update": 11
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 3.516866942819768,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 15.724284453355272,
+      "norm_ratio_to_existing": 0.22365831356283644,
+      "preupdate_projection_distance": 0.044558387849796564,
+      "update": 12
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 3.7838048698767452,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 16.723461936050526,
+      "norm_ratio_to_existing": 0.2262572716310641,
+      "preupdate_projection_distance": 0.04794046737654967,
+      "update": 13
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 4.056541830580348,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 7.754667070127007,
+      "norm_ratio_to_existing": 0.5231097342924239,
+      "preupdate_projection_distance": 0.05139602013802605,
+      "update": 14
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 4.319765968556299,
+      "epoch": 1,
+      "existing_projection_preclip_norm": 10.232057182366333,
+      "norm_ratio_to_existing": 0.42217961564961476,
+      "preupdate_projection_distance": 0.054731046291149936,
+      "update": 15
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 4.580425392260584,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 5.808330004270538,
+      "norm_ratio_to_existing": 0.7885959284153715,
+      "preupdate_projection_distance": 0.05803357774512858,
+      "update": 16
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 4.829428993124129,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 10.91701661425027,
+      "norm_ratio_to_existing": 0.4423762611866091,
+      "preupdate_projection_distance": 0.06118843097206864,
+      "update": 17
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 5.072706678625638,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 10.422111630216579,
+      "norm_ratio_to_existing": 0.48672542173876365,
+      "preupdate_projection_distance": 0.06427073736637473,
+      "update": 18
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 5.308308921833264,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 11.742051191462544,
+      "norm_ratio_to_existing": 0.45207679946863544,
+      "preupdate_projection_distance": 0.06725579659716563,
+      "update": 19
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 5.545661113762669,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 15.555877849273715,
+      "norm_ratio_to_existing": 0.35649939961579147,
+      "preupdate_projection_distance": 0.07026302752086673,
+      "update": 20
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 5.751031557865699,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 9.554821455103225,
+      "norm_ratio_to_existing": 0.6018983802982604,
+      "preupdate_projection_distance": 0.07286505257612534,
+      "update": 21
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 5.956338576402519,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 6.578742548577381,
+      "norm_ratio_to_existing": 0.9053916508239932,
+      "preupdate_projection_distance": 0.07546627403516472,
+      "update": 22
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 6.151568417825191,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 11.428700536670526,
+      "norm_ratio_to_existing": 0.5382561559021566,
+      "preupdate_projection_distance": 0.07793981856653413,
+      "update": 23
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 6.346407341538321,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 10.120044332178123,
+      "norm_ratio_to_existing": 0.6271126027935485,
+      "preupdate_projection_distance": 0.08040841020568376,
+      "update": 24
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 6.541862452379207,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 15.415549716935612,
+      "norm_ratio_to_existing": 0.42436776971970575,
+      "preupdate_projection_distance": 0.08288480888032065,
+      "update": 25
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 6.738334141969851,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 6.070328321096665,
+      "norm_ratio_to_existing": 1.1100444301425372,
+      "preupdate_projection_distance": 0.08537408751628336,
+      "update": 26
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 6.925395714471754,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 3.2698202524237283,
+      "norm_ratio_to_existing": 2.117974438912463,
+      "preupdate_projection_distance": 0.08774414081510098,
+      "update": 27
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 7.100882767195255,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 2.0842507258179483,
+      "norm_ratio_to_existing": 3.4069234949689498,
+      "preupdate_projection_distance": 0.08996754598936725,
+      "update": 28
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 7.26380813966413,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 21.341101397602024,
+      "norm_ratio_to_existing": 0.3403670693622365,
+      "preupdate_projection_distance": 0.09203179580463607,
+      "update": 29
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 7.389643542705136,
+      "epoch": 2,
+      "existing_projection_preclip_norm": 3.6283043338993215,
+      "norm_ratio_to_existing": 2.0366658534300845,
+      "preupdate_projection_distance": 0.09362611904321756,
+      "update": 30
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 7.510617047427709,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 4.6593874308447525,
+      "norm_ratio_to_existing": 1.6119322891477228,
+      "preupdate_projection_distance": 0.09515884246739569,
+      "update": 31
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 7.626677978447385,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 2.4828439335015586,
+      "norm_ratio_to_existing": 3.0717508561609304,
+      "preupdate_projection_distance": 0.09662932402460718,
+      "update": 32
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 7.736563931855683,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 9.017381995736613,
+      "norm_ratio_to_existing": 0.8579612059812375,
+      "preupdate_projection_distance": 0.09802156917087529,
+      "update": 33
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 7.852749935817212,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 0.8408300397215596,
+      "norm_ratio_to_existing": 9.339283285380297,
+      "preupdate_projection_distance": 0.09949363539101069,
+      "update": 34
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 7.961178187084314,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 20.290265408582634,
+      "norm_ratio_to_existing": 0.3923644184425894,
+      "preupdate_projection_distance": 0.10086741158225919,
+      "update": 35
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 8.054836178150122,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 8.941206708993223,
+      "norm_ratio_to_existing": 0.900866789048555,
+      "preupdate_projection_distance": 0.10205404990523113,
+      "update": 36
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 8.15994564219948,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 9.294670279294582,
+      "norm_ratio_to_existing": 0.8779166336192807,
+      "preupdate_projection_distance": 0.10338577736093076,
+      "update": 37
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 8.285045194080315,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 9.59765883864708,
+      "norm_ratio_to_existing": 0.8632360592688252,
+      "preupdate_projection_distance": 0.10497077743149717,
+      "update": 38
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 8.41971333813452,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 0.7984498669179475,
+      "norm_ratio_to_existing": 10.54507450872901,
+      "preupdate_projection_distance": 0.10667701070427728,
+      "update": 39
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 8.544641222242035,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 10.811850293735052,
+      "norm_ratio_to_existing": 0.7903033236774694,
+      "preupdate_projection_distance": 0.10825983575959594,
+      "update": 40
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 8.65884756076858,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 1.9412379814601193,
+      "norm_ratio_to_existing": 4.460477099389819,
+      "preupdate_projection_distance": 0.1097068197967261,
+      "update": 41
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 8.76520152211618,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 52.3337709770753,
+      "norm_ratio_to_existing": 0.1674865265481396,
+      "preupdate_projection_distance": 0.1110543149212613,
+      "update": 42
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 8.841469792516895,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 6.780023397643637,
+      "norm_ratio_to_existing": 1.3040470915763658,
+      "preupdate_projection_distance": 0.11202062704748109,
+      "update": 43
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 8.926580116015268,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 1.3202060704311802,
+      "norm_ratio_to_existing": 6.761505128589389,
+      "preupdate_projection_distance": 0.11309896719117202,
+      "update": 44
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.007881610688786,
+      "epoch": 3,
+      "existing_projection_preclip_norm": 1.3789690447111476,
+      "norm_ratio_to_existing": 6.5323305445015745,
+      "preupdate_projection_distance": 0.11412904981622753,
+      "update": 45
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.084748647599401,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 5.524591153309497,
+      "norm_ratio_to_existing": 1.644420083856739,
+      "preupdate_projection_distance": 0.1151029482602732,
+      "update": 46
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.165817077473331,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 0.8954411108400868,
+      "norm_ratio_to_existing": 10.236091426352008,
+      "preupdate_projection_distance": 0.11613007797528037,
+      "update": 47
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.241733083897525,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 8.235896173153298,
+      "norm_ratio_to_existing": 1.1221284107518223,
+      "preupdate_projection_distance": 0.11709192694860113,
+      "update": 48
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.323853019177715,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 4.838969729003079,
+      "norm_ratio_to_existing": 1.9268260686347811,
+      "preupdate_projection_distance": 0.11813237914253061,
+      "update": 49
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.404034113509242,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 14.993360476318808,
+      "norm_ratio_to_existing": 0.6272132340419881,
+      "preupdate_projection_distance": 0.1191482663960247,
+      "update": 50
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.474864010916683,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 2.740135156346605,
+      "norm_ratio_to_existing": 3.4578090022206878,
+      "preupdate_projection_distance": 0.12004567482556043,
+      "update": 51
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.542561633624647,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 7.4877578998811645,
+      "norm_ratio_to_existing": 1.2744217643276226,
+      "preupdate_projection_distance": 0.12090339761637835,
+      "update": 52
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.615912172623291,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 1.4381130268435474,
+      "norm_ratio_to_existing": 6.686478735074701,
+      "preupdate_projection_distance": 0.12183274234816188,
+      "update": 53
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.684456101031321,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 41.92123943276556,
+      "norm_ratio_to_existing": 0.23101550030655746,
+      "preupdate_projection_distance": 0.1227011877560808,
+      "update": 54
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.734940580214053,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 5.14310993063924,
+      "norm_ratio_to_existing": 1.8928120750870459,
+      "preupdate_projection_distance": 0.12334082156662683,
+      "update": 55
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.791232791794592,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 7.8977867438443985,
+      "norm_ratio_to_existing": 1.2397438813381434,
+      "preupdate_projection_distance": 0.12405403882429121,
+      "update": 56
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.867368766526997,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 8.484279714019861,
+      "norm_ratio_to_existing": 1.1630178517360348,
+      "preupdate_projection_distance": 0.12501867477629253,
+      "update": 57
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 9.96382940694663,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 7.008941448765617,
+      "norm_ratio_to_existing": 1.421588335382858,
+      "preupdate_projection_distance": 0.12624082241450016,
+      "update": 58
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.073815704684028,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 0.22471446700573677,
+      "norm_ratio_to_existing": 44.82940434995159,
+      "preupdate_projection_distance": 0.12763433891439277,
+      "update": 59
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.175285315676511,
+      "epoch": 4,
+      "existing_projection_preclip_norm": 0.049319838545524554,
+      "norm_ratio_to_existing": 206.3122186883122,
+      "preupdate_projection_distance": 0.1289199497592392,
+      "update": 60
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.26828077274765,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 6.789034649330028,
+      "norm_ratio_to_existing": 1.5124802424982422,
+      "preupdate_projection_distance": 0.13009819383608862,
+      "update": 61
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.356464545265828,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 0.6867029215552399,
+      "norm_ratio_to_existing": 15.08143364500413,
+      "preupdate_projection_distance": 0.13121547430242686,
+      "update": 62
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.43751031575014,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 3.117414785757437,
+      "norm_ratio_to_existing": 3.348130111987694,
+      "preupdate_projection_distance": 0.13224231692500563,
+      "update": 63
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.515620043466802,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 1.2172444594283753,
+      "norm_ratio_to_existing": 8.63887279339517,
+      "preupdate_projection_distance": 0.13323196014979322,
+      "update": 64
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.588477759298524,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 2.384142978596293,
+      "norm_ratio_to_existing": 4.4412092120132325,
+      "preupdate_projection_distance": 0.13415506085637757,
+      "update": 65
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.655952552320466,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 6.412831578047668,
+      "norm_ratio_to_existing": 1.6616610654173114,
+      "preupdate_projection_distance": 0.13500996041511545,
+      "update": 66
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.733628209053432,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 0.8656019641853463,
+      "norm_ratio_to_existing": 12.400189293880926,
+      "preupdate_projection_distance": 0.13599410399958103,
+      "update": 67
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.805359233402664,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 9.717811635382514,
+      "norm_ratio_to_existing": 1.1119128090588206,
+      "preupdate_projection_distance": 0.13690292962641967,
+      "update": 68
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.893069367461843,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 4.5090296986261365,
+      "norm_ratio_to_existing": 2.415834468950353,
+      "preupdate_projection_distance": 0.13801420913608262,
+      "update": 69
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 10.980659529462093,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 8.702641704325455,
+      "norm_ratio_to_existing": 1.2617616469266337,
+      "preupdate_projection_distance": 0.13912396861054951,
+      "update": 70
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 11.066186012187718,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 7.25281343907581,
+      "norm_ratio_to_existing": 1.525778390019891,
+      "preupdate_projection_distance": 0.14020758145421933,
+      "update": 71
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 11.161663127247392,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 0.35733090959563213,
+      "norm_ratio_to_existing": 31.236209428057347,
+      "preupdate_projection_distance": 0.141417267914577,
+      "update": 72
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 11.249147835020551,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 3.8358009862142914,
+      "norm_ratio_to_existing": 2.9326724393287136,
+      "preupdate_projection_distance": 0.14252569129347148,
+      "update": 73
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 11.346615852808762,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 37.800040639124376,
+      "norm_ratio_to_existing": 0.3001746998405238,
+      "preupdate_projection_distance": 0.143760602312333,
+      "update": 74
+    },
+    {
+      "counterfactual_regularizer_gradient_norm": 11.431848114954,
+      "epoch": 5,
+      "existing_projection_preclip_norm": 6.687286876710222,
+      "norm_ratio_to_existing": 1.709489711704703,
+      "preupdate_projection_distance": 0.14484048740771227,
+      "update": 75
+    }
+  ],
+  "rationale": "At the observed C11 endpoint, preservation costs the classification improvement on the same fixed training-photo probes. Unit ratio1 is an explicit diagnostic energy-balance design choice, not validation-selected or a claim of optimality.",
+  "source_photos": 24,
+  "source_role": "optimization_training_only",
+  "training_probe_classification_reduction": 0.8396887483550017,
+  "unweighted_endpoint_penalty": 0.010638780917970556,
+  "weighted_endpoint_penalty": 0.8396887483550016
+}

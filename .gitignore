@@ -135,6 +135,12 @@
 !/reports/phase10c11-v1/*.csv
 !/reports/phase10c11-v1/*.svg
 !/reports/phase10c11-v1/SHA256SUMS
+!/reports/phase10c12-v1/
+/reports/phase10c12-v1/*
+!/reports/phase10c12-v1/*.md
+!/reports/phase10c12-v1/*.json
+!/reports/phase10c12-v1/*.svg
+!/reports/phase10c12-v1/SHA256SUMS
 
 # Private machine configuration and credentials.
 /.aws/
