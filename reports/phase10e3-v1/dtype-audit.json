@@ -1,0 +1,1259 @@
+{
+  "BF16": "Not requested by historical CUDA code; only synthetic CPU BF16 tests. No CUDA BF16 trial.",
+  "CPU_synthetic_events": [
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "location": "head.dense0:forward",
+      "sequence": 1,
+      "tensors": [
+        {
+          "L2": 2.8964242414481727,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.92626953125,
+          "maximum_absolute": 2.12890625,
+          "minimum": -2.12890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "location": "head.logit_shift:forward",
+      "sequence": 2,
+      "tensors": [
+        {
+          "L2": 0.9141005407267103,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 4,
+          "finite": true,
+          "maximum": 0.376708984375,
+          "maximum_absolute": 0.759765625,
+          "minimum": -0.759765625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "location": "head.elu:forward",
+      "sequence": 3,
+      "tensors": [
+        {
+          "L2": 0.9449111942800966,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 4,
+          "finite": true,
+          "maximum": -0.044464111328125,
+          "maximum_absolute": 0.65771484375,
+          "minimum": -0.65771484375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "autocast_dtype": "torch.float16",
+      "autocast_enabled": true,
+      "bit_identical_reconstruction": true,
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "location": "head.forward-verified",
+      "sequence": 4,
+      "tensors": [
+        {
+          "L2": 4.917530447187366,
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "elements": 24,
+          "finite": true,
+          "maximum": 1.968194603919983,
+          "maximum_absolute": 2.0779640674591064,
+          "minimum": -2.0779640674591064,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            6
+          ]
+        },
+        {
+          "L2": 2.8964242414481727,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.92626953125,
+          "maximum_absolute": 2.12890625,
+          "minimum": -2.12890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "L2": 2.8969171448967908,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 4,
+          "finite": true,
+          "maximum": 2.51171875,
+          "maximum_absolute": 2.51171875,
+          "minimum": 0.6181640625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "L2": 2.000162641424018,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.88330078125,
+          "maximum_absolute": 0.88330078125,
+          "minimum": -0.84765625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "L2": 2.6457495291415487,
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "elements": 35,
+          "finite": true,
+          "maximum": 0.9642787575721741,
+          "maximum_absolute": 0.9642787575721741,
+          "minimum": -0.8040294051170349,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            7,
+            5
+          ]
+        },
+        {
+          "L2": 2.6458140267210353,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 35,
+          "finite": true,
+          "maximum": 0.96435546875,
+          "maximum_absolute": 0.96435546875,
+          "minimum": -0.80419921875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            7,
+            5
+          ]
+        },
+        {
+          "L2": 2.5129781625720593,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.71142578125,
+          "maximum_absolute": 0.84423828125,
+          "minimum": -0.84423828125,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "L2": 1.2582861914656691,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 4,
+          "finite": true,
+          "maximum": 0.95556640625,
+          "maximum_absolute": 0.95556640625,
+          "minimum": 0.34228515625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "L2": 2.3898444597223762,
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.51806640625,
+          "maximum_absolute": 1.2880859375,
+          "minimum": -1.2880859375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:01:ToCopyBackward0",
+      "output_slots": 1,
+      "sequence": 5,
+      "tensors": [
+        {
+          "L2": 0.17070318236125034,
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0370047464966774,
+          "maximum_absolute": 0.0920061394572258,
+          "minimum": -0.0920061394572258,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "L2": 0.17067842879112785,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.037017822265625,
+          "maximum_absolute": 0.09197998046875,
+          "minimum": -0.09197998046875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 2,
+      "location": "node:02:WhereBackward0",
+      "output_slots": 1,
+      "sequence": 6,
+      "tensors": [
+        {
+          "L2": 0.17067842879112785,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.037017822265625,
+          "maximum_absolute": 0.09197998046875,
+          "minimum": -0.09197998046875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "present": false
+        },
+        {
+          "L2": 0.17067842879112785,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.037017822265625,
+          "maximum_absolute": 0.09197998046875,
+          "minimum": -0.09197998046875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 2,
+      "location": "node:03:MulBackward0",
+      "output_slots": 1,
+      "sequence": 7,
+      "tensors": [
+        {
+          "L2": 0.17067842879112785,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.037017822265625,
+          "maximum_absolute": 0.09197998046875,
+          "minimum": -0.09197998046875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "present": false
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 2,
+      "location": "node:04:AddBackward0",
+      "output_slots": 1,
+      "sequence": 8,
+      "tensors": [
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "present": false
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:05:ViewBackward0",
+      "output_slots": 1,
+      "sequence": 9,
+      "tensors": [
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:06:PermuteBackward0",
+      "output_slots": 1,
+      "sequence": 10,
+      "tensors": [
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7,
+            1
+          ]
+        },
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            4,
+            1,
+            1,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:07:ViewBackward0",
+      "output_slots": 1,
+      "sequence": 11,
+      "tensors": [
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            4,
+            1,
+            1,
+            7
+          ]
+        },
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 2,
+      "location": "node:08:BmmBackward0",
+      "output_slots": 1,
+      "sequence": 12,
+      "tensors": [
+        {
+          "L2": 0.1503906404191708,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 28,
+          "finite": true,
+          "maximum": 0.0176239013671875,
+          "maximum_absolute": 0.087890625,
+          "minimum": -0.087890625,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "present": false
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:09:ViewBackward0",
+      "output_slots": 1,
+      "sequence": 13,
+      "tensors": [
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            4,
+            5,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:10:PermuteBackward0",
+      "output_slots": 1,
+      "sequence": 14,
+      "tensors": [
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            4,
+            5,
+            1,
+            1
+          ]
+        },
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:11:PermuteBackward0",
+      "output_slots": 1,
+      "sequence": 15,
+      "tensors": [
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1,
+            5
+          ]
+        },
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:12:UnsqueezeBackward0",
+      "output_slots": 1,
+      "sequence": 16,
+      "tensors": [
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5,
+            1
+          ]
+        },
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 2,
+      "location": "node:13:DivBackward0",
+      "output_slots": 1,
+      "sequence": 17,
+      "tensors": [
+        {
+          "L2": 0.15785707473173086,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04693603515625,
+          "maximum_absolute": 0.11419677734375,
+          "minimum": -0.11419677734375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "L2": 0.14755311964143897,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.04473876953125,
+          "maximum_absolute": 0.10888671875,
+          "minimum": -0.10888671875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "L2": 0.08378854720653572,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 4,
+          "finite": true,
+          "maximum": -0.006397247314453125,
+          "maximum_absolute": 0.07318115234375,
+          "minimum": -0.07318115234375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 2,
+      "location": "node:15:AddBackward0",
+      "output_slots": 1,
+      "sequence": 18,
+      "tensors": [
+        {
+          "L2": 0.08378854720653572,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 4,
+          "finite": true,
+          "maximum": -0.006397247314453125,
+          "maximum_absolute": 0.07318115234375,
+          "minimum": -0.07318115234375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "L2": 0.08378854720653572,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 4,
+          "finite": true,
+          "maximum": -0.006397247314453125,
+          "maximum_absolute": 0.07318115234375,
+          "minimum": -0.07318115234375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "present": false
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:17:LinalgVectorNormBackward0",
+      "output_slots": 1,
+      "sequence": 19,
+      "tensors": [
+        {
+          "L2": 0.08378854720653572,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 4,
+          "finite": true,
+          "maximum": -0.006397247314453125,
+          "maximum_absolute": 0.07318115234375,
+          "minimum": -0.07318115234375,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "L2": 0.08382176064427356,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.029296875,
+          "maximum_absolute": 0.06463623046875,
+          "minimum": -0.06463623046875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "location": "head.dense0:backward",
+      "sequence": 20,
+      "tensors": [
+        {
+          "L2": 0.12148704226899014,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.0164794921875,
+          "maximum_absolute": 0.098388671875,
+          "minimum": -0.098388671875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:14:ViewBackward0",
+      "output_slots": 1,
+      "sequence": 21,
+      "tensors": [
+        {
+          "L2": 0.12148704226899014,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.0164794921875,
+          "maximum_absolute": 0.098388671875,
+          "minimum": -0.098388671875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "L2": 0.12148704226899014,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.0164794921875,
+          "maximum_absolute": 0.098388671875,
+          "minimum": -0.098388671875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 3,
+      "location": "node:16:AddmmBackward0",
+      "output_slots": 1,
+      "sequence": 22,
+      "tensors": [
+        {
+          "L2": 0.12148704226899014,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 20,
+          "finite": true,
+          "maximum": 0.0164794921875,
+          "maximum_absolute": 0.098388671875,
+          "minimum": -0.098388671875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            4,
+            5
+          ]
+        },
+        {
+          "L2": 0.11599965891015651,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 5,
+          "finite": true,
+          "maximum": 0.003170013427734375,
+          "maximum_absolute": 0.1016845703125,
+          "minimum": -0.1016845703125,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            5
+          ]
+        },
+        {
+          "present": false
+        },
+        {
+          "L2": 0.33613055281940907,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 30,
+          "finite": true,
+          "maximum": 0.2135009765625,
+          "maximum_absolute": 0.2135009765625,
+          "minimum": -0.1180419921875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            6,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:19:TBackward0",
+      "output_slots": 1,
+      "sequence": 23,
+      "tensors": [
+        {
+          "L2": 0.33613055281940907,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 30,
+          "finite": true,
+          "maximum": 0.2135009765625,
+          "maximum_absolute": 0.2135009765625,
+          "minimum": -0.1180419921875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            6,
+            5
+          ]
+        },
+        {
+          "L2": 0.33613055281940907,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 30,
+          "finite": true,
+          "maximum": 0.2135009765625,
+          "maximum_absolute": 0.2135009765625,
+          "minimum": -0.1180419921875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:21:ToCopyBackward0",
+      "output_slots": 1,
+      "sequence": 24,
+      "tensors": [
+        {
+          "L2": 0.33613055281940907,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 30,
+          "finite": true,
+          "maximum": 0.2135009765625,
+          "maximum_absolute": 0.2135009765625,
+          "minimum": -0.1180419921875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            5,
+            6
+          ]
+        },
+        {
+          "L2": 0.33613055281940907,
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "elements": 30,
+          "finite": true,
+          "maximum": 0.2135009765625,
+          "maximum_absolute": 0.2135009765625,
+          "minimum": -0.1180419921875,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "context": {},
+      "earliest_observed_nonfinite": null,
+      "input_slots": 1,
+      "location": "node:18:ToCopyBackward0",
+      "output_slots": 1,
+      "sequence": 25,
+      "tensors": [
+        {
+          "L2": 0.11599965891015651,
+          "device": "cpu",
+          "dtype": "torch.float16",
+          "elements": 5,
+          "finite": true,
+          "maximum": 0.003170013427734375,
+          "maximum_absolute": 0.1016845703125,
+          "minimum": -0.1016845703125,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            5
+          ]
+        },
+        {
+          "L2": 0.11599965891015651,
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "elements": 5,
+          "finite": true,
+          "maximum": 0.003170013427734375,
+          "maximum_absolute": 0.1016845703125,
+          "minimum": -0.1016845703125,
+          "nonfinite": 0,
+          "present": true,
+          "shape": [
+            5
+          ]
+        }
+      ]
+    }
+  ],
+  "CUDA_execution": false,
+  "CUDA_intermediate_dtypes": "Policy expectations only. No saved E2 activations; fresh CUDA telemetry required.",
+  "dispatch": {
+    "einsum": [
+      "AutocastCPU: fallthrough registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:333 [backend fallback]",
+      "AutocastMTIA: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:478 [kernel]",
+      "AutocastMAIA: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:516 [kernel]",
+      "AutocastXPU: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:554 [kernel]",
+      "AutocastMPS: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:228 [kernel]",
+      "AutocastCUDA: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:181 [kernel]"
+    ],
+    "elu": [
+      "AutocastCPU: fallthrough registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:333 [backend fallback]",
+      "AutocastMTIA: fallthrough registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:474 [backend fallback]",
+      "AutocastMAIA: fallthrough registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:512 [backend fallback]",
+      "AutocastXPU: fallthrough registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:550 [backend fallback]",
+      "AutocastMPS: fallthrough registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:224 [backend fallback]",
+      "AutocastCUDA: fallthrough registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:177 [backend fallback]"
+    ],
+    "linalg_vector_norm": [
+      "AutocastCPU: fallthrough registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:333 [backend fallback]",
+      "AutocastMTIA: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:478 [kernel]",
+      "AutocastMAIA: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:516 [kernel]",
+      "AutocastXPU: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:554 [kernel]",
+      "AutocastMPS: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:228 [kernel]",
+      "AutocastCUDA: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:181 [kernel]"
+    ],
+    "linear": [
+      "AutocastCPU: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:338 [kernel]",
+      "AutocastMTIA: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:478 [kernel]",
+      "AutocastMAIA: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:516 [kernel]",
+      "AutocastXPU: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:554 [kernel]",
+      "AutocastMPS: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:228 [kernel]",
+      "AutocastCUDA: registered at /__w/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:181 [kernel]"
+    ]
+  },
+  "legacy_backward": "FP32 mean/square/subtract -> FP32 final logits -> low-precision final multiplication/add -> low-precision einsum adjoint -> normalized projection/cast/norm backward -> low-precision dense0 adjoint -> FP32 master weight gradient. Norm/division can be FP32 but casting back into FP16 nodes remains hazardous.",
+  "limitation": "A deliberately widened adjoint, not bit-equivalent to rounded FP16 backward. Same MSE value/masks/normalization; not installed into training or production. No exact historical overflowing instruction identified.",
+  "repair": "FP32 observed-node adjoint; exact original forward logits/rounded nodes, frozen calibration and shared features, FP32 chain rule/parameter contractions, scale1. No half gradient casts.",
+  "sources": {
+    ".venv/lib/python3.14/site-packages/torch/amp/grad_scaler.py": "97c411da028daaf6a6ed15d06b9b20c017404846db68203be1a586e276e44039",
+    ".venv/lib/python3.14/site-packages/torch/include/ATen/autocast_mode.h": "1a9fd16fe0c87d5b3d01c0f0c46c233e535285688c30150dfa203df79c4cbac4",
+    ".venv/lib/python3.14/site-packages/torch/include/torch/csrc/autograd/generated/Functions.h": "567bbb8492dcfb37233bc6e5d29c8de9c43dae692679e3e1222d89f81ecf2b9c",
+    ".venv/lib/python3.14/site-packages/transformers/models/owlv2/modeling_owlv2.py": "1997720a152f18cb753d4fee1942a9384a1f443f59c64764420b4da0a0a1f1e7",
+    "tools/phase10e1-v1/objectiveE.py": "aa2bd1012eda368ea3947f93bda7122611588a2f6681607d21064fa9375babb7",
+    "tools/phase10e1-v1/workerE.py": "ec9c18474b9cc067b6bf5f65cd419aab0d2ca3b400489f236dfc43312ac42970",
+    "tools/phase10e2-v1/measure2.py": "64cc96e36a8dc7571400e7e0da606dd05b98225dbb47d2707289af651384ba21"
+  },
+  "status": "CPU_SOURCE_AUDIT",
+  "torch": "2.14.1+cu132",
+  "transformers": "4.57.6",
+  "verified": [
+    "Teacher NPZ values stored FP32 after historical CUDA FP16 forward",
+    "E2 model FP32 master weights; torch.autocast(cuda,float16) around detector",
+    "Class head final torch.where output explicitly converted to FP32 when query_mask supplied",
+    "MSE computes (student.float-teacher.float)^2 then selected-term mean in FP32",
+    "E2 VJP manually multiplied loss by128; no GradScaler; divided returned gradients after finite test",
+    "E1 training (not run) separately uses GradScaler128; does not make E2 VJP overflow-safe",
+    "Linear/einsum are CUDA low-precision policy operations; linalg_vector_norm uses FP32 optional-dtype policy",
+    "Norm backward saves original input and norm result; all upstream casting nodes remain in legacy graph"
+  ]
+}

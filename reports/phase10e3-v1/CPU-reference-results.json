@@ -1,0 +1,80 @@
+{
+  "CUDA_validation": false,
+  "coefficient": null,
+  "comparisons": [
+    {
+      "finite": true,
+      "forward_precision": "torch.float32",
+      "maximum_absolute_error": 2.6269450387216876e-11,
+      "reference": "Independent FP64 autograd evaluated at observed rounded nodes",
+      "relative_L2_error": 8.797247930015138e-08,
+      "terminal_gradient_magnitude": 0.0001
+    },
+    {
+      "finite": true,
+      "forward_precision": "torch.float32",
+      "maximum_absolute_error": 2.7556948190010644e-07,
+      "reference": "Independent FP64 autograd evaluated at observed rounded nodes",
+      "relative_L2_error": 9.513938211849528e-08,
+      "terminal_gradient_magnitude": 1.0
+    },
+    {
+      "finite": true,
+      "forward_precision": "torch.float32",
+      "maximum_absolute_error": 0.03521130664739758,
+      "reference": "Independent FP64 autograd evaluated at observed rounded nodes",
+      "relative_L2_error": 9.894481901739419e-08,
+      "terminal_gradient_magnitude": 100000.0
+    },
+    {
+      "finite": true,
+      "forward_precision": "torch.float16",
+      "maximum_absolute_error": 3.4495536364431006e-11,
+      "reference": "Independent FP64 autograd evaluated at observed rounded nodes",
+      "relative_L2_error": 1.0945971770370601e-07,
+      "terminal_gradient_magnitude": 0.0001
+    },
+    {
+      "finite": true,
+      "forward_precision": "torch.float16",
+      "maximum_absolute_error": 2.547620758797109e-07,
+      "reference": "Independent FP64 autograd evaluated at observed rounded nodes",
+      "relative_L2_error": 9.391298050408357e-08,
+      "terminal_gradient_magnitude": 1.0
+    },
+    {
+      "finite": true,
+      "forward_precision": "torch.float16",
+      "maximum_absolute_error": 0.026054362788272556,
+      "reference": "Independent FP64 autograd evaluated at observed rounded nodes",
+      "relative_L2_error": 8.613892611594666e-08,
+      "terminal_gradient_magnitude": 100000.0
+    },
+    {
+      "finite": true,
+      "forward_precision": "torch.bfloat16",
+      "maximum_absolute_error": 4.2922896871999336e-11,
+      "reference": "Independent FP64 autograd evaluated at observed rounded nodes",
+      "relative_L2_error": 1.402326933161288e-07,
+      "terminal_gradient_magnitude": 0.0001
+    },
+    {
+      "finite": true,
+      "forward_precision": "torch.bfloat16",
+      "maximum_absolute_error": 2.402870613593677e-07,
+      "reference": "Independent FP64 autograd evaluated at observed rounded nodes",
+      "relative_L2_error": 9.29249385576654e-08,
+      "terminal_gradient_magnitude": 1.0
+    },
+    {
+      "finite": true,
+      "forward_precision": "torch.bfloat16",
+      "maximum_absolute_error": 0.027733579248888418,
+      "reference": "Independent FP64 autograd evaluated at observed rounded nodes",
+      "relative_L2_error": 1.0926190663524297e-07,
+      "terminal_gradient_magnitude": 100000.0
+    }
+  ],
+  "exact_E2_failure_reproduced": false,
+  "status": "PASS"
+}

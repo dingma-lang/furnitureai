@@ -1,0 +1,9 @@
+{
+  "CPU_tests": 96,
+  "GPU_forwards": 0,
+  "coefficient": null,
+  "status": "PASS",
+  "test_record": "reports/phase10e3-v1/tests-a0525ad5.json",
+  "test_record_sha256": "a83f8ebdff56f3aa079913a1aa41f9cd6748544af88e4d69e4be905555b0995a",
+  "training_authorized": false
+}

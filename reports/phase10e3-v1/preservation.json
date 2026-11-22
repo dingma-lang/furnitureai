@@ -1,0 +1,60 @@
+{
+  "C11_C13": {
+    "phase10c11-v1": {
+      "private": 626,
+      "public": 31
+    },
+    "phase10c13-v1": {
+      "private": 625,
+      "public": 26
+    }
+  },
+  "C17": {
+    "private_files": 528,
+    "public_files": 14
+  },
+  "C18": {
+    "private_files": 681,
+    "public_files": 15
+  },
+  "C19": {
+    "private_files": 37,
+    "public_files": 16
+  },
+  "C20": {
+    "private_files": 1128,
+    "public_files": 17
+  },
+  "C21_verified": true,
+  "C8_private_files": 1310,
+  "D_verified": true,
+  "E1_verified": true,
+  "E2_verified": true,
+  "GPU_model_forwards": 0,
+  "Mac_project_modified": false,
+  "annotation_overlays_activated": 0,
+  "datasets_or_models_downloaded": 0,
+  "eligible_image_hashes": 78,
+  "historical_data_model_files": 9973,
+  "historical_data_modified": false,
+  "historical_implementation_files": 27,
+  "main_commit": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "new_GPU_forwards": 0,
+  "new_optimizer_updates": 0,
+  "new_training": false,
+  "phase10b_report_artifacts": 24,
+  "phase10b_snapshots": 160,
+  "preserved_files": {
+    "data/open-images/experiments/phase10c10-calibration-frozen-v1/checkpoints/update-075-bf8be48ddf59.pt": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "data/open-images/preparation/phase10e1-v1/input-binding-v2.json": "df564237f1bf33bd055edd99d54451d8dd21c4ea579a6fc4616f2ca0c90bd287",
+    "data/open-images/preparation/phase10e1-v1/teacher-index.json": "a4f54db76602cac753b119a5c1f7425a26e8692b3d379b6bab9800bf302e6497",
+    "data/open-images/preparation/phase10e1-v1/training-context.json": "0b04b67086e2256c89806cc0ce86f86517a3f8fd8fc30fbfba770569d353f9ed",
+    "models/owlv2-original-baseline-20261103/model.safetensors": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "reports/phase10e2-v1/SHA256SUMS": "dbd3d2b40e79574e1514e4b737c4ed7e4bdab6d06891ed748252ffc887fd47bd",
+    "tools/phase10e1-v1/objectiveE.py": "aa2bd1012eda368ea3947f93bda7122611588a2f6681607d21064fa9375babb7"
+  },
+  "reserved_or_frozen_images_decoded": 0,
+  "source_group_isolation": true,
+  "status": "PASS",
+  "training_updates": 0
+}

@@ -1,0 +1,23 @@
+{
+  "C11_head_tensor_dtypes": {
+    "box_head.dense0.bias": "torch.float32",
+    "box_head.dense0.weight": "torch.float32",
+    "box_head.dense1.bias": "torch.float32",
+    "box_head.dense1.weight": "torch.float32",
+    "box_head.dense2.bias": "torch.float32",
+    "box_head.dense2.weight": "torch.float32",
+    "class_head.dense0.bias": "torch.float32",
+    "class_head.dense0.weight": "torch.float32",
+    "class_head.logit_scale.bias": "torch.float32",
+    "class_head.logit_scale.weight": "torch.float32",
+    "class_head.logit_shift.bias": "torch.float32",
+    "class_head.logit_shift.weight": "torch.float32"
+  },
+  "CUDA_calls": 0,
+  "checkpoint_updates": 0,
+  "device": "cpu",
+  "method": "Read original safetensors slice headers and C11 weights_only CPU payload; no model construction/inference",
+  "original_persisted_tensors": {
+    "F32": 418
+  }
+}

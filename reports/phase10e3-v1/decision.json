@@ -1,0 +1,25 @@
+{
+  "CPU_tests": 96,
+  "FP64_comparisons": 9,
+  "GPU_execution_authorized": false,
+  "actual_CUDA_nonzero_KD_gradient_measured": false,
+  "coefficient": null,
+  "distillation_terms": 278,
+  "final_test_record": "reports/phase10e3-v1/tests-f51b160b.json",
+  "historical_files": 9973,
+  "independent_verified_seven_class_accuracy_established": false,
+  "maximum_relative_L2_error": 1.402326933161288e-07,
+  "new_GPU_forwards": 0,
+  "new_model_updates": 0,
+  "performance_improvement_claimed": false,
+  "recovery_proposal": "reports/phase10e3-v1/recovery-disabled.json",
+  "remaining_blockers": [
+    "Actual finite CUDA adapted-student positive/KD norms, directions and source-group concentration",
+    "One defensible fixed coefficient explicitly selected using training-only evidence",
+    "Pin/test training precision integration: a widened diagnostic does not certify legacy FP16 training",
+    "Separate explicit authorization for any recovery and later75-update training"
+  ],
+  "source_groups_with_terms": 15,
+  "status": "CPU_REPAIR_VALIDATED_GPU_RECOVERY_DISABLED",
+  "training_authorized": false
+}

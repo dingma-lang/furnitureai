@@ -1,0 +1,33 @@
+{
+  "GPU_model_forwards": 0,
+  "model_weight_updates": 0,
+  "note": "Scope regression tests use isolated synthetic optimizer fixtures, never real checkpoint updates.",
+  "passed": 96,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "data/open-images/preparation/phase10e3-v1/tests-E3-d79a701d.log",
+      "passed": 38,
+      "sha256": "eaa869c6d992fa47ba2fd860f1d9072735504e1c07d9427e890f2d64b1299cbe",
+      "suite": "E3"
+    },
+    {
+      "log": "data/open-images/preparation/phase10e3-v1/tests-E1-mask-cache-71b173ca.log",
+      "passed": 20,
+      "sha256": "e58f969c606595b3fb4d34268f4f1b1e7650c5304ebf9e9ff6aedac33644711b",
+      "suite": "E1-mask-cache"
+    },
+    {
+      "log": "data/open-images/preparation/phase10e3-v1/tests-C11-scope-cd3141e0.log",
+      "passed": 21,
+      "sha256": "3aed371cbc99410199de71621bae417da6d1405c03300d0688842a42f49b1327",
+      "suite": "C11-scope"
+    },
+    {
+      "log": "data/open-images/preparation/phase10e3-v1/tests-E2-legacy-cfe1f8fe.log",
+      "passed": 17,
+      "sha256": "dfcb95e8c87adf38e58647dea2ccd1519c4b3e8416837d4033c3dcd3128a76c7",
+      "suite": "E2-legacy"
+    }
+  ]
+}
