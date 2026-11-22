@@ -1,0 +1,54 @@
+{
+  "approved": false,
+  "candidate_manifest": "data/open-images/preparation/phase10c21-v1/additional-rights-candidates-v1.json",
+  "candidate_manifest_sha256": "467c49fd7b7fafd8a5674b1524c6f1d7a19e3345c44dd69b648a6c4f5794222b",
+  "conditional_later_photo_scope": {
+    "exact_HEAD_budget_and_rights_approval_required_first": true,
+    "licensing_status": "NOT_PHOTO_ACQUISITION_READY",
+    "max_images": 64,
+    "max_new_storage_bytes": 536870912,
+    "per_image_max": 3145728,
+    "projected_transfer_range_bytes": [
+      9600000,
+      25600000
+    ],
+    "proposed_cumulative_body_cap": 100000000
+  },
+  "count": 64,
+  "exclusions": {
+    "existing_source_or_dataset": 92,
+    "no_relevant_indoor_furniture_metadata": 56,
+    "not_metadata_CC_BY_or_source_eligible": 22118,
+    "previously_attempted_or_paused_rights_ID": 575
+  },
+  "individually_verified_current_rights_count": 0,
+  "max_evidence_attempts_per_ID": 1,
+  "max_rights_allocated_bytes": 134217728,
+  "max_rights_response_body_bytes": 32000000,
+  "metadata_licence_as_recorded": "COCOlicense4Attribution(CCBY2.0);notproof of individual photo rights",
+  "min_request_interval_seconds": 3,
+  "missing_training_evidence": [
+    "Moreprotected-overlap-freevisiblepeople/bodyparts,plants,architectureandfurniture-partChairconfusers",
+    "TrustworthyChair+seating-stoolnegativecoverageatrealscore>=0.5;currentnew5regionsallbelow0.5",
+    "Exactsourceinstanceorcompletecategoryevidence;do notuseunmatchedpredictionsaslabels"
+  ],
+  "no_source_substitution": true,
+  "photo_bodies_authorized": false,
+  "preferred_local_remedy": {
+    "action": "Audit/qualifytheirsource-supportedobjectsandmappingbeforeanynewdownloads;no automatictrainingpartitionactivation",
+    "already_local_inactive_photos": 42,
+    "new_downloads_needed": 0
+  },
+  "previous_rate_limited_and_attempted_IDs_not_resumed": true,
+  "rights_required": [
+    "Exactphotoidentity",
+    "Creator/source URL",
+    "Photo-specificcommercial-compatiblelicense/version",
+    "Attribution andevidencehash/timestamp",
+    "Creator/source-groupisolation",
+    "CurrentobjectHEADsizeandrightsavailability"
+  ],
+  "scope": "StageA rights-evidence-only audit for exact64newCOCOsourceIDs;notphotoacquisitionapproval",
+  "source": "OfficialCOCOmetadata-resolvedoriginalFlickrpages;certificateverifiedHTTPSrequired",
+  "stop_on_429_respect_RetryAfter": true
+}

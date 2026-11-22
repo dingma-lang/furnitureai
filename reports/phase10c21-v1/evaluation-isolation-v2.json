@@ -1,0 +1,9 @@
+{
+  "ABO_holdout_scored": false,
+  "frozen_images_decoded": 0,
+  "protected_groups": 940,
+  "protected_ids": 691,
+  "protected_photo_hashes": 2605,
+  "registry": "data/open-images/preparation/phase10c21-v1/historical-source-registry-v2.json",
+  "registry_sha256": "b7c5a237c224c71292c7774453523e73e24dd953f37c9cef665af90cde72b07a"
+}

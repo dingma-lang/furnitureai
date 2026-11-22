@@ -1,0 +1,150 @@
+{
+  "C20_or_adapted_head_initialization": false,
+  "GPU_authorized": false,
+  "Phase10D_authorized": false,
+  "approval": "Separatelyauthorize exactlyoneoriginal-initializedbox-onlysmoke+75updatearmundertheseceilings;notPhase10DactivationorC20continuation",
+  "approved": false,
+  "backbone_frozen": true,
+  "batch_size": 1,
+  "calibration_frozen_at_original_values": true,
+  "comparisons": {
+    "baseline": "ImmutableoriginalOWLv2",
+    "historical19_scope": "Onepost-endpointdescriptivecomparison,not tuning orindependentacceptance",
+    "primary_metrics": [
+      "Precisionat0.15",
+      "recallat0.15",
+      "AP50/AP75",
+      "PRenvelopeprecisionatpredeclaredoriginalrecall",
+      "TP/FP/FN",
+      "sameGTlocalization",
+      "duplicates/fragmentation",
+      "Sofa/Chair/Bedregressions",
+      "latency/VRAM"
+    ],
+    "reserved_and_independent_scoring": false
+  },
+  "destination": "data/open-images/experiments/phase10c21-box-only-v1/",
+  "enabled": false,
+  "endpoint": "Fixed75updates;no early bestepoch selection orhyperparam/thresholdoptimization",
+  "estimate_only": {
+    "expected_GPU_seconds": [
+      120,
+      400
+    ],
+    "expected_peak_allocated_GiB": [
+      2,
+      4
+    ]
+  },
+  "failure_conditions": [
+    "Anyfrozenweight/buffer or originalper-querylogitdriftinmatchedFP32checks",
+    "Unexpectedclass/backbone/objectnessgradient oroptimizerslot",
+    "Nonfinitevalues,invalidframe/matching/mask",
+    "75update/time/VRAM/storage/forwardbudgetexhaustion",
+    "Invalidcheckpointorhistoricalpreservation",
+    "Primaryfixedrecall/precisionorcategorygatesfail;reportfailure,noadaptiveextension"
+  ],
+  "frozen_keys": [
+    "class_head.dense0.bias",
+    "class_head.dense0.weight",
+    "class_head.logit_scale.bias",
+    "class_head.logit_scale.weight",
+    "class_head.logit_shift.bias",
+    "class_head.logit_shift.weight",
+    "owlv2.*",
+    "class_head.*",
+    "objectness_head.*",
+    "layer_norm.*",
+    "all_non_box_parameters_and_buffers"
+  ],
+  "gradient_accumulation": 4,
+  "gradient_clip_norm": 1,
+  "implementation": {
+    "checkpoint_schema": "sixboxdelta+originalbasehash+frozenhash;do notloadas12headadaptedcheckpoint",
+    "new_executor_required_before_authorized_GPU": true,
+    "old_Phase10B_C20_workers_incompatible": true,
+    "old_Phase10D_code_reviewed_only": true,
+    "scope_adapter": "tools/phase10c21-v1/box21.py",
+    "unchanged_loss_source": "tools/phase10c-v1/box_only.py"
+  },
+  "last_group_size": 3,
+  "learning_rate": 1e-05,
+  "limits": {
+    "final_internal_diagnostic_forwards": 19,
+    "frozen_logit_after_training_checks": 4,
+    "max_GPU_seconds_including_smoke_and_diagnostics": 600,
+    "max_VRAM_bytes": 6979321856,
+    "max_epochs": 5,
+    "max_forwards": 322,
+    "max_new_allocated_bytes": 2147483648,
+    "max_optimizer_updates": 75,
+    "training_forwards": 295,
+    "zero_update_smoke_before_training": 4
+  },
+  "loss": {
+    "GIoU": 2,
+    "L1": 5,
+    "classification": 0,
+    "matching": "SameoriginalHungarianclass-score/L1/GIoUcost,classificationlogitsdetached",
+    "negative_classification": 0,
+    "objectness": 0,
+    "only_retained_native_positives": true,
+    "unknowns_and_ignored_not_negatives": true
+  },
+  "one_arm": true,
+  "optimizer": {
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "name": "AdamW",
+    "weight_decay": 0.01
+  },
+  "precision": "FP32;noAMPprecisionvariant",
+  "schema": "phase10c21-disabled-pretrained-classifier-box-only-v1",
+  "seed": 6106,
+  "starting_checkpoint": "models/owlv2-original-baseline-20261103",
+  "starting_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "success": {
+    "AP75_improvement_at_least": 0.02,
+    "classification_query_logits_unchanged": true,
+    "confidence": 0.15,
+    "independent_milestones_not_claimed": true,
+    "matched_recall_precision_improvement_at_least": 0.03,
+    "minimum_TP": {
+      "bed": 7,
+      "chair": 24,
+      "sofa": 11
+    },
+    "original_model_files_unchanged": true,
+    "per_category_AP75_drop_max": 0.02,
+    "precision_not_below_original": 0.6268656716417911,
+    "recall_not_below_original": 0.6885245901639344
+  },
+  "trainable_keys": [
+    "box_head.dense0.bias",
+    "box_head.dense0.weight",
+    "box_head.dense1.bias",
+    "box_head.dense1.weight",
+    "box_head.dense2.bias",
+    "box_head.dense2.weight"
+  ],
+  "trainable_parameters": 1184260,
+  "trainable_tensors": 6,
+  "training": {
+    "category_counts": {
+      "bed": 28,
+      "chair": 114,
+      "sofa": 40
+    },
+    "existing_masks_preserved": true,
+    "known_groups": 56,
+    "new_negative_manifest_used": false,
+    "new_positive_labels_activated": 0,
+    "photos": 59,
+    "positive_boxes": 182,
+    "rows_sha256": "f6e440afc30115654d9818234d2955c2ce37e08ef46a3f875ec66bd8e1304a91"
+  },
+  "training_authorized": false
+}

@@ -1,0 +1,27 @@
+{
+  "GPU_authorized": false,
+  "additional_original_cached_photos": 35,
+  "available_training_teacher_photos": 59,
+  "cache_precision": "FP16forward/FP32arrays;cannot certify FP32inference equality against these",
+  "coverage_expanded_by_existing_C17": true,
+  "distillation_is_behavior_consistency_not_groundtruth": true,
+  "fixed_patch_correspondence_requires": [
+    "Exact same image bytes,orientation,resize/padding,prompts andprecision",
+    "Frozen original vision/text/backbone;no augmentations/crops/flips",
+    "Original60x60query lattice;queryindex is patchidentity,not objectidentity",
+    "Exclude protected furniture,ignored/conflicting/native-positive regions from any consistency mask",
+    "Teacher disagreements remainunknown;teacher lowconfidence isnot Chair absence"
+  ],
+  "historical_C14_reported24": true,
+  "missing": [
+    "Cached pre-head embeddings andobjectness for59not certified by these logits-only records",
+    "An independently justified distillation mask/coefficient andtraining-time gradient-budget protocol",
+    "Evidence that preserving teacher mistakes ishelpful"
+  ],
+  "new_inference": 0,
+  "original24_bit_identical": 24,
+  "proposed_primary": false,
+  "teacher_FP32_evaluation_cache_for59": false,
+  "training_authorized": false,
+  "uncached_optimization_photos": 0
+}

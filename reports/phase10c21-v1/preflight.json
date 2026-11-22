@@ -1,0 +1,21 @@
+{
+  "C20_final_checkpoint": {
+    "bytes": 18982029,
+    "epoch": 4,
+    "file": "checkpoints/update-075-d1c79472.pt",
+    "sha256": "c582d188cad04989bf170a7f9cb3cafaaf37d90f7b15568c3c005ea7699b82e2",
+    "updates": 75
+  },
+  "C20_seal": {
+    "private_files": 1128,
+    "public_files": 17
+  },
+  "GPU_authorized": false,
+  "Phase10D_authorized": false,
+  "checkpoint28_sha256": "77081cb4ef7775a8f83c2b17475bf275847f9c0305f1984b66354a9880a2eefa",
+  "downloads": 0,
+  "original_OWLv2_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "status": "PASS",
+  "training_authorized": false,
+  "training_manifest_sha256": "f6e440afc30115654d9818234d2955c2ce37e08ef46a3f875ec66bd8e1304a91"
+}

@@ -1,0 +1,94 @@
+{
+  "by_context": {
+    "animals": {
+      "photos": 2,
+      "records": 3,
+      "source_groups": 2,
+      "trusted_new_negatives": 0
+    },
+    "architectural_or_fixed_details": {
+      "photos": 10,
+      "records": 10,
+      "source_groups": 10,
+      "trusted_new_negatives": 0
+    },
+    "clothing_bags": {
+      "photos": 11,
+      "records": 22,
+      "source_groups": 11,
+      "trusted_new_negatives": 0
+    },
+    "furniture_parts_or_coverings": {
+      "photos": 8,
+      "records": 34,
+      "source_groups": 8,
+      "trusted_new_negatives": 0
+    },
+    "kitchen_appliances": {
+      "photos": 4,
+      "records": 11,
+      "source_groups": 4,
+      "trusted_new_negatives": 0
+    },
+    "musical_instruments": {
+      "photos": 1,
+      "records": 1,
+      "source_groups": 1,
+      "trusted_new_negatives": 0
+    },
+    "other_native": {
+      "photos": 23,
+      "records": 81,
+      "source_groups": 23,
+      "trusted_new_negatives": 0
+    },
+    "people": {
+      "photos": 13,
+      "records": 67,
+      "source_groups": 13,
+      "trusted_new_negatives": 0
+    },
+    "plants_flowers": {
+      "photos": 11,
+      "records": 15,
+      "source_groups": 11,
+      "trusted_new_negatives": 0
+    },
+    "protected_furniture": {
+      "photos": 46,
+      "records": 231,
+      "source_groups": 44,
+      "trusted_new_negatives": 0
+    },
+    "screens": {
+      "photos": 15,
+      "records": 40,
+      "source_groups": 15,
+      "trusted_new_negatives": 0
+    },
+    "tableware_small_objects": {
+      "photos": 22,
+      "records": 128,
+      "source_groups": 22,
+      "trusted_new_negatives": 0
+    },
+    "wall_art": {
+      "photos": 1,
+      "records": 1,
+      "source_groups": 1,
+      "trusted_new_negatives": 0
+    },
+    "windows_doors": {
+      "photos": 6,
+      "records": 14,
+      "source_groups": 6,
+      "trusted_new_negatives": 0
+    }
+  },
+  "records": 658,
+  "records_are_proposed_context_not_confirmed_mistakes": true,
+  "tiers": {
+    "B": 373,
+    "C": 285
+  }
+}

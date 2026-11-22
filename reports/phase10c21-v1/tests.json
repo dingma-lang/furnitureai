@@ -1,0 +1,27 @@
+{
+  "GPU_calls": 0,
+  "passed": 61,
+  "real_model_forwards": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "data/open-images/preparation/phase10c21-v1/CPU-C21-preparation-9dcdc0cf.log",
+      "passed": 30,
+      "sha256": "f9f2ea72f35359d1bacd4d466e9f1e5da417cadff1a38f70b35a27948f360ed6",
+      "suite": "C21-preparation"
+    },
+    {
+      "log": "data/open-images/preparation/phase10c21-v1/CPU-original-box-adapter-8186b610.log",
+      "passed": 4,
+      "sha256": "22b3d046026fb7b86db2387a94e0b58324e5fb9a312401e4f1591a6e5acd94a2",
+      "suite": "original-box-adapter"
+    },
+    {
+      "log": "data/open-images/preparation/phase10c21-v1/CPU-source-negative-protections-7ca1a63c.log",
+      "passed": 27,
+      "sha256": "90b8302fe073170bab83e7ce338b32f4f2fe020ff3f25baa086a5e1a863a6241",
+      "suite": "source-negative-protections"
+    }
+  ],
+  "synthetic_CPU_fixture_checks_only": true
+}

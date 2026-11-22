@@ -1,0 +1,273 @@
+{
+  "active_native_contexts": {
+    "animals": {
+      "annotation_records": 8,
+      "native_labels": {
+        "cat": 1,
+        "dog": 3,
+        "squirrel": 4
+      },
+      "native_masks": 8,
+      "negative_absence_not_inferred": true,
+      "photos": 4,
+      "source_datasets": {
+        "COCO": 3,
+        "LVIS": 5
+      },
+      "source_groups": 4
+    },
+    "clothing_bags": {
+      "annotation_records": 84,
+      "native_labels": {
+        "Clothing": 2,
+        "Pillow": 9,
+        "Plastic bag": 1,
+        "backpack": 10,
+        "blanket": 7,
+        "handbag": 7,
+        "pillow": 45,
+        "shoe": 2,
+        "suitcase": 1
+      },
+      "native_masks": 72,
+      "negative_absence_not_inferred": true,
+      "photos": 29,
+      "source_datasets": {
+        "COCO": 14,
+        "LVIS": 58,
+        "OpenImages": 12
+      },
+      "source_groups": 29
+    },
+    "furniture_parts": {
+      "annotation_records": 11,
+      "native_labels": {
+        "Drawer": 4,
+        "doorknob": 4,
+        "drawer": 3
+      },
+      "native_masks": 7,
+      "negative_absence_not_inferred": true,
+      "photos": 5,
+      "source_datasets": {
+        "LVIS": 7,
+        "OpenImages": 4
+      },
+      "source_groups": 5
+    },
+    "kitchen_appliances": {
+      "annotation_records": 29,
+      "native_labels": {
+        "microwave": 4,
+        "microwave_oven": 3,
+        "oven": 7,
+        "refrigerator": 12,
+        "toaster": 3
+      },
+      "native_masks": 29,
+      "negative_absence_not_inferred": true,
+      "photos": 11,
+      "source_datasets": {
+        "COCO": 18,
+        "LVIS": 11
+      },
+      "source_groups": 11
+    },
+    "people": {
+      "annotation_records": 78,
+      "native_labels": {
+        "Man": 2,
+        "Person": 4,
+        "person": 72
+      },
+      "native_masks": 72,
+      "negative_absence_not_inferred": true,
+      "photos": 20,
+      "source_datasets": {
+        "COCO": 72,
+        "OpenImages": 6
+      },
+      "source_groups": 20
+    },
+    "people_parts": {
+      "annotation_records": 12,
+      "native_labels": {
+        "Human face": 3,
+        "Human hand": 2,
+        "Human head": 4,
+        "Human leg": 3
+      },
+      "native_masks": 0,
+      "negative_absence_not_inferred": true,
+      "photos": 3,
+      "source_datasets": {
+        "OpenImages": 12
+      },
+      "source_groups": 3
+    },
+    "plants_flowers": {
+      "annotation_records": 35,
+      "native_labels": {
+        "Christmas_tree": 2,
+        "Plant": 1,
+        "flower_arrangement": 8,
+        "potted plant": 24
+      },
+      "native_masks": 34,
+      "negative_absence_not_inferred": true,
+      "photos": 20,
+      "source_datasets": {
+        "COCO": 24,
+        "LVIS": 10,
+        "OpenImages": 1
+      },
+      "source_groups": 18
+    },
+    "protected_furniture": {
+      "annotation_records": 357,
+      "native_labels": {
+        "Bed": 13,
+        "Chair": 27,
+        "Couch": 2,
+        "Cupboard": 1,
+        "Desk": 5,
+        "Nightstand": 7,
+        "Shelf": 2,
+        "Stool": 1,
+        "Table": 9,
+        "armchair": 7,
+        "bed": 31,
+        "bench": 3,
+        "chair": 113,
+        "coffee_table": 14,
+        "couch": 38,
+        "desk": 4,
+        "dining table": 39,
+        "footstool": 1,
+        "lamp": 18,
+        "rocking_chair": 2,
+        "sofa": 18,
+        "stool": 1,
+        "table": 1
+      },
+      "native_masks": 290,
+      "negative_absence_not_inferred": true,
+      "photos": 59,
+      "source_datasets": {
+        "COCO": 185,
+        "LVIS": 105,
+        "OpenImages": 67
+      },
+      "source_groups": 56
+    },
+    "screens": {
+      "annotation_records": 61,
+      "native_labels": {
+        "computer_keyboard": 2,
+        "keyboard": 3,
+        "laptop": 17,
+        "laptop_computer": 11,
+        "monitor_(computer_equipment) computer_monitor": 1,
+        "television_set": 12,
+        "tv": 15
+      },
+      "native_masks": 61,
+      "negative_absence_not_inferred": true,
+      "photos": 22,
+      "source_datasets": {
+        "COCO": 35,
+        "LVIS": 26
+      },
+      "source_groups": 21
+    },
+    "tableware_small_objects": {
+      "annotation_records": 288,
+      "native_labels": {
+        "book": 51,
+        "bottle": 30,
+        "bowl": 15,
+        "cell phone": 9,
+        "clock": 7,
+        "cup": 64,
+        "flowerpot": 5,
+        "fork": 18,
+        "knife": 19,
+        "mug": 2,
+        "napkin": 8,
+        "remote": 8,
+        "remote_control": 6,
+        "spoon": 1,
+        "teacup": 2,
+        "telephone": 3,
+        "vase": 32,
+        "wine glass": 8
+      },
+      "native_masks": 288,
+      "negative_absence_not_inferred": true,
+      "photos": 38,
+      "source_datasets": {
+        "COCO": 218,
+        "LVIS": 70
+      },
+      "source_groups": 35
+    },
+    "wall_art": {
+      "annotation_records": 12,
+      "native_labels": {
+        "painting": 12
+      },
+      "native_masks": 12,
+      "negative_absence_not_inferred": true,
+      "photos": 3,
+      "source_datasets": {
+        "LVIS": 12
+      },
+      "source_groups": 3
+    },
+    "windows_doors": {
+      "annotation_records": 30,
+      "native_labels": {
+        "Curtain": 4,
+        "Window": 1,
+        "Window blind": 1,
+        "curtain": 24
+      },
+      "native_masks": 24,
+      "negative_absence_not_inferred": true,
+      "photos": 14,
+      "source_datasets": {
+        "LVIS": 24,
+        "OpenImages": 6
+      },
+      "source_groups": 14
+    }
+  },
+  "active_native_recognized_annotations": 1005,
+  "active_positive_boxes": 182,
+  "active_positive_category_counts": {
+    "bed": 28,
+    "chair": 114,
+    "sofa": 40
+  },
+  "active_training_groups": 56,
+  "active_training_photos": 59,
+  "all_local_inventory_photos": 101,
+  "all_local_recognized_native_records": 1582,
+  "cohorts": {
+    "inactive_training_only_not_assigned": 42,
+    "inner_development_excluded": 19,
+    "optimization": 59
+  },
+  "full7_complete_training_photos": 0,
+  "limitations": [
+    "Existing broad native inventory covers recognized auxiliary/furniture names;full source join is audited separately for omitted native labels.",
+    "COCO/LVIS duplicate annotation records are not independent objects or new photographs.",
+    "Object labels and bounding boxes do not prove Chair or seating-stool absence.",
+    "Rights evidence hashes verified locally;no claim of fresh online rights verification."
+  ],
+  "mining_inner_or_frozen": false,
+  "prospective_historical_train_photos": 120,
+  "source_annotations_modified": false,
+  "source_rows_unique": 120,
+  "unassigned42_not_promoted": true
+}

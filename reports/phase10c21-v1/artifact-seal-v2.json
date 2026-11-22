@@ -1,0 +1,32 @@
+{
+  "actual_unique_inode_allocated_bytes_before_public_seal": 11452416,
+  "code_sha256": {
+    "tools/phase10c21-v1/README.md": "4ecc524dcf6d6778a7b359aced79ebd85f86d8a3aa7cf75fab75dd5ca33d0216",
+    "tools/phase10c21-v1/acquisition21.py": "51e7a5f07556e288c4b5233252a698bcaa9c1736671290e9820f6e9b3d74b071",
+    "tools/phase10c21-v1/box21.py": "2aefc071f62cbd1b651cb081a4123d122e4722f9fa6c4db45564d51a9e22df15",
+    "tools/phase10c21-v1/common21.py": "51f879bbb66f22eea4008bc874991be26a4983f48c2332333f30907fe399eb1e",
+    "tools/phase10c21-v1/contexts21.py": "10af0d924a9789dd13e3eecae7e83b7df7c4596233e1c9ec572b1b7a09f916d9",
+    "tools/phase10c21-v1/evaluation21.py": "4944e6fbd5661ddd9ee0fc7cbef46c1960f3414d796077fa3ce6bbbeee036202",
+    "tools/phase10c21-v1/full_native21.py": "8c71d430af4f5708d83d18374d44024b9c03caa60335d8ceacf17987c1aa028e",
+    "tools/phase10c21-v1/native21.py": "09d5b196036aaa9a24695bf32ebceb03a0156402656165e0f6b862162d247ac4",
+    "tools/phase10c21-v1/negative21.py": "02e99b4f5ca476976e2fede8bb3f03b622fc3b4aa2163cd5cfeed3aaf0da2dcb",
+    "tools/phase10c21-v1/plates21.py": "080e0beb1255ba0d1563ee377e83690389524576859bc3c1f4b4017829114167",
+    "tools/phase10c21-v1/review21.py": "c98a2b5212b4d91360ff4a0246a0e9767c49ab4c023a204b52676153548ea800",
+    "tools/phase10c21-v1/strategy21.py": "6dbc4f4809254c9f7e57d9de1a4cdc1922220751f3698df3101dc23b6d0612df",
+    "tools/phase10c21-v1/teacher21.py": "76bd66feefaa083d05cd3c3797e6d040cc34628cb64d81fd1cce8488f4d2c161",
+    "tools/phase10c21-v1/test_preparation21.py": "508f95837999bc81780ba836af635ea4c402eda164bf91885dea2830350b5e34",
+    "tools/phase10c21-v1/verify21.py": "86b50bb4478645e485631a693cd424002b387d826c89548534a8ba9bd9bec76c"
+  },
+  "conservative_allocated_bytes_before_public_seal": 22810624,
+  "downloads": 0,
+  "local_bound_bytes": 134217728,
+  "main_unchanged": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "new_real_model_forwards": 0,
+  "optimizer_updates": 0,
+  "private_files": 44,
+  "private_images_or_weights_for_Git": false,
+  "private_manifest": "data/open-images/preparation/phase10c21-v1/artifact-sha256-v2.json",
+  "private_manifest_sha256": "503ec92ed06b71da9f1ae814690b048527e2529e12687436ea9f7752c0709df9",
+  "schema": "phase10c21-artifact-seal-v1",
+  "supersedes": "artifact-seal.json; initial report-relative seal snapshot retained unchanged"
+}

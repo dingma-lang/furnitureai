@@ -1,0 +1,77 @@
+{
+  "all_new_regions_pending_visual_or_semantic_evidence": true,
+  "cached_photograph_states": 155,
+  "context_groups": {
+    "animals": {
+      "annotation_records": 3,
+      "photos": 2,
+      "source_groups": 2
+    },
+    "clothing_bags": {
+      "annotation_records": 22,
+      "photos": 11,
+      "source_groups": 11
+    },
+    "furniture_parts": {
+      "annotation_records": 1,
+      "photos": 1,
+      "source_groups": 1
+    },
+    "kitchen_appliances": {
+      "annotation_records": 11,
+      "photos": 4,
+      "source_groups": 4
+    },
+    "other_native": {
+      "annotation_records": 125,
+      "photos": 29,
+      "source_groups": 29
+    },
+    "people": {
+      "annotation_records": 67,
+      "photos": 13,
+      "source_groups": 13
+    },
+    "plants_flowers": {
+      "annotation_records": 15,
+      "photos": 11,
+      "source_groups": 11
+    },
+    "protected_furniture": {
+      "annotation_records": 231,
+      "photos": 46,
+      "source_groups": 44
+    },
+    "screens": {
+      "annotation_records": 40,
+      "photos": 15,
+      "source_groups": 15
+    },
+    "tableware_small_objects": {
+      "annotation_records": 128,
+      "photos": 22,
+      "source_groups": 22
+    },
+    "wall_art": {
+      "annotation_records": 1,
+      "photos": 1,
+      "source_groups": 1
+    },
+    "windows_doors": {
+      "annotation_records": 14,
+      "photos": 6,
+      "source_groups": 6
+    }
+  },
+  "development_or_reserved_cache_accessed_for_mining": false,
+  "filter_counts": {
+    "below32px_query_local_verification_resolution": 1663,
+    "known_furniture_ignored_or_uncertain_overlap": 15589,
+    "no_safe_native_visible_polygon_for_exact_query": 1260,
+    "outside_original_frame": 2868
+  },
+  "model_inference": 0,
+  "new_trusted_negatives": 0,
+  "source_geometry_proposals": 18,
+  "unique_training_photographs": 59
+}

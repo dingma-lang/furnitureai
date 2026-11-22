@@ -1,0 +1,45 @@
+{
+  "actual_assistant_inspected_candidates": 18,
+  "by_native_category": {
+    "handbag": {
+      "photos": 1,
+      "regions": 1,
+      "source_groups": 1
+    },
+    "person": {
+      "photos": 1,
+      "regions": 2,
+      "source_groups": 1
+    },
+    "piano": {
+      "photos": 1,
+      "regions": 1,
+      "source_groups": 1
+    },
+    "television_set": {
+      "photos": 1,
+      "regions": 1,
+      "source_groups": 1
+    },
+    "tv": {
+      "photos": 0,
+      "regions": 0,
+      "source_groups": 0
+    }
+  },
+  "duplicate_or_overlapping_supported_regions": 12,
+  "human_confirmations_created": 0,
+  "insufficient_for_broad_hard_negative_coverage": true,
+  "new_regions_at_Chair_score_ge05": 0,
+  "new_training_activated": false,
+  "new_trusted_nonoverlapping_regions": 5,
+  "new_trusted_photos": 4,
+  "new_trusted_source_groups": 4,
+  "other6classes_unknown": true,
+  "source_polygons_not_whole_room_completeness": true,
+  "target_negative_class": "chair_only",
+  "tiers": {
+    "A": 5,
+    "C": 13
+  }
+}

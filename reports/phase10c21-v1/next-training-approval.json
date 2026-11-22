@@ -1,0 +1,19 @@
+{
+  "Phase10D": false,
+  "approved": false,
+  "classifier_frozen": true,
+  "configuration": "reports/phase10c21-v1/box-only-disabled.json",
+  "configuration_sha256": "59bfe9de22f0bdae30dffa062eeb108aa7cdf4f8b3e8cde75fb323957490816a",
+  "max_VRAM_bytes": 6979321856,
+  "max_forwards": 322,
+  "max_seconds": 600,
+  "max_storage_bytes": 2147483648,
+  "max_updates": 75,
+  "new_negatives_not_consumed": true,
+  "one_arm": true,
+  "positive_boxes": 182,
+  "starting_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "trainable": "Onlysixbox_headtensors",
+  "training_photos": 59,
+  "zero_update_smoke_forwards": 4
+}

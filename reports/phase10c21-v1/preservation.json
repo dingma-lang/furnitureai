@@ -1,0 +1,49 @@
+{
+  "C17_seal": {
+    "private_files": 528,
+    "public_files": 14
+  },
+  "C18_seal": {
+    "private_files": 681,
+    "public_files": 15
+  },
+  "C19_seal": {
+    "private_files": 37,
+    "public_files": 16
+  },
+  "C20_final_checkpoint": {
+    "bytes": 18982029,
+    "epoch": 4,
+    "file": "checkpoints/update-075-d1c79472.pt",
+    "sha256": "c582d188cad04989bf170a7f9cb3cafaaf37d90f7b15568c3c005ea7699b82e2",
+    "updates": 75
+  },
+  "C20_seal": {
+    "private_files": 1128,
+    "public_files": 17
+  },
+  "C8_private_files": 1310,
+  "GPU_model_forwards": 0,
+  "Mac_project_modified": false,
+  "Phase10D_activated": false,
+  "annotation_overlays_activated": 0,
+  "backups_uploaded": false,
+  "current_interpreter": "/home/tristary/furniture-ai-ml/.venv/bin/python",
+  "datasets_or_models_downloaded": 0,
+  "downloads": 0,
+  "eligible_image_hashes": 78,
+  "environment_modified": false,
+  "historical_data_model_files": 9973,
+  "historical_data_modified": false,
+  "historical_implementation_files": 27,
+  "main_unchanged": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "new_optimizer_updates": 0,
+  "new_real_model_forwards": 0,
+  "original_OWLv2_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "phase10b_report_artifacts": 24,
+  "phase10b_snapshots": 160,
+  "reserved_or_frozen_images_decoded": 0,
+  "source_group_isolation": true,
+  "status": "PASS",
+  "training_updates": 0
+}

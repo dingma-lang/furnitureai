@@ -1,0 +1,25 @@
+{
+  "A": {
+    "limits": [
+      "Cannot correct wrong original category scores or teach new categories",
+      "Boxes/matching/NMS canchange detectionprecision even with fixedquerylogits",
+      "Only182native Sofa/Chair/Bedpositives,not seven-class proof"
+    ],
+    "purpose": "Isolate localization improvements while preserving useful pretrained per-query category discrimination",
+    "supported_by": "Repeated C8\u2013C20shared-head logit inflation and weak hard-negative coverage;existingtested6box adapter"
+  },
+  "B": {
+    "limits": [
+      "Teacher errors are nottruth;lowteacherChairscore isnotabsence",
+      "Stablepatchquery correspondence requiresfrozenbackbone/exactimage/preprocess/prompts/precision,noaug",
+      "CachedteacherFP16cannotbe treated asFP32groundtruth;objectmatchingcanchange",
+      "Distillation mask/coefficient introducesan additionaluntested objective;not chosen now"
+    ],
+    "old24_limit_obsolete": true,
+    "purpose": "Selective original-teacher behavior consistency with independently supportedpositive/negative overrides",
+    "teacher_available": 59
+  },
+  "no_training_run": true,
+  "not_combined": true,
+  "primary": "A_original_classification_with_box_only_adaptation"
+}
