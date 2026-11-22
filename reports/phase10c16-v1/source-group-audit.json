@@ -1,0 +1,3295 @@
+{
+  "global_catalog": {
+    "group_region_counts": {
+      "flickr-account:68258082@n06": 1,
+      "flickr-account:98894271@n00": 2,
+      "flickr-account:_cck_": 1,
+      "flickr-account:davidgiesberg": 3,
+      "flickr-account:deepphoto": 3,
+      "flickr-account:donabelandewen": 2,
+      "flickr-account:emilysnuffer": 1,
+      "flickr-account:johanl": 2,
+      "flickr-account:jonnygoldstein": 2,
+      "flickr-account:kassandrabay": 1,
+      "flickr-account:kojach": 2,
+      "flickr-account:laruth": 3,
+      "flickr-account:marcusspaapen": 1,
+      "flickr-account:mikebabcock": 1,
+      "flickr-account:mikecogh": 2,
+      "flickr-account:mugland": 2,
+      "flickr-account:nduran": 2,
+      "flickr-account:oldrebel": 1,
+      "flickr-account:pagel": 2,
+      "flickr-account:picturesbyann": 1,
+      "flickr-account:portobaytrade": 1,
+      "flickr-account:snaks": 1,
+      "flickr-account:vintagedept": 3,
+      "flickr-account:vxla": 1
+    },
+    "source_records": 41,
+    "unique_supervision_cells": 41
+  },
+  "groups": [
+    {
+      "BCE_negative_loss": 0.0027281641960144043,
+      "BCE_negative_projection_norm": 0.5526983715614453,
+      "Chair_confidence": {
+        "0": 0.006771209930611186,
+        "0.1": 0.006866642377292415,
+        "0.5": 0.007248372164017332,
+        "0.9": 0.00763010195074225,
+        "0.99": 0.007715991152755356,
+        "1": 0.00772553439742348
+      },
+      "all_positive_boxes": 4,
+      "balanced_raw_negative_loss": 0.005456328392028809,
+      "balanced_raw_output_gradient_L1": 0.005436278879642487,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 1.4520271918172512e-07,
+      "focal_negative_projection_norm": 8.842170924304431e-05,
+      "identity_group": "flickr-account:_cck_",
+      "image_id": "coco2017:000000002270",
+      "index": 1,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 2,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C009"
+            ],
+            "covered_signatures": 2,
+            "query_indices": [
+              2463,
+              2464
+            ],
+            "region_id": "C009"
+          }
+        ],
+        "unique_query_signatures": 2,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.8450320454376206,
+      "positive_Chair_boxes": 3,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 1.1945941646661073,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.002728081773966551,
+          "BCE_output_gradient_L1": 0.0027181394398212433,
+          "Chair_confidence": {
+            "0": 0.006771209930611186,
+            "0.1": 0.006866642377292415,
+            "0.5": 0.007248372164017332,
+            "0.9": 0.00763010195074225,
+            "0.99": 0.007715991152755356,
+            "1": 0.00772553439742348
+          },
+          "aliases": [
+            "C009"
+          ],
+          "balanced_raw_negative_loss": 0.005456163547933102,
+          "balanced_raw_output_gradient_L1": 0.005436278879642487,
+          "focal_negative_loss": 1.4519832802761812e-07,
+          "focal_output_gradient_L1": 4.329380374201719e-07,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 64,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            2463,
+            2464
+          ],
+          "query_pairs": 1,
+          "query_pairs_IoU_at_least05": 1,
+          "region_id": "C009",
+          "source_annotation_key": "COCO:21109",
+          "source_annotation_sha256": "3cc628ffc5f600d486191ee6147fa592cde5d091b1c9d6241057881e8a44f973",
+          "source_polygon_sha256": "a6d5cd2136f1bf9bf8ba07c5df10b02a38f46b2561b4028542c6fe6496063ece",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 2
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 2,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 2.682209014892578e-05,
+      "BCE_negative_projection_norm": 0.007518916471761562,
+      "Chair_confidence": {
+        "0": 7.14190139989638e-05,
+        "0.1": 7.14190139989638e-05,
+        "0.5": 7.14190139989638e-05,
+        "0.9": 7.14190139989638e-05,
+        "0.99": 7.14190139989638e-05,
+        "1": 7.14190139989638e-05
+      },
+      "all_positive_boxes": 2,
+      "balanced_raw_negative_loss": 5.364418029785156e-05,
+      "balanced_raw_output_gradient_L1": 5.356426117941737e-05,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 1.367623191344397e-13,
+      "focal_negative_projection_norm": 0.0,
+      "identity_group": "flickr-account:68258082@n06",
+      "image_id": "coco2017:000000002347",
+      "index": 2,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 1,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C148"
+            ],
+            "covered_signatures": 1,
+            "query_indices": [
+              1251
+            ],
+            "region_id": "C148"
+          }
+        ],
+        "unique_query_signatures": 1,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.734670090604304,
+      "positive_Chair_boxes": 1,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 0.05015853632327568,
+      "regions": [
+        {
+          "BCE_negative_loss": 2.678308737813495e-05,
+          "BCE_output_gradient_L1": 2.6782128770719282e-05,
+          "Chair_confidence": {
+            "0": 7.14190139989638e-05,
+            "0.1": 7.14190139989638e-05,
+            "0.5": 7.14190139989638e-05,
+            "0.9": 7.14190139989638e-05,
+            "0.99": 7.14190139989638e-05,
+            "1": 7.14190139989638e-05
+          },
+          "aliases": [
+            "C148"
+          ],
+          "balanced_raw_negative_loss": 5.35661747562699e-05,
+          "balanced_raw_output_gradient_L1": 5.356426117941737e-05,
+          "focal_negative_loss": 1.3661184542542587e-13,
+          "focal_output_gradient_L1": 4.101121026979515e-13,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 72,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1251
+          ],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C148",
+          "source_annotation_key": "COCO:29266",
+          "source_annotation_sha256": "61b0aca6254e1577e699c8297de73a36d1e925cadda54cfd36cbce0988b7e83b",
+          "source_polygon_sha256": "d8485044c3054521affcf08888247a4194c1b16b85af52f8c6a6ce0fbefdc6a2",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 1
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 1,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 0.005796253681182861,
+      "BCE_negative_projection_norm": 1.0208555512291062,
+      "Chair_confidence": {
+        "0": 8.92099296068236e-07,
+        "0.1": 1.990796872037687e-06,
+        "0.5": 0.00491684375598078,
+        "0.9": 0.010465109543768046,
+        "0.99": 0.013272464216129935,
+        "1": 0.013584392513059032
+      },
+      "all_positive_boxes": 4,
+      "balanced_raw_negative_loss": 0.0019320847932249308,
+      "balanced_raw_output_gradient_L1": 0.0019229930012727436,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 5.982846005281317e-07,
+      "focal_negative_projection_norm": 0.0003086024305319265,
+      "identity_group": "flickr-account:mikecogh",
+      "image_id": "coco2017:000000030347",
+      "index": 3,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 6,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 2,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C015"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C015"
+          },
+          {
+            "aliases": [
+              "C017"
+            ],
+            "covered_signatures": 6,
+            "query_indices": [
+              1509,
+              1569,
+              1749,
+              1752,
+              1809,
+              1812
+            ],
+            "region_id": "C017"
+          }
+        ],
+        "unique_query_signatures": 6,
+        "weights_sum": 0.5
+      },
+      "positive_BCE_cosine": -0.8836325282812991,
+      "positive_Chair_boxes": 3,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 1.056091697121687,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C015"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C015",
+          "source_annotation_key": "COCO:439263",
+          "source_annotation_sha256": "4f6d2612d666967e47bab34f98e24e4d36708aecd82ec69fb77164fda3f35f8a",
+          "source_polygon_sha256": "446b72ca4b6504dfd346d2d2dea5297ed5da802d78ca37a09aa4a1bd5b6af9ff",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        },
+        {
+          "BCE_negative_loss": 0.005796265322715044,
+          "BCE_output_gradient_L1": 0.005768978945667413,
+          "Chair_confidence": {
+            "0": 8.92099296068236e-07,
+            "0.1": 1.990796872037687e-06,
+            "0.5": 0.00491684375598078,
+            "0.9": 0.010465109543768046,
+            "0.99": 0.013272464216129935,
+            "1": 0.013584392513059032
+          },
+          "aliases": [
+            "C017"
+          ],
+          "balanced_raw_negative_loss": 0.0019320884020999074,
+          "balanced_raw_output_gradient_L1": 0.0019229930012727436,
+          "focal_negative_loss": 5.982820994177018e-07,
+          "focal_output_gradient_L1": 1.7767099578398987e-06,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1509,
+            1569,
+            1749,
+            1752,
+            1809,
+            1812
+          ],
+          "query_pairs": 15,
+          "query_pairs_IoU_at_least05": 1,
+          "region_id": "C017",
+          "source_annotation_key": "COCO:496472",
+          "source_annotation_sha256": "7043cb2d867d703679f28da76aba8acf8b88ad42844eb3379681bd964b1962a2",
+          "source_polygon_sha256": "f3a7b5cd0a787df6f933a2d6043a8856d7b9728ffb1777bcdcf94451c0db048c",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 6
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 6,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 2
+    },
+    {
+      "BCE_negative_loss": 0.0010151267051696777,
+      "BCE_negative_projection_norm": 0.20133152092797915,
+      "Chair_confidence": {
+        "0": 0.0037217086507213993,
+        "0.1": 0.0037877714497223337,
+        "0.5": 0.004052022645726072,
+        "0.9": 0.004316273841729811,
+        "0.99": 0.004375730360830651,
+        "1": 0.004382336640730745
+      },
+      "all_positive_boxes": 6,
+      "balanced_raw_negative_loss": 0.0010151267051696777,
+      "balanced_raw_output_gradient_L1": 0.0010130056471098214,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 1.6999852192611797e-08,
+      "focal_negative_projection_norm": 1.0076107755850324e-05,
+      "identity_group": "flickr-account:davidgiesberg",
+      "image_id": "coco2017:000000037367",
+      "index": 4,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 2,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 3,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C143"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C143"
+          },
+          {
+            "aliases": [
+              "C154"
+            ],
+            "covered_signatures": 2,
+            "query_indices": [
+              982,
+              1042
+            ],
+            "region_id": "C154"
+          },
+          {
+            "aliases": [
+              "C189"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C189"
+          }
+        ],
+        "unique_query_signatures": 2,
+        "weights_sum": 0.3333333432674408
+      },
+      "positive_BCE_cosine": -0.654806066884631,
+      "positive_Chair_boxes": 5,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 0.5509917637502421,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C143"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 350,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C143",
+          "source_annotation_key": "LVIS:117035",
+          "source_annotation_sha256": "9c42c1ec4660baf047dd384ef1ce63b8878918dac0652df25608ad18f03450c5",
+          "source_polygon_sha256": "c7d71055b8e78a9d5a7ee4e448e40feacc2250e9b281b5d30b28568405d4148f",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        },
+        {
+          "BCE_negative_loss": 0.0010150773450732231,
+          "BCE_output_gradient_L1": 0.0010130056471098214,
+          "Chair_confidence": {
+            "0": 0.0037217086507213993,
+            "0.1": 0.0037877714497223337,
+            "0.5": 0.004052022645726072,
+            "0.9": 0.004316273841729811,
+            "0.99": 0.004375730360830651,
+            "1": 0.004382336640730745
+          },
+          "aliases": [
+            "C154"
+          ],
+          "balanced_raw_negative_loss": 0.0010150773450732231,
+          "balanced_raw_output_gradient_L1": 0.0010130056471098214,
+          "focal_negative_loss": 1.6999143426232877e-08,
+          "focal_output_gradient_L1": 5.082323717431336e-08,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 73,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            982,
+            1042
+          ],
+          "query_pairs": 1,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C154",
+          "source_annotation_key": "COCO:1103572",
+          "source_annotation_sha256": "c0b6798b6c4193f213a7f4f332d993ce69b23ab3e01bb751a274e7ce261a9cb2",
+          "source_polygon_sha256": "f1f68af40ffd80ec987f8fb574484349c927748ed81efd4081abdc5bf5fe9c99",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 2
+        },
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C189"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 350,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C189",
+          "source_annotation_key": "LVIS:117038",
+          "source_annotation_sha256": "48ae9443990140bc44a4121664ab0b5681c9b33105fe19b93bb7bd595d64e3bd",
+          "source_polygon_sha256": "49a51514369e5a7781f1f8fa7de73d6a1572375d179f70824e38b691cc02c36a",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 2,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 3
+    },
+    {
+      "BCE_negative_loss": 0.027723992243409157,
+      "BCE_negative_projection_norm": 5.410031576355985,
+      "Chair_confidence": {
+        "0": 0.0002758679066337912,
+        "0.1": 0.002107550011969665,
+        "0.5": 0.005458753275712292,
+        "0.9": 0.016693040686574595,
+        "0.99": 0.02046278918292044,
+        "1": 0.020685459290040977
+      },
+      "all_positive_boxes": 5,
+      "balanced_raw_negative_loss": 0.0053895628079771996,
+      "balanced_raw_output_gradient_L1": 0.005358265882932756,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 4.737107701657806e-06,
+      "focal_negative_projection_norm": 0.002752788962171546,
+      "identity_group": "flickr-account:98894271@n00",
+      "image_id": "coco2017:000000074638",
+      "index": 5,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 26,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 2,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C165"
+            ],
+            "covered_signatures": 7,
+            "query_indices": [
+              1989,
+              2047,
+              2048,
+              2050,
+              2107,
+              2108,
+              2109
+            ],
+            "region_id": "C165"
+          },
+          {
+            "aliases": [
+              "C191"
+            ],
+            "covered_signatures": 19,
+            "query_indices": [
+              892,
+              893,
+              894,
+              895,
+              951,
+              953,
+              954,
+              955,
+              1012,
+              1013,
+              1014,
+              1015,
+              1071,
+              1072,
+              1073,
+              1074,
+              1131,
+              1132,
+              1134
+            ],
+            "region_id": "C191"
+          }
+        ],
+        "unique_query_signatures": 26,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.7144413620139985,
+      "positive_Chair_boxes": 3,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 1.6064465289219363,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.007721422705799341,
+          "BCE_output_gradient_L1": 0.007674925738683669,
+          "Chair_confidence": {
+            "0": 0.0002758679066337912,
+            "0.1": 0.0019699964719591856,
+            "0.5": 0.005730246514992078,
+            "0.9": 0.014043344135908499,
+            "0.99": 0.019219635388993794,
+            "1": 0.019794778861558834
+          },
+          "aliases": [
+            "C165"
+          ],
+          "balanced_raw_negative_loss": 0.002757650800049305,
+          "balanced_raw_output_gradient_L1": 0.002741044901085843,
+          "focal_negative_loss": 1.4404341754925554e-06,
+          "focal_output_gradient_L1": 4.25739223828582e-06,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 51,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1989,
+            2047,
+            2048,
+            2050,
+            2107,
+            2108,
+            2109
+          ],
+          "query_pairs": 21,
+          "query_pairs_IoU_at_least05": 4,
+          "region_id": "C165",
+          "source_annotation_key": "COCO:1534344",
+          "source_annotation_sha256": "1b1f35305a90048b81200c2b8b12601d8a694f364b59c36cc38dec2d77c72be9",
+          "source_polygon_sha256": "b20e539da92995e757ae5725ae6bef1c3084384e4956ef5dc4df60c12adbf765",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 7
+        },
+        {
+          "BCE_negative_loss": 0.020002489909529686,
+          "BCE_output_gradient_L1": 0.01989088081609225,
+          "Chair_confidence": {
+            "0": 0.0003740956047302422,
+            "0.1": 0.0024783696003250273,
+            "0.5": 0.005426943348925352,
+            "0.9": 0.015896421139411167,
+            "0.99": 0.020205809805566056,
+            "1": 0.020685459290040977
+          },
+          "aliases": [
+            "C191"
+          ],
+          "balanced_raw_negative_loss": 0.002631906885653734,
+          "balanced_raw_output_gradient_L1": 0.0026172209818469128,
+          "focal_negative_loss": 3.296664999652421e-06,
+          "focal_output_gradient_L1": 9.749219164903108e-06,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 72,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            892,
+            893,
+            894,
+            895,
+            951,
+            953,
+            954,
+            955,
+            1012,
+            1013,
+            1014,
+            1015,
+            1071,
+            1072,
+            1073,
+            1074,
+            1131,
+            1132,
+            1134
+          ],
+          "query_pairs": 171,
+          "query_pairs_IoU_at_least05": 7,
+          "region_id": "C191",
+          "source_annotation_key": "COCO:1968480",
+          "source_annotation_sha256": "2e9e9739c0adfb1002927d4a63858a07042172fcd857fe60b695d70c046f67ed",
+          "source_polygon_sha256": "dd2ed98b2469c9e8917cdad31eec7e90e7025ed18257b2449ed0c197ba45e740",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 19
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 26,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 2
+    },
+    {
+      "BCE_negative_loss": 0.026778383180499077,
+      "BCE_negative_projection_norm": 4.409756130746125,
+      "Chair_confidence": {
+        "0": 0.0034429807988858203,
+        "0.1": 0.003991728369413719,
+        "0.5": 0.014842417234248268,
+        "0.9": 0.03588069552584119,
+        "0.99": 0.10129785010467472,
+        "1": 0.10856642283565619
+      },
+      "all_positive_boxes": 7,
+      "balanced_raw_negative_loss": 0.02166827768087387,
+      "balanced_raw_output_gradient_L1": 0.020769972834386863,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.0001531472516944632,
+      "focal_negative_projection_norm": 0.07312948866864949,
+      "identity_group": "flickr-account:laruth",
+      "image_id": "coco2017:000000108375",
+      "index": 6,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 11,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 3,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C022"
+            ],
+            "covered_signatures": 2,
+            "query_indices": [
+              1428,
+              1487
+            ],
+            "region_id": "C022"
+          },
+          {
+            "aliases": [
+              "C025"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C025"
+          },
+          {
+            "aliases": [
+              "C028"
+            ],
+            "covered_signatures": 9,
+            "query_indices": [
+              1494,
+              1495,
+              1497,
+              1554,
+              1555,
+              1556,
+              1557,
+              1616,
+              1617
+            ],
+            "region_id": "C028"
+          }
+        ],
+        "unique_query_signatures": 11,
+        "weights_sum": 0.6666666865348816
+      },
+      "positive_BCE_cosine": -0.9145757228872928,
+      "positive_Chair_boxes": 6,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 2.339882005319537,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.01622834801673889,
+          "BCE_output_gradient_L1": 0.015476478962227702,
+          "Chair_confidence": {
+            "0": 0.03588069552584119,
+            "0.1": 0.04314926825682269,
+            "0.5": 0.07222355918074869,
+            "0.9": 0.1012978501046747,
+            "0.99": 0.10783956556255804,
+            "1": 0.10856642283565619
+          },
+          "aliases": [
+            "C022"
+          ],
+          "balanced_raw_negative_loss": 0.018933072686195374,
+          "balanced_raw_output_gradient_L1": 0.01805589022114873,
+          "focal_negative_loss": 0.000150173349538818,
+          "focal_output_gradient_L1": 0.0004105252273802762,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1428,
+            1487
+          ],
+          "query_pairs": 1,
+          "query_pairs_IoU_at_least05": 1,
+          "region_id": "C022",
+          "source_annotation_key": "COCO:1279073",
+          "source_annotation_sha256": "897c807d0a4016a010689ed76489eb3a8c80d798afe32378be08409e9b58b4cb",
+          "source_polygon_sha256": "303fa431c775ccfa1ec2940c5b80b2c4574e16d51f51e4d3bd776aaf5b826285",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 2
+        },
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C025"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C025",
+          "source_annotation_key": "COCO:1329842",
+          "source_annotation_sha256": "e746e85eedff13f0e6d8f7d70557922868016de6e365656c24a5ab6178b1c8cd",
+          "source_polygon_sha256": "ed463f71f9184c6464c6798824fa638226e40dc990e38d01ab605d309327c0d3",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        },
+        {
+          "BCE_negative_loss": 0.01055002398788929,
+          "BCE_output_gradient_L1": 0.010468605149071664,
+          "Chair_confidence": {
+            "0": 0.0034429807988858203,
+            "0.1": 0.0038819788553081393,
+            "0.5": 0.007149101966546361,
+            "0.9": 0.01928305401554662,
+            "0.99": 0.02345305379142734,
+            "1": 0.02391638709985853
+          },
+          "aliases": [
+            "C028"
+          ],
+          "balanced_raw_negative_loss": 0.0027351912576705217,
+          "balanced_raw_output_gradient_L1": 0.0027140826132381335,
+          "focal_negative_loss": 2.973857135657454e-06,
+          "focal_output_gradient_L1": 8.773353558311214e-06,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1494,
+            1495,
+            1497,
+            1554,
+            1555,
+            1556,
+            1557,
+            1616,
+            1617
+          ],
+          "query_pairs": 36,
+          "query_pairs_IoU_at_least05": 1,
+          "region_id": "C028",
+          "source_annotation_key": "COCO:1332293",
+          "source_annotation_sha256": "ebb2637f3be5640291e6664f79ee25ee9365398f68427daa873a63260cdae35d",
+          "source_polygon_sha256": "67344832903a667a9cd2aac0845489c7c5b89d292dc2440490e43e81e7f39dc4",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 9
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 11,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 3
+    },
+    {
+      "BCE_negative_loss": 0.015080451965332031,
+      "BCE_negative_projection_norm": 2.896483088377147,
+      "Chair_confidence": {
+        "0": 0.0011335690050875116,
+        "0.1": 0.001423417567020379,
+        "0.5": 0.0024822767076302155,
+        "0.9": 0.004692892553739897,
+        "0.99": 0.004732363315573005,
+        "1": 0.004736748955776684
+      },
+      "all_positive_boxes": 1,
+      "balanced_raw_negative_loss": 0.0010771751403808594,
+      "balanced_raw_output_gradient_L1": 0.001075278727512341,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 2.1209334022387338e-07,
+      "focal_negative_projection_norm": 0.00011994267662361771,
+      "identity_group": "flickr-account:johanl",
+      "image_id": "coco2017:000000114729",
+      "index": 7,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 7,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 2,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C142"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C142"
+          },
+          {
+            "aliases": [
+              "C152"
+            ],
+            "covered_signatures": 7,
+            "query_indices": [
+              760,
+              818,
+              820,
+              878,
+              881,
+              1001,
+              1062
+            ],
+            "region_id": "C152"
+          }
+        ],
+        "unique_query_signatures": 7,
+        "weights_sum": 0.5
+      },
+      "positive_BCE_cosine": -0.8321516060866008,
+      "positive_Chair_boxes": 1,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 0.042587259495221276,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C142"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 350,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C142",
+          "source_annotation_key": "LVIS:849662",
+          "source_annotation_sha256": "0fadc3c5d996909900c4927f71c4bfe63968e86eb9fdb4042e2a76c48c73a7cf",
+          "source_polygon_sha256": "529eaf95fb82f47deb06a12f44c076bc99aae4b5d32b9c1559688ca6af655f06",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        },
+        {
+          "BCE_negative_loss": 0.015080471523106098,
+          "BCE_output_gradient_L1": 0.01505390100646764,
+          "Chair_confidence": {
+            "0": 0.0011335690050875116,
+            "0.1": 0.001423417567020379,
+            "0.5": 0.0024822767076302155,
+            "0.9": 0.004692892553739897,
+            "0.99": 0.004732363315573005,
+            "1": 0.004736748955776684
+          },
+          "aliases": [
+            "C152"
+          ],
+          "balanced_raw_negative_loss": 0.0010771766537800431,
+          "balanced_raw_output_gradient_L1": 0.001075278727512341,
+          "focal_negative_loss": 2.1209837086644256e-07,
+          "focal_output_gradient_L1": 6.340187663766983e-07,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 73,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            760,
+            818,
+            820,
+            878,
+            881,
+            1001,
+            1062
+          ],
+          "query_pairs": 21,
+          "query_pairs_IoU_at_least05": 2,
+          "region_id": "C152",
+          "source_annotation_key": "COCO:1097632",
+          "source_annotation_sha256": "cfcb99fab9597959214bf3c10267bbbe3cb351510fe4ec642b23f240e7833e84",
+          "source_polygon_sha256": "5859d3242ed2d22d2aa3428b46d2dc94e20fd674cbc5f7e8c92cec8c779a217e",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 7
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 7,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 2
+    },
+    {
+      "BCE_negative_loss": 0.0,
+      "BCE_negative_projection_norm": 0.0,
+      "Chair_confidence": {},
+      "all_positive_boxes": 2,
+      "balanced_raw_negative_loss": 0.0,
+      "balanced_raw_output_gradient_L1": 0.0,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.0,
+      "focal_negative_projection_norm": 0.0,
+      "identity_group": "flickr-account:picturesbyann",
+      "image_id": "coco2017:000000121824",
+      "index": 8,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 0,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C036"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C036"
+          }
+        ],
+        "unique_query_signatures": 0,
+        "weights_sum": 0.0
+      },
+      "positive_BCE_cosine": null,
+      "positive_Chair_boxes": 1,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 12.317538522496788,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C036"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C036",
+          "source_annotation_key": "COCO:1710407",
+          "source_annotation_sha256": "d919d890c76202f9f1511d6880bf12b505c97b8656ae7fac33be8ab965dfea2c",
+          "source_polygon_sha256": "486e30099ea77e39ae9062613bcec01a3a6f745f1c16273339c832701c89e5eb",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 0,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 0.13839849829673767,
+      "BCE_negative_projection_norm": 27.106033244918606,
+      "Chair_confidence": {
+        "0": 1.9033845709532617e-06,
+        "0.1": 8.106812392966536e-05,
+        "0.5": 0.003093392430609294,
+        "0.9": 0.01848694745992559,
+        "0.99": 0.12691635732651493,
+        "1": 0.1653234226075454
+      },
+      "all_positive_boxes": 3,
+      "balanced_raw_negative_loss": 0.025828998535871506,
+      "balanced_raw_output_gradient_L1": 0.02432394122048187,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.001450194395147264,
+      "focal_negative_projection_norm": 0.8336706787412176,
+      "identity_group": "flickr-account:pagel",
+      "image_id": "coco2017:000000165742",
+      "index": 9,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 50,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 2,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C045"
+            ],
+            "covered_signatures": 45,
+            "query_indices": [
+              726,
+              789,
+              848,
+              849,
+              850,
+              908,
+              909,
+              910,
+              912,
+              913,
+              966,
+              969,
+              970,
+              971,
+              972,
+              973,
+              974,
+              975,
+              1026,
+              1027,
+              1028,
+              1029,
+              1030,
+              1031,
+              1032,
+              1033,
+              1034,
+              1087,
+              1088,
+              1089,
+              1090,
+              1091,
+              1092,
+              1093,
+              1147,
+              1148,
+              1149,
+              1150,
+              1151,
+              1152,
+              1153,
+              1154,
+              1209,
+              1210,
+              1211
+            ],
+            "region_id": "C045"
+          },
+          {
+            "aliases": [
+              "C174"
+            ],
+            "covered_signatures": 5,
+            "query_indices": [
+              1302,
+              1362,
+              1421,
+              1422,
+              1481
+            ],
+            "region_id": "C174"
+          }
+        ],
+        "unique_query_signatures": 50,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.5115621081299714,
+      "positive_Chair_boxes": 2,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 8.112352024249597,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.05883916839957237,
+          "BCE_output_gradient_L1": 0.05826751418894105,
+          "Chair_confidence": {
+            "0": 1.9033845709532617e-06,
+            "0.1": 7.859750988516506e-05,
+            "0.5": 0.0026522597057856566,
+            "0.9": 0.011194378658211778,
+            "0.99": 0.03940579718290409,
+            "1": 0.04922211319719861
+          },
+          "aliases": [
+            "C045"
+          ],
+          "balanced_raw_negative_loss": 0.0019613055046647787,
+          "balanced_raw_output_gradient_L1": 0.0019422505986401717,
+          "focal_negative_loss": 3.9582151657668874e-05,
+          "focal_output_gradient_L1": 0.00011449667843063656,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            726,
+            789,
+            848,
+            849,
+            850,
+            908,
+            909,
+            910,
+            912,
+            913,
+            966,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974,
+            975,
+            1026,
+            1027,
+            1028,
+            1029,
+            1030,
+            1031,
+            1032,
+            1033,
+            1034,
+            1087,
+            1088,
+            1089,
+            1090,
+            1091,
+            1092,
+            1093,
+            1147,
+            1148,
+            1149,
+            1150,
+            1151,
+            1152,
+            1153,
+            1154,
+            1209,
+            1210,
+            1211
+          ],
+          "query_pairs": 990,
+          "query_pairs_IoU_at_least05": 115,
+          "region_id": "C045",
+          "source_annotation_key": "COCO:190833",
+          "source_annotation_sha256": "f89f900e7e863b5c3a29a831de029c99faeaf345565938b3b237d0c9779de0bd",
+          "source_polygon_sha256": "0890978b4ef108bf56146108d6a11a65bbe6139e3f518d2f68ecc450f92db5ca",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 45
+        },
+        {
+          "BCE_negative_loss": 0.07955888658761978,
+          "BCE_output_gradient_L1": 0.07460563280619681,
+          "Chair_confidence": {
+            "0": 0.008061991528271641,
+            "0.1": 0.011126791128057216,
+            "0.5": 0.022371459837761478,
+            "0.9": 0.1339707162556839,
+            "0.99": 0.16218815197235925,
+            "1": 0.1653234226075454
+          },
+          "aliases": [
+            "C174"
+          ],
+          "balanced_raw_negative_loss": 0.023867666721343994,
+          "balanced_raw_output_gradient_L1": 0.0223816906218417,
+          "focal_negative_loss": 0.0014106124872341752,
+          "focal_output_gradient_L1": 0.003680743517861629,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 31,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1302,
+            1362,
+            1421,
+            1422,
+            1481
+          ],
+          "query_pairs": 10,
+          "query_pairs_IoU_at_least05": 1,
+          "region_id": "C174",
+          "source_annotation_key": "COCO:2078705",
+          "source_annotation_sha256": "a7b2ecf3d871f41e1ae5eba65895a0c3369e869f41feefa331b46d5fba99e982",
+          "source_polygon_sha256": "5423d0ce748ebb73864ab9bcbb8efd02f34f68acb3912375fab42aa4f1d2c713",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 5
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 50,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 2
+    },
+    {
+      "BCE_negative_loss": 0.0,
+      "BCE_negative_projection_norm": 0.0,
+      "Chair_confidence": {},
+      "all_positive_boxes": 3,
+      "balanced_raw_negative_loss": 0.0,
+      "balanced_raw_output_gradient_L1": 0.0,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.0,
+      "focal_negative_projection_norm": 0.0,
+      "identity_group": "flickr-account:portobaytrade",
+      "image_id": "coco2017:000000178671",
+      "index": 10,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 0,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C145"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C145"
+          }
+        ],
+        "unique_query_signatures": 0,
+        "weights_sum": 0.0
+      },
+      "positive_BCE_cosine": null,
+      "positive_Chair_boxes": 2,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 0.3506558569080394,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C145"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 350,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C145",
+          "source_annotation_key": "LVIS:104524",
+          "source_annotation_sha256": "328081bd72afc9d9f0eb85778b57e171d25a8c389cc6bd59937e66280697762d",
+          "source_polygon_sha256": "f63db55d424f7e3a7ef8f6afe50eb11d46d73838816e531809f2b5abe0032568",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 0,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 0.41895461082458496,
+      "BCE_negative_projection_norm": 84.49739461962425,
+      "Chair_confidence": {
+        "0": 0.004829721745804341,
+        "0.1": 0.009733004220274092,
+        "0.5": 0.015247590621499623,
+        "0.9": 0.026599883057750767,
+        "0.99": 0.03320533618927011,
+        "1": 0.03403615299437095
+      },
+      "all_positive_boxes": 1,
+      "balanced_raw_negative_loss": 0.012695595622062683,
+      "balanced_raw_output_gradient_L1": 0.012568710786581505,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.0001890375278890133,
+      "focal_negative_projection_norm": 0.11295211312196114,
+      "identity_group": "flickr-account:vxla",
+      "image_id": "coco2017:000000192834",
+      "index": 11,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 33,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C141"
+            ],
+            "covered_signatures": 33,
+            "query_indices": [
+              681,
+              682,
+              683,
+              684,
+              738,
+              740,
+              741,
+              742,
+              744,
+              798,
+              800,
+              801,
+              802,
+              803,
+              804,
+              805,
+              860,
+              862,
+              863,
+              864,
+              920,
+              921,
+              922,
+              923,
+              924,
+              979,
+              980,
+              981,
+              982,
+              983,
+              984,
+              985,
+              1040
+            ],
+            "region_id": "C141"
+          }
+        ],
+        "unique_query_signatures": 33,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.4814582997322953,
+      "positive_Chair_boxes": 0,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 5.375316881688213,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.4189545810222626,
+          "BCE_output_gradient_L1": 0.4147674385458231,
+          "Chair_confidence": {
+            "0": 0.004829721745804341,
+            "0.1": 0.00973300422027409,
+            "0.5": 0.015247590621499623,
+            "0.9": 0.026599883057750767,
+            "0.99": 0.03320533618927011,
+            "1": 0.03403615299437095
+          },
+          "aliases": [
+            "C141"
+          ],
+          "balanced_raw_negative_loss": 0.012695593759417534,
+          "balanced_raw_output_gradient_L1": 0.012568710786581505,
+          "focal_negative_loss": 0.0001890374260256067,
+          "focal_output_gradient_L1": 0.0005553377391436243,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 350,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            681,
+            682,
+            683,
+            684,
+            738,
+            740,
+            741,
+            742,
+            744,
+            798,
+            800,
+            801,
+            802,
+            803,
+            804,
+            805,
+            860,
+            862,
+            863,
+            864,
+            920,
+            921,
+            922,
+            923,
+            924,
+            979,
+            980,
+            981,
+            982,
+            983,
+            984,
+            985,
+            1040
+          ],
+          "query_pairs": 528,
+          "query_pairs_IoU_at_least05": 2,
+          "region_id": "C141",
+          "source_annotation_key": "LVIS:112399",
+          "source_annotation_sha256": "fed7a3fd2b67546a382a87431a3c3a66d1baa6b2261a25356e46efc02c916986",
+          "source_polygon_sha256": "dc082ec423a83662ebd3e40c3e43f7dd1c42296e658033de50883722ab4bcc8f",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 33
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 33,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 0.15758469700813293,
+      "BCE_negative_projection_norm": 31.59813204006438,
+      "Chair_confidence": {
+        "0": 0.0073743653082378275,
+        "0.1": 0.010572713048390218,
+        "0.5": 0.024439295196874523,
+        "0.9": 0.050408737762423945,
+        "0.99": 0.06326489551195214,
+        "1": 0.0651275468396235
+      },
+      "all_positive_boxes": 2,
+      "balanced_raw_negative_loss": 0.022512100636959076,
+      "balanced_raw_output_gradient_L1": 0.022060997551307082,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.00029558571986854076,
+      "focal_negative_projection_norm": 0.1739996711811313,
+      "identity_group": "flickr-account:emilysnuffer",
+      "image_id": "coco2017:000000195507",
+      "index": 12,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 14,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C201"
+            ],
+            "covered_signatures": 14,
+            "query_indices": [
+              408,
+              409,
+              410,
+              411,
+              470,
+              528,
+              530,
+              531,
+              588,
+              589,
+              590,
+              648,
+              709,
+              710
+            ],
+            "region_id": "C201"
+          }
+        ],
+        "unique_query_signatures": 14,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.46152458035393934,
+      "positive_Chair_boxes": 0,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 29.32978430026198,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.15758469700813293,
+          "BCE_output_gradient_L1": 0.1544269707519561,
+          "Chair_confidence": {
+            "0": 0.0073743653082378275,
+            "0.1": 0.010572713048390218,
+            "0.5": 0.02443929519687452,
+            "0.9": 0.050408737762423945,
+            "0.99": 0.06326489551195214,
+            "1": 0.0651275468396235
+          },
+          "aliases": [
+            "C201"
+          ],
+          "balanced_raw_negative_loss": 0.022512098774313927,
+          "balanced_raw_output_gradient_L1": 0.022060997551307082,
+          "focal_negative_loss": 0.00029558566166087985,
+          "focal_output_gradient_L1": 0.0008483477072616097,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1077,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            408,
+            409,
+            410,
+            411,
+            470,
+            528,
+            530,
+            531,
+            588,
+            589,
+            590,
+            648,
+            709,
+            710
+          ],
+          "query_pairs": 91,
+          "query_pairs_IoU_at_least05": 6,
+          "region_id": "C201",
+          "source_annotation_key": "LVIS:1045376",
+          "source_annotation_sha256": "6245b113d28515b01ac4d6e1e271657f837d36829db0e6cfea5969e8ab87978c",
+          "source_polygon_sha256": "422f41116449dc696984db02b1af9af481e64c07e111916da5951482cf9295f8",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 14
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 14,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 0.0,
+      "BCE_negative_projection_norm": 0.0,
+      "Chair_confidence": {},
+      "all_positive_boxes": 4,
+      "balanced_raw_negative_loss": 0.0,
+      "balanced_raw_output_gradient_L1": 0.0,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.0,
+      "focal_negative_projection_norm": 0.0,
+      "identity_group": "flickr-account:kassandrabay",
+      "image_id": "coco2017:000000197201",
+      "index": 13,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 0,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C202"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C202"
+          }
+        ],
+        "unique_query_signatures": 0,
+        "weights_sum": 0.0
+      },
+      "positive_BCE_cosine": null,
+      "positive_Chair_boxes": 2,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 2.113532323613363,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C202"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 350,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C202",
+          "source_annotation_key": "LVIS:1122871",
+          "source_annotation_sha256": "7ce21667b8cefcc9938525e409b59382a16f8ad9f412d828e282b1bd7d786911",
+          "source_polygon_sha256": "bca78c6b4ea2fb9bc1a3bc8666cc5b5d407ef8d47b609399cc40b6b5289e7f4c",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 0,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 0.0,
+      "BCE_negative_projection_norm": 0.0,
+      "Chair_confidence": {},
+      "all_positive_boxes": 3,
+      "balanced_raw_negative_loss": 0.0,
+      "balanced_raw_output_gradient_L1": 0.0,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.0,
+      "focal_negative_projection_norm": 0.0,
+      "identity_group": "flickr-account:mugland",
+      "image_id": "coco2017:000000231450",
+      "index": 14,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 0,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 2,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C144"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C144"
+          },
+          {
+            "aliases": [
+              "C157"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C157"
+          }
+        ],
+        "unique_query_signatures": 0,
+        "weights_sum": 0.0
+      },
+      "positive_BCE_cosine": null,
+      "positive_Chair_boxes": 2,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 3.669510923037305,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C144"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 350,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C144",
+          "source_annotation_key": "LVIS:390015",
+          "source_annotation_sha256": "06b798a52b37816f7ff32fb9b4d506a91bbd7a340bb3e07966436893c7685c71",
+          "source_polygon_sha256": "49924e7e6dd878b1095a62945d618d77bbc3c13b8f1f081567fc2818cd57ea5b",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        },
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C157"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 82,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C157",
+          "source_annotation_key": "COCO:333584",
+          "source_annotation_sha256": "4c4ff2b1b68ea9cf5e1b93f56a5d1cfe0c0ecdf98cae1188d6835d2b73eeed20",
+          "source_polygon_sha256": "0888d3024a0aa53898bf5e5c330391fe7c9adf1b03144f09c4b8a02076aa4629",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 0,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 2
+    },
+    {
+      "BCE_negative_loss": 0.001836329698562622,
+      "BCE_negative_projection_norm": 0.34979551638874695,
+      "Chair_confidence": {
+        "0": 0.009746104052554062,
+        "0.1": 0.009746104052554062,
+        "0.5": 0.009746104052554062,
+        "0.9": 0.009746104052554062,
+        "0.99": 0.009746104052554062,
+        "1": 0.009746104052554062
+      },
+      "all_positive_boxes": 4,
+      "balanced_raw_negative_loss": 0.003672659397125244,
+      "balanced_raw_output_gradient_L1": 0.003654788713902235,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 1.7442556554669864e-07,
+      "focal_negative_projection_norm": 9.940096062571975e-05,
+      "identity_group": "flickr-account:jonnygoldstein",
+      "image_id": "coco2017:000000263212",
+      "index": 15,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 1,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 2,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C056"
+            ],
+            "covered_signatures": 1,
+            "query_indices": [
+              1464
+            ],
+            "region_id": "C056"
+          },
+          {
+            "aliases": [
+              "C203"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C203"
+          }
+        ],
+        "unique_query_signatures": 1,
+        "weights_sum": 0.5
+      },
+      "positive_BCE_cosine": -0.8999073125188285,
+      "positive_Chair_boxes": 3,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 13.934992781417673,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0018363576382398605,
+          "BCE_output_gradient_L1": 0.0018273943569511175,
+          "Chair_confidence": {
+            "0": 0.009746104052554062,
+            "0.1": 0.009746104052554062,
+            "0.5": 0.009746104052554062,
+            "0.9": 0.009746104052554062,
+            "0.99": 0.009746104052554062,
+            "1": 0.009746104052554062
+          },
+          "aliases": [
+            "C056"
+          ],
+          "balanced_raw_negative_loss": 0.003672715276479721,
+          "balanced_raw_output_gradient_L1": 0.003654788713902235,
+          "focal_negative_loss": 1.744292603689246e-07,
+          "focal_output_gradient_L1": 5.19029072165722e-07,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1464
+          ],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C056",
+          "source_annotation_key": "COCO:195307",
+          "source_annotation_sha256": "83b8e8f46a05b6644ab86382e972a07d701dc4faf34d4228c1942fdbc736b588",
+          "source_polygon_sha256": "67ffe6d7e48a03dc069e97ced5be1fa982d41980b8a699faefb8c3d7904d6970",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 1
+        },
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C203"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 73,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C203",
+          "source_annotation_key": "COCO:1627531",
+          "source_annotation_sha256": "c3198cd8a504140be9f86d0292a35a3357fc7dff41d6db20f5acf41401c006db",
+          "source_polygon_sha256": "8c508cfd6e46dc3f5fa94f0ac9226b6b4e2df2378687c4370e8929c751042281",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 1,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 2
+    },
+    {
+      "BCE_negative_loss": 0.19931289553642273,
+      "BCE_negative_projection_norm": 31.31078632902645,
+      "Chair_confidence": {
+        "0": 4.125012016790562e-06,
+        "0.1": 0.0007085009820804724,
+        "0.5": 0.0058426051752048505,
+        "0.9": 0.04365819209294703,
+        "0.99": 0.18063822165006588,
+        "1": 0.21967211902506864
+      },
+      "all_positive_boxes": 2,
+      "balanced_raw_negative_loss": 0.014763917773962021,
+      "balanced_raw_output_gradient_L1": 0.01382563517525881,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.004709871951490641,
+      "focal_negative_projection_norm": 1.8970166331715643,
+      "identity_group": "flickr-account:mikebabcock",
+      "image_id": "coco2017:000000294698",
+      "index": 16,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 27,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C067"
+            ],
+            "covered_signatures": 27,
+            "query_indices": [
+              1752,
+              1811,
+              1812,
+              1813,
+              1871,
+              1874,
+              1929,
+              1988,
+              1989,
+              1991,
+              1992,
+              1993,
+              2050,
+              2051,
+              2109,
+              2111,
+              2112,
+              2171,
+              2172,
+              2173,
+              2232,
+              2233,
+              2234,
+              2294,
+              2889,
+              3008,
+              3013
+            ],
+            "region_id": "C067"
+          }
+        ],
+        "unique_query_signatures": 27,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.4425273514801464,
+      "positive_Chair_boxes": 1,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 10.922236950670808,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.19931276142597198,
+          "BCE_output_gradient_L1": 0.18664606377399195,
+          "Chair_confidence": {
+            "0": 4.125012016790562e-06,
+            "0.1": 0.0007085009820804724,
+            "0.5": 0.0058426051752048505,
+            "0.9": 0.04365819209294703,
+            "0.99": 0.18063822165006588,
+            "1": 0.21967211902506864
+          },
+          "aliases": [
+            "C067"
+          ],
+          "balanced_raw_negative_loss": 0.014763908460736275,
+          "balanced_raw_output_gradient_L1": 0.01382563517525881,
+          "focal_negative_loss": 0.004709872882813215,
+          "focal_output_gradient_L1": 0.011610216895475003,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1752,
+            1811,
+            1812,
+            1813,
+            1871,
+            1874,
+            1929,
+            1988,
+            1989,
+            1991,
+            1992,
+            1993,
+            2050,
+            2051,
+            2109,
+            2111,
+            2112,
+            2171,
+            2172,
+            2173,
+            2232,
+            2233,
+            2234,
+            2294,
+            2889,
+            3008,
+            3013
+          ],
+          "query_pairs": 351,
+          "query_pairs_IoU_at_least05": 25,
+          "region_id": "C067",
+          "source_annotation_key": "COCO:198148",
+          "source_annotation_sha256": "9ed5b86bf215645ddfc6e89fceaa634dc55297fe66c9b17b3e6a2f7d6284166b",
+          "source_polygon_sha256": "217047ce13ccc04446793c04387cd78e6a6bd8f9d383ba01fa6a8d23206b0c00",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 27
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 27,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 0.0434834361076355,
+      "BCE_negative_projection_norm": 8.367738951830198,
+      "Chair_confidence": {
+        "0": 2.472069661042253e-08,
+        "0.1": 0.0005236240022286684,
+        "0.5": 0.0009146415220659245,
+        "0.9": 0.003962544655028952,
+        "0.99": 0.029842438507685476,
+        "1": 0.03296124005378131
+      },
+      "all_positive_boxes": 3,
+      "balanced_raw_negative_loss": 0.0010520186042413116,
+      "balanced_raw_output_gradient_L1": 0.0010444116741376713,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 1.60368927026866e-05,
+      "focal_negative_projection_norm": 0.009387622317991952,
+      "identity_group": "flickr-account:kojach",
+      "image_id": "coco2017:000000373101",
+      "index": 17,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 62,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 2,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C072"
+            ],
+            "covered_signatures": 62,
+            "query_indices": [
+              1242,
+              1243,
+              1244,
+              1302,
+              1304,
+              1305,
+              1308,
+              1309,
+              1310,
+              1311,
+              1312,
+              1362,
+              1364,
+              1365,
+              1366,
+              1367,
+              1368,
+              1424,
+              1425,
+              1427,
+              1428,
+              1429,
+              1430,
+              1483,
+              1484,
+              1487,
+              1488,
+              1544,
+              1545,
+              1546,
+              1547,
+              1548,
+              1549,
+              1551,
+              1552,
+              1605,
+              1608,
+              1609,
+              1611,
+              1665,
+              1666,
+              1667,
+              1668,
+              1669,
+              1670,
+              1724,
+              1725,
+              1726,
+              1729,
+              1730,
+              1731,
+              1784,
+              1785,
+              1787,
+              1790,
+              1791,
+              1844,
+              1846,
+              1847,
+              2386,
+              2504,
+              2506
+            ],
+            "region_id": "C072"
+          },
+          {
+            "aliases": [
+              "C204"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C204"
+          }
+        ],
+        "unique_query_signatures": 62,
+        "weights_sum": 0.5
+      },
+      "positive_BCE_cosine": -0.8599196860470025,
+      "positive_Chair_boxes": 2,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 0.7497422606580452,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.04348348081111908,
+          "BCE_output_gradient_L1": 0.043169017423837275,
+          "Chair_confidence": {
+            "0": 2.472069661042253e-08,
+            "0.1": 0.0005236240022286684,
+            "0.5": 0.0009146415220659245,
+            "0.9": 0.003962544655028952,
+            "0.99": 0.029842438507685476,
+            "1": 0.03296124005378131
+          },
+          "aliases": [
+            "C072"
+          ],
+          "balanced_raw_negative_loss": 0.001052019651979208,
+          "balanced_raw_output_gradient_L1": 0.0010444116741376713,
+          "focal_negative_loss": 1.6036910892580636e-05,
+          "focal_output_gradient_L1": 4.6937449749766876e-05,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 255,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1242,
+            1243,
+            1244,
+            1302,
+            1304,
+            1305,
+            1308,
+            1309,
+            1310,
+            1311,
+            1312,
+            1362,
+            1364,
+            1365,
+            1366,
+            1367,
+            1368,
+            1424,
+            1425,
+            1427,
+            1428,
+            1429,
+            1430,
+            1483,
+            1484,
+            1487,
+            1488,
+            1544,
+            1545,
+            1546,
+            1547,
+            1548,
+            1549,
+            1551,
+            1552,
+            1605,
+            1608,
+            1609,
+            1611,
+            1665,
+            1666,
+            1667,
+            1668,
+            1669,
+            1670,
+            1724,
+            1725,
+            1726,
+            1729,
+            1730,
+            1731,
+            1784,
+            1785,
+            1787,
+            1790,
+            1791,
+            1844,
+            1846,
+            1847,
+            2386,
+            2504,
+            2506
+          ],
+          "query_pairs": 1891,
+          "query_pairs_IoU_at_least05": 6,
+          "region_id": "C072",
+          "source_annotation_key": "LVIS:921324",
+          "source_annotation_sha256": "680f26eed1387d53c1b94780d8541a3ac54f61d99988fea53e198ee74bd3c6c1",
+          "source_polygon_sha256": "ce4a671cbc4e5e7b923ab8250d89b88b074ce6774aa8645997f52d9dd78245b4",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 62
+        },
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C204"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 72,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C204",
+          "source_annotation_key": "COCO:32478",
+          "source_annotation_sha256": "bc20350d9fdd7b3d01439805038dc75540a4135625039cdc467d68cecfc5ddbb",
+          "source_polygon_sha256": "361fd3b1321316b91caea64134933113c1d55a57ee38b16a15408f7e95f36c43",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 62,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 2
+    },
+    {
+      "BCE_negative_loss": 0.0387650728225708,
+      "BCE_negative_projection_norm": 7.690195107615092,
+      "Chair_confidence": {
+        "0": 0.00787670671658746,
+        "0.1": 0.007950393305969724,
+        "0.5": 0.01191502196714824,
+        "0.9": 0.028045569244065278,
+        "0.99": 0.05104558391017134,
+        "1": 0.053601141095294236
+      },
+      "all_positive_boxes": 3,
+      "balanced_raw_negative_loss": 0.007314171642065048,
+      "balanced_raw_output_gradient_L1": 0.007226391520816833,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 4.520774382399395e-05,
+      "focal_negative_projection_norm": 0.02775200483543758,
+      "identity_group": "flickr-account:vintagedept",
+      "image_id": "coco2017:000000404592",
+      "index": 18,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 9,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 3,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C077"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C077"
+          },
+          {
+            "aliases": [
+              "C079"
+            ],
+            "covered_signatures": 7,
+            "query_indices": [
+              1240,
+              1299,
+              1300,
+              1301,
+              1358,
+              1359,
+              1360
+            ],
+            "region_id": "C079"
+          },
+          {
+            "aliases": [
+              "C080"
+            ],
+            "covered_signatures": 2,
+            "query_indices": [
+              1159,
+              1160
+            ],
+            "region_id": "C080"
+          }
+        ],
+        "unique_query_signatures": 9,
+        "weights_sum": 0.6666666865348816
+      },
+      "positive_BCE_cosine": -0.8660714602222527,
+      "positive_Chair_boxes": 2,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 2.5999990420441748,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C077"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 64,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C077",
+          "source_annotation_key": "COCO:1955664",
+          "source_annotation_sha256": "22d1b5e29105ceae54270ae94411be0bac34a352fa0cf9213857e02efbd820de",
+          "source_polygon_sha256": "8202bfc5fa9cf44f06f0834e1bfc4204bff868fade28ef48a29565f1dd5b2ae8",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        },
+        {
+          "BCE_negative_loss": 0.03379135578870773,
+          "BCE_output_gradient_L1": 0.033266976941376925,
+          "Chair_confidence": {
+            "0": 0.007968814953315289,
+            "0.1": 0.007968814953315289,
+            "0.5": 0.015014748005819525,
+            "0.9": 0.034434462206872525,
+            "0.99": 0.051684473206452045,
+            "1": 0.053601141095294236
+          },
+          "aliases": [
+            "C079"
+          ],
+          "balanced_raw_negative_loss": 0.00482733640819788,
+          "balanced_raw_output_gradient_L1": 0.004752425418701023,
+          "focal_negative_loss": 4.46596386609599e-05,
+          "focal_output_gradient_L1": 0.00012843626075209613,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1240,
+            1299,
+            1300,
+            1301,
+            1358,
+            1359,
+            1360
+          ],
+          "query_pairs": 21,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C079",
+          "source_annotation_key": "COCO:206067",
+          "source_annotation_sha256": "79aca2a6a66f645510daeafd6f431267e822d300eb72ab0d47999760a8c671eb",
+          "source_polygon_sha256": "fcec07f4d5b75d8a29523e8d35e40d8f72927b601d5e038cba4f12077d764f5c",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 7
+        },
+        {
+          "BCE_negative_loss": 0.004973616451025009,
+          "BCE_output_gradient_L1": 0.00494793220423162,
+          "Chair_confidence": {
+            "0": 0.00787670671658746,
+            "0.1": 0.008280538241643539,
+            "0.5": 0.00989586434186785,
+            "0.9": 0.011511190442092162,
+            "0.99": 0.011874638814642631,
+            "1": 0.01191502196714824
+          },
+          "aliases": [
+            "C080"
+          ],
+          "balanced_raw_negative_loss": 0.0024868082255125046,
+          "balanced_raw_output_gradient_L1": 0.00247396610211581,
+          "focal_negative_loss": 5.480831077875337e-07,
+          "focal_output_gradient_L1": 1.6291663200718176e-06,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1159,
+            1160
+          ],
+          "query_pairs": 1,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C080",
+          "source_annotation_key": "COCO:254320",
+          "source_annotation_sha256": "f21b549d5103044482f81d566c01750a5fd3edad9a0abe06b96d913b13ad1a3c",
+          "source_polygon_sha256": "e77707c3f7f2f589aaebdaf4a2ca86ee8c8474996b78b77c6471260afbbca589",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 2
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 9,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 3
+    },
+    {
+      "BCE_negative_loss": 0.0,
+      "BCE_negative_projection_norm": 0.0,
+      "Chair_confidence": {},
+      "all_positive_boxes": 6,
+      "balanced_raw_negative_loss": 0.0,
+      "balanced_raw_output_gradient_L1": 0.0,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 0.0,
+      "focal_negative_projection_norm": 0.0,
+      "identity_group": "flickr-account:nduran",
+      "image_id": "coco2017:000000421108",
+      "index": 19,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 0,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 2,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C081"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C081"
+          },
+          {
+            "aliases": [
+              "C083"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C083"
+          }
+        ],
+        "unique_query_signatures": 0,
+        "weights_sum": 0.0
+      },
+      "positive_BCE_cosine": null,
+      "positive_Chair_boxes": 5,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 2.3269494653727407,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C081"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C081",
+          "source_annotation_key": "COCO:1722887",
+          "source_annotation_sha256": "83a28e6c5fb33116198906e79a192c2bc066dcf8262b82c4c23401bf39f928a3",
+          "source_polygon_sha256": "0cb82eb8e93e69816690314c350ab99625a8fce4e0bae4d6662faead5c516d19",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        },
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C083"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C083",
+          "source_annotation_key": "COCO:222347",
+          "source_annotation_sha256": "f3ea7f70943438405e3a8cae9e3e26e64d3454a757106bdcdd86951776a14e01",
+          "source_polygon_sha256": "70dd23544c0cbf800e221628adca50ed8eaef7780647fb708edc54fe2728893e",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 0,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 2
+    },
+    {
+      "BCE_negative_loss": 9.47713851928711e-05,
+      "BCE_negative_projection_norm": 0.027565038480517334,
+      "Chair_confidence": {
+        "0": 0.0005053045797452953,
+        "0.1": 0.0005053045797452953,
+        "0.5": 0.0005053045797452953,
+        "0.9": 0.0005053045797452953,
+        "0.99": 0.0005053045797452953,
+        "1": 0.0005053045797452953
+      },
+      "all_positive_boxes": 4,
+      "balanced_raw_negative_loss": 0.0001895427703857422,
+      "balanced_raw_output_gradient_L1": 0.0001894892193377018,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 2.4200492304560228e-11,
+      "focal_negative_projection_norm": 0.0,
+      "identity_group": "flickr-account:donabelandewen",
+      "image_id": "coco2017:000000449850",
+      "index": 20,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 1,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 2,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C085"
+            ],
+            "covered_signatures": 1,
+            "query_indices": [
+              2782
+            ],
+            "region_id": "C085"
+          },
+          {
+            "aliases": [
+              "C207"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C207"
+          }
+        ],
+        "unique_query_signatures": 1,
+        "weights_sum": 0.5
+      },
+      "positive_BCE_cosine": -0.7795249239531864,
+      "positive_Chair_boxes": 2,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 0.28279450392850386,
+      "regions": [
+        {
+          "BCE_negative_loss": 9.476854756940156e-05,
+          "BCE_output_gradient_L1": 9.474460239289328e-05,
+          "Chair_confidence": {
+            "0": 0.0005053045797452953,
+            "0.1": 0.0005053045797452953,
+            "0.5": 0.0005053045797452953,
+            "0.9": 0.0005053045797452953,
+            "0.99": 0.0005053045797452953,
+            "1": 0.0005053045797452953
+          },
+          "aliases": [
+            "C085"
+          ],
+          "balanced_raw_negative_loss": 0.00018953709513880312,
+          "balanced_raw_output_gradient_L1": 0.0001894892193377018,
+          "focal_negative_loss": 2.41975120496285e-11,
+          "focal_output_gradient_L1": 7.256792389220834e-11,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            2782
+          ],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C085",
+          "source_annotation_key": "COCO:197389",
+          "source_annotation_sha256": "168b4371614ad84f6e5677fdd58cd57db28ecd15c0a570704b6e5daaf2d59e72",
+          "source_polygon_sha256": "cd7c7de8f1c446eee86d06cb47e647398458ea819055c790e2a09db1de7fad54",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 1
+        },
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C207"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 72,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C207",
+          "source_annotation_key": "COCO:33816",
+          "source_annotation_sha256": "1d66f31a6c72ac2779d80eb5a45fb285d387214cc2213e9b2f81faf0b3037236",
+          "source_polygon_sha256": "d2d7e2730bc66e7d828158404d96668c7f7300bdc8978aad8dd2fb67c9cfc08d",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 1,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 2
+    },
+    {
+      "BCE_negative_loss": 0.0016214847564697266,
+      "BCE_negative_projection_norm": 0.3288769612134188,
+      "Chair_confidence": {
+        "0": 0.008610767667510729,
+        "0.1": 0.008610767667510729,
+        "0.5": 0.008610767667510729,
+        "0.9": 0.008610767667510729,
+        "0.99": 0.008610767667510729,
+        "1": 0.008610767667510729
+      },
+      "all_positive_boxes": 4,
+      "balanced_raw_negative_loss": 0.006485939025878906,
+      "balanced_raw_output_gradient_L1": 0.00645807571709156,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 1.2022599094052566e-07,
+      "focal_negative_projection_norm": 7.289682187806643e-05,
+      "identity_group": "flickr-account:snaks",
+      "image_id": "coco2017:000000463290",
+      "index": 21,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 1,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C177"
+            ],
+            "covered_signatures": 1,
+            "query_indices": [
+              1990
+            ],
+            "region_id": "C177"
+          }
+        ],
+        "unique_query_signatures": 1,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.5374813412222792,
+      "positive_Chair_boxes": 2,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 2.7357490768854444,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.0016215102514252067,
+          "BCE_output_gradient_L1": 0.00161451892927289,
+          "Chair_confidence": {
+            "0": 0.008610767667510729,
+            "0.1": 0.008610767667510729,
+            "0.5": 0.008610767667510729,
+            "0.9": 0.008610767667510729,
+            "0.99": 0.008610767667510729,
+            "1": 0.008610767667510729
+          },
+          "aliases": [
+            "C177"
+          ],
+          "balanced_raw_negative_loss": 0.006486041005700827,
+          "balanced_raw_output_gradient_L1": 0.00645807571709156,
+          "focal_negative_loss": 1.2022738360428775e-07,
+          "focal_output_gradient_L1": 3.5809051723845187e-07,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 27,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1990
+          ],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C177",
+          "source_annotation_key": "COCO:1163967",
+          "source_annotation_sha256": "1a02ab8f98889484c2cd65497f3a048710d4d32fdb4ee741040faaa384084923",
+          "source_polygon_sha256": "dbe35dec0a9b58ca520ee08e42ad713802fe73d730ab52a956122995d3d3f6f7",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 1
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 1,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 0.05488318204879761,
+      "BCE_negative_projection_norm": 10.617399346699328,
+      "Chair_confidence": {
+        "0": 0.0015011822567369917,
+        "0.1": 0.003538086057088537,
+        "0.5": 0.011419614645648403,
+        "0.9": 0.023599294351465336,
+        "0.99": 0.028591304972237566,
+        "1": 0.029145972818990035
+      },
+      "all_positive_boxes": 2,
+      "balanced_raw_negative_loss": 0.006243026815354824,
+      "balanced_raw_output_gradient_L1": 0.0061935446319694165,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 2.3087097360985354e-05,
+      "focal_negative_projection_norm": 0.013229786325165135,
+      "identity_group": "flickr-account:deepphoto",
+      "image_id": "coco2017:000000477263",
+      "index": 22,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 11,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 3,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C098"
+            ],
+            "covered_signatures": 1,
+            "query_indices": [
+              1573
+            ],
+            "region_id": "C098"
+          },
+          {
+            "aliases": [
+              "C100"
+            ],
+            "covered_signatures": 10,
+            "query_indices": [
+              1009,
+              1069,
+              1070,
+              1071,
+              1072,
+              1129,
+              1130,
+              1131,
+              1132,
+              1191
+            ],
+            "region_id": "C100"
+          },
+          {
+            "aliases": [
+              "C103"
+            ],
+            "covered_signatures": 0,
+            "query_indices": [],
+            "region_id": "C103"
+          }
+        ],
+        "unique_query_signatures": 11,
+        "weights_sum": 0.6666666865348816
+      },
+      "positive_BCE_cosine": -0.4133660833388747,
+      "positive_Chair_boxes": 0,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 2.2470290651295453,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.004306994378566742,
+          "BCE_output_gradient_L1": 0.004282355308532715,
+          "Chair_confidence": {
+            "0": 0.011419614645648403,
+            "0.1": 0.011419614645648403,
+            "0.5": 0.011419614645648403,
+            "0.9": 0.011419614645648403,
+            "0.99": 0.011419614645648403,
+            "1": 0.011419614645648403
+          },
+          "aliases": [
+            "C098"
+          ],
+          "balanced_raw_negative_loss": 0.002871329663321376,
+          "balanced_raw_output_gradient_L1": 0.002854903694242239,
+          "focal_negative_loss": 5.616648195427842e-07,
+          "focal_output_gradient_L1": 1.6689280073478585e-06,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1573
+          ],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C098",
+          "source_annotation_key": "COCO:1254884",
+          "source_annotation_sha256": "ac7beaac52b8515da157eac6e755c702bd67f626a6f44a9dbd64004b3cad07fc",
+          "source_polygon_sha256": "f52382db52d5c6b5ffc85719dcd7bba3917c2832443239fcd4267b6e7f7ebdae",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 1
+        },
+        {
+          "BCE_negative_loss": 0.05057612806558609,
+          "BCE_output_gradient_L1": 0.05007961008232087,
+          "Chair_confidence": {
+            "0": 0.0015011822567369917,
+            "0.1": 0.0033343956770533825,
+            "0.5": 0.01047564312766952,
+            "0.9": 0.024153962198217804,
+            "0.99": 0.02864677175691281,
+            "1": 0.029145972818990035
+          },
+          "aliases": [
+            "C100"
+          ],
+          "balanced_raw_negative_loss": 0.0033717418555170298,
+          "balanced_raw_output_gradient_L1": 0.0033386409377271775,
+          "focal_negative_loss": 2.2525471649714746e-05,
+          "focal_output_gradient_L1": 6.620091485176616e-05,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1009,
+            1069,
+            1070,
+            1071,
+            1072,
+            1129,
+            1130,
+            1131,
+            1132,
+            1191
+          ],
+          "query_pairs": 45,
+          "query_pairs_IoU_at_least05": 3,
+          "region_id": "C100",
+          "source_annotation_key": "COCO:2164051",
+          "source_annotation_sha256": "818a5189d0d197cbb920de68ffa028efea114e133941a05097fed4b003271061",
+          "source_polygon_sha256": "b988183076824e7403627691694d6f4bbfc8c609f6f4d1efa86a21e3cb52eebf",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 10
+        },
+        {
+          "BCE_negative_loss": 0.0,
+          "BCE_output_gradient_L1": 0.0,
+          "Chair_confidence": {},
+          "aliases": [
+            "C103"
+          ],
+          "balanced_raw_negative_loss": 0.0,
+          "balanced_raw_output_gradient_L1": 0.0,
+          "focal_negative_loss": 0.0,
+          "focal_output_gradient_L1": 0.0,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 1,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [],
+          "query_pairs": 0,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C103",
+          "source_annotation_key": "COCO:426758",
+          "source_annotation_sha256": "7d197b8f31557ba57d9260f7245571a94bbcffbe3971ba51156e54f3a122f277",
+          "source_polygon_sha256": "4fa97e4e3723baf992435f208296b0273eec1977192913de2155465c3166b1ed",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 0
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 11,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 3
+    },
+    {
+      "BCE_negative_loss": 0.014570832252502441,
+      "BCE_negative_projection_norm": 3.078622121875456,
+      "Chair_confidence": {
+        "0": 0.005511934210807019,
+        "0.1": 0.006179018385231692,
+        "0.5": 0.008847355082930384,
+        "0.9": 0.021085809190558018,
+        "0.99": 0.023839461364774234,
+        "1": 0.024145422717464924
+      },
+      "all_positive_boxes": 2,
+      "balanced_raw_negative_loss": 0.009713888168334961,
+      "balanced_raw_output_gradient_L1": 0.009626177954487503,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 5.667412551702e-06,
+      "focal_negative_projection_norm": 0.0036860180717283126,
+      "identity_group": "flickr-account:marcusspaapen",
+      "image_id": "coco2017:000000543194",
+      "index": 23,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 3,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C159"
+            ],
+            "covered_signatures": 3,
+            "query_indices": [
+              1098,
+              1158,
+              1159
+            ],
+            "region_id": "C159"
+          }
+        ],
+        "unique_query_signatures": 3,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.8653468839280564,
+      "positive_Chair_boxes": 1,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 0.3342656457807681,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.014570852741599083,
+          "BCE_output_gradient_L1": 0.014439267572015524,
+          "Chair_confidence": {
+            "0": 0.005511934210807019,
+            "0.1": 0.006179018385231692,
+            "0.5": 0.008847355082930384,
+            "0.9": 0.021085809190558018,
+            "0.99": 0.023839461364774234,
+            "1": 0.024145422717464924
+          },
+          "aliases": [
+            "C159"
+          ],
+          "balanced_raw_negative_loss": 0.00971390213817358,
+          "balanced_raw_output_gradient_L1": 0.009626177954487503,
+          "focal_negative_loss": 5.667406639986439e-06,
+          "focal_output_gradient_L1": 1.6672773256232176e-05,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 82,
+          "native_dataset": "COCO",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1098,
+            1158,
+            1159
+          ],
+          "query_pairs": 3,
+          "query_pairs_IoU_at_least05": 1,
+          "region_id": "C159",
+          "source_annotation_key": "COCO:1646999",
+          "source_annotation_sha256": "f5f3bd3c1402c0963723c4d7fa0424f066fa9ac81434ef12763b92307ec0f427",
+          "source_polygon_sha256": "c3bc44d1d68dbda6d2caea7802b24c3c072d6c31036eb9a71a104ab090fd3f82",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 3
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 3,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    },
+    {
+      "BCE_negative_loss": 0.012000024318695068,
+      "BCE_negative_projection_norm": 2.3020107844855513,
+      "Chair_confidence": {
+        "0": 0.0005884088185569387,
+        "0.1": 0.0007749531695401233,
+        "0.5": 0.0016011132451350784,
+        "0.9": 0.00414813024565511,
+        "0.99": 0.007507757173043104,
+        "1": 0.007999754508377907
+      },
+      "all_positive_boxes": 2,
+      "balanced_raw_negative_loss": 0.0017142891883850098,
+      "balanced_raw_output_gradient_L1": 0.0017109422296925914,
+      "cap_factor": null,
+      "cap_measurement_required": "C8 all6class-head gradients on original initialization;C15R was adapted C11 with calibration frozen",
+      "focal_negative_loss": 2.6334166136621207e-07,
+      "focal_negative_projection_norm": 0.00015136415703263472,
+      "identity_group": "flickr-account:oldrebel",
+      "image_id": "coco2017:000000580827",
+      "index": 24,
+      "new_balanced_parameter_direction": null,
+      "new_balanced_parameter_norm": null,
+      "normalization": {
+        "admitted_queries": 14,
+        "all_noncovered_regions_zero": true,
+        "duplicate_query_signatures_collapsed": 0,
+        "group_region_count": 1,
+        "overlapping_query_ownership": "Lexicographically first canonical containing region;one query contributes once",
+        "regions": [
+          {
+            "aliases": [
+              "C121"
+            ],
+            "covered_signatures": 14,
+            "query_indices": [
+              1206,
+              1209,
+              1266,
+              1267,
+              1268,
+              1269,
+              1326,
+              1328,
+              1329,
+              1389,
+              1390,
+              1446,
+              1447,
+              1448
+            ],
+            "region_id": "C121"
+          }
+        ],
+        "unique_query_signatures": 14,
+        "weights_sum": 1.0
+      },
+      "positive_BCE_cosine": -0.6739173169189682,
+      "positive_Chair_boxes": 1,
+      "positive_loss_preserved": true,
+      "positive_projection_norm": 0.01650959422843109,
+      "regions": [
+        {
+          "BCE_negative_loss": 0.011999929323792458,
+          "BCE_output_gradient_L1": 0.011976594716543332,
+          "Chair_confidence": {
+            "0": 0.0005884088185569387,
+            "0.1": 0.0007749531695401233,
+            "0.5": 0.0016011132451350782,
+            "0.9": 0.00414813024565511,
+            "0.99": 0.007507757173043104,
+            "1": 0.007999754508377907
+          },
+          "aliases": [
+            "C121"
+          ],
+          "balanced_raw_negative_loss": 0.0017142758006229997,
+          "balanced_raw_output_gradient_L1": 0.0017109422296925914,
+          "focal_negative_loss": 2.633403823892877e-07,
+          "focal_output_gradient_L1": 7.855376880083753e-07,
+          "human_reviewed": false,
+          "independence": "Each admitted source polygon retains provenance;different regions are not asserted independent physical objects",
+          "native_category": 255,
+          "native_dataset": "LVIS",
+          "negative_parameter_norm": null,
+          "parameter_decomposition": "Per-region signed parameter gradients/pre-head features were not saved;no apportionment of photo-level norms",
+          "queries": [
+            1206,
+            1209,
+            1266,
+            1267,
+            1268,
+            1269,
+            1326,
+            1328,
+            1329,
+            1389,
+            1390,
+            1446,
+            1447,
+            1448
+          ],
+          "query_pairs": 91,
+          "query_pairs_IoU_at_least05": 0,
+          "region_id": "C121",
+          "source_annotation_key": "LVIS:652734",
+          "source_annotation_sha256": "b6b56877206c55d85d221971f5da751d836dbd67b4ec68396de78cacb1530454",
+          "source_polygon_sha256": "820a32bad2064e5c47aae090feb3f5f1328e4e47578691e1ea8701bfcd853e79",
+          "source_verified_under_existing_policy": true,
+          "unique_query_signatures": 14
+        }
+      ],
+      "same_target_and_ignore_masks": true,
+      "source_queries": 14,
+      "source_support": "Existing41automatic source-polygon negatives,not new human labels",
+      "verified_regions": 1
+    }
+  ],
+  "new_negatives": 0,
+  "per_region_parameter_gradients_unavailable": true,
+  "source_photos_not_redecoded": true
+}

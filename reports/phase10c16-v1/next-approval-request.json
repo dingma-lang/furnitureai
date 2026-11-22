@@ -1,0 +1,43 @@
+{
+  "GPU_authorized": false,
+  "accumulation_groups": 15,
+  "approved": false,
+  "automatic_retry": false,
+  "automatic_training_after_smoke": false,
+  "checks": [
+    "identical outputs/masks,allpositive/protected preserved",
+    "actual full6class-head cap <=rho*positive norm when anchor valid",
+    "zero-coverage zero source contribution",
+    "no loss-value/output-gradient proxy substituted for parameter gradients",
+    "no invalid scope,overflow,near-zero positive-anchor update or resource violation",
+    "record all7scores,groups,calibration gradients,per-region branch attribution where affordable",
+    "persist model/buffer hashes and per-photo memory/count telemetry before CPU analysis"
+  ],
+  "destination": "data/open-images/experiments/phase10c16-balanced-gradient-smoke-v1/",
+  "destination_created": false,
+  "estimated_seconds": [
+    60,
+    120
+  ],
+  "estimates_not_measurements": true,
+  "expected_allocated_VRAM_GiB": [
+    2,
+    4
+  ],
+  "gradient_calls_per_photo": "5:positive,unchangedbase,sourcefocal,sourceBCE,sourcebalanced;cap/compose at group boundary,no optimizer",
+  "last_group_size": 3,
+  "max_GPU_seconds": 180,
+  "max_VRAM_bytes": 6979321856,
+  "max_gradient_calculations": 295,
+  "max_model_forwards": 59,
+  "max_new_output_bytes": 134217728,
+  "objective": "Measure actual six-class-head gradient budget and source strength versus focal/BCE,not infer it from C11 cached projection norms",
+  "optimizer_steps": 0,
+  "photo_manifest": "data/open-images/preparation/phase10c16-v1/proposed-smoke-photos.json",
+  "photo_manifest_sha256": "929d01ed8745675bd84ff7edba4fdeeeb8b87a6d45cd8454da8e264621a223ef",
+  "photos": 59,
+  "scope": "One zero-update gradient smoke,original pretrained C8 all12head scope;no C11 calibration freezing orC13L2SP",
+  "source_groups": 56,
+  "source_regions": 41,
+  "training_authorized": false
+}

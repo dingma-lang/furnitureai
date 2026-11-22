@@ -1,0 +1,595 @@
+{
+  "CPU_region_loss_reconstruction_deltas": [
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -8.242204785346985e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": -4.391154106997419e-12,
+      "index": 1
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -3.9002770790830255e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": -1.5047370901383195e-16,
+      "index": 2
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 1.1641532182693481e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": -2.5011104298755527e-12,
+      "index": 3
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -4.936009645462036e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": -7.087663789206999e-13,
+      "index": 4
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -7.962808012962341e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": -8.526512829121202e-12,
+      "index": 5
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -1.1175870895385742e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": -4.501998773775995e-11,
+      "index": 6
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 1.955777406692505e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": 5.030642569181509e-12,
+      "index": 7
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 0.0,
+      "focal_CPU_region_sum_minus_saved_GPU": 0.0,
+      "index": 8
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -4.4330954551696777e-07,
+      "focal_CPU_region_sum_minus_saved_GPU": 2.4374458007514477e-10,
+      "index": 9
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 0.0,
+      "focal_CPU_region_sum_minus_saved_GPU": 0.0,
+      "index": 10
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -2.9802322387695312e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": -1.0186340659856796e-10,
+      "index": 11
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 0.0,
+      "focal_CPU_region_sum_minus_saved_GPU": -5.820766091346741e-11,
+      "index": 12
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 0.0,
+      "focal_CPU_region_sum_minus_saved_GPU": 0.0,
+      "index": 13
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 0.0,
+      "focal_CPU_region_sum_minus_saved_GPU": 0.0,
+      "index": 14
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 2.7939677238464355e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": 3.694822225952521e-12,
+      "index": 15
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -1.341104507446289e-07,
+      "focal_CPU_region_sum_minus_saved_GPU": 9.313225746154785e-10,
+      "index": 16
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 4.470348358154297e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": 1.8189894035458565e-11,
+      "index": 17
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -1.0058283805847168e-07,
+      "focal_CPU_region_sum_minus_saved_GPU": -2.205524651799351e-11,
+      "index": 18
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 0.0,
+      "focal_CPU_region_sum_minus_saved_GPU": 0.0,
+      "index": 19
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -2.837623469531536e-09,
+      "focal_CPU_region_sum_minus_saved_GPU": -2.9802549317281546e-15,
+      "index": 20
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 2.5494955480098724e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": 1.3926637620897964e-12,
+      "index": 21
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -5.960464477539063e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": 3.9108272176235914e-11,
+      "index": 22
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": 2.0489096641540527e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": -5.9117155615240335e-12,
+      "index": 23
+    },
+    {
+      "BCE_CPU_region_sum_minus_saved_GPU": -9.499490261077881e-08,
+      "focal_CPU_region_sum_minus_saved_GPU": -1.2789769243681803e-12,
+      "index": 24
+    }
+  ],
+  "covered_regions_missing_separate_signed_parameter_gradients": 10,
+  "known_zero_regions": 17,
+  "output_concentration": {
+    "BCE": {
+      "sum_output_L1": 1.1325037300382963,
+      "top3_share": 0.6674066080525951
+    },
+    "balanced_raw": {
+      "sum_output_L1": 0.1445124656291012,
+      "top3_share": 0.4646997842977256
+    },
+    "focal": {
+      "sum_output_L1": 0.01750855044370582,
+      "top3_share": 0.928335264035064
+    }
+  },
+  "per_region_loss_values_are_CPU_reconstructions_not_saved_GPU_region_scalars": true,
+  "regions": [
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:_cck_",
+      "image_id": "coco2017:000000002270",
+      "new_balanced_parameter_norm": null,
+      "queries": 2,
+      "region_id": "C009",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.5526983715614453,
+      "saved_C11_two_tensor_projection_focal_norm": 8.842170924304431e-05,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:68258082@n06",
+      "image_id": "coco2017:000000002347",
+      "new_balanced_parameter_norm": null,
+      "queries": 1,
+      "region_id": "C148",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.007518916471761562,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:mikecogh",
+      "image_id": "coco2017:000000030347",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C015",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:mikecogh",
+      "image_id": "coco2017:000000030347",
+      "new_balanced_parameter_norm": null,
+      "queries": 6,
+      "region_id": "C017",
+      "saved_C11_two_tensor_projection_BCE_norm": 1.0208555512291062,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0003086024305319265,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:davidgiesberg",
+      "image_id": "coco2017:000000037367",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C143",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:davidgiesberg",
+      "image_id": "coco2017:000000037367",
+      "new_balanced_parameter_norm": null,
+      "queries": 2,
+      "region_id": "C154",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.20133152092797915,
+      "saved_C11_two_tensor_projection_focal_norm": 1.0076107755850324e-05,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:davidgiesberg",
+      "image_id": "coco2017:000000037367",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C189",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:98894271@n00",
+      "image_id": "coco2017:000000074638",
+      "new_balanced_parameter_norm": null,
+      "queries": 7,
+      "region_id": "C165",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:98894271@n00",
+      "image_id": "coco2017:000000074638",
+      "new_balanced_parameter_norm": null,
+      "queries": 19,
+      "region_id": "C191",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:laruth",
+      "image_id": "coco2017:000000108375",
+      "new_balanced_parameter_norm": null,
+      "queries": 2,
+      "region_id": "C022",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:laruth",
+      "image_id": "coco2017:000000108375",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C025",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:laruth",
+      "image_id": "coco2017:000000108375",
+      "new_balanced_parameter_norm": null,
+      "queries": 9,
+      "region_id": "C028",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:johanl",
+      "image_id": "coco2017:000000114729",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C142",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:johanl",
+      "image_id": "coco2017:000000114729",
+      "new_balanced_parameter_norm": null,
+      "queries": 7,
+      "region_id": "C152",
+      "saved_C11_two_tensor_projection_BCE_norm": 2.896483088377147,
+      "saved_C11_two_tensor_projection_focal_norm": 0.00011994267662361771,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:picturesbyann",
+      "image_id": "coco2017:000000121824",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C036",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:pagel",
+      "image_id": "coco2017:000000165742",
+      "new_balanced_parameter_norm": null,
+      "queries": 45,
+      "region_id": "C045",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:pagel",
+      "image_id": "coco2017:000000165742",
+      "new_balanced_parameter_norm": null,
+      "queries": 5,
+      "region_id": "C174",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:portobaytrade",
+      "image_id": "coco2017:000000178671",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C145",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:vxla",
+      "image_id": "coco2017:000000192834",
+      "new_balanced_parameter_norm": null,
+      "queries": 33,
+      "region_id": "C141",
+      "saved_C11_two_tensor_projection_BCE_norm": 84.49739461962425,
+      "saved_C11_two_tensor_projection_focal_norm": 0.11295211312196114,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:emilysnuffer",
+      "image_id": "coco2017:000000195507",
+      "new_balanced_parameter_norm": null,
+      "queries": 14,
+      "region_id": "C201",
+      "saved_C11_two_tensor_projection_BCE_norm": 31.59813204006438,
+      "saved_C11_two_tensor_projection_focal_norm": 0.1739996711811313,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:kassandrabay",
+      "image_id": "coco2017:000000197201",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C202",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:mugland",
+      "image_id": "coco2017:000000231450",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C144",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:mugland",
+      "image_id": "coco2017:000000231450",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C157",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:jonnygoldstein",
+      "image_id": "coco2017:000000263212",
+      "new_balanced_parameter_norm": null,
+      "queries": 1,
+      "region_id": "C056",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.34979551638874695,
+      "saved_C11_two_tensor_projection_focal_norm": 9.940096062571975e-05,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:jonnygoldstein",
+      "image_id": "coco2017:000000263212",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C203",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:mikebabcock",
+      "image_id": "coco2017:000000294698",
+      "new_balanced_parameter_norm": null,
+      "queries": 27,
+      "region_id": "C067",
+      "saved_C11_two_tensor_projection_BCE_norm": 31.31078632902645,
+      "saved_C11_two_tensor_projection_focal_norm": 1.8970166331715643,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:kojach",
+      "image_id": "coco2017:000000373101",
+      "new_balanced_parameter_norm": null,
+      "queries": 62,
+      "region_id": "C072",
+      "saved_C11_two_tensor_projection_BCE_norm": 8.367738951830198,
+      "saved_C11_two_tensor_projection_focal_norm": 0.009387622317991952,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:kojach",
+      "image_id": "coco2017:000000373101",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C204",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:vintagedept",
+      "image_id": "coco2017:000000404592",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C077",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:vintagedept",
+      "image_id": "coco2017:000000404592",
+      "new_balanced_parameter_norm": null,
+      "queries": 7,
+      "region_id": "C079",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:vintagedept",
+      "image_id": "coco2017:000000404592",
+      "new_balanced_parameter_norm": null,
+      "queries": 2,
+      "region_id": "C080",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:nduran",
+      "image_id": "coco2017:000000421108",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C081",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:nduran",
+      "image_id": "coco2017:000000421108",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C083",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:donabelandewen",
+      "image_id": "coco2017:000000449850",
+      "new_balanced_parameter_norm": null,
+      "queries": 1,
+      "region_id": "C085",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.027565038480517334,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:donabelandewen",
+      "image_id": "coco2017:000000449850",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C207",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:snaks",
+      "image_id": "coco2017:000000463290",
+      "new_balanced_parameter_norm": null,
+      "queries": 1,
+      "region_id": "C177",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.3288769612134188,
+      "saved_C11_two_tensor_projection_focal_norm": 7.289682187806643e-05,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:deepphoto",
+      "image_id": "coco2017:000000477263",
+      "new_balanced_parameter_norm": null,
+      "queries": 1,
+      "region_id": "C098",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Multiple covered regions:signed region parameter vectors not saved,cannot apportion a norm",
+      "identity_group": "flickr-account:deepphoto",
+      "image_id": "coco2017:000000477263",
+      "new_balanced_parameter_norm": null,
+      "queries": 10,
+      "region_id": "C100",
+      "saved_C11_two_tensor_projection_BCE_norm": null,
+      "saved_C11_two_tensor_projection_focal_norm": null,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Exact zero:region has no admitted model queries",
+      "identity_group": "flickr-account:deepphoto",
+      "image_id": "coco2017:000000477263",
+      "new_balanced_parameter_norm": null,
+      "queries": 0,
+      "region_id": "C103",
+      "saved_C11_two_tensor_projection_BCE_norm": 0.0,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:marcusspaapen",
+      "image_id": "coco2017:000000543194",
+      "new_balanced_parameter_norm": null,
+      "queries": 3,
+      "region_id": "C159",
+      "saved_C11_two_tensor_projection_BCE_norm": 3.078622121875456,
+      "saved_C11_two_tensor_projection_focal_norm": 0.0036860180717283126,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    },
+    {
+      "attribution_basis": "Only covered region:all saved photo-level source-negative projection gradients originate here",
+      "identity_group": "flickr-account:oldrebel",
+      "image_id": "coco2017:000000580827",
+      "new_balanced_parameter_norm": null,
+      "queries": 14,
+      "region_id": "C121",
+      "saved_C11_two_tensor_projection_BCE_norm": 2.3020107844855513,
+      "saved_C11_two_tensor_projection_focal_norm": 0.00015136415703263472,
+      "saved_scope": "C11 calibration-frozen two-tensor projection,not C8 full6class-head scope"
+    }
+  ],
+  "sole_covered_regions_with_attributable_saved_photo_norm": 14
+}

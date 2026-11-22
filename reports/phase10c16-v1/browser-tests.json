@@ -1,0 +1,20 @@
+{
+  "GPU_disabled": true,
+  "checks": [
+    "All24 cached optimization groups",
+    "Opt-in gate visible",
+    "C8 calibration scope visible",
+    "Nineteen covered groups",
+    "Five uncovered groups retained",
+    "Missing real parameter cap not invented",
+    "Evidence provenance inspectable",
+    "New parameter gradient unavailable label",
+    "No write endpoint /train",
+    "No write endpoint /infer",
+    "No write endpoint /review",
+    "No model/data file serving",
+    "No coefficient tuning or mandatory annotation form"
+  ],
+  "model_forwards": 0,
+  "status": "PASS"
+}

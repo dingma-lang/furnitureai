@@ -1,0 +1,64 @@
+{
+  "CPU_passed": 150,
+  "browser": {
+    "GPU_disabled": true,
+    "checks": [
+      "All24 cached optimization groups",
+      "Opt-in gate visible",
+      "C8 calibration scope visible",
+      "Nineteen covered groups",
+      "Five uncovered groups retained",
+      "Missing real parameter cap not invented",
+      "Evidence provenance inspectable",
+      "New parameter gradient unavailable label",
+      "No write endpoint /train",
+      "No write endpoint /infer",
+      "No write endpoint /review",
+      "No model/data file serving",
+      "No coefficient tuning or mandatory annotation form"
+    ],
+    "model_forwards": 0,
+    "status": "PASS"
+  },
+  "new_model_forwards": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "data/open-images/preparation/phase10c16-v1/tests-C16-edd4699d.log",
+      "passed": 33,
+      "sha256": "b4c6d162ee320d427524f81ab48a10e02c75472d8d6cf73d8563bfcd26d28435",
+      "suite": "C16"
+    },
+    {
+      "log": "data/open-images/preparation/phase10c16-v1/tests-C8-aee43a86.log",
+      "passed": 16,
+      "sha256": "998cfc8bf5bb98004260a2c91b57cb0e6539a23cc270bcc8ed50e53ec33f556f",
+      "suite": "C8"
+    },
+    {
+      "log": "data/open-images/preparation/phase10c16-v1/tests-C6-8bf026a9.log",
+      "passed": 31,
+      "sha256": "0f4ea6e8d08525b50df4f5916dd0ecf3cefef260b498747412461de5a3a334ec",
+      "suite": "C6"
+    },
+    {
+      "log": "data/open-images/preparation/phase10c16-v1/tests-C14-31c5c6d0.log",
+      "passed": 25,
+      "sha256": "2818361363935dfb4435c386b9e93de3dbe203c2f0c1a737f174ea44407c1001",
+      "suite": "C14"
+    },
+    {
+      "log": "data/open-images/preparation/phase10c16-v1/tests-Expanded-1597c4d0.log",
+      "passed": 32,
+      "sha256": "1d7bd8f5482953956f99fe3db23fb49bb51c9b02e8e4062042399543d63350d8",
+      "suite": "Expanded"
+    },
+    {
+      "log": "data/open-images/preparation/phase10c16-v1/tests-C15-loss-8ba68b96.log",
+      "passed": 13,
+      "sha256": "a4193638f471747ef0390b5512da5f564a22c41c4f878a80aed4e70d57c1a947",
+      "suite": "C15-loss"
+    }
+  ],
+  "training_updates": 0
+}

@@ -1,0 +1,44 @@
+{
+  "C11": {
+    "C11_final_checkpoint_sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "C11_private_files": 626,
+    "C11_public_files": 31,
+    "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+  },
+  "C13_private_files": 625,
+  "C13_public_files": 26,
+  "C14_private_files": 683,
+  "C14_public_files": 19,
+  "C15R": {
+    "C15R_private_files": 291,
+    "C15R_public_files": 13,
+    "confirmed": {
+      "BCE_output": 1.1325037300382963,
+      "BCE_projection": 9.24055105074548,
+      "focal_output": 0.01750855044370582,
+      "focal_projection": 0.1311844795941962
+    },
+    "metadata_and_masks_verified": true,
+    "real_model_forwards": 0
+  },
+  "C8_calibration_trainability_preserved_in_proposal": true,
+  "C8_private_files": 1310,
+  "GPU_model_forwards": 0,
+  "GPU_training": 0,
+  "Mac_project_modified": false,
+  "annotation_overlays_activated": 0,
+  "datasets_or_models_downloaded": 0,
+  "eligible_image_hashes": 78,
+  "historical_data_model_files": 9973,
+  "historical_data_modified": false,
+  "historical_implementation_files": 27,
+  "new_negative_labels": 0,
+  "phase10b_report_artifacts": 24,
+  "phase10b_snapshots": 160,
+  "policy_disabled_by_default": true,
+  "real_model_forwards": 0,
+  "reserved_or_frozen_images_decoded": 0,
+  "source_group_isolation": true,
+  "status": "PASS",
+  "training_updates": 0
+}

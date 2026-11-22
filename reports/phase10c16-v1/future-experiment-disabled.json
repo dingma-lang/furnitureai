@@ -1,0 +1,222 @@
+{
+  "GPU_authorized": false,
+  "L2SP_enabled": false,
+  "Phase10D_authorized": false,
+  "arms": 1,
+  "baseline": "Immutable Phase10C.8 B-corrected",
+  "calibration_behavior": "C8 all4shift/scale tensors trainable,not C11 frozen",
+  "calibration_keys_frozen": [],
+  "class_gradient_keys": [
+    "class_head.dense0.bias",
+    "class_head.dense0.weight",
+    "class_head.logit_scale.bias",
+    "class_head.logit_scale.weight",
+    "class_head.logit_shift.bias",
+    "class_head.logit_shift.weight"
+  ],
+  "data": {
+    "catalog_sha256": "c54538cdc419cb768064ac46a2ab5245db255ae0817fb083b5878d6f3674a6bf",
+    "known_source_groups": 56,
+    "manifest": "data/open-images/preparation/phase10b-v1/eligibility-manifest.json",
+    "manifest_sha256": "ec55e01d968b584819c790de2c2a843bd87d9af960642601d65187807800b937",
+    "new_labels": 0,
+    "positive_boxes": 182,
+    "source_evidence_sha256": "48f26dd93572bd166a31270479df11accc1899d9896304eaba5028aaf7cd1448",
+    "source_regions": 41,
+    "training_photos": 59,
+    "training_rows_sha256": "f6e440afc30115654d9818234d2955c2ce37e08ef46a3f875ec66bd8e1304a91"
+  },
+  "destination": "data/open-images/experiments/phase10c16-source-balanced-training-v1/",
+  "diagnostics": [
+    "precision/recall@0.15",
+    "PRenvelope precision at original matched recall",
+    "AP50/AP75",
+    "TP/FP/FN",
+    "ChairFP/misses",
+    "Sofa/Bed regressions",
+    "all7logit distributions",
+    "source/positive/nativeneg gradient contributions",
+    "source-group concentration",
+    "duplicate/fragmented detections"
+  ],
+  "evaluation": {
+    "AP": "macro supported-class101point interpolation",
+    "IoU": [
+      0.5,
+      0.75
+    ],
+    "ap_score_floor": 0.001,
+    "category_order": [
+      "sofa",
+      "chair",
+      "table",
+      "bed",
+      "desk",
+      "cabinet",
+      "lamp"
+    ],
+    "checkpoint_comparisons": [
+      1,
+      3,
+      5
+    ],
+    "confidence": 0.15,
+    "inference_precision": "FP32 identical to historical validation; training/probes use FP16 autocast",
+    "matched_recall": "PR-envelope precision at original reference recall, descriptive only; no threshold adopted",
+    "metric_implementation": "unchanged tools/phase10c-v1/metric_cpu.py",
+    "metric_implementation_sha256": "a6a1c8454efca6969620a06739ee0b72d50027a7986f43551917bb88a90e8460",
+    "nms_cap": 300,
+    "nms_iou": 0.5,
+    "official_reserved_frozen_images": false,
+    "partial_labels": "Unchanged native scopes; COCO absent labels unknown; LVIS non-exhaustive flags preserved",
+    "primary_endpoint": "epoch5, fixed before results; no adaptive best-epoch selection",
+    "prompts": [
+      "a photo of a sofa",
+      "a photo of a chair",
+      "a photo of a table",
+      "a photo of a bed",
+      "a photo of a desk",
+      "a photo of a cabinet",
+      "a photo of a lamp"
+    ],
+    "row_ids": [
+      "1229d5e203956ac6",
+      "22a5848e375335e3",
+      "666a614b3123dff9",
+      "757a1631131f4ba3",
+      "cbc8443a05cf29cc",
+      "coco2017:000000068162",
+      "coco2017:000000127256",
+      "coco2017:000000195911",
+      "coco2017:000000217546",
+      "coco2017:000000253212",
+      "coco2017:000000279122",
+      "coco2017:000000305093",
+      "coco2017:000000424683",
+      "coco2017:000000426988",
+      "coco2017:000000436273",
+      "coco2017:000000452459",
+      "coco2017:000000484123",
+      "coco2017:000000558142",
+      "d224c4e1ea5c3d49"
+    ],
+    "rows_sha256": "918e97671b214b0a902e31a058763188d24ad0adaf50aa338a43dd2115b30c43",
+    "scope": "Already exposed19-photo training-derived internal diagnostics; not independent acceptance"
+  },
+  "evaluation_limits": "Exposed19photo panel descriptive only,no balancing coefficient tuning;no frozen,reserved,official scoring",
+  "initialization": {
+    "SHA256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "head_delta": null,
+    "path": "models/owlv2-original-baseline-20261103"
+  },
+  "integration": {
+    "at_update": "Compute cap on aggregate unscaled6class-head vectors,compose base+s*source;keepbox gradient base-only;then original global clip1 and original AdamW/scaler behavior",
+    "dtype": "FP16forward,FP32loss and buffers;norms/dots FP64;detach cap factor",
+    "extra_backwards": "At least3VJP per microbatch instead of1 backward;no extra forward needed",
+    "implemented": "Pure opt-in loss branches and gradient-buffer composition only;no training launcher",
+    "no_optimizer_code_added": true,
+    "per_microbatch": "Same model forward. Measure scaled positive,class-source and unchanged base(all12head) gradients via3isolated autograd calls;accumulate FP32 buffers divided by actual microbatch-group size"
+  },
+  "limits": {
+    "experiment_count": 1,
+    "max_GPU_seconds_including_diagnostics": 600,
+    "max_VRAM_bytes": 6979321856,
+    "max_epochs": 5,
+    "max_updates": 75
+  },
+  "method": {
+    "cap_differentiated": false,
+    "cap_space": "all6trainable_class_head_parameters_after_accumulation",
+    "enabled": false,
+    "group_denominator": "All unique verified region cells for source group,including zero-coverage cells",
+    "name": "source-region-mean BCE plus detached class-gradient trust budget",
+    "native_and_positive_losses": "Unchanged C8 focal/nGT",
+    "near_zero_positive": "If verified positive targets exist and||Gpositive||<=1e-8 with nonzero source gradient,stop update;do not drop evidence or alter positive loss",
+    "negative_only": "If no verified furniture-positive targets exist,allow nonzero source gradient up to0.01L2;not automatic admission of new dataset rows",
+    "negative_only_absolute_budget": 0.01,
+    "negative_only_rows_in_current_training": 0,
+    "new_source_divisor": "Replace added-source/nGT with group/region/query means;never rescale existing positive/native/box loss",
+    "overlapping_regions": "One canonical lexicographically first full-containing owner per admitted query",
+    "positive_norm_floor": 1e-08,
+    "query_dedup": "Exact detached FP32 box+Chair-logit signatures,share signature weight across clones",
+    "region_dedup": "Exact same image/category/rectangle supervision cell;preserve aliases/provenance,not physical identity merge",
+    "relative_cap": "min(1,0.25*||Gpositive||/||Gsource||)",
+    "rho": 0.25
+  },
+  "requires": "Separately approved zero-update C8-scope smoke,then separate training authorization bound to final config/code;no automatic follow-on",
+  "schema": "phase10c16-disabled-source-balanced-v1",
+  "trainable_keys": [
+    "box_head.dense0.bias",
+    "box_head.dense0.weight",
+    "box_head.dense1.bias",
+    "box_head.dense1.weight",
+    "box_head.dense2.bias",
+    "box_head.dense2.weight",
+    "class_head.dense0.bias",
+    "class_head.dense0.weight",
+    "class_head.logit_scale.bias",
+    "class_head.logit_scale.weight",
+    "class_head.logit_shift.bias",
+    "class_head.logit_shift.weight"
+  ],
+  "trainable_scalars": 1579526,
+  "training_authorized": false,
+  "unchanged_C8_settings": {
+    "accumulation": 4,
+    "arm": "B-corrected",
+    "base_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "batch_size": 1,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "frozen": "vision/text/objectness/all remaining parameters",
+    "gradient_clip_norm": 1.0,
+    "initialization": "original OWLv2",
+    "last_group_normalization": "actual group size3",
+    "learning_rate": 1e-05,
+    "loss_coefficients": {
+      "GIoU": 2,
+      "L1": 5,
+      "alpha": 0.25,
+      "classification": 1,
+      "gamma": 2
+    },
+    "max_epochs": 5,
+    "max_updates": 75,
+    "negative_policy": "source_polygon_visible_Chair_negative",
+    "nonfinite_policy": "stop arm immediately, no replay or loss-weight tuning",
+    "optimizer": "AdamW",
+    "precision": "FP16 autocast; FP32 loss/weights",
+    "probe_epochs": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "probe_objective": "actual current GradScaler scale; autograd.grad on additional-negative and used classification loss; no probe optimizer updates",
+    "probe_photos": "exact24 C7 source photos",
+    "scaler_growth_interval": 2000,
+    "scaler_init": 128,
+    "seed": 6106,
+    "snapshots": "after every committed optimizer update; unique immutable filenames",
+    "source_configuration": {
+      "approval_reference": "User Phase10C.8 matched A/B training authorization",
+      "approved": true,
+      "enabled": true,
+      "evidence_sha256": "b89b0a2fd7b24988dc0c2e95de6249cd8c87ae418ae9727814c003c1be7f93e2",
+      "legacy_loss": {
+        "GIoU": 2,
+        "L1": 5,
+        "alpha": 0.25,
+        "classification": 1,
+        "gamma": 2
+      },
+      "manifest_sha256": "14dc82bb002903defcefeac14d506362cacacca0c6675793a7062356e2d57cdd",
+      "mode": "source_polygon_negative_v1"
+    },
+    "trainable": "same12 class_head/box_head tensors",
+    "weight_decay": 0.01
+  }
+}

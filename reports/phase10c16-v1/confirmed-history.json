@@ -1,0 +1,12 @@
+{
+  "C15R_private_files": 291,
+  "C15R_public_files": 13,
+  "confirmed": {
+    "BCE_output": 1.1325037300382963,
+    "BCE_projection": 9.24055105074548,
+    "focal_output": 0.01750855044370582,
+    "focal_projection": 0.1311844795941962
+  },
+  "metadata_and_masks_verified": true,
+  "real_model_forwards": 0
+}

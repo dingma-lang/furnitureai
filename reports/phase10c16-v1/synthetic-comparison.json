@@ -1,0 +1,134 @@
+{
+  "cases": [
+    {
+      "exact_negative_query_copies": 1,
+      "model_updates": 0,
+      "results": {
+        "BCE": {
+          "loss": 0.5198603868484497,
+          "negative_parameter_norm": 1.299038105676658,
+          "negative_positive_cosine": -1.0,
+          "negative_to_positive_ratio": 5.02871740232938,
+          "positive_parameter_norm": 0.25832394261704256
+        },
+        "balanced_capped": {
+          "box_branch_unchanged": true,
+          "budget": 0.06458098565426064,
+          "cap_space": "Six trainable C8 classification-head parameter tensors,after accumulation,before unchanged global clipping/AdamW",
+          "mode": "relative-to-all-verified-furniture-positives",
+          "optimizer_update_bound_not_claimed": true,
+          "positive_branch_unchanged": true,
+          "positive_negative_cosine": -1.0,
+          "positive_norm": 0.25832394261704256,
+          "raw_negative_norm": 1.299038105676658,
+          "scale": 0.049714465936024986,
+          "used_negative_norm": 0.06458098565426064
+        },
+        "balanced_raw": {
+          "loss": 0.5198603868484497,
+          "negative_parameter_norm": 1.299038105676658,
+          "negative_positive_cosine": -1.0,
+          "negative_to_positive_ratio": 5.02871740232938,
+          "positive_parameter_norm": 0.25832394261704256
+        },
+        "focal": {
+          "loss": 0.12996509671211243,
+          "negative_parameter_norm": 0.7749718278511276,
+          "negative_positive_cosine": -1.0,
+          "negative_to_positive_ratio": 3.0,
+          "positive_parameter_norm": 0.25832394261704256
+        }
+      },
+      "synthetic": true,
+      "unique_signatures": 1
+    },
+    {
+      "exact_negative_query_copies": 10,
+      "model_updates": 0,
+      "results": {
+        "BCE": {
+          "loss": 5.198603630065918,
+          "negative_parameter_norm": 12.99038105676658,
+          "negative_positive_cosine": -0.9999999999999999,
+          "negative_to_positive_ratio": 50.2871740232938,
+          "positive_parameter_norm": 0.25832394261704256
+        },
+        "balanced_capped": {
+          "box_branch_unchanged": true,
+          "budget": 0.06458098565426064,
+          "cap_space": "Six trainable C8 classification-head parameter tensors,after accumulation,before unchanged global clipping/AdamW",
+          "mode": "relative-to-all-verified-furniture-positives",
+          "optimizer_update_bound_not_claimed": true,
+          "positive_branch_unchanged": true,
+          "positive_negative_cosine": -1.0,
+          "positive_norm": 0.25832394261704256,
+          "raw_negative_norm": 1.2990380024383847,
+          "scale": 0.04971446988697608,
+          "used_negative_norm": 0.06458098565426064
+        },
+        "balanced_raw": {
+          "loss": 0.5198603868484497,
+          "negative_parameter_norm": 1.2990380024383847,
+          "negative_positive_cosine": -1.0,
+          "negative_to_positive_ratio": 5.028717002682827,
+          "positive_parameter_norm": 0.25832394261704256
+        },
+        "focal": {
+          "loss": 1.2996509075164795,
+          "negative_parameter_norm": 7.74971807203473,
+          "negative_positive_cosine": -1.0,
+          "negative_to_positive_ratio": 29.999999200706892,
+          "positive_parameter_norm": 0.25832394261704256
+        }
+      },
+      "synthetic": true,
+      "unique_signatures": 1
+    },
+    {
+      "exact_negative_query_copies": 100,
+      "model_updates": 0,
+      "results": {
+        "BCE": {
+          "loss": 51.98604202270508,
+          "negative_parameter_norm": 129.9038105676658,
+          "negative_positive_cosine": -1.0,
+          "negative_to_positive_ratio": 502.87174023293795,
+          "positive_parameter_norm": 0.25832394261704256
+        },
+        "balanced_capped": {
+          "box_branch_unchanged": true,
+          "budget": 0.06458098565426064,
+          "cap_space": "Six trainable C8 classification-head parameter tensors,after accumulation,before unchanged global clipping/AdamW",
+          "mode": "relative-to-all-verified-furniture-positives",
+          "optimizer_update_bound_not_claimed": true,
+          "positive_branch_unchanged": true,
+          "positive_negative_cosine": -1.0,
+          "positive_norm": 0.25832394261704256,
+          "raw_negative_norm": 1.2990370732939267,
+          "scale": 0.049714505445564154,
+          "used_negative_norm": 0.06458098565426064
+        },
+        "balanced_raw": {
+          "loss": 0.5198603868484497,
+          "negative_parameter_norm": 1.2990370732939267,
+          "negative_positive_cosine": -1.0,
+          "negative_to_positive_ratio": 5.028713405863853,
+          "positive_parameter_norm": 0.25832394261704256
+        },
+        "focal": {
+          "loss": 12.99651050567627,
+          "negative_parameter_norm": 77.49713612141332,
+          "negative_positive_cosine": -0.9999999999999998,
+          "negative_to_positive_ratio": 299.99981935975825,
+          "positive_parameter_norm": 0.25832394261704256
+        }
+      },
+      "synthetic": true,
+      "unique_signatures": 1
+    }
+  ],
+  "classification_projection_measurements_on_real_model": false,
+  "coefficient_sweeps": 0,
+  "fixed_policy": true,
+  "scope": "Synthetic shared-linear6tensor graph only,not OWLv2 inference"
+}
