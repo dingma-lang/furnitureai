@@ -1,0 +1,20 @@
+{
+  "CPU_only": true,
+  "Phase10D_explicitly_authorized": true,
+  "additional_training_sources": 0,
+  "baseline_protocol_unchanged": true,
+  "category_counts": {
+    "bed": 28,
+    "chair": 114,
+    "sofa": 40
+  },
+  "classification_related_parameters_frozen": true,
+  "expected_frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+  "groups": 56,
+  "new_negatives_inactive": 5,
+  "original_persisted_tensors_verified": 418,
+  "original_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "photos": 59,
+  "positive_boxes": 182,
+  "status": "PASS"
+}

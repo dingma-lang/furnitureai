@@ -1,0 +1,23 @@
+{
+  "AP50_delta_percentage_points": -0.4112516967056612,
+  "AP75_delta_percentage_points": -4.620753323938853,
+  "adopt_checkpoint": false,
+  "all19_development_raw_logits_bit_identical": true,
+  "chair_FP_new": 19,
+  "chair_FP_original": 19,
+  "chair_misses_new": 15,
+  "chair_misses_original": 15,
+  "classification_preserved": true,
+  "full_C21_success_criteria_passed": false,
+  "improvement_over_original_demonstrated": false,
+  "localization_regressed": true,
+  "matched_recall_precision_unchanged": true,
+  "milestone_60_precision_original_recall": true,
+  "milestone_already_met_by_original": true,
+  "new_experiments_started": 0,
+  "next_direction": "Prepare a separate frozen-original-teacher distillation preflight with explicitly justified trusted-supervision masks and precision/query correspondence;no training authorized",
+  "outcome": "B",
+  "sofa_AP75_delta_percentage_points": -13.861386138613852,
+  "training_mean_box_loss_first": 0.4186188376556009,
+  "training_mean_box_loss_last": 0.36761132084717185
+}

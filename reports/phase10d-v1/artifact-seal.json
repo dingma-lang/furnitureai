@@ -1,0 +1,25 @@
+{
+  "base_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "binding_sha256": "15604700258f1b3b33622d0120fb122563dfea14817a5869673bd2731d4bf28a",
+  "code_sha256": {
+    "tools/phase10d-v1/README.md": "94262d1a5e35088d21f470d21fbc2f536d8645b5180ea8eef27c59fd551adeb8",
+    "tools/phase10d-v1/analyzeD.py": "ed7c4ced3e4119a6160f73d12670916075d4f292b9034c42acb965feb558cba7",
+    "tools/phase10d-v1/commonD.py": "657294ec699460e0a9f97deaafc0c68eb9d78d385f93a96dbe2278c743bd90b6",
+    "tools/phase10d-v1/launchD.py": "a56a137f0004bcfe928c1deacf5430d6ca5fb9e368c7ed9a7b41f78585fbafeb",
+    "tools/phase10d-v1/prepareD.py": "62ce62b5e11ba77d66a050fd70b67d3ad372dff413670344ce27f7d7d8e4c7a3",
+    "tools/phase10d-v1/reportD.py": "6d130e5008399d00c31e9c06504e265747865ba1ba52fb5b06417fba03bc98e0",
+    "tools/phase10d-v1/scopeD.py": "bd5dbb487da2d6407ddf33ca293ef4cd082686b188ca4ad962d94dd6d0f5d73e",
+    "tools/phase10d-v1/sealD.py": "30990fc3fc87fcac8762c138d6d98657fab460719030a33ec6dd3740abaad8d6",
+    "tools/phase10d-v1/test_boxD.py": "9519087c1fa3634752a953d1691d81987eb3d8850d6ce95bb6b234b7a5e19e6b",
+    "tools/phase10d-v1/verifyD.py": "39465309eedfdc2c1a4f3267ea532a0845cff5fe300fa5ae8ea0328e6f347c08",
+    "tools/phase10d-v1/workerD.py": "fda5b7d29641968771a6a38a4666f800d3ebbc62f913b46eea6ce63a67e43f6c"
+  },
+  "forwards": 322,
+  "main_unchanged": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "private_data_pushed": false,
+  "private_files": 1269,
+  "private_manifest": "data/open-images/experiments/phase10c21-box-only-v1/artifact-sha256.json",
+  "private_manifest_sha256": "b5b3b3c6eea6bfa0559c1144e8bb35065f6617edbe7e1dd71459346c363405b4",
+  "schema": "phase10d-artifact-seal-v1",
+  "updates": 75
+}

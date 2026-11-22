@@ -1,0 +1,1133 @@
+{
+  "common_GT_localization": {
+    "bed": {
+      "IoU75_crossings_down": 0,
+      "IoU75_crossings_up": 0,
+      "adapted_only_matches": 0,
+      "common_matched_GT": 7,
+      "mean_adapted_IoU": 0.8761936138883989,
+      "mean_delta_IoU": -0.002428942785846298,
+      "mean_original_IoU": 0.8786225566742453,
+      "original_only_matches": 0
+    },
+    "chair": {
+      "IoU75_crossings_down": 0,
+      "IoU75_crossings_up": 0,
+      "adapted_only_matches": 0,
+      "common_matched_GT": 24,
+      "mean_adapted_IoU": 0.8090951345985352,
+      "mean_delta_IoU": -0.0038346767442246723,
+      "mean_original_IoU": 0.81292981134276,
+      "original_only_matches": 0
+    },
+    "sofa": {
+      "IoU75_crossings_down": 1,
+      "IoU75_crossings_up": 0,
+      "adapted_only_matches": 0,
+      "common_matched_GT": 11,
+      "mean_adapted_IoU": 0.8531782212176566,
+      "mean_delta_IoU": -0.007462702778235262,
+      "mean_original_IoU": 0.8606409239958919,
+      "original_only_matches": 0
+    }
+  },
+  "comparison": {
+    "C20_E5": {
+      "categories": {
+        "bed": {
+          "ap50": 0.794059405940594,
+          "ap75": 0.6668670438472418,
+          "duplicate_fp": 1,
+          "fn": 1,
+          "fp": 116,
+          "mean_matched_iou": 0.8797364052870514,
+          "precision": 0.06451612903225806,
+          "recall": 0.8888888888888888,
+          "tp": 8,
+          "unknown_unmatched": 133
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 314
+        },
+        "chair": {
+          "ap50": 0.6381586959957766,
+          "ap75": 0.420964401656491,
+          "duplicate_fp": 2,
+          "fn": 3,
+          "fp": 566,
+          "mean_matched_iou": 0.7672890856875716,
+          "precision": 0.059800664451827246,
+          "recall": 0.9230769230769231,
+          "tp": 36,
+          "unknown_unmatched": 2477
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 385
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 522
+        },
+        "sofa": {
+          "ap50": 0.7623762376237624,
+          "ap75": 0.5544554455445545,
+          "duplicate_fp": 0,
+          "fn": 3,
+          "fp": 28,
+          "mean_matched_iou": 0.8706299608789381,
+          "precision": 0.2631578947368421,
+          "recall": 0.7692307692307693,
+          "tp": 10,
+          "unknown_unmatched": 308
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 81
+        }
+      },
+      "headline": {
+        "ap50": 0.7315314465200443,
+        "ap75": 0.5474289636827625,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 31,
+          "fragmentation_candidates": 47,
+          "mixed_object_candidates": 81
+        },
+        "f1": 0.13090909090909092,
+        "fn": 7,
+        "fp": 710,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.07068062827225131,
+        "recall": 0.8852459016393442,
+        "tp": 54
+      },
+      "precision_at_original_recall": {
+        "fp": 14,
+        "precision": 0.75,
+        "recall": 0.6885245901639344,
+        "threshold": 0.8681837916374207,
+        "tp": 42
+      },
+      "raw_Chair_at_least": {
+        "0.15": 4039,
+        "0.5": 753,
+        "0.8": 132
+      },
+      "raw_query_confidence": {
+        "bed": {
+          "0": 4.435133178797396e-18,
+          "0.5": 0.0013813304527990366,
+          "0.9": 0.023262431908605524,
+          "0.99": 0.18841366493552567,
+          "1": 0.9861348197933267
+        },
+        "cabinet": {
+          "0": 5.783202397190012e-18,
+          "0.5": 0.00042184091834655406,
+          "0.9": 0.01198624702932817,
+          "0.99": 0.11562064622658526,
+          "1": 0.7362283794488822
+        },
+        "chair": {
+          "0": 1.2043071666168385e-17,
+          "0.5": 0.002960941161503931,
+          "0.9": 0.08441740787871956,
+          "0.99": 0.5214206590416407,
+          "1": 0.9812975036187903
+        },
+        "desk": {
+          "0": 9.968415938391513e-18,
+          "0.5": 0.0009213098497299714,
+          "0.9": 0.023583319187965177,
+          "0.99": 0.18337616570751075,
+          "1": 0.9358025906929333
+        },
+        "lamp": {
+          "0": 8.100030483090916e-18,
+          "0.5": 0.00036897346351280586,
+          "0.9": 0.013888292861437817,
+          "0.99": 0.1265473920212431,
+          "1": 0.9003167226284595
+        },
+        "sofa": {
+          "0": 5.36585643136651e-18,
+          "0.5": 0.0010410749813452545,
+          "0.9": 0.024246147699153547,
+          "0.99": 0.24073592332951127,
+          "1": 0.9712359817097506
+        },
+        "table": {
+          "0": 6.3853736415163984e-18,
+          "0.5": 0.0005543491188748904,
+          "0.9": 0.016028537604463516,
+          "0.99": 0.14652514067819092,
+          "1": 0.8860881086810406
+        }
+      },
+      "scored_FP_confidence": {
+        "bed": {
+          "0": 0.1530926525592804,
+          "0.5": 0.3042088747024536,
+          "0.9": 0.6210802793502808,
+          "0.99": 0.7531993895769118,
+          "1": 0.8144910931587219
+        },
+        "cabinet": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        },
+        "chair": {
+          "0": 0.15020829439163208,
+          "0.5": 0.3620116859674454,
+          "0.9": 0.723037600517273,
+          "0.99": 0.8961742013692856,
+          "1": 0.9528697729110718
+        },
+        "desk": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        },
+        "lamp": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        },
+        "sofa": {
+          "0": 0.17204858362674713,
+          "0.5": 0.29792356491088867,
+          "0.9": 0.6785133242607116,
+          "0.99": 0.7625304645299912,
+          "1": 0.7808598279953003
+        },
+        "table": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        }
+      }
+    },
+    "Phase10D": {
+      "categories": {
+        "bed": {
+          "ap50": 0.7930221593587929,
+          "ap75": 0.6478076379066479,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 5,
+          "mean_matched_iou": 0.8761936138883989,
+          "precision": 0.5833333333333334,
+          "recall": 0.7777777777777778,
+          "tp": 7,
+          "unknown_unmatched": 59
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 852
+        },
+        "chair": {
+          "ap50": 0.543294481815777,
+          "ap75": 0.3174436064975294,
+          "duplicate_fp": 1,
+          "fn": 15,
+          "fp": 19,
+          "mean_matched_iou": 0.8090951345985352,
+          "precision": 0.5581395348837209,
+          "recall": 0.6153846153846154,
+          "tp": 24,
+          "unknown_unmatched": 640
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 934
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 1495
+        },
+        "sofa": {
+          "ap50": 0.900990099009901,
+          "ap75": 0.5544554455445545,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 1,
+          "mean_matched_iou": 0.8531782212176566,
+          "precision": 0.9166666666666666,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 262
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 473
+        }
+      },
+      "headline": {
+        "ap50": 0.7457689133948237,
+        "ap75": 0.5065688966495773,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 14,
+          "fragmentation_candidates": 4,
+          "mixed_object_candidates": 16
+        },
+        "f1": 0.65625,
+        "fn": 19,
+        "fp": 25,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.6268656716417911,
+        "recall": 0.6885245901639344,
+        "tp": 42
+      },
+      "precision_at_original_recall": {
+        "fp": 19,
+        "precision": 0.6885245901639344,
+        "recall": 0.6885245901639344,
+        "threshold": 0.16735556721687317,
+        "tp": 42
+      },
+      "raw_Chair_at_least": {
+        "0.15": 82,
+        "0.5": 3,
+        "0.8": 0
+      },
+      "raw_query_confidence": {
+        "bed": {
+          "0": 2.0227821658119206e-18,
+          "0.5": 6.749985708333007e-06,
+          "0.9": 0.0005097089070851165,
+          "0.99": 0.008360349277462492,
+          "1": 0.672371852545472
+        },
+        "cabinet": {
+          "0": 3.276093177264751e-18,
+          "0.5": 1.7100934923022872e-05,
+          "0.9": 0.0013915885753453333,
+          "0.99": 0.018143490218728738,
+          "1": 0.32786591365281076
+        },
+        "chair": {
+          "0": 4.5420763052850165e-18,
+          "0.5": 1.3602036346686396e-05,
+          "0.9": 0.0015450852066294096,
+          "0.99": 0.02390669366366878,
+          "1": 0.5353265237197463
+        },
+        "desk": {
+          "0": 5.182328710428711e-18,
+          "0.5": 1.8562561166576856e-05,
+          "0.9": 0.0015640006817093976,
+          "0.99": 0.020140378791929682,
+          "1": 0.5784872395014091
+        },
+        "lamp": {
+          "0": 4.485975433311348e-18,
+          "0.5": 1.2754176524577711e-05,
+          "0.9": 0.0014208608384661929,
+          "0.99": 0.02189873733348309,
+          "1": 0.5856735462172101
+        },
+        "sofa": {
+          "0": 2.5062589806728808e-18,
+          "0.5": 5.29382148124272e-06,
+          "0.9": 0.000506763125080157,
+          "0.99": 0.011341248355012701,
+          "1": 0.5418968880339906
+        },
+        "table": {
+          "0": 3.4708332002607796e-18,
+          "0.5": 1.5330463424438076e-05,
+          "0.9": 0.0013477703320297534,
+          "0.99": 0.019188873868981306,
+          "1": 0.4801205527630552
+        }
+      },
+      "scored_FP_confidence": {
+        "bed": {
+          "0": 0.15708710253238678,
+          "0.5": 0.16891537606716156,
+          "0.9": 0.21078582406044005,
+          "0.99": 0.22008432924747467,
+          "1": 0.22111749649047852
+        },
+        "cabinet": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        },
+        "chair": {
+          "0": 0.15423175692558289,
+          "0.5": 0.21212446689605713,
+          "0.9": 0.3257337033748626,
+          "0.99": 0.3730127066373825,
+          "1": 0.3740100860595703
+        },
+        "desk": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        },
+        "lamp": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        },
+        "sofa": {
+          "0": 0.1744544506072998,
+          "0.5": 0.1744544506072998,
+          "0.9": 0.1744544506072998,
+          "0.99": 0.1744544506072998,
+          "1": 0.1744544506072998
+        },
+        "table": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        }
+      }
+    },
+    "original": {
+      "categories": {
+        "bed": {
+          "ap50": 0.794059405940594,
+          "ap75": 0.6478076379066479,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 5,
+          "mean_matched_iou": 0.8786225566742453,
+          "precision": 0.5833333333333334,
+          "recall": 0.7777777777777778,
+          "tp": 7,
+          "unknown_unmatched": 59
+        },
+        "cabinet": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 851
+        },
+        "chair": {
+          "ap50": 0.554594786135146,
+          "ap75": 0.3174523448295566,
+          "duplicate_fp": 1,
+          "fn": 15,
+          "fp": 19,
+          "mean_matched_iou": 0.81292981134276,
+          "precision": 0.5581395348837209,
+          "recall": 0.6153846153846154,
+          "tp": 24,
+          "unknown_unmatched": 634
+        },
+        "desk": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 934
+        },
+        "lamp": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 1505
+        },
+        "sofa": {
+          "ap50": 0.900990099009901,
+          "ap75": 0.693069306930693,
+          "duplicate_fp": 0,
+          "fn": 2,
+          "fp": 1,
+          "mean_matched_iou": 0.8606409239958919,
+          "precision": 0.9166666666666666,
+          "recall": 0.8461538461538461,
+          "tp": 11,
+          "unknown_unmatched": 264
+        },
+        "table": {
+          "ap50": null,
+          "ap75": null,
+          "duplicate_fp": 0,
+          "fn": 0,
+          "fp": 0,
+          "mean_matched_iou": null,
+          "precision": null,
+          "recall": null,
+          "tp": 0,
+          "unknown_unmatched": 477
+        }
+      },
+      "headline": {
+        "ap50": 0.7498814303618803,
+        "ap75": 0.5527764298889658,
+        "confidence": 0.15,
+        "diagnostic_heuristics": {
+          "category_disagreement_candidates": 14,
+          "fragmentation_candidates": 4,
+          "mixed_object_candidates": 15
+        },
+        "f1": 0.65625,
+        "fn": 19,
+        "fp": 25,
+        "independent_verified_accuracy": false,
+        "nms_iou": 0.5,
+        "precision": 0.6268656716417911,
+        "recall": 0.6885245901639344,
+        "tp": 42
+      },
+      "precision_at_original_recall": {
+        "fp": 19,
+        "precision": 0.6885245901639344,
+        "recall": 0.6885245901639344,
+        "threshold": 0.16735556721687317,
+        "tp": 42
+      },
+      "raw_Chair_at_least": {
+        "0.15": 82,
+        "0.5": 3,
+        "0.8": 0
+      },
+      "raw_query_confidence": {
+        "bed": {
+          "0": 2.0227821658119206e-18,
+          "0.5": 6.749985708333007e-06,
+          "0.9": 0.0005097089070851165,
+          "0.99": 0.008360349277462492,
+          "1": 0.672371852545472
+        },
+        "cabinet": {
+          "0": 3.276093177264751e-18,
+          "0.5": 1.7100934923022872e-05,
+          "0.9": 0.0013915885753453333,
+          "0.99": 0.018143490218728738,
+          "1": 0.32786591365281076
+        },
+        "chair": {
+          "0": 4.5420763052850165e-18,
+          "0.5": 1.3602036346686396e-05,
+          "0.9": 0.0015450852066294096,
+          "0.99": 0.02390669366366878,
+          "1": 0.5353265237197463
+        },
+        "desk": {
+          "0": 5.182328710428711e-18,
+          "0.5": 1.8562561166576856e-05,
+          "0.9": 0.0015640006817093976,
+          "0.99": 0.020140378791929682,
+          "1": 0.5784872395014091
+        },
+        "lamp": {
+          "0": 4.485975433311348e-18,
+          "0.5": 1.2754176524577711e-05,
+          "0.9": 0.0014208608384661929,
+          "0.99": 0.02189873733348309,
+          "1": 0.5856735462172101
+        },
+        "sofa": {
+          "0": 2.5062589806728808e-18,
+          "0.5": 5.29382148124272e-06,
+          "0.9": 0.000506763125080157,
+          "0.99": 0.011341248355012701,
+          "1": 0.5418968880339906
+        },
+        "table": {
+          "0": 3.4708332002607796e-18,
+          "0.5": 1.5330463424438076e-05,
+          "0.9": 0.0013477703320297534,
+          "0.99": 0.019188873868981306,
+          "1": 0.4801205527630552
+        }
+      },
+      "scored_FP_confidence": {
+        "bed": {
+          "0": 0.15708710253238678,
+          "0.5": 0.16891537606716156,
+          "0.9": 0.21078582406044005,
+          "0.99": 0.22008432924747467,
+          "1": 0.22111749649047852
+        },
+        "cabinet": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        },
+        "chair": {
+          "0": 0.15423175692558289,
+          "0.5": 0.21212446689605713,
+          "0.9": 0.3257337033748626,
+          "0.99": 0.3730127066373825,
+          "1": 0.3740100860595703
+        },
+        "desk": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        },
+        "lamp": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        },
+        "sofa": {
+          "0": 0.1744544506072998,
+          "0.5": 0.1744544506072998,
+          "0.9": 0.1744544506072998,
+          "0.99": 0.1744544506072998,
+          "1": 0.1744544506072998
+        },
+        "table": {
+          "0": null,
+          "0.5": null,
+          "0.9": null,
+          "0.99": null,
+          "1": null
+        }
+      }
+    }
+  },
+  "decision": {
+    "C21_stronger_gates": {
+      "AP75_gain_ge002": false,
+      "TP_floors": true,
+      "matched_recall_precision_gain_ge003": false,
+      "per_category_AP75_drop_le002": false,
+      "precision_not_below_original": true,
+      "recall_not_below_original": true
+    },
+    "C21_stronger_gates_all_pass": false,
+    "development_60_precision_original_recall_milestone": true,
+    "independent_acceptance": false,
+    "localization_improved": false,
+    "outcome": "B",
+    "precision_or_recall_regressed": false
+  },
+  "fixed_training_probe_FP32": {
+    "all_original_logits_bit_identical": true,
+    "matching_precision": "Same FP32 before/after,not FP16teacher cache",
+    "records": [
+      {
+        "classification_logits_bit_identical": true,
+        "file": "logit-checks/01.npz",
+        "image_id": "coco2017:000000375590",
+        "latency_seconds": 0.3422906929627061,
+        "maximum_absolute_box_change": 0.04010498523712158,
+        "maximum_absolute_logit_change": 0.0,
+        "sha256": "70c3a13e1ad8af52972de4d5459251ddf55e617847c38e125f60c517bae456e8"
+      },
+      {
+        "classification_logits_bit_identical": true,
+        "file": "logit-checks/02.npz",
+        "image_id": "coco2017:000000197201",
+        "latency_seconds": 0.21790336904814467,
+        "maximum_absolute_box_change": 0.039093613624572754,
+        "maximum_absolute_logit_change": 0.0,
+        "sha256": "ca25f1a4243521f269b1d42fc23d36ba9acb617e953cb6a5f565f1c91a9d3c4f"
+      },
+      {
+        "classification_logits_bit_identical": true,
+        "file": "logit-checks/03.npz",
+        "image_id": "coco2017:000000543194",
+        "latency_seconds": 0.22454318404197693,
+        "maximum_absolute_box_change": 0.04068908095359802,
+        "maximum_absolute_logit_change": 0.0,
+        "sha256": "3e9d8a02f7bc86d372fc19bce9c7329c23bc427083e8667d55e1ba5d26089df2"
+      },
+      {
+        "classification_logits_bit_identical": true,
+        "file": "logit-checks/04.npz",
+        "image_id": "coco2017:000000373101",
+        "latency_seconds": 0.21364735095994547,
+        "maximum_absolute_box_change": 0.040707409381866455,
+        "maximum_absolute_logit_change": 0.0,
+        "sha256": "4e2ae3a867737e42decd21b9a5f500e03d025963b288a26c29ec62071edd31d9"
+      }
+    ]
+  },
+  "logit_drift": {
+    "C20_E5": {
+      "maximum_absolute_difference": 12.133229553699493,
+      "mean_all_categories": 4.1199246432201475,
+      "per_category_difference_quantiles": {
+        "bed": {
+          "0": 0.66424560546875,
+          "0.5": 5.12764310836792,
+          "0.9": 7.544935321807861,
+          "0.99": 9.295136604309079,
+          "1": 12.133229553699493
+        },
+        "cabinet": {
+          "0": 0.4782218933105469,
+          "0.5": 3.0398590564727783,
+          "0.9": 4.417418575286865,
+          "0.99": 5.35075719833374,
+          "1": 6.747335433959961
+        },
+        "chair": {
+          "0": 0.8370437622070312,
+          "0.5": 5.110586404800415,
+          "0.9": 7.0699290275573725,
+          "0.99": 8.367662343978878,
+          "1": 10.700189113616943
+        },
+        "desk": {
+          "0": 0.5556907653808594,
+          "0.5": 3.7273871898651123,
+          "0.9": 5.356834602355957,
+          "0.99": 6.478928499221801,
+          "1": 8.328731536865234
+        },
+        "lamp": {
+          "0": 0.502532958984375,
+          "0.5": 3.153932809829712,
+          "0.9": 4.551277685165405,
+          "0.99": 5.494906892776484,
+          "1": 6.8630523681640625
+        },
+        "sofa": {
+          "0": 0.6443595886230469,
+          "0.5": 5.0639331340789795,
+          "0.9": 7.326513862609863,
+          "0.99": 8.966894650459285,
+          "1": 11.586174964904785
+        },
+        "table": {
+          "0": 0.5184211730957031,
+          "0.5": 3.4192285537719727,
+          "0.9": 4.921067237854004,
+          "0.99": 5.960250072479248,
+          "1": 7.649130344390869
+        }
+      },
+      "per_category_mean_delta": {
+        "bed": 5.142551756015759,
+        "cabinet": 3.0685401727339086,
+        "chair": 5.160888514713604,
+        "desk": 3.753451706121348,
+        "lamp": 3.185891365757878,
+        "sofa": 5.081146887522441,
+        "table": 3.447002099676089
+      },
+      "raw_logits_bit_identical": false
+    },
+    "Phase10D": {
+      "maximum_absolute_difference": 0.0,
+      "mean_all_categories": 0.0,
+      "per_category_difference_quantiles": {
+        "bed": {
+          "0": 0.0,
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0,
+          "1": 0.0
+        },
+        "cabinet": {
+          "0": 0.0,
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0,
+          "1": 0.0
+        },
+        "chair": {
+          "0": 0.0,
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0,
+          "1": 0.0
+        },
+        "desk": {
+          "0": 0.0,
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0,
+          "1": 0.0
+        },
+        "lamp": {
+          "0": 0.0,
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0,
+          "1": 0.0
+        },
+        "sofa": {
+          "0": 0.0,
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0,
+          "1": 0.0
+        },
+        "table": {
+          "0": 0.0,
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0,
+          "1": 0.0
+        }
+      },
+      "per_category_mean_delta": {
+        "bed": 0.0,
+        "cabinet": 0.0,
+        "chair": 0.0,
+        "desk": 0.0,
+        "lamp": 0.0,
+        "sofa": 0.0,
+        "table": 0.0
+      },
+      "raw_logits_bit_identical": true
+    }
+  },
+  "metrics_process": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "Torch_imported": false,
+    "interpreter": "/home/tristary/furniture-ai-ml/.venv/bin/python",
+    "version": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]"
+  },
+  "no_new_inference": true,
+  "protocol": {
+    "AP": "Unchanged101pointmacro",
+    "AP75_IoU": 0.75,
+    "IoU": 0.5,
+    "NMS": 0.5,
+    "cap": 300,
+    "classes": [
+      "sofa",
+      "chair",
+      "table",
+      "bed",
+      "desk",
+      "cabinet",
+      "lamp"
+    ],
+    "confidence": 0.15,
+    "hyperparameters_selected_from_panel": false,
+    "independent_or_reserved_scored": false,
+    "metric_sha256": "a6a1c8454efca6969620a06739ee0b72d50027a7986f43551917bb88a90e8460",
+    "photos": 19,
+    "positive_boxes": 61,
+    "rows_sha256": "918e97671b214b0a902e31a058763188d24ad0adaf50aa338a43dd2115b30c43",
+    "score_floor": 0.001,
+    "supervised_and_scored_positive_classes": [
+      "sofa",
+      "chair",
+      "bed"
+    ],
+    "unknown_unmatched_not_confirmed_errors": true
+  },
+  "resources": {
+    "actual_forwards": 322,
+    "allocated_output_bytes": 168484864,
+    "another_run": false,
+    "classification_unchanged": true,
+    "current_photo": "d224c4e1ea5c3d49",
+    "epoch": 5,
+    "epochs": 5,
+    "final_checkpoint": {
+      "bytes": 14228437,
+      "epoch": 5,
+      "file": "checkpoints/update-075-277eac43.pt",
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "sha256": "2607165fd021718fed12cb610db6857efe3b0d5b6363dc60b99b3416e574f1ed",
+      "updates": 75
+    },
+    "forwards": 322,
+    "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+    "group": 14,
+    "independent_or_reserved_scored": false,
+    "kind": "complete",
+    "optimizer_hook_calls": 75,
+    "original_file_unchanged": true,
+    "peak_allocated_bytes": 2025887744,
+    "peak_reserved_bytes": 2654994432,
+    "phase": "complete",
+    "predictions_saved_before_metrics": true,
+    "seconds": 142.97553733398672,
+    "status": "PASS",
+    "training_backwards": 295,
+    "updates": 75
+  },
+  "status": "PASS",
+  "training_epochs": [
+    {
+      "checkpoint": {
+        "bytes": 14228437,
+        "epoch": 1,
+        "file": "checkpoints/update-015-a2dde82c.pt",
+        "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+        "sha256": "08db8d6f5aff03f665272f65e9e6db97a421bbd62d1ededf2133ec0703d4bb6e",
+        "updates": 15
+      },
+      "epoch": 1,
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "matched_positive_targets": 182,
+      "mean_GIoU": 0.12738783821716146,
+      "mean_L1": 0.0327686322221564,
+      "mean_box_loss": 0.4186188376556009,
+      "mean_preclip_box_gradient_norm": 56.2972001393636,
+      "photo_presentations": 59,
+      "resource": {
+        "actual_forwards": 63,
+        "allocated_output_bytes": 41799680,
+        "current_photo": "coco2017:000000479935",
+        "epoch": 1,
+        "forwards": 63,
+        "group": 14,
+        "kind": "epoch_complete",
+        "optimizer_hook_calls": 15,
+        "peak_allocated_bytes": 2025887744,
+        "peak_reserved_bytes": 2654994432,
+        "phase": "training",
+        "seconds": 36.44959326501703,
+        "training_backwards": 59,
+        "updates": 15
+      },
+      "updates": 15
+    },
+    {
+      "checkpoint": {
+        "bytes": 14228437,
+        "epoch": 2,
+        "file": "checkpoints/update-030-a443155a.pt",
+        "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+        "sha256": "733b1e43255a93129f5265a567796d5015ec7c003ed4a81b288104c1b81cce8b",
+        "updates": 30
+      },
+      "epoch": 2,
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "matched_positive_targets": 182,
+      "mean_GIoU": 0.1207688770304292,
+      "mean_L1": 0.031130105951579952,
+      "mean_box_loss": 0.3971882831242125,
+      "mean_preclip_box_gradient_norm": 50.36340090433757,
+      "photo_presentations": 59,
+      "resource": {
+        "actual_forwards": 122,
+        "allocated_output_bytes": 71127040,
+        "current_photo": "coco2017:000000108375",
+        "epoch": 2,
+        "forwards": 122,
+        "group": 14,
+        "kind": "epoch_complete",
+        "optimizer_hook_calls": 30,
+        "peak_allocated_bytes": 2025887744,
+        "peak_reserved_bytes": 2654994432,
+        "phase": "training",
+        "seconds": 60.403431455022655,
+        "training_backwards": 118,
+        "updates": 30
+      },
+      "updates": 30
+    },
+    {
+      "checkpoint": {
+        "bytes": 14228437,
+        "epoch": 3,
+        "file": "checkpoints/update-045-e2ff83a9.pt",
+        "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+        "sha256": "439c38ba085f253399dc21967ef3530788b8c082cbc9224d608c6a57195aaafc",
+        "updates": 45
+      },
+      "epoch": 3,
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "matched_positive_targets": 182,
+      "mean_GIoU": 0.11726212122682798,
+      "mean_L1": 0.029988110428518157,
+      "mean_box_loss": 0.38446479315980003,
+      "mean_preclip_box_gradient_norm": 48.61422793070475,
+      "photo_presentations": 59,
+      "resource": {
+        "actual_forwards": 181,
+        "allocated_output_bytes": 100458496,
+        "current_photo": "coco2017:000000402655",
+        "epoch": 3,
+        "forwards": 181,
+        "group": 14,
+        "kind": "epoch_complete",
+        "optimizer_hook_calls": 45,
+        "peak_allocated_bytes": 2025887744,
+        "peak_reserved_bytes": 2654994432,
+        "phase": "training",
+        "seconds": 84.56553185201483,
+        "training_backwards": 177,
+        "updates": 45
+      },
+      "updates": 45
+    },
+    {
+      "checkpoint": {
+        "bytes": 14228437,
+        "epoch": 4,
+        "file": "checkpoints/update-060-50fe6096.pt",
+        "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+        "sha256": "c937818a30b542590106baacccee2a35ac1825934bd6439141aee2c2c8cfdadd",
+        "updates": 60
+      },
+      "epoch": 4,
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "matched_positive_targets": 182,
+      "mean_GIoU": 0.11665862154657558,
+      "mean_L1": 0.029601799987130247,
+      "mean_box_loss": 0.3813262431550834,
+      "mean_preclip_box_gradient_norm": 54.89587593078613,
+      "photo_presentations": 59,
+      "resource": {
+        "actual_forwards": 240,
+        "allocated_output_bytes": 129781760,
+        "current_photo": "a86c99772420c77e",
+        "epoch": 4,
+        "forwards": 240,
+        "group": 14,
+        "kind": "epoch_complete",
+        "optimizer_hook_calls": 60,
+        "peak_allocated_bytes": 2025887744,
+        "peak_reserved_bytes": 2654994432,
+        "phase": "training",
+        "seconds": 108.7740946909762,
+        "training_backwards": 236,
+        "updates": 60
+      },
+      "updates": 60
+    },
+    {
+      "checkpoint": {
+        "bytes": 14228437,
+        "epoch": 5,
+        "file": "checkpoints/update-075-277eac43.pt",
+        "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+        "sha256": "2607165fd021718fed12cb610db6857efe3b0d5b6363dc60b99b3416e574f1ed",
+        "updates": 75
+      },
+      "epoch": 5,
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "matched_positive_targets": 182,
+      "mean_GIoU": 0.11291351819695053,
+      "mean_L1": 0.02835685637448046,
+      "mean_box_loss": 0.36761132084717185,
+      "mean_preclip_box_gradient_norm": 57.15726381937663,
+      "photo_presentations": 59,
+      "resource": {
+        "actual_forwards": 299,
+        "allocated_output_bytes": 159100928,
+        "current_photo": "coco2017:000000421108",
+        "epoch": 5,
+        "forwards": 299,
+        "group": 14,
+        "kind": "epoch_complete",
+        "optimizer_hook_calls": 75,
+        "peak_allocated_bytes": 2025887744,
+        "peak_reserved_bytes": 2654994432,
+        "phase": "training",
+        "seconds": 133.25260617898311,
+        "training_backwards": 295,
+        "updates": 75
+      },
+      "updates": 75
+    }
+  ]
+}

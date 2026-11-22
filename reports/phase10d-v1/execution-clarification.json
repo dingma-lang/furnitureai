@@ -1,0 +1,13 @@
+{
+  "actual_evaluation_epochs": [
+    5
+  ],
+  "actual_smoke_and_invariance_photos": 4,
+  "actual_training_precision": "FP32,noAMP",
+  "binding_sha256": "15604700258f1b3b33622d0120fb122563dfea14817a5869673bd2731d4bf28a",
+  "confidence_changed": false,
+  "extra_epoch_evaluations": false,
+  "historical_evaluation_metadata": "The copied evaluation object preserves old protocol provenance,including historical epoch1/3/5 comparison labels and FP16-training wording. These are not execution instructions. Top-level FP32, fixed_endpoint75 and expected_forward_counts govern this arm.",
+  "metric_definitions_changed": false,
+  "training_or_GPU_started": false
+}

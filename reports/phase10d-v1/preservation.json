@@ -1,0 +1,93 @@
+{
+  "C17_seal": {
+    "private_files": 528,
+    "public_files": 14
+  },
+  "C18_seal": {
+    "private_files": 681,
+    "public_files": 15
+  },
+  "C19_seal": {
+    "private_files": 37,
+    "public_files": 16
+  },
+  "C20_seal": {
+    "private_files": 1128,
+    "public_files": 17
+  },
+  "C8_private_files": 1310,
+  "GPU_model_forwards": 0,
+  "Mac_project_modified": false,
+  "Phase10D_did_not_modify_historical_outputs": true,
+  "actual_epochs": 5,
+  "actual_forwards": 322,
+  "actual_training_groups": 56,
+  "actual_training_photos": 59,
+  "actual_updates": 75,
+  "annotation_overlays_activated": 0,
+  "classification_frozen": true,
+  "datasets_or_models_downloaded": 0,
+  "eligible_image_hashes": 78,
+  "historical_data_model_files": 9973,
+  "historical_data_modified": false,
+  "historical_implementation_files": 27,
+  "ignored_examples_activated": 0,
+  "main_unchanged": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "new_checkpoints_verified": [
+    {
+      "bytes": 4749901,
+      "epoch": 0,
+      "file": "checkpoints/update-000-f2627416.pt",
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "sha256": "799b1461e8866b49effd572fa5f65043ba11c04815997a7eb58d6b59ea42b770",
+      "updates": 0
+    },
+    {
+      "bytes": 14228437,
+      "epoch": 1,
+      "file": "checkpoints/update-015-a2dde82c.pt",
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "sha256": "08db8d6f5aff03f665272f65e9e6db97a421bbd62d1ededf2133ec0703d4bb6e",
+      "updates": 15
+    },
+    {
+      "bytes": 14228437,
+      "epoch": 2,
+      "file": "checkpoints/update-030-a443155a.pt",
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "sha256": "733b1e43255a93129f5265a567796d5015ec7c003ed4a81b288104c1b81cce8b",
+      "updates": 30
+    },
+    {
+      "bytes": 14228437,
+      "epoch": 3,
+      "file": "checkpoints/update-045-e2ff83a9.pt",
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "sha256": "439c38ba085f253399dc21967ef3530788b8c082cbc9224d608c6a57195aaafc",
+      "updates": 45
+    },
+    {
+      "bytes": 14228437,
+      "epoch": 4,
+      "file": "checkpoints/update-060-50fe6096.pt",
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "sha256": "c937818a30b542590106baacccee2a35ac1825934bd6439141aee2c2c8cfdadd",
+      "updates": 60
+    },
+    {
+      "bytes": 14228437,
+      "epoch": 5,
+      "file": "checkpoints/update-075-277eac43.pt",
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "sha256": "2607165fd021718fed12cb610db6857efe3b0d5b6363dc60b99b3416e574f1ed",
+      "updates": 75
+    }
+  ],
+  "original_OWLv2_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "phase10b_report_artifacts": 24,
+  "phase10b_snapshots": 160,
+  "reserved_or_frozen_images_decoded": 0,
+  "source_group_isolation": true,
+  "status": "PASS",
+  "training_updates": 0
+}

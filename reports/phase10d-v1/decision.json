@@ -1,0 +1,16 @@
+{
+  "C21_stronger_gates": {
+    "AP75_gain_ge002": false,
+    "TP_floors": true,
+    "matched_recall_precision_gain_ge003": false,
+    "per_category_AP75_drop_le002": false,
+    "precision_not_below_original": true,
+    "recall_not_below_original": true
+  },
+  "C21_stronger_gates_all_pass": false,
+  "development_60_precision_original_recall_milestone": true,
+  "independent_acceptance": false,
+  "localization_improved": false,
+  "outcome": "B",
+  "precision_or_recall_regressed": false
+}

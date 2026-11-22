@@ -1,0 +1,582 @@
+{
+  "Phase10D_authorized": true,
+  "arms": 1,
+  "automatic_retry": false,
+  "background_targets": 0,
+  "base_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "classification_loss": 0,
+  "comparison_baselines": [
+    "original",
+    "C20_E5"
+  ],
+  "destination": "data/open-images/experiments/phase10c21-box-only-v1",
+  "development_rows_sha256": "918e97671b214b0a902e31a058763188d24ad0adaf50aa338a43dd2115b30c43",
+  "differences_from_C21_proposal": [
+    "Explicit user Phase10D authorization now enabled in new binding only;original C21 disabled proposal unchanged",
+    "New tested executor uses six box tensors;legacy twelve-head workers never invoked",
+    "Actual OWLv2 box_bias is an unregistered derived tensor;extra hash guard covers it without changing computation"
+  ],
+  "evaluation": {
+    "AP": "macro supported-class101point interpolation",
+    "IoU": [
+      0.5,
+      0.75
+    ],
+    "ap_score_floor": 0.001,
+    "category_order": [
+      "sofa",
+      "chair",
+      "table",
+      "bed",
+      "desk",
+      "cabinet",
+      "lamp"
+    ],
+    "checkpoint_comparisons": [
+      1,
+      3,
+      5
+    ],
+    "confidence": 0.15,
+    "inference_precision": "FP32 identical to historical validation; training/probes use FP16 autocast",
+    "matched_recall": "PR-envelope precision at original reference recall, descriptive only; no threshold adopted",
+    "metric_implementation": "unchanged tools/phase10c-v1/metric_cpu.py",
+    "metric_implementation_sha256": "a6a1c8454efca6969620a06739ee0b72d50027a7986f43551917bb88a90e8460",
+    "nms_cap": 300,
+    "nms_iou": 0.5,
+    "official_reserved_frozen_images": false,
+    "partial_labels": "Unchanged native scopes; COCO absent labels unknown; LVIS non-exhaustive flags preserved",
+    "primary_endpoint": "epoch5, fixed before results; no adaptive best-epoch selection",
+    "prompts": [
+      "a photo of a sofa",
+      "a photo of a chair",
+      "a photo of a table",
+      "a photo of a bed",
+      "a photo of a desk",
+      "a photo of a cabinet",
+      "a photo of a lamp"
+    ],
+    "row_ids": [
+      "1229d5e203956ac6",
+      "22a5848e375335e3",
+      "666a614b3123dff9",
+      "757a1631131f4ba3",
+      "cbc8443a05cf29cc",
+      "coco2017:000000068162",
+      "coco2017:000000127256",
+      "coco2017:000000195911",
+      "coco2017:000000217546",
+      "coco2017:000000253212",
+      "coco2017:000000279122",
+      "coco2017:000000305093",
+      "coco2017:000000424683",
+      "coco2017:000000426988",
+      "coco2017:000000436273",
+      "coco2017:000000452459",
+      "coco2017:000000484123",
+      "coco2017:000000558142",
+      "d224c4e1ea5c3d49"
+    ],
+    "rows_sha256": "918e97671b214b0a902e31a058763188d24ad0adaf50aa338a43dd2115b30c43",
+    "scope": "Already exposed19-photo training-derived internal diagnostics; not independent acceptance"
+  },
+  "expected_forward_counts": {
+    "frozen_logit_checks": 4,
+    "internal_diagnostic": 19,
+    "smoke": 4,
+    "training": 295
+  },
+  "fixed_endpoint": 75,
+  "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+  "learning_rate": 1e-05,
+  "limits": {
+    "allocated_VRAM_bytes": 6979321856,
+    "epochs": 5,
+    "forwards": 322,
+    "output_bytes": 2147483648,
+    "seconds": 600,
+    "updates": 75
+  },
+  "matching_and_box_loss": "unchanged tools/phase10c-v1/box_only.py:detached Hungarian,5L1+2GIoU",
+  "new_Chair_negative_regions_active": false,
+  "new_positive_annotations": 0,
+  "orders": [
+    [
+      [
+        "coco2017:000000375590",
+        "coco2017:000000197201",
+        "coco2017:000000543194",
+        "coco2017:000000373101"
+      ],
+      [
+        "coco2017:000000489700",
+        "coco2017:000000575837",
+        "coco2017:000000026221",
+        "coco2017:000000384375"
+      ],
+      [
+        "coco2017:000000294698",
+        "coco2017:000000230617",
+        "coco2017:000000192834",
+        "coco2017:000000199688"
+      ],
+      [
+        "5ebc104d9d7f872c",
+        "coco2017:000000114729",
+        "7c3b876233adde13",
+        "coco2017:000000449850"
+      ],
+      [
+        "coco2017:000000195507",
+        "4e24222b68123ef3",
+        "988fb6132b97bd38",
+        "6e86e224c7e36481"
+      ],
+      [
+        "d794d9f52414c141",
+        "coco2017:000000231450",
+        "coco2017:000000121824",
+        "coco2017:000000030347"
+      ],
+      [
+        "a359ca53d4609faa",
+        "coco2017:000000178671",
+        "coco2017:000000404592",
+        "coco2017:000000131352"
+      ],
+      [
+        "coco2017:000000022890",
+        "coco2017:000000002347",
+        "coco2017:000000263212",
+        "coco2017:000000037367"
+      ],
+      [
+        "93641625fc063e6c",
+        "coco2017:000000192403",
+        "coco2017:000000074638",
+        "coco2017:000000536923"
+      ],
+      [
+        "coco2017:000000580827",
+        "coco2017:000000002270",
+        "coco2017:000000008114",
+        "18c8303c966a5ac6"
+      ],
+      [
+        "coco2017:000000463290",
+        "bce01b280e7be3c9",
+        "coco2017:000000543090",
+        "coco2017:000000165742"
+      ],
+      [
+        "e7fe54073a9a84bc",
+        "coco2017:000000226611",
+        "12e4c0ed71c75b87",
+        "coco2017:000000108375"
+      ],
+      [
+        "coco2017:000000421108",
+        "coco2017:000000402655",
+        "coco2017:000000477263",
+        "9afab31afacbba12"
+      ],
+      [
+        "3a71be7ae113e593",
+        "a86c99772420c77e",
+        "6c582f286b611dbb",
+        "dcbba2e21302e0ad"
+      ],
+      [
+        "c2ed6ddf764b96d4",
+        "coco2017:000000504586",
+        "coco2017:000000479935"
+      ]
+    ],
+    [
+      [
+        "coco2017:000000402655",
+        "coco2017:000000114729",
+        "coco2017:000000002347",
+        "988fb6132b97bd38"
+      ],
+      [
+        "coco2017:000000479935",
+        "coco2017:000000463290",
+        "coco2017:000000022890",
+        "coco2017:000000373101"
+      ],
+      [
+        "6c582f286b611dbb",
+        "coco2017:000000131352",
+        "dcbba2e21302e0ad",
+        "coco2017:000000008114"
+      ],
+      [
+        "coco2017:000000543194",
+        "coco2017:000000197201",
+        "18c8303c966a5ac6",
+        "coco2017:000000263212"
+      ],
+      [
+        "coco2017:000000543090",
+        "coco2017:000000375590",
+        "6e86e224c7e36481",
+        "coco2017:000000230617"
+      ],
+      [
+        "coco2017:000000477263",
+        "a359ca53d4609faa",
+        "coco2017:000000195507",
+        "a86c99772420c77e"
+      ],
+      [
+        "coco2017:000000575837",
+        "coco2017:000000489700",
+        "d794d9f52414c141",
+        "coco2017:000000037367"
+      ],
+      [
+        "coco2017:000000226611",
+        "coco2017:000000294698",
+        "3a71be7ae113e593",
+        "93641625fc063e6c"
+      ],
+      [
+        "coco2017:000000231450",
+        "coco2017:000000192403",
+        "coco2017:000000421108",
+        "coco2017:000000504586"
+      ],
+      [
+        "coco2017:000000121824",
+        "5ebc104d9d7f872c",
+        "coco2017:000000165742",
+        "coco2017:000000199688"
+      ],
+      [
+        "coco2017:000000404592",
+        "coco2017:000000002270",
+        "coco2017:000000030347",
+        "coco2017:000000026221"
+      ],
+      [
+        "coco2017:000000074638",
+        "9afab31afacbba12",
+        "coco2017:000000449850",
+        "bce01b280e7be3c9"
+      ],
+      [
+        "coco2017:000000178671",
+        "4e24222b68123ef3",
+        "e7fe54073a9a84bc",
+        "coco2017:000000580827"
+      ],
+      [
+        "7c3b876233adde13",
+        "coco2017:000000384375",
+        "coco2017:000000192834",
+        "12e4c0ed71c75b87"
+      ],
+      [
+        "c2ed6ddf764b96d4",
+        "coco2017:000000536923",
+        "coco2017:000000108375"
+      ]
+    ],
+    [
+      [
+        "coco2017:000000536923",
+        "coco2017:000000294698",
+        "9afab31afacbba12",
+        "c2ed6ddf764b96d4"
+      ],
+      [
+        "coco2017:000000489700",
+        "d794d9f52414c141",
+        "3a71be7ae113e593",
+        "coco2017:000000384375"
+      ],
+      [
+        "coco2017:000000504586",
+        "coco2017:000000575837",
+        "coco2017:000000022890",
+        "93641625fc063e6c"
+      ],
+      [
+        "4e24222b68123ef3",
+        "a86c99772420c77e",
+        "coco2017:000000199688",
+        "coco2017:000000479935"
+      ],
+      [
+        "coco2017:000000178671",
+        "5ebc104d9d7f872c",
+        "coco2017:000000543090",
+        "7c3b876233adde13"
+      ],
+      [
+        "coco2017:000000131352",
+        "a359ca53d4609faa",
+        "coco2017:000000008114",
+        "coco2017:000000030347"
+      ],
+      [
+        "coco2017:000000192403",
+        "coco2017:000000121824",
+        "coco2017:000000037367",
+        "988fb6132b97bd38"
+      ],
+      [
+        "coco2017:000000421108",
+        "coco2017:000000197201",
+        "coco2017:000000195507",
+        "coco2017:000000404592"
+      ],
+      [
+        "coco2017:000000375590",
+        "dcbba2e21302e0ad",
+        "coco2017:000000449850",
+        "e7fe54073a9a84bc"
+      ],
+      [
+        "coco2017:000000226611",
+        "coco2017:000000074638",
+        "coco2017:000000477263",
+        "6c582f286b611dbb"
+      ],
+      [
+        "coco2017:000000114729",
+        "bce01b280e7be3c9",
+        "coco2017:000000002347",
+        "coco2017:000000231450"
+      ],
+      [
+        "coco2017:000000165742",
+        "6e86e224c7e36481",
+        "coco2017:000000192834",
+        "12e4c0ed71c75b87"
+      ],
+      [
+        "coco2017:000000002270",
+        "coco2017:000000263212",
+        "coco2017:000000026221",
+        "coco2017:000000108375"
+      ],
+      [
+        "coco2017:000000230617",
+        "coco2017:000000543194",
+        "coco2017:000000463290",
+        "coco2017:000000580827"
+      ],
+      [
+        "coco2017:000000373101",
+        "18c8303c966a5ac6",
+        "coco2017:000000402655"
+      ]
+    ],
+    [
+      [
+        "9afab31afacbba12",
+        "coco2017:000000294698",
+        "3a71be7ae113e593",
+        "coco2017:000000404592"
+      ],
+      [
+        "coco2017:000000479935",
+        "coco2017:000000373101",
+        "coco2017:000000375590",
+        "4e24222b68123ef3"
+      ],
+      [
+        "coco2017:000000131352",
+        "dcbba2e21302e0ad",
+        "coco2017:000000165742",
+        "6c582f286b611dbb"
+      ],
+      [
+        "coco2017:000000230617",
+        "d794d9f52414c141",
+        "coco2017:000000026221",
+        "coco2017:000000002270"
+      ],
+      [
+        "7c3b876233adde13",
+        "coco2017:000000543194",
+        "coco2017:000000037367",
+        "988fb6132b97bd38"
+      ],
+      [
+        "coco2017:000000108375",
+        "coco2017:000000192834",
+        "coco2017:000000030347",
+        "e7fe54073a9a84bc"
+      ],
+      [
+        "coco2017:000000504586",
+        "a359ca53d4609faa",
+        "coco2017:000000022890",
+        "5ebc104d9d7f872c"
+      ],
+      [
+        "93641625fc063e6c",
+        "coco2017:000000192403",
+        "coco2017:000000477263",
+        "coco2017:000000002347"
+      ],
+      [
+        "coco2017:000000231450",
+        "6e86e224c7e36481",
+        "coco2017:000000421108",
+        "coco2017:000000543090"
+      ],
+      [
+        "coco2017:000000263212",
+        "coco2017:000000074638",
+        "c2ed6ddf764b96d4",
+        "coco2017:000000008114"
+      ],
+      [
+        "12e4c0ed71c75b87",
+        "coco2017:000000121824",
+        "coco2017:000000384375",
+        "coco2017:000000575837"
+      ],
+      [
+        "coco2017:000000195507",
+        "coco2017:000000178671",
+        "bce01b280e7be3c9",
+        "coco2017:000000402655"
+      ],
+      [
+        "coco2017:000000199688",
+        "coco2017:000000226611",
+        "coco2017:000000463290",
+        "coco2017:000000197201"
+      ],
+      [
+        "18c8303c966a5ac6",
+        "coco2017:000000114729",
+        "coco2017:000000580827",
+        "coco2017:000000449850"
+      ],
+      [
+        "coco2017:000000489700",
+        "coco2017:000000536923",
+        "a86c99772420c77e"
+      ]
+    ],
+    [
+      [
+        "coco2017:000000037367",
+        "d794d9f52414c141",
+        "5ebc104d9d7f872c",
+        "coco2017:000000580827"
+      ],
+      [
+        "coco2017:000000375590",
+        "coco2017:000000199688",
+        "coco2017:000000192403",
+        "coco2017:000000008114"
+      ],
+      [
+        "coco2017:000000463290",
+        "e7fe54073a9a84bc",
+        "bce01b280e7be3c9",
+        "coco2017:000000074638"
+      ],
+      [
+        "4e24222b68123ef3",
+        "coco2017:000000231450",
+        "coco2017:000000489700",
+        "3a71be7ae113e593"
+      ],
+      [
+        "coco2017:000000192834",
+        "coco2017:000000026221",
+        "coco2017:000000477263",
+        "coco2017:000000543194"
+      ],
+      [
+        "coco2017:000000479935",
+        "coco2017:000000504586",
+        "coco2017:000000030347",
+        "93641625fc063e6c"
+      ],
+      [
+        "coco2017:000000402655",
+        "coco2017:000000536923",
+        "coco2017:000000449850",
+        "coco2017:000000197201"
+      ],
+      [
+        "coco2017:000000131352",
+        "coco2017:000000108375",
+        "coco2017:000000404592",
+        "coco2017:000000373101"
+      ],
+      [
+        "coco2017:000000575837",
+        "c2ed6ddf764b96d4",
+        "coco2017:000000294698",
+        "coco2017:000000543090"
+      ],
+      [
+        "coco2017:000000263212",
+        "a359ca53d4609faa",
+        "coco2017:000000384375",
+        "7c3b876233adde13"
+      ],
+      [
+        "coco2017:000000022890",
+        "coco2017:000000195507",
+        "a86c99772420c77e",
+        "coco2017:000000114729"
+      ],
+      [
+        "dcbba2e21302e0ad",
+        "18c8303c966a5ac6",
+        "coco2017:000000002347",
+        "9afab31afacbba12"
+      ],
+      [
+        "coco2017:000000002270",
+        "coco2017:000000178671",
+        "988fb6132b97bd38",
+        "coco2017:000000226611"
+      ],
+      [
+        "6e86e224c7e36481",
+        "12e4c0ed71c75b87",
+        "coco2017:000000230617",
+        "coco2017:000000121824"
+      ],
+      [
+        "6c582f286b611dbb",
+        "coco2017:000000165742",
+        "coco2017:000000421108"
+      ]
+    ]
+  ],
+  "precision": "FP32",
+  "schema": "phase10d-one-original-classifier-box-only-v1",
+  "seed": 6106,
+  "smoke_ids": [
+    "coco2017:000000375590",
+    "coco2017:000000197201",
+    "coco2017:000000543194",
+    "coco2017:000000373101"
+  ],
+  "trainable_keys": [
+    "box_head.dense0.bias",
+    "box_head.dense0.weight",
+    "box_head.dense1.bias",
+    "box_head.dense1.weight",
+    "box_head.dense2.bias",
+    "box_head.dense2.weight"
+  ],
+  "training_authorized": true,
+  "training_rows_sha256": "f6e440afc30115654d9818234d2955c2ce37e08ef46a3f875ec66bd8e1304a91",
+  "unregistered_tensor_sha256": {
+    "box_bias": "8053cfd7741c149be716c8b6a9dfb3e80d0eddb0eb770a75d3a419b434285072"
+  }
+}

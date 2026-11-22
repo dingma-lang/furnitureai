@@ -1,0 +1,56 @@
+{
+  "another_configuration": false,
+  "automatic_retries": 0,
+  "completed_worker": {
+    "actual_forwards": 322,
+    "allocated_output_bytes": 168484864,
+    "another_run": false,
+    "classification_unchanged": true,
+    "current_photo": "d224c4e1ea5c3d49",
+    "epoch": 5,
+    "epochs": 5,
+    "final_checkpoint": {
+      "bytes": 14228437,
+      "epoch": 5,
+      "file": "checkpoints/update-075-277eac43.pt",
+      "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+      "sha256": "2607165fd021718fed12cb610db6857efe3b0d5b6363dc60b99b3416e574f1ed",
+      "updates": 75
+    },
+    "forwards": 322,
+    "frozen_sha256": "dea9be2a7eb1f73e94ad200a09cf94a16fa73206de4f3a40bc6ddc4da6072126",
+    "group": 14,
+    "independent_or_reserved_scored": false,
+    "kind": "complete",
+    "optimizer_hook_calls": 75,
+    "original_file_unchanged": true,
+    "peak_allocated_bytes": 2025887744,
+    "peak_reserved_bytes": 2654994432,
+    "phase": "complete",
+    "predictions_saved_before_metrics": true,
+    "seconds": 142.97553733398672,
+    "status": "PASS",
+    "training_backwards": 295,
+    "updates": 75
+  },
+  "downloads": 0,
+  "launcher": {
+    "automatic_retry": false,
+    "exit_code": 0,
+    "stop_reason": null,
+    "wall_seconds": 143.72907391400076
+  },
+  "limits": {
+    "allocated_VRAM_bytes": 6979321856,
+    "epochs": 5,
+    "forwards": 322,
+    "output_bytes": 2147483648,
+    "seconds": 600,
+    "updates": 75
+  },
+  "storage_before_final_seal": {
+    "conservative_path_allocated_bytes": 177250304,
+    "unique_file_bytes": 86492453,
+    "unique_inode_allocated_bytes": 88694784
+  }
+}

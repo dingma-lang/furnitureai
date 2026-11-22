@@ -1,0 +1,32 @@
+{
+  "binding_sha256": "15604700258f1b3b33622d0120fb122563dfea14817a5869673bd2731d4bf28a",
+  "new_GPU_calls": 0,
+  "passed": 38,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "data/open-images/experiments/phase10c21-box-only-v1/CPU-Phase10D-bfe8019a.log",
+      "passed": 16,
+      "sha256": "a9e152913e1339d0478a49f00f37ee5f20b9a190fdc5684b005408ac810bb40b",
+      "suite": "Phase10D"
+    },
+    {
+      "log": "data/open-images/experiments/phase10c21-box-only-v1/CPU-C21scope-421efa8e.log",
+      "passed": 11,
+      "sha256": "b92a14c6771d1c183963e3b353c0b9a2c1051d0b9f7259089bd1acf3fbf447db",
+      "suite": "C21scope"
+    },
+    {
+      "log": "data/open-images/experiments/phase10c21-box-only-v1/CPU-originalBox-fac7d40b.log",
+      "passed": 4,
+      "sha256": "fce23bc47804e3dba458833df3b879eb656b5ae6b5d13c541274e661019e3111",
+      "suite": "originalBox"
+    },
+    {
+      "log": "data/open-images/experiments/phase10c21-box-only-v1/CPU-unchangedMetrics-73605928.log",
+      "passed": 7,
+      "sha256": "2b7782898dc4ee18353b65b591c935c85b93e171f992bdebdca84402c1ba8960",
+      "suite": "unchangedMetrics"
+    }
+  ]
+}
