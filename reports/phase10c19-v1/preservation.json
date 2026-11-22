@@ -1,0 +1,36 @@
+{
+  "C11_public_files": 31,
+  "C13_public_files": 26,
+  "C14_public_files": 19,
+  "C16_public_files": 16,
+  "C17_seals": {
+    "private_files": 528,
+    "public_files": 14
+  },
+  "C18_seals": {
+    "private_files": 681,
+    "public_files": 15
+  },
+  "C19_GPU_forwards": 0,
+  "C19_model_inference": 0,
+  "C19_training_updates": 0,
+  "C8_private_files": 1310,
+  "CUDA_initialized": false,
+  "Mac_project_modified": false,
+  "annotation_overlays_activated": 0,
+  "checkpoint28_sha256": "77081cb4ef7775a8f83c2b17475bf275847f9c0305f1984b66354a9880a2eefa",
+  "datasets_or_models_downloaded": 0,
+  "eligible_image_hashes": 78,
+  "historical_data_model_files": 9973,
+  "historical_data_modified": false,
+  "historical_implementation_files": 27,
+  "historical_preservation_routine_GPU_forwards": 0,
+  "new_outputs_allocated_bytes": 1388544,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "phase10b_report_artifacts": 24,
+  "phase10b_snapshots": 160,
+  "reserved_or_frozen_images_decoded": 0,
+  "source_group_isolation": true,
+  "status": "PASS",
+  "training_updates": 0
+}

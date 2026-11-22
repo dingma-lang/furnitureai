@@ -1,0 +1,33 @@
+{
+  "CPU_passed": 100,
+  "CUDA_initialized": false,
+  "GPU_forwards": 0,
+  "optimizer_steps_on_real_models": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "file": "data/open-images/preparation/phase10c19-v1/CPU-tests-attempt2.log",
+      "passed": 38,
+      "sha256": "e0cb16b88978488b81892b4d162e33c7311f631dd8c80e5d32f1907d90f9e139",
+      "suite": "C19"
+    },
+    {
+      "file": "data/open-images/preparation/phase10c19-v1/CPU-C16-2949c529.log",
+      "passed": 33,
+      "sha256": "25475b660879156e5cfa75218b490f3bcd24dd0b47120bd5b4ba19015d22ea33",
+      "suite": "C16"
+    },
+    {
+      "file": "data/open-images/preparation/phase10c19-v1/CPU-C8-9cadb494.log",
+      "passed": 16,
+      "sha256": "7b61afaf73edc5264a89c0c472f509f3bddc4d57df68d73dcb389461ed15cbf4",
+      "suite": "C8"
+    },
+    {
+      "file": "data/open-images/preparation/phase10c19-v1/CPU-C15-loss-8eac1b25.log",
+      "passed": 13,
+      "sha256": "2d7ee750b2c3bf08d399b8e3cb5f56a8fc0bdf2c469ab23d0554a69550c9a88b",
+      "suite": "C15-loss"
+    }
+  ]
+}

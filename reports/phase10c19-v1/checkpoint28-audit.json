@@ -1,0 +1,108 @@
+{
+  "CPU_fixture_restore": {
+    "CPU_scaler_loaded": true,
+    "actual_head_tensors_loaded": 12,
+    "actual_optimizer_states_loaded": 12,
+    "fixture_model_fingerprint": {
+      "scope": "all provided model parameters and buffers",
+      "sha256": "8f4d44266216513ea55fa2d6470c5af15d2864be084c09be1533633827e2b17e",
+      "tensors": 16
+    },
+    "forward_calls": 0,
+    "optimizer_steps": 0,
+    "scope_caveat": "Shape-correct CPU head fixture,not real backbone or GPU restoration",
+    "status": "PASS",
+    "synthetic_frozen_parameters_unchanged": true
+  },
+  "CPU_rng_restored_locally": true,
+  "CUDA_restore_executed": false,
+  "CUDA_rng_available": true,
+  "CUDA_rng_bytes": 16,
+  "CUDA_rng_sha256": "6d856cfb136dc12cad1a5889d470b6e3d637b713cf6d6f196a89bca9f2f895a6",
+  "GPU_bitwise_replay_certified": false,
+  "RNG_CPU_equal_to_initial": true,
+  "RNG_CUDA_equal_to_initial": true,
+  "accumulation_boundary": true,
+  "binding_sha256": "be2a243a1d98b40fab189b5a4a231f0686052d97b1a5fecb7bd87ae06abe0c42",
+  "checkpoint": "data/open-images/experiments/phase10c18-source-balanced-v1/checkpoints/update-028-0520b171.pt",
+  "checkpoint_optimizer_step_counts_exact": true,
+  "checkpoint_sha256": "77081cb4ef7775a8f83c2b17475bf275847f9c0305f1984b66354a9880a2eefa",
+  "epoch_zero_based": 1,
+  "gradient_buffers_not_required": "Snapshot taken after a committed step; original next group clears .grad. Four failed-group forwards/VJPs were uncommitted and must be replayed from checkpoint28 RNG.",
+  "head_shapes": {
+    "box_head.dense0.bias": [
+      768
+    ],
+    "box_head.dense0.weight": [
+      768,
+      768
+    ],
+    "box_head.dense1.bias": [
+      768
+    ],
+    "box_head.dense1.weight": [
+      768,
+      768
+    ],
+    "box_head.dense2.bias": [
+      4
+    ],
+    "box_head.dense2.weight": [
+      4,
+      768
+    ],
+    "class_head.dense0.bias": [
+      512
+    ],
+    "class_head.dense0.weight": [
+      512,
+      768
+    ],
+    "class_head.logit_scale.bias": [
+      1
+    ],
+    "class_head.logit_scale.weight": [
+      1,
+      768
+    ],
+    "class_head.logit_shift.bias": [
+      1
+    ],
+    "class_head.logit_shift.weight": [
+      1,
+      768
+    ]
+  },
+  "limitations": [
+    "CUDA RNG bytes are present and structurally match the saved initial runtime; no GPU set/get or equality roundtrip performed in this CPU phase.",
+    "Reconstruct frozen backbone from preserved original base,not from an absent full-backbone delta.",
+    "Apply model/head/optimizer/scaler load first,then restore Python/CPU/CUDA RNG LAST before first resumed forward.",
+    "No GPU recovery executor was added or invoked. A future worker must retain original scopes/order/math and bind repaired guard/telemetry."
+  ],
+  "next_group_zero_based": 13,
+  "next_update": 29,
+  "optimizer_states": 12,
+  "optimizer_step": 28,
+  "parameter_order": [
+    "class_head.dense0.weight",
+    "class_head.dense0.bias",
+    "class_head.logit_shift.weight",
+    "class_head.logit_shift.bias",
+    "class_head.logit_scale.weight",
+    "class_head.logit_scale.bias",
+    "box_head.dense0.weight",
+    "box_head.dense0.bias",
+    "box_head.dense1.weight",
+    "box_head.dense1.bias",
+    "box_head.dense2.weight",
+    "box_head.dense2.bias"
+  ],
+  "python_rng_restored_locally": true,
+  "remaining_order_sha256": "3f905ce337e0e9d5439fcf24fbf5a44a1fee0fbfcc0f425f278fd444ea4cfaff",
+  "remaining_photo_presentations": 184,
+  "remaining_updates": 47,
+  "scheduler_present": false,
+  "scheduler_required": false,
+  "source_evidence_sha256": "48f26dd93572bd166a31270479df11accc1899d9896304eaba5028aaf7cd1448",
+  "training_manifest_sha256": "f6e440afc30115654d9818234d2955c2ce37e08ef46a3f875ec66bd8e1304a91"
+}

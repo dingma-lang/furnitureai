@@ -1,0 +1,124 @@
+# Phase 10C.19 — Numerical guard repair and recovery preflight
+
+**CPU-only preparation completed. No training, model inference, GPU initialization, downloads or production changes occurred.** The guard is repaired and tested. Checkpoint 28 contains the required optimization state, but bit-for-bit GPU continuation is not certified by CPU testing. One recovery proposal remains disabled.
+
+## Confirmed defect and uncertainty
+
+C18 separately accumulates scaled base, positive-class and trusted-source gradients over the original groups of four (last group three), then unscales once. The source cap covers all six classification-head tensors: projection weight/bias plus logit-shift and logit-scale weight/bias. It does not cover the six box-head tensors. Positive classification is the verified-positive anchor; base also contains unchanged native negatives and box loss.
+
+The cap coefficient is `min(1, 0.25 * ||Gpositive|| / ||Gsource||)` after accumulation. C16 already verifies its directly scaled source vector. C18 added a check on `composed - base`, where both tensors are FP32. Adding a small source component to a larger base rounds it; subtracting the base cannot recover the original source component. Mixed tensor magnitudes make a source-relative tolerance inappropriate for that reconstructed vector.
+
+The subtraction itself may be exact for nearby FP32 values (Sterbenz condition). The defect is not a claim that every subtraction adds rounding: cancellation exposes information already lost in the preceding FP32 addition, producing a large relative error for the small reconstructed component. It is the wrong measurement of the intended source vector.
+
+The retained synthetic CPU witness has a valid directly capped norm/budget of `0.0008660254449184381`, but a subtraction-derived norm of `0.0008721569313014672`. C18 rejects it; C19 accepts it while returning **bit-identical gradient tensors** to unmodified C16. This confirms a numerical defect in the old guard, not the exact cause or values of the stopped GPU group. The missing group-29 buffers were not reconstructed or invented.
+
+## Corrected verification
+
+1. Keep C16 source/region/query normalization, scalar cap, scaled accumulation and gradient composition unchanged.
+2. Measure the accumulated positive, raw source and directly scaled source vectors in the same sorted six-tensor FP64 diagnostic frame. Never recover the negative vector by subtracting the combined/base tensors.
+3. Verify the coefficient is exactly the fixed-policy coefficient and the post vector is exactly the original FP32 multiply. This prevents a wrong or corrupted branch from passing solely because its norm is small.
+4. Check the direct post-vector norm against the unchanged 25% budget plus a derived arithmetic allowance. Retain the original near-zero-anchor stop and negative-only absolute fallback.
+5. Require bit-identical positive/base buffers, box gradients and composed output relative to the original FP32 add. Reject nonfinite values and corruption. FP64 addition-rounding residuals are descriptive only, not a negative-gradient estimate or safety budget.
+
+The repaired guard does not change LR, masks, losses, normalization, calibration scope, global clipping or AdamW. It is an isolated replacement under `tools/phase10c19-v1/`; all C16–18 source files remain unchanged. The tests preserve the exact source-cap output, including at an active boundary.
+
+## Numerical allowance derived before measurement
+
+Let `u32 = 2^-24`, `u64 = 2^-53`, `eta32 = 2^-149`, and `N` be the number of classification scalars. A finite FP32 value squares exactly in FP64 because its product needs at most 48 significand bits. A conservative FP64 reduction bound uses `k = N + 6 + 8` and `gamma = k*u64/(1-k*u64)`. Two FP32 roundings cover coefficient conversion and multiplication. Norm measurements, square root and division are included in:
+
+```text
+relative = (1+u32)^2 * (1+gamma)^2 * (1+u64)^4 / (1-gamma) - 1
+tolerance = budget * relative + sqrt(N) * eta32/2 * (1+gamma)
+```
+
+For the actual **395,266 classification scalars**, the unit-budget allowance is **1.1934094825e-07**, approximately 0.119 parts per million. It is derived from precision/reduction size, not fitted to failed GPU values. `log1p`/`expm1` retain terms smaller than an ulp of 1.0, and the computed bound is rounded upward. Tests compare the formula against a 70-digit Decimal reference. Subnormal cap coefficients stop for inadequate numerical resolution rather than widening the bound. Upstream AMP/backward and FP32 accumulation errors are not claimed eliminated; the cap verifies the actual measured accumulated components.
+
+True over-budget vectors, an incorrect coefficient, altered post components, class/box output corruption, nonfinite values and unusable positive anchors still stop. Exact box and positive preservation does not imply AdamW parameter-update norms are bounded by 25%; the policy is explicitly a pre-global-clipping parameter-gradient bound.
+
+## Failure telemetry
+
+`FailureTelemetry` wraps startup, forward, accumulation, cap, optimizer and checkpoint operations through `failure_scope`. Callers update context **before** each operation. `compose_with_telemetry` atomically records a boundary receipt **before** running the guard, and records any exception afterward. Receipts include current photo/source IDs, group IDs, epoch/microbatch/update cursors, direct positive/source pre/post norms, coefficient, budget, ratio, activation, derived tolerance, direction/cosine, nonfinite flags, per-component hashes, live model fingerprint callback, optimizer/checkpoint availability, elapsed time, available memory/runtime measurements, exception and full stack trace.
+
+Unknown measurements are explicitly null/unavailable. A pre-cap post vector is labelled as a candidate, not an applied optimizer update. Failing fingerprint/resource providers cannot erase the original exception. Writes are exclusive, atomic and confined to new C19 output paths; no photograph pixels or valid checkpoint are overwritten. Disk/persistence failure is surfaced on the original exception—no implementation can guarantee a disk write when storage itself fails. All receipts generated in this phase are explicitly synthetic CPU tests, not new GPU evidence.
+
+The old C18 worker remains immutable. Future recovery must integrate the top-level failure wrapper, per-operation context and pre-cap receipts; a GPU executor was intentionally not implemented or activated in this CPU-only phase. This is a tested telemetry component and integration contract, not a claim that an unexecuted future worker has already logged GPU failures.
+
+## Checkpoint-28 audit
+
+Checkpoint `data/open-images/experiments/phase10c18-source-balanced-v1/checkpoints/update-028-0520b171.pt` retains SHA-256 `77081cb4ef7775a8f83c2b17475bf275847f9c0305f1984b66354a9880a2eefa`. The audit verified all 12 finite FP32 head tensors/shapes/order; all 12 AdamW first/second moments and step counters at 28; unchanged optimizer options; scaler 128 with growth tracker 28; Python, CPU and single-device CUDA RNG records; original manifest/source-evidence hashes; and exact C8 data order. No scheduler exists in C18, so no scheduler state is missing.
+
+The cursor is **zero-based epoch 1, next group 13**: resume update 29 at human-readable epoch 2, group 14. It is a completed optimizer boundary. Model gradients are cleared at the next group; no partially accumulated optimizer gradients are needed. Four failed-group forwards were uncommitted and must be replayed after restoring checkpoint-28 RNG.
+
+Actual head weights, optimizer moments and scaler state were restored exactly into an isolated shape-correct CPU fixture, without a model forward or optimizer step. Its synthetic frozen tensors were unchanged. Python/CPU RNG roundtrips pass locally. Saved CUDA RNG is a 16-byte uint8 state matching the original runtime representation; it was not interpreted as another version’s RNG format. No CUDA set/get roundtrip was attempted.
+
+CPU evidence supports deterministic state and sampler restoration. It does **not** certify bitwise GPU replay: future authorization must permit loading the preserved original backbone, restoring heads/moments/scaler, verifying frozen/head fingerprints, then restoring RNG **last** and checking device state before any forward. The real frozen backbone is reconstructed from the immutable original base, not a nonexistent full-backbone checkpoint. The missing post-failure live frozen fingerprint remains a historical limitation.
+
+Epoch-2 accumulated per-source reporting vectors from groups 1–13 were not checkpointed. They are diagnostic state, not optimizer state. Scalar/norm receipts cannot reconstruct signed vector sums; future reporting must keep pre-stop and resumed segments separate instead of inventing a whole-epoch concentration statistic.
+
+## Does balancing actually change learning?
+
+All 28 matched C8/C18 checkpoints and their incremental updates/AdamW moments were compared on CPU. The effect is real, although very small relative to accumulated adaptation. At update 28, 11 of 12 tensors differ between arms; the logit-shift bias is identical between arms, which does not mean it stayed frozen relative to pretrained values.
+
+| Tensor | Update-28 C18 minus C8 L2 | Maximum absolute difference |
+|---|---:|---:|
+| `box_head.dense0.bias` | 2.986835512e-05 | 6.122980267e-06 |
+| `box_head.dense0.weight` | 0.0014535891 | 2.481043339e-05 |
+| `box_head.dense1.bias` | 2.817536177e-05 | 1.044431701e-05 |
+| `box_head.dense1.weight` | 0.0008997589461 | 3.456324339e-05 |
+| `box_head.dense2.bias` | 1.228809399e-06 | 9.983778e-07 |
+| `box_head.dense2.weight` | 5.565430222e-05 | 6.89276203e-06 |
+| `class_head.dense0.bias` | 2.392678112e-05 | 4.285480827e-06 |
+| `class_head.dense0.weight` | 0.0007702528399 | 2.441555262e-05 |
+| `class_head.logit_scale.bias` | 1.206994057e-06 | 1.206994057e-06 |
+| `class_head.logit_scale.weight` | 5.396351869e-05 | 1.946091652e-05 |
+| `class_head.logit_shift.bias` | 0 | 0 |
+| `class_head.logit_shift.weight` | 2.625065337e-05 | 4.74601984e-06 |
+
+Projection weight displacement from original initialization is about0.091866 in C18; its between-arm difference is0.000770253. Differences are not attributable element-by-element only to source loss: C18 has disclosed three-VJP versus C8 single-backward AMP summation differences; the shared global clip, later classification-dependent matching and changed trajectory can also affect box updates. Source composition itself preserves the base box gradient exactly.
+
+Trusted source supervision is still numerically nonzero at update28: source norm0.137466 and source/positive ratio6.312%. The largest committed ratio is9.209%, below the unchanged25% cap. **No cap activated in the 28 committed updates.** The failed group’s cap activation remains unknown. On fixed-photo probes, source coverage grows19→20groups, mean source norm0.13985→0.73251, and the median source score rises0.000158→0.000830. All committed source scores remain below0.15 (maximum0.11636): hard-negative coverage remains unproven.
+
+| Saved model | Updates | Precision @0.15 | Recall @0.15 | TP / FP / FN | Chair FP |
+|---|---:|---:|---:|---:|---:|
+| original | 0 | 62.69% | 68.85% | 42 / 25 / 19 | 19 |
+| C8_corrected_B_E1 | 15 | 22.22% | 78.69% | 48 / 168 / 13 | 139 |
+| C18_E1 | 15 | 22.22% | 78.69% | 48 / 168 / 13 | 139 |
+| C8_corrected_B_E5 | 75 | 6.86% | 95.08% | 58 / 788 / 3 | 636 |
+
+These are saved results, not new scoring. Matched 15-update precision/recall and Chair FPs are identical. Broad seven-category aligned-query logit drift is+1.77475 for C18 versus+1.77594 for C8 at epoch1. Confidence inflation is evident; no update28 inference exists to establish its endpoint trend. C18E1 AP50/AP75 differ from C8E1 by only+0.056/+0.037 percentage points. At original recall68.85%, both E1 curves have66.67% PR-envelope precision. This does not show useful discrimination improvement or achievement of the60% development milestone.
+
+The panel is exposed and partial, with only Sofa/Chair/Bed supported. Unknown unmatched predictions are not confirmed false positives. No thresholds or hyperparameters were selected, no new metrics were computed, and no reserved/frozen/official set was scored. The independent seven-class80%precision/90%recall requirement remains untested.
+
+## Continuation decision and disabled scope
+
+**Conditional diagnostic justification, not evidence of a better model.** Finishing the originally fixed endpoint could answer whether the cap engages as positive gradients decline and whether a matched 75-update result differs from C8. Actual weights/moments differ and negative influence is rising, so the experiment is not a duplicate no-op. This is a limited reason to complete the predeclared mechanism test; it is not a demonstrated route to the precision target. Cancellation is also scientifically reasonable given near-identical early inflation and absent hard-negative coverage.
+
+The missing checkpoint28 evaluation prevents a current performance conclusion but does not justify an extra inference pass in this phase. A separately approved completion could retain the originally planned epoch3/5 diagnostics without tuning against the exposed panel.
+
+**Active proposal: `recovery-disabled-v2.json`, approved=false, enabled=false, training_authorized=false, GPU_authorized=false.** The initial proposal remains retained as superseded CPU preflight history. The v2 refinement only binds stable evaluation of the derived tolerance and integrated failure receipts; it does not change gradients or rho.
+
+| Proposed remaining resource | Exact ceiling |
+|---|---:|
+| Optimizer updates | 29–75:47 additional,75 cumulative |
+| Training photo forwards | 184 |
+| Training VJPs | 552 |
+| Training-only probes | 48 forwards,144 VJPs (epochs3/5) |
+| Existing internal diagnostics | 38 forwards:19photos at epochs3/5 |
+| Total additional forwards | 270 |
+| Total actual forwards across attempts | 452 |
+| Additional GPU runtime including inference | 515 seconds |
+| VRAM | 6.5 GiB |
+| New checkpoints | At most47,maximum20,000,000bytes each |
+| New allocated storage | 2.5 GiB,within original combined4GiB ceiling |
+
+452 cumulative forwards are the original448 planned plus the four failed uncommitted forwards repeated once. This explicitly needs separate authorization; it is not described as compliance with the old448-forward binding.515seconds plus84.14seconds previously consumed stays below the original600-second queue ceiling. No initial probes or committed updates would be repeated.
+
+Proposed destination `data/open-images/experiments/phase10c19-recovery-v1/` remains absent. The original seed/order/LR/data/masks/native losses/rho/optimizer/scaler/scope/endpoint stay fixed. The numerical guard is the sole optimization-code change; restart and telemetry necessarily change execution control. Call this an intended optimization-state continuation with repaired validation, **not certified binary replay or an uninterrupted original execution**. A final recovery executor/code binding and device restore checks remain prerequisites under future explicit approval.
+
+## Tests, preservation and next action
+
+**100 CPU tests passed**:38new guard/recovery/telemetry tests,33C16 normalization/cap tests,16C8 invariants and13historical loss tests. This includes real head dimensions, tiny/large/mixed gradients, FP64/Decimal references, genuine violations, positive/box preservation, RNG/cursor corruption, CPU state restoration, before-cap receipts, startup/provider/nonfinite/persistence failures and no-CUDA checks.
+
+Historical verification checked9973data/model files plus C8/C11/C13/C14/C16/C17/C18 seals. Checkpoint28, original OWLv2/SigLIP2 and historical predictions/manifests remain unchanged. No photograph bodies were decoded, checkpoints written, packages installed, Mac project changed, GPU executed or new dataset scored. Versioned SHA-256 manifests seal C19 code and outputs.
+
+**Recommended next action:** review the disabled47-update diagnostic completion proposal and authorize it only if answering the remaining mechanism question is worth the bounded run. Do not infer likely performance gains from passing numerical tests. Otherwise retain/cancel the interrupted arm and improve trusted hard-negative evidence before another model-training design. No execution follows automatically.

@@ -1,0 +1,9 @@
+{
+  "CUDA_initialized": false,
+  "GPU_forwards": 0,
+  "environment_changes": [],
+  "model_forward_calls": 0,
+  "optimizer_steps_on_real_models": 0,
+  "python": "3.14.4",
+  "python_executable": "/home/tristary/furniture-ai-ml/.venv/bin/python"
+}

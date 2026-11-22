@@ -1,0 +1,14 @@
+{
+  "C18_seal": {
+    "private_files": 681,
+    "public_files": 15
+  },
+  "CPU_only": true,
+  "GPU_authorized": false,
+  "Phase10D_authorized": false,
+  "checkpoint28_sha256": "77081cb4ef7775a8f83c2b17475bf275847f9c0305f1984b66354a9880a2eefa",
+  "source_manifest_sha256": "48f26dd93572bd166a31270479df11accc1899d9896304eaba5028aaf7cd1448",
+  "status": "PASS",
+  "training_authorized": false,
+  "training_rows_sha256": "f6e440afc30115654d9818234d2955c2ce37e08ef46a3f875ec66bd8e1304a91"
+}

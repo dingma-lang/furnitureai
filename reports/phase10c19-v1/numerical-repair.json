@@ -1,0 +1,96 @@
+{
+  "actual_classification_elements": 395266,
+  "all12_composed_outputs_bit_identical_to_C16": true,
+  "budget": 0.0008660254449184381,
+  "direct_guard": {
+    "actual_negative_positive_ratio": 0.25,
+    "cap_active": true,
+    "cap_coefficient": 2.500000118743628e-05,
+    "cap_verified": true,
+    "expected_coefficient": 2.500000118743628e-05,
+    "expected_max_negative_norm": 0.0008660254449184381,
+    "measurement": "direct post-cap accumulated source parameter vector; no composed-minus-base subtraction",
+    "mode": "relative-to-all-verified-furniture-positives",
+    "negative_positive_cosine": -0.9999999999999999,
+    "negative_post_norm": 0.0008660254449184381,
+    "negative_pre_norm": 34.64101615137755,
+    "nonfinite_gradient": false,
+    "numerical_tolerance": {
+      "FP32_min_subnormal": 1.401298464324817e-45,
+      "absolute": 2.427120136778834e-45,
+      "derivation": "(1+u32)^2*(1+gamma)^2*(1+u64)^4/(1-gamma)-1; plus sqrt(N)*eta32/2; log1p/expm1 evaluated and rounded upward",
+      "reduction_gamma": 2.8865798640254153e-15,
+      "reduction_operation_bound": 26,
+      "relative": 1.1920930220732487e-07,
+      "scalar_conversion_and_multiply_roundings": 2,
+      "total": 1.0323828898251508e-10,
+      "unit_roundoff_FP32": 5.960464477539063e-08,
+      "unit_roundoff_FP64": 1.1102230246251565e-16
+    },
+    "positive_norm": 0.0034641017796737525,
+    "scope": [
+      "class_head.dense0.bias",
+      "class_head.dense0.weight",
+      "class_head.logit_scale.bias",
+      "class_head.logit_scale.weight",
+      "class_head.logit_shift.bias",
+      "class_head.logit_shift.weight"
+    ]
+  },
+  "full_scope_tolerance_for_unit_budget": {
+    "FP32_min_subnormal": 1.401298464324817e-45,
+    "absolute": 4.404994594576343e-43,
+    "derivation": "(1+u32)^2*(1+gamma)^2*(1+u64)^4/(1-gamma)-1; plus sqrt(N)*eta32/2; log1p/expm1 evaluated and rounded upward",
+    "reduction_gamma": 4.388489571930907e-11,
+    "reduction_operation_bound": 395280,
+    "relative": 1.193409482504443e-07,
+    "scalar_conversion_and_multiply_roundings": 2,
+    "total": 1.1934094825044433e-07,
+    "unit_roundoff_FP32": 5.960464477539063e-08,
+    "unit_roundoff_FP64": 1.1102230246251565e-16
+  },
+  "historical_gpu_failed_values_available": false,
+  "new_guard_accepts": true,
+  "old_guard_would_reject": true,
+  "real_violation_example": {
+    "diagnostics": {
+      "actual_negative_positive_ratio": 0.2502500018917489,
+      "cap_active": true,
+      "cap_coefficient": 2.500000118743628e-05,
+      "expected_coefficient": 2.500000118743628e-05,
+      "expected_max_negative_norm": 0.0008660254449184381,
+      "measurement": "direct post-cap accumulated source parameter vector; no composed-minus-base subtraction",
+      "mode": "relative-to-all-verified-furniture-positives",
+      "negative_positive_cosine": -0.9999999999999999,
+      "negative_post_norm": 0.0008668914769165673,
+      "negative_pre_norm": 34.64101615137755,
+      "nonfinite_gradient": false,
+      "numerical_tolerance": {
+        "FP32_min_subnormal": 1.401298464324817e-45,
+        "absolute": 2.427120136778834e-45,
+        "derivation": "(1+u32)^2*(1+gamma)^2*(1+u64)^4/(1-gamma)-1; plus sqrt(N)*eta32/2; log1p/expm1 evaluated and rounded upward",
+        "reduction_gamma": 2.8865798640254153e-15,
+        "reduction_operation_bound": 26,
+        "relative": 1.1920930220732487e-07,
+        "scalar_conversion_and_multiply_roundings": 2,
+        "total": 1.0323828898251508e-10,
+        "unit_roundoff_FP32": 5.960464477539063e-08,
+        "unit_roundoff_FP64": 1.1102230246251565e-16
+      },
+      "positive_norm": 0.0034641017796737525,
+      "scope": [
+        "class_head.dense0.bias",
+        "class_head.dense0.weight",
+        "class_head.logit_scale.bias",
+        "class_head.logit_scale.weight",
+        "class_head.logit_shift.bias",
+        "class_head.logit_shift.weight"
+      ]
+    },
+    "exception": "Direct source vector exceeds derived cap bound",
+    "rejected": true
+  },
+  "scope": "Synthetic CPU witnesses only;no exact failed GPU values recovered",
+  "source_norm": 0.0008660254449184381,
+  "subtractive_effective_norm": 0.0008721569313014672
+}

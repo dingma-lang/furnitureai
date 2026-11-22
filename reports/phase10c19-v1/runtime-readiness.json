@@ -1,0 +1,16 @@
+{
+  "C18_python": "3.14.4",
+  "C18_torch": "2.14.1+cu132",
+  "CPU_guard_tests_passed": true,
+  "CUDA_initialized": false,
+  "CUDA_restore_verified": false,
+  "Python_and_Torch_unchanged": true,
+  "current_python": "3.14.4",
+  "current_torch": "2.14.1+cu132",
+  "environment_changes": [],
+  "limitation": "CPU-only metadata comparison cannot certify device RNG restoration,driver/kernel behavior or bit-for-bit GPU continuation.",
+  "optimizer_and_data_state_present": true,
+  "recovery_authorized": false,
+  "recovery_runner_implemented": false,
+  "torch_CUDA_build": "13.2"
+}

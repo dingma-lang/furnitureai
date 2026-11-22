@@ -1,0 +1,96 @@
+{
+  "Chair_FP_E1": 139,
+  "GPU_binary_reproducibility_certified": false,
+  "actual_parameter_updates_differ": true,
+  "cap_violations_committed": 0,
+  "caps_activated_committed": 0,
+  "confidence_inflation_evidence": {
+    "C18_E1": 1.7747513339910503,
+    "C8_E1": 1.775943183827468,
+    "training_only_E1_probe": {
+      "confidence": {
+        "0": 1.7907612972384926e-09,
+        "0.5": 0.0008295891883591028,
+        "0.9": 0.005297782676732175,
+        "0.99": 0.014378782626120608,
+        "1": 0.07463503889650006
+      },
+      "covered_regions": 25,
+      "covered_source_groups": 20,
+      "epoch": 1,
+      "mean_logits": {
+        "bed": -10.22396128513195,
+        "cabinet": -10.222198290118465,
+        "chair": -8.948391915780528,
+        "desk": -9.601434921291139,
+        "lamp": -10.251634729879873,
+        "sofa": -10.049832253456115,
+        "table": -9.66698578287054
+      },
+      "mean_positive_gradient": 46.451136637718186,
+      "mean_source_gradient": 0.732505067832666,
+      "nonzero_source_groups": 20,
+      "terms": 293,
+      "terms_ge_015": 0,
+      "terms_ge_05": 0
+    },
+    "update28_inference_not_available": true
+  },
+  "continuation_classification": "Intended optimization-state continuation with unchanged output tensors andsourceobjective; mechanically modified restart/telemetry,not certified bitwise uninterrupted replay.",
+  "counterevidence": [
+    "No meaningful15-update precision/recall improvement,near-identical broad inflation,and no trusted negatives above0.15.",
+    "28completed updates provide no naturally active cap. Failed group29 cannot be reconstructed from missing buffers.",
+    "Additional duration is not demonstrated to improve precision; source coverage remains a small,unverified-hardness subset."
+  ],
+  "diagnostic_completion_conditionally_justified": true,
+  "failed_group_cap_activation_unknown": true,
+  "improvement_demonstrated": false,
+  "known_noncheckpointed_reporting_state": "Epoch2 per-source accumulated diagnostic vectors before the stop are not in checkpoint28. Reconstruct only by summing retained update16\u201328 receipts if sufficient vectors existed (they do not); label resumed groups separately. This affects whole-epoch diagnostics,not model/optimizer gradients.",
+  "matched_E1_metrics_equal": {
+    "fn": true,
+    "fp": true,
+    "precision": true,
+    "recall": true,
+    "tp": true
+  },
+  "matched_updates_compared": 28,
+  "maximum_committed_negative_positive_ratio": 0.09209475951200347,
+  "maximum_source_Chair_probability": 0.1163617640229368,
+  "missing_update28_evaluation": "Prevents an endpoint performance conclusion at28. No new inference is needed for this preflight,and no claim is made about checkpoint28 precision/recall.",
+  "negative_supervision_nonzero_update_ids": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    17,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "optimization_state_available": true,
+  "recommendation": "Offer only conditional completion of the existing mechanism experiment,not a new optimization cycle or a production-quality training recommendation. User approval and future executor/RNG validation required; cancellation remains scientifically reasonable.",
+  "scientific_rationale": [
+    "Completing the originally predeclared fixed75-update mechanistic endpoint would test cap engagement as positive norms decline and source influence grows.",
+    "A complete matched-duration comparison would avoid confusing a15-update C18 snapshot with75-update C8. No hyperparameters,thresholds or endpoint changes are proposed.",
+    "The marginal runtime and data budget remain bounded,with47updates retained and no need to re-run committed updates."
+  ],
+  "source_gradient_norm_update28": 0.13746551478539046,
+  "source_positive_ratio_update28": 0.06312167873809489,
+  "source_terms_ge_015": 0,
+  "status": "CONDITIONAL_DIAGNOSTIC_VALUE_NOT_PERFORMANCE_EVIDENCE"
+}

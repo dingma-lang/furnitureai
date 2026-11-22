@@ -1,0 +1,8 @@
+{
+  "active_proposal": "reports/phase10c19-v1/recovery-disabled-v2.json",
+  "active_sha256": "6b8f4416610aaf0489ed9d0a03e1765fe698c246d540dc1262e3aa4815458220",
+  "approved": false,
+  "enabled": false,
+  "reason": "Versioned CPU-only numerical-bound and telemetry refinements;original preflight proposal retained unchanged.",
+  "superseded_proposal": "reports/phase10c19-v1/recovery-disabled.json"
+}
