@@ -1,0 +1,12 @@
+{
+  "AP50_delta": -0.02092461778020005,
+  "AP75_delta": -0.00470470513159349,
+  "Chair_FP_delta": -70,
+  "fixed_threshold_precision_delta": 0.0021227086505019033,
+  "independent_acceptance": false,
+  "more_training_duration_recommended": false,
+  "next_direction": "Improve source-supported hard-negative supervision on training-only high-confidence Chair confusers and incomplete category coverage before designing another controlled experiment. Preserve uncertain regions and independent evaluation isolation.",
+  "outcome": "NO_USEFUL_PERFORMANCE_ADVANTAGE_DEMONSTRATED",
+  "recall_delta": -0.06557377049180324,
+  "same_recall_benefit": false
+}

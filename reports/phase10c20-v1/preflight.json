@@ -1,0 +1,21 @@
+{
+  "C18_seal": {
+    "private_files": 681,
+    "public_files": 15
+  },
+  "C19_seal": {
+    "private_files": 37,
+    "public_files": 16
+  },
+  "GPU_calls": 0,
+  "checkpoint28_sha256": "77081cb4ef7775a8f83c2b17475bf275847f9c0305f1984b66354a9880a2eefa",
+  "next_update": 29,
+  "numpy_RNG_calls_found": [],
+  "numpy_missing_state_critical": false,
+  "numpy_note": "Not recorded by C18 and no NumPy RNG calls found in its numerical/data path;no invented restoration. Future snapshots record it without consuming it.",
+  "numpy_state_recorded_in_C18": false,
+  "remaining_training_photos": 184,
+  "remaining_updates": 47,
+  "status": "PASS",
+  "uninterrupted_bitwise_equivalence_not_claimed": true
+}

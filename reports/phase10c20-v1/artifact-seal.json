@@ -1,0 +1,28 @@
+{
+  "additional_forwards": 270,
+  "additional_updates": 47,
+  "code_sha256": {
+    "tools/phase10c20-v1/README.md": "b02d0fd8435b730dafe161318e0a4a27a487def68f26c6c18ee2bef0fad4a783",
+    "tools/phase10c20-v1/analyze20.py": "0e0d8243e66535bbfc56a71e9ff8c8ec66763a9bbdf293b795a6833599d84a1c",
+    "tools/phase10c20-v1/common20.py": "f662814353c022041a89d798c68d565e1db8fca6b6a4e1a7487e7f00a6a5b39c",
+    "tools/phase10c20-v1/launch20.py": "b6e7bfecd3206c306f68fd8a1ce95b8370a545e35c3c2de61806b1e54904a5a9",
+    "tools/phase10c20-v1/plot20.py": "2e017ef12fa31fb8e83989cdc23bf9e8eee3f31a089c7ba399e343c159f766ad",
+    "tools/phase10c20-v1/preflight20.py": "d3cef7101fde4c4110777cd30f8d774c5502545d6a30202f51d2452b0da27e00",
+    "tools/phase10c20-v1/report20.py": "df76958ea08b941d3543ece668f71a2a099e675c59fcd91cc0bbbf377ae97296",
+    "tools/phase10c20-v1/restore20.py": "3af59095a45c85b5e7e41dda0ef13288e8d129f4b6e585cdfd7fd2b1251438f7",
+    "tools/phase10c20-v1/telemetry20.py": "d08d6d5db6150d6e22973bc632f516a5c20c3a6a7aae80c616a858df53d272aa",
+    "tools/phase10c20-v1/test_completed20.py": "76c61fc7b2663ff3ad015e0ab25320d60700845c4a84b100222def248f52cff9",
+    "tools/phase10c20-v1/test_recovery20.py": "9fe353e32dbde9ae4e6b8057111a05e302ec233336834540870aa3eb0fe8dff8",
+    "tools/phase10c20-v1/verify20.py": "e473f02d2e0fa7d86d562f9fd15f1894735b8c027b20279a6d2c6d59577b04ca",
+    "tools/phase10c20-v1/worker20.py": "11aec566dbebe8d888c9938a545be013e6ebc0d71c95a6234c7511f94dedbf7b"
+  },
+  "conservative_new_allocated_bytes_before_public_seal": 1838997504,
+  "cumulative_forwards": 452,
+  "cumulative_updates": 75,
+  "main_expected_unchanged": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "private_files": 1128,
+  "private_manifest": "data/open-images/experiments/phase10c19-recovery-v1/ARTIFACT-SHA256SUMS.json",
+  "private_manifest_sha256": "13d57e8b7e508f3beaaf15d74373a979f84ecd42156874a1cb9d532b719642c1",
+  "schema": "phase10c20-artifact-seal-v1",
+  "status": "COMPLETE"
+}

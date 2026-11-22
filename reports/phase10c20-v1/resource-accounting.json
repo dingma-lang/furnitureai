@@ -1,0 +1,17 @@
+{
+  "additional_forwards": 270,
+  "additional_updates": 47,
+  "combined_launcher_seconds": 230.45216785703087,
+  "conservative_new_allocated_bytes_before_final_seals": 1838546944,
+  "cumulative_forwards": 452,
+  "cumulative_updates": 75,
+  "limits_respected": true,
+  "new_snapshots": 47,
+  "peak_allocated_bytes": 2024102400,
+  "peak_device_bytes": 3627548672,
+  "peak_reserved_bytes": 2340421632,
+  "recovery_launcher_seconds": 146.3124350970029,
+  "recovery_worker_seconds": 145.55845719500212,
+  "retained_pending_links_counted_conservatively": true,
+  "unique_inode_allocated_bytes_before_final_seals": 919425024
+}

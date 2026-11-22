@@ -1,0 +1,26 @@
+{
+  "CPU_passed": 73,
+  "GPU_forwards": 0,
+  "binding_sha256": "55ca2f722f71a6b5608d9ffafdb114e0f9888d45c43e9e69647f9d4d772e9d67",
+  "status": "PASS",
+  "suites": [
+    {
+      "file": "data/open-images/experiments/phase10c19-recovery-v1/preflight-C20-456a67c8.log",
+      "passed": 11,
+      "sha256": "f8bc5b85ea3a572f08cbcea22622a77f3bf42070e7d660cd1ef6ff4359267529",
+      "suite": "C20"
+    },
+    {
+      "file": "data/open-images/experiments/phase10c19-recovery-v1/preflight-C19-guard-484e2c44.log",
+      "passed": 29,
+      "sha256": "9cf0129bc3ba8287c9004c78ef56460c59796a798059e704859a538bf3312ae5",
+      "suite": "C19-guard"
+    },
+    {
+      "file": "data/open-images/experiments/phase10c19-recovery-v1/preflight-C16-9c1200be.log",
+      "passed": 33,
+      "sha256": "08c8998b4803a58ba671322ec131c88ee22c66bbec3bc8137a750357bc126103",
+      "suite": "C16"
+    }
+  ]
+}

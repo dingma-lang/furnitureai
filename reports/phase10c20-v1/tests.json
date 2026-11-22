@@ -1,0 +1,21 @@
+{
+  "CPU_postrun_passed": 9,
+  "CPU_preflight_passed": 73,
+  "GPU_calls_after_recovery": 0,
+  "checkpoint_snapshots_reloaded": 47,
+  "status": "PASS",
+  "suites": [
+    {
+      "file": "data/open-images/experiments/phase10c19-recovery-v1/CPU-final-C20-completed-c04afae4.log",
+      "passed": 8,
+      "sha256": "8125bdead15a55fef98ff030f65b836af4d473011e18ddc68e46242ae44ad5f3",
+      "suite": "C20-completed"
+    },
+    {
+      "file": "data/open-images/experiments/phase10c19-recovery-v1/CPU-final-C8-protocol-63067854.log",
+      "passed": 1,
+      "sha256": "377605dc2da353aa5fb7ca516db61de2fbfd52ec9f8477481dc3c54190644a71",
+      "suite": "C8-protocol"
+    }
+  ]
+}

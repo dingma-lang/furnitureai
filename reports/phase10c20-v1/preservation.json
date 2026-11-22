@@ -1,0 +1,39 @@
+{
+  "C17_seals": {
+    "private_files": 528,
+    "public_files": 14
+  },
+  "C18_seals": {
+    "private_files": 681,
+    "public_files": 15
+  },
+  "C19_seals": {
+    "private_files": 37,
+    "public_files": 16
+  },
+  "C8_private_files": 1310,
+  "Mac_project_modified": false,
+  "all47new_checkpoints_reloaded": true,
+  "allocated_new_output_bytes": 1838284800,
+  "annotation_overlays_activated": 0,
+  "checkpoint28_sha256": "77081cb4ef7775a8f83c2b17475bf275847f9c0305f1984b66354a9880a2eefa",
+  "cumulative_forwards": 452,
+  "cumulative_updates": 75,
+  "datasets_or_models_downloaded": 0,
+  "eligible_image_hashes": 78,
+  "frozen_parameters_unchanged": true,
+  "historical_data_model_files": 9973,
+  "historical_data_modified": false,
+  "historical_implementation_files": 27,
+  "historical_preservation_GPU_forwards": 0,
+  "new_GPU_after_recovery": 0,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "phase10b_report_artifacts": 24,
+  "phase10b_snapshots": 160,
+  "recovery_forwards": 270,
+  "recovery_updates": 47,
+  "reserved_or_frozen_images_decoded": 0,
+  "source_group_isolation": true,
+  "status": "PASS",
+  "training_updates": 0
+}

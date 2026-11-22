@@ -1,0 +1,26 @@
+{
+  "C18_seals": {
+    "private_files": 681,
+    "public_files": 15
+  },
+  "C19_seals": {
+    "private_files": 37,
+    "public_files": 16
+  },
+  "CPU_only": true,
+  "GPU_model_forwards": 0,
+  "Mac_project_modified": false,
+  "annotation_overlays_activated": 0,
+  "checkpoint28_sha256": "77081cb4ef7775a8f83c2b17475bf275847f9c0305f1984b66354a9880a2eefa",
+  "datasets_or_models_downloaded": 0,
+  "eligible_image_hashes": 78,
+  "historical_data_model_files": 9973,
+  "historical_data_modified": false,
+  "historical_implementation_files": 27,
+  "phase10b_report_artifacts": 24,
+  "phase10b_snapshots": 160,
+  "reserved_or_frozen_images_decoded": 0,
+  "source_group_isolation": true,
+  "status": "PASS",
+  "training_updates": 0
+}
