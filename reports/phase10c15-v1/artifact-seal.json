@@ -1,0 +1,20 @@
+{
+  "allocated_diagnostic_bytes_at_seal": 1409024,
+  "max_diagnostic_bytes": 134217728,
+  "new_GPU_after_stop": 0,
+  "new_code_sha256": {
+    "tools/phase10c15-v1/README.md": "51e8453334cd7e99bdfba33fcca3e14b788cafc60cb8707e93e6d7a92a1a04bc",
+    "tools/phase10c15-v1/analyze15.py": "f8acd55e6870014647140957ca89d5eaf0879b764538fe83c8d11af5e1f24361",
+    "tools/phase10c15-v1/common15.py": "bb8427cd998a468746761d0b1e23709d73032f4fd5121479195516bed9412dd9",
+    "tools/phase10c15-v1/gpu15.py": "9977063eda3c9e996462284b154bab12597dcd0e160549002100fc1846c7ee40",
+    "tools/phase10c15-v1/launch15.py": "fe6a6617e85fa0093881d0a1f095d9bd5080b25929e1a0c2d296280b2182b964",
+    "tools/phase10c15-v1/loss15.py": "39991351667b92afe71b66e3b85627690020e1eaf9ea350de3787129a8f969a5",
+    "tools/phase10c15-v1/prepare15.py": "30fe1e4ccef5c5e9741e19be4068d8f7037e327236b60c285402bdf901dc7495",
+    "tools/phase10c15-v1/test_smoke15.py": "92e52d76e11fd9ec413d4f0c8a1ade907e3b969624ec6df20f82fda26244b18b",
+    "tools/phase10c15-v1/verify15.py": "c730ca15300fd1e8ce64b9b28311f551ece7ac639e434068355b240e62eb4b1f"
+  },
+  "private_files": 66,
+  "private_manifest": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/ARTIFACT-SHA256SUMS.json",
+  "private_manifest_sha256": "c10ceaac6e3442141cdcd1c4dd2400383f6e3553e62ca64c994f8aa680732724",
+  "weights_or_photos_for_Git": false
+}

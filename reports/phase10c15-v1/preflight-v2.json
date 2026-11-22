@@ -1,0 +1,11 @@
+{
+  "CPU_test_log_sha256": "44b5b24952f5cce4bdde3ecb5e8ed9bae97cbdd4d31455b6b300fec686280f53",
+  "CPU_tests": 18,
+  "all_bound_inputs_match": true,
+  "config_sha256": "6497ee7a3f3837084fc8369326bbf3ffabf90e149775a43ecabe5809fb3fa9c1",
+  "initial_test_issue": "Exact equality between separate FP32 BCE/softplus kernels was too strict;analytic equivalence checked withatol1e-7/rtol1e-6. Executed focal replay still requires bit equality.",
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "prior_pretest_configuration_preserved": true,
+  "status": "PASS"
+}

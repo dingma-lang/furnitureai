@@ -1,0 +1,165 @@
+{
+  "GPU_authorized": false,
+  "Phase10D_authorized": false,
+  "action": "Separately authorize inference/autograd-only recovery of missing20 gradient summaries with repaired FP32 ordering and telemetry",
+  "approved": false,
+  "base_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "destination": "data/open-images/experiments/phase10c15-negative-gradient-recovery-v1/",
+  "destination_created": false,
+  "future_training_config_prepared": false,
+  "initialization": {
+    "path": "data/open-images/experiments/phase10c10-calibration-frozen-v1/checkpoints/update-075-bf8be48ddf59.pt",
+    "sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "updates": 75
+  },
+  "loss_change": "Only repair FP32 normalization order in diagnostic box reconstruction;Focal/BCE masks and coefficients unchanged",
+  "max_allocated_VRAM_bytes": 6979321856,
+  "max_new_output_bytes": 134217728,
+  "max_seconds": 180,
+  "new_forwards": 20,
+  "optimizer_updates": 0,
+  "photos": [
+    {
+      "identity_group": "flickr-account:98894271@n00",
+      "image_id": "coco2017:000000074638",
+      "index": 5,
+      "source_sha256": "ed17d24441f56adfed9a237095868bd67f75e5a6be29d30f998ef81cb3c65322"
+    },
+    {
+      "identity_group": "flickr-account:laruth",
+      "image_id": "coco2017:000000108375",
+      "index": 6,
+      "source_sha256": "f81372558c6b3db24a97a43b6003b81b4ddf4ed33bad7310c55b3413889b5fad"
+    },
+    {
+      "identity_group": "flickr-account:johanl",
+      "image_id": "coco2017:000000114729",
+      "index": 7,
+      "source_sha256": "acb61870e19b1872e4806403156cee5b081c392f336999c5b43203ff79b8f87a"
+    },
+    {
+      "identity_group": "flickr-account:picturesbyann",
+      "image_id": "coco2017:000000121824",
+      "index": 8,
+      "source_sha256": "3a33d92ce1a003df839e8019c74a7111db3a1e95f31baf00fcebdb26a35a5e7b"
+    },
+    {
+      "identity_group": "flickr-account:pagel",
+      "image_id": "coco2017:000000165742",
+      "index": 9,
+      "source_sha256": "bbf2fa416484c30d525a4292750884081265b82db7f7f4eeeae57ca4a4dd744a"
+    },
+    {
+      "identity_group": "flickr-account:portobaytrade",
+      "image_id": "coco2017:000000178671",
+      "index": 10,
+      "source_sha256": "4ad40541866febcdb63481660040826c231b88cf7ae39e3124565609c4e65182"
+    },
+    {
+      "identity_group": "flickr-account:vxla",
+      "image_id": "coco2017:000000192834",
+      "index": 11,
+      "source_sha256": "47bd179d729bba8740b06529c43a117468ea59611e97104781db09332ef01416"
+    },
+    {
+      "identity_group": "flickr-account:emilysnuffer",
+      "image_id": "coco2017:000000195507",
+      "index": 12,
+      "source_sha256": "aaad533df2a39f3d987075661f85bb606fd62af88c58734c59330af4bf55d9a9"
+    },
+    {
+      "identity_group": "flickr-account:kassandrabay",
+      "image_id": "coco2017:000000197201",
+      "index": 13,
+      "source_sha256": "acb4e5181ee14e4a624fa1b7bf70410c9d3685cb6660bf5487cc540d4af101f8"
+    },
+    {
+      "identity_group": "flickr-account:mugland",
+      "image_id": "coco2017:000000231450",
+      "index": 14,
+      "source_sha256": "6ab27153f9f4a41d63a545d683d58070d57faa334b7fa3355b86cc21681e9f74"
+    },
+    {
+      "identity_group": "flickr-account:jonnygoldstein",
+      "image_id": "coco2017:000000263212",
+      "index": 15,
+      "source_sha256": "516a098cb4b4cf6de1f49d49ae9d2022bb87c3c28ad53dae5886485ca103009a"
+    },
+    {
+      "identity_group": "flickr-account:mikebabcock",
+      "image_id": "coco2017:000000294698",
+      "index": 16,
+      "source_sha256": "a9a0af5b76b04a7778202493e5ac9ccc9948bdd4287ccfb6e4f90139a18424b8"
+    },
+    {
+      "identity_group": "flickr-account:kojach",
+      "image_id": "coco2017:000000373101",
+      "index": 17,
+      "source_sha256": "dba61783cd85e88c7fe89519d16d878a0140047de70f3f7a7a46d4807ae445d0"
+    },
+    {
+      "identity_group": "flickr-account:vintagedept",
+      "image_id": "coco2017:000000404592",
+      "index": 18,
+      "source_sha256": "40df0339309be0d40211a8b775f4ede3655bf1c38b7bc355d894912a6e74a969"
+    },
+    {
+      "identity_group": "flickr-account:nduran",
+      "image_id": "coco2017:000000421108",
+      "index": 19,
+      "source_sha256": "8500868d021bc1c7cf6f0cf8509e04503b5ce3a75697b5d1efa81da5a10dff9a"
+    },
+    {
+      "identity_group": "flickr-account:donabelandewen",
+      "image_id": "coco2017:000000449850",
+      "index": 20,
+      "source_sha256": "863779966af51c2c9ee1ddbbdc208e600b59299e3dcbbf04e9d1ad4782e9a1a9"
+    },
+    {
+      "identity_group": "flickr-account:snaks",
+      "image_id": "coco2017:000000463290",
+      "index": 21,
+      "source_sha256": "816ecbb4466fdedf4ea20cbcdc7502e7a212d778c48adb6589f06eba6b3d3fd1"
+    },
+    {
+      "identity_group": "flickr-account:deepphoto",
+      "image_id": "coco2017:000000477263",
+      "index": 22,
+      "source_sha256": "7cd125da8a5a6f852f33045cfc77552f294fbd5abfad869226667c7d69bb4e04"
+    },
+    {
+      "identity_group": "flickr-account:marcusspaapen",
+      "image_id": "coco2017:000000543194",
+      "index": 23,
+      "source_sha256": "1a2e4e70074867e685173f4bd4089c39839a702a7b6b61ee0fd52da18a60cd6b"
+    },
+    {
+      "identity_group": "flickr-account:oldrebel",
+      "image_id": "coco2017:000000580827",
+      "index": 24,
+      "source_sha256": "c98549f3ab5ba8de14a06e7b5eafa59d44fb92aa482f035dd52953a7f5281062"
+    }
+  ],
+  "preprocessing": "Same pinned processor,prompts,FP16 forwards,FP32 loss andscale128",
+  "repeat_of_previously_forwarded_photo_indices": [
+    5
+  ],
+  "required_checks": [
+    "All24 saved-C11 CPU loss regressions pass",
+    "Reuse four completed receipts only after source/model/raw hashes verified",
+    "New same-output prediction equality checks remain strict",
+    "Persist per-photo peak VRAM and terminal model/buffer hash on success/failure",
+    "One launch only;stop on failure;no automatic training"
+  ],
+  "requires_explicit_revision_of_prior24_total_forward_limit": true,
+  "reused_completed_indices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "same_seed": 6106,
+  "total_forwards_including_failed_attempt": 25,
+  "training_authorized": false,
+  "why_no_training_config": "Full gradient diagnostic incomplete;insufficient basis to classify overall result A"
+}

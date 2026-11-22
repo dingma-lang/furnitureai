@@ -1,0 +1,41 @@
+{
+  "C11": {
+    "C11_final_checkpoint_sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "C11_private_files": 626,
+    "C11_public_files": 31,
+    "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+  },
+  "C13_private_files": 625,
+  "C13_public_files": 26,
+  "C14_private_files": 683,
+  "C14_public_files": 19,
+  "C8_private_files": 1310,
+  "GPU_model_forwards": 0,
+  "Mac_project_modified": false,
+  "allocated_diagnostic_bytes": 1343488,
+  "annotation_overlays_activated": 0,
+  "datasets_or_models_downloaded": 0,
+  "eligible_image_hashes": 78,
+  "executed_sources_preserved": true,
+  "historical_data_model_files": 9973,
+  "historical_data_modified": false,
+  "historical_implementation_files": 27,
+  "intentionally_repaired_new_code": [
+    "tools/phase10c15-v1/gpu15.py",
+    "tools/phase10c15-v1/loss15.py",
+    "tools/phase10c15-v1/test_smoke15.py"
+  ],
+  "new_model_or_dataset_downloads": 0,
+  "old_GPU_binding_rejects_current_repair": true,
+  "phase10b_report_artifacts": 24,
+  "phase10b_snapshots": 160,
+  "repaired_code_never_executed_on_GPU": true,
+  "reserved_or_frozen_images_decoded": 0,
+  "smoke_GPU_forwards": 5,
+  "smoke_gradient_calculations": 28,
+  "smoke_optimizer_updates": 0,
+  "source_group_isolation": true,
+  "status": "PASS",
+  "terminal_live_parameter_hash_not_available": true,
+  "training_updates": 0
+}

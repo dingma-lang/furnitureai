@@ -1,0 +1,72 @@
+{
+  "GPU_process_launches": 1,
+  "Python": "/home/tristary/furniture-ai-ml/.venv/bin/python",
+  "Python_version": "3.14.4",
+  "automatic_retries": 0,
+  "branch": "experiment/phase10c15-negative-gradient-smoke",
+  "current_CPU_repaired_code_sha256": {
+    "tools/phase10c15-v1/README.md": "51e8453334cd7e99bdfba33fcca3e14b788cafc60cb8707e93e6d7a92a1a04bc",
+    "tools/phase10c15-v1/analyze15.py": "f8acd55e6870014647140957ca89d5eaf0879b764538fe83c8d11af5e1f24361",
+    "tools/phase10c15-v1/common15.py": "bb8427cd998a468746761d0b1e23709d73032f4fd5121479195516bed9412dd9",
+    "tools/phase10c15-v1/gpu15.py": "9977063eda3c9e996462284b154bab12597dcd0e160549002100fc1846c7ee40",
+    "tools/phase10c15-v1/launch15.py": "fe6a6617e85fa0093881d0a1f095d9bd5080b25929e1a0c2d296280b2182b964",
+    "tools/phase10c15-v1/loss15.py": "39991351667b92afe71b66e3b85627690020e1eaf9ea350de3787129a8f969a5",
+    "tools/phase10c15-v1/prepare15.py": "30fe1e4ccef5c5e9741e19be4068d8f7037e327236b60c285402bdf901dc7495",
+    "tools/phase10c15-v1/test_smoke15.py": "92e52d76e11fd9ec413d4f0c8a1ade907e3b969624ec6df20f82fda26244b18b",
+    "tools/phase10c15-v1/verify15.py": "c730ca15300fd1e8ce64b9b28311f551ece7ac639e434068355b240e62eb4b1f"
+  },
+  "downloaded_bytes": 0,
+  "environment_changes": [],
+  "executed_source_archive": {
+    "GPU_attempts": 1,
+    "automatic_retry": false,
+    "files": {
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/common15.py": "bb8427cd998a468746761d0b1e23709d73032f4fd5121479195516bed9412dd9",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/gpu15.py": "5a486d41905a39c9f1585ec889da082a86fd289597514da850442a0f1f902e37",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/launch15.py": "fe6a6617e85fa0093881d0a1f095d9bd5080b25929e1a0c2d296280b2182b964",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/loss15.py": "7d053e8c68970c5dcdb8865bfefb1804985972733cee86742d240da82e194f79",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/prepare15.py": "30fe1e4ccef5c5e9741e19be4068d8f7037e327236b60c285402bdf901dc7495",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/test_smoke15.py": "4debd232bed0ee44f3fdd611d490b961e24e4781a2dcb3531ea04a09b75609b0"
+    }
+  },
+  "failure": {
+    "error": "Box objective differs from executed loss",
+    "seconds": 10.718720375007251
+  },
+  "gradient_calculations": 28,
+  "head": {
+    "path": "data/open-images/experiments/phase10c10-calibration-frozen-v1/checkpoints/update-075-bf8be48ddf59.pt",
+    "sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "updates": 75
+  },
+  "initial_live_model_sha256": "1f597e28003a9ccb62c2b6c43bca8a33e03d86187740a802aa0fd4725b319e61",
+  "model_forwards": 5,
+  "model_updates": 0,
+  "no_official_holdout_or_dev_scoring": true,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "parent_commit": "109275b31cdc26ce0e2793ca6464971d08f35b6a",
+  "peak_VRAM_unavailable_due_to_failure_telemetry_omission": true,
+  "pretest_config_retained": true,
+  "scope": {
+    "frozen_calibration_keys": [
+      "class_head.logit_scale.bias",
+      "class_head.logit_scale.weight",
+      "class_head.logit_shift.bias",
+      "class_head.logit_shift.weight"
+    ],
+    "trainable_keys": [
+      "box_head.dense0.bias",
+      "box_head.dense0.weight",
+      "box_head.dense1.bias",
+      "box_head.dense1.weight",
+      "box_head.dense2.bias",
+      "box_head.dense2.weight",
+      "class_head.dense0.bias",
+      "class_head.dense0.weight"
+    ]
+  },
+  "source_config_sha256": "6497ee7a3f3837084fc8369326bbf3ffabf90e149775a43ecabe5809fb3fa9c1",
+  "successful_preflight": "preflight-v2.json",
+  "terminal_live_model_sha256": null,
+  "torch": "2.14.1+cu132"
+}

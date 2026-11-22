@@ -1,0 +1,20 @@
+{
+  "C14_private_files": 683,
+  "C14_public_files": 19,
+  "GPU_forwards": 0,
+  "active_positive_boxes": 79,
+  "configuration_sha256": "88f54970f820c4ec7ef2df2d3ae79ad482cfa6a702264d45b54ba17e8573d848",
+  "head": {
+    "path": "data/open-images/experiments/phase10c10-calibration-frozen-v1/checkpoints/update-075-bf8be48ddf59.pt",
+    "sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "updates": 75
+  },
+  "normalization": "Same per-image active GT count and negative alpha0.75;positive/native Focal gamma2 unchanged",
+  "optimizer_updates": 0,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "scoring": "Owlv2ClassPredictionHead returns pre-sigmoid shifted/scaled cosine logits;BCE-with-logits appropriate",
+  "status": "PASS",
+  "training_photos": 24,
+  "training_source_groups": 24,
+  "trusted_negative_regions": 41
+}

@@ -1,0 +1,16 @@
+{
+  "CPU_example": {
+    "L1_sum": 9.999999747378752e-05,
+    "absolute_difference": 7.275957614183426e-12,
+    "nGT": 5,
+    "normalize_then_weight": 9.999999747378752e-05,
+    "weight_then_normalize": 9.99999901978299e-05
+  },
+  "CPU_fifth_cached_arrays_did_not_reproduce_GPU_guard_error": true,
+  "confirmed_GPU_stop": "Strict total-loss equality failed onfifth training photo,before its gradient calls",
+  "confirmed_code_difference": "Executed diagnostic used5*L1_sum/nGT;historical loss uses5*(L1_sum/nGT)",
+  "exact_fifth_GPU_numeric_delta_unavailable": true,
+  "new_GPU_forwards_for_diagnosis": 0,
+  "repair": "Restore exact original operation order,retain strict equality guard",
+  "saved_fifth_GPU_component_values_available": false
+}
