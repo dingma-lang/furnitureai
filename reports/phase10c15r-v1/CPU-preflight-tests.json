@@ -1,0 +1,9 @@
+{
+  "all24_cached_equality_passed": true,
+  "configuration_sha256": "3d50d47d26f8ffcd63c54c91da5d59959898c2fd3c73f6019737e691edc2ef7d",
+  "log": "data/open-images/experiments/phase10c15-negative-gradient-recovery-v1/CPU-preflight-57b8fd57.log",
+  "log_sha256": "09e06eb241dedd122564df0cd11acb3063f913f578236870d471ee07dbc4ea2f",
+  "new_GPU_forwards": 0,
+  "passed": 25,
+  "status": "PASS"
+}

@@ -1,0 +1,50 @@
+{
+  "bands": [
+    {
+      "BCE_output_L1": 0.17390388439234705,
+      "focal_output_L1": 2.0434290247241265e-05,
+      "label": "p<0.01",
+      "queries": 193
+    },
+    {
+      "BCE_output_L1": 0.6975623292382807,
+      "focal_output_L1": 0.001317218530516584,
+      "label": "0.01<=p<0.05",
+      "queries": 79
+    },
+    {
+      "BCE_output_L1": 0.1373296184465289,
+      "focal_output_L1": 0.001999716376303695,
+      "label": "0.05<=p<0.15",
+      "queries": 7
+    },
+    {
+      "BCE_output_L1": 0.12370789796113968,
+      "focal_output_L1": 0.014171181246638298,
+      "label": "p>=0.15",
+      "queries": 2
+    }
+  ],
+  "top3": [
+    {
+      "BCE_projection_L2": 84.49739461962425,
+      "identity_group": "flickr-account:vxla",
+      "index": 11,
+      "source_terms": 33
+    },
+    {
+      "BCE_projection_L2": 31.59813204006438,
+      "identity_group": "flickr-account:emilysnuffer",
+      "index": 12,
+      "source_terms": 14
+    },
+    {
+      "BCE_projection_L2": 31.31078632902645,
+      "identity_group": "flickr-account:mikebabcock",
+      "index": 16,
+      "source_terms": 27
+    }
+  ],
+  "top3_groups_share_of_sum_per_photo_BCE_projection_norms": 0.6646713679881276,
+  "warning": "Shares of per-photo norms are descriptive,not a decomposition of a signed cohort gradient"
+}

@@ -1,0 +1,23 @@
+{
+  "code_sha256": {
+    "tools/phase10c15r-v1/README.md": "e973099156604446fd84410de619d7f843bb2d00822aba866207e29d8c9efeed",
+    "tools/phase10c15r-v1/analyze15r.py": "1356af756fdc725401a8722af35de65138490f899d99d63c9f56bea034197f75",
+    "tools/phase10c15r-v1/common15r.py": "9569e011432ba19cd4a9ff278fbed04861800dca3848d949ba243166a94d606b",
+    "tools/phase10c15r-v1/cpu_preflight15r.py": "ccae73b6820268359461cdeb8c85f32039f6d08b075d61200ab4588dfdd4de4f",
+    "tools/phase10c15r-v1/detail15r.py": "0c9748e50867fd5cc50bc3f26151dfe097a76b2736fc1a90a68aa5eaa8bb3182",
+    "tools/phase10c15r-v1/gpu15r.py": "f73e1ad54e85d1675101cd510a604f7675c523c4ee7933e9d0ee0c75c84a8ffe",
+    "tools/phase10c15r-v1/launch15r.py": "1382bb50f8050cac7244b997148ac292417bce06b93b4d1faff6c9d919b35420",
+    "tools/phase10c15r-v1/prepare15r.py": "5fa2a0d7baaa3b8aa4f546cd9e21d926965eb1591ecf02f481e50e7424939fcc",
+    "tools/phase10c15r-v1/test_completed15r.py": "fbb3c555cc9cdaa9904efda3d1b1392f1fdad12979c08099ace427b30fdf8b06",
+    "tools/phase10c15r-v1/test_recovery15r.py": "08273ec95eeaed9aa5aa6e395ca1162f6c38e00a6b40cd386c87c961798bb055",
+    "tools/phase10c15r-v1/verify15r.py": "2865db169ea2482463d1a77cbf2066f6ab535e8d19db1d00bc070591c8ba9599"
+  },
+  "conservative_allocated_diagnostic_bytes_at_seal": 5365760,
+  "max_new_diagnostic_bytes": 134217728,
+  "no_GPU_after_recovery": true,
+  "old_attempt_unchanged": true,
+  "private_files": 291,
+  "private_manifest": "data/open-images/experiments/phase10c15-negative-gradient-recovery-v1/ARTIFACT-SHA256SUMS.json",
+  "private_manifest_sha256": "bada48bd2f3eeaa12e44eebfecb3290e63c8deaeefaf77dce8eea27ac1d84b88",
+  "unique_inode_allocated_bytes_at_seal": 2711552
+}

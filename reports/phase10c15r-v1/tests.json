@@ -1,0 +1,38 @@
+{
+  "CPU_passed": 123,
+  "GPU_forwards_after_recovery": 0,
+  "all24_cached_equality_passed": true,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "data/open-images/experiments/phase10c15-negative-gradient-recovery-v1/tests-C15R-74b4323f.log",
+      "passed": 30,
+      "sha256": "75dc59bcc73c4c27f359fab51171db55ab49b7bc34ed8f8734d9f4f0b9114a0f",
+      "suite": "C15R"
+    },
+    {
+      "log": "data/open-images/experiments/phase10c15-negative-gradient-recovery-v1/tests-C14-ee2a8ef9.log",
+      "passed": 25,
+      "sha256": "19332bc5ac7880aa76271ad6125407bbc2266d4ff7e43cfd9824268c43be952b",
+      "suite": "C14"
+    },
+    {
+      "log": "data/open-images/experiments/phase10c15-negative-gradient-recovery-v1/tests-FrozenScope-4cf729c2.log",
+      "passed": 21,
+      "sha256": "e0e0c6dcdc810405b5edb6f22d0eca50bda35e44f8e59b74c213606906f4ac1c",
+      "suite": "FrozenScope"
+    },
+    {
+      "log": "data/open-images/experiments/phase10c15-negative-gradient-recovery-v1/tests-C8-da3bc5ad.log",
+      "passed": 16,
+      "sha256": "b935e1277b9f7a4932e794a4267979b4912f86810cd15b0d3262c6574cc73b47",
+      "suite": "C8"
+    },
+    {
+      "log": "data/open-images/experiments/phase10c15-negative-gradient-recovery-v1/tests-C6-b470eb02.log",
+      "passed": 31,
+      "sha256": "aa26cd2cdb99747c1cad6cfcacc02d62bcf828f4afe2856b4dbd072d86488d4f",
+      "suite": "C6"
+    }
+  ]
+}

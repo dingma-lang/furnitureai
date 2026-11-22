@@ -1,0 +1,77 @@
+{
+  "configuration_sha256": "3d50d47d26f8ffcd63c54c91da5d59959898c2fd3c73f6019737e691edc2ef7d",
+  "first_attempt_peak_VRAM": null,
+  "first_attempt_terminal_model_hash": null,
+  "head": {
+    "path": "data/open-images/experiments/phase10c10-calibration-frozen-v1/checkpoints/update-075-bf8be48ddf59.pt",
+    "sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "updates": 75
+  },
+  "known_groups": 24,
+  "new_GPU_forwards": 0,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "parent_commit": "f77d77403a65391f88369d9e17925d6127d68666",
+  "photo_indices": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "prior_seals": {
+    "private_files": 66,
+    "public_files": 11
+  },
+  "reused_records": [
+    {
+      "file": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/01.json",
+      "image_id": "coco2017:000000002270",
+      "index": 1,
+      "raw_file": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/01.npz",
+      "raw_sha256": "2b3fe4eaa8601a90cd2d4cfbe020a28113e97bec0ca5878efe18a7a158455b83",
+      "sha256": "b8978a075b493b88603c490da96f62d8caecc62b28cbad7e92200aa44c4b32f2"
+    },
+    {
+      "file": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/02.json",
+      "image_id": "coco2017:000000002347",
+      "index": 2,
+      "raw_file": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/02.npz",
+      "raw_sha256": "95a41b233da2cf812e1f461008a7c7efab456a947748cbd52aa6d246d8a01a19",
+      "sha256": "f847f2d401ac9158675cfa4534217d2668c8e5dad11f3df6869fd9bd005d7922"
+    },
+    {
+      "file": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/03.json",
+      "image_id": "coco2017:000000030347",
+      "index": 3,
+      "raw_file": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/03.npz",
+      "raw_sha256": "15427a04cd8f98fa7a25d9f250da41586c27977f3d2235dd442f9864f000d4d5",
+      "sha256": "ea637ed96779f38b3b097ceb73ea1a6a31b50b798f310b17104b4e23418f6efc"
+    },
+    {
+      "file": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/04.json",
+      "image_id": "coco2017:000000037367",
+      "index": 4,
+      "raw_file": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/04.npz",
+      "raw_sha256": "efe12834372669a7da831c1c8856199876b0323577d2f080f5e5d862d71287a1",
+      "sha256": "a102bd31548c1bf5774a8c09f2fa6a0670caa821f098731451698b474c6b50e9"
+    }
+  ],
+  "source_regions": 41,
+  "status": "PASS",
+  "training_authorized": false
+}

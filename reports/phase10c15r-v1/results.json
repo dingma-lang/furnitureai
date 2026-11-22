@@ -1,0 +1,254 @@
+{
+  "aggregation": "Output-gradientL1 summed across per-GT-normalized photos;projection norm mean across24photos/known groups,not norm of full24mean gradient;20-only mean vectors explicitly separate",
+  "all20_recovery_full_fingerprints_unchanged": true,
+  "automatic_retry": false,
+  "box_caveat": "Four reused box-gradient summaries were calculated before the FP32 ordering repair;their loss values matched original,but exact GPU box-gradient bit identity was not established. Classification/source gradients are independent and unchanged.",
+  "components": {
+    "box": {
+      "max_combined_projection_element": 0.0,
+      "max_individual_output_logit_gradient": 0.0,
+      "mean_per_photo_box_head_L2": 66.29786062761258,
+      "mean_per_photo_loss": 0.4601726947973172,
+      "mean_per_photo_projection_L2": 0.0,
+      "projection_L2_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 0.0,
+        "0.9": 0.0,
+        "0.99": 0.0,
+        "1": 0.0
+      },
+      "sum_per_photo_output_logit_L1": 0.0
+    },
+    "class_A": {
+      "max_combined_projection_element": 6.5234375,
+      "max_individual_output_logit_gradient": 0.13884761929512024,
+      "mean_per_photo_box_head_L2": 0.0,
+      "mean_per_photo_loss": 0.02954726518661725,
+      "mean_per_photo_projection_L2": 4.288025903334692,
+      "projection_L2_quantiles": {
+        "0": 0.016407992422818395,
+        "0.1": 0.1199493266048442,
+        "0.5": 2.1775497364799152,
+        "0.9": 11.683313934249163,
+        "0.99": 25.727284708658598,
+        "1": 29.24965765691413
+      },
+      "sum_per_photo_output_logit_L1": 0.6127051318329515
+    },
+    "class_B": {
+      "max_combined_projection_element": 32.625,
+      "max_individual_output_logit_gradient": 0.13884761929512024,
+      "mean_per_photo_box_head_L2": 0.0,
+      "mean_per_photo_loss": 0.07762063978649773,
+      "mean_per_photo_projection_L2": 10.124723408946412,
+      "projection_L2_quantiles": {
+        "0": 0.04492446290737087,
+        "0.1": 0.37923821540124636,
+        "0.5": 2.8280027676661765,
+        "0.9": 26.959515462983425,
+        "0.99": 70.45659579121983,
+        "1": 82.04112900328614
+      },
+      "sum_per_photo_output_logit_L1": 1.727700311427542
+    },
+    "native_negative": {
+      "max_combined_projection_element": 0.0,
+      "max_individual_output_logit_gradient": 0.0,
+      "mean_per_photo_box_head_L2": 0.0,
+      "mean_per_photo_loss": 0.0,
+      "mean_per_photo_projection_L2": 0.0,
+      "projection_L2_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 0.0,
+        "0.9": 0.0,
+        "0.99": 0.0,
+        "1": 0.0
+      },
+      "sum_per_photo_output_logit_L1": 0.0
+    },
+    "positive": {
+      "max_combined_projection_element": 6.59375,
+      "max_individual_output_logit_gradient": 0.13884761929512024,
+      "mean_per_photo_box_head_L2": 0.0,
+      "mean_per_photo_loss": 0.029260012383322948,
+      "mean_per_photo_projection_L2": 4.344154632248727,
+      "projection_L2_quantiles": {
+        "0": 0.01650959422843109,
+        "0.1": 0.1199493266048442,
+        "0.5": 2.1802806943714543,
+        "0.9": 11.898948050948993,
+        "0.99": 25.788982250927784,
+        "1": 29.32978430026198
+      },
+      "sum_per_photo_output_logit_L1": 0.5951965813892457
+    },
+    "source_BCE": {
+      "max_combined_projection_element": 34.3125,
+      "max_individual_output_logit_gradient": 0.08237703889608383,
+      "mean_per_photo_box_head_L2": 0.0,
+      "mean_per_photo_loss": 0.048360626213252544,
+      "mean_per_photo_projection_L2": 9.24055105074548,
+      "projection_L2_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 1.6614331678573286,
+        "0.9": 30.049360403794093,
+        "0.99": 72.33056422632545,
+        "1": 84.49739461962425
+      },
+      "sum_per_photo_output_logit_L1": 1.1325037300382963
+    },
+    "source_focal": {
+      "max_combined_projection_element": 0.7744140625,
+      "max_individual_output_logit_gradient": 0.010980231687426567,
+      "mean_per_photo_box_head_L2": 0.0,
+      "mean_per_photo_loss": 0.00028725432076242424,
+      "mean_per_photo_projection_L2": 0.1311844795941962,
+      "projection_L2_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 0.00013565341682812622,
+        "0.9": 0.15568540376338022,
+        "0.99": 1.652447063652584,
+        "1": 1.8970166331715643
+      },
+      "sum_per_photo_output_logit_L1": 0.01750855044370582
+    }
+  },
+  "counts": {
+    "ignored": 604440,
+    "negative": 281,
+    "positive": 79,
+    "protected_violations": 0,
+    "source_negative": 281
+  },
+  "covered_regions": 24,
+  "cumulative_forwards": 25,
+  "cumulative_gradient_calculations": 168,
+  "decision": "B_EXCESSIVE_AT_UNCHANGED_COEFFICIENTS",
+  "existing_regions": 41,
+  "full24_signed_projection_gradient_vector_unavailable": true,
+  "interpretation": "BCE restores a strong source-negative signal,but uneven magnitude and opposition reverse classification directions across many groups;this is suppressive risk,not observed recall regression",
+  "mean_projection_BCE_to_focal": 70.43936202918242,
+  "model_updates": 0,
+  "new_forwards": 20,
+  "new_gradient_calculations": 140,
+  "new_negative_labels": 0,
+  "optimizer_steps": 0,
+  "original_first_attempt_missing_measurements": {
+    "peak_VRAM": null,
+    "terminal_live_model_hash": null
+  },
+  "output_negative_BCE_to_focal": 64.68289500490442,
+  "photos": 24,
+  "precision_recall_or_AP_measured": false,
+  "recovered_photos": 20,
+  "recovery20_only_mean_parameter_gradients": {
+    "box": {
+      "box_head_L2": 12.667104930506392,
+      "projection_L2": 0.0
+    },
+    "class_A": {
+      "box_head_L2": 0.0,
+      "projection_L2": 4.253643791534573
+    },
+    "class_B": {
+      "box_head_L2": 0.0,
+      "projection_L2": 8.204211520927608
+    },
+    "native_negative": {
+      "box_head_L2": 0.0,
+      "projection_L2": 0.0
+    },
+    "positive": {
+      "box_head_L2": 0.0,
+      "projection_L2": 4.361460459637672
+    },
+    "source_BCE": {
+      "box_head_L2": 0.0,
+      "projection_L2": 10.741668579606444
+    },
+    "source_focal": {
+      "box_head_L2": 0.0,
+      "projection_L2": 0.15254737145806402
+    }
+  },
+  "recovery20_only_projection_cosines": {
+    "classification_A_vs_B": -0.38419363209473306,
+    "positive_vs_source_BCE": -0.7160859713040681,
+    "positive_vs_source_focal": -0.7155248834662081,
+    "source_focal_vs_BCE": 0.973237346409685
+  },
+  "recovery_model_hash_after": "1f597e28003a9ccb62c2b6c43bca8a33e03d86187740a802aa0fd4725b319e61",
+  "recovery_model_hash_before": "1f597e28003a9ccb62c2b6c43bca8a33e03d86187740a802aa0fd4725b319e61",
+  "resource": {
+    "cumulative_forwards": 25,
+    "elapsed_seconds": 29.287519809993682,
+    "forwards": 20,
+    "gradient_calculations": 140,
+    "kind": "complete",
+    "last_verified_at_seconds": 29.27964855998289,
+    "last_verified_model_sha256": "1f597e28003a9ccb62c2b6c43bca8a33e03d86187740a802aa0fd4725b319e61",
+    "optimizer_updates": 0,
+    "peak_allocated_bytes": 1695239168,
+    "peak_observed_device_bytes": 3612868608,
+    "peak_reserved_bytes": 2327838720,
+    "phase": "verified_complete",
+    "terminal": true
+  },
+  "reused_photos": 4,
+  "source_group_variability": {
+    "BCE_exceeds_positive_projection_groups": 12,
+    "BCE_nonzero_projection_groups": 19,
+    "BCE_opposes_positive_groups": 19,
+    "BCE_over10x_positive_projection_groups": 4,
+    "BCE_positive_cosine_quantiles_covered": {
+      "0": -0.9145757228872928,
+      "0.1": -0.886887485128805,
+      "0.5": -0.734670090604304,
+      "0.9": -0.45772513457918074,
+      "0.99": -0.4186151116043036,
+      "1": -0.4133660833388747
+    },
+    "BCE_positive_ratio_quantiles_covered": {
+      "0": 0.025101951746627355,
+      "0.1": 0.11566642259595974,
+      "0.5": 2.8667008846666198,
+      "0.9": 26.17819533138502,
+      "0.99": 126.5787994348296,
+      "1": 139.4347282334335
+    },
+    "classification_A_B_cosine_quantiles": {
+      "0": -0.8306733817561963,
+      "0.1": -0.7954027420983109,
+      "0.5": 0.3884300988581071,
+      "0.9": 1.0,
+      "0.99": 1.0000000000000002,
+      "1": 1.0000000000000002
+    },
+    "classification_direction_reversed_groups": 10,
+    "focal_nonzero_projection_groups": 17,
+    "groups_with_source_queries": 19,
+    "groups_without_source_queries": 5,
+    "known_groups": 24
+  },
+  "source_negative_confidence": {
+    "above015": 2,
+    "above05": 0,
+    "below001": 193,
+    "below005": 272,
+    "quantiles": {
+      "0": 2.472069661042253e-08,
+      "0.1": 0.0005907104251718618,
+      "0.5": 0.004382336640730745,
+      "0.9": 0.02391638709985853,
+      "0.99": 0.09126660994944434,
+      "1": 0.21967211902506864
+    }
+  },
+  "status": "COMPLETE",
+  "training_authorized": false,
+  "uncovered_regions": 17
+}

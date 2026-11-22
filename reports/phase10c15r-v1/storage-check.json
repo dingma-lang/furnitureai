@@ -1,0 +1,10 @@
+{
+  "conservative_allocated_bytes_at_check": 5242880,
+  "file_entries": 312,
+  "first_attempt_storage_excluded": true,
+  "hardlinks_conservatively_counted_twice_in_guard": true,
+  "logical_bytes_including_pending_links": 4334153,
+  "max_new_diagnostic_bytes": 134217728,
+  "readings_captured_before_final_integrity_seal": true,
+  "unique_inode_allocated_bytes_at_check": 2650112
+}
