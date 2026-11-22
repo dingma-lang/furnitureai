@@ -1,0 +1,22 @@
+{
+  "all24_original_cached_mask_checks_passed": true,
+  "configuration_sha256": "8815f982d567dde7e2e1dcdc82c6007b3c31e96059b1412854e60fcfd8793e12",
+  "full59_sequence_checked": true,
+  "model_forwards": 0,
+  "passed": 44,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "data/open-images/experiments/phase10c16-balanced-gradient-smoke-v1/CPU-preflight-C16-b55050de.log",
+      "passed": 33,
+      "sha256": "47981c7da0dd2dc71da925967a1e7b4aca28646ef0fa8203f96e601a50ac8268",
+      "suite": "C16"
+    },
+    {
+      "log": "data/open-images/experiments/phase10c16-balanced-gradient-smoke-v1/CPU-preflight-C17-304fb42f.log",
+      "passed": 11,
+      "sha256": "db04dfe0dcb2b2d0a98a173c679124483990f68bf9dd1d6aaea93ee83dab33bb",
+      "suite": "C17"
+    }
+  ]
+}

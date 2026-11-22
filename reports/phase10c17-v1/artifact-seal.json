@@ -1,0 +1,26 @@
+{
+  "code_sha256": {
+    "tools/phase10c17-v1/README.md": "aa62a5eefbc55c6e47a8810fb50c707ae0e7d0b39df1d8f43e2a7ad5cf8adf13",
+    "tools/phase10c17-v1/analyze17.py": "8f34192d156d790766850a235b0546be753d68c84d1b8b9fb16067acb207795e",
+    "tools/phase10c17-v1/common17.py": "0a3b45c1e4d304381f83c67dfdcd3fdb010a73fcf040a89b9fb60db61bd3ab49",
+    "tools/phase10c17-v1/cpu_preflight17.py": "eb7c395e0f86c4f988a45355b0f35547f8d551c1216fe775b5d50f1070819de1",
+    "tools/phase10c17-v1/future17.py": "6c0dcd459c3cec384399a98111adedb45a70a224c12092d8df3da65680692b98",
+    "tools/phase10c17-v1/gpu17.py": "c7dea2a2b4c6e3271f4cafaa79f18c913ebee7a52679d34a744ac46b96dc269c",
+    "tools/phase10c17-v1/launch17.py": "7ccbbd6a88e3db7267dac66f30a493f3e66c74067b69aec73288291ebb7a6729",
+    "tools/phase10c17-v1/measure17.py": "7115d0ffdcbb544d15e3b35582f183295ec6332f38cecbc817f78c4f42e966b2",
+    "tools/phase10c17-v1/plot17.py": "0a4985dafd8d33f4e38afd3d98eb91b343c3c02b128ed4798bda1408d530d756",
+    "tools/phase10c17-v1/prepare17.py": "e24f3e3d1ef2e37c411904942cbd0f9baa520f9dc8b959a76cbb96ebab7c13ab",
+    "tools/phase10c17-v1/test_completed17.py": "93ad9ea524043730828a303f3f1e29f3a6111fedfc35f88d02c05f5894af7d60",
+    "tools/phase10c17-v1/test_smoke17.py": "6fd042668b4931d935524ca9b0518c4d61b786195ccb31150f07dd7e2cfd1c65",
+    "tools/phase10c17-v1/verify17.py": "cc76ea09fc6588d525730e5fda9d1b800d9a0313615ab983ea6411cc2dc2abd0"
+  },
+  "conservative_allocated_bytes_before_public_seal": 14954496,
+  "main_unchanged": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "new_real_model_forwards": 59,
+  "only_small_code_and_reports_for_Git": true,
+  "optimizer_updates": 0,
+  "private_files": 528,
+  "private_manifest": "data/open-images/experiments/phase10c16-balanced-gradient-smoke-v1/ARTIFACT-SHA256SUMS.json",
+  "private_manifest_sha256": "78abb9406fece1a986326a2b75317dfa1cea079ffef981dfcc1e67d1eb10c8fb",
+  "schema": "phase10c17-artifact-seal-v1"
+}

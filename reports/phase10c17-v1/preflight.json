@@ -1,0 +1,32 @@
+{
+  "C16_private_files": 25,
+  "C16_public_files": 16,
+  "accumulation_groups": 15,
+  "calibration_trainable": true,
+  "group_sizes": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3
+  ],
+  "known_source_groups": 56,
+  "model_forwards": 0,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "original_initialization_only": true,
+  "positive_boxes": 182,
+  "source_regions": 41,
+  "status": "PASS",
+  "training_authorized": false,
+  "training_photos": 59
+}
