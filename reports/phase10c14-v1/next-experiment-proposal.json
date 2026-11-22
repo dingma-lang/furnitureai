@@ -1,0 +1,112 @@
+{
+  "GPU_authorized": false,
+  "Phase10D_authorized": false,
+  "all_other_parameters_frozen": true,
+  "approved": false,
+  "evaluation": {
+    "acceptance": "Only supports further investigation if matched-recall precision improves without Sofa/Bed recall or localization regression;diagnostic19photo panel cannot establish independent success",
+    "comparison": "Saved original,C11,and later one-arm endpoint under identical definitions",
+    "independent_goal": "80% precision AND90%recall on a future fully annotated,identity-isolated seven-class real-room set;no evaluation access now",
+    "metrics": [
+      "precision and recall at0.15",
+      "PR-envelope precision at original recall",
+      "AP50/AP75",
+      "scored TP/FP/FN and per-class results",
+      "unknown unmatched counts separately",
+      "Sofa/Bed regressions",
+      "query logit drift",
+      "source-negative/projection gradient contribution"
+    ],
+    "new_evaluation_or_frozen_scoring": false,
+    "primary": "Predeclared final endpoint,unchanged partial-label matching and confidence0.15/AP protocol"
+  },
+  "frozen_calibration": [
+    "class_head.logit_scale.bias",
+    "class_head.logit_scale.weight",
+    "class_head.logit_shift.bias",
+    "class_head.logit_shift.weight"
+  ],
+  "hypothesis": "Existing verified Chair negatives are downweighted too strongly by gamma2 focal loss;remove only their focal modulation while preserving positive/native losses and ignorance masks",
+  "intervention": {
+    "existing_source_negative": "0.75 * sigmoid(z)^2 * softplus(z) / number_active_GT",
+    "implemented_in_trainer": false,
+    "matching": "Unchanged executed C8 Hungarian cost and whole-query source mask",
+    "other_changes": false,
+    "positive_and_native_negative": "Unchanged alpha=.25,gamma=2 focal loss",
+    "proposed_source_negative": "0.75 * softplus(z) / number_active_GT"
+  },
+  "next_approval": {
+    "automatic_training_afterwards": false,
+    "base_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "destination": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/",
+    "head": {
+      "path": "data/open-images/experiments/phase10c10-calibration-frozen-v1/checkpoints/update-075-bf8be48ddf59.pt",
+      "sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+      "updates": 75
+    },
+    "initialization": "Immutable original base plus exact saved C11 final head;diagnose an already inflated state without altering it",
+    "max_GPU_seconds": 180,
+    "max_allocated_VRAM_bytes": 6979321856,
+    "max_forwards": 24,
+    "max_new_output_bytes": 134217728,
+    "max_optimizer_updates": 0,
+    "no_destination_created": true,
+    "pass_requirements": [
+      "All source/photo/model/config hashes match",
+      "Identical matching,positive/native masks and source-region attribution between loss formulas",
+      "No positive,stool,protected or unknown terms newly marked negative",
+      "Finite output/head gradient components with explicit nonzero checks on covered source terms",
+      "Report any zero or dominant source contribution;do not infer training benefit from loss/gradient magnitude"
+    ],
+    "photo_manifest_sha256": "5908ee2a746c541b02837f5a936da6ce1fc9762fbacdace252099e03e4fb203c",
+    "photos": "Exact24 optimization photos frozen in C6 proposed-smoke-photos.json",
+    "procedure": "One FP16 forward/photo;two analytic loss components on identical outputs;autograd.grad for positive/native/source/projection/box gradient norms and directions;no optimizer,weight updates,model.grad accumulation,development scoring,or additional forwards",
+    "stop_on_failure": true,
+    "type": "Zero-update GPU gradient smoke only;not training"
+  },
+  "possible_later_separate_training": {
+    "LR": 1e-05,
+    "arms": 1,
+    "authorized": false,
+    "changes": "Only additional source-negative focal modulation removed;no lambda,matching,threshold,data or seed search",
+    "initialization": "Original pretrained,not continuation of C11",
+    "max_GPU_seconds_including_diagnostics": 600,
+    "max_allocated_VRAM_bytes": 6979321856,
+    "max_epochs": 5,
+    "max_updates": 75,
+    "reference": "Historical C11 same frozen-calibration eight-tensor scope,no C13 L2SP",
+    "requires": "Successful separately approved gradient smoke and a new approval bound to exact configuration/code",
+    "seed": 6106
+  },
+  "risks": [
+    "BCE can still be too weak or can over-dominate;output derivatives do not establish head gradients under AMP",
+    "Same limited41regions/24covered regions may not constrain unseen confusions",
+    "Chair-only supervision cannot solve all seven-category coverage",
+    "Teacher preservation can reproduce errors or suppress new positives",
+    "Already exposed19-photo development panel is diagnostic,not acceptance evidence"
+  ],
+  "schema": "phase10c14-source-negative-gradient-proposal-v1",
+  "trainable_parameter_names_for_later_training": [
+    "box_head.dense0.bias",
+    "box_head.dense0.weight",
+    "box_head.dense1.bias",
+    "box_head.dense1.weight",
+    "box_head.dense2.bias",
+    "box_head.dense2.weight",
+    "class_head.dense0.bias",
+    "class_head.dense0.weight"
+  ],
+  "training_authorized": false,
+  "training_data": {
+    "evidence_path": "data/open-images/preparation/phase10c6-v1/source-negative-evidence.json",
+    "evidence_sha256": "48f26dd93572bd166a31270479df11accc1899d9896304eaba5028aaf7cd1448",
+    "known_groups": 56,
+    "manifest": "data/open-images/preparation/phase10b-v1/eligibility-manifest.json",
+    "new_labels": 0,
+    "optimization_photos": 59,
+    "sha256": "ec55e01d968b584819c790de2c2a843bd87d9af960642601d65187807800b937",
+    "source_negative_regions": 41,
+    "training_rows_sha256": "f6e440afc30115654d9818234d2955c2ce37e08ef46a3f875ec66bd8e1304a91",
+    "unknown_regions": "Ignored;never generic background"
+  }
+}

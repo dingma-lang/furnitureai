@@ -1,0 +1,32 @@
+{
+  "code_sha256": {
+    "tools/phase10c14-v1/README.md": "2f154fe00f1e62013701ef714a7f6b81c7b8c175697c96a33915e00c5329f653",
+    "tools/phase10c14-v1/analyze14.py": "e4bb5446983782ba3f244867691f142dfa1eee3c1a186935339a97f2d4cde8e9",
+    "tools/phase10c14-v1/audit14.py": "02c101a33768d954f2da7f84e69b185615fd4f20794ad3eb63117633d417b227",
+    "tools/phase10c14-v1/browser14.py": "dc0fcb7605f99acb84562591b302d1ee6169cdf282860e88f12486b82c9fcccd",
+    "tools/phase10c14-v1/browser_fixture.js": "4ab1d2b04e6aedb442f3691aa431fee7aeb198cd1479b1d667f01b734aa766c5",
+    "tools/phase10c14-v1/common14.py": "8a8b3c0abaf06872e26777e2cb7e812bc1af22dab238901971869a123510cd81",
+    "tools/phase10c14-v1/dashboard.css": "68a25096d1b176f0cbdb452621e6ab607e03dfd033b4a7477286bbe1519c740c",
+    "tools/phase10c14-v1/dashboard.html": "cd3d837f715da9f9665661bcaebeb6963d21f62c264211beec70f5ea093cd108",
+    "tools/phase10c14-v1/dashboard.js": "c7f753380fe8f0e9258a3b58a167d90a959cd739a629ac5e30979b76f9f97fa9",
+    "tools/phase10c14-v1/dashboard14.py": "ccc100cd57dd1bd5de776c607b6b302290ca4ddfc3386948671b753636495e27",
+    "tools/phase10c14-v1/mining14.py": "a10b762a3d08d3454a6a35ef1f921c6b49b7c02322bfe99051e7e477101b1b0a",
+    "tools/phase10c14-v1/moments14.py": "58d215366177e58a643fa25b9751ff3964651bda4d86c91390f18bfbb473b1c2",
+    "tools/phase10c14-v1/plates14.py": "c564b4f8c726fbd103d0807618db93fe87528f97a2c8867f98aa69521451e4b7",
+    "tools/phase10c14-v1/preflight14.py": "f93d3dd2c347bd7e2eb9b4deb8d2b6869a315363cdca41ab8b6c607a12f2435f",
+    "tools/phase10c14-v1/publish14.py": "47da927565003484d4d1ad65446e6b8068161a7248454bdbd736dc7a33d72fb6",
+    "tools/phase10c14-v1/quality14.py": "0b992f2e788d2e3bd2918448004e3c0a91ec093ed55f15df532ddf4bbe9818a1",
+    "tools/phase10c14-v1/replay14.py": "1bc2478cbd7776ea03d8267dbb91044d2f739030c793a83420d8642a0672f6f2",
+    "tools/phase10c14-v1/server14.py": "2f69169a327c72ded627f8747a2c5391af963342f9896f7062b9bfda02d34961",
+    "tools/phase10c14-v1/test_audit14.py": "a0091b4c02fbffa1776ae1e2f6d84314d860e51025f4883db06ef8761cbcf725",
+    "tools/phase10c14-v1/verify14.py": "f9d9fec67b14652d718b0b462fecf99e34797681e4a5e64311cdc8608fe4fefd",
+    "tools/phase10c14-v1/visual_record14.py": "bdf9815fd4f28eed323be69b7c2605d04c22d36742cde8a14181a6cd45e1975a"
+  },
+  "gitignore_sha256": "e4b1aabf6e433289b935d7890eede60906aa99332784e7735da93a37f31bc077",
+  "new_inference": 0,
+  "new_training": 0,
+  "private_allocated_bytes": 14544896,
+  "private_files": 683,
+  "private_seal": "data/open-images/diagnostics/phase10c14-v1/ARTIFACT-SHA256SUMS",
+  "private_seal_sha256": "25532ba3468cdceb13e980b6309167a5916c8d6e4591b696085d766291467eb3"
+}

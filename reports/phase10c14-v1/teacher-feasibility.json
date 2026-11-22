@@ -1,0 +1,108 @@
+{
+  "all7_unmasked_distillation_ready": false,
+  "available_training_teacher_photos": 24,
+  "cache_reusable_without_duplicate_forward_every_update": true,
+  "conditions": [
+    "Same original photo bytes/orientation,processor resize/padding,prompts/precision,and no unrecorded crop/flip/augmentation",
+    "Frozen vision/text/backbone and identical60x60 dense patch lattice;verify index/frame correspondence",
+    "Index denotes a fixed patch,not stable object identity;predicted boxes/Hungarian matched indices can change",
+    "Exclude known positives/seating stools,uncertain/native ignored regions,teacher disagreements and unverified background from any negative behavior-preservation target",
+    "Only Chair-negative evidence is established by current source regions;seven saved outputs do not establish seven-category absence"
+  ],
+  "conservative_current_safe_negative_correspondence": {
+    "c11_e1": {
+      "common_safe_Chair_query_indices": 289,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c11_e3": {
+      "common_safe_Chair_query_indices": 283,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c11_e5": {
+      "common_safe_Chair_query_indices": 280,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c13_e1": {
+      "common_safe_Chair_query_indices": 288,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c13_e3": {
+      "common_safe_Chair_query_indices": 286,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c13_e5": {
+      "common_safe_Chair_query_indices": 284,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c8_control_e1": {
+      "common_safe_Chair_query_indices": 290,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c8_control_e3": {
+      "common_safe_Chair_query_indices": 284,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c8_control_e5": {
+      "common_safe_Chair_query_indices": 283,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c8_corrected_e1": {
+      "common_safe_Chair_query_indices": 290,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c8_corrected_e3": {
+      "common_safe_Chair_query_indices": 284,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    },
+    "c8_corrected_e5": {
+      "common_safe_Chair_query_indices": 282,
+      "no_all7_absence_claim": true,
+      "teacher_Chair_probability_at_least015_on_these": 0
+    }
+  },
+  "development_features_or_errors_used_for_teacher_or_mining": false,
+  "missing_artifacts": [
+    "Original teacher outputs for35 optimization photos",
+    "Training pre-head/image and text features for exact parameter-gradient attribution",
+    "Per-update query boxes/logits,matching indices and masks for all59 photos",
+    "Saved objectness outputs",
+    "Separate signed per-image positive/native-negative/source-negative projection gradients"
+  ],
+  "model_forwards": 0,
+  "not_recoverable_from_saved_logits_alone": [
+    "Unique actual pre-head embeddings or objectness",
+    "Uncached teacher/student outputs for35photos or unsaved intermediate update-time queries"
+  ],
+  "recoverable_without_model_inference": [
+    "CPU reconstruct selected-probe assignments,masks,output-logit and box gradients",
+    "Approximate clipped aggregate parameter gradients from consecutive Adam first moments;not per-image/per-term attribution",
+    "Read already saved whole-update parameter-gradient norms and source-negative scores"
+  ],
+  "safe_Chair_masked_distillation_possible_on_cached24_but_narrow": true,
+  "teacher": "Immutable original OWLv2",
+  "teacher_cache": "Canonical original state in private cache-index.json;raw arrays remain in historical C11 optimization probes",
+  "teacher_classes": [
+    "sofa",
+    "chair",
+    "table",
+    "bed",
+    "desk",
+    "cabinet",
+    "lamp"
+  ],
+  "teacher_mistakes_not_ground_truth": true,
+  "teacher_precision": "Original FP16 training-probe forwards cast toFP32;bound source/preprocessing/prompt hashes",
+  "teacher_queries_per_photo": 3600,
+  "training_photos_missing_teacher_outputs": 35
+}

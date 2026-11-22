@@ -1,0 +1,905 @@
+{
+  "all_stats_training_only": true,
+  "cached_optimization_photos": 24,
+  "classes": [
+    "sofa",
+    "chair",
+    "table",
+    "bed",
+    "desk",
+    "cabinet",
+    "lamp"
+  ],
+  "model_forwards": 0,
+  "optimization_photos_without_queries": 35,
+  "optimizer_updates": 0,
+  "original_GPU_assignments_were_not_saved": true,
+  "reconstruction_failures": [],
+  "state_summaries": {
+    "c11_e1": {
+      "context": {
+        "high_Chair_all_queries": 506,
+        "high_Chair_argmax_queries": 382,
+        "high_Chair_ignored_IoU05_known_Chair": 53,
+        "high_Chair_ignored_IoU05_other_active_furniture": 28,
+        "high_Chair_ignored_box_outside_frame": 71,
+        "high_Chair_ignored_fragment_heuristic": 57,
+        "high_Chair_ignored_padding_anchors": 8,
+        "high_Chair_ignored_queries": 461
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 0.17481915766444445,
+      "ignored_terms_by_category": [
+        86376,
+        86058,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C11 calibration frozen \u00b7 epoch 1",
+      "logit_positive_L1": 2.4285324792726897,
+      "logit_source_negative_L1": 0.00023719787771143522,
+      "mean_classification_loss": 0.2337336617153293,
+      "mean_counterfactual_source_BCE_loss": 0.007325763929713958,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.23373020996223204,
+      "mean_source_negative_loss": 3.4550263451584258e-06,
+      "measured_source_negative_projection_gradient_zero_photos": 7,
+      "negative_terms_by_category": [
+        0,
+        292,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 1.733579905603556e-07,
+        "0.9": 2.296719978287289e-05,
+        "0.99": 0.0011081518231142967,
+        "1": 0.0014272047702378664
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.2764730751514435,
+        "0.1": -0.1756911799311638,
+        "0.5": -0.10101689398288727,
+        "0.9": -0.027360665239393733,
+        "0.99": -0.006949869547970595,
+        "1": -0.006003084126859903
+      }
+    },
+    "c11_e3": {
+      "context": {
+        "high_Chair_all_queries": 2685,
+        "high_Chair_argmax_queries": 2214,
+        "high_Chair_ignored_IoU05_known_Chair": 143,
+        "high_Chair_ignored_IoU05_other_active_furniture": 77,
+        "high_Chair_ignored_box_outside_frame": 287,
+        "high_Chair_ignored_fragment_heuristic": 283,
+        "high_Chair_ignored_padding_anchors": 55,
+        "high_Chair_ignored_queries": 2635
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 0.6676023520749368,
+      "ignored_terms_by_category": [
+        86376,
+        86067,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C11 calibration frozen \u00b7 epoch 3",
+      "logit_positive_L1": 0.8506197537353728,
+      "logit_source_negative_L1": 0.005246633609517295,
+      "mean_classification_loss": 0.04687342634406377,
+      "mean_counterfactual_source_BCE_loss": 0.028264970639838793,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.04679110296577468,
+      "mean_source_negative_loss": 8.232780516871238e-05,
+      "measured_source_negative_projection_gradient_zero_photos": 7,
+      "negative_terms_by_category": [
+        0,
+        283,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 9.049826059801229e-05,
+        "0.9": 0.004074300308979795,
+        "0.99": 0.041436736929267526,
+        "1": 0.050976163827511724
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.15508097410202026,
+        "0.1": -0.10849196463823317,
+        "0.5": -0.018932143691927195,
+        "0.9": -0.0016320543130859755,
+        "0.99": -0.0003055505959491712,
+        "1": -0.0002281411871081218
+      }
+    },
+    "c11_e5": {
+      "context": {
+        "high_Chair_all_queries": 4677,
+        "high_Chair_argmax_queries": 3964,
+        "high_Chair_ignored_IoU05_known_Chair": 186,
+        "high_Chair_ignored_IoU05_other_active_furniture": 105,
+        "high_Chair_ignored_box_outside_frame": 492,
+        "high_Chair_ignored_fragment_heuristic": 489,
+        "high_Chair_ignored_padding_anchors": 105,
+        "high_Chair_ignored_queries": 4625
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 1.1325036693306174,
+      "ignored_terms_by_category": [
+        86376,
+        86069,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C11 calibration frozen \u00b7 epoch 5",
+      "logit_positive_L1": 0.5951965700405708,
+      "logit_source_negative_L1": 0.017508555334314817,
+      "mean_classification_loss": 0.029547266974380666,
+      "mean_counterfactual_source_BCE_loss": 0.04836058498085549,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.029260012749849313,
+      "mean_source_negative_loss": 0.0002872544370633931,
+      "measured_source_negative_projection_gradient_zero_photos": 7,
+      "negative_terms_by_category": [
+        0,
+        281,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 0.0010039492272183536,
+        "0.9": 0.028885077962786714,
+        "0.99": 0.16797150046175377,
+        "1": 0.18591901888401077
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.13804347813129425,
+        "0.1": -0.07021667547523974,
+        "0.5": -0.01339066680520773,
+        "0.9": -0.000748247728915886,
+        "0.99": -0.00013891953167330945,
+        "1": -0.00010625166032696143
+      }
+    },
+    "c13_e1": {
+      "context": {
+        "high_Chair_all_queries": 345,
+        "high_Chair_argmax_queries": 257,
+        "high_Chair_ignored_IoU05_known_Chair": 37,
+        "high_Chair_ignored_IoU05_other_active_furniture": 22,
+        "high_Chair_ignored_box_outside_frame": 45,
+        "high_Chair_ignored_fragment_heuristic": 36,
+        "high_Chair_ignored_padding_anchors": 5,
+        "high_Chair_ignored_queries": 303
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 0.1375613908250557,
+      "ignored_terms_by_category": [
+        86376,
+        86060,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C13 L2-SP \u00b7 epoch 1",
+      "logit_positive_L1": 2.8503537970827892,
+      "logit_source_negative_L1": 0.00013087923863421087,
+      "mean_classification_loss": 0.2685508104041219,
+      "mean_counterfactual_source_BCE_loss": 0.005758910856895246,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.2685489195670622,
+      "mean_source_negative_loss": 1.8901441965907603e-06,
+      "measured_source_negative_projection_gradient_zero_photos": 9,
+      "negative_terms_by_category": [
+        0,
+        290,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 5.981753281509063e-08,
+        "0.9": 9.335363987090813e-06,
+        "0.99": 0.0005691562986555113,
+        "1": 0.000732727808594408
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.28028082847595215,
+        "0.1": -0.1871238574385643,
+        "0.5": -0.12121419981122017,
+        "0.9": -0.04869976527988913,
+        "0.99": -0.014509023046121004,
+        "1": -0.01327489223331213
+      }
+    },
+    "c13_e3": {
+      "context": {
+        "high_Chair_all_queries": 941,
+        "high_Chair_argmax_queries": 719,
+        "high_Chair_ignored_IoU05_known_Chair": 70,
+        "high_Chair_ignored_IoU05_other_active_furniture": 33,
+        "high_Chair_ignored_box_outside_frame": 74,
+        "high_Chair_ignored_fragment_heuristic": 92,
+        "high_Chair_ignored_padding_anchors": 15,
+        "high_Chair_ignored_queries": 894
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 0.3301784500562235,
+      "ignored_terms_by_category": [
+        86376,
+        86059,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C13 L2-SP \u00b7 epoch 3",
+      "logit_positive_L1": 1.9364735146518797,
+      "logit_source_negative_L1": 0.0010170376806236854,
+      "mean_classification_loss": 0.24103912904198901,
+      "mean_counterfactual_source_BCE_loss": 0.013884716267175653,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.2410239143355284,
+      "mean_source_negative_loss": 1.5218057743637382e-05,
+      "measured_source_negative_projection_gradient_zero_photos": 7,
+      "negative_terms_by_category": [
+        0,
+        291,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 6.872266539763663e-07,
+        "0.9": 0.00026728950648249026,
+        "0.99": 0.005619188699456469,
+        "1": 0.007186269364305269
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.23900073766708374,
+        "0.1": -0.16451005041599273,
+        "0.5": -0.0815129429101944,
+        "0.9": -0.022442015819251537,
+        "0.99": -0.0050767172500491165,
+        "1": -0.003758404403924942
+      }
+    },
+    "c13_e5": {
+      "context": {
+        "high_Chair_all_queries": 1594,
+        "high_Chair_argmax_queries": 1256,
+        "high_Chair_ignored_IoU05_known_Chair": 88,
+        "high_Chair_ignored_IoU05_other_active_furniture": 42,
+        "high_Chair_ignored_box_outside_frame": 157,
+        "high_Chair_ignored_fragment_heuristic": 147,
+        "high_Chair_ignored_padding_anchors": 25,
+        "high_Chair_ignored_queries": 1545
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 0.500741125758168,
+      "ignored_terms_by_category": [
+        86376,
+        86062,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C13 L2-SP \u00b7 epoch 5",
+      "logit_positive_L1": 1.484046302299248,
+      "logit_source_negative_L1": 0.0027876569227461155,
+      "mean_classification_loss": 0.18442123057320714,
+      "mean_counterfactual_source_BCE_loss": 0.021131779204173046,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.1843782241921872,
+      "mean_source_negative_loss": 4.300449523239942e-05,
+      "measured_source_negative_projection_gradient_zero_photos": 7,
+      "negative_terms_by_category": [
+        0,
+        288,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 4.167872675990743e-06,
+        "0.9": 0.0008983281986306584,
+        "0.99": 0.018625712854669966,
+        "1": 0.02363310053558643
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.2100895345211029,
+        "0.1": -0.12637126594781875,
+        "0.5": -0.04892522841691971,
+        "0.9": -0.011287737172096971,
+        "0.99": -0.002378943117801101,
+        "1": -0.0017968195024877787
+      }
+    },
+    "c8_control_e1": {
+      "context": {
+        "high_Chair_all_queries": 767,
+        "high_Chair_argmax_queries": 571,
+        "high_Chair_ignored_IoU05_known_Chair": 66,
+        "high_Chair_ignored_IoU05_other_active_furniture": 32,
+        "high_Chair_ignored_box_outside_frame": 107,
+        "high_Chair_ignored_fragment_heuristic": 77,
+        "high_Chair_ignored_padding_anchors": 13,
+        "high_Chair_ignored_queries": 721
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 0.24310875495098117,
+      "ignored_terms_by_category": [
+        86376,
+        86350,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C8 control \u00b7 epoch 1",
+      "logit_positive_L1": 1.9917828545731027,
+      "logit_source_negative_L1": 0.0,
+      "mean_classification_loss": 0.16959569726896007,
+      "mean_counterfactual_source_BCE_loss": 0.010202551470603302,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.16959569726896007,
+      "mean_source_negative_loss": 7.405270307503415e-06,
+      "measured_source_negative_projection_gradient_zero_photos": 6,
+      "negative_terms_by_category": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 8.340542214521484e-07,
+        "0.9": 7.07308691481207e-05,
+        "0.99": 0.0026013500249964126,
+        "1": 0.003348876859073435
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.2652533948421478,
+        "0.1": -0.16574570834636687,
+        "0.5": -0.07987307384610176,
+        "0.9": -0.015447849873453394,
+        "0.99": -0.003206597832031549,
+        "1": -0.00269353948533535
+      }
+    },
+    "c8_control_e3": {
+      "context": {
+        "high_Chair_all_queries": 5061,
+        "high_Chair_argmax_queries": 4173,
+        "high_Chair_ignored_IoU05_known_Chair": 204,
+        "high_Chair_ignored_IoU05_other_active_furniture": 119,
+        "high_Chair_ignored_box_outside_frame": 575,
+        "high_Chair_ignored_fragment_heuristic": 521,
+        "high_Chair_ignored_padding_anchors": 142,
+        "high_Chair_ignored_queries": 5011
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 1.226250402018195,
+      "ignored_terms_by_category": [
+        86376,
+        86350,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C8 control \u00b7 epoch 3",
+      "logit_positive_L1": 0.5323020833216106,
+      "logit_source_negative_L1": 0.0,
+      "mean_classification_loss": 0.026708891367434262,
+      "mean_counterfactual_source_BCE_loss": 0.052420063704327426,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.026708891367434262,
+      "mean_source_negative_loss": 0.00033959627725106944,
+      "measured_source_negative_projection_gradient_zero_photos": 6,
+      "negative_terms_by_category": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 0.0013006842191617505,
+        "0.9": 0.04120088812327776,
+        "0.99": 0.2234148642110646,
+        "1": 0.2453879361156602
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.13981419801712036,
+        "0.1": -0.07174744978547096,
+        "0.5": -0.009648014325648546,
+        "0.9": -0.000560038503317629,
+        "0.99": -8.503637072863062e-05,
+        "1": -5.997973494231701e-05
+      }
+    },
+    "c8_control_e5": {
+      "context": {
+        "high_Chair_all_queries": 8816,
+        "high_Chair_argmax_queries": 7527,
+        "high_Chair_ignored_IoU05_known_Chair": 288,
+        "high_Chair_ignored_IoU05_other_active_furniture": 163,
+        "high_Chair_ignored_box_outside_frame": 1257,
+        "high_Chair_ignored_fragment_heuristic": 817,
+        "high_Chair_ignored_padding_anchors": 308,
+        "high_Chair_ignored_queries": 8766
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 2.175382512723445,
+      "ignored_terms_by_category": [
+        86376,
+        86350,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C8 control \u00b7 epoch 5",
+      "logit_positive_L1": 0.37049949850825215,
+      "logit_source_negative_L1": 0.0,
+      "mean_classification_loss": 0.01317180264148495,
+      "mean_counterfactual_source_BCE_loss": 0.09449904894002732,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.01317180264148495,
+      "mean_source_negative_loss": 0.0013898941415041895,
+      "measured_source_negative_projection_gradient_zero_photos": 6,
+      "negative_terms_by_category": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 0.016308055775739683,
+        "0.9": 0.38326468765219346,
+        "0.99": 1.4717290015749562,
+        "1": 1.6978570103122248
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.12972918152809143,
+        "0.1": -0.04125772677361965,
+        "0.5": -0.004437442868947983,
+        "0.9": -0.00023239658330567205,
+        "0.99": -4.7288953792303816e-05,
+        "1": -3.904730692738667e-05
+      }
+    },
+    "c8_corrected_e1": {
+      "context": {
+        "high_Chair_all_queries": 767,
+        "high_Chair_argmax_queries": 571,
+        "high_Chair_ignored_IoU05_known_Chair": 66,
+        "high_Chair_ignored_IoU05_other_active_furniture": 32,
+        "high_Chair_ignored_box_outside_frame": 107,
+        "high_Chair_ignored_fragment_heuristic": 77,
+        "high_Chair_ignored_padding_anchors": 13,
+        "high_Chair_ignored_queries": 721
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 0.24310875495098117,
+      "ignored_terms_by_category": [
+        86376,
+        86057,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C8 corrected \u00b7 epoch 1",
+      "logit_positive_L1": 1.9917828545731027,
+      "logit_source_negative_L1": 0.0005018370906327828,
+      "mean_classification_loss": 0.1696031039415781,
+      "mean_counterfactual_source_BCE_loss": 0.010202551470603302,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.16959569726896007,
+      "mean_source_negative_loss": 7.405270307503415e-06,
+      "measured_source_negative_projection_gradient_zero_photos": 6,
+      "negative_terms_by_category": [
+        0,
+        293,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 8.3405435327615e-07,
+        "0.9": 7.073397910077886e-05,
+        "0.99": 0.002605898541367879,
+        "1": 0.0033547823703296326
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.2652533948421478,
+        "0.1": -0.16573683619499205,
+        "0.5": -0.07987268269062042,
+        "0.9": -0.015447842050343767,
+        "0.99": -0.0032065924536436806,
+        "1": -0.0026935325004160404
+      }
+    },
+    "c8_corrected_e3": {
+      "context": {
+        "high_Chair_all_queries": 5039,
+        "high_Chair_argmax_queries": 4153,
+        "high_Chair_ignored_IoU05_known_Chair": 202,
+        "high_Chair_ignored_IoU05_other_active_furniture": 119,
+        "high_Chair_ignored_box_outside_frame": 572,
+        "high_Chair_ignored_fragment_heuristic": 520,
+        "high_Chair_ignored_padding_anchors": 142,
+        "high_Chair_ignored_queries": 4987
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 1.2165753421286354,
+      "ignored_terms_by_category": [
+        86376,
+        86066,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C8 corrected \u00b7 epoch 3",
+      "logit_positive_L1": 0.5334283830793538,
+      "logit_source_negative_L1": 0.01970228198242467,
+      "mean_classification_loss": 0.027079766772961495,
+      "mean_counterfactual_source_BCE_loss": 0.05198524649343502,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.026754633207777562,
+      "mean_source_negative_loss": 0.0003251333772961393,
+      "measured_source_negative_projection_gradient_zero_photos": 7,
+      "negative_terms_by_category": [
+        0,
+        284,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 0.0012744930074643384,
+        "0.9": 0.04116686547412406,
+        "0.99": 0.23301145497523434,
+        "1": 0.25601611185035894
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.13894686102867126,
+        "0.1": -0.06874663308262824,
+        "0.5": -0.009616136085242033,
+        "0.9": -0.000560610090906267,
+        "0.99": -8.498184382915502e-05,
+        "1": -5.9515281463973224e-05
+      }
+    },
+    "c8_corrected_e5": {
+      "context": {
+        "high_Chair_all_queries": 8509,
+        "high_Chair_argmax_queries": 7236,
+        "high_Chair_ignored_IoU05_known_Chair": 280,
+        "high_Chair_ignored_IoU05_other_active_furniture": 159,
+        "high_Chair_ignored_box_outside_frame": 1124,
+        "high_Chair_ignored_fragment_heuristic": 795,
+        "high_Chair_ignored_padding_anchors": 298,
+        "high_Chair_ignored_queries": 8455
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 2.138015523101785,
+      "ignored_terms_by_category": [
+        86376,
+        86065,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "C8 corrected \u00b7 epoch 5",
+      "logit_positive_L1": 0.3777310973123349,
+      "logit_source_negative_L1": 0.06961657296604809,
+      "mean_classification_loss": 0.014777212054089736,
+      "mean_counterfactual_source_BCE_loss": 0.0927269763184692,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.013555843708748702,
+      "mean_source_negative_loss": 0.0012213685517952417,
+      "measured_source_negative_projection_gradient_zero_photos": 6,
+      "negative_terms_by_category": [
+        0,
+        285,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 23,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 0.0136851009657562,
+        "0.9": 0.40752912112600054,
+        "0.99": 1.0024482825686547,
+        "1": 1.1033468498684382
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.12268442660570145,
+        "0.1": -0.031904527638107534,
+        "0.5": -0.0035814741859212518,
+        "0.9": -9.508387011010204e-05,
+        "0.99": 0.0009722218591923586,
+        "1": 0.0012733170296996832
+      }
+    },
+    "original": {
+      "context": {
+        "high_Chair_all_queries": 63,
+        "high_Chair_argmax_queries": 56,
+        "high_Chair_ignored_IoU05_known_Chair": 9,
+        "high_Chair_ignored_IoU05_other_active_furniture": 2,
+        "high_Chair_ignored_box_outside_frame": 6,
+        "high_Chair_ignored_fragment_heuristic": 5,
+        "high_Chair_ignored_padding_anchors": 1,
+        "high_Chair_ignored_queries": 38
+      },
+      "counterfactual_source_BCE_logit_gradient_L1": 0.048540692277327935,
+      "ignored_terms_by_category": [
+        86376,
+        86058,
+        86400,
+        86395,
+        86400,
+        86400,
+        86400
+      ],
+      "label": "Original pretrained \u00b7 epoch 0",
+      "logit_positive_L1": 5.055678429082036,
+      "logit_source_negative_L1": 8.133106423672133e-06,
+      "mean_classification_loss": 0.8692360060910383,
+      "mean_counterfactual_source_BCE_loss": 0.002026457484561354,
+      "mean_native_negative_loss": 0.0,
+      "mean_positive_loss": 0.8692358943323294,
+      "mean_source_negative_loss": 1.1471755554497056e-07,
+      "measured_source_negative_projection_gradient_zero_photos": 13,
+      "negative_terms_by_category": [
+        0,
+        292,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "photos": 24,
+      "photos_classification_decreases_along_uniform_positive_logit_direction": 24,
+      "positive_terms_by_category": [
+        24,
+        50,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "queries": 86400,
+      "source_negative_projection_gradient_ratio_quantiles": {
+        "0": 0.0,
+        "0.1": 0.0,
+        "0.5": 0.0,
+        "0.9": 2.3133954599575528e-07,
+        "0.99": 3.112261533260817e-05,
+        "1": 4.0155437872138414e-05
+      },
+      "uniform_logit_direction_derivative_quantiles": {
+        "0": -0.2581080496311188,
+        "0.1": -0.24970690310001373,
+        "0.5": -0.21057812124490738,
+        "0.9": -0.17060254514217377,
+        "0.99": -0.12167266905307772,
+        "1": -0.11008329689502716
+      }
+    }
+  },
+  "total_query_state_records": 1123200
+}

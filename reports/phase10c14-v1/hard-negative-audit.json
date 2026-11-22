@@ -1,0 +1,124 @@
+{
+  "all_new_targets_inactive": true,
+  "awaiting_query_local_visual_evidence": 9,
+  "by_state": {
+    "c11_e1": {
+      "actual_applied_terms": 292,
+      "actual_hard_015": 0,
+      "actual_hard_05": 0,
+      "available_terms": 292,
+      "regions_with_query_coverage": 25,
+      "regions_without_query_coverage": 16
+    },
+    "c11_e3": {
+      "actual_applied_terms": 283,
+      "actual_hard_015": 1,
+      "actual_hard_05": 0,
+      "available_terms": 283,
+      "regions_with_query_coverage": 24,
+      "regions_without_query_coverage": 17
+    },
+    "c11_e5": {
+      "actual_applied_terms": 281,
+      "actual_hard_015": 2,
+      "actual_hard_05": 0,
+      "available_terms": 281,
+      "regions_with_query_coverage": 24,
+      "regions_without_query_coverage": 17
+    },
+    "c13_e1": {
+      "actual_applied_terms": 290,
+      "actual_hard_015": 0,
+      "actual_hard_05": 0,
+      "available_terms": 290,
+      "regions_with_query_coverage": 25,
+      "regions_without_query_coverage": 16
+    },
+    "c13_e3": {
+      "actual_applied_terms": 291,
+      "actual_hard_015": 0,
+      "actual_hard_05": 0,
+      "available_terms": 291,
+      "regions_with_query_coverage": 24,
+      "regions_without_query_coverage": 17
+    },
+    "c13_e5": {
+      "actual_applied_terms": 288,
+      "actual_hard_015": 0,
+      "actual_hard_05": 0,
+      "available_terms": 288,
+      "regions_with_query_coverage": 24,
+      "regions_without_query_coverage": 17
+    },
+    "c8_control_e1": {
+      "actual_applied_terms": 0,
+      "actual_hard_015": 0,
+      "actual_hard_05": 0,
+      "available_terms": 293,
+      "regions_with_query_coverage": 25,
+      "regions_without_query_coverage": 16
+    },
+    "c8_control_e3": {
+      "actual_applied_terms": 0,
+      "actual_hard_015": 0,
+      "actual_hard_05": 0,
+      "available_terms": 284,
+      "regions_with_query_coverage": 24,
+      "regions_without_query_coverage": 17
+    },
+    "c8_control_e5": {
+      "actual_applied_terms": 0,
+      "actual_hard_015": 0,
+      "actual_hard_05": 0,
+      "available_terms": 284,
+      "regions_with_query_coverage": 24,
+      "regions_without_query_coverage": 17
+    },
+    "c8_corrected_e1": {
+      "actual_applied_terms": 293,
+      "actual_hard_015": 0,
+      "actual_hard_05": 0,
+      "available_terms": 293,
+      "regions_with_query_coverage": 25,
+      "regions_without_query_coverage": 16
+    },
+    "c8_corrected_e3": {
+      "actual_applied_terms": 284,
+      "actual_hard_015": 2,
+      "actual_hard_05": 0,
+      "available_terms": 284,
+      "regions_with_query_coverage": 24,
+      "regions_without_query_coverage": 17
+    },
+    "c8_corrected_e5": {
+      "actual_applied_terms": 285,
+      "actual_hard_015": 4,
+      "actual_hard_05": 0,
+      "available_terms": 285,
+      "regions_with_query_coverage": 24,
+      "regions_without_query_coverage": 17
+    },
+    "original": {
+      "actual_applied_terms": 292,
+      "actual_hard_015": 0,
+      "actual_hard_05": 0,
+      "available_terms": 292,
+      "regions_with_query_coverage": 24,
+      "regions_without_query_coverage": 17
+    }
+  },
+  "candidate_filter_counts": {
+    "below_existing32px_visual_region_minimum": 1224,
+    "known_furniture_or_uncertain_overlap": 10575,
+    "matched_positive_query": 58,
+    "no_certified_visible_nonchair_source_polygon": 987,
+    "query_outside_original_frame": 1773
+  },
+  "existing_regions": 41,
+  "inventory_native_annotation_records_on_training": 1005,
+  "new_source_geometry_candidate_regions": 9,
+  "newly_qualified_hard_negative_regions": 0,
+  "no_inference": true,
+  "source_annotations_modified": false,
+  "source_records_not_independent_physical_objects": true
+}

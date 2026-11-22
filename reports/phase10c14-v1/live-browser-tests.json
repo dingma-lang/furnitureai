@@ -1,0 +1,14 @@
+{
+  "GPU_disabled": true,
+  "URL": "http://localhost:8774/",
+  "cached_photos": 24,
+  "new_model_forwards": 0,
+  "new_reviews": 0,
+  "optimization_photos": 59,
+  "rendered_panels": 2,
+  "screenshot": "data/open-images/diagnostics/phase10c14-v1/live-dashboard.png",
+  "screenshot_private_not_for_Git": true,
+  "screenshot_sha256": "d425374d36d5360a7adc27c557e0d0a922a0889e4b88c38d19633ec7b8e331cf",
+  "status": "PASS",
+  "uncached_photos": 35
+}

@@ -1,0 +1,47 @@
+{
+  "C11": {
+    "C11_final_checkpoint_sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "C11_private_files": 626,
+    "C11_public_files": 31,
+    "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7"
+  },
+  "C13_private_files": 625,
+  "C13_public_files": 26,
+  "C13_reduction_vs_C11": 0.8447750272787229,
+  "C8_private_files": 1310,
+  "FP_decreased_but_recall_AP75_regressed": true,
+  "cached_training_photos": 24,
+  "calibration_frozen_C11_C13": true,
+  "checkpoints": {
+    "c11": {
+      "path": "data/open-images/experiments/phase10c10-calibration-frozen-v1/checkpoints/update-075-bf8be48ddf59.pt",
+      "sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+      "updates": 75
+    },
+    "c13": {
+      "path": "data/open-images/experiments/phase10c12-projection-preservation-v1/checkpoints/update-075-4972103e1d39.pt",
+      "sha256": "f74aba1fd4d44a33ffa0caed150db182ad37f50000c94b83fedceda6fc7fd994",
+      "updates": 75
+    },
+    "c8_corrected": {
+      "path": "data/open-images/experiments/phase10c8-ab-v2/B-corrected/checkpoints/update-075-9164284d514b.pt",
+      "sha256": "986d511ae2c80ced12a4a8542bdd300af0477230246a4df1ef22ffdf8519a930",
+      "updates": 75
+    }
+  },
+  "historical_dev_results_scope": "Verification of completed claims only;no dev images/errors supplied to candidate selection or objective calibration",
+  "joint_projection_displacements": {
+    "c11": 0.1458683030543,
+    "c13": 0.022642403362502696,
+    "c8_corrected": 0.14532633897923627
+  },
+  "known_training_groups": 56,
+  "matched_recall_precision_did_not_improve": true,
+  "new_model_forwards": 0,
+  "saved_probe_array_files": 312,
+  "status": "PASS",
+  "training_photos": 59,
+  "training_updates": 0,
+  "uncached_training_photos": 35,
+  "unique_cached_states": 13
+}

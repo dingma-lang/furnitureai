@@ -1,0 +1,97 @@
+{
+  "CPU_passed": 147,
+  "browser": {
+    "GPU_disabled": true,
+    "checks": [
+      "Original and selected checkpoint panels",
+      "All seven category scores available",
+      "Cached raw queries shown without invented NMS labels",
+      "Positive assignment filter",
+      "Source negative filter",
+      "Ignored query is separate from background",
+      "Original pixel coordinates are inspectable",
+      "Seven-score query inspection",
+      "Synthetic evidence is explicitly identified",
+      "Score filter changes viewer only",
+      "Unsupported target category is not assigned positives",
+      "Low-score ignored category queries remain inspectable",
+      "No invented supervision for an unsupervised class",
+      "Zoom preserves original image coordinate frame",
+      "Zoom increases displayed resolution",
+      "Two score-distribution charts",
+      "Uncached photo clears stale predictions",
+      "Missing cache is explicit,no inference fallback",
+      "Uncached photo clears previous detail identity",
+      "Return to cached photo restores correct queries",
+      "No training endpoint",
+      "No review-writing endpoint",
+      "Reserved photos unavailable",
+      "Registered local source photograph loads",
+      "No fake or mandatory human-review workflow"
+    ],
+    "human_reviews_created": 0,
+    "model_forwards": 0,
+    "status": "PASS"
+  },
+  "live_browser": {
+    "GPU_disabled": true,
+    "URL": "http://localhost:8774/",
+    "cached_photos": 24,
+    "new_model_forwards": 0,
+    "new_reviews": 0,
+    "optimization_photos": 59,
+    "rendered_panels": 2,
+    "screenshot": "data/open-images/diagnostics/phase10c14-v1/live-dashboard-6e62b69d.png",
+    "screenshot_private_not_for_Git": true,
+    "screenshot_sha256": "c15562b0a120d109b1dca44e9220c10e3d873656cce1f53c1ae2c3745e56f4ab",
+    "status": "PASS",
+    "uncached_photos": 35
+  },
+  "new_model_forwards": 0,
+  "optimizer_updates": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "data/open-images/diagnostics/phase10c14-v1/tests-C14-eaf2fc7a.log",
+      "passed": 25,
+      "sha256": "a854a9dd879ab68c19f224903889733af7311b7e46a46e9d061dbbcdd619d72a",
+      "suite": "C14"
+    },
+    {
+      "log": "data/open-images/diagnostics/phase10c14-v1/tests-C13-7e45b61e.log",
+      "passed": 9,
+      "sha256": "54377c7ae2800cfe4a1c1affedccfc1496613a9e5ea7a0d689a267bbff62b0e2",
+      "suite": "C13"
+    },
+    {
+      "log": "data/open-images/diagnostics/phase10c14-v1/tests-C11-3599aef7.log",
+      "passed": 13,
+      "sha256": "b6ba36589c8d928a40f2fa19ccd9bf862e8a15a48cc7e28b224cd0a03d5a52fa",
+      "suite": "C11"
+    },
+    {
+      "log": "data/open-images/diagnostics/phase10c14-v1/tests-FrozenScope-96dde749.log",
+      "passed": 21,
+      "sha256": "57516e9e037d9c066169c2e79a20903751fb51ed9e5100e7264fafb75997195c",
+      "suite": "FrozenScope"
+    },
+    {
+      "log": "data/open-images/diagnostics/phase10c14-v1/tests-C8-9c05ea46.log",
+      "passed": 16,
+      "sha256": "425380f2bf5d6d55ba882e548784c259055d9bf8c76e610f1f66daf93cd01446",
+      "suite": "C8"
+    },
+    {
+      "log": "data/open-images/diagnostics/phase10c14-v1/tests-C6-668605f2.log",
+      "passed": 31,
+      "sha256": "4a91128385cfea926ceebf1b5dd545f7bd4a7533dbefe35cdf67afa381de3b39",
+      "suite": "C6"
+    },
+    {
+      "log": "data/open-images/diagnostics/phase10c14-v1/tests-ExpandedData-7c4932cc.log",
+      "passed": 32,
+      "sha256": "8014162d401a337e02fb852d458c68f09114a24071eb5d8bd51b2ab9e85a9465",
+      "suite": "ExpandedData"
+    }
+  ]
+}

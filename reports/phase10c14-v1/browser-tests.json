@@ -1,0 +1,33 @@
+{
+  "GPU_disabled": true,
+  "checks": [
+    "Original and selected checkpoint panels",
+    "All seven category scores available",
+    "Cached raw queries shown without invented NMS labels",
+    "Positive assignment filter",
+    "Source negative filter",
+    "Ignored query is separate from background",
+    "Original pixel coordinates are inspectable",
+    "Seven-score query inspection",
+    "Synthetic evidence is explicitly identified",
+    "Score filter changes viewer only",
+    "Unsupported target category is not assigned positives",
+    "Low-score ignored category queries remain inspectable",
+    "No invented supervision for an unsupervised class",
+    "Zoom preserves original image coordinate frame",
+    "Zoom increases displayed resolution",
+    "Two score-distribution charts",
+    "Uncached photo clears stale predictions",
+    "Missing cache is explicit,no inference fallback",
+    "Uncached photo clears previous detail identity",
+    "Return to cached photo restores correct queries",
+    "No training endpoint",
+    "No review-writing endpoint",
+    "Reserved photos unavailable",
+    "Registered local source photograph loads",
+    "No fake or mandatory human-review workflow"
+  ],
+  "human_reviews_created": 0,
+  "model_forwards": 0,
+  "status": "PASS"
+}
