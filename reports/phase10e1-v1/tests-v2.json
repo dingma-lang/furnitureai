@@ -1,0 +1,33 @@
+{
+  "GPU_calls": 0,
+  "actual_model_forwards": 0,
+  "passed": 84,
+  "saved_model_updates": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "data/open-images/preparation/phase10e1-v1/CPU-E1-c53b4610.log",
+      "passed": 29,
+      "sha256": "0ad05645fb09cb2d3775e84e2d6cb3d0fb1d1465bb2ba218aebd4a392a1b13bc",
+      "suite": "E1"
+    },
+    {
+      "log": "data/open-images/preparation/phase10e1-v1/CPU-C11scope-37a3d84d.log",
+      "passed": 21,
+      "sha256": "df0f690c6ee56d74f7d72ca1f78280b34fbea4edc474ef254826a2d1c09f0b91",
+      "suite": "C11scope"
+    },
+    {
+      "log": "data/open-images/preparation/phase10e1-v1/CPU-positive-box-base-c5fb6699.log",
+      "passed": 7,
+      "sha256": "5274d2efc58a64be6c42ebfe190bee60b8ee5a3c40869201dd7ee1ca50aab8be",
+      "suite": "positive-box-base"
+    },
+    {
+      "log": "data/open-images/preparation/phase10e1-v1/CPU-source-protections-c5794b41.log",
+      "passed": 27,
+      "sha256": "0e1962bc371b0890c13a59b0637b6c664c3c73d41398bdbbf01e99969a9fb2cb",
+      "suite": "source-protections"
+    }
+  ]
+}

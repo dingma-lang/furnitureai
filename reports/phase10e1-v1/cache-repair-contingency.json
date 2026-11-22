@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "conditional_original_only_repair_limits": {
+    "VRAM_bytes": 6979321856,
+    "forwards": 59,
+    "output_bytes": 134217728,
+    "seconds": 180,
+    "updates": 0
+  },
+  "currently_required": false,
+  "first_step": "28-forwardgradient-smokeincludes4originalreplays;futuretrainingrequiresall59initialreplays",
+  "if_replay_fails": "Stop,identifyprocessor/precisioncause;do notauto-refreshteacher",
+  "missing": "Historicalper-photo processedpixel/tokenhashes andnew-runtimeFP16numericreplay",
+  "new_separate_approval_required": true
+}

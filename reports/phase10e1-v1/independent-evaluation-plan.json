@@ -1,0 +1,58 @@
+{
+  "actual_eligible_complete_independent_photos": 0,
+  "collection_plan": [
+    "Prefer newly authorized owner-captured room photos with specific permission/rights/attribution records",
+    "SelectsourceIDs andcapture/room/creatorgroupsbeforeviewingdetectoroutputs",
+    "Checkagainstallhistoricaltrain/development/frozenIDs,sourcegroups,hashesandnearduplicates;quarantineunknownidentity",
+    "Independentlyannotateallsevenwhole-objectcategories,occlusion/truncation,explicitignoreandChair+seatingstooltaxonomy",
+    "Do not inferabsencesfromnativeCOCO/LVIS/OI incompleteness;requireexplicitall-sevencompletenessreview",
+    "Blindannotationtomodelpredictions;second-reviewallcompletenessanddoubleboxreviewatleast20percent",
+    "Freezeimage/annotation/protocolhashesbeforeoneoriginalversuspreselectedmodelcomparison",
+    "Useaseparatesource-disjointcalibrationsetifanythresholdchoiceisneeded"
+  ],
+  "complete_instances_per_category": {
+    "bed": 0,
+    "cabinet": 0,
+    "chair": 0,
+    "desk": 0,
+    "lamp": 0,
+    "sofa": 0,
+    "table": 0
+  },
+  "estimate_only": {
+    "image_storage_cap_proposed": 1073741824,
+    "manual_full_annotation_hours": [
+      23,
+      47
+    ],
+    "photo_bytes": [
+      28000000,
+      420000000
+    ]
+  },
+  "existing_resources": [
+    "Existing nativebox/maskparsersandlicensingledgers",
+    "C21historicalsource/creator/hashregistryandstrictseven-classreviewvalidator",
+    "Reserved/frozenresources remainlocked;no automaticreuse"
+  ],
+  "historical_local_readiness_photos": 156,
+  "installations_authorized": false,
+  "metrics": [
+    "Fixedthreshold0.15P/R,AP50/AP75,PRcurves,duplicates/fragmentation",
+    "Per-class,size/occlusionresultsand2000source-groupbootstrapreplicates",
+    "Joint80percentprecision/90percentrecallcriterion;notestselection"
+  ],
+  "minimum_complete_instances_per_category": 50,
+  "model_exposed_Phase4_rooms": 3,
+  "prioritise": [
+    "cabinet",
+    "lamp",
+    "bed",
+    "desk"
+  ],
+  "proposed_distinct_source_capture_groups": 140,
+  "proposed_real_acceptance_rooms": 140,
+  "source_specific_approval_required": true,
+  "sources_or_downloads_selected": false,
+  "these_existing_resources_are_not_independent_acceptance": true
+}

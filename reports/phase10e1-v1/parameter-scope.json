@@ -1,0 +1,2683 @@
+{
+  "box_bias_sha256": "8053cfd7741c149be716c8b6a9dfb3e80d0eddb0eb770a75d3a419b434285072",
+  "buffers": {
+    "owlv2.text_model.embeddings.position_ids": "1f937b13279da0ef1345971a6c1d65c2ae624fed1c53fc896e49de6e86c96a17",
+    "owlv2.vision_model.embeddings.position_ids": "a0d01bcb8520018af9cbcf6bedc19e5ac6e8425e0084b4e77462eba7d31e36aa"
+  },
+  "frozen": {
+    "class_head.logit_scale.bias": {
+      "sha256": "f414e262469a26495124952b225e927d24f7476836557bdba80f905f5d51f4e4",
+      "shape": [
+        1
+      ]
+    },
+    "class_head.logit_scale.weight": {
+      "sha256": "e790be900f09573dc04e4d9af64f6c9e63f13de55d68a6fe01f598e9d367ec38",
+      "shape": [
+        1,
+        768
+      ]
+    },
+    "class_head.logit_shift.bias": {
+      "sha256": "3a065adae5895cf721a3d91bf8a772dc0cd0a8103a20e80562b68cb5b7d3b75c",
+      "shape": [
+        1
+      ]
+    },
+    "class_head.logit_shift.weight": {
+      "sha256": "ac4fc3e77241b6df9eba7f9c16d5469e84977c8eafafaaaa075ee69450981871",
+      "shape": [
+        1,
+        768
+      ]
+    },
+    "layer_norm.bias": {
+      "sha256": "511562cd56586015b7f6fd1749fd932e9889157c8174a11d3e0a5b58219c1776",
+      "shape": [
+        768
+      ]
+    },
+    "layer_norm.weight": {
+      "sha256": "c0340e19d225a2432b155132d659046d98c1f2643c31759c52510bae35528ef2",
+      "shape": [
+        768
+      ]
+    },
+    "objectness_head.dense0.bias": {
+      "sha256": "60fcedfa7fb1e8089ac4e3227ff6de58435594ffdb40d066e64736de854115a4",
+      "shape": [
+        768
+      ]
+    },
+    "objectness_head.dense0.weight": {
+      "sha256": "b711bdc3dfc0694d5bede892959bab8354cdbb724855290f88a7a164ebd5b483",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "objectness_head.dense1.bias": {
+      "sha256": "1e2f1ad564bd6511a4023266023788b5444f09dc331640349e27d6930fb12dbd",
+      "shape": [
+        768
+      ]
+    },
+    "objectness_head.dense1.weight": {
+      "sha256": "cfadb9a07ff0142edbf691ac39b91ac7103633de9698ef3e9823a250c613165b",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "objectness_head.dense2.bias": {
+      "sha256": "bc337caa50014cce6ae15301ea0ca84b34f613a3ac6b604a4ae82676042c3a40",
+      "shape": [
+        1
+      ]
+    },
+    "objectness_head.dense2.weight": {
+      "sha256": "efb2b43a83aaa07986011edea64a2f4e6bc1ae737958a7031aa8e490fca65fec",
+      "shape": [
+        1,
+        768
+      ]
+    },
+    "owlv2.logit_scale": {
+      "sha256": "a2c147374cbb4d1e22635dc1757f8adcdb9a31f775f5e297335d085ea6b6bd30",
+      "shape": []
+    },
+    "owlv2.text_model.embeddings.position_embedding.weight": {
+      "sha256": "0cefdb95510b090d99e7dd3627b375aa71e1203b39b7e29c762416518b979a1d",
+      "shape": [
+        16,
+        512
+      ]
+    },
+    "owlv2.text_model.embeddings.token_embedding.weight": {
+      "sha256": "7d90a524de346c9feed69b36b9d7baf959f5969bee592828d8df4342c5f5161c",
+      "shape": [
+        49408,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.layer_norm1.bias": {
+      "sha256": "e6b5851a1d1945a4615a769f5cd817fd6dee7556b56eadde141a0fd72432799d",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.layer_norm1.weight": {
+      "sha256": "59c7e0b7dbc14d49975740d3ed966b475f20d804ebe92718804fc27590925d2d",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.layer_norm2.bias": {
+      "sha256": "90dbe0da7810b3e5f9b2644b97af113af7105b0d4f07154de5870c0a416cff6d",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.layer_norm2.weight": {
+      "sha256": "83bcf8fa6ac95e995d08ffe64d7e872a999ac258a8d36e6cd082a113bf808ce7",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.mlp.fc1.bias": {
+      "sha256": "872ded08f217205a6265e294a69c974e9b499610039a25b49fe5c79a34967b6e",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.mlp.fc1.weight": {
+      "sha256": "a0a80baa523db2e92cafeba9ab95d359a49f268eea65a9c87b1b1229b9637a77",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.mlp.fc2.bias": {
+      "sha256": "dfb5f94c7184f9ed362f4188949919086dd2714015af45dbc1f2bb38e81d1411",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.mlp.fc2.weight": {
+      "sha256": "c099d1833f9e8bd1029ff9ef15137e4d5b135aeda74e8f1e23ea7f22cf01ca87",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.self_attn.k_proj.bias": {
+      "sha256": "dc5cf835eb480d7394e7b24ad2ddacb442764b3c36a92782ac937da0f6aa0eaa",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.self_attn.k_proj.weight": {
+      "sha256": "5994e2700475fde330f61966cdb223b9fa3a0b360c2388b127308bfb0f852845",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.self_attn.out_proj.bias": {
+      "sha256": "c7f1807006c2b231aa67206a472618d5a336c1c2c68901af15256a2ce2211689",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.self_attn.out_proj.weight": {
+      "sha256": "039250d89227fdc39b7093d66d960097f94e406d90f8817291076a2767456b26",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.self_attn.q_proj.bias": {
+      "sha256": "11463d57dd351375aa3719f888708e3d40a38e6741ee9e80232814d3994d6b92",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.self_attn.q_proj.weight": {
+      "sha256": "e68f97c8b97ced180036c5b9247c2b4227c9250cda7abc1b24623bebc1960c9c",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.self_attn.v_proj.bias": {
+      "sha256": "c1ad8e259f1caba9915647fd707509f0c00d5fd021b1e61c0be331b78bb66f4c",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.0.self_attn.v_proj.weight": {
+      "sha256": "5dda9e2bb24f01c08dd1792180f59357eec5022a24c6b5057ef62f1f8f43a6b3",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.layer_norm1.bias": {
+      "sha256": "e06323e6d848f212f759bef082a20c289111c5f61180d76d3f3c962665ff9192",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.layer_norm1.weight": {
+      "sha256": "3408515444d6f700c5dfbfdd4bff6839176e718f1e8fe4b1b0571388f9a642d2",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.layer_norm2.bias": {
+      "sha256": "45fcbf43fc116f63b50312597fd6d4bb547afe7eea8492bc734e69d236e246fc",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.layer_norm2.weight": {
+      "sha256": "6830756f5a616db4ccc7f6683ecda372a4c7015b956cd5ac435485d1eac4c562",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.mlp.fc1.bias": {
+      "sha256": "08a8265b59434c2f6e4c5a0828337fbb2fe76ab888a3c2200212678d7c8be8d2",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.mlp.fc1.weight": {
+      "sha256": "8cdc566c51553649d65df0f4e1992701e733bf9332f63dca5c87a8caa3ccdb0d",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.mlp.fc2.bias": {
+      "sha256": "665eedd1ca7a23e4f2f453d127e51767657ba27d7e14ca150ec5f30365117d7d",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.mlp.fc2.weight": {
+      "sha256": "0cd315eda1d075a179d96d92201d81d6710fc63463673a1da9cc87902c8fd0e5",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.self_attn.k_proj.bias": {
+      "sha256": "10352888da2c9bd0adc644b6978dbdfb8ed457fcf9fc4b78088b8abca5b1b050",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.self_attn.k_proj.weight": {
+      "sha256": "f763286055753d00f3bec0ae03d873b8da3eac204dc0189851f1e97463c9d63d",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.self_attn.out_proj.bias": {
+      "sha256": "bd80873db7656cbed73b75d58e3c7ad486518cbd6db9cbf68c2fd407839ce672",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.self_attn.out_proj.weight": {
+      "sha256": "098e54f13c8bb2d512c48b2795506bec4b0f1f6508468d0694015a01cf43e57c",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.self_attn.q_proj.bias": {
+      "sha256": "e3fe43d31a8d493ca05b845fa7cf32b51df696cc537c670776e46f5a6884a2e7",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.self_attn.q_proj.weight": {
+      "sha256": "7178b234d6ba096c369fac47d4b6ddf80534a029d8ef02c857e3a44543240744",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.self_attn.v_proj.bias": {
+      "sha256": "2eefbbac36c38899ab26ffd9668e321f6289f989a3414b0efae37cf49c0b12e3",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.1.self_attn.v_proj.weight": {
+      "sha256": "70fde5e0fbbd4116ed93fcbadb642a1490e5e1486e45dacbda7945a49ba07c58",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.layer_norm1.bias": {
+      "sha256": "765001fc4b2c7cf2c19efd2e8e8f587735a4199d0f3155f0dd9e3d7342d8cba3",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.layer_norm1.weight": {
+      "sha256": "974c98cd9aa1be889b2d49a1bec401e0165bc86b5f74de253f8429e9f32d9459",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.layer_norm2.bias": {
+      "sha256": "d810076c2a5284740cb27cece0c143ddabfbc89d6d5d8e8287926f397fe23c6d",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.layer_norm2.weight": {
+      "sha256": "83cd08afa81feaa9b53275983a41a2b41c025f14ce280926fff72e49d22303b8",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.mlp.fc1.bias": {
+      "sha256": "0f88d9f830ccab3d6272c8f9813bac3f900076d35bc5040720def81732a2f734",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.mlp.fc1.weight": {
+      "sha256": "3aa910eecd1709065179ecf8500a145ccf1f03778b7216325208aff25136bc36",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.mlp.fc2.bias": {
+      "sha256": "eba50f9ad2b4f8b151518a1d6e1af4b21dd6dd72438b1f68cb87a7da48730988",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.mlp.fc2.weight": {
+      "sha256": "13e3cc0c895ce5c4d130d845c5e61c03d5c9db62cceb33ec07409a73e6298ac6",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.self_attn.k_proj.bias": {
+      "sha256": "ba5e1c7afd80c73b506dee40bcdc7613e8afae5934d580e6945867f29a86a6b9",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.self_attn.k_proj.weight": {
+      "sha256": "6b4d1256689cf352aa42eaf04bc9bfd30e1beb29cad28b4bd5b33153b56972d9",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.self_attn.out_proj.bias": {
+      "sha256": "9c598962682d4b0a121bab9351b1a867ab999dd0e5f05add94ca640934bf7692",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.self_attn.out_proj.weight": {
+      "sha256": "ba6b05c83f2a32d97b0dbeda7de09f6e35c26fbff6e4ab58ecbe0f8d2315bdba",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.self_attn.q_proj.bias": {
+      "sha256": "58490288cc87e757bbdf7879c55d8626fcf9ba5b08e0f941ba39493dd1617bc5",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.self_attn.q_proj.weight": {
+      "sha256": "09c1b9dd7403246a6c6d0855043fc8dc3318ffdceea6a19a5b8eadfde8b16290",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.self_attn.v_proj.bias": {
+      "sha256": "3a4e7df375d882db47f52fdcbde82def944a80ee5988b7e8fe9215a8ae5eb417",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.10.self_attn.v_proj.weight": {
+      "sha256": "2323fb023dc9a875650051c6c024cd3a598546040a7f9bf2a9bb405bda8e1781",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.layer_norm1.bias": {
+      "sha256": "32fdf5fdf351ac7ad322d94a72cb2a0d11cc34248ca5cd7418c2b128377122a8",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.layer_norm1.weight": {
+      "sha256": "e340262ad0234285c330889a264f2191758ba87859af84aa3935d44e0080807e",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.layer_norm2.bias": {
+      "sha256": "ceaa4d2e35da79e85129b4000e5177e81d1d91ebbcef28eaa22153693d6c4c77",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.layer_norm2.weight": {
+      "sha256": "23f263298922cb8c65c8de62a2390dd358d85bbec7f4b9a84501928ced984296",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.mlp.fc1.bias": {
+      "sha256": "2d46421d890e9f1736fcbcc38531a76eb2d93ff524d031f365f2da68d9a0de71",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.mlp.fc1.weight": {
+      "sha256": "c4894f0bc62ee382e1f49b1d80e857e613858c795cd29e7ec9c200b4d8fc5af5",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.mlp.fc2.bias": {
+      "sha256": "dcdaa80371b0fd3afa4affb812a9d7ad0c1bff7ccddd52d816126bdb09a5ffe7",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.mlp.fc2.weight": {
+      "sha256": "66a5c79a9d52f454625fe4b827f562cd75bb50dc7f9bd3114dcfd9b1b2db8f09",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.self_attn.k_proj.bias": {
+      "sha256": "d551b87272df8ca9bac3c24f9043ba9a3646f16cb5fc49a8b17be906cb3d73e1",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.self_attn.k_proj.weight": {
+      "sha256": "9a8f823dad445c84debe2905a14ab671110b2512a21c2c8595cee8a402b37a47",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.self_attn.out_proj.bias": {
+      "sha256": "417adbb1de775797730b4c3cb28aa7c28f241375b78b5229a6a5aa5eff79d813",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.self_attn.out_proj.weight": {
+      "sha256": "9576d9a60f7395a291fa80569608be106c67a322009f26a73d40ecfee9314c21",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.self_attn.q_proj.bias": {
+      "sha256": "ec295cc2c9c5775d996166144d147bd9e2eac793e0089d7488c6d490334776d0",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.self_attn.q_proj.weight": {
+      "sha256": "772cf2effef1e016b6b8f20fe0cdf7769c4deed61a4cf674e4d85eb4c6396018",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.self_attn.v_proj.bias": {
+      "sha256": "ef1447ffb0844aff5f1745cd6088b4eabcefde5db4aa9ad3184284985d8d5bd8",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.11.self_attn.v_proj.weight": {
+      "sha256": "5ccfe9ef7d601bb2fc563a1ba6a5874db2a130efe8cbd0b0322749155397ab72",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.layer_norm1.bias": {
+      "sha256": "c9cd7afd2fab327fe024dedea1c70cea956b82ac35cb0e02266fb87e8a363c36",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.layer_norm1.weight": {
+      "sha256": "d831654edc766d6e55c2dcebffaa7617e1b16d2aca42a45e6f2b9497c6d4bf00",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.layer_norm2.bias": {
+      "sha256": "1bfadff666816e02b4cc087ec8cb61aec1d2ffd220d2db239ca8ccab9f82e561",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.layer_norm2.weight": {
+      "sha256": "6a51fbcd271e7e9a334ea219693390518ff0a81ce149b44ab329a955fa28826c",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.mlp.fc1.bias": {
+      "sha256": "a9080e87091b29b57886273b668567853cc3342b89f6778f27fc057104a3d0d2",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.mlp.fc1.weight": {
+      "sha256": "5919a6523367101db5895cb4cd473dfacf7a5d317e15d826611664f67718dcc6",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.mlp.fc2.bias": {
+      "sha256": "fe460dbfb50a710993a7682e6216d6ff1dfd884ba18c29e90dd3b5e107738cf9",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.mlp.fc2.weight": {
+      "sha256": "3e367ae2d225109608c077f27c6f59bb51dfa1410827e166274f8e563d8d2a8f",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.self_attn.k_proj.bias": {
+      "sha256": "0dcfa5cffc4929281c7bf9bebd55f709ff4c2f313345676e98d3460a8817b783",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.self_attn.k_proj.weight": {
+      "sha256": "d4efa5f97a095fbbe6b9e5df311c21c79f456aff7e169d141982a4774088e007",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.self_attn.out_proj.bias": {
+      "sha256": "fc231f4021e251561714265691f77395cf360191b0916698a71f3774a4d20dbb",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.self_attn.out_proj.weight": {
+      "sha256": "44390bcc3cba91ef14cf3b1a196ac928ba26d0b11e374785934753a108a13c72",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.self_attn.q_proj.bias": {
+      "sha256": "5bb59c599fd0e25bdfbaa85fa16ddcc2ab62f7cd1dfbc0482520d3f192096f38",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.self_attn.q_proj.weight": {
+      "sha256": "d6e4d7501c7083d6f6104c36ac64fc18469ab995f0ec6337fcd765b0969aead5",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.self_attn.v_proj.bias": {
+      "sha256": "7765f81ea172f15e43e51d91751f08a7e75fde853f432396532f5b9ee1faad53",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.2.self_attn.v_proj.weight": {
+      "sha256": "532a7983eb9235588183afc3f297b9ae0bfdeb39ad413e2a9af185fc9b410b07",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.layer_norm1.bias": {
+      "sha256": "7dad0b19dca487e56493cd01224a05ad3d4d77c6f586df834db51e6ce88c508d",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.layer_norm1.weight": {
+      "sha256": "3b2741f9972917c99b1923f5890a23221631c387c161bd975ce12818f7647f43",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.layer_norm2.bias": {
+      "sha256": "04ab8f9bf213bc32658ada1d725b503c6d590e63c55114efcac2085594f3e753",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.layer_norm2.weight": {
+      "sha256": "98beb03003d9766abcbdf1a0424925181ea720ab6bbba815737f79bf3f13db19",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.mlp.fc1.bias": {
+      "sha256": "469ec6cecd833960f8fdaa0bd60f4e52be16de75bd775599a63203d725fc60c3",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.mlp.fc1.weight": {
+      "sha256": "bf346337ca7638f5dd89f9a5eb7920c29043ada0bc65ae920d888533bf5fbab3",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.mlp.fc2.bias": {
+      "sha256": "ac45f87a2d126c74d2c9dc2a17747819269aa37362bbd46a9cb34af8acc7e190",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.mlp.fc2.weight": {
+      "sha256": "651ef0e421c83de392e08e7d0a5abe1f42cee41039ce4036f6929be73a246c63",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.self_attn.k_proj.bias": {
+      "sha256": "8927aee1a1869ed945c1a60b5e65c341f61a040a68affc588324e06c08256975",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.self_attn.k_proj.weight": {
+      "sha256": "4276d8ab2b53941fa146f95b1c25f1850a3b1394c2452cb55024bfaa7d1a9f3f",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.self_attn.out_proj.bias": {
+      "sha256": "22ca98462171f6f73c36040602833f8052b33eb692204da67d6a59eaac66e260",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.self_attn.out_proj.weight": {
+      "sha256": "f1f9d30b58cab37449482aee6eff370a1553dfb0ccfaf29782f7fb4af608a2c2",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.self_attn.q_proj.bias": {
+      "sha256": "c10a8c3152b7eaa6fe58e0a44d131090bd1bd5562bc0e7d40a43f90bdce56949",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.self_attn.q_proj.weight": {
+      "sha256": "cbe7734d8a98d20a5318f5794d996c68ebea8fffd1805d788007477a9d65b756",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.self_attn.v_proj.bias": {
+      "sha256": "8ddabfec93e4757d11e111512830ec14a380b7ba3f01a1b66b2a85c8e839eeeb",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.3.self_attn.v_proj.weight": {
+      "sha256": "64648faf542eb4623298d03f1df8a92932a0fb9c26b3611cbc3ba4be0f72f221",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.layer_norm1.bias": {
+      "sha256": "5cb127796cd1b83c64d823cf9d0b5d240640e2f2f927d7bde02f3e1515386c7a",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.layer_norm1.weight": {
+      "sha256": "f0cc6d2b1269f05474b4ccac10dea91e144264dc7fb32a2289207e920c53b62d",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.layer_norm2.bias": {
+      "sha256": "6dcb2e4a09731eb5e4a8ab1751b214a74c47d545eb3b2bfab8845659bf5b345a",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.layer_norm2.weight": {
+      "sha256": "7e9a0cac5cb0ce23741a274b533a4b1055ef7e2dc933266b013b84eaf150af60",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.mlp.fc1.bias": {
+      "sha256": "c72b434255bfdb4a8cdf49e127b6604a3ffb36a0bcc80c4af2f995fffb57a99a",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.mlp.fc1.weight": {
+      "sha256": "5fa1a6ec65ed520421eb3a09773ce0659de293f21b6bd0c2ee17628714825468",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.mlp.fc2.bias": {
+      "sha256": "e1c8aa5abd8b308c70c89e4f041833d68d373e2761f2cb301e798108943e62f0",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.mlp.fc2.weight": {
+      "sha256": "40ea058b60c920746cfcc6e1cdb1eb66cf79dbf19a867493d14aa5c82baa482c",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.self_attn.k_proj.bias": {
+      "sha256": "cdbb1fb76f4c7e3ce68df79a2c63fc9dd05a4f19c1ed95d2b8717ad993da6d18",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.self_attn.k_proj.weight": {
+      "sha256": "67d953bd1dfd8b37304b0bb1fb0126a4a5c54b08dc25c242f728cc077af0f452",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.self_attn.out_proj.bias": {
+      "sha256": "3a3483e3dd9103e7f371cd06875812ad2d84f923d5af17439df7fe5f8080b990",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.self_attn.out_proj.weight": {
+      "sha256": "681fe30ae96aa1bc8167c626acac570a0c03e472e39e730cd9cda32ffa22f9fb",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.self_attn.q_proj.bias": {
+      "sha256": "81ea79f5589743d58c5800e0ecb448bbc5c1f05898960dabaac1b54d0d8794a1",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.self_attn.q_proj.weight": {
+      "sha256": "c6d3a8b85f33439255d56ec886a371c96364904f7d7a958dcbaa89afd7a2c217",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.self_attn.v_proj.bias": {
+      "sha256": "8a12b6aa42de18dbbbbbd0d7ffb05104789809c076d5fc7f7038a6cae1d575d2",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.4.self_attn.v_proj.weight": {
+      "sha256": "b29be73836871b237ef0f2e94a64a81c1dbd115e6482473255e4aab472ebb752",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.layer_norm1.bias": {
+      "sha256": "1199994da7e0e38501038ef105e05e37cdd3aa874470533c19c035273b603299",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.layer_norm1.weight": {
+      "sha256": "ba60b962a99a9c2f1df7fd7d8aae130412a6583301787d0b622a3165c320ac33",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.layer_norm2.bias": {
+      "sha256": "3021511ad5bd2d3138cc94e0580dc4b7d60d7de5fb7d5877490b1022d9ef368c",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.layer_norm2.weight": {
+      "sha256": "f00da8488cef1c37004d8a6771e636dfd6eff2bf2a44e7ecb2abdd7942a421b9",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.mlp.fc1.bias": {
+      "sha256": "77b61d7bb9bf477606d847fde6d286c525046627c56667ede27ddfe98b5c8961",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.mlp.fc1.weight": {
+      "sha256": "2689d296a2e624912de44d7270a466c9e0e459b9a33ce49fd86327c3fb8d091b",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.mlp.fc2.bias": {
+      "sha256": "4de622c09ac53039948bef930fbf97e286ed8bad3e8e4f05570415c02f2b1d76",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.mlp.fc2.weight": {
+      "sha256": "7f3a688d5e90997b45e2d20e990f9b1e1d97ddd14dba9bf05247e0aa2c8ade37",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.self_attn.k_proj.bias": {
+      "sha256": "b2f60400c41c4741212f5ee6c3aac6da947e01529c0d0452b09045b9cdc0a03b",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.self_attn.k_proj.weight": {
+      "sha256": "0d3b2d8f519b3c3b8019588ff606cdc0e337c6e4803ac00a243b960ddbd7cc5d",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.self_attn.out_proj.bias": {
+      "sha256": "9043f0a4a5b336bf798ed3aa5d31b3a7a9254703262676a5226c44dc3514cf36",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.self_attn.out_proj.weight": {
+      "sha256": "c4561400b7e5f85bbe541137f9df07db9a628f56847b0e477778b9d9bb62636a",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.self_attn.q_proj.bias": {
+      "sha256": "64b229a00cd01d9c03e31934d4e68dae46c52a519395fdccbc1b96fe4b9b7c69",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.self_attn.q_proj.weight": {
+      "sha256": "f4f59af9b708c075ade38fd17891b28c2400beaec405a362a89f3b989f604556",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.self_attn.v_proj.bias": {
+      "sha256": "08d8689a2ee03be4fce484ef0fa6037096bcb95e9f6956d4ec0f4f887337550c",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.5.self_attn.v_proj.weight": {
+      "sha256": "8ac5677b7c0c8c6b56cb1abbf4b76b5cefdc46394b1cf4090c083088f3168f63",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.layer_norm1.bias": {
+      "sha256": "1166769ad868104f66e2d250f6b73224136ff0c8ab2072032dff4398bad39cc8",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.layer_norm1.weight": {
+      "sha256": "10e4f647ef64519d87dacd7f0e0ad540cdaf64d44e6a081d224c6f0e2260e0ac",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.layer_norm2.bias": {
+      "sha256": "2b027ba59391e6bb9e83cde41148a7306eb7cc71870c4c78ad5d24a15667f92d",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.layer_norm2.weight": {
+      "sha256": "a955a97e6f851c2a50514bfb8819ad5b689628a4bc9f23ab6c4cff00a47b608f",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.mlp.fc1.bias": {
+      "sha256": "7b188e7a96c7087c40133d609ce9169915129b1b808677dd3f47dbdeef2415bd",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.mlp.fc1.weight": {
+      "sha256": "17c89cb5060426238030d97b6a160fa73c446ef222f21061a2a678e348e07ed6",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.mlp.fc2.bias": {
+      "sha256": "12ec503d557dcc53e9611c8eb77fcf3d66db23ae8718dad66d3de0ee1c8eb3b0",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.mlp.fc2.weight": {
+      "sha256": "e79113ef9b515ed9c42935e8d74a7492df8f80e4d0878d86ba296ca25807537a",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.self_attn.k_proj.bias": {
+      "sha256": "cc6dd56e8ca7531451fbd84789333f0658c46d65d1f689e894081eb9841387fc",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.self_attn.k_proj.weight": {
+      "sha256": "4a3f5d90d87840572caeaf2cec75d44aa6e6802d2445191f8a46fae2ff970e64",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.self_attn.out_proj.bias": {
+      "sha256": "1710b2daadba93975024d89f9084f751e072f935e634a4b0177123e7b116358f",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.self_attn.out_proj.weight": {
+      "sha256": "3df01861b5e5fd4a364be4e62a5d1c029e560fa3f36c2ac25be937ff2384cfa9",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.self_attn.q_proj.bias": {
+      "sha256": "615721ff334e9be93a6f1307242030a2e6036bea3842fd94611818d50dc97132",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.self_attn.q_proj.weight": {
+      "sha256": "ab825af45e7a93a1c834df759be3b82496547adf80d009cbd26b62e2a288ac5f",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.self_attn.v_proj.bias": {
+      "sha256": "b8feffce5860c88dcdd8b622b51ca752f19d0d35c72dc8acd42c79209e8f534b",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.6.self_attn.v_proj.weight": {
+      "sha256": "ec4737e06ede8268fcd3c8b013330da8c4cbbb897ea8408709ca709fd4cf6a5e",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.layer_norm1.bias": {
+      "sha256": "5834c78e65a20de426eab72e200e9f852be9507ce200251cbcff01f300f870ad",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.layer_norm1.weight": {
+      "sha256": "8acdef9c26c0a5346507a5d97f4dd6fa21b55de4a438ef26334b7795886dee63",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.layer_norm2.bias": {
+      "sha256": "a4a003a5094621fafec42d81c1a8fed10b333890a613af4f40ae97eb0b0104ff",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.layer_norm2.weight": {
+      "sha256": "dc2c5760d93ff0ae062ac4665802637225a2d9d42239f2b5ab0f6ac6c84e2fbe",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.mlp.fc1.bias": {
+      "sha256": "b7705b0cfd39faf466294fd80719b6d045e1449666717a39a39747dd1a79ec96",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.mlp.fc1.weight": {
+      "sha256": "64b0eed651d96105ba0de041158d66f2a17e2e31c291ce3d00d9a2e21c03b2cb",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.mlp.fc2.bias": {
+      "sha256": "9ba8696932d2c72f0e0bf82954cbb612f2d54115fe8a78050005ce7a3822110b",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.mlp.fc2.weight": {
+      "sha256": "06d0c6fc63c8a32223576539b9386fdcc9b0eb3c51d3f97112d3fde6af2c5167",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.self_attn.k_proj.bias": {
+      "sha256": "2f1511f55c6276240cbb796b7c04ed99eaba18a6021e8d2945af267134495bb9",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.self_attn.k_proj.weight": {
+      "sha256": "411f50ac1fb8917cf90a25afd577872b20a3e9839773f84df3b70ff515f1ac1e",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.self_attn.out_proj.bias": {
+      "sha256": "ac15dd448c9f38d26c8726a11d8cdb6cd6e38f436db0de2e9ab68c37ee6227c4",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.self_attn.out_proj.weight": {
+      "sha256": "62b697530a8325d3bf062384046af54b16c9ddc36283869dfb6d9e125b7ba0e0",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.self_attn.q_proj.bias": {
+      "sha256": "601f2f2a6ca43524724183d2cffd8d0cc7e7ac660e2c6f0b714fe1aff11c24fc",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.self_attn.q_proj.weight": {
+      "sha256": "608550683e816f9cb643b1642cac1ec263c0d020292de6f5a31b715d8089d92a",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.self_attn.v_proj.bias": {
+      "sha256": "4280b9ed48d29dacf554c29e96a45fbd0365b4263d434d29d1493738e78d4669",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.7.self_attn.v_proj.weight": {
+      "sha256": "d1f7140a7573a47e12ecfed9c3015136bc469689432bcd7883c5d622830fae8b",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.layer_norm1.bias": {
+      "sha256": "418e421151ded0b90e3d41fa9c55f01df5589fe775c31bd628d069780bb152f6",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.layer_norm1.weight": {
+      "sha256": "fa21073ffd87ebc62c2f0dd2c06cbc7f2907c53d667cbcc6c7feaaa02551af55",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.layer_norm2.bias": {
+      "sha256": "2838ff3c14873707697499ee6d5cfab6ba6591a23d0c255482f3ae654e076efb",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.layer_norm2.weight": {
+      "sha256": "2e098afc247294a189b10362b4ce5f422affe2480c3b6ce5722aed703766f0f9",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.mlp.fc1.bias": {
+      "sha256": "46a325606ff95d4b0396abea8739dd0586115496c8e1f039280cff285fb2416d",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.mlp.fc1.weight": {
+      "sha256": "452f84a459ddcd0f5ce13cb80ad0dd983b09addbea3a487671d34f783a9b3ab6",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.mlp.fc2.bias": {
+      "sha256": "e3a7eba9dcfcce42da49e814ae63586ef37d61bd56b62f5335af3ad2524e5270",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.mlp.fc2.weight": {
+      "sha256": "8f9a902a9d7933ed5a59e16bdebdbb23c9503aa6265d7f4b9f46c36fa723d55b",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.self_attn.k_proj.bias": {
+      "sha256": "68138674277bc620bcba640547d8169b1c74d19b9feda80c5d4e11cacf4b7ffa",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.self_attn.k_proj.weight": {
+      "sha256": "14a14c467751bb34979779a6aed569079c4fcff75166e6844782e8dd18719397",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.self_attn.out_proj.bias": {
+      "sha256": "e975b5ed2fab35fa19039b83f471c2c8efea6fc8f7ac7431459a5ca2678db4ad",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.self_attn.out_proj.weight": {
+      "sha256": "cfe163a368a6f38e199e62237e1ece5f4087ca9f252037b5286d85a6ffb520ff",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.self_attn.q_proj.bias": {
+      "sha256": "95ba0c724db44da50b4a235f36899d470892fccb54b25546ea5aec94e9fd0119",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.self_attn.q_proj.weight": {
+      "sha256": "72c4baa52ab42a60eebcf6a80039bcd599d53f766289b30bde1b79c729123746",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.self_attn.v_proj.bias": {
+      "sha256": "c52c674af294e1d29858a279030799edf04cda96380c5b71ade6ce49a958052e",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.8.self_attn.v_proj.weight": {
+      "sha256": "9df63268bf4e1d06dc8fd496e7a39bc4609b8dd48c12c2a7f6bf5343c52aeaeb",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.layer_norm1.bias": {
+      "sha256": "09109bf7cb9c512258bd9b29332c1a96fd04edf5716d66eb591bc3d8100e611a",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.layer_norm1.weight": {
+      "sha256": "98d15f985b4f3c3d1985f9446685b99dca9aff07ac13895d1e9e4107fd96e643",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.layer_norm2.bias": {
+      "sha256": "9efa71908e99137e3a56e5cf0f759a4a0ea8418ad736d5900b58ccc41f55329a",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.layer_norm2.weight": {
+      "sha256": "7ff7277669a7825da75ac263492701987574893938964631ef436e36976243dc",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.mlp.fc1.bias": {
+      "sha256": "38dc60163bdd54f2532e97076bfe7b99f6e316d50b9ead8b5485006f4aff790e",
+      "shape": [
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.mlp.fc1.weight": {
+      "sha256": "edcd345c37a0a991c3ffcc3a246be6a5e15f805a7853389eaff2ed236f1f40d1",
+      "shape": [
+        2048,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.mlp.fc2.bias": {
+      "sha256": "d07d4b9211446bf7a5e8073b6687faa544547e38b9f956db5ef5b9db70adf6da",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.mlp.fc2.weight": {
+      "sha256": "c297903779537bc5f96aeebe24179d40cf78abac509f82e53c6ece1569a4c86c",
+      "shape": [
+        512,
+        2048
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.self_attn.k_proj.bias": {
+      "sha256": "d3d087ae77f0b1d724d4ce4eea2a6eb85c2c454782c93b0084692d583dfa59d1",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.self_attn.k_proj.weight": {
+      "sha256": "78d2ec3bb00320a90421e974a5c50e114c7e35ca8f29f6e31482fca05bf4b6d2",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.self_attn.out_proj.bias": {
+      "sha256": "7c958aecb7ce0da08a4258c214f4f743ecbbb7eac83c3dbd77d5860f70477cca",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.self_attn.out_proj.weight": {
+      "sha256": "a82b52d6810291ebe259bc4669b3ffc90e9f3357b614a5eb5393b2bc02260ec2",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.self_attn.q_proj.bias": {
+      "sha256": "a366891f00a0fcaacee137ffce98f029092c301d12ec98fce9ed4e33175b753c",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.self_attn.q_proj.weight": {
+      "sha256": "76cb5183083a002fe2a9fb5e181d95b52d388aacc94091d0bcfac93b1c4cd7a7",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.self_attn.v_proj.bias": {
+      "sha256": "60ce2011c7b0c03b931ccfe67b63fa01687326c00f77beab8816be552ca9f80f",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.encoder.layers.9.self_attn.v_proj.weight": {
+      "sha256": "7985598f6ae4e387c1928fe26216428dd7ceed7bcb1bd2e3ab25dfbe8de577da",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.text_model.final_layer_norm.bias": {
+      "sha256": "f4e6b348ebc1b2e030b5bde1489f533bcfc23b4a7d3848283a26ec9eb3422602",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_model.final_layer_norm.weight": {
+      "sha256": "a9022a75cd958b2903836c3c7bb268e9afddbded77be11250252485a4819754e",
+      "shape": [
+        512
+      ]
+    },
+    "owlv2.text_projection.weight": {
+      "sha256": "54cbb191107a9da2e80a4ec23e217b4f85574ba04cede667d02aadf1698a2618",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "owlv2.vision_model.embeddings.class_embedding": {
+      "sha256": "717371df480c9c998dec7f609ed2ba66df8dff2a1f35a5fcf013160e8050e183",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.embeddings.patch_embedding.weight": {
+      "sha256": "79cedc3c31477fac75ca00884f27628ab3d9413cb5506972f78dbfe973dc425b",
+      "shape": [
+        768,
+        3,
+        16,
+        16
+      ]
+    },
+    "owlv2.vision_model.embeddings.position_embedding.weight": {
+      "sha256": "d7d5f550313a966aac060d1d2bfa66c8ba4df7beea9fb6ba8d77bda541bc3fd1",
+      "shape": [
+        3601,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.layer_norm1.bias": {
+      "sha256": "6e7eec5a8f9f113e5814358bfa7cec2f50b7d19245b58b61f13e26b407c888f0",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.layer_norm1.weight": {
+      "sha256": "11e4b4b4551e4b47c1903d909e91daca431cdcd5faa4950b839b567a7726ef5f",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.layer_norm2.bias": {
+      "sha256": "9ab5a07881679abc2375ed36fb9ef65139a24f836eb25cb07eba5724b74eac91",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.layer_norm2.weight": {
+      "sha256": "6c65d652bf9d221a0c2ecfcbebb3934d5572b9cd2cd9b801285c3547407a1d01",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.mlp.fc1.bias": {
+      "sha256": "22eeea446e0518e9b0902151fbd6baef677ef1ed3de60f630d3edaec553953fa",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.mlp.fc1.weight": {
+      "sha256": "1a7e541ff27c38623bfed672281f5a1b41742f808de46cc352551816555010ad",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.mlp.fc2.bias": {
+      "sha256": "77d38609f8517b8aa5452a3aca02a3cab5727f90bd4daf3dabc6c2a71ad213f1",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.mlp.fc2.weight": {
+      "sha256": "38b7c44ae86f4f27140ff14c84721a6718579e6d47ad4d0131e8f628b5dd94cb",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.self_attn.k_proj.bias": {
+      "sha256": "58a9c5dd449b3f9482ba6474fff2fcbd0238ce2d80ff00cf672c7d3c3d65b01c",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.self_attn.k_proj.weight": {
+      "sha256": "0ff935ffdbdedcb38bfc0b057a0c98c2adf8c3e3c3f1fb796a98ac5d55405b5f",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.self_attn.out_proj.bias": {
+      "sha256": "beb8c0a874e2d3ed779f20e79837e81d979c8095365c1e7b2ff19411edc6d732",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.self_attn.out_proj.weight": {
+      "sha256": "0e167f1d71ebcd707b21c4daf609d544564d437c231987eaaa05b83f9bc69445",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.self_attn.q_proj.bias": {
+      "sha256": "0b256c0371011e13fee5655a8606fe5a983f6eafe9dd3498582ba6d46027b360",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.self_attn.q_proj.weight": {
+      "sha256": "2ce6c0ed8dd4a6c8753626eb1de0256d1c852c536df349ed548ecae5142d66e0",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.self_attn.v_proj.bias": {
+      "sha256": "7f091b23f7ba1921c8944a664289990c036ea638ef076eeab04dad739b4afeeb",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.0.self_attn.v_proj.weight": {
+      "sha256": "31cb7e657ab1431ca4c3e1ae982b5a5d4cf14d8e34abba7c2b20f7d45288a84f",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.layer_norm1.bias": {
+      "sha256": "97304c2bfe5a5467f83835d8f6d83bc0c9a946f44a8c23e6155a53428b1247e7",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.layer_norm1.weight": {
+      "sha256": "ae86513f6c7e3a634a2ead6993de1e829bec1323e2ee5a57ccf9493d7cb225c2",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.layer_norm2.bias": {
+      "sha256": "56685f9a493dac6f892249ab48cb918b6ec92b96139f0da9c0ba778043e54a91",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.layer_norm2.weight": {
+      "sha256": "53d5da2643aedf0a7706b77c610ed3e2451bbd421078d63338ce3603db1f8498",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.mlp.fc1.bias": {
+      "sha256": "eb1555d4a60e4b710efeae21b44da21bd1c1e6bd3178451aaca1ef655e68fd00",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.mlp.fc1.weight": {
+      "sha256": "1fcbb691c5a1cdb2587d8ce870df00af655ef83fb3660292bbdc89d9e9b3fdcf",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.mlp.fc2.bias": {
+      "sha256": "69f05e8c78c524422468686431647a211177edd5c1c71330a7b841b883cdda17",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.mlp.fc2.weight": {
+      "sha256": "715e182b1390159703ae5309594e832026f26233020bb0bff6c6e0b74961f3f4",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.self_attn.k_proj.bias": {
+      "sha256": "362c5fb162e27107654ad3e38708322e11ab6623c61c1e59cd9cf21c6259ae70",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.self_attn.k_proj.weight": {
+      "sha256": "42ce1913826edc45f1b64f75a1cba372750d3bb2074cce62304e0ef1921000e9",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.self_attn.out_proj.bias": {
+      "sha256": "38f6dd7ddcae350c512304584913ff94404617a0c148652086f8c4c6591720b7",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.self_attn.out_proj.weight": {
+      "sha256": "3cbabcfc79460b08e90c566a9d2d5589098f055140285f754f59e6ae0fd56a69",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.self_attn.q_proj.bias": {
+      "sha256": "d33ba09e37fa98eb55c7066e4f064831dd6095c9165c978449439897d3018090",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.self_attn.q_proj.weight": {
+      "sha256": "e3f7c08711e3638827411fe973d9754de24934d31928b33dcac4e66cb116e2b4",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.self_attn.v_proj.bias": {
+      "sha256": "0250c1e548ecd88cf304c03620b3ba8582c43551082b47bc710b7a3996db173c",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.1.self_attn.v_proj.weight": {
+      "sha256": "7cdf72a5ff26c16d2176c2cbd0b0a3dc5b91415efbc6b535690378b9448db23f",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.layer_norm1.bias": {
+      "sha256": "06f32ebf7397ef44e16b59488d2801d9d67914af4b9b560a76e7c9b8841e3e59",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.layer_norm1.weight": {
+      "sha256": "aebd6811343db10845bf9df47f2ffada305d1cfc0356ce0d06fd70eff0dd25b0",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.layer_norm2.bias": {
+      "sha256": "14057e6e4a09ef57809904cf2d514e190dcc9f66e13de878ee8101f618310ae9",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.layer_norm2.weight": {
+      "sha256": "806898b705a4d12c75fd935dadb9309fa347a0fc0dbe49d0868f2e0ac663d7c9",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.mlp.fc1.bias": {
+      "sha256": "5a998bc6e3d31ee7fcadcd399d964603bad66f2080cebd1d93d0cc2c28aba441",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.mlp.fc1.weight": {
+      "sha256": "c667a7e6db75e3b8ebded243274618c976a94a77ae062ab319643b94b419af30",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.mlp.fc2.bias": {
+      "sha256": "f03e430d4e89bbfa92a9908652771eb4c32c98df38071bbeb5db2c5555df33ae",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.mlp.fc2.weight": {
+      "sha256": "cc97ca9ee4153e520294df133fd96697f6ed924c7e93cb98e06f5b9e49114113",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.self_attn.k_proj.bias": {
+      "sha256": "6e6f125b697d856057ec558dbddf7b72d3f0ba88a7e7d00f9978ff3dc07f14d5",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.self_attn.k_proj.weight": {
+      "sha256": "12aaafb9964854e79e5193f749b16c1d162c48776b2368db917449b9859071c1",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.self_attn.out_proj.bias": {
+      "sha256": "0c9c45626db71f47178a448fb6317438e90c06e9ab4d638f048bfb0d03ba20d7",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.self_attn.out_proj.weight": {
+      "sha256": "683d7cfe0af17b935b4667dc07712f7c979905cae602f379cc31ad8e25bb32dd",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.self_attn.q_proj.bias": {
+      "sha256": "5b676550eddb02c3f1cac38ac35e0dab8f8feb4f8a661c005dbb7391f20af5f4",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.self_attn.q_proj.weight": {
+      "sha256": "2e8ca0c412d3b9ce66c4c8330d08dd9c7cd1695b63299108d4b345efba1fc144",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.self_attn.v_proj.bias": {
+      "sha256": "0f9fc9541f2ddc42453d29be63c94dfc4744abbead1719e0989ebeea38a991d0",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.10.self_attn.v_proj.weight": {
+      "sha256": "abba781edee0409ab110e859f4f7d59d141a34cad5a4a0eeecc742f691ce8c83",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.layer_norm1.bias": {
+      "sha256": "a20e780ff671f7cda63eda34399d0671268a9218c9ff0401e8161fd042e93419",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.layer_norm1.weight": {
+      "sha256": "4ce85289ca7cbd59b034c64e412928782f18098e0a69862951e8ee4f0067b28f",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.layer_norm2.bias": {
+      "sha256": "bc8e5bfed08f0c47f5144859462e6e88e4c169215a469d01a4b0cd0a726398f9",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.layer_norm2.weight": {
+      "sha256": "e36dcb371019c3a772235020e05a8286f02742198e57ecfbc7f43a305bd0cd61",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.mlp.fc1.bias": {
+      "sha256": "ae31f064bc33d8c39d4eaec68ff663f479c46afb50e03ef8b83a7e1e1746b5eb",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.mlp.fc1.weight": {
+      "sha256": "419b18afbc4d697175bf9f44f5b1c998fcaeef9577cf0fa4e66723c7851d85dd",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.mlp.fc2.bias": {
+      "sha256": "7aed48d4880fc3ca825cb64309d129cc13c6be9ae72a9b64682f10705f3065d8",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.mlp.fc2.weight": {
+      "sha256": "80e055d75b6e69ac98f40f75e2c381e3d3d81f2c9055e305b1a792e3fe7bfd8a",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.self_attn.k_proj.bias": {
+      "sha256": "5ccff92bda0f91716087a50b8882653192a7a7d75ad896d75f21fc3b55d4f9ab",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.self_attn.k_proj.weight": {
+      "sha256": "a4f2715f02a730debe639756f95459408735e3d7081005814db9cfd6e02aac6f",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.self_attn.out_proj.bias": {
+      "sha256": "f08843d16a7276acdc8d9d615a2064e94a7aab93bb716a11ed6ee54a6151e201",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.self_attn.out_proj.weight": {
+      "sha256": "f4cdb713013114d55df10cd7602a52ff24373b6c917763cded8991338c5ef6d1",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.self_attn.q_proj.bias": {
+      "sha256": "8e3aab838827dc70196ac08d03abc501108dad12a64b0ed84767b77c6a785582",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.self_attn.q_proj.weight": {
+      "sha256": "937b6e8c8ffa6888e9ee5b94a9994f6fde8ba3b3c32ac50e9d75e9807f53ded6",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.self_attn.v_proj.bias": {
+      "sha256": "63d1868b012d1a6a611edc85e13e5c7bb75e17d81e35d30d806285ffa990ccc5",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.11.self_attn.v_proj.weight": {
+      "sha256": "8f1d82c80b2ebc19cc72029fb6438d69e7ca200d1df3327233283540377578bb",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.layer_norm1.bias": {
+      "sha256": "d040ca163e7e2178c5b610b459fb5ca5dc60641c4f9063bcd98ab484648f89ab",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.layer_norm1.weight": {
+      "sha256": "c1c7ee1dd4934f35ea6e77e4a23e21496f24fda121a127031a4969cc2a37bed1",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.layer_norm2.bias": {
+      "sha256": "c7ed9e79f937102533ff0c389989e67c8922ba0183f3b8b18fbf9a00610f513b",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.layer_norm2.weight": {
+      "sha256": "e6839b2211663996766413fc41fef9d912793e775ccb39b761dea5b950199030",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.mlp.fc1.bias": {
+      "sha256": "b89539f230ce3221be2d25f47439a20e61f289ffb4ebf6c5dff459446dad7ca7",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.mlp.fc1.weight": {
+      "sha256": "c5a9d08d35eb5c037b5892ff252f029a686c6e8a6096b3668c60634beb77fffd",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.mlp.fc2.bias": {
+      "sha256": "7358544bffdf1dabe6df83bb51839c0558e9768f6676cfa64155553912acb42d",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.mlp.fc2.weight": {
+      "sha256": "9491b4a8c653f5286edeacc25b321afb45769a98873c2c9afad815b1ac9521a5",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.self_attn.k_proj.bias": {
+      "sha256": "3d4400aff4a8b46b49f901bb0a7960f4898df3afc2ded8060668bc8916585a9c",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.self_attn.k_proj.weight": {
+      "sha256": "b90f885dcac180dd5ef01a7abfb9c3c970f6b0515395deb79d6bf37f323d1b15",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.self_attn.out_proj.bias": {
+      "sha256": "30d1ad2c394e214f8ed9247f08c988a297471c34e9b102c7be029d0ee4a18bc6",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.self_attn.out_proj.weight": {
+      "sha256": "fcb367568b6e2c22adeb00c118579b1263b101980d434f3b42e373b57e636dd2",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.self_attn.q_proj.bias": {
+      "sha256": "c92d0296e9a162040b7ba61248bb7639f6d7011fd2d90270c5b448ba678362dc",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.self_attn.q_proj.weight": {
+      "sha256": "98435143e4d561958d19a630bfd2f9f1df4e627dbcc7a9eea869adc1ea9516c0",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.self_attn.v_proj.bias": {
+      "sha256": "df609bd5c51bbbeedcf117089839a30c67aa2d1f2a0c1d0efa3e8f566348a9d4",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.2.self_attn.v_proj.weight": {
+      "sha256": "a049355e25f7c3ed644b1e0ffec34c0ceb16e5ff6cfae4cde6e62c5f8feddab9",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.layer_norm1.bias": {
+      "sha256": "6a44a81c1e6c2da67e9b6075184da646dc6d224f299d2194442566a907e4990c",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.layer_norm1.weight": {
+      "sha256": "85c127a053153dbd8d24e0f986cee14dc0bd341c2fed7af9c8ae7e5e3153da62",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.layer_norm2.bias": {
+      "sha256": "44e4800dbf1aaec271d59ccda59019b9f3688f274354eafb9770e80f6da65fd7",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.layer_norm2.weight": {
+      "sha256": "96f4bcbba891dda04337f40b6ba47f90988705e097d1c629f643bd591427dab3",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.mlp.fc1.bias": {
+      "sha256": "1e619eca502f0d4d0305aced1fa041a8ae300613d13b86a3d126bf19f750e5f4",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.mlp.fc1.weight": {
+      "sha256": "20c2a8ca55a046455d32c3ee272e4a387f7239711fdf1cc28a8ae39638efaef9",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.mlp.fc2.bias": {
+      "sha256": "8aeb7297ecfb4345f11ade2aa508a3a4f0f3ef2600a56984c0353984734977c0",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.mlp.fc2.weight": {
+      "sha256": "40249767e01d482279c7a4af0902586f206a563389ff0eb8b47edb09b862e8f0",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.self_attn.k_proj.bias": {
+      "sha256": "1abefaf0514b45aba8f17a30406a3cc64fa73f0ea303947e7f2fb9e070b6c196",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.self_attn.k_proj.weight": {
+      "sha256": "b00d6092464d24961d9529d0f983f700f9991e6d32000cf6608254e7e12a469f",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.self_attn.out_proj.bias": {
+      "sha256": "3f03faa954fdef5b8c1a8c2a8b93d0016180164ca659c4d2175a7d50ab582b5e",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.self_attn.out_proj.weight": {
+      "sha256": "222549cac8d444cfb52562c16a3eb27fc892e19c455c7cb0398f6bd5e8724e2b",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.self_attn.q_proj.bias": {
+      "sha256": "7c6a35a6f724561400b374d85b035adb6cfb42fdff2ff56a86ebd23aaefc5b01",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.self_attn.q_proj.weight": {
+      "sha256": "faf45a74079946a3242bccd323cb5c8f8adcef2885264466bb9e3d5788b1d511",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.self_attn.v_proj.bias": {
+      "sha256": "6562a39bbf3583604da2445e9c6dea857be42ec7e8dd35d31501da3c4abfd963",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.3.self_attn.v_proj.weight": {
+      "sha256": "f5b06079388810bae424d5d7542ff3efc6b76baed98dcfab09beb0b67f3b1140",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.layer_norm1.bias": {
+      "sha256": "894b5bb9ac69b3384199c8c41da65e4d57a2d651670bcaaecb349d8f023dcf42",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.layer_norm1.weight": {
+      "sha256": "f7ba05f9100058699358b3f15022bf99e6fa1f8014f5ec99287c8d18de56b1a6",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.layer_norm2.bias": {
+      "sha256": "7f0cd615989ed6caa6ef661444a91301711eb611bda9ff4b855c429f668a4a43",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.layer_norm2.weight": {
+      "sha256": "e690dd8d6acbd18d65be594fe6c1e062f2493225ed67f3431299ff1c8a504792",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.mlp.fc1.bias": {
+      "sha256": "9e892e0210b3b359027299394a3944d7f629e4414b3b2ea3e5a0bbd252a0222b",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.mlp.fc1.weight": {
+      "sha256": "2babd261bd835fd1f041a39605f3de822ede9091fb1cc9d3b69fd235114c3446",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.mlp.fc2.bias": {
+      "sha256": "cf2af1938fd9019d892183989387ff3623cbb35116eeb1dfc8f82730161351a9",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.mlp.fc2.weight": {
+      "sha256": "96850fa2cceda2fb6756dd23250d337336c16563afa177a3e0e2c715c4cdb1c8",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.self_attn.k_proj.bias": {
+      "sha256": "7996b925f79c8e5c7a9fd537f94678d4d53fb403bea6e4607efffa9d3a21d9c5",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.self_attn.k_proj.weight": {
+      "sha256": "0463efe2c11cf6c3c6c60eebf940d2d9b354aea0297d2a5fc5b8620d3f92c318",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.self_attn.out_proj.bias": {
+      "sha256": "5785b1de9173b9fd8f899bd5261673e1c8a6f383bfe0545f8e4294886f261e58",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.self_attn.out_proj.weight": {
+      "sha256": "627470130b349cf4ecacaf6f3afbcfa29b6397c75fed426535577bf82b9699c4",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.self_attn.q_proj.bias": {
+      "sha256": "022f01d1da3864644dce9735deeb5be2608b3b6952354c5302b512120f919207",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.self_attn.q_proj.weight": {
+      "sha256": "e585114e5163ec01dfd7808ec4f225b8f21649544d9803841ac2b987b46bb0d1",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.self_attn.v_proj.bias": {
+      "sha256": "c7d8fc92be633d25914b99fef0d86f06992f67822b32ca24eaf97f78449b23e2",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.4.self_attn.v_proj.weight": {
+      "sha256": "9ce323aaf6dde6827fb64a96e1ed7bdcdf05b56d237480fb278f9a22a207a846",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.layer_norm1.bias": {
+      "sha256": "bc48ae20acb573427796f430d84847b2832afa35d468a83e65b0f5ec5c3793e1",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.layer_norm1.weight": {
+      "sha256": "676dbfd2241136bdc19798d6a3dca26567aaac6150dabc4a8de866f61329d1df",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.layer_norm2.bias": {
+      "sha256": "b470789022ad522de4f30001fceb6c01f850754d58f0d63d6aff8b06360465be",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.layer_norm2.weight": {
+      "sha256": "0db9d119df7be91c69b32cdbb220af899228451d8b54fdb824cbc864f51348a5",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.mlp.fc1.bias": {
+      "sha256": "93f9cf56aba003d1e2ab2ec8b487d1afa2d1a5e84bc709b2a78e1a7e83bff0ca",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.mlp.fc1.weight": {
+      "sha256": "30394bba3ddcdaedd24642b169c639fd02b68742d3130e5e2c47aebafbf81ad5",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.mlp.fc2.bias": {
+      "sha256": "a8f31d1471a34ea6e47ed7f62587c45cba8c47152cca79f1ee333ec96214ea3d",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.mlp.fc2.weight": {
+      "sha256": "f3292780be7269c9ea2bcf042ad2033bc32add7a7cf65acab3d00ac66f3b984c",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.self_attn.k_proj.bias": {
+      "sha256": "fc8efe851765e6bac00613b5a9a1acbef0dbf21a398ad3f741e55bef801a3a72",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.self_attn.k_proj.weight": {
+      "sha256": "53a14dbe7907511520263d76f3f83abb40964686c48ee503277dcdb86a1d3261",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.self_attn.out_proj.bias": {
+      "sha256": "88669f6d0f05113ff62205d709968be601f9061c2f1c3660295a5c74deeb0de6",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.self_attn.out_proj.weight": {
+      "sha256": "a4272811ee2a1ce6d6e603e151e67da38a60f09eb91060b2e611242852e0a874",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.self_attn.q_proj.bias": {
+      "sha256": "1e52855fc16ea5e3d70e5b06bb1311f290618c38eaab2ca25ec9571d5150c8a7",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.self_attn.q_proj.weight": {
+      "sha256": "a713d60a8d615ac792396a4ff5d2588175ee3f156c7d5e574e25a5398e743725",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.self_attn.v_proj.bias": {
+      "sha256": "5a96f834f265658d4dc063ce3ac0ee1d2b365ad0a2aeb61bab5cb1f1a990c673",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.5.self_attn.v_proj.weight": {
+      "sha256": "db6d3682288a03f48908cfc22873e4afe428e2f15341eb676ba37af0184fbea8",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.layer_norm1.bias": {
+      "sha256": "667eeacefcf8850177091b4ca19e59c5752b4b6935594d547f4351e1f456094c",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.layer_norm1.weight": {
+      "sha256": "24b8ee130e3c1125d2219d064c0807dbf535cb6933cc1e3c3f6421bd2da43480",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.layer_norm2.bias": {
+      "sha256": "a4ae575d36f10183c1a09615375587e3c13ed1e485f851866b1ca6afe9b60831",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.layer_norm2.weight": {
+      "sha256": "0d827eb93a8ebc7add9ce5f265decd1ea19540841d90ac59438e9ecebed703b7",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.mlp.fc1.bias": {
+      "sha256": "522aa829afc4044676da578ee2eb2749d6f00381ed03222900d6e73c72f78464",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.mlp.fc1.weight": {
+      "sha256": "3de42c22723ee7c07149ed28dc1988ef3820d968e228c48e4f37f29182ce668a",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.mlp.fc2.bias": {
+      "sha256": "64063b58e831f432df50d5e70e470da8f0d5883ada7714b2f65ceb9858b16064",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.mlp.fc2.weight": {
+      "sha256": "856ece69ff65c560c69f974c90f5f3cce240d49d7f164099d4b1d229475d6b8d",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.self_attn.k_proj.bias": {
+      "sha256": "8eb0f2c5c88af7af8a468a1e4a9e34c6ab05648fd070437da20abae35857ee63",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.self_attn.k_proj.weight": {
+      "sha256": "458e303b044baea24e5857c951dc68bbc103d14be654af85ba97714ce01fc8f0",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.self_attn.out_proj.bias": {
+      "sha256": "afc4c194b282c558db1b45300b727d08aa7a9efdcf39bc97a5178b74a9f813ad",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.self_attn.out_proj.weight": {
+      "sha256": "e5c78241dc74b12e6b37d1596360819b8bd4e47f558300f9fba710bd99ea45f5",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.self_attn.q_proj.bias": {
+      "sha256": "8d000266acfd909376b9cbbd8f73650a9788b1ebcd7fcf957180365d38b7d824",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.self_attn.q_proj.weight": {
+      "sha256": "76768eb8b121cc6d97f8746e38d89e2ae311bb2680e7bb940ba618d39270ccd0",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.self_attn.v_proj.bias": {
+      "sha256": "26703aac1bfcbb204ce4ada6a88ab566eadaba451bb737f612890d78ddf8176c",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.6.self_attn.v_proj.weight": {
+      "sha256": "da9cd4b031bb6462522bd95a21d0713406c02ea1d8f3e8a1a202e129c970de3d",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.layer_norm1.bias": {
+      "sha256": "6d731ffa28512bbbcf6df54ad35f42aa0d5352690f28b5a3d4f7a61b9a86060f",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.layer_norm1.weight": {
+      "sha256": "3ec6ef2c2700ad6bf21ae8058b82396b31d6e75964e418af06cf87e7d184a269",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.layer_norm2.bias": {
+      "sha256": "6ea6a974032dc6f05914a5b66e1e3159d728f6c082629703e31bd1d09433f136",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.layer_norm2.weight": {
+      "sha256": "fc5c55859beae5f53685427bd651bb1f0262fc2b5e1e82bedb2835abbae2a026",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.mlp.fc1.bias": {
+      "sha256": "03ae14fee72f758110104718562ff69d71f63fe514647930e132a3b8baedf6e3",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.mlp.fc1.weight": {
+      "sha256": "12f6df8b86bda72cacda9dac32c3cd1620b5ac66fd66c3da3c63b27d6cb583b8",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.mlp.fc2.bias": {
+      "sha256": "59557323f5ed3914e44097b8d56a6edbc0b56f3c77e0e5c613c4f095ec57f1e7",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.mlp.fc2.weight": {
+      "sha256": "050d73c15be8d4547d86328388f87db603335d618382732b71bc69f3d3ca726e",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.self_attn.k_proj.bias": {
+      "sha256": "1ca9c305872d7d556a2a38f0bb907b782742934797e1cdc26ba7d5a71c5cc356",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.self_attn.k_proj.weight": {
+      "sha256": "506512eaaebc0449b670adf3f152a0aaa09e1855b4b3789df17504a55fce350f",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.self_attn.out_proj.bias": {
+      "sha256": "b160b41319c63f707ec5cd97bb244ef1afd737b7d1ab2c63ebe991e4f94b0d26",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.self_attn.out_proj.weight": {
+      "sha256": "b5c73a66af98f8298ff7272198e2a3d54aeeb550da021091a7509251abc32ee1",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.self_attn.q_proj.bias": {
+      "sha256": "3601ab8457763f3c1b0d6db9c26ecf9f5807fdb38cc4ebf19236cea385f03baf",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.self_attn.q_proj.weight": {
+      "sha256": "afb0d5ec73ef018b72d43eda0b9e6465ea608a80250aa2ebf2238e42dc7f45a7",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.self_attn.v_proj.bias": {
+      "sha256": "77ef8061e98e251c885fb65ad2d0adc063a6f3c9bfb1e276d50ad87bd6bc8957",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.7.self_attn.v_proj.weight": {
+      "sha256": "a469543cc63e8849e4a21b7cd5090c0991495e108f41f48077725f0fcafb9e50",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.layer_norm1.bias": {
+      "sha256": "a16650a1cfe7b78a5bb9bfd1e18cf730bb00b7e82e96817dc796157c1d0313c9",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.layer_norm1.weight": {
+      "sha256": "a06dfe12966d5f7e4d78030352c51aacc49e4785fc37cf8ad5c54d161594fa6c",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.layer_norm2.bias": {
+      "sha256": "fc17892af019a0fc255abf3111c874c40f86e071a9208426d16c134a333bf364",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.layer_norm2.weight": {
+      "sha256": "3796735d584abd9b818af7f931bf031b5d385462f5be66f536c5bc38ab4a7d02",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.mlp.fc1.bias": {
+      "sha256": "fe7a56f71bcf03752341823a81d1342eebd580410f3b4abb98fc9cfb6fe37543",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.mlp.fc1.weight": {
+      "sha256": "49b9af79663b85415c33fbd87b6d670821fcb7fda421750a5123e5f566dd723a",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.mlp.fc2.bias": {
+      "sha256": "e20b3d4fa98cffb61b20628cb02a3c7a7d979f4c4faadd2450fc5a57e5b5269f",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.mlp.fc2.weight": {
+      "sha256": "a93db502b0aa406e053e08794a5def5b3b1edcd5763df754b821ef58c4fdfb93",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.self_attn.k_proj.bias": {
+      "sha256": "39179c30baca914e029d24a6117218c0180bbdc5234c5df4e328783889e4d755",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.self_attn.k_proj.weight": {
+      "sha256": "ec29953a1ce7e82bf6edc065c76ad06fb42b8ecc0f100bd2ac9698c79273b31f",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.self_attn.out_proj.bias": {
+      "sha256": "e7d907080069a26751e7944f75a32cd6a1f48aa69fafb06c1b5110465b1a6130",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.self_attn.out_proj.weight": {
+      "sha256": "bc49bbe016c92b253760705a6f7c1a7c660b717ffa3c2c9820f1297c8defbf0f",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.self_attn.q_proj.bias": {
+      "sha256": "4bc49443ed337eb5043ae6ef53f56f1c01980a9187fa080e1ea4ea844d6dcf46",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.self_attn.q_proj.weight": {
+      "sha256": "af1543029a7ece53b58cc22529f30ab9e605306bc907dc758e34db8bbd8f680f",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.self_attn.v_proj.bias": {
+      "sha256": "090adc81715860fc3cdf674e1c60498d15524deede7509c851af2fef80edaf85",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.8.self_attn.v_proj.weight": {
+      "sha256": "e8e8d7d7099dca8bb9cc723d8c4d78c430c1276b3cb7d833f7ce9d0fde32fac1",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.layer_norm1.bias": {
+      "sha256": "b0b20b38dea2e822a7daade5ebd123157d6f15ecc6018b990fe39aeeb341b5e6",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.layer_norm1.weight": {
+      "sha256": "cee0f0bbac3750f5e0709718d5ffa168e251473c7d9e2a38120c765fe98f91f2",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.layer_norm2.bias": {
+      "sha256": "526d9c197631aae21c75543e6ed809eb84d362d854575d81128d8dc052318f12",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.layer_norm2.weight": {
+      "sha256": "5f99bd2c858744e2b1d6b824b0882e2cb987d99dfd4dd25d399603e2d21ffdaf",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.mlp.fc1.bias": {
+      "sha256": "fac749a8df8e47e83b6798970744f8f9c23ad3ccfc137e347e3d3d30442aa76d",
+      "shape": [
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.mlp.fc1.weight": {
+      "sha256": "2ee893f1fc5b35b2f0fa6f285448511caf94fae6afc12f9c4df7d07ffa9b5e66",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.mlp.fc2.bias": {
+      "sha256": "dfce179bebdeef47acb121650ecc72dd4a386cc6238d39f855c8aaf47fc90e7c",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.mlp.fc2.weight": {
+      "sha256": "3b51e3add8af7dcd29da00bf663915ab5b3ace27a76f3d035b7303950e3aec27",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.self_attn.k_proj.bias": {
+      "sha256": "4c41a568d64f1a1209da9fc7f2abc60a9423c7c451333b72ff59cc6ef7d45be4",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.self_attn.k_proj.weight": {
+      "sha256": "51c96b5ebae4787e2ca239bfec733a626b139c5f6f920dd3e874e01fb0a358a4",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.self_attn.out_proj.bias": {
+      "sha256": "792814f1bdfdb440468bc98285f6dbb75a1ebe39f2aa73cb272589ddd6207862",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.self_attn.out_proj.weight": {
+      "sha256": "f577175ec8f79ca3db7e8688ff237715e7bdc39e1f2cdd1b5810f64fa5798d77",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.self_attn.q_proj.bias": {
+      "sha256": "a47f84a4218859f97e6ff8606273400b1822b1b3f2d6237110fdd7602aea38ed",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.self_attn.q_proj.weight": {
+      "sha256": "e5f889dabb970bab24ba15cb2abcb2db9dd6fa7759c83d7dd850d9cb2a0e0c94",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.self_attn.v_proj.bias": {
+      "sha256": "cd2a3830024b1742b94befc468bf75593785f64c9188ea50c0e03d21e1ed9b52",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.encoder.layers.9.self_attn.v_proj.weight": {
+      "sha256": "4315ba6dd01038c36765260d0acaf9de8052fb7e30fc25aecc44f95f0fec016b",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "owlv2.vision_model.post_layernorm.bias": {
+      "sha256": "8b6e8fc6d2ddd6a5362182a20be8b9117442d5388c92994eac91972aa72ee942",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.post_layernorm.weight": {
+      "sha256": "4dfc84d567551ac379937c232f331298e872b537c27c39229637b7188b6ec091",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.pre_layernorm.bias": {
+      "sha256": "fd72983b634cfef4ce9027931d501d8a9da050ea4b49cac147c843eb6c6ce325",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.vision_model.pre_layernorm.weight": {
+      "sha256": "ac9afcb2f2bb1d5050b4dac7546cecda326c3902e3e39314452c3f27f05dc555",
+      "shape": [
+        768
+      ]
+    },
+    "owlv2.visual_projection.weight": {
+      "sha256": "1c3bafc822d026f05e8d1cb9b8ff148e34080a8c6cd4cbbae8ed9215758a5a1d",
+      "shape": [
+        512,
+        768
+      ]
+    }
+  },
+  "immutable_state": "f7d2c40ca4f862711ac2b2da74729a547150b8d922fcea8fe3a41c60f491fd1d",
+  "persisted_tensors_verified": 418,
+  "real_model_forwards": 0,
+  "teacher_optimizer_parameters": 0,
+  "trainable": {
+    "box_head.dense0.bias": {
+      "scalars": 768,
+      "shape": [
+        768
+      ]
+    },
+    "box_head.dense0.weight": {
+      "scalars": 589824,
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "box_head.dense1.bias": {
+      "scalars": 768,
+      "shape": [
+        768
+      ]
+    },
+    "box_head.dense1.weight": {
+      "scalars": 589824,
+      "shape": [
+        768,
+        768
+      ]
+    },
+    "box_head.dense2.bias": {
+      "scalars": 4,
+      "shape": [
+        4
+      ]
+    },
+    "box_head.dense2.weight": {
+      "scalars": 3072,
+      "shape": [
+        4,
+        768
+      ]
+    },
+    "class_head.dense0.bias": {
+      "scalars": 512,
+      "shape": [
+        512
+      ]
+    },
+    "class_head.dense0.weight": {
+      "scalars": 393216,
+      "shape": [
+        512,
+        768
+      ]
+    }
+  },
+  "trainable_parameters": 1577988
+}

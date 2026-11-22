@@ -1,0 +1,77 @@
+{
+  "C11_initial_cache_pairs_bit_identical": 24,
+  "GPU_calls": 0,
+  "alignment": "Structurally supported for frozen backbone/identical source+processor+prompts+precision,noaug;live initial numeric replay remains mandatory",
+  "cached_logit_values": 1486800,
+  "coefficient": null,
+  "conservative_overlap_excluded_regions": 6,
+  "development_prehead_cache_used": false,
+  "distill_admitted_regions": 35,
+  "feature_cache_available": false,
+  "global_seven_class_inflation_guaranteed_controlled": false,
+  "gradient_smoke_required": true,
+  "initial_selected_photos": 15,
+  "initial_selected_source_groups": 15,
+  "initial_selected_terms": 278,
+  "initial_zero_coverage_regions": 16,
+  "known_source_groups": 56,
+  "legacy_source_regions": 41,
+  "mean_unit_distill_loss_C11E5": 8.287974119186401,
+  "model_updates": 0,
+  "new_C21_five_regions_activated": false,
+  "output_gradient_L1_distill": {
+    "0": 0.0,
+    "0.5": 6.209821701049805,
+    "0.9": 7.516629409790038,
+    "1": 12.359375
+  },
+  "output_gradient_L1_positive": {
+    "0": 0.00010703719453886151,
+    "0.5": 0.013424601405858994,
+    "0.9": 0.07327391542494295,
+    "1": 0.13889183104038239
+  },
+  "package_versions": {
+    "Pillow": "13.0.0",
+    "numpy": "2.5.4",
+    "tokenizers": "0.22.2",
+    "torch": "2.14.1+cu132",
+    "transformers": "4.57.6"
+  },
+  "positive_boxes": 182,
+  "positive_losses_C11E5": {
+    "0": 3.731923789018765e-05,
+    "0.5": 0.006136894226074219,
+    "0.9": 0.04499541707336902,
+    "1": 0.4119524657726288
+  },
+  "precision": "FP16 forward,savedFP32 arrays",
+  "processed_tensor_hashes": "Reconstructed today,not historically recorded",
+  "processor_model_tokenizer_files_verified": {
+    ".venv/lib/python3.14/site-packages/transformers/models/owlv2/image_processing_owlv2.py": "84f6ec6905f91abcdd8fd8a5d8ca42519634932d2715579de057f58e27da2252",
+    ".venv/lib/python3.14/site-packages/transformers/models/owlv2/modeling_owlv2.py": "1997720a152f18cb753d4fee1942a9384a1f443f59c64764420b4da0a0a1f1e7",
+    "models/owlv2-original-baseline-20261103/added_tokens.json": "e5dc0da35d20111e8ff3fdfc03682beca23d5f94ed74331bce81786b2636a24f",
+    "models/owlv2-original-baseline-20261103/config.json": "ba9df8c25a4b8461887dd0a93d9252c9cd84697fe8d49a9d8794ce409af9acb2",
+    "models/owlv2-original-baseline-20261103/furniture-ai-baseline.json": "acf284e1419cd4bd3afd1515f5ab10f49103e82a0dc51e7d52ec7dec9813a957",
+    "models/owlv2-original-baseline-20261103/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "models/owlv2-original-baseline-20261103/model.safetensors": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "models/owlv2-original-baseline-20261103/preprocessor_config.json": "cf3e396635b797ee1a464e1b2836e98748f8edac19e89aaa2c93b55ac15b0064",
+    "models/owlv2-original-baseline-20261103/special_tokens_map.json": "d6e2b9cf664efbad2d22998b8d3da986abcbeed3e0825ad33605c9401f9cf73e",
+    "models/owlv2-original-baseline-20261103/tokenizer_config.json": "b55cda6198e152ded427c8a9b3faf1cccf27a7fa080697a62f6ff143f511f44f",
+    "models/owlv2-original-baseline-20261103/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+    "tools/phase10c17-v1/gpu17.py": "c7dea2a2b4c6e3271f4cafaa79f18c913ebee7a52679d34a744ac46b96dc269c",
+    "tools/phase10c8-v1/common8.py": "afbde3aab8e82056a8b371cb9ac8e0d7327ef817d3247aaf8d3e5383b56cd492"
+  },
+  "projection_gradient_measured": false,
+  "queries": 212400,
+  "real_model_forwards": 0,
+  "six_other_categories_distilled": false,
+  "teacher_conflicts_excluded": 0,
+  "teacher_photos": 59,
+  "unit_distill_losses_C11E5": {
+    "0": -0.0,
+    "0.5": 9.746734619140625,
+    "0.9": 14.74572992324829,
+    "1": 38.18853759765625
+  }
+}

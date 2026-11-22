@@ -1,0 +1,13 @@
+{
+  "coefficient": null,
+  "groups_with_selected_terms": 15,
+  "mean_all_seven_training_logit_drift": 2.9222280059636585,
+  "photos": 24,
+  "photos_with_selected_terms": 15,
+  "projection_gradient_norms_missing": true,
+  "purpose": "Distillation may strongly oppose numerical drift on easy covered negatives;this alone is not evidence of better discrimination or safe recall",
+  "scope": "Actual historical C11E5 optimization-photo outputs,not new inference or model parameter gradients",
+  "selected_Chair_scores_ge015": 2,
+  "selected_query_terms": 267,
+  "unit_coefficient_is_not_proposed_training_strength": true
+}
