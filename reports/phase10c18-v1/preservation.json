@@ -1,0 +1,31 @@
+{
+  "C11_public_seal_files": 31,
+  "C13_public_seal_files": 26,
+  "C14_public_seal_files": 19,
+  "C16_public_seal_files": 16,
+  "C17_seals": {
+    "private_files": 528,
+    "public_files": 14
+  },
+  "C8_private_files": 1310,
+  "CPU_verification_forwards": 0,
+  "Mac_project_modified": false,
+  "actual_C18_forwards": 182,
+  "actual_C18_optimizer_updates": 28,
+  "all29new_snapshots_reloaded": true,
+  "annotation_overlays_activated": 0,
+  "conservative_new_allocated_bytes": 1107722240,
+  "datasets_or_models_downloaded": 0,
+  "eligible_image_hashes": 78,
+  "historical_data_model_files": 9973,
+  "historical_data_modified": false,
+  "historical_implementation_files": 27,
+  "historical_preservation_routine_GPU_forwards": 0,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "phase10b_report_artifacts": 24,
+  "phase10b_snapshots": 160,
+  "reserved_or_frozen_images_decoded": 0,
+  "source_group_isolation": true,
+  "status": "PASS",
+  "training_updates": 0
+}

@@ -1,0 +1,21 @@
+{
+  "C17_seal": {
+    "private_files": 528,
+    "public_files": 14
+  },
+  "comparison_notes": [
+    "Sole intentional objective change: trusted Chair focal to immutable C16 source-normalized BCE plus accumulated 25% class-parameter cap.",
+    "Three isolated scaled VJPs compose base/source; upstream AMP rounding may differ from the historical single-backward summed objective, as disclosed in C17.",
+    "Original 12 heads including calibration; no freezing, projection regularization, new labels or changed evaluation.",
+    "Fresh C18 output path; retain all75 snapshots. No automatic retry. Endpoint epoch5 fixed.",
+    "24 training-only probes at0/1/3/5,FP16;19historical diagnostic predictions at1/3/5,FP32. Original reference reuses saved predictions."
+  ],
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "photos": 59,
+  "positive_boxes": 182,
+  "same_order_all75_updates": true,
+  "source_groups": 56,
+  "source_regions": 41,
+  "status": "PASS",
+  "training_not_yet_executed": true
+}

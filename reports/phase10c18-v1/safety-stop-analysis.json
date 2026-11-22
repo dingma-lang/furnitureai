@@ -1,0 +1,24 @@
+{
+  "confirmed": [
+    "Failure arose at compose_checked before gradient assignment and optimizer intent29.",
+    "C16.compose returned after its own explicit source-vector bound passed.",
+    "The extra guard compares intended post source and effective composed-minus-base differences against near-identical tolerance.",
+    "A deterministic CPU witness shows effective FP32 addition/subtraction may reject a valid source cap."
+  ],
+  "effective_FP32_added_then_subtracted_norm": 0.0008721569313014672,
+  "effective_relative_excess": 0.007080030291265249,
+  "guard_rejected_valid_source_cap": true,
+  "not_executed": [
+    "No GPU retry,checkpoint28 inference or optimizer continuation",
+    "No loss coefficient,normalization,rho or threshold repair"
+  ],
+  "recommended_next_action": "CPU-only numerical guard review and failure-buffer telemetry preflight before separately authorizing any recovery; preserve update28 snapshot and do not repeat committed steps.",
+  "scope": "Synthetic CPU rounding witness only;not reconstructed failed GPU tensors",
+  "source_cap_budget": 0.0008660254449184381,
+  "source_post_norm": 0.0008660254449184381,
+  "training_guard_unchanged": true,
+  "unconfirmed": [
+    "Actual failed group cap factor,positive norm,source norm,budget and effective norm were not retained.",
+    "A rounding-related guard false positive is strongly suggested,not measured for the failed group."
+  ]
+}

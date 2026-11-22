@@ -1,0 +1,28 @@
+{
+  "CPU_passed": 35,
+  "checkpoints_verified": 29,
+  "experiment_status": "STOPPED_SAFETY_GUARD",
+  "new_GPU_after_single_arm": 0,
+  "pre_GPU_CPU_tests": 56,
+  "status": "PASS",
+  "suites": [
+    {
+      "file": "data/open-images/experiments/phase10c18-source-balanced-v1/CPU-final-C18-completed-a13f7950.log",
+      "passed": 9,
+      "sha256": "60fb5b6606679e769bc4a7619148b50eec04d68e115a54ea9518360958f83a79",
+      "suite": "C18-completed"
+    },
+    {
+      "file": "data/open-images/experiments/phase10c18-source-balanced-v1/CPU-final-C18-training-a1efd4e7.log",
+      "passed": 10,
+      "sha256": "391dcd5197e847b019725e8948e77cfc715293b51a265681964bb360d711ca7a",
+      "suite": "C18-training"
+    },
+    {
+      "file": "data/open-images/experiments/phase10c18-source-balanced-v1/CPU-final-C8-eb831e3f.log",
+      "passed": 16,
+      "sha256": "9afbc7606723bae0e3867b6b6dda1cd231d9d0fe2151aac13722a3a5e1334e74",
+      "suite": "C8"
+    }
+  ]
+}

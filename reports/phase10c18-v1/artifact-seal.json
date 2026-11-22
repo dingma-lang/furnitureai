@@ -1,0 +1,26 @@
+{
+  "code_sha256": {
+    "tools/phase10c18-v1/README.md": "1a1a2bca002eb5a3ecdca9ebdc0414124801c36dd4c55e4f57adf32809ac8548",
+    "tools/phase10c18-v1/analyze18.py": "55616e4e04cbbaa50a99ee27585ac1c1de06c681b354696e974e4141ce4ae38c",
+    "tools/phase10c18-v1/common18.py": "2438b8e7aba956ef3bef2dd183777aa74aa4266e6da55dc0ac6544ab15539a2c",
+    "tools/phase10c18-v1/launch18.py": "fe13c57b387015a4ef96706ab826c69338502a22dab6f98bcb6c3aa922fbb255",
+    "tools/phase10c18-v1/partial_analysis18.py": "2bf159a3ee2d6fbd8fd59fcc3a8e9df78c49c3e4e4cbb75ab866db1c80dd0eb6",
+    "tools/phase10c18-v1/plot18.py": "23d257701c8645657c505de9bc10f9cde2dd7f044390418b3a1b3db970c550e0",
+    "tools/phase10c18-v1/preflight_tests18.py": "0707ab79ab9988219ffadfd37569d1b69e365ec672d91fce9ab4156980f5c614",
+    "tools/phase10c18-v1/report18.py": "4f2736af2b634bed4d10135bcc8709342747bebfe1cfda5091fa8ba841e1f94c",
+    "tools/phase10c18-v1/test_completed18.py": "02697f02b5e9ccf996ff561106463148ff5d5cc7b10afa6198a06a0959ff63ae",
+    "tools/phase10c18-v1/test_training18.py": "a69dcdd266b1382b813a205ce0e3b50170b27ae1045772b2317b6b350ea41cc4",
+    "tools/phase10c18-v1/update18.py": "8b2e8373065e6af0d93ac8eb7cf5fdc349ba5a3a865e8df6bc0b7dca4e983cdc",
+    "tools/phase10c18-v1/verify18.py": "7c68e859089f9276d4d578c3735e979761be66ba688ee70296636cbee00ed5c8",
+    "tools/phase10c18-v1/worker18.py": "acff8a44a9f1c19c3fceefb920dfa6eb1dea39c46a2bbb9599a8c0e606f41d88"
+  },
+  "conservative_allocated_bytes_before_public_seal": 1108049920,
+  "forwards": 182,
+  "main_expected_unchanged": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "private_files": 681,
+  "private_manifest": "data/open-images/experiments/phase10c18-source-balanced-v1/ARTIFACT-SHA256SUMS.json",
+  "private_manifest_sha256": "e18c35c7f3082acd39bf809c80d0b866bcfb0c0587995c4d72b70b1343a7e8d7",
+  "schema": "phase10c18-artifact-seal-v1",
+  "status": "STOPPED_SAFETY_GUARD",
+  "updates": 28
+}
