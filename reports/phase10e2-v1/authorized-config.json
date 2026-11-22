@@ -1,0 +1,75 @@
+{
+  "E1_approval": {
+    "approval_reference": "User Phase10E.2 explicit zero-update authorization;attachment610b5630-f19b-46eb-9a22-d7031a78e541",
+    "approved": true,
+    "input_binding_sha256": "df564237f1bf33bd055edd99d54451d8dd21c4ea579a6fc4616f2ca0c90bd287",
+    "limits": {
+      "VRAM_bytes": 6979321856,
+      "forwards": 28,
+      "gradient_VJPs": 48,
+      "output_bytes": 134217728,
+      "seconds": 180,
+      "updates": 0
+    },
+    "mode": "gradient_smoke",
+    "proposal_sha256": "495dcd101f47e17a797b77d7983284ff772e9476d6ff7f063c2d333165b3ff09"
+  },
+  "approved": true,
+  "automatic_retry": false,
+  "coefficient_selection": "No GPU coefficient sweep. CPU report may derive a conservative fixed scalar from actual gradient ratios/directions or leaveunset.",
+  "limits": {
+    "VRAM_bytes": 6979321856,
+    "forwards": 28,
+    "gradient_VJPs": 48,
+    "output_bytes": 134217728,
+    "seconds": 180,
+    "updates": 0
+  },
+  "measurement_plan": "One positive-loss VJP on all28forwards;KD VJP only when derivative is not mathematicallyzero. ZeroKD reportedanalytically,notclaimed as executedVJP;guard48beforeeachactualcall.",
+  "mode": "gradient_smoke",
+  "model_state_transition": "Fouroriginalforwards,thenloadexistingC11snapshotonly;verifyeachstatebefore/after,no optimizer/updates",
+  "no_additional_variants": true,
+  "numerical_tolerances": {
+    "logits": {
+      "atol": 0.02,
+      "rtol": 0.001
+    },
+    "source": "HistoricalC11observe11.compare_array_sets(probe=True);fixedbeforeGPU,userexplicitlyallowsmixedprecisiontolerance",
+    "square_cxcywh": {
+      "atol": 1e-05,
+      "rtol": 1e-05
+    }
+  },
+  "original_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "photo_ids": [
+    "coco2017:000000002270",
+    "coco2017:000000002347",
+    "coco2017:000000030347",
+    "coco2017:000000037367",
+    "coco2017:000000074638",
+    "coco2017:000000108375",
+    "coco2017:000000114729",
+    "coco2017:000000121824",
+    "coco2017:000000165742",
+    "coco2017:000000178671",
+    "coco2017:000000192834",
+    "coco2017:000000195507",
+    "coco2017:000000197201",
+    "coco2017:000000231450",
+    "coco2017:000000263212",
+    "coco2017:000000294698",
+    "coco2017:000000373101",
+    "coco2017:000000404592",
+    "coco2017:000000421108",
+    "coco2017:000000449850",
+    "coco2017:000000463290",
+    "coco2017:000000477263",
+    "coco2017:000000543194",
+    "coco2017:000000580827"
+  ],
+  "reference_checkpoint": "data/open-images/experiments/phase10c10-calibration-frozen-v1/checkpoints/update-075-bf8be48ddf59.pt",
+  "reference_sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+  "schema": "phase10e2-one-authorized-zero-update-gradient-diagnostic",
+  "teacher_contract": "3b070fc99ad0fb9139ba750fdb6043f425f3625e29bf3167f09c6a88952a6811",
+  "training_authorized": false
+}

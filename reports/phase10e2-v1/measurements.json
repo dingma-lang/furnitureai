@@ -1,0 +1,151 @@
+{
+  "adapted": {
+    "active_distill_projection_norms": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null
+    },
+    "cosine_gradient_vs_observed_projection_drift": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null
+    },
+    "matched_Chair_scores_below_teacher": 0,
+    "mean_seven_class_logit_drift": 3.334751276288714,
+    "opposes_past_projection_displacement_photos": 0,
+    "per_class_logit_drift": {
+      "bed": 4.245991550021701,
+      "cabinet": 2.0689876302083334,
+      "chair": 4.685546663072374,
+      "desk": 2.889105021158854,
+      "lamp": 2.2142906358506944,
+      "sofa": 4.668700904846191,
+      "table": 2.570636528862847
+    },
+    "photos": 1,
+    "photos_with_distillation": 0,
+    "positive_distill_cosines": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null
+    },
+    "positive_gradient_conflict_photos": 0,
+    "positive_projection_norms": {
+      "count": 1,
+      "maximum": 1.1945941646660827,
+      "mean": 1.1945941646660827,
+      "median": 1.1945941646660827,
+      "minimum": 1.1945941646660827
+    },
+    "protected_positive_distill_overlap": 0,
+    "selected_terms": 0,
+    "source_groups_with_distillation": 0,
+    "teacher_conflicts_excluded": 0,
+    "unit_distill_positive_ratios": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null
+    }
+  },
+  "box_gradient_routing_violations": 0,
+  "holdout_scoring": false,
+  "metrics_improvement_claimed": false,
+  "one_analytic_scale": {
+    "formula": "0.5 * min_measured_photo(||positive_projection_gradient||/||unit_KD_projection_gradient||)",
+    "half_ceiling_diagnostic_scalar": null,
+    "limitations": [
+      "Not a bound on AdamW-preconditionedupdates",
+      "Not a guaranteeacrossfuturetrainingstatesorall59positivegradients",
+      "No informationaboutperformanceonunknown/uncoveredrooms orother6classes"
+    ],
+    "non_domination_ceiling": null,
+    "positive_descent_fractions": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null
+    },
+    "selected_for_training": false,
+    "weighted_ratios": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null
+    },
+    "worst_case_rationale": "KDnorm<=halfpositiveonmeasuredactivephotos;evenantiparalleldirectionretains>=halfpositivefirstorderdescentinplainEuclideanmetric"
+  },
+  "optimizer_steps": 0,
+  "original": {
+    "maximum_distill_loss": -0.0,
+    "photos": 4,
+    "positive_projection_norms": {
+      "count": 4,
+      "maximum": 36.31780193208022,
+      "mean": 31.461703943068542,
+      "median": 33.40731184675796,
+      "minimum": 22.714390146678028
+    },
+    "selected_terms": 10,
+    "unit_distillation_projection_norms": {
+      "count": 4,
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0
+    }
+  },
+  "other_six_classes_distilled": false,
+  "replay": {
+    "C11": {
+      "all_within_predeclared_tolerances": true,
+      "bit_identical_photos": 1,
+      "maximum_logit_error": 0.0,
+      "maximum_square_box_error": 0.0,
+      "photos": 1
+    },
+    "original": {
+      "all_within_predeclared_tolerances": true,
+      "bit_identical_photos": 4,
+      "maximum_logit_error": 0.0,
+      "maximum_square_box_error": 0.0,
+      "photos": 4
+    }
+  },
+  "resources": {
+    "actual_forwards": 6,
+    "allocated_output_bytes": null,
+    "analytic_zero_distill_derivatives": 5,
+    "forwards": 6,
+    "gradient_calculations": 7,
+    "peak_allocated_bytes": 1695397376,
+    "peak_reserved_bytes": 2325741568,
+    "seconds": 15.89520149899181
+  },
+  "source_groups": {
+    "active": 0,
+    "actual_gradient_sum_cosine": null,
+    "individual_norm_share_is_not_fraction_of_vector_sum": true,
+    "measured": 0,
+    "top1_share_sum_individual_norms": null,
+    "top3_share_sum_individual_norms": null,
+    "unit_norm_ratios": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null
+    }
+  },
+  "status": "INCOMPLETE",
+  "training_authorized": false
+}

@@ -1,0 +1,27 @@
+{
+  "actual_forwards": 6,
+  "additional_attempts": 0,
+  "analytic_zero_KD_derivatives": 5,
+  "conservative_path_storage_before_final_seal": 2191360,
+  "gradient_VJP_attempts": 7,
+  "launcher": {
+    "automatic_retry": false,
+    "exit_code": 1,
+    "reason": null,
+    "wall_seconds": 17.726454582007136
+  },
+  "limits": {
+    "VRAM_bytes": 6979321856,
+    "forwards": 28,
+    "gradient_VJPs": 48,
+    "output_bytes": 134217728,
+    "seconds": 180,
+    "updates": 0
+  },
+  "optimizer_steps": 0,
+  "peak_allocated_bytes": 1695397376,
+  "peak_reserved_bytes": 2325741568,
+  "status": "STOPPED_NONFINITE_GRADIENT",
+  "unique_inode_storage_before_final_seal": 1134592,
+  "worker_seconds_at_failure": 15.89520149899181
+}

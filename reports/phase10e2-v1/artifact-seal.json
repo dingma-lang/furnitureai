@@ -1,0 +1,31 @@
+{
+  "code_sha256": {
+    "tools/phase10e2-v1/README.md": "1234ffa4aa37c80c4e497599cbf3915e6387bd4ef3a75fae664999ad7ce93891",
+    "tools/phase10e2-v1/analyze2.py": "2957cd6087fd96cf095da3779ec9c6a2b152a2d760da7a119860593e54b27d26",
+    "tools/phase10e2-v1/common2.py": "405394f70f2a5d3558c92536888055474f411ada81c31deb58e16a0d60b91b35",
+    "tools/phase10e2-v1/launch2.py": "fe156934642828cfe75e7f03a20b6eda116c82c0c2468b4af980b612d8b23311",
+    "tools/phase10e2-v1/measure2.py": "64cc96e36a8dc7571400e7e0da606dd05b98225dbb47d2707289af651384ba21",
+    "tools/phase10e2-v1/postmortem2.py": "10fd9da5fb2c3805db84933c24141fd41b4ca33a6152a154a3e88c2c60a4422e",
+    "tools/phase10e2-v1/prepare2.py": "b71d80065da12dbddbb99e0c063e1262690572a0e93037b28176940c08b0420a",
+    "tools/phase10e2-v1/report2.py": "47c209b949e9b5b54535e7020a29ed9ea964f44050001a9393d7356c01d4b1d4",
+    "tools/phase10e2-v1/report_failure2.py": "8148971d4b73f87e1b27b8742c846d4cb6f292fa20bcee1f4a79ff4eeb240d78",
+    "tools/phase10e2-v1/test_failure2.py": "f85757dd1d9d405feccadb7f78c23be9727ebc7aa6fde2910e8542397d7c06d8",
+    "tools/phase10e2-v1/test_gradient2.py": "c0341a6fca09ffe2d571a16198c03d625babd08ec7d06796fa808cec61c0b3f6",
+    "tools/phase10e2-v1/verify2.py": "2f5786c49b072c123c12823e5fd6d3abe3c99b8da7438f3d87673d88cfe1871a",
+    "tools/phase10e2-v1/worker2.py": "4970054fe51e958e88f70bb6927846a60e5723bffb67ed44cf994fea4e83de7b"
+  },
+  "conservative_allocated_bytes_before_final_seal": 2232320,
+  "limits": {
+    "VRAM_bytes": 6979321856,
+    "forwards": 28,
+    "gradient_VJPs": 48,
+    "output_bytes": 134217728,
+    "seconds": 180,
+    "updates": 0
+  },
+  "optimizer_steps": 0,
+  "private_files": 83,
+  "private_manifest": "data/open-images/experiments/phase10e-gradient-smoke-v1/artifact-sha256.json",
+  "private_manifest_sha256": "82c112b0c5ded22016df9239c6187e372e11867779e038c5caf33b48c84d3d24",
+  "training_started": false
+}

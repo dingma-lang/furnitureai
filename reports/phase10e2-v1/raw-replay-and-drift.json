@@ -1,0 +1,313 @@
+{
+  "C11_live_photos": 2,
+  "original_live_photos": 4,
+  "partial_adapted_coverage": true,
+  "records": [
+    {
+      "image_id": "coco2017:000000002270",
+      "mean_all_seven_logit_drift": 0.0,
+      "no_new_model_forward": true,
+      "per_class_mean_logit_drift": {
+        "bed": 0.0,
+        "cabinet": 0.0,
+        "chair": 0.0,
+        "desk": 0.0,
+        "lamp": 0.0,
+        "sofa": 0.0,
+        "table": 0.0
+      },
+      "raw_sha256": "8b24177a40c3744fa1085238c1c389775c81109c6113162389b98bee00da8158",
+      "replay": {
+        "logits": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 0.02,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 0.001
+        },
+        "square_cxcywh": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 1e-05,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-05
+        }
+      },
+      "source_group": "flickr-account:_cck_",
+      "state": "A-original"
+    },
+    {
+      "image_id": "coco2017:000000002347",
+      "mean_all_seven_logit_drift": 0.0,
+      "no_new_model_forward": true,
+      "per_class_mean_logit_drift": {
+        "bed": 0.0,
+        "cabinet": 0.0,
+        "chair": 0.0,
+        "desk": 0.0,
+        "lamp": 0.0,
+        "sofa": 0.0,
+        "table": 0.0
+      },
+      "raw_sha256": "7d535c264a2a1d44151143830fa7fc3630fca9acde0f72778cc5d0c539138312",
+      "replay": {
+        "logits": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 0.02,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 0.001
+        },
+        "square_cxcywh": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 1e-05,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-05
+        }
+      },
+      "source_group": "flickr-account:68258082@n06",
+      "state": "A-original"
+    },
+    {
+      "image_id": "coco2017:000000030347",
+      "mean_all_seven_logit_drift": 0.0,
+      "no_new_model_forward": true,
+      "per_class_mean_logit_drift": {
+        "bed": 0.0,
+        "cabinet": 0.0,
+        "chair": 0.0,
+        "desk": 0.0,
+        "lamp": 0.0,
+        "sofa": 0.0,
+        "table": 0.0
+      },
+      "raw_sha256": "dd23851599c7c0437ffa9c298ffa0685c8487222144132e9508f326159c45194",
+      "replay": {
+        "logits": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 0.02,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 0.001
+        },
+        "square_cxcywh": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 1e-05,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-05
+        }
+      },
+      "source_group": "flickr-account:mikecogh",
+      "state": "A-original"
+    },
+    {
+      "image_id": "coco2017:000000037367",
+      "mean_all_seven_logit_drift": 0.0,
+      "no_new_model_forward": true,
+      "per_class_mean_logit_drift": {
+        "bed": 0.0,
+        "cabinet": 0.0,
+        "chair": 0.0,
+        "desk": 0.0,
+        "lamp": 0.0,
+        "sofa": 0.0,
+        "table": 0.0
+      },
+      "raw_sha256": "20a518d090df7dd4423c7b2a7ef2b79e097aecf5df608b6797e5187f5aea3fbd",
+      "replay": {
+        "logits": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 0.02,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 0.001
+        },
+        "square_cxcywh": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 1e-05,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-05
+        }
+      },
+      "source_group": "flickr-account:davidgiesberg",
+      "state": "A-original"
+    },
+    {
+      "image_id": "coco2017:000000002270",
+      "mean_all_seven_logit_drift": 3.334751276288714,
+      "no_new_model_forward": true,
+      "per_class_mean_logit_drift": {
+        "bed": 4.245991550021701,
+        "cabinet": 2.0689876302083334,
+        "chair": 4.685546663072374,
+        "desk": 2.889105021158854,
+        "lamp": 2.2142906358506944,
+        "sofa": 4.668700904846191,
+        "table": 2.570636528862847
+      },
+      "raw_sha256": "43a0277bddd8aab87d06649365e4a4b294c51258c5826cc64903770f6acb6c88",
+      "replay": {
+        "logits": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 0.02,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 0.001
+        },
+        "square_cxcywh": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 1e-05,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-05
+        }
+      },
+      "source_group": "flickr-account:_cck_",
+      "state": "B-existing-C11"
+    },
+    {
+      "image_id": "coco2017:000000002347",
+      "mean_all_seven_logit_drift": 3.1344153670659143,
+      "no_new_model_forward": true,
+      "per_class_mean_logit_drift": {
+        "bed": 4.009056803385417,
+        "cabinet": 1.9420392862955729,
+        "chair": 4.4032509761386445,
+        "desk": 2.71123779296875,
+        "lamp": 2.081005655924479,
+        "sofa": 4.384697303771973,
+        "table": 2.4096197509765624
+      },
+      "raw_sha256": "91b07a352a82ec993e386e366056925cd72e1008b6462cee644b0071db200678",
+      "replay": {
+        "logits": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 0.02,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 0.001
+        },
+        "square_cxcywh": {
+          "RMS_difference": 0.0,
+          "absolute_difference_quantiles": {
+            "0": 0.0,
+            "0.01": 0.0,
+            "0.5": 0.0,
+            "0.9": 0.0,
+            "0.99": 0.0,
+            "1": 0.0
+          },
+          "accepted": true,
+          "atol": 1e-05,
+          "bit_identical": true,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-05
+        }
+      },
+      "source_group": "flickr-account:68258082@n06",
+      "state": "B-existing-C11"
+    }
+  ]
+}

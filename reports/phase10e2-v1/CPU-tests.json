@@ -1,0 +1,26 @@
+{
+  "binding_sha256": "15d47e5a6c31453b6219a560f664a106d98c05c4bda51473492c633db94958c3",
+  "new_GPU_calls": 0,
+  "passed": 50,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "data/open-images/experiments/phase10e-gradient-smoke-v1/CPU-E2-4151c863.log",
+      "passed": 9,
+      "sha256": "8944014612fa0afe389cf4783f7a8abe33111c0110718eaa0af4db1df81e1918",
+      "suite": "E2"
+    },
+    {
+      "log": "data/open-images/experiments/phase10e-gradient-smoke-v1/CPU-E1loss-cache-e1134a17.log",
+      "passed": 20,
+      "sha256": "80ffba4fd715de6ebe84d788c3c8eacc330110f3e0962454ffedb82debe2ed56",
+      "suite": "E1loss-cache"
+    },
+    {
+      "log": "data/open-images/experiments/phase10e-gradient-smoke-v1/CPU-C11scope-753b4f33.log",
+      "passed": 21,
+      "sha256": "c6043e0f3238db7b155e33e3d6a17f9ba281f2399078a8031429aa100ed033d9",
+      "suite": "C11scope"
+    }
+  ]
+}

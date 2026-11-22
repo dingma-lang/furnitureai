@@ -1,0 +1,224 @@
+{
+  "completed": 1,
+  "not_executed": 22,
+  "partial_forward_only": 1,
+  "planned": 24,
+  "records": [
+    {
+      "cosine": null,
+      "eligible_terms": 0,
+      "image_id": "coco2017:000000002270",
+      "positive_projection_L2": 1.1945941646660827,
+      "source_group": "flickr-account:_cck_",
+      "status": "complete_measurement",
+      "unit_distill_projection_L2": 0.0
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000002347",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:68258082@n06",
+      "status": "forward_saved_KD_VJP_failed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000030347",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:mikecogh",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000037367",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:davidgiesberg",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000074638",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:98894271@n00",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000108375",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:laruth",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000114729",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:johanl",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000121824",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:picturesbyann",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000165742",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:pagel",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000178671",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:portobaytrade",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000192834",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:vxla",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000195507",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:emilysnuffer",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000197201",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:kassandrabay",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000231450",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:mugland",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000263212",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:jonnygoldstein",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000294698",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:mikebabcock",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000373101",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:kojach",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000404592",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:vintagedept",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000421108",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:nduran",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000449850",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:donabelandewen",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000463290",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:snaks",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000477263",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:deepphoto",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000543194",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:marcusspaapen",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    },
+    {
+      "cosine": null,
+      "eligible_terms": null,
+      "image_id": "coco2017:000000580827",
+      "positive_projection_L2": null,
+      "source_group": "flickr-account:oldrebel",
+      "status": "not_executed",
+      "unit_distill_projection_L2": null
+    }
+  ]
+}

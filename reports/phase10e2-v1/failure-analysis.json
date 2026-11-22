@@ -1,0 +1,125 @@
+{
+  "C11_completed_measurement_photos": 1,
+  "C11_forward_only_partial_photos": 1,
+  "C11_model_state_unchanged": true,
+  "FP16_max_finite": 65504.0,
+  "actual_VJP_attempts": 7,
+  "actual_detector_hook_calls": 6,
+  "actual_forwards": 6,
+  "additional_GPU_attempts": 0,
+  "analytic_zero_KD_derivatives": 5,
+  "box_routing": "No box-route gradient in completed positive VJPs;failed KD VJP stopped before its complete finite/routing summary,so no successful nonzero KD routing measurement is claimed.",
+  "classification": "D \u2014 Inconclusive",
+  "coefficient": null,
+  "completed_measurement_records": 5,
+  "confirmed": "The finite matched-cache forward reached the scaled KD model VJP,which returned at least one nonfinite requested gradient and stopped before updates.",
+  "exact_first_overflow_operation_not_recorded": true,
+  "exact_nonfinite_return_tensor_not_recorded": true,
+  "failed_VJPs": 1,
+  "failed_mask": {
+    "matched_Chair_queries": 1,
+    "matched_Chair_student_score_below_teacher": 0,
+    "matched_positive_queries_excluded": 2,
+    "other_six_classes_unknown": true,
+    "query_region_owner": {
+      "1251": "C148"
+    },
+    "region_query_counts": {
+      "C148": 1
+    },
+    "teacher_argmax_disagrees_with_positive": 1,
+    "teacher_conflicts_excluded": 0,
+    "teacher_positive_score_below_015": 0,
+    "terms": 1
+  },
+  "failed_terms": 1,
+  "failure_component": "First nonzero unit-distillation VJP,with fixed loss scale128",
+  "failure_photo": "coco2017:000000002347",
+  "failure_scalar_and_terminal_derivative_finite": true,
+  "failure_scalar_recomputed_from_saved_outputs": 38.18853759765625,
+  "failure_source_group": "flickr-account:68258082@n06",
+  "forward_runtime_at_failure": 15.89520149899181,
+  "gradient_cosine_for_failed_photo": null,
+  "last_raw_replay": {
+    "logits": {
+      "RMS_difference": 0.0,
+      "absolute_difference_quantiles": {
+        "0": 0.0,
+        "0.01": 0.0,
+        "0.5": 0.0,
+        "0.9": 0.0,
+        "0.99": 0.0,
+        "1": 0.0
+      },
+      "accepted": true,
+      "atol": 0.02,
+      "bit_identical": true,
+      "max_absolute_difference": 0.0,
+      "rtol": 0.001
+    },
+    "square_cxcywh": {
+      "RMS_difference": 0.0,
+      "absolute_difference_quantiles": {
+        "0": 0.0,
+        "0.01": 0.0,
+        "0.5": 0.0,
+        "0.9": 0.0,
+        "0.99": 0.0,
+        "1": 0.0
+      },
+      "accepted": true,
+      "atol": 1e-05,
+      "bit_identical": true,
+      "max_absolute_difference": 0.0,
+      "rtol": 1e-05
+    }
+  },
+  "launcher_wall_seconds": 17.726454582007136,
+  "likely_explanation": "Mixed-precision backward overflow under unit MSE loss scaled128;exact intermediate/parameter not established from saved artifacts.",
+  "model_weight_updates": 0,
+  "not_established": [
+    "A stable nonzero distillation projection norm",
+    "Whether any fixed coefficient is safe/effective",
+    "Whether unscaled or FP32 backward would succeed",
+    "Broad seven-class confidence control",
+    "Any detection precision/recall/localization improvement"
+  ],
+  "optimizer_constructed": false,
+  "optimizer_steps": 0,
+  "original_completed_photos": 4,
+  "original_model_state_unchanged": true,
+  "peak_allocated_bytes": 1695397376,
+  "peak_reserved_bytes": 2325741568,
+  "persisted_nonzero_KD_parameter_measurements": 0,
+  "persisted_positive_parameter_measurements": 5,
+  "positive_norm_for_failed_photo": null,
+  "projection_norm_for_failed_photo": null,
+  "protected_overlaps_in_failed_output_mask": 0,
+  "raw_outputs_persisted": 6,
+  "scaled_terminal_derivative_closed_form": [
+    1582.0
+  ],
+  "selected_logit_delta": [
+    6.1796875
+  ],
+  "status": "STOPPED_NONFINITE_GRADIENT",
+  "student_selected_logits": [
+    -9.546875
+  ],
+  "student_selected_scores": [
+    7.14190139989638e-05
+  ],
+  "successful_VJP_returns": 6,
+  "successful_positive_measurement_not_persisted": 1,
+  "teacher_selected_logits": [
+    -15.7265625
+  ],
+  "teacher_selected_scores": [
+    1.4792467463325065e-07
+  ],
+  "terminal_derivative_is_not_recovered_projection_gradient": true,
+  "terminal_output_derivative_closed_form": [
+    12.359375
+  ],
+  "training_ready": false
+}

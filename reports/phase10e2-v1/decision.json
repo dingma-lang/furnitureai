@@ -1,0 +1,11 @@
+{
+  "classification": "D \u2014 Inconclusive",
+  "coefficient": null,
+  "existing_E1_training_configuration_still_disabled": true,
+  "metrics_improvement_claimed": false,
+  "new_training_configuration_prepared": false,
+  "next_action": "Do not train. Prepare a CPU-tested numerical-measurement/overflow-telemetry repair,then obtain separate approval for any further zero-update GPU attempt. No retry or alternate precision was executed.",
+  "reason": "The first nonzero adapted-state KD VJP was nonfinite under fixed scale128. No finite nonzero KD projection-gradient norm or direction was recovered;choosing a coefficient would invent the required evidence.",
+  "training_authorized": false,
+  "training_ready": false
+}

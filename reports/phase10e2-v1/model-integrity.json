@@ -1,0 +1,13 @@
+{
+  "C11_checkpoint_sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+  "C11_state_at_failure": "920751da07c624fdc6d5996b085f2afe32de8aaa338714d575c85293f6e34906",
+  "C11_state_before": "920751da07c624fdc6d5996b085f2afe32de8aaa338714d575c85293f6e34906",
+  "C11_state_unchanged": true,
+  "all_tensors_per_fingerprint": 421,
+  "model_weight_updates": 0,
+  "optimizer_steps": 0,
+  "original_checkpoint_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "original_state_after": "b969b61e49c5171754ed9b5e67c9491df55622049898654db6d84e505f553a45",
+  "original_state_before": "b969b61e49c5171754ed9b5e67c9491df55622049898654db6d84e505f553a45",
+  "original_state_unchanged": true
+}
