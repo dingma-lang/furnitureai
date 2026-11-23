@@ -1,0 +1,21 @@
+test_actual_extra_forward_rejected (test_cache7.AuthorizationTests.test_actual_extra_forward_rejected) ... ok
+test_binding_exact59_ids_and_no_updates (test_cache7.AuthorizationTests.test_binding_exact59_ids_and_no_updates) ... ok
+test_development_and_unknown_identity_rejected (test_cache7.AuthorizationTests.test_development_and_unknown_identity_rejected) ... ok
+test_forward_limit_consumed_before_execution (test_cache7.AuthorizationTests.test_forward_limit_consumed_before_execution) ... ok
+test_launcher_rejects_retries_by_exclusive_marker (test_cache7.AuthorizationTests.test_launcher_rejects_retries_by_exclusive_marker) ... ok
+test_time_memory_and_storage_limits (test_cache7.AuthorizationTests.test_time_memory_and_storage_limits) ... ok
+test_worker_contains_no_training_or_download_calls (test_cache7.AuthorizationTests.test_worker_contains_no_training_or_download_calls) ... ok
+test_all_queries_and_seven_category_scores_retained (test_cache7.CoordinateTests.test_all_queries_and_seven_category_scores_retained) ... ok
+test_bottom_right_padding_mapping_landscape (test_cache7.CoordinateTests.test_bottom_right_padding_mapping_landscape) ... ok
+test_invalid_shape_or_nonfinite_rejected (test_cache7.CoordinateTests.test_invalid_shape_or_nonfinite_rejected) ... ok
+test_outside_frame_not_clipped_into_safe_negatives (test_cache7.CoordinateTests.test_outside_frame_not_clipped_into_safe_negatives) ... ok
+test_portrait_not_center_padded (test_cache7.CoordinateTests.test_portrait_not_center_padded) ... ok
+test_atomic_no_replacement_and_roundtrip (test_cache7.StorageAndStateTests.test_atomic_no_replacement_and_roundtrip) ... ok
+test_buffers_and_parameter_mutation_change_fingerprint (test_cache7.StorageAndStateTests.test_buffers_and_parameter_mutation_change_fingerprint) ... ok
+test_historical_path_is_rejected_before_open (test_cache7.StorageAndStateTests.test_historical_path_is_rejected_before_open) ... ok
+test_size_guard_prevents_new_file (test_cache7.StorageAndStateTests.test_size_guard_prevents_new_file) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.665s
+
+OK

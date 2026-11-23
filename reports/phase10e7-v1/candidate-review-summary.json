@@ -1,0 +1,39 @@
+{
+  "actual_assistant_visual_samples": 24,
+  "automatic_unverified_candidates": 21,
+  "contexts": {
+    "appliance_or_screen": 7,
+    "other_native_object": 2,
+    "person_or_body_part": 10,
+    "plant_or_decoration": 2
+  },
+  "ge08": 0,
+  "has_supported_simple_source_polygons": 21,
+  "human_reviews_created": 0,
+  "independent_seven_category_acceptance_photographs": 0,
+  "maximum_Chair_score": 0.7638362701347781,
+  "median_width_height_pixels": [
+    37.445068359375,
+    38.45703124999997
+  ],
+  "minimum_Chair_score": 0.5012187933624046,
+  "minimum_side_below32_pixels": 11,
+  "native_labels": {
+    "laptop": 3,
+    "laptop_computer": 2,
+    "microwave": 1,
+    "mirror": 1,
+    "person": 10,
+    "potted plant": 1,
+    "refrigerator": 1,
+    "sink": 1,
+    "toilet": 1
+  },
+  "native_source_mask_available": 21,
+  "new_verified_hard_negatives": 0,
+  "next_action": "CPU-only source-evidence qualification of the21actual E5query candidates and local native masks,including exact box/mask correspondence and small-region exclusions;preserve real seating and keep all candidates inactive until supported. No training or another loss variant.",
+  "photos": 10,
+  "selected_source_polygon_full_containment_2px_passes": 0,
+  "source_groups": 10,
+  "training_data_acquisition": "No newly trusted high-confidence coverage was established. Additional source-complete diverse room data is likely needed,but necessity is not proven while21unverified query footprints and42inactive local photos remain to qualify;no downloads authorized."
+}

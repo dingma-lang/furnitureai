@@ -1,0 +1,164 @@
+{
+  "NMS": {
+    "IoU": 0.5,
+    "class_aware": true,
+    "max_per_photo": 300,
+    "minimum_score": 0.15
+  },
+  "all_confusion_candidates_unverified": true,
+  "automatic_training_labels": 0,
+  "class_logit_and_score_terms": 1486800,
+  "deduplication": {
+    "E6_distinct_snapshots": 427,
+    "E7_distinct_snapshots": 59,
+    "E7_exact_Chair_footprints_not_seen_in_E6": 806,
+    "E7_exact_Chair_footprints_seen_in_E6": 588,
+    "E7_exact_snapshot_repeats_of_E6": 0,
+    "combined_distinct_snapshots": 486,
+    "combined_unique_Chair_patch_hotspots": 2367,
+    "duplicate_photos_not_double_counted": 0,
+    "high_Chair_current_unique_patch_hotspots": 1394,
+    "high_Chair_new_patch_hotspots": 773,
+    "high_Chair_patch_hotspots_previously_seen": 621,
+    "known_multi_photo_creator_groups": 2,
+    "limitations": "Exact image/source-photo identity and row-major query trajectory are deduplicated;creator groups are not merged into one photo,nearby boxes do not establish physical identity,and new hotspots are not confirmed new errors",
+    "unique_photo_hashes": 59,
+    "unique_source_photo_ids": 59
+  },
+  "development_or_reserved_mined": false,
+  "genuinely_new_trusted_negative_labels": 0,
+  "high_Chair": {
+    "distinct_footprints": 1394,
+    "existing_negative_containment": 0,
+    "existing_negative_overlap": 66,
+    "footprint_B_unverified": 21,
+    "footprint_C_uncertain": 1373,
+    "interpretations": {
+      "not_reported_Chair_detection": 15,
+      "outside_original_frame_not_negative_eligible": 5,
+      "potential_real_Chair_fragment_protected": 183,
+      "protected_or_incompletely_annotated_furniture_overlap": 856,
+      "unmatched_source_context_or_unknown_not_confirmed_false_positive": 50,
+      "verified_Chair_positive_overlap_not_a_mistake": 285
+    },
+    "known_positive_IoU_ge05": 285,
+    "native_polygon_geometry_candidates": 0,
+    "original_same_query_below015": 1198,
+    "photographs": 54,
+    "potential_fragments": 184,
+    "potential_spatial_duplicates": 496,
+    "protected_overlap": 1324,
+    "raw_ge05": 1394,
+    "raw_ge08": 198,
+    "source_contexts": {
+      "appliance_or_screen": 16,
+      "furniture_fragment_or_ambiguous_part": 2,
+      "other_furniture": 414,
+      "other_native_object": 206,
+      "person_or_body_part": 145,
+      "plant_or_decoration": 4,
+      "seating_or_ambiguous_seating": 299,
+      "uncertain_or_unannotated_real_object": 308
+    },
+    "source_groups": 52,
+    "tiers": {
+      "B_automatic_unverified": 21,
+      "C_uncertain_protected_or_rejected": 1373
+    },
+    "trusted_existing_region_new_high_query_coverage": 0
+  },
+  "known_source_groups": 56,
+  "new_inference_during_analysis": 0,
+  "photos": 59,
+  "raw_queries": 212400,
+  "thresholds": {
+    "0.15": {
+      "postNMS_argmax": {
+        "bed": 431,
+        "cabinet": 303,
+        "chair": 4692,
+        "desk": 215,
+        "lamp": 593,
+        "sofa": 534,
+        "table": 243
+      },
+      "raw_argmax_queries": {
+        "bed": 1003,
+        "cabinet": 441,
+        "chair": 8009,
+        "desk": 328,
+        "lamp": 829,
+        "sofa": 1055,
+        "table": 312
+      },
+      "raw_class_terms": {
+        "bed": 1558,
+        "cabinet": 671,
+        "chair": 9451,
+        "desk": 1255,
+        "lamp": 956,
+        "sofa": 2580,
+        "table": 1190
+      }
+    },
+    "0.5": {
+      "postNMS_argmax": {
+        "bed": 83,
+        "cabinet": 39,
+        "chair": 805,
+        "desk": 64,
+        "lamp": 121,
+        "sofa": 148,
+        "table": 84
+      },
+      "raw_argmax_queries": {
+        "bed": 173,
+        "cabinet": 41,
+        "chair": 1255,
+        "desk": 75,
+        "lamp": 123,
+        "sofa": 227,
+        "table": 85
+      },
+      "raw_class_terms": {
+        "bed": 190,
+        "cabinet": 42,
+        "chair": 1394,
+        "desk": 120,
+        "lamp": 123,
+        "sofa": 318,
+        "table": 144
+      }
+    },
+    "0.8": {
+      "postNMS_argmax": {
+        "bed": 27,
+        "cabinet": 0,
+        "chair": 162,
+        "desk": 10,
+        "lamp": 12,
+        "sofa": 39,
+        "table": 6
+      },
+      "raw_argmax_queries": {
+        "bed": 31,
+        "cabinet": 0,
+        "chair": 188,
+        "desk": 10,
+        "lamp": 12,
+        "sofa": 40,
+        "table": 6
+      },
+      "raw_class_terms": {
+        "bed": 31,
+        "cabinet": 0,
+        "chair": 198,
+        "desk": 12,
+        "lamp": 12,
+        "sofa": 49,
+        "table": 8
+      }
+    }
+  },
+  "unmatched_predictions_are_not_confirmed_FP": true
+}

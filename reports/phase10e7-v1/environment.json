@@ -1,0 +1,51 @@
+{
+  "confidence_score_definition": "Numerically stable for observed finite logits:sigmoid(FP32storedlogits evaluated in FP64)rounded toFP32;uncalibrated class compatibility scores,not verified accuracy probabilities",
+  "cpu_metadata_process_initialized_CUDA": false,
+  "hardware_after_run_readonly": "NVIDIA GeForce RTX 4070 Laptop GPU, 595.79, 8188 MiB",
+  "model_config": {
+    "architectures": [
+      "Owlv2ForObjectDetection"
+    ],
+    "initializer_factor": 1.0,
+    "logit_scale_init_value": 2.6592,
+    "model_type": "owlv2",
+    "projection_dim": 512,
+    "text_config": {
+      "model_type": "owlv2_text_model"
+    },
+    "torch_dtype": "float32",
+    "transformers_version": "4.35.0.dev0",
+    "vision_config": {
+      "image_size": 960,
+      "model_type": "owlv2_vision_model",
+      "patch_size": 16
+    }
+  },
+  "model_config_sha256": "ba9df8c25a4b8461887dd0a93d9252c9cd84697fe8d49a9d8794ce409af9acb2",
+  "no_environment_changes": true,
+  "packages": {
+    "Pillow": "13.0.0",
+    "numpy": "2.5.4",
+    "safetensors": "0.8.0",
+    "scipy": "1.18.1",
+    "torch": "2.14.1+cu132",
+    "transformers": "4.57.6"
+  },
+  "preprocessing_binding_sha256": "9f30644a9b37ffd83dd0bfc44bca41f9ebefc929bc1c0128b4dd09b20f833584",
+  "python_executable": "/home/tristary/furniture-ai-ml/.venv/bin/python",
+  "python_version": "3.14.4",
+  "recorded_worker_settings": {
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "FP16_autocast": true,
+    "OMP_threads": 2,
+    "allow_TF32": false,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": true,
+    "inference_mode": true,
+    "parameter_dtype": "torch.float32",
+    "seed": 6106
+  },
+  "release": "6.18.58.1-microsoft-standard-WSL2",
+  "system": "Linux",
+  "torch_compiled_CUDA": "13.2"
+}

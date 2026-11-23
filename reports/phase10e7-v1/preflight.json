@@ -1,0 +1,17 @@
+{
+  "E5_checkpoint_sha256": "416620a947a96579bdd20c85e7adeb8b60f65c8983e73d3b3943a58ceabef4f0",
+  "GPU_calls": 0,
+  "binding_sha256": "2a4956fdd23b51e85a2dfe050521b26fd4de9960d2c64c45a5cfb192f0e06aad",
+  "development_or_reserved_images_opened": 0,
+  "exact_processor_tensor_contracts": 59,
+  "expected_uncompressed_array_bytes": 29736000,
+  "image_hashes_verified": 59,
+  "live_E5_trainable_sha256": "7765a000e8bb824bf2bb011a6d2e9d792e27fd85f5f7135fe80d4422d9c43e43",
+  "original_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "photos": 59,
+  "positive_boxes": 182,
+  "precision": "FP16autocast_forward/FP32logits_boxes;FP64original-coordinate_mapping",
+  "precision_comparability": "Matches existing optimization-teacher/training-forward contract;E5development inference used FP32 and is not rerun or compared as an equal-precision benchmark",
+  "source_groups": 56,
+  "status": "PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "GPU_forwards": 0,
+  "passed": 62,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "reports/phase10e7-v1/CPU-E7-068489e9.log",
+      "name": "E7",
+      "passed": 16,
+      "sha256": "01cd5b5532ba012d0749e697782f1719f0bb7d54a461496a9490aec48fe9220a"
+    },
+    {
+      "log": "reports/phase10e7-v1/CPU-E6-890b6a2f.log",
+      "name": "E6",
+      "passed": 26,
+      "sha256": "f1bdbbba352c60be3dcc8faf03841d594900f4fbc976a5aaac81984e2f034e8f"
+    },
+    {
+      "log": "reports/phase10e7-v1/CPU-E1-mask-cache-e754acab.log",
+      "name": "E1-mask-cache",
+      "passed": 20,
+      "sha256": "3db5177915cd0a776de7f4decc2128e674ae3b9b83092ab890c98b715b4eb02c"
+    }
+  ]
+}

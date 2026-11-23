@@ -1,0 +1,8 @@
+{
+  "additional_GPU_forwards": 0,
+  "log": "reports/phase10e7-v1/CPU-analysis-d6c998f6.log",
+  "passed": 8,
+  "preflight_passed": 62,
+  "sha256": "e1dc0f34c6c71d08e0be741ac0f9ebef21a90c6c5b4b706468d12321a1d44dae",
+  "status": "PASS"
+}
