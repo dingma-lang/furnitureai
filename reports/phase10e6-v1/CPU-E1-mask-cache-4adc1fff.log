@@ -1,0 +1,25 @@
+test_both_box_containment_not_center (test_distillationE.MaskLossTests.test_both_box_containment_not_center) ... ok
+test_controlled_deviation_and_normalization (test_distillationE.MaskLossTests.test_controlled_deviation_and_normalization) ... ok
+test_distillation_routes_no_box_gradient (test_distillationE.MaskLossTests.test_distillation_routes_no_box_gradient) ... ok
+test_empty_mask_finite_zero_connected (test_distillationE.MaskLossTests.test_empty_mask_finite_zero_connected) ... ok
+test_identical_loss_and_gradient_zero (test_distillationE.MaskLossTests.test_identical_loss_and_gradient_zero) ... ok
+test_low_teacher_confidence_not_absence (test_distillationE.MaskLossTests.test_low_teacher_confidence_not_absence) ... ok
+test_missing_coefficient_and_fake_source_rejected (test_distillationE.MaskLossTests.test_missing_coefficient_and_fake_source_rejected) ... ok
+test_only_supported_chair_query_not_seven_classes (test_distillationE.MaskLossTests.test_only_supported_chair_query_not_seven_classes) ... ok
+test_positive_chairs_have_priority_even_teacher_wrong (test_distillationE.MaskLossTests.test_positive_chairs_have_priority_even_teacher_wrong) ... ok
+test_protected_unknown_and_ignored_block (test_distillationE.MaskLossTests.test_protected_unknown_and_ignored_block) ... ok
+test_shape_class_and_nonfinite_rejected (test_distillationE.MaskLossTests.test_shape_class_and_nonfinite_rejected) ... ok
+test_teacher_negative_conflict_not_copied (test_distillationE.MaskLossTests.test_teacher_negative_conflict_not_copied) ... ok
+test_teacher_targets_cannot_receive_gradients (test_distillationE.MaskLossTests.test_teacher_targets_cannot_receive_gradients) ... ok
+test_unknown_class_drift_not_claimed_constrained (test_distillationE.MaskLossTests.test_unknown_class_drift_not_claimed_constrained) ... ok
+test_zero_coefficient_replays_existing_positive_and_box_gradients (test_distillationE.MaskLossTests.test_zero_coefficient_replays_existing_positive_and_box_gradients) ... ok
+test_all_correspondence_fields_fail_closed (test_distillationE.CacheTests.test_all_correspondence_fields_fail_closed) ... ok
+test_array_hash_tampering_rejected (test_distillationE.CacheTests.test_array_hash_tampering_rejected) ... ok
+test_exact59_and_training_only_hash_alignment (test_distillationE.CacheTests.test_exact59_and_training_only_hash_alignment) ... ok
+test_immutability_and_detached_tensor_copy (test_distillationE.CacheTests.test_immutability_and_detached_tensor_copy) ... ok
+test_no_training_development_group_overlap (test_distillationE.CacheTests.test_no_training_development_group_overlap) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.283s
+
+OK

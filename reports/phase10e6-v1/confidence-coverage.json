@@ -1,0 +1,108 @@
+{
+  "counts_repeat_model_states": true,
+  "duplicate_measurement": "Same-image/state/class query IoU>=0.5 with another reported query;not instance identity",
+  "original_comparison": "Same pinned patch/query index on same source image;box heads can differ,so not necessarily the same object",
+  "per_target": {
+    "bed": {
+      "confidence_bands": {
+        "0.50_to_under_0.80": 753,
+        "0.80_to_1.00": 85
+      },
+      "exact_protected_overlap_observations": 826,
+      "existing_negative_region_overlap_observations": 166,
+      "ge08": 85,
+      "observations": 838,
+      "original_same_query_below015": 627,
+      "original_same_query_ge05": 83,
+      "photographs": 31,
+      "prior_inactive_negative_overlap_observations": 6,
+      "source_context_ge05": {
+        "furniture_fragment_or_ambiguous_part": 20,
+        "other_furniture": 489,
+        "other_native_object": 40,
+        "person_or_body_part": 6,
+        "seating_or_ambiguous_seating": 37,
+        "uncertain_or_unannotated_real_object": 246
+      },
+      "source_context_ge08": {
+        "other_furniture": 64,
+        "seating_or_ambiguous_seating": 3,
+        "uncertain_or_unannotated_real_object": 18
+      },
+      "source_groups": 29,
+      "source_groups_ge08": 7,
+      "suspected_spatial_redundancy": 386
+    },
+    "chair": {
+      "confidence_bands": {
+        "0.50_to_under_0.80": 6870,
+        "0.80_to_1.00": 937
+      },
+      "exact_protected_overlap_observations": 7302,
+      "existing_negative_region_overlap_observations": 886,
+      "ge08": 937,
+      "observations": 7807,
+      "original_same_query_below015": 6916,
+      "original_same_query_ge05": 0,
+      "photographs": 24,
+      "prior_inactive_negative_overlap_observations": 144,
+      "source_context_ge05": {
+        "appliance_or_screen": 163,
+        "furniture_fragment_or_ambiguous_part": 27,
+        "other_furniture": 2380,
+        "other_native_object": 85,
+        "person_or_body_part": 1643,
+        "plant_or_decoration": 66,
+        "seating_or_ambiguous_seating": 1510,
+        "uncertain_or_unannotated_real_object": 1933
+      },
+      "source_context_ge08": {
+        "appliance_or_screen": 8,
+        "other_furniture": 275,
+        "other_native_object": 5,
+        "person_or_body_part": 105,
+        "seating_or_ambiguous_seating": 347,
+        "uncertain_or_unannotated_real_object": 197
+      },
+      "source_groups": 24,
+      "source_groups_ge08": 23,
+      "suspected_spatial_redundancy": 2934
+    },
+    "sofa": {
+      "confidence_bands": {
+        "0.50_to_under_0.80": 2176,
+        "0.80_to_1.00": 283
+      },
+      "exact_protected_overlap_observations": 2413,
+      "existing_negative_region_overlap_observations": 571,
+      "ge08": 283,
+      "observations": 2459,
+      "original_same_query_below015": 1712,
+      "original_same_query_ge05": 39,
+      "photographs": 29,
+      "prior_inactive_negative_overlap_observations": 67,
+      "source_context_ge05": {
+        "appliance_or_screen": 9,
+        "furniture_fragment_or_ambiguous_part": 9,
+        "other_furniture": 1040,
+        "other_native_object": 12,
+        "person_or_body_part": 419,
+        "plant_or_decoration": 7,
+        "seating_or_ambiguous_seating": 209,
+        "uncertain_or_unannotated_real_object": 754
+      },
+      "source_context_ge08": {
+        "other_furniture": 183,
+        "person_or_body_part": 19,
+        "seating_or_ambiguous_seating": 49,
+        "uncertain_or_unannotated_real_object": 32
+      },
+      "source_groups": 29,
+      "source_groups_ge08": 19,
+      "suspected_spatial_redundancy": 834
+    }
+  },
+  "raw_queries_are_not_independent_mistakes": true,
+  "source_context": ">=70%query area inside native BBOX is context only,not full visible mask containment",
+  "training_eligible_new": 0
+}

@@ -1,0 +1,11 @@
+{
+  "E5_full_training_raw_caches": 0,
+  "E5_raw_development_caches_excluded": 19,
+  "E5_training_presentations_with_summary_only": 295,
+  "nonoriginal_snapshot_images": 24,
+  "optimization_images_with_any_cache": 59,
+  "raw_source_bound_files": 489,
+  "unindexed_files_not_mined": true,
+  "unindexed_non_evaluation_files": 147,
+  "unique_snapshots": 419
+}

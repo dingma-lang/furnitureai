@@ -1,0 +1,14 @@
+test_budget_epochs_updates_runtime (test_experiment5.ExperimentTests.test_budget_epochs_updates_runtime) ... ok
+test_complete_combined_gate_keeps_all_parameters_unchanged (test_experiment5.ExperimentTests.test_complete_combined_gate_keeps_all_parameters_unchanged) ... ok
+test_gradient_monitors_zero_and_nonzero_without_retuning (test_experiment5.ExperimentTests.test_gradient_monitors_zero_and_nonzero_without_retuning) ... ok
+test_import_launch_worker_without_torch (test_experiment5.ExperimentTests.test_import_launch_worker_without_torch) ... ok
+test_pinned_loss_scale_coefficient_and_syntax (test_experiment5.ExperimentTests.test_pinned_loss_scale_coefficient_and_syntax) ... ok
+test_box_helper_matches_original_scalar (test_recovery4.PrecisionTests.test_box_helper_matches_original_scalar) ... ok
+test_combined_backward_eight_tensors_no_frozen_gradients_or_updates (test_recovery4.PrecisionTests.test_combined_backward_eight_tensors_no_frozen_gradients_or_updates) ... ok
+test_training_precision_requires_explicit_opt_in (test_recovery4.PrecisionTests.test_training_precision_requires_explicit_opt_in) ... ok
+test_zero_coefficient_same_loss_and_gradients_on_same_widened_path (test_recovery4.PrecisionTests.test_zero_coefficient_same_loss_and_gradients_on_same_widened_path) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.195s
+
+OK

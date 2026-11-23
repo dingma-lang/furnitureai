@@ -1,0 +1,31 @@
+{
+  "acceptance_data_never_negative_mining": true,
+  "actual_intake_records": 0,
+  "approval_required_for_actual_collection": true,
+  "existing_exposed_or_frozen_auto_promoted": 0,
+  "existing_long_term_target_photographs": 140,
+  "first_collection_batch_target": 20,
+  "no_scoring": true,
+  "target_minimum_instances_per_class": 50,
+  "threshold": 0.15,
+  "verified_complete_instances": {
+    "bed": 0,
+    "cabinet": 0,
+    "chair": 0,
+    "desk": 0,
+    "lamp": 0,
+    "sofa": 0,
+    "table": 0
+  },
+  "verified_eligible_photographs": 0,
+  "workflow": [
+    "Recruit individually authorized new room/source groups;choose sources without inspecting model outputs",
+    "Freeze intended independent roles before acquisition;use separate source groups for any calibration/training photos",
+    "Record creator/license/consent,source and capture-session evidence,hashes,dimensions and duplicate-group checks",
+    "A blind annotator reviews ALL7categories,including explicit zero/absent categories,and whole-object bbox extents;annotate seating/bar stools as Chair",
+    "Resolve Table/Desk,whole Cabinet versus fronts,and standalone Lamp versus fixtures;unresolved photos stay ineligible",
+    "Second reviewer checks completeness and \u226520%of boxes;adjudicate without seeing detector predictions",
+    "Validate via acceptanceE6.py,freeze image/annotation/protocol hashes,then request a separately authorized single comparison",
+    "Report all7category PR/AP50/AP75,matched recall,duplicates/fragmentation and source-group bootstrap uncertainty;never train or tune on acceptance"
+  ]
+}

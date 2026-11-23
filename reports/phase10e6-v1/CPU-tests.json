@@ -1,0 +1,37 @@
+{
+  "GPU_calls": 0,
+  "passed": 81,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "reports/phase10e6-v1/CPU-E6-1c888aaa.log",
+      "name": "E6",
+      "passed": 24,
+      "sha256": "6833a66125a9fa6e9ce12973e47a1847ee6e37d386769a018d4898bed6de3307"
+    },
+    {
+      "log": "reports/phase10e6-v1/CPU-E5-5cb45dc7.log",
+      "name": "E5",
+      "passed": 9,
+      "sha256": "8767f80d3115ee90757e23067474f2229b53e1f7125247fcd00e1528631c059d"
+    },
+    {
+      "log": "reports/phase10e6-v1/CPU-E1-mask-cache-0a71464d.log",
+      "name": "E1-mask-cache",
+      "passed": 20,
+      "sha256": "591370e50b39685765150a297a5990a3b0591907b8f0da1e1fce94aaed353ebf"
+    },
+    {
+      "log": "reports/phase10e6-v1/CPU-C11-scope-d8c2cd99.log",
+      "name": "C11-scope",
+      "passed": 21,
+      "sha256": "f1a7277b1405508e9319ece09dd2898837eba3c97e0b76603e5235360904bfc8"
+    },
+    {
+      "log": "reports/phase10e6-v1/CPU-metrics-9c41e5c0.log",
+      "name": "metrics",
+      "passed": 7,
+      "sha256": "11a688325d8ed7ae140048f4203b6d9abca777520eec445fd8f0f42e11ea7261"
+    }
+  ]
+}

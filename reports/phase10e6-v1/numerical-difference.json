@@ -1,0 +1,10 @@
+{
+  "development_used_for_mining": false,
+  "maximum_square_box_difference": 3.36766242980957e-05,
+  "new_inference": false,
+  "query_count": 68400,
+  "raw_argmax_changes": 28,
+  "raw_logit_RMS_difference": 0.0007516335804014817,
+  "raw_logit_max_abs_difference": 0.003997802734375,
+  "raw_logit_mean_difference": -0.0006252821085980118
+}

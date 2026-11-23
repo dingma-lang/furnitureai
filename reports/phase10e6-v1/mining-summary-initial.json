@@ -1,0 +1,62 @@
+{
+  "all_candidates_unactivated": true,
+  "confidence_and_source_context": {
+    "bed": {
+      "furniture_fragment_or_ambiguous_part": 20,
+      "other_furniture": 489,
+      "other_native_object": 40,
+      "person_or_body_part": 6,
+      "seating_or_ambiguous_seating": 37,
+      "uncertain_or_unannotated_real_object": 246
+    },
+    "chair": {
+      "appliance_or_screen": 163,
+      "furniture_fragment_or_ambiguous_part": 27,
+      "other_furniture": 2380,
+      "other_native_object": 85,
+      "person_or_body_part": 1643,
+      "plant_or_decoration": 66,
+      "seating_or_ambiguous_seating": 1510,
+      "uncertain_or_unannotated_real_object": 1933
+    },
+    "sofa": {
+      "appliance_or_screen": 9,
+      "furniture_fragment_or_ambiguous_part": 9,
+      "other_furniture": 1040,
+      "other_native_object": 12,
+      "person_or_body_part": 419,
+      "plant_or_decoration": 7,
+      "seating_or_ambiguous_seating": 209,
+      "uncertain_or_unannotated_real_object": 754
+    }
+  },
+  "development_or_reserved_mined": false,
+  "geometric_source_candidates": 0,
+  "new_inference": 0,
+  "new_trusted_hard_negatives": 0,
+  "per_target": {
+    "bed": {
+      "postNMS_ge05": 335,
+      "postNMS_ge08": 70,
+      "raw_ge05": 838,
+      "raw_ge08": 85
+    },
+    "chair": {
+      "postNMS_ge05": 4281,
+      "postNMS_ge08": 702,
+      "raw_ge05": 7807,
+      "raw_ge08": 937
+    },
+    "sofa": {
+      "postNMS_ge05": 1122,
+      "postNMS_ge08": 241,
+      "raw_ge05": 2459,
+      "raw_ge08": 283
+    }
+  },
+  "raw_query_observations": 11104,
+  "snapshot_counts_not_independent_examples": true,
+  "unique_candidate_footprints": 9964,
+  "unique_snapshots": 427,
+  "unmatched_not_automatically_FP": true
+}

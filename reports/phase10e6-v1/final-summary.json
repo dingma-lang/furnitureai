@@ -1,0 +1,106 @@
+{
+  "E5_verification": "PASS",
+  "GPU_forwards": 0,
+  "allocation_method": "Unique inodes across E6data,reports and tools,including retained atomic recovery links;measured before final small summary/seal",
+  "backward_calls": 0,
+  "branch": "experiment/phase10e6-hard-negative-expansion",
+  "cache": {
+    "added_initial_cache_aliases": 96,
+    "duplicate_file_aliases": 190,
+    "new_numerical_snapshots_from_alias_expansion": 0,
+    "no_validation_cache_body_used_for_mining": true,
+    "remaining_files_are19_internal_validation_recovery_caches": true,
+    "remaining_unindexed_files": 19,
+    "source_bound_raw_files": 617,
+    "unique_snapshots": 427
+  },
+  "candidate_counts": {
+    "A": 0,
+    "B": 183,
+    "B_by_context": {
+      "appliance_or_screen": 49,
+      "other_native_object": 3,
+      "person_or_body_part": 98,
+      "plant_or_decoration": 33
+    },
+    "B_by_target": {
+      "chair": 174,
+      "sofa": 9
+    },
+    "B_photographs": 9,
+    "B_source_groups": 9,
+    "C": 9781,
+    "actual_assistant_views": 24,
+    "existing_region_ge05_coverage": {},
+    "human_reviews_created": 0,
+    "new_eligible_hard_negatives": 0,
+    "new_eligible_photos": 0,
+    "new_eligible_source_groups": 0,
+    "reason_counts": {
+      "Known furniture/ignored/ambiguous overlap blocks negative eligibility": 6131,
+      "Known target overlap;not a confirmed mistake": 1964,
+      "No sufficient source-supported category/visible-region evidence": 289,
+      "Outside original image frame": 42,
+      "Possible real furniture fragment;protected": 1355,
+      "Source-bbox context without certified visible-region absence;not a training negative": 183
+    },
+    "safe_full_polygon_query_candidates": 0,
+    "training_should_proceed": false
+  },
+  "conditional_rights_only_proposal": "reports/phase10e6-v1/conditional-acquisition-proposal.json",
+  "dataset_index": "data/open-images/preparation/phase10e6-v1/dataset-index-v1.json",
+  "dataset_index_sha256": "6ffd2efa4a3ca2219348afe2ade18b7678975a3689d359c2096d2920c6bf303f",
+  "final_tests": {
+    "GPU_calls": 0,
+    "passed": 83,
+    "status": "PASS",
+    "suites": [
+      {
+        "log": "reports/phase10e6-v1/CPU-E6-3ee1e85e.log",
+        "name": "E6",
+        "passed": 26,
+        "sha256": "a971a061193acca5365e32892ed53d473cf8e7b158d129593583086d8260b0c2"
+      },
+      {
+        "log": "reports/phase10e6-v1/CPU-E5-e71bbd24.log",
+        "name": "E5",
+        "passed": 9,
+        "sha256": "fda7f1810ad66b677e84643e047fbb6ac0637c7e404b8d57c5f17999a424d081"
+      },
+      {
+        "log": "reports/phase10e6-v1/CPU-E1-mask-cache-4adc1fff.log",
+        "name": "E1-mask-cache",
+        "passed": 20,
+        "sha256": "479016b5fcdc4ab69136ea69691ffc410531a8b4b397f5edc40b77bdad12c37a"
+      },
+      {
+        "log": "reports/phase10e6-v1/CPU-C11-scope-548b099d.log",
+        "name": "C11-scope",
+        "passed": 21,
+        "sha256": "02644dc5f15067a9981f57c5ef095d15ead77ce5b0ce650853adc52d1886cfe7"
+      },
+      {
+        "log": "reports/phase10e6-v1/CPU-metrics-2c302bb9.log",
+        "name": "metrics",
+        "passed": 7,
+        "sha256": "7fbdcc01a7cb1d8195ad6fbfe3d131429c57b0d5a1cab986939ddf3faa5e82b2"
+      }
+    ]
+  },
+  "historical_data_model_files": 9973,
+  "historical_preservation": "PASS",
+  "inactive_local_photos": 42,
+  "independent_acceptance_photos": 0,
+  "native_annotations_revisited": 381,
+  "new_allocated_bytes_before_summary_and_seal": 49557504,
+  "new_downloads": 0,
+  "next_action": "No training;request59optimization-onlyE5endpointforwardcache,180seconds,6.5GiB,128MiB,zerooptimizersteps",
+  "no_environment_changes": true,
+  "optimizer_updates": 0,
+  "parent_commit": "11bc9fad9c0197e679f8b5eedf6b6ec2dca7e7bb",
+  "photo_acquisition_ready": false,
+  "private_logical_file_bytes_before_seal": 49198842,
+  "python_executable": "/home/tristary/furniture-ai-ml/.venv/bin/python",
+  "python_version": "3.14.4",
+  "status": "CPU_ONLY_COMPLETE"
+}

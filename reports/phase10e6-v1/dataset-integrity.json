@@ -1,0 +1,14 @@
+{
+  "GPU_calls": 0,
+  "development_images_excluded": 19,
+  "new_training_labels": 0,
+  "optimization_images": 59,
+  "raw_cache_files": 617,
+  "remaining_internal_validation_files_excluded": 19,
+  "status": "PASS",
+  "tiers": {
+    "B": 183,
+    "C": 9781
+  },
+  "unique_snapshots": 427
+}

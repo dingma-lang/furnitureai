@@ -1,0 +1,43 @@
+{
+  "annotation_requirements": "Do not infer negatives from missing COCO/LVIS labels;source-visible regions plus actual targeted semantic checks;Table/Desk and Cabinetry/front/whole-Lamp ambiguities remain unresolved",
+  "approved": false,
+  "candidate_manifest_sha256": "019043cbf37ca31c40feb5e12f1ee8a0a251e1ebf748770781ea7f13790e3919",
+  "exact_candidate_manifest": "data/open-images/preparation/phase10e6-v1/conditional-rights-candidates-v1.json",
+  "individual_rights": "CC0/CCBY photo-specific evidence,creator credit,license version,source URL,evidence checksum and timestamp;annotation license separate",
+  "inferred_eligible_hard_negatives": 0,
+  "isolation": "Training-only roles;creator/source/capture groups quarantined if related to any exposed,frozen or acceptance source;all repeated views grouped",
+  "new_requests_or_downloads": 0,
+  "photo_acquisition_ready": false,
+  "priority": "Only after exhausting the local42inactive and E5query-cache gaps",
+  "requested_types": [
+    "Real indoor rooms with chairs plus visible people/body parts,plants,screen/appliance and small household confusers",
+    "Whole-object Sofa/Chair/Table/Bed/Desk/Cabinet/Lamp annotations with project stool semantics",
+    "Visible-instance masks for nonfurniture confusers and precise whole-object boxes for furniture;unknown background stays ignored"
+  ],
+  "rights_verified_new_photos": 0,
+  "source_ids": 64,
+  "stage_A": {
+    "max_requests_per_ID": 1,
+    "max_storage_bytes": 134217728,
+    "max_transfer_bytes": 32000000,
+    "min_interval_seconds": 3,
+    "paused_296_requests_not_resumed": true,
+    "photo_bodies": false,
+    "scope": "Photo-specific rights/creator/source-group evidence audit only",
+    "separate_approval_required": true,
+    "stop_on_429_and_respect_Retry_After": true
+  },
+  "stage_B": {
+    "attempts_per_photo": 2,
+    "estimated_transfer_bytes": [
+      9600000,
+      25600000
+    ],
+    "maximum_photographs": 64,
+    "no_automatic_replacements": true,
+    "per_photo_maximum": 3145728,
+    "proposed_transfer_cap": 100000000,
+    "scope": "Only exact rights/identity-verified IDs surviving StageA;later explicit photo approval",
+    "storage_cap": 536870912
+  }
+}

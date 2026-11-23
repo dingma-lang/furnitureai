@@ -1,0 +1,33 @@
+{
+  "A": 0,
+  "B": 183,
+  "B_by_context": {
+    "appliance_or_screen": 49,
+    "other_native_object": 3,
+    "person_or_body_part": 98,
+    "plant_or_decoration": 33
+  },
+  "B_by_target": {
+    "chair": 174,
+    "sofa": 9
+  },
+  "B_photographs": 9,
+  "B_source_groups": 9,
+  "C": 9781,
+  "actual_assistant_views": 24,
+  "existing_region_ge05_coverage": {},
+  "human_reviews_created": 0,
+  "new_eligible_hard_negatives": 0,
+  "new_eligible_photos": 0,
+  "new_eligible_source_groups": 0,
+  "reason_counts": {
+    "Known furniture/ignored/ambiguous overlap blocks negative eligibility": 6131,
+    "Known target overlap;not a confirmed mistake": 1964,
+    "No sufficient source-supported category/visible-region evidence": 289,
+    "Outside original image frame": 42,
+    "Possible real furniture fragment;protected": 1355,
+    "Source-bbox context without certified visible-region absence;not a training negative": 183
+  },
+  "safe_full_polygon_query_candidates": 0,
+  "training_should_proceed": false
+}
