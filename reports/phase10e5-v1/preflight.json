@@ -1,0 +1,43 @@
+{
+  "GPU_calls": 0,
+  "KD_groups": 15,
+  "calibration_frozen": true,
+  "gate_photos": [
+    {
+      "image_id": "coco2017:000000002347",
+      "positive_classes": [
+        "chair",
+        "sofa"
+      ],
+      "source_group": "flickr-account:68258082@n06",
+      "terms": 1
+    },
+    {
+      "image_id": "coco2017:000000192834",
+      "positive_classes": [
+        "bed"
+      ],
+      "source_group": "flickr-account:vxla",
+      "terms": 34
+    },
+    {
+      "image_id": "coco2017:000000373101",
+      "positive_classes": [
+        "chair",
+        "sofa"
+      ],
+      "source_group": "flickr-account:kojach",
+      "terms": 64
+    }
+  ],
+  "original_KD_terms": 278,
+  "original_tensors": 418,
+  "photos": 59,
+  "positive_boxes": 182,
+  "source_and_partition_unchanged": true,
+  "source_groups": 56,
+  "status": "PASS",
+  "teacher_caches": 59,
+  "trainable_parameters": 1577988,
+  "trainable_tensors": 8
+}

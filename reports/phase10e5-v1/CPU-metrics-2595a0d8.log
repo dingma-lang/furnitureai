@@ -1,0 +1,12 @@
+test_exclusive_outputs (test_phase10c.MetricTests.test_exclusive_outputs) ... ok
+test_full_internal_metric_aggregate_equivalence (test_phase10c.MetricTests.test_full_internal_metric_aggregate_equivalence) ... ok
+test_legacy_events_curves_and_ap_on_cached_exposed_predictions (test_phase10c.MetricTests.test_legacy_events_curves_and_ap_on_cached_exposed_predictions) ... ok
+test_native_scope_equivalence (test_phase10c.MetricTests.test_native_scope_equivalence) ... ok
+test_nms_order_ties_and_strict_iou (test_phase10c.MetricTests.test_nms_order_ties_and_strict_iou) ... ok
+test_no_external_membership (test_phase10c.MetricTests.test_no_external_membership) ... ok
+test_unknown_ignore_and_duplicate (test_phase10c.MetricTests.test_unknown_ignore_and_duplicate) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.376s
+
+OK

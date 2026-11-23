@@ -1,0 +1,32 @@
+{
+  "new_GPU_calls": 0,
+  "passed": 84,
+  "status": "PASS",
+  "suites": [
+    {
+      "log_sha256": "cfb46cc58ff37ac0fdf4cc0948cb07248e0bf1bbffc2629b94f73f1956e6a66d",
+      "name": "E5",
+      "passed": 9
+    },
+    {
+      "log_sha256": "7442d1a1689ff40c8d351388b7295825d9f66b8e2c649b5c0101a49f189cbbb7",
+      "name": "E3-numerics",
+      "passed": 27
+    },
+    {
+      "log_sha256": "787125fe94347b3b981a43cf458433399279892606f6a8f4850b569b874e5f62",
+      "name": "E1-mask-cache",
+      "passed": 20
+    },
+    {
+      "log_sha256": "6a8f05626d7bd47fbc16a7eb94e09e7892aabf457e8905ad31614dcf6706a744",
+      "name": "C11-scope",
+      "passed": 21
+    },
+    {
+      "log_sha256": "0be313d6985f1c0f423b4aef5615295ebb82122897e7308fb5d591ea7efcafc4",
+      "name": "metrics",
+      "passed": 7
+    }
+  ]
+}

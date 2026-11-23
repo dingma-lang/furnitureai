@@ -1,0 +1,47 @@
+{
+  "checkpoint": {
+    "file": "checkpoints/epoch-5.pt",
+    "sha256": "416620a947a96579bdd20c85e7adeb8b60f65c8983e73d3b3943a58ceabef4f0",
+    "updates": 75
+  },
+  "coefficient": 7.063459015854303e-06,
+  "conclusions": {
+    "Chair_misses_decreased": true,
+    "KD_nonzero_gradient_measured": true,
+    "KD_positive_gradient_conflicts": true,
+    "broad_inflation_avoided": false,
+    "causal_limitation": "Historical C11 comparison also differs in FP32 adjoints/unscaled box backward;no matched zero-KD numerical control was authorized.",
+    "coefficient_assessment": "Too weak in aggregate within this sparse mostly-easy-negative coverage to preserve confidence;larger coefficients are not proven safe or useful.",
+    "discrimination_improved_at_matched_recall": false,
+    "major_Sofa_Bed_localization_regression": false,
+    "original_precision_preserved": false,
+    "recall_improved": true
+  },
+  "epochs": 5,
+  "fixed_threshold_results": {
+    "ap50": 0.7675977768894984,
+    "ap75": 0.6058368927292849,
+    "confidence": 0.15,
+    "diagnostic_heuristics": {
+      "category_disagreement_candidates": 29,
+      "fragmentation_candidates": 44,
+      "mixed_object_candidates": 61
+    },
+    "f1": 0.15965166908563136,
+    "fn": 6,
+    "fp": 573,
+    "independent_verified_accuracy": false,
+    "nms_iou": 0.5,
+    "precision": 0.0875796178343949,
+    "recall": 0.9016393442622951,
+    "tp": 55
+  },
+  "immediate_target_met": false,
+  "independent_accuracy_established": false,
+  "new_training_authorized": false,
+  "next_direction": "Improve training-only trusted hard-negative coverage at actual high-confidence Chair-confusion locations,with source evidence and positive/stool protections,before another training run.",
+  "next_direction_executed": false,
+  "outcome": "C \u2014 Ineffective",
+  "training_complete": true,
+  "updates": 75
+}

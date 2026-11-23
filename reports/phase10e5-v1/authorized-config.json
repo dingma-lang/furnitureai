@@ -1,0 +1,99 @@
+{
+  "approved": true,
+  "authorization": "User Phase10E.5 attachment bf313b70-35d6-4af6-b896-14caaceb7fcd",
+  "automatic_retry": false,
+  "calibration_keys": [
+    "class_head.logit_scale.bias",
+    "class_head.logit_scale.weight",
+    "class_head.logit_shift.bias",
+    "class_head.logit_shift.weight"
+  ],
+  "coefficient": 7.063459015854303e-06,
+  "configurations": 1,
+  "gate_extension": "Three existing original correspondence forwards with nonzero coverage across all3 supported positive classes;no extra forwards/precision/loss changes",
+  "gate_ids": [
+    "coco2017:000000002347",
+    "coco2017:000000192834",
+    "coco2017:000000373101"
+  ],
+  "gate_photos": [
+    {
+      "image_id": "coco2017:000000002347",
+      "positive_classes": [
+        "chair",
+        "sofa"
+      ],
+      "source_group": "flickr-account:68258082@n06",
+      "terms": 1
+    },
+    {
+      "image_id": "coco2017:000000192834",
+      "positive_classes": [
+        "bed"
+      ],
+      "source_group": "flickr-account:vxla",
+      "terms": 34
+    },
+    {
+      "image_id": "coco2017:000000373101",
+      "positive_classes": [
+        "chair",
+        "sofa"
+      ],
+      "source_group": "flickr-account:kojach",
+      "terms": 64
+    }
+  ],
+  "learning_rate": 1e-05,
+  "limits": {
+    "VRAM_bytes": 6979321856,
+    "epochs": 5,
+    "forwards": 373,
+    "head_contractions": 354,
+    "output_bytes": 2147483648,
+    "seconds": 600,
+    "updates": 75
+  },
+  "monitoring": "Actual positive/KD parameter VJPs on training forwards;fixed coefficient,scale1;dominance flags do not retune objective",
+  "precision": {
+    "CPU_combined_verified": true,
+    "GPU_full_combined_training_backward_executed": false,
+    "GPU_native_box_verified_photos": 1,
+    "GPU_positive_KD_components_verified": true,
+    "GradScaler": false,
+    "TF32": false,
+    "box_backward": "Native FP16 box branch with FP32 loss/master gradients",
+    "classification_backward": "E3 FP32 observed-node adjoint for ALL classification terms;exact observed forward;not legacy rounded FP16 adjoint",
+    "classification_source": "tools/phase10e3-v1/stable3.py",
+    "forward": "FP16 CUDA autocast",
+    "implementation": "tools/phase10e4-v1/precision4.py:combined",
+    "loss": "FP32 unchanged C11/C8corrected base+fixedcoefficient*selectiveMSE",
+    "loss_scale": 1.0
+  },
+  "prepared_proposal_approval": {
+    "approved": true,
+    "coefficient": 7.063459015854303e-06,
+    "limits": {
+      "VRAM_bytes": 6979321856,
+      "epochs": 5,
+      "forwards": 373,
+      "head_contractions": 354,
+      "output_bytes": 2147483648,
+      "seconds": 600,
+      "updates": 75
+    },
+    "mode": "teacher_distillation_training",
+    "proposal_sha256": "5c98656d29db1be05d52cb976d20d19276ef27ca8072c7ebd2b6680fea80acd4"
+  },
+  "seed": 6106,
+  "trainable_keys": [
+    "box_head.dense0.bias",
+    "box_head.dense0.weight",
+    "box_head.dense1.bias",
+    "box_head.dense1.weight",
+    "box_head.dense2.bias",
+    "box_head.dense2.weight",
+    "class_head.dense0.bias",
+    "class_head.dense0.weight"
+  ]
+}

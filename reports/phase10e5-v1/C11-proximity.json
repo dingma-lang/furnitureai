@@ -1,0 +1,10 @@
+{
+  "RMS_logit_difference": 0.0007516335804014817,
+  "inference_runs": 0,
+  "interpretation": "Distinct newly saved checkpoint/outputs,nearly identical benchmark behavior;cannot isolate KD from numerical-backward differences.",
+  "logits_bit_identical": false,
+  "maximum_absolute_logit_difference": 0.003997802734375,
+  "maximum_absolute_normalized_box_difference": 2.1696090698242188e-05,
+  "mean_logit_difference": -0.0006252821085980118,
+  "raw_argmax_disagreements": 28
+}

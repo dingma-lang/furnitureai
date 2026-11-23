@@ -1,0 +1,9 @@
+{
+  "coefficient_changed": false,
+  "independent_accuracy_established": false,
+  "localization_regression_flag": false,
+  "matched_recall_precision_delta": -0.12095702259636687,
+  "more_training_authorized": false,
+  "outcome": "C \u2014 Ineffective",
+  "precision60_recall_gain": false
+}

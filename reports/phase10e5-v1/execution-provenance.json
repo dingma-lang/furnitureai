@@ -1,0 +1,274 @@
+{
+  "automatic_retries": 0,
+  "downloads": 0,
+  "extra_variants": 0,
+  "final_checkpoint": {
+    "file": "checkpoints/epoch-5.pt",
+    "sha256": "416620a947a96579bdd20c85e7adeb8b60f65c8983e73d3b3943a58ceabef4f0",
+    "updates": 75
+  },
+  "final_frozen_sha256": "f7d2c40ca4f862711ac2b2da74729a547150b8d922fcea8fe3a41c60f491fd1d",
+  "gate": {
+    "frozen_unchanged": true,
+    "initial_terms": 278,
+    "optimizer_constructed": false,
+    "optimizer_updates": 0,
+    "original_trainable_unchanged": true,
+    "records": [
+      {
+        "KD_coverage": 1,
+        "KD_loss": 0.0,
+        "base_gradient_norm": 81.00392470164556,
+        "coefficient_application_verified": true,
+        "combined_gradient_norm": 81.00392470164556,
+        "diagnostics": {
+          "KD_dominant": false,
+          "KD_positive_cosine": null,
+          "above_recovery_half_bound": false,
+          "box_routes_absent": true,
+          "loss_scale": 1.0,
+          "method": "analytic exact zero,no KD VJP",
+          "positive_projection_L2": 22.717693866887554,
+          "unit_KD_projection_L2": 0.0,
+          "weighted_KD_positive_ratio": 0.0,
+          "weighted_KD_projection_L2": 0.0,
+          "zero_positive_nonzero_KD": false
+        },
+        "finite_KD_parameter_gradients": true,
+        "image_id": "coco2017:000000002347",
+        "loss_scale": 1.0,
+        "model_updates": 0,
+        "native_box_parameter_norm": 77.75308484195494,
+        "optimizer_constructed": false,
+        "positive_classes": [
+          "chair",
+          "sofa"
+        ],
+        "replay": {
+          "logits": {
+            "RMS_difference": 0.0,
+            "absolute_difference_quantiles": {
+              "0": 0.0,
+              "0.01": 0.0,
+              "0.5": 0.0,
+              "0.9": 0.0,
+              "0.99": 0.0,
+              "1": 0.0
+            },
+            "accepted": true,
+            "atol": 0.02,
+            "bit_identical": true,
+            "max_absolute_difference": 0.0,
+            "rtol": 0.001
+          },
+          "square_cxcywh": {
+            "RMS_difference": 0.0,
+            "absolute_difference_quantiles": {
+              "0": 0.0,
+              "0.01": 0.0,
+              "0.5": 0.0,
+              "0.9": 0.0,
+              "0.99": 0.0,
+              "1": 0.0
+            },
+            "accepted": true,
+            "atol": 1e-05,
+            "bit_identical": true,
+            "max_absolute_difference": 0.0,
+            "rtol": 1e-05
+          }
+        },
+        "source_group": "flickr-account:68258082@n06",
+        "status": "PASS"
+      },
+      {
+        "KD_coverage": 34,
+        "KD_loss": 0.0,
+        "base_gradient_norm": 136.15215601535675,
+        "coefficient_application_verified": true,
+        "combined_gradient_norm": 136.15215601535675,
+        "diagnostics": {
+          "KD_dominant": false,
+          "KD_positive_cosine": null,
+          "above_recovery_half_bound": false,
+          "box_routes_absent": true,
+          "loss_scale": 1.0,
+          "method": "analytic exact zero,no KD VJP",
+          "positive_projection_L2": 59.34483497830148,
+          "unit_KD_projection_L2": 0.0,
+          "weighted_KD_positive_ratio": 0.0,
+          "weighted_KD_projection_L2": 0.0,
+          "zero_positive_nonzero_KD": false
+        },
+        "finite_KD_parameter_gradients": true,
+        "image_id": "coco2017:000000192834",
+        "loss_scale": 1.0,
+        "model_updates": 0,
+        "native_box_parameter_norm": 122.53815917600024,
+        "optimizer_constructed": false,
+        "positive_classes": [
+          "bed"
+        ],
+        "replay": {
+          "logits": {
+            "RMS_difference": 0.0,
+            "absolute_difference_quantiles": {
+              "0": 0.0,
+              "0.01": 0.0,
+              "0.5": 0.0,
+              "0.9": 0.0,
+              "0.99": 0.0,
+              "1": 0.0
+            },
+            "accepted": true,
+            "atol": 0.02,
+            "bit_identical": true,
+            "max_absolute_difference": 0.0,
+            "rtol": 0.001
+          },
+          "square_cxcywh": {
+            "RMS_difference": 0.0,
+            "absolute_difference_quantiles": {
+              "0": 0.0,
+              "0.01": 0.0,
+              "0.5": 0.0,
+              "0.9": 0.0,
+              "0.99": 0.0,
+              "1": 0.0
+            },
+            "accepted": true,
+            "atol": 1e-05,
+            "bit_identical": true,
+            "max_absolute_difference": 0.0,
+            "rtol": 1e-05
+          }
+        },
+        "source_group": "flickr-account:vxla",
+        "status": "PASS"
+      },
+      {
+        "KD_coverage": 64,
+        "KD_loss": 0.0,
+        "base_gradient_norm": 95.25391804480698,
+        "coefficient_application_verified": true,
+        "combined_gradient_norm": 95.25391804480698,
+        "diagnostics": {
+          "KD_dominant": false,
+          "KD_positive_cosine": null,
+          "above_recovery_half_bound": false,
+          "box_routes_absent": true,
+          "loss_scale": 1.0,
+          "method": "analytic exact zero,no KD VJP",
+          "positive_projection_L2": 33.87929297489426,
+          "unit_KD_projection_L2": 0.0,
+          "weighted_KD_positive_ratio": 0.0,
+          "weighted_KD_projection_L2": 0.0,
+          "zero_positive_nonzero_KD": false
+        },
+        "finite_KD_parameter_gradients": true,
+        "image_id": "coco2017:000000373101",
+        "loss_scale": 1.0,
+        "model_updates": 0,
+        "native_box_parameter_norm": 89.02529086580029,
+        "optimizer_constructed": false,
+        "positive_classes": [
+          "chair",
+          "sofa"
+        ],
+        "replay": {
+          "logits": {
+            "RMS_difference": 0.0,
+            "absolute_difference_quantiles": {
+              "0": 0.0,
+              "0.01": 0.0,
+              "0.5": 0.0,
+              "0.9": 0.0,
+              "0.99": 0.0,
+              "1": 0.0
+            },
+            "accepted": true,
+            "atol": 0.02,
+            "bit_identical": true,
+            "max_absolute_difference": 0.0,
+            "rtol": 0.001
+          },
+          "square_cxcywh": {
+            "RMS_difference": 0.0,
+            "absolute_difference_quantiles": {
+              "0": 0.0,
+              "0.01": 0.0,
+              "0.5": 0.0,
+              "0.9": 0.0,
+              "0.99": 0.0,
+              "1": 0.0
+            },
+            "accepted": true,
+            "atol": 1e-05,
+            "bit_identical": true,
+            "max_absolute_difference": 0.0,
+            "rtol": 1e-05
+          }
+        },
+        "source_group": "flickr-account:kojach",
+        "status": "PASS"
+      }
+    ],
+    "resources": {
+      "VJPs": 15,
+      "actual_forwards": 59,
+      "allocated_output_bytes": 1417216,
+      "backwards": 0,
+      "contractions": 59,
+      "epochs": 0,
+      "forwards": 59,
+      "peak_allocated_bytes": 1695397376,
+      "peak_reserved_bytes": 2327838720,
+      "phase": "preupdate-gate",
+      "photo": "e7fe54073a9a84bc",
+      "seconds": 36.71802388102515,
+      "updates": 0
+    },
+    "status": "PASS"
+  },
+  "initial_frozen_sha256": "f7d2c40ca4f862711ac2b2da74729a547150b8d922fcea8fe3a41c60f491fd1d",
+  "launch": {
+    "automatic_retry": false,
+    "exit_code": 0,
+    "reason": null,
+    "wall_seconds": 193.72621471603634
+  },
+  "original_model_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "post_CPU_tests": 84,
+  "pre_CPU_tests": 84,
+  "precision": {
+    "CPU_combined_verified": true,
+    "GPU_full_combined_training_backward_executed": false,
+    "GPU_native_box_verified_photos": 1,
+    "GPU_positive_KD_components_verified": true,
+    "GradScaler": false,
+    "TF32": false,
+    "box_backward": "Native FP16 box branch with FP32 loss/master gradients",
+    "classification_backward": "E3 FP32 observed-node adjoint for ALL classification terms;exact observed forward;not legacy rounded FP16 adjoint",
+    "classification_source": "tools/phase10e3-v1/stable3.py",
+    "forward": "FP16 CUDA autocast",
+    "implementation": "tools/phase10e4-v1/precision4.py:combined",
+    "loss": "FP32 unchanged C11/C8corrected base+fixedcoefficient*selectiveMSE",
+    "loss_scale": 1.0
+  },
+  "production_changed": false,
+  "resources": {
+    "VJPs": 383,
+    "actual_forwards": 373,
+    "allocated_output_bytes": 208683008,
+    "backwards": 295,
+    "contractions": 354,
+    "epochs": 5,
+    "forwards": 373,
+    "peak_allocated_bytes": 2024899584,
+    "peak_reserved_bytes": 2327838720,
+    "phase": "complete",
+    "photo": "d224c4e1ea5c3d49",
+    "seconds": 191.9777208570158,
+    "updates": 75
+  }
+}

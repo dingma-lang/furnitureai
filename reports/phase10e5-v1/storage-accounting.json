@@ -1,0 +1,6 @@
+{
+  "approved_output_cap": 2147483648,
+  "conservative_path_allocated_bytes_before_final_seal": 221798400,
+  "model_weights_kept_local": true,
+  "unique_inode_allocated_bytes_before_final_seal": 111009792
+}

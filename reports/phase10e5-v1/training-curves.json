@@ -1,0 +1,649 @@
+{
+  "epochs": [
+    {
+      "KD_dominant": 0,
+      "KD_term_occurrences": 276,
+      "above_recovery_half_bound": 0,
+      "active_KD_photos": 15,
+      "active_KD_source_groups": 15,
+      "checkpoint": {
+        "active_KD_source_groups": [
+          "flickr-account:68258082@n06",
+          "flickr-account:98894271@n00",
+          "flickr-account:davidgiesberg",
+          "flickr-account:deepphoto",
+          "flickr-account:emilysnuffer",
+          "flickr-account:johanl",
+          "flickr-account:jonnygoldstein",
+          "flickr-account:kojach",
+          "flickr-account:laruth",
+          "flickr-account:marcusspaapen",
+          "flickr-account:mikebabcock",
+          "flickr-account:mikecogh",
+          "flickr-account:oldrebel",
+          "flickr-account:pagel",
+          "flickr-account:vxla"
+        ],
+        "checkpoint": {
+          "file": "checkpoints/epoch-1.pt",
+          "sha256": "3bb886261cc6da7c0ec49c1b07b2971af3283a5d695388a315f9aecb251f68c2",
+          "updates": 15
+        },
+        "epoch": 1,
+        "images": 59,
+        "parameter_changes": {
+          "box_head.dense0.bias": {
+            "delta_L2": 0.0005531006055061412,
+            "delta_maximum": 0.00011218246072530746,
+            "relative_delta_L2": 0.003928098208245434
+          },
+          "box_head.dense0.weight": {
+            "delta_L2": 0.02771788350680449,
+            "delta_maximum": 0.00013724900782108307,
+            "relative_delta_L2": 0.0009503005661546806
+          },
+          "box_head.dense1.bias": {
+            "delta_L2": 0.0004960673000082452,
+            "delta_maximum": 7.616356015205383e-05,
+            "relative_delta_L2": 0.0044419754360618124
+          },
+          "box_head.dense1.weight": {
+            "delta_L2": 0.020893606873412025,
+            "delta_maximum": 0.00012839585542678833,
+            "relative_delta_L2": 0.0007211975082115661
+          },
+          "box_head.dense2.bias": {
+            "delta_L2": 3.7360233775418445e-05,
+            "delta_maximum": 3.558665048331022e-05,
+            "relative_delta_L2": 0.0020080902434813793
+          },
+          "box_head.dense2.weight": {
+            "delta_L2": 0.00128517372537156,
+            "delta_maximum": 0.00010036329331342131,
+            "relative_delta_L2": 0.0017744782565591835
+          },
+          "class_head.dense0.bias": {
+            "delta_L2": 0.0027444466731419087,
+            "delta_maximum": 0.00014176522381603718,
+            "relative_delta_L2": 0.027297681902768513
+          },
+          "class_head.dense0.weight": {
+            "delta_L2": 0.057967747504232156,
+            "delta_maximum": 0.00014796853065490723,
+            "relative_delta_L2": 0.0059753787927662155
+          }
+        },
+        "resources": {
+          "VJPs": 87,
+          "actual_forwards": 118,
+          "allocated_output_bytes": 41287680,
+          "backwards": 59,
+          "contractions": 118,
+          "epochs": 1,
+          "forwards": 118,
+          "peak_allocated_bytes": 1716244992,
+          "peak_reserved_bytes": 2327838720,
+          "phase": "training",
+          "photo": "coco2017:000000479935",
+          "seconds": 65.57148260599934,
+          "updates": 15
+        }
+      },
+      "epoch": 1,
+      "losses": {
+        "box": 0.4627415568141614,
+        "classification": 0.356265591496949,
+        "positive": 0.35597976642045176,
+        "unit_KD": 0.13118706094258922,
+        "weighted_KD": 9.266344283783598e-07
+      },
+      "photo_presentations": 59,
+      "positive_KD_cosine": {
+        "0": -0.9274882762218581,
+        "0.5": -0.8546288744054555,
+        "0.9": -0.47445268818087555,
+        "0.99": -0.45743844257350935,
+        "1": -0.45606340240148363
+      },
+      "positive_projection_L2": {
+        "0": 0.7212975532916619,
+        "0.5": 23.46045916145967,
+        "0.9": 40.70818694563139,
+        "0.99": 55.295878114071826,
+        "1": 62.48882387698098
+      },
+      "training_logit_drift_mean": 0.5740909280268967,
+      "updates": 15,
+      "weighted_KD_positive_ratio": {
+        "0": 0.0,
+        "0.5": 4.185235191962234e-05,
+        "0.9": 0.0003931347421921799,
+        "0.99": 0.0005891930018447343,
+        "1": 0.0005962476017306592
+      },
+      "weighted_KD_projection_L2": {
+        "0": 0.0,
+        "0.5": 0.001704245668721594,
+        "0.9": 0.0035124578764499626,
+        "0.99": 0.004829392258334766,
+        "1": 0.005013286853731392
+      }
+    },
+    {
+      "KD_dominant": 0,
+      "KD_term_occurrences": 274,
+      "above_recovery_half_bound": 0,
+      "active_KD_photos": 15,
+      "active_KD_source_groups": 15,
+      "checkpoint": {
+        "active_KD_source_groups": [
+          "flickr-account:68258082@n06",
+          "flickr-account:98894271@n00",
+          "flickr-account:davidgiesberg",
+          "flickr-account:deepphoto",
+          "flickr-account:emilysnuffer",
+          "flickr-account:johanl",
+          "flickr-account:jonnygoldstein",
+          "flickr-account:kojach",
+          "flickr-account:laruth",
+          "flickr-account:marcusspaapen",
+          "flickr-account:mikebabcock",
+          "flickr-account:mikecogh",
+          "flickr-account:oldrebel",
+          "flickr-account:pagel",
+          "flickr-account:vxla"
+        ],
+        "checkpoint": {
+          "file": "checkpoints/epoch-2.pt",
+          "sha256": "8981b841eaf807dc6c7ce404f046151016fc577b3c730dbf16e6adfed395b0c8",
+          "updates": 30
+        },
+        "epoch": 2,
+        "images": 59,
+        "parameter_changes": {
+          "box_head.dense0.bias": {
+            "delta_L2": 0.0007857987650367417,
+            "delta_maximum": 0.00014475872740149498,
+            "relative_delta_L2": 0.005580711158610416
+          },
+          "box_head.dense0.weight": {
+            "delta_L2": 0.04359700067236291,
+            "delta_maximum": 0.00023593008518218994,
+            "relative_delta_L2": 0.0014947120479607225
+          },
+          "box_head.dense1.bias": {
+            "delta_L2": 0.0006437151795905578,
+            "delta_maximum": 0.00012227892875671387,
+            "relative_delta_L2": 0.005764070753129363
+          },
+          "box_head.dense1.weight": {
+            "delta_L2": 0.030504538876276303,
+            "delta_maximum": 0.00023490935564041138,
+            "relative_delta_L2": 0.0010529439727665674
+          },
+          "box_head.dense2.bias": {
+            "delta_L2": 3.8006137457866685e-05,
+            "delta_maximum": 3.666034899652004e-05,
+            "relative_delta_L2": 0.00204280718049922
+          },
+          "box_head.dense2.weight": {
+            "delta_L2": 0.0018851873453496482,
+            "delta_maximum": 0.00013441589544527233,
+            "relative_delta_L2": 0.002602935220214164
+          },
+          "class_head.dense0.bias": {
+            "delta_L2": 0.0045247495294819026,
+            "delta_maximum": 0.00024446938186883926,
+            "relative_delta_L2": 0.045005492201491866
+          },
+          "class_head.dense0.weight": {
+            "delta_L2": 0.09504891846646218,
+            "delta_maximum": 0.000262601301074028,
+            "relative_delta_L2": 0.009797746438886515
+          }
+        },
+        "resources": {
+          "VJPs": 161,
+          "actual_forwards": 177,
+          "allocated_output_bytes": 81137664,
+          "backwards": 118,
+          "contractions": 177,
+          "epochs": 2,
+          "forwards": 177,
+          "peak_allocated_bytes": 1716244992,
+          "peak_reserved_bytes": 2327838720,
+          "phase": "training",
+          "photo": "coco2017:000000108375",
+          "seconds": 94.21672282903455,
+          "updates": 30
+        }
+      },
+      "epoch": 2,
+      "losses": {
+        "box": 0.462663406285189,
+        "classification": 0.10315597291603701,
+        "positive": 0.09542811609651959,
+        "unit_KD": 0.9388153512599104,
+        "weighted_KD": 6.631283757079239e-06
+      },
+      "photo_presentations": 59,
+      "positive_KD_cosine": {
+        "0": -0.911911537841005,
+        "0.5": -0.8353590558137545,
+        "0.9": -0.48305282380908465,
+        "0.99": -0.4561656449796992,
+        "1": -0.4521454842811992
+      },
+      "positive_projection_L2": {
+        "0": 0.025620007292437155,
+        "0.5": 3.8890615859102957,
+        "0.9": 22.49540456544294,
+        "0.99": 37.120229925734954,
+        "1": 38.35168573408214
+      },
+      "training_logit_drift_mean": 1.6716906550984436,
+      "updates": 30,
+      "weighted_KD_positive_ratio": {
+        "0": 0.0001285852348130667,
+        "0.5": 0.0005751919333225393,
+        "0.9": 0.0035051317561283248,
+        "0.99": 0.03261850428300621,
+        "1": 0.03710701943146896
+      },
+      "weighted_KD_projection_L2": {
+        "0": 0.0036264902244313047,
+        "0.5": 0.00506829778842538,
+        "0.9": 0.006722854685026721,
+        "0.99": 0.009721094647854558,
+        "1": 0.010196871091857037
+      }
+    },
+    {
+      "KD_dominant": 0,
+      "KD_term_occurrences": 270,
+      "above_recovery_half_bound": 0,
+      "active_KD_photos": 15,
+      "active_KD_source_groups": 15,
+      "checkpoint": {
+        "active_KD_source_groups": [
+          "flickr-account:68258082@n06",
+          "flickr-account:98894271@n00",
+          "flickr-account:davidgiesberg",
+          "flickr-account:deepphoto",
+          "flickr-account:emilysnuffer",
+          "flickr-account:johanl",
+          "flickr-account:jonnygoldstein",
+          "flickr-account:kojach",
+          "flickr-account:laruth",
+          "flickr-account:marcusspaapen",
+          "flickr-account:mikebabcock",
+          "flickr-account:mikecogh",
+          "flickr-account:oldrebel",
+          "flickr-account:pagel",
+          "flickr-account:vxla"
+        ],
+        "checkpoint": {
+          "file": "checkpoints/epoch-3.pt",
+          "sha256": "cf11f36dd2be235ef646cb129264a05bbe08cf2c57f81baf560b77f4fdbc1f8a",
+          "updates": 45
+        },
+        "epoch": 3,
+        "images": 59,
+        "parameter_changes": {
+          "box_head.dense0.bias": {
+            "delta_L2": 0.0010463448646800043,
+            "delta_maximum": 0.00019710289780050516,
+            "relative_delta_L2": 0.007431099057277564
+          },
+          "box_head.dense0.weight": {
+            "delta_L2": 0.059566996582951004,
+            "delta_maximum": 0.0003302246332168579,
+            "relative_delta_L2": 0.0020422392843600728
+          },
+          "box_head.dense1.bias": {
+            "delta_L2": 0.0008251327618402198,
+            "delta_maximum": 0.00015223398804664612,
+            "relative_delta_L2": 0.00738855284257434
+          },
+          "box_head.dense1.weight": {
+            "delta_L2": 0.04041384408984143,
+            "delta_maximum": 0.00030693598091602325,
+            "relative_delta_L2": 0.0013949895693660397
+          },
+          "box_head.dense2.bias": {
+            "delta_L2": 1.5909039630397793e-05,
+            "delta_maximum": 1.1119060218334198e-05,
+            "relative_delta_L2": 0.0008551013748200938
+          },
+          "box_head.dense2.weight": {
+            "delta_L2": 0.0024586635129424357,
+            "delta_maximum": 0.00019082077778875828,
+            "relative_delta_L2": 0.0033947511202428427
+          },
+          "class_head.dense0.bias": {
+            "delta_L2": 0.005331982374631713,
+            "delta_maximum": 0.0003173078875988722,
+            "relative_delta_L2": 0.05303464636360916
+          },
+          "class_head.dense0.weight": {
+            "delta_L2": 0.11497588685226803,
+            "delta_maximum": 0.00037011876702308655,
+            "relative_delta_L2": 0.0118518401275877
+          }
+        },
+        "resources": {
+          "VJPs": 235,
+          "actual_forwards": 236,
+          "allocated_output_bytes": 120987648,
+          "backwards": 177,
+          "contractions": 236,
+          "epochs": 3,
+          "forwards": 236,
+          "peak_allocated_bytes": 1716244992,
+          "peak_reserved_bytes": 2327838720,
+          "phase": "training",
+          "photo": "coco2017:000000402655",
+          "seconds": 123.0188687320333,
+          "updates": 45
+        }
+      },
+      "epoch": 3,
+      "losses": {
+        "box": 0.4497657395520453,
+        "classification": 0.06587305593428151,
+        "positive": 0.048558343749114025,
+        "unit_KD": 2.0384861816794184,
+        "weighted_KD": 1.43987635986779e-05
+      },
+      "photo_presentations": 59,
+      "positive_KD_cosine": {
+        "0": -0.9057325421051658,
+        "0.5": -0.792370978212712,
+        "0.9": -0.4616744385487212,
+        "0.99": -0.4317271938915657,
+        "1": -0.42830919047878013
+      },
+      "positive_projection_L2": {
+        "0": 0.006940308994728779,
+        "0.5": 1.2896202132584564,
+        "0.9": 16.853637930828114,
+        "0.99": 32.64044495142368,
+        "1": 33.871932904584554
+      },
+      "training_logit_drift_mean": 2.3010669012097926,
+      "updates": 45,
+      "weighted_KD_positive_ratio": {
+        "0": 0.0002669108066796112,
+        "0.5": 0.0019853504526311625,
+        "0.9": 0.11488257995885415,
+        "0.99": 0.16751738008772898,
+        "1": 0.16828425687538354
+      },
+      "weighted_KD_projection_L2": {
+        "0": 0.005717854892870388,
+        "0.5": 0.007345759531456484,
+        "0.9": 0.008917607421261048,
+        "0.99": 0.01784537486566619,
+        "1": 0.019272941264162798
+      }
+    },
+    {
+      "KD_dominant": 0,
+      "KD_term_occurrences": 269,
+      "above_recovery_half_bound": 0,
+      "active_KD_photos": 15,
+      "active_KD_source_groups": 15,
+      "checkpoint": {
+        "active_KD_source_groups": [
+          "flickr-account:68258082@n06",
+          "flickr-account:98894271@n00",
+          "flickr-account:davidgiesberg",
+          "flickr-account:deepphoto",
+          "flickr-account:emilysnuffer",
+          "flickr-account:johanl",
+          "flickr-account:jonnygoldstein",
+          "flickr-account:kojach",
+          "flickr-account:laruth",
+          "flickr-account:marcusspaapen",
+          "flickr-account:mikebabcock",
+          "flickr-account:mikecogh",
+          "flickr-account:oldrebel",
+          "flickr-account:pagel",
+          "flickr-account:vxla"
+        ],
+        "checkpoint": {
+          "file": "checkpoints/epoch-4.pt",
+          "sha256": "47d6b237da943b59986613943d08c8592009e793671a870d81b64a39e542603e",
+          "updates": 60
+        },
+        "epoch": 4,
+        "images": 59,
+        "parameter_changes": {
+          "box_head.dense0.bias": {
+            "delta_L2": 0.0012817587557422746,
+            "delta_maximum": 0.0002384026302024722,
+            "relative_delta_L2": 0.009102999023526149
+          },
+          "box_head.dense0.weight": {
+            "delta_L2": 0.0736732971454245,
+            "delta_maximum": 0.000428592786192894,
+            "relative_delta_L2": 0.0025258702011137202
+          },
+          "box_head.dense1.bias": {
+            "delta_L2": 0.0009952274696858859,
+            "delta_maximum": 0.00018960470333695412,
+            "relative_delta_L2": 0.008911645604467737
+          },
+          "box_head.dense1.weight": {
+            "delta_L2": 0.048380651701349815,
+            "delta_maximum": 0.00039188191294670105,
+            "relative_delta_L2": 0.0016699847787921512
+          },
+          "box_head.dense2.bias": {
+            "delta_L2": 3.9243156433711406e-05,
+            "delta_maximum": 2.6722438633441925e-05,
+            "relative_delta_L2": 0.00210929621135827
+          },
+          "box_head.dense2.weight": {
+            "delta_L2": 0.0027924056450228337,
+            "delta_maximum": 0.00024058594135567546,
+            "relative_delta_L2": 0.003855558982232981
+          },
+          "class_head.dense0.bias": {
+            "delta_L2": 0.005722264791286339,
+            "delta_maximum": 0.0003917914582416415,
+            "relative_delta_L2": 0.056916596545532355
+          },
+          "class_head.dense0.weight": {
+            "delta_L2": 0.12996323861440381,
+            "delta_maximum": 0.00046368129551410675,
+            "relative_delta_L2": 0.013396752733906501
+          }
+        },
+        "resources": {
+          "VJPs": 309,
+          "actual_forwards": 295,
+          "allocated_output_bytes": 160825344,
+          "backwards": 236,
+          "contractions": 295,
+          "epochs": 4,
+          "forwards": 295,
+          "peak_allocated_bytes": 1716244992,
+          "peak_reserved_bytes": 2327838720,
+          "phase": "training",
+          "photo": "a86c99772420c77e",
+          "seconds": 153.1072611180134,
+          "updates": 60
+        }
+      },
+      "epoch": 4,
+      "losses": {
+        "box": 0.4266794965428821,
+        "classification": 0.05874400662766783,
+        "positive": 0.04665023858040328,
+        "unit_KD": 2.5152205855159435,
+        "weighted_KD": 1.776615752162493e-05
+      },
+      "photo_presentations": 59,
+      "positive_KD_cosine": {
+        "0": -0.9028188884611564,
+        "0.5": -0.7292621212386976,
+        "0.9": -0.44741214718328776,
+        "0.99": -0.42256894591182914,
+        "1": -0.421119191890635
+      },
+      "positive_projection_L2": {
+        "0": 0.003872948511601786,
+        "0.5": 1.0229912748453232,
+        "0.9": 15.15163128722008,
+        "0.99": 30.687940205216353,
+        "1": 34.192474001654524
+      },
+      "training_logit_drift_mean": 2.5805024472622264,
+      "updates": 60,
+      "weighted_KD_positive_ratio": {
+        "0": 0.00031029454354493293,
+        "0.5": 0.002862056959418212,
+        "0.9": 0.20004594198274672,
+        "0.99": 0.2674460632259245,
+        "1": 0.2688274013142116
+      },
+      "weighted_KD_projection_L2": {
+        "0": 0.006143213415028472,
+        "0.5": 0.007946375416235234,
+        "0.9": 0.009702816066527781,
+        "0.99": 0.01964052306008359,
+        "1": 0.021246301840885874
+      }
+    },
+    {
+      "KD_dominant": 0,
+      "KD_term_occurrences": 266,
+      "above_recovery_half_bound": 0,
+      "active_KD_photos": 15,
+      "active_KD_source_groups": 15,
+      "checkpoint": {
+        "active_KD_source_groups": [
+          "flickr-account:68258082@n06",
+          "flickr-account:98894271@n00",
+          "flickr-account:davidgiesberg",
+          "flickr-account:deepphoto",
+          "flickr-account:emilysnuffer",
+          "flickr-account:johanl",
+          "flickr-account:jonnygoldstein",
+          "flickr-account:kojach",
+          "flickr-account:laruth",
+          "flickr-account:marcusspaapen",
+          "flickr-account:mikebabcock",
+          "flickr-account:mikecogh",
+          "flickr-account:oldrebel",
+          "flickr-account:pagel",
+          "flickr-account:vxla"
+        ],
+        "checkpoint": {
+          "file": "checkpoints/epoch-5.pt",
+          "sha256": "416620a947a96579bdd20c85e7adeb8b60f65c8983e73d3b3943a58ceabef4f0",
+          "updates": 75
+        },
+        "epoch": 5,
+        "images": 59,
+        "parameter_changes": {
+          "box_head.dense0.bias": {
+            "delta_L2": 0.001481533928269004,
+            "delta_maximum": 0.0002674447023309767,
+            "relative_delta_L2": 0.0105217942471113
+          },
+          "box_head.dense0.weight": {
+            "delta_L2": 0.08907472949693267,
+            "delta_maximum": 0.0005332548171281815,
+            "relative_delta_L2": 0.00305390438091097
+          },
+          "box_head.dense1.bias": {
+            "delta_L2": 0.0011057344344761802,
+            "delta_maximum": 0.00019024265930056572,
+            "relative_delta_L2": 0.009901167032516062
+          },
+          "box_head.dense1.weight": {
+            "delta_L2": 0.05719125772287442,
+            "delta_maximum": 0.0004938468337059021,
+            "relative_delta_L2": 0.001974105898092205
+          },
+          "box_head.dense2.bias": {
+            "delta_L2": 3.060655280216056e-05,
+            "delta_maximum": 3.016972914338112e-05,
+            "relative_delta_L2": 0.0016450839263499205
+          },
+          "box_head.dense2.weight": {
+            "delta_L2": 0.0032782650259165404,
+            "delta_maximum": 0.00028039372409693897,
+            "relative_delta_L2": 0.004526399733269913
+          },
+          "class_head.dense0.bias": {
+            "delta_L2": 0.006169129205965151,
+            "delta_maximum": 0.00044982368126511574,
+            "relative_delta_L2": 0.061361340458739484
+          },
+          "class_head.dense0.weight": {
+            "delta_L2": 0.1457246086017717,
+            "delta_maximum": 0.0005395766347646713,
+            "relative_delta_L2": 0.015021451985168317
+          }
+        },
+        "resources": {
+          "VJPs": 383,
+          "actual_forwards": 354,
+          "allocated_output_bytes": 200650752,
+          "backwards": 295,
+          "contractions": 354,
+          "epochs": 5,
+          "forwards": 354,
+          "peak_allocated_bytes": 1716244992,
+          "peak_reserved_bytes": 2327838720,
+          "phase": "training",
+          "photo": "coco2017:000000421108",
+          "seconds": 183.10836939600995,
+          "updates": 75
+        }
+      },
+      "epoch": 5,
+      "losses": {
+        "box": 0.42357988933385426,
+        "classification": 0.04274244521627486,
+        "positive": 0.03301304009131453,
+        "unit_KD": 3.0901525384288724,
+        "weighted_KD": 2.1827165807930482e-05
+      },
+      "photo_presentations": 59,
+      "positive_KD_cosine": {
+        "0": -0.8983645973808738,
+        "0.5": -0.709969616273004,
+        "0.9": -0.43586407306086183,
+        "0.99": -0.415451523994743,
+        "1": -0.41531668368233027
+      },
+      "positive_projection_L2": {
+        "0": 0.0020410401687021664,
+        "0.5": 0.7294069663955421,
+        "0.9": 13.060146969004009,
+        "0.99": 31.56704744094303,
+        "1": 35.087423855681024
+      },
+      "training_logit_drift_mean": 2.8279779700845484,
+      "updates": 75,
+      "weighted_KD_positive_ratio": {
+        "0": 0.00032914061945322207,
+        "0.5": 0.003647045164880112,
+        "0.9": 0.23874908756864768,
+        "0.99": 0.4227975308602707,
+        "1": 0.445817298529859
+      },
+      "weighted_KD_projection_L2": {
+        "0": 0.0068676274624324424,
+        "0.5": 0.009116673643258534,
+        "0.9": 0.0110197097341421,
+        "0.99": 0.022163147231084757,
+        "1": 0.023934252709185363
+      }
+    }
+  ]
+}
