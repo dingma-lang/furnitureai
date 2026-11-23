@@ -1,0 +1,53 @@
+{
+  "independent_evaluation": {
+    "acquisition_ready": false,
+    "automatic_partition_assignment": false,
+    "eligible_independent_seven_category_photos": 0,
+    "historical_training_development_exposed_reserved_photos_reused": 0,
+    "records": [],
+    "require": [
+      "Source/creator/capture disjointness from all training candidates,includingthese64",
+      "Independent acceptable photo rights and attribution",
+      "Blind full7category furniture/stool and whole-object annotation with explicit completeness/absence decisions",
+      "Second review and frozen image/annotation/protocol hashes before any scoring"
+    ],
+    "scope": "Separate future collection of new authorized real rooms;first batch target20,not an acquired or approved count",
+    "separate_exact_collection_manifest_and_approval_required": true
+  },
+  "later_verification": {
+    "GPU_forwards_now": 0,
+    "approved_for_execution": false,
+    "labels_created_now": 0,
+    "requires_separate_photo_acquisition_and_inference_approval": true,
+    "workflow": [
+      "Reverify exact source evidence and rights before acquisition;TLS/size/hash/decoding checks after approval",
+      "Display native boxes,masks,IDs and whole-photo/crop context without inventing missing annotations",
+      "Identify Chair plus ordinary seating/bar stools;protect unverified furniture,footstools/ottomans/step-stool ambiguity",
+      "Preserve COCO/LVIS/OI native completeness and ignored/crowd/occlusion information",
+      "Propose visible-instance interior regions automatically;source polygons plus actual visual evidence,full containment and protected overlap checks remain necessary",
+      "Keep assistant/model proposals separate from real human confirmation;no mandatory manual rectangle drawing",
+      "Request a separately bounded model-query cache run if needed,then verify actual high-score negative coverage before training",
+      "Keep independent evaluation out of negative mining and model selection"
+    ]
+  },
+  "photograph_downloads_authorized": false,
+  "rights_audit_closed": true,
+  "training": {
+    "estimate_is_not_a_download_approval": true,
+    "previous64IDimage_transfer_estimate": [
+      9600000,
+      25600000
+    ],
+    "ready_for_download_approval": false,
+    "reason": "No photograph-specific rights evidence obtainable through this permitted audit path",
+    "records": [],
+    "required_before_future_approval": [
+      "Provider-permitted metadata/API access or acceptable creator-supplied photo-specific rights evidence",
+      "Exact ID/source/creator/license/conditions and grouping verification",
+      "HEAD sizes for only rights-supported objects",
+      "Frozen exact survivor manifest,byte/storage/retry caps and separate explicit photo acquisition approval"
+    ],
+    "rights_supported_count": 0,
+    "training_partitions_not_assigned": true
+  }
+}

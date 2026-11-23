@@ -1,0 +1,22 @@
+{
+  "GPU_calls": 0,
+  "new_network_requests": 0,
+  "passed": 22,
+  "pre_network_passed": 18,
+  "status": "PASS",
+  "suites": [
+    {
+      "name": "completed",
+      "passed": 11,
+      "path": "reports/phase10e9-v1/CPU-completed-20050e3f.log",
+      "sha256": "2b71c83900da513a1485db26329767c98bd1f028773861f5cb7153624baebf14"
+    },
+    {
+      "name": "E8-geometry",
+      "passed": 11,
+      "path": "reports/phase10e9-v1/CPU-E8-geometry-8ed61b55.log",
+      "sha256": "0bc82dad6b3c64ff735952263c67f34f6da7e855f67c183f545e3b51005b12a8"
+    }
+  ],
+  "total_passed": 40
+}

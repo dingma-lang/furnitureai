@@ -1,0 +1,93 @@
+{
+  "COCO_LVIS_instances_not_additive_independent_objects": true,
+  "core_categories": {
+    "bed": {
+      "instances": 10,
+      "mask_annotations": 10,
+      "native_category_id": 77,
+      "photos": 6
+    },
+    "cabinet": {
+      "instances": 48,
+      "mask_annotations": 48,
+      "native_category_id": 181,
+      "photos": 5
+    },
+    "chair": {
+      "instances": 37,
+      "mask_annotations": 37,
+      "native_category_id": 232,
+      "photos": 15
+    },
+    "desk": {
+      "instances": 2,
+      "mask_annotations": 2,
+      "native_category_id": 361,
+      "photos": 1
+    },
+    "lamp": {
+      "instances": 9,
+      "mask_annotations": 9,
+      "native_category_id": 626,
+      "photos": 4
+    },
+    "sofa": {
+      "instances": 8,
+      "mask_annotations": 8,
+      "native_category_id": 982,
+      "photos": 7
+    },
+    "table": {
+      "instances": 6,
+      "mask_annotations": 6,
+      "native_category_id": 1050,
+      "photos": 6
+    }
+  },
+  "core_instances": 120,
+  "matched_same_COCO_photographs": 64,
+  "native_source_polygons_not_photo_rights": true,
+  "native_split_is_not_project_partition": true,
+  "native_split_photographs": {
+    "train": 54,
+    "val": 10
+  },
+  "native_subcategory_instances": {
+    "armchair": {
+      "instances": 12,
+      "native_category_id": 19
+    },
+    "coffee_table": {
+      "instances": 3,
+      "native_category_id": 285
+    },
+    "lampshade": {
+      "instances": 18,
+      "native_category_id": 628
+    },
+    "rocking_chair": {
+      "instances": 2,
+      "native_category_id": 889
+    },
+    "sofa_bed": {
+      "instances": 1,
+      "native_category_id": 301
+    },
+    "table_lamp": {
+      "instances": 3,
+      "native_category_id": 1051
+    }
+  },
+  "no_current_acquisition_or_training_eligibility": true,
+  "photo_rights_supported": 0,
+  "project_partition_assignments": 0,
+  "rights_status_unchanged": true,
+  "semantic_limits": [
+    "Cabinet native instances may be fronts/parts or built-in storage;whole-cabinet equivalence unverified",
+    "Table,coffee_table and Desk remain distinct native labels",
+    "Lamp,table_lamp and lampshade remain distinct;lampshades are not standalone project Lamps",
+    "Chair,armchair and rocking_chair are preserved separately;seating-stool project completeness still unverified",
+    "sofa_bed is not silently duplicated into Sofa and Bed targets"
+  ],
+  "total_native_instances": 159
+}

@@ -1,0 +1,17 @@
+{
+  "candidates": 64,
+  "current_creator_capture_identity_unverified": 64,
+  "exact_manifest_sha256": "50e29c7b64b4ca67b695df5c941e4bb3c930ffe483e25d0de731ac9e22c86466",
+  "furniture_boxes": 268,
+  "known_historical_photo_overlap": 0,
+  "original_licence_definitions_preserved": true,
+  "partitions_assigned": 0,
+  "photo_licence_claims_only_not_verified": true,
+  "previous_attempted_or_paused_ID_overlap": 0,
+  "prior_attempted_or_paused_IDs_excluded": 844,
+  "proposed_training_only_roles_preserved": true,
+  "source_IDs_unique": 64,
+  "source_annotations": 786,
+  "source_images_decoded": 0,
+  "status": "PASS"
+}

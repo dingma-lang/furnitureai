@@ -1,0 +1,23 @@
+{
+  "HTTP_status": 200,
+  "TLS_certificate_chain_verified": true,
+  "TLS_version": "TLSv1.3",
+  "anonymous_response_cookie_values_not_published": true,
+  "applicable_rule": "User-agent: *; Disallow: /",
+  "audit_user_agent": "FurnitureAI-RightsAudit/10E.9 (user-authorized source-license metadata verification; no image downloads)",
+  "checked_utc": "2026-11-23T08:54:38.669053+00:00",
+  "conservative_source_transfer_charge": 77260,
+  "denied_frozen_resolver_paths": 64,
+  "peer_certificate_sha256": "63466af0a951f5a2e05458ce7229bfec2920e735c8a76d9dae200382c3ddc9d6",
+  "photo_specific_rights_evidence_retrieved": 0,
+  "policy_URL": "https://www.flickr.com/robots.txt",
+  "policy_condition_not_a_copyright_finding": true,
+  "response_body_sha256": "596abe673cd61794959827e668ec2f1577bc8aafad8753867a41dfed710e1e8c",
+  "response_file": "data/coco/rights-audits/phase10e8-v1/responses/001.document",
+  "source_audit_TLS_bytes": 11724,
+  "source_audit_response_body_bytes": 658,
+  "source_terms_fetched": false,
+  "source_transfer_cap": 32000000,
+  "transfer_measurement_scope": "TLS bytes observed on TCP stream include handshake,HTTPheaders,body and read-ahead. Physical IP/TCP/DNS/retransmission bytes are not measured;64KiB/request allowance and full reservation on interrupted requests are charged separately.",
+  "use_of_an_alternate_user_agent_or_endpoint": false
+}

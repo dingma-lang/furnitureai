@@ -1,0 +1,4374 @@
+{
+  "annotations_are_source_metadata_not_new_training_labels": true,
+  "photograph_bodies_included": false,
+  "records": [
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 4,
+          "segmentation_annotations": 4
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 422,
+      "image_id": "coco2017:000000000790",
+      "native_annotation_IDs": [
+        101443,
+        104087,
+        106222,
+        123429,
+        1934735
+      ],
+      "native_categories": {
+        "bottle": 6,
+        "bowl": 1,
+        "cake": 1,
+        "chair": 4,
+        "clock": 1,
+        "cup": 4,
+        "dining table": 1,
+        "dog": 1,
+        "fork": 5,
+        "knife": 2,
+        "person": 4,
+        "potted plant": 2,
+        "wine glass": 1
+      },
+      "native_image_id": 790,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000000790.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8292/7866247804_e0486b75b8_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7866247804",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 6,
+          "segmentation_annotations": 6
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000001180",
+      "native_annotation_IDs": [
+        375026,
+        386018,
+        1615932,
+        2190528,
+        2190550,
+        2191993,
+        2222452
+      ],
+      "native_categories": {
+        "bowl": 1,
+        "cake": 1,
+        "chair": 6,
+        "dining table": 1,
+        "fork": 2,
+        "knife": 2,
+        "person": 4
+      },
+      "native_image_id": 1180,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000001180.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm1.staticflickr.com/66/194967296_38bf7abb48_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:194967296",
+      "visual_quality_verified": false,
+      "width": 426
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        }
+      },
+      "height": 375,
+      "image_id": "coco2017:000000001522",
+      "native_annotation_IDs": [
+        1615115,
+        1618776,
+        1933896,
+        1937828
+      ],
+      "native_categories": {
+        "cake": 1,
+        "chair": 2,
+        "clock": 1,
+        "dining table": 2
+      },
+      "native_image_id": 1522,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000001522.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2141/2073334266_fc3f6d2d75_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:2073334266",
+      "visual_quality_verified": false,
+      "width": 500
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000001958",
+      "native_annotation_IDs": [
+        113050,
+        115360,
+        1931439,
+        1931784
+      ],
+      "native_categories": {
+        "chair": 2,
+        "couch": 2,
+        "person": 2,
+        "remote": 7,
+        "tv": 1
+      },
+      "native_image_id": 1958,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000001958.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm5.staticflickr.com/4064/4711543613_b76741297c_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:4711543613",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000002179",
+      "native_annotation_IDs": [
+        1582943,
+        1586843,
+        1964457
+      ],
+      "native_categories": {
+        "bench": 2,
+        "chair": 2,
+        "dining table": 1,
+        "person": 2,
+        "skateboard": 3
+      },
+      "native_image_id": 2179,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000002179.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm6.staticflickr.com/5330/9444360032_164eea53e3_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:9444360032",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 401,
+      "image_id": "coco2017:000000003827",
+      "native_annotation_IDs": [
+        390540,
+        1578972
+      ],
+      "native_categories": {
+        "bowl": 1,
+        "chair": 1,
+        "cup": 1,
+        "dining table": 1,
+        "person": 4,
+        "sandwich": 3,
+        "spoon": 1
+      },
+      "native_image_id": 3827,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000003827.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7034/6650212425_f993f54a61_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6650212425",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000007274",
+      "native_annotation_IDs": [
+        386575,
+        386966,
+        1585515,
+        1960266
+      ],
+      "native_categories": {
+        "bottle": 2,
+        "bowl": 1,
+        "chair": 3,
+        "cup": 4,
+        "dining table": 1,
+        "fork": 2,
+        "knife": 3,
+        "person": 3,
+        "pizza": 3,
+        "spoon": 3
+      },
+      "native_image_id": 7274,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000007274.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm7.staticflickr.com/6058/6327635036_b94612f729_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6327635036",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 426,
+      "image_id": "coco2017:000000007762",
+      "native_annotation_IDs": [
+        114199,
+        1933122
+      ],
+      "native_categories": {
+        "book": 1,
+        "chair": 1,
+        "couch": 1,
+        "tv": 1,
+        "vase": 1
+      },
+      "native_image_id": 7762,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000007762.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7008/6489247567_00dce3135f_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6489247567",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000008922",
+      "native_annotation_IDs": [
+        102165,
+        1959585,
+        2190014
+      ],
+      "native_categories": {
+        "bowl": 1,
+        "chair": 2,
+        "dining table": 1,
+        "oven": 2,
+        "potted plant": 2,
+        "sandwich": 1,
+        "vase": 2
+      },
+      "native_image_id": 8922,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000008922.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8065/8250423873_d000e215d8_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8250423873",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000009253",
+      "native_annotation_IDs": [
+        384296,
+        1615837,
+        1931219
+      ],
+      "native_categories": {
+        "bottle": 1,
+        "cell phone": 2,
+        "chair": 2,
+        "dining table": 1,
+        "handbag": 1,
+        "laptop": 1,
+        "mouse": 1,
+        "person": 12
+      },
+      "native_image_id": 9253,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000009253.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8335/8088753943_8865dfbe66_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8088753943",
+      "visual_quality_verified": false,
+      "width": 480
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000012754",
+      "native_annotation_IDs": [
+        122843,
+        290394,
+        2124640
+      ],
+      "native_categories": {
+        "apple": 2,
+        "bird": 1,
+        "bowl": 2,
+        "chair": 2,
+        "cup": 1,
+        "dining table": 1,
+        "oven": 1,
+        "person": 2,
+        "refrigerator": 1,
+        "sink": 1,
+        "tie": 1
+      },
+      "native_image_id": 12754,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000012754.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8220/8401562399_6478f5ffa6_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8401562399",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 4,
+          "segmentation_annotations": 4
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 428,
+      "image_id": "coco2017:000000013220",
+      "native_annotation_IDs": [
+        375183,
+        414904,
+        1930808,
+        2192297,
+        2192962
+      ],
+      "native_categories": {
+        "bowl": 5,
+        "chair": 4,
+        "cup": 1,
+        "dining table": 1,
+        "person": 4,
+        "wine glass": 4
+      },
+      "native_image_id": 13220,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000013220.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2873/10238216153_c216b69f67_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:10238216153",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 4,
+          "segmentation_annotations": 4
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 478,
+      "image_id": "coco2017:000000014676",
+      "native_annotation_IDs": [
+        103244,
+        119038,
+        1943659,
+        1946405,
+        1947263
+      ],
+      "native_categories": {
+        "chair": 4,
+        "dining table": 1,
+        "fork": 1,
+        "knife": 1,
+        "person": 2,
+        "pizza": 2,
+        "spoon": 1,
+        "wine glass": 1
+      },
+      "native_image_id": 14676,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000014676.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8025/7120100477_540a9889d8_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7120100477",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000016273",
+      "native_annotation_IDs": [
+        103909,
+        118214,
+        2223226
+      ],
+      "native_categories": {
+        "bottle": 1,
+        "cake": 4,
+        "cell phone": 1,
+        "chair": 2,
+        "cup": 1,
+        "dining table": 1,
+        "fork": 2,
+        "person": 4,
+        "potted plant": 1,
+        "scissors": 1,
+        "spoon": 4,
+        "vase": 1,
+        "wine glass": 9
+      },
+      "native_image_id": 16273,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000016273.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm6.staticflickr.com/5223/5601699328_37cdddeb1c_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:5601699328",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 375,
+      "image_id": "coco2017:000000016733",
+      "native_annotation_IDs": [
+        378553,
+        412511
+      ],
+      "native_categories": {
+        "book": 1,
+        "bottle": 1,
+        "chair": 1,
+        "dining table": 1,
+        "person": 1,
+        "pizza": 1
+      },
+      "native_image_id": 16733,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000016733.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8482/8254900461_0b9df80566_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8254900461",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 6,
+          "segmentation_annotations": 6
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000018316",
+      "native_annotation_IDs": [
+        376454,
+        385497,
+        413352,
+        1931812,
+        1938204,
+        1938238,
+        2192097
+      ],
+      "native_categories": {
+        "bottle": 1,
+        "chair": 6,
+        "dining table": 1,
+        "microwave": 1,
+        "oven": 1,
+        "sink": 2,
+        "toaster": 1
+      },
+      "native_image_id": 18316,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000018316.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm7.staticflickr.com/6058/6295929223_05d9b99dc1_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6295929223",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000018473",
+      "native_annotation_IDs": [
+        117337,
+        117644,
+        1931695
+      ],
+      "native_categories": {
+        "book": 1,
+        "chair": 1,
+        "couch": 2,
+        "dog": 1,
+        "laptop": 1
+      },
+      "native_image_id": 18473,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000018473.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8324/8381578539_6fb088c60a_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8381578539",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 6,
+          "segmentation_annotations": 6
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000019441",
+      "native_annotation_IDs": [
+        380311,
+        383907,
+        386107,
+        1930689,
+        1931119,
+        1943330,
+        1963530
+      ],
+      "native_categories": {
+        "bottle": 2,
+        "bowl": 2,
+        "cell phone": 1,
+        "chair": 6,
+        "dining table": 1,
+        "person": 4,
+        "spoon": 1,
+        "tv": 1
+      },
+      "native_image_id": 19441,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000019441.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2059/2225208797_3293b16a15_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:2225208797",
+      "visual_quality_verified": false,
+      "width": 480
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 314,
+      "image_id": "coco2017:000000019756",
+      "native_annotation_IDs": [
+        373175,
+        380456,
+        2193994,
+        2194053
+      ],
+      "native_categories": {
+        "bed": 2,
+        "chair": 2,
+        "potted plant": 2,
+        "tv": 1
+      },
+      "native_image_id": 19756,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000019756.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8024/7299575536_6ce550aea6_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7299575536",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000020410",
+      "native_annotation_IDs": [
+        105730,
+        106828,
+        1939606,
+        1964274
+      ],
+      "native_categories": {
+        "bench": 1,
+        "bicycle": 1,
+        "chair": 3,
+        "dining table": 1,
+        "person": 1,
+        "skateboard": 2
+      },
+      "native_image_id": 20410,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000020410.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7383/9441567619_56006575b9_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:9441567619",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000020788",
+      "native_annotation_IDs": [
+        374131,
+        553618
+      ],
+      "native_categories": {
+        "bowl": 12,
+        "carrot": 5,
+        "chair": 1,
+        "dining table": 1,
+        "person": 1,
+        "potted plant": 1,
+        "vase": 1
+      },
+      "native_image_id": 20788,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000020788.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm4.staticflickr.com/3256/2615459739_bcf548107b_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:2615459739",
+      "visual_quality_verified": false,
+      "width": 426
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 612,
+      "image_id": "coco2017:000000021198",
+      "native_annotation_IDs": [
+        382440,
+        382996,
+        393840,
+        1582369
+      ],
+      "native_categories": {
+        "chair": 3,
+        "clock": 1,
+        "dining table": 1,
+        "person": 2
+      },
+      "native_image_id": 21198,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000021198.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8352/8296906244_a5e72c62be_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8296906244",
+      "visual_quality_verified": false,
+      "width": 612
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 428,
+      "image_id": "coco2017:000000022149",
+      "native_annotation_IDs": [
+        100641,
+        119081,
+        1942571
+      ],
+      "native_categories": {
+        "cake": 1,
+        "chair": 2,
+        "dining table": 1,
+        "person": 1,
+        "vase": 2,
+        "zebra": 1
+      },
+      "native_image_id": 22149,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000022149.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm4.staticflickr.com/3678/9298021082_9758c4e363_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:9298021082",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000022882",
+      "native_annotation_IDs": [
+        378162,
+        390047
+      ],
+      "native_categories": {
+        "chair": 1,
+        "dining table": 1,
+        "person": 1,
+        "potted plant": 2,
+        "wine glass": 1
+      },
+      "native_image_id": 22882,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000022882.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm4.staticflickr.com/3053/2996357280_836cb40e18_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:2996357280",
+      "visual_quality_verified": false,
+      "width": 428
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000024175",
+      "native_annotation_IDs": [
+        386729,
+        392717,
+        1932813
+      ],
+      "native_categories": {
+        "chair": 2,
+        "cup": 1,
+        "dining table": 1,
+        "person": 1,
+        "vase": 1
+      },
+      "native_image_id": 24175,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000024175.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm1.staticflickr.com/197/472766269_e3e34bf3e8_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:472766269",
+      "visual_quality_verified": false,
+      "width": 426
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 8,
+          "segmentation_annotations": 8
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000025628",
+      "native_annotation_IDs": [
+        380136,
+        383458,
+        393475,
+        1586230,
+        1593280,
+        1596906,
+        1597438,
+        1616649,
+        2192181,
+        2192425
+      ],
+      "native_categories": {
+        "cell phone": 4,
+        "chair": 8,
+        "cup": 1,
+        "dining table": 2,
+        "handbag": 3,
+        "person": 7,
+        "wine glass": 9
+      },
+      "native_image_id": 25628,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000025628.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7051/6860876699_4199720b71_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6860876699",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 383,
+      "image_id": "coco2017:000000026942",
+      "native_annotation_IDs": [
+        106844,
+        123685
+      ],
+      "native_categories": {
+        "book": 1,
+        "cat": 1,
+        "chair": 1,
+        "dining table": 1
+      },
+      "native_image_id": 26942,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000026942.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm7.staticflickr.com/6194/6066118824_effb460268_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6066118824",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 375,
+      "image_id": "coco2017:000000027810",
+      "native_annotation_IDs": [
+        100440,
+        110561,
+        121105
+      ],
+      "native_categories": {
+        "bottle": 2,
+        "chair": 2,
+        "dining table": 1,
+        "person": 1,
+        "pizza": 2,
+        "potted plant": 1,
+        "wine glass": 2
+      },
+      "native_image_id": 27810,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000027810.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2455/3844113108_698303dc72_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:3844113108",
+      "visual_quality_verified": false,
+      "width": 500
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000028281",
+      "native_annotation_IDs": [
+        384631,
+        393480,
+        2192172
+      ],
+      "native_categories": {
+        "bottle": 1,
+        "cake": 1,
+        "chair": 2,
+        "dining table": 1,
+        "mouse": 1,
+        "person": 1
+      },
+      "native_image_id": 28281,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000028281.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm2.staticflickr.com/1018/5187802452_0c721ddc6c_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:5187802452",
+      "visual_quality_verified": false,
+      "width": 480
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 8,
+          "segmentation_annotations": 8
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000028462",
+      "native_annotation_IDs": [
+        107868,
+        109823,
+        109862,
+        110023,
+        120969,
+        1937901,
+        1941119,
+        2231302,
+        2231395
+      ],
+      "native_categories": {
+        "chair": 8,
+        "dining table": 1,
+        "laptop": 1,
+        "person": 1
+      },
+      "native_image_id": 28462,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000028462.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm6.staticflickr.com/5018/5457482726_27fe94f582_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:5457482726",
+      "visual_quality_verified": false,
+      "width": 359
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000028674",
+      "native_annotation_IDs": [
+        106953,
+        1613647,
+        2123623
+      ],
+      "native_categories": {
+        "chair": 2,
+        "dining table": 1,
+        "laptop": 1,
+        "person": 1,
+        "tv": 1
+      },
+      "native_image_id": 28674,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000028674.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm4.staticflickr.com/3087/3099088395_3d2212a9e0_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:3099088395",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000029687",
+      "native_annotation_IDs": [
+        122045,
+        1589399,
+        1942007
+      ],
+      "native_categories": {
+        "chair": 2,
+        "dining table": 1,
+        "person": 1,
+        "potted plant": 3,
+        "toothbrush": 1
+      },
+      "native_image_id": 29687,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000029687.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7118/7140685941_f464881956_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7140685941",
+      "visual_quality_verified": false,
+      "width": 480
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 4,
+          "segmentation_annotations": 4
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 5,
+          "segmentation_annotations": 5
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000029942",
+      "native_annotation_IDs": [
+        380903,
+        381122,
+        1579544,
+        1933820,
+        1959355,
+        1960360,
+        2225889,
+        2226591,
+        2226722
+      ],
+      "native_categories": {
+        "backpack": 2,
+        "bottle": 1,
+        "chair": 4,
+        "cup": 1,
+        "dining table": 5,
+        "handbag": 1,
+        "laptop": 3,
+        "person": 9
+      },
+      "native_image_id": 29942,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000029942.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2522/3786320767_1eb48b26de_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:3786320767",
+      "visual_quality_verified": false,
+      "width": 480
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000030434",
+      "native_annotation_IDs": [
+        315936,
+        1932612,
+        2192093
+      ],
+      "native_categories": {
+        "bed": 1,
+        "chair": 2
+      },
+      "native_image_id": 30434,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000030434.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm6.staticflickr.com/5118/7096195249_b7181c2738_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7096195249",
+      "visual_quality_verified": false,
+      "width": 427
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 612,
+      "image_id": "coco2017:000000030960",
+      "native_annotation_IDs": [
+        1582530,
+        2132192
+      ],
+      "native_categories": {
+        "cake": 3,
+        "chair": 1,
+        "dining table": 1,
+        "person": 2,
+        "potted plant": 1,
+        "tie": 1
+      },
+      "native_image_id": 30960,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000030960.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8471/8109654705_bf8432b71f_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8109654705",
+      "visual_quality_verified": false,
+      "width": 612
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        }
+      },
+      "height": 428,
+      "image_id": "coco2017:000000031081",
+      "native_annotation_IDs": [
+        105044,
+        120952,
+        1961085
+      ],
+      "native_categories": {
+        "backpack": 1,
+        "bottle": 1,
+        "car": 3,
+        "chair": 1,
+        "dining table": 2,
+        "handbag": 1,
+        "person": 4,
+        "pizza": 2
+      },
+      "native_image_id": 31081,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000031081.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2524/3819105387_0584bec52a_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:3819105387",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 424,
+      "image_id": "coco2017:000000031188",
+      "native_annotation_IDs": [
+        385341,
+        2194163
+      ],
+      "native_categories": {
+        "bowl": 1,
+        "chair": 1,
+        "cup": 1,
+        "dining table": 1,
+        "fork": 4,
+        "knife": 1,
+        "person": 5,
+        "pizza": 4,
+        "wine glass": 3
+      },
+      "native_image_id": 31188,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000031188.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8234/8388877192_fd6496484e_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8388877192",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 478,
+      "image_id": "coco2017:000000031345",
+      "native_annotation_IDs": [
+        115599,
+        1956588
+      ],
+      "native_categories": {
+        "bed": 1,
+        "cat": 1,
+        "couch": 1,
+        "remote": 1
+      },
+      "native_image_id": 31345,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000031345.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8302/7878283602_ac4832d6d4_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7878283602",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000032843",
+      "native_annotation_IDs": [
+        420885,
+        1578904
+      ],
+      "native_categories": {
+        "chair": 1,
+        "cup": 1,
+        "dining table": 1,
+        "person": 2,
+        "pizza": 1
+      },
+      "native_image_id": 32843,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000032843.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm5.staticflickr.com/4092/5010316212_f66ac19787_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:5010316212",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 427,
+      "image_id": "coco2017:000000033297",
+      "native_annotation_IDs": [
+        373541,
+        382352,
+        1091158
+      ],
+      "native_categories": {
+        "apple": 4,
+        "bowl": 1,
+        "chair": 2,
+        "dining table": 1,
+        "microwave": 1,
+        "oven": 1,
+        "refrigerator": 2,
+        "sink": 1,
+        "toaster": 1
+      },
+      "native_image_id": 33297,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000033297.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7069/6829561160_55c633b3f2_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6829561160",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 366,
+      "image_id": "coco2017:000000033650",
+      "native_annotation_IDs": [
+        315343,
+        382853
+      ],
+      "native_categories": {
+        "bed": 1,
+        "chair": 1,
+        "remote": 1
+      },
+      "native_image_id": 33650,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000033650.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7231/7282161910_0434d34a80_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7282161910",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 442,
+      "image_id": "coco2017:000000036091",
+      "native_annotation_IDs": [
+        102105,
+        103019,
+        104316,
+        122788
+      ],
+      "native_categories": {
+        "banana": 1,
+        "bottle": 3,
+        "bowl": 3,
+        "chair": 3,
+        "dining table": 1,
+        "knife": 6,
+        "microwave": 1,
+        "oven": 1,
+        "refrigerator": 1,
+        "sink": 1
+      },
+      "native_image_id": 36091,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000036091.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8382/8558033970_a71ccbd180_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8558033970",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 8,
+          "segmentation_annotations": 8
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 333,
+      "image_id": "coco2017:000000036123",
+      "native_annotation_IDs": [
+        106002,
+        108180,
+        109581,
+        109988,
+        110010,
+        120070,
+        1935057,
+        1939626,
+        1945885
+      ],
+      "native_categories": {
+        "bottle": 5,
+        "chair": 8,
+        "dining table": 1,
+        "laptop": 5,
+        "person": 8
+      },
+      "native_image_id": 36123,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000036123.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2718/4119849772_84774f7e13_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:4119849772",
+      "visual_quality_verified": false,
+      "width": 500
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000036303",
+      "native_annotation_IDs": [
+        390800,
+        1583872
+      ],
+      "native_categories": {
+        "chair": 1,
+        "dining table": 1,
+        "person": 1,
+        "sandwich": 1
+      },
+      "native_image_id": 36303,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000036303.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm4.staticflickr.com/3111/2405929146_240ec36f6d_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:2405929146",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000037039",
+      "native_annotation_IDs": [
+        392862,
+        1585621
+      ],
+      "native_categories": {
+        "bottle": 2,
+        "bowl": 1,
+        "cake": 1,
+        "chair": 1,
+        "cup": 2,
+        "dining table": 1,
+        "fork": 2,
+        "knife": 2,
+        "person": 1
+      },
+      "native_image_id": 37039,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000037039.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm4.staticflickr.com/3772/9271295167_fa691142ee_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:9271295167",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000037059",
+      "native_annotation_IDs": [
+        1612242,
+        1930936
+      ],
+      "native_categories": {
+        "bed": 1,
+        "chair": 1,
+        "dog": 1,
+        "person": 2
+      },
+      "native_image_id": 37059,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000037059.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2574/3771621686_555a3c5226_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:3771621686",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 5,
+          "segmentation_annotations": 5
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 426,
+      "image_id": "coco2017:000000037800",
+      "native_annotation_IDs": [
+        105885,
+        106631,
+        120413,
+        1591287,
+        1930912,
+        1933049
+      ],
+      "native_categories": {
+        "bicycle": 1,
+        "book": 1,
+        "bottle": 2,
+        "chair": 5,
+        "cup": 3,
+        "dining table": 1,
+        "fork": 2,
+        "knife": 2,
+        "person": 1,
+        "pizza": 4
+      },
+      "native_image_id": 37800,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000037800.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm5.staticflickr.com/4094/4773567769_c77f9a5b49_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:4773567769",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 7,
+          "segmentation_annotations": 7
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000038259",
+      "native_annotation_IDs": [
+        110489,
+        1613376,
+        1941287,
+        1942119,
+        1943077,
+        1945988,
+        1948180,
+        1948380
+      ],
+      "native_categories": {
+        "airplane": 1,
+        "chair": 7,
+        "dining table": 1,
+        "person": 4
+      },
+      "native_image_id": 38259,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000038259.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8522/8644921527_b27a23c5eb_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8644921527",
+      "visual_quality_verified": false,
+      "width": 608
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 4,
+          "segmentation_annotations": 4
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000038999",
+      "native_annotation_IDs": [
+        376194,
+        378755,
+        1612865,
+        2123435,
+        2222324
+      ],
+      "native_categories": {
+        "bowl": 4,
+        "chair": 4,
+        "dining table": 1,
+        "fork": 1,
+        "knife": 4,
+        "potted plant": 2,
+        "vase": 1,
+        "wine glass": 4
+      },
+      "native_image_id": 38999,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000038999.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7023/6496945067_c3d8d45587_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6496945067",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000039502",
+      "native_annotation_IDs": [
+        378363,
+        1965899,
+        1966049,
+        2122383
+      ],
+      "native_categories": {
+        "chair": 2,
+        "dining table": 2,
+        "refrigerator": 1,
+        "spoon": 3,
+        "truck": 1
+      },
+      "native_image_id": 39502,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000039502.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2660/3729719305_3b9a41335f_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:3729719305",
+      "visual_quality_verified": false,
+      "width": 480
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 375,
+      "image_id": "coco2017:000000039669",
+      "native_annotation_IDs": [
+        318832,
+        1937630
+      ],
+      "native_categories": {
+        "bed": 1,
+        "chair": 1,
+        "dog": 1
+      },
+      "native_image_id": 39669,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000039669.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm1.staticflickr.com/39/121306022_964d0f4c03_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:121306022",
+      "visual_quality_verified": false,
+      "width": 500
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000041272",
+      "native_annotation_IDs": [
+        376927,
+        1961224
+      ],
+      "native_categories": {
+        "book": 2,
+        "bottle": 2,
+        "bowl": 2,
+        "chair": 1,
+        "dining table": 1,
+        "fork": 5,
+        "knife": 4,
+        "person": 5,
+        "spoon": 1,
+        "wine glass": 12
+      },
+      "native_image_id": 41272,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000041272.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm4.staticflickr.com/3101/2790480680_3489255f9d_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:2790480680",
+      "visual_quality_verified": false,
+      "width": 534
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000042492",
+      "native_annotation_IDs": [
+        122744,
+        1933058,
+        1934061,
+        1945949,
+        2194106
+      ],
+      "native_categories": {
+        "cell phone": 1,
+        "chair": 3,
+        "cup": 2,
+        "dining table": 2,
+        "microwave": 1,
+        "oven": 2,
+        "person": 1,
+        "potted plant": 1,
+        "refrigerator": 1,
+        "sink": 1
+      },
+      "native_image_id": 42492,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000042492.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7072/7375922896_3269245993_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7375922896",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 5,
+          "segmentation_annotations": 5
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 301,
+      "image_id": "coco2017:000000043171",
+      "native_annotation_IDs": [
+        100203,
+        118237,
+        290180,
+        290275,
+        290447,
+        1934484
+      ],
+      "native_categories": {
+        "bowl": 3,
+        "chair": 5,
+        "cup": 2,
+        "dining table": 1,
+        "dog": 1
+      },
+      "native_image_id": 43171,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000043171.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm3.staticflickr.com/2772/4344187156_654e793ddc_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:4344187156",
+      "visual_quality_verified": false,
+      "width": 500
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 427,
+      "image_id": "coco2017:000000141346",
+      "native_annotation_IDs": [
+        113266,
+        1933678,
+        1957262,
+        2224282,
+        2225047
+      ],
+      "native_categories": {
+        "bed": 1,
+        "chair": 1,
+        "couch": 3,
+        "remote": 1
+      },
+      "native_image_id": 141346,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000141346.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm6.staticflickr.com/5242/5272477146_9a19b5353f_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:5272477146",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 424,
+      "image_id": "coco2017:000000233625",
+      "native_annotation_IDs": [
+        317170,
+        319882,
+        381941,
+        384194,
+        1965693
+      ],
+      "native_categories": {
+        "bed": 2,
+        "chair": 2,
+        "dining table": 1
+      },
+      "native_image_id": 233625,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000233625.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7031/6780852829_ae3e166ba8_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6780852829",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000282691",
+      "native_annotation_IDs": [
+        119757,
+        318139,
+        318484,
+        1589119
+      ],
+      "native_categories": {
+        "bed": 2,
+        "chair": 1,
+        "dining table": 1,
+        "tv": 1
+      },
+      "native_image_id": 282691,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000282691.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm7.staticflickr.com/6070/6077271076_838394e599_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6077271076",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 640,
+      "image_id": "coco2017:000000322427",
+      "native_annotation_IDs": [
+        316080,
+        1605255,
+        1939961,
+        1940009,
+        1942413
+      ],
+      "native_categories": {
+        "bed": 1,
+        "chair": 3,
+        "couch": 1,
+        "vase": 1
+      },
+      "native_image_id": 322427,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000322427.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8457/7922858554_c28daf667c_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7922858554",
+      "visual_quality_verified": false,
+      "width": 480
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 4,
+          "segmentation_annotations": 4
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "table": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        }
+      },
+      "height": 427,
+      "image_id": "coco2017:000000395758",
+      "native_annotation_IDs": [
+        97934,
+        100869,
+        108125,
+        110578,
+        121797,
+        122707,
+        1932353
+      ],
+      "native_categories": {
+        "chair": 4,
+        "couch": 1,
+        "dining table": 2,
+        "tv": 1
+      },
+      "native_image_id": 395758,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000395758.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm5.staticflickr.com/4053/4718972824_4047c5df06_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:4718972824",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 366,
+      "image_id": "coco2017:000000411872",
+      "native_annotation_IDs": [
+        319347,
+        1591473,
+        1950874,
+        2123416
+      ],
+      "native_categories": {
+        "bed": 1,
+        "chair": 2,
+        "couch": 1
+      },
+      "native_image_id": 411872,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000411872.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm8.staticflickr.com/7332/9126795790_bbe1437fb6_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:9126795790",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 400,
+      "image_id": "coco2017:000000503114",
+      "native_annotation_IDs": [
+        99168,
+        102852,
+        111414,
+        318356,
+        320876,
+        1581058,
+        1612577,
+        1956733
+      ],
+      "native_categories": {
+        "bed": 3,
+        "chair": 2,
+        "couch": 2,
+        "dining table": 1
+      },
+      "native_image_id": 503114,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000503114.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8431/7745444096_a17bba929f_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:7745444096",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "table": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000516793",
+      "native_annotation_IDs": [
+        101235,
+        112431,
+        123602,
+        1581398,
+        1934946
+      ],
+      "native_categories": {
+        "book": 2,
+        "chair": 3,
+        "couch": 1,
+        "dining table": 1
+      },
+      "native_image_id": 516793,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000516793.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm7.staticflickr.com/6232/6330820848_0878408f69_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:6330820848",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 1,
+          "segmentation_annotations": 1
+        },
+        "table": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000574845",
+      "native_annotation_IDs": [
+        319668,
+        373698,
+        1950965
+      ],
+      "native_categories": {
+        "bed": 1,
+        "chair": 1,
+        "couch": 1
+      },
+      "native_image_id": 574845,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000574845.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm4.staticflickr.com/3230/2614436096_792d931fff_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:2614436096",
+      "visual_quality_verified": false,
+      "width": 640
+    },
+    {
+      "Chair_absence_inferred": false,
+      "HEAD_verified_image_bytes": null,
+      "annotation_creator": "COCO Consortium",
+      "annotation_licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "annotation_source": "data/coco/metadata/phase6b-v1/extracted/annotations/instances_train2017.json",
+      "annotation_source_sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d",
+      "estimated_image_bytes": [
+        150000,
+        400000
+      ],
+      "final_partition": null,
+      "furniture_annotation_support": {
+        "bed": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "cabinet": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "chair": {
+          "boxes": 5,
+          "segmentation_annotations": 5
+        },
+        "desk": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "lamp": {
+          "boxes": 0,
+          "segmentation_annotations": 0
+        },
+        "sofa": {
+          "boxes": 3,
+          "segmentation_annotations": 3
+        },
+        "table": {
+          "boxes": 2,
+          "segmentation_annotations": 2
+        }
+      },
+      "height": 480,
+      "image_id": "coco2017:000000579255",
+      "native_annotation_IDs": [
+        104057,
+        105856,
+        107655,
+        107991,
+        115791,
+        117084,
+        1581448,
+        1620682,
+        1960921,
+        2225220
+      ],
+      "native_categories": {
+        "chair": 5,
+        "couch": 3,
+        "dining table": 2,
+        "vase": 1
+      },
+      "native_image_id": 579255,
+      "official_image_URL": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000579255.jpg",
+      "original_dataset": "COCO2017",
+      "original_host": "Flickr",
+      "original_hosting_asset_url": "http://farm9.staticflickr.com/8390/8638174677_49a9a66e8a_z.jpg",
+      "potential_role": "training_candidate_only_unassigned",
+      "source_photo_id": "flickr-photo:8638174677",
+      "visual_quality_verified": false,
+      "width": 640
+    }
+  ]
+}

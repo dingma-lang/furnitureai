@@ -1,0 +1,16 @@
+test_LVIS_index_flags_are_only_original_selected_category_projection (test_completed9.CompletedTests.test_LVIS_index_flags_are_only_original_selected_category_projection) ... ok
+test_LVIS_native_splits_are_not_project_partitions_or_rights (test_completed9.CompletedTests.test_LVIS_native_splits_are_not_project_partitions_or_rights) ... ok
+test_access_denial_not_misreported_as_copyright_restriction (test_completed9.CompletedTests.test_access_denial_not_misreported_as_copyright_restriction) ... ok
+test_actual_provider_rule_denies_all64without_identity_rotation (test_completed9.CompletedTests.test_actual_provider_rule_denies_all64without_identity_rotation) ... ok
+test_closed_audit_cannot_resume_network (test_completed9.CompletedTests.test_closed_audit_cannot_resume_network) ... ok
+test_exact64_dispositions_and_no_false_verification (test_completed9.CompletedTests.test_exact64_dispositions_and_no_false_verification) ... ok
+test_identity_unknown_does_not_become_independent_group (test_completed9.CompletedTests.test_identity_unknown_does_not_become_independent_group) ... ok
+test_native_annotations_and_context_remain_provisional (test_completed9.CompletedTests.test_native_annotations_and_context_remain_provisional) ... ok
+test_no_image_bodies_heads_or_gpu_calls (test_completed9.CompletedTests.test_no_image_bodies_heads_or_gpu_calls) ... ok
+test_no_rights_supported_acquisition_list_is_fabricated (test_completed9.CompletedTests.test_no_rights_supported_acquisition_list_is_fabricated) ... ok
+test_transfer_reconciles_measured_TLS_and_conservative_allowance (test_completed9.CompletedTests.test_transfer_reconciles_measured_TLS_and_conservative_allowance) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.022s
+
+OK

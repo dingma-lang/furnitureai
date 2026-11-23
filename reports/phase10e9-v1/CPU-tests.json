@@ -1,0 +1,8 @@
+{
+  "GPU_calls": 0,
+  "log": "reports/phase10e9-v1/CPU-rights-a82dcbcf.log",
+  "network_calls": 0,
+  "passed": 18,
+  "sha256": "aa0d584bf4978be090c5c6e95f14a9fcf65f81de989332f622cb88062b559983",
+  "status": "PASS"
+}

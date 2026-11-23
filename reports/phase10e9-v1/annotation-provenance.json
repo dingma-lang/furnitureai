@@ -1,0 +1,19 @@
+{
+  "COCO": {
+    "attribution": "Retain COCO Consortium annotation credit, CC BY4.0 link and changes; cite COCO original dataset publication. Individual creators/licences must accompany any later photograph or derived contact sheet.",
+    "creator": "COCO Consortium",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "prior_record": "data/coco/metadata/phase6b-v1/license-and-source-provenance.json",
+    "prior_record_sha256": "2db4b2dd5c3a45adef6d3c65eea4b971c8436f7c345021b07195b3d2a150c01e"
+  },
+  "LVIS": {
+    "attribution": "LVIS / Gupta, Dollar, Girshick; retain source IDs and indication of conversion/overlays",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "official_source_evidence": "data/lvis/metadata/phase7-v1/official-lvis-site.js",
+    "official_source_evidence_sha256": "a7997bf94a22d4fc4573ce20431e0888ca87cbf9bf2a002d8f2230f0bdccce23",
+    "prior_record": "data/lvis/metadata/phase7-v1/licensing-and-attribution-ledger.json",
+    "prior_record_sha256": "2c8dcdf57d7776650650edbf5a56910b1d575ba74223fca50ea2a8561f29937d"
+  },
+  "annotation_licenses_do_not_clear_underlying_photographs": true,
+  "photograph_rights_upgraded": 0
+}

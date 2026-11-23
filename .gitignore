@@ -260,6 +260,12 @@
 !/reports/phase10e8-v1/*.json
 !/reports/phase10e8-v1/*.csv
 !/reports/phase10e8-v1/SHA256SUMS
+!/reports/phase10e9-v1/
+/reports/phase10e9-v1/*
+!/reports/phase10e9-v1/*.md
+!/reports/phase10e9-v1/*.json
+!/reports/phase10e9-v1/*.csv
+!/reports/phase10e9-v1/SHA256SUMS
 
 # Private machine configuration and credentials.
 /.aws/
@@ -299,6 +305,7 @@ dist/
 !/reports/phase10e6-v1/CPU-*.log
 !/reports/phase10e7-v1/CPU-*.log
 !/reports/phase10e8-v1/CPU-*.log
+!/reports/phase10e9-v1/CPU-*.log
 
 # Binary model/cache files and dataset archives belong outside Git.
 *.pt

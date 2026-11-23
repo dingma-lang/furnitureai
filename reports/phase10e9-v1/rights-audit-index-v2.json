@@ -1,0 +1,28 @@
+{
+  "acquisition_plans": "reports/phase10e9-v1/acquisition-plans.json",
+  "acquisition_plans_sha256": "3831101cf1192aaad81dc275e6bbeaddf267074677e29a825f1026fdda108f0a",
+  "additional_existing_LVIS_annotations": "reports/phase10e9-v1/LVIS-annotations-by-ID.json",
+  "additional_existing_LVIS_sha256": "830fb7ef1afc4604dc98b85323a6a682ffcaeb058f844a96abd1749411c661f4",
+  "additional_existing_LVIS_summary": "reports/phase10e9-v1/LVIS-existing-annotation-summary.json",
+  "additional_existing_LVIS_summary_sha256": "6f2103affebaa7f7b8a25196d86d719e91be1386b1ba235c2fdb2ba49d8b24bb",
+  "annotations_by_ID": "reports/phase10e9-v1/candidate-annotation-inventory.json",
+  "annotations_by_ID_sha256": "7afac5721e2254c6184f831aa2d702ae1091ec1de7107b658ed987b5cbd8e95a",
+  "authoritative_version": 2,
+  "exact64manifest_sha256": "50e29c7b64b4ca67b695df5c941e4bb3c930ffe483e25d0de731ac9e22c86466",
+  "network_audit_closed": true,
+  "phase": "10E.9",
+  "photo_downloads_approved": false,
+  "prior_index_sha256": "bfcf47822f78c05e863efe6192cf27a5f1a0613ed54623902b6ba53b6427ad5a",
+  "private_full_rights_ledger": "data/coco/rights-audits/phase10e8-v1/license-attribution-ledger.json",
+  "private_full_rights_ledger_sha256": "b8cee3d9e8c3493d50d8f67de3ab01451169404dd48c6d9427605008e4d55fba",
+  "rights_by_ID": "reports/phase10e9-v1/rights-by-ID.json",
+  "rights_by_ID_sha256": "7d120fa0cc99a6fff010005034935dfc14a0263e9659717f3a4dff560ce9e159",
+  "rights_counts_unchanged": true,
+  "source_access": "reports/phase10e9-v1/source-access-evidence.json",
+  "source_access_sha256": "7c5eada27cb69af06a9afff52cd44c08505b807a63eddeb4e5d0ffa003739831",
+  "status_counts": {
+    "A_rights_supported": 0,
+    "B_unresolved_rights": 64,
+    "C_unsuitable": 0
+  }
+}

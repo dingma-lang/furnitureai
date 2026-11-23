@@ -1,0 +1,23 @@
+test_dataset_licence_is_not_photo_rights (__main__.EvidenceTests.test_dataset_licence_is_not_photo_rights) ... ok
+test_exact64_native_annotation_and_no_partition_assignment (__main__.EvidenceTests.test_exact64_native_annotation_and_no_partition_assignment) ... ok
+test_licence_lookalike_domain_rejected (__main__.EvidenceTests.test_licence_lookalike_domain_rejected) ... ok
+test_missing_creator_unresolved (__main__.EvidenceTests.test_missing_creator_unresolved) ... ok
+test_no_arbitrary_policy_host (__main__.EvidenceTests.test_no_arbitrary_policy_host) ... ok
+test_noai_signal_is_not_silently_cleared (__main__.EvidenceTests.test_noai_signal_is_not_silently_cleared) ... ok
+test_photo_GET_and_alternate_ID_rejected (__main__.EvidenceTests.test_photo_GET_and_alternate_ID_rejected) ... ok
+test_restricted_or_changed_licence (__main__.EvidenceTests.test_restricted_or_changed_licence) ... ok
+test_same_photo_creator_specific_licence_required (__main__.EvidenceTests.test_same_photo_creator_specific_licence_required) ... ok
+test_wrong_photo_does_not_clear_candidate (__main__.EvidenceTests.test_wrong_photo_does_not_clear_candidate) ... ok
+test_429_stops_provider_and_preserves_retry_after (__main__.TransportTests.test_429_stops_provider_and_preserves_retry_after) ... ok
+test_cap_checked_before_connection (__main__.TransportTests.test_cap_checked_before_connection) ... ok
+test_default_ssl_context_verifies_chain_and_hostname (__main__.TransportTests.test_default_ssl_context_verifies_chain_and_hostname) ... ok
+test_forbidden_photo_body_fails_before_socket (__main__.TransportTests.test_forbidden_photo_body_fails_before_socket) ... ok
+test_gzip_decode_bounded_and_checksum_verified (__main__.TransportTests.test_gzip_decode_bounded_and_checksum_verified) ... ok
+test_saved_circuit_survives_same_audit_resume (__main__.TransportTests.test_saved_circuit_survives_same_audit_resume) ... ok
+test_single_candidate_attempt_and_no_retries (__main__.TransportTests.test_single_candidate_attempt_and_no_retries) ... ok
+test_tls_traffic_and_overhead_are_separate (__main__.TransportTests.test_tls_traffic_and_overhead_are_separate) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.158s
+
+OK

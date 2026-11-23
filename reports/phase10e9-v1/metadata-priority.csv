@@ -1,0 +1,65 @@
+rank,image_id,source_photo_id,metadata_priority_score,confuser_metadata,potential_outdoor_or_mixed_context,rights_status,acquisition_eligible
+1,coco2017:000000042492,flickr-photo:7375922896,15,microwave;oven;person;potted plant;refrigerator;sink,,B_unresolved_rights,False
+2,coco2017:000000012754,flickr-photo:8401562399,11,oven;person;refrigerator;sink,,B_unresolved_rights,False
+3,coco2017:000000001958,flickr-photo:4711543613,9,person;tv,,B_unresolved_rights,False
+4,coco2017:000000009253,flickr-photo:8088753943,9,handbag;laptop;person,,B_unresolved_rights,False
+5,coco2017:000000016273,flickr-photo:5601699328,9,person;potted plant;vase,,B_unresolved_rights,False
+6,coco2017:000000020788,flickr-photo:2615459739,9,person;potted plant;vase,,B_unresolved_rights,False
+7,coco2017:000000028674,flickr-photo:3099088395,9,laptop;person;tv,,B_unresolved_rights,False
+8,coco2017:000000029942,flickr-photo:3786320767,9,handbag;laptop;person,,B_unresolved_rights,False
+9,coco2017:000000033297,flickr-photo:6829561160,8,microwave;oven;refrigerator;sink,,B_unresolved_rights,False
+10,coco2017:000000036091,flickr-photo:8558033970,8,microwave;oven;refrigerator;sink,,B_unresolved_rights,False
+11,coco2017:000000000790,flickr-photo:7866247804,7,person;potted plant,,B_unresolved_rights,False
+12,coco2017:000000019441,flickr-photo:2225208797,7,person;tv,,B_unresolved_rights,False
+13,coco2017:000000022882,flickr-photo:2996357280,7,person;potted plant,,B_unresolved_rights,False
+14,coco2017:000000024175,flickr-photo:472766269,7,person;vase,,B_unresolved_rights,False
+15,coco2017:000000025628,flickr-photo:6860876699,7,handbag;person,,B_unresolved_rights,False
+16,coco2017:000000027810,flickr-photo:3844113108,7,person;potted plant,,B_unresolved_rights,False
+17,coco2017:000000028462,flickr-photo:5457482726,7,laptop;person,,B_unresolved_rights,False
+18,coco2017:000000029687,flickr-photo:7140685941,7,person;potted plant,,B_unresolved_rights,False
+19,coco2017:000000030960,flickr-photo:8109654705,7,person;potted plant,,B_unresolved_rights,False
+20,coco2017:000000036123,flickr-photo:4119849772,7,laptop;person,,B_unresolved_rights,False
+21,coco2017:000000037059,flickr-photo:3771621686,7,person,,B_unresolved_rights,False
+22,coco2017:000000007762,flickr-photo:6489247567,6,tv;vase,,B_unresolved_rights,False
+23,coco2017:000000008922,flickr-photo:8250423873,6,oven;potted plant;vase,,B_unresolved_rights,False
+24,coco2017:000000018316,flickr-photo:6295929223,6,microwave;oven;sink,,B_unresolved_rights,False
+25,coco2017:000000019756,flickr-photo:7299575536,6,potted plant;tv,,B_unresolved_rights,False
+26,coco2017:000000322427,flickr-photo:7922858554,6,vase,,B_unresolved_rights,False
+27,coco2017:000000001180,flickr-photo:194967296,5,person,,B_unresolved_rights,False
+28,coco2017:000000003827,flickr-photo:6650212425,5,person,,B_unresolved_rights,False
+29,coco2017:000000007274,flickr-photo:6327635036,5,person,,B_unresolved_rights,False
+30,coco2017:000000013220,flickr-photo:10238216153,5,person,,B_unresolved_rights,False
+31,coco2017:000000014676,flickr-photo:7120100477,5,person,,B_unresolved_rights,False
+32,coco2017:000000016733,flickr-photo:8254900461,5,person,,B_unresolved_rights,False
+33,coco2017:000000021198,flickr-photo:8296906244,5,person,,B_unresolved_rights,False
+34,coco2017:000000028281,flickr-photo:5187802452,5,person,,B_unresolved_rights,False
+35,coco2017:000000031188,flickr-photo:8388877192,5,person,,B_unresolved_rights,False
+36,coco2017:000000032843,flickr-photo:5010316212,5,person,,B_unresolved_rights,False
+37,coco2017:000000036303,flickr-photo:2405929146,5,person,,B_unresolved_rights,False
+38,coco2017:000000037039,flickr-photo:9271295167,5,person,,B_unresolved_rights,False
+39,coco2017:000000041272,flickr-photo:2790480680,5,person,,B_unresolved_rights,False
+40,coco2017:000000018473,flickr-photo:8381578539,4,laptop,,B_unresolved_rights,False
+41,coco2017:000000022149,flickr-photo:9298021082,4,person;vase,zebra,B_unresolved_rights,False
+42,coco2017:000000031081,flickr-photo:3819105387,4,handbag;person,car,B_unresolved_rights,False
+43,coco2017:000000031345,flickr-photo:7878283602,4,,,B_unresolved_rights,False
+44,coco2017:000000038999,flickr-photo:6496945067,4,potted plant;vase,,B_unresolved_rights,False
+45,coco2017:000000141346,flickr-photo:5272477146,4,,,B_unresolved_rights,False
+46,coco2017:000000282691,flickr-photo:6077271076,4,tv,,B_unresolved_rights,False
+47,coco2017:000000395758,flickr-photo:4718972824,4,tv,,B_unresolved_rights,False
+48,coco2017:000000411872,flickr-photo:9126795790,4,,,B_unresolved_rights,False
+49,coco2017:000000503114,flickr-photo:7745444096,4,,,B_unresolved_rights,False
+50,coco2017:000000574845,flickr-photo:2614436096,4,,,B_unresolved_rights,False
+51,coco2017:000000579255,flickr-photo:8638174677,4,vase,,B_unresolved_rights,False
+52,coco2017:000000002179,flickr-photo:9444360032,2,person,skateboard,B_unresolved_rights,False
+53,coco2017:000000030434,flickr-photo:7096195249,2,,,B_unresolved_rights,False
+54,coco2017:000000033650,flickr-photo:7282161910,2,,,B_unresolved_rights,False
+55,coco2017:000000037800,flickr-photo:4773567769,2,person,bicycle,B_unresolved_rights,False
+56,coco2017:000000038259,flickr-photo:8644921527,2,person,airplane,B_unresolved_rights,False
+57,coco2017:000000039669,flickr-photo:121306022,2,,,B_unresolved_rights,False
+58,coco2017:000000233625,flickr-photo:6780852829,2,,,B_unresolved_rights,False
+59,coco2017:000000516793,flickr-photo:6330820848,2,,,B_unresolved_rights,False
+60,coco2017:000000001522,flickr-photo:2073334266,0,,,B_unresolved_rights,False
+61,coco2017:000000026942,flickr-photo:6066118824,0,,,B_unresolved_rights,False
+62,coco2017:000000043171,flickr-photo:4344187156,0,,,B_unresolved_rights,False
+63,coco2017:000000020410,flickr-photo:9441567619,-1,person,bicycle;skateboard,B_unresolved_rights,False
+64,coco2017:000000039502,flickr-photo:3729719305,-1,refrigerator,truck,B_unresolved_rights,False

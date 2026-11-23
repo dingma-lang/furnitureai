@@ -1,0 +1,73 @@
+{
+  "GPU_forwards": 0,
+  "all_native_annotations": 786,
+  "category_distribution": {
+    "bed": {
+      "boxes": 18,
+      "mask_annotations": 18,
+      "photographs": 13,
+      "rights_supported_photographs": 0
+    },
+    "cabinet": {
+      "boxes": 0,
+      "mask_annotations": 0,
+      "photographs": 0,
+      "rights_supported_photographs": 0
+    },
+    "chair": {
+      "boxes": 169,
+      "mask_annotations": 169,
+      "photographs": 63,
+      "rights_supported_photographs": 0
+    },
+    "desk": {
+      "boxes": 0,
+      "mask_annotations": 0,
+      "photographs": 0,
+      "rights_supported_photographs": 0
+    },
+    "lamp": {
+      "boxes": 0,
+      "mask_annotations": 0,
+      "photographs": 0,
+      "rights_supported_photographs": 0
+    },
+    "sofa": {
+      "boxes": 19,
+      "mask_annotations": 19,
+      "photographs": 12,
+      "rights_supported_photographs": 0
+    },
+    "table": {
+      "boxes": 62,
+      "mask_annotations": 62,
+      "photographs": 51,
+      "rights_supported_photographs": 0
+    }
+  },
+  "conservative_transfer_charge": 77260,
+  "independent_evaluation_list_count": 0,
+  "individual_rights_IDs_attempted": 0,
+  "measured_TLS_received_bytes": 9820,
+  "measured_TLS_sent_bytes": 1904,
+  "measured_TLS_total_bytes": 11724,
+  "measured_response_body_bytes": 658,
+  "metadata_IDs_audited": 64,
+  "new_training_labels": 0,
+  "next_approval": "No photograph-acquisition approval is ready. A future rights-only continuation first requires provider-permitted access or acceptable photograph-specific creator evidence;then freeze exact rights-supported IDs and resource budget for separate photo approval.",
+  "partition_assignments": 0,
+  "photo_object_HEADs": 0,
+  "photograph_bodies": 0,
+  "policy_URL": "https://www.flickr.com/robots.txt",
+  "policy_document_requests": 1,
+  "policy_document_sha256": "596abe673cd61794959827e668ec2f1577bc8aafad8753867a41dfed710e1e8c",
+  "rights_supported": 0,
+  "selected_furniture_boxes": 268,
+  "source_access_reason": "Flickrrobots default User-agent:* Disallow:/ applies to this honestly identified audit client;no alternate identity,API or source was used",
+  "source_terms_or_licence_page_downloads_after_robots_denial": 0,
+  "status": "COMPLETE_LOCAL_AUDIT_REMOTE_RIGHTS_BLOCKED",
+  "training_acquisition_list_count": 0,
+  "transfer_cap": 32000000,
+  "unresolved": 64,
+  "unsuitable": 0
+}
