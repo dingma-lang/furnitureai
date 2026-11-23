@@ -1,0 +1,13 @@
+{
+  "FP16_maximum": 65504.0,
+  "actual_scaled_GPU_variant_executed": false,
+  "conclusion": "Concrete FP16 range hazard at the projection-weight adjoint:the recovered FP32 value scaled128 exceeds half range. Actual legacy intermediate rounding/reduction and first overflow were not recorded;no alternate GPU variant was run.",
+  "corresponding_scaled_FP32_value": 171247.328125,
+  "earliest_old_nonfinite_operation_confirmed": false,
+  "old_instrumentation_scale": 128.0,
+  "photo_id": "coco2017:000000002347",
+  "positive_projection_maximum": 0.02023438923060894,
+  "range_excess_factor": 2.6143033726947973,
+  "source": "Actual recovered unit-KD FP32 projection VJP",
+  "unscaled_weight_gradient_maximum": 1337.8697509765625
+}

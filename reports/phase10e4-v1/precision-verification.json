@@ -1,0 +1,203 @@
+{
+  "backward_dtypes": [
+    "torch.float32"
+  ],
+  "box_native_probe_photos": 1,
+  "earliest_nonfinite": null,
+  "forward_names": [
+    "head_input",
+    "raw_projection",
+    "saved_norm",
+    "normalized_projection",
+    "normalized_query",
+    "contracted_query",
+    "cosine",
+    "scale",
+    "returned_logits"
+  ],
+  "forward_tensors": [
+    {
+      "L2": 1659.643332813706,
+      "device": "cuda:0",
+      "dtype": "torch.float32",
+      "elements": 2764800,
+      "finite": true,
+      "finite_subset_L2": 1659.643332813706,
+      "maximum": 21.427412033081055,
+      "maximum_absolute": 21.427412033081055,
+      "minimum": -19.705373764038086,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        1,
+        3600,
+        768
+      ]
+    },
+    {
+      "L2": 206.5999200176939,
+      "device": "cuda:0",
+      "dtype": "torch.float16",
+      "elements": 1843200,
+      "finite": true,
+      "finite_subset_L2": 206.5999200176939,
+      "maximum": 2.763671875,
+      "maximum_absolute": 2.763671875,
+      "minimum": -1.982421875,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        1,
+        3600,
+        512
+      ]
+    },
+    {
+      "L2": 206.59991863194466,
+      "device": "cuda:0",
+      "dtype": "torch.float32",
+      "elements": 3600,
+      "finite": true,
+      "finite_subset_L2": 206.59991863194466,
+      "maximum": 6.074656963348389,
+      "maximum_absolute": 6.074656963348389,
+      "minimum": 1.9481847286224365,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        1,
+        3600,
+        1
+      ]
+    },
+    {
+      "L2": 59.999982940161885,
+      "device": "cuda:0",
+      "dtype": "torch.float32",
+      "elements": 1843200,
+      "finite": true,
+      "finite_subset_L2": 59.999982940161885,
+      "maximum": 0.5019763112068176,
+      "maximum_absolute": 0.5019763112068176,
+      "minimum": -0.4545687735080719,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        1,
+        3600,
+        512
+      ]
+    },
+    {
+      "L2": 2.6457487203628407,
+      "device": "cuda:0",
+      "dtype": "torch.float32",
+      "elements": 3584,
+      "finite": true,
+      "finite_subset_L2": 2.6457487203628407,
+      "maximum": 0.5629969835281372,
+      "maximum_absolute": 0.5629969835281372,
+      "minimum": -0.17640744149684906,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        1,
+        7,
+        512
+      ]
+    },
+    {
+      "L2": 2.645828978405481,
+      "device": "cuda:0",
+      "dtype": "torch.float16",
+      "elements": 3584,
+      "finite": true,
+      "finite_subset_L2": 2.645828978405481,
+      "maximum": 0.56298828125,
+      "maximum_absolute": 0.56298828125,
+      "minimum": -0.1763916015625,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        1,
+        7,
+        512
+      ]
+    },
+    {
+      "L2": 16.82914931211107,
+      "device": "cuda:0",
+      "dtype": "torch.float16",
+      "elements": 25200,
+      "finite": true,
+      "finite_subset_L2": 16.82914931211107,
+      "maximum": 0.370849609375,
+      "maximum_absolute": 0.370849609375,
+      "minimum": -0.1448974609375,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        1,
+        3600,
+        7
+      ]
+    },
+    {
+      "L2": 1641.22206577954,
+      "device": "cuda:0",
+      "dtype": "torch.float16",
+      "elements": 3600,
+      "finite": true,
+      "finite_subset_L2": 1641.22206577954,
+      "maximum": 41.28125,
+      "maximum_absolute": 41.28125,
+      "minimum": 14.59375,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        1,
+        3600,
+        1
+      ]
+    },
+    {
+      "L2": 2223.4073903226613,
+      "device": "cuda:0",
+      "dtype": "torch.float32",
+      "elements": 25200,
+      "finite": true,
+      "finite_subset_L2": 2223.4073903226613,
+      "maximum": 0.37744140625,
+      "maximum_absolute": 39.625,
+      "minimum": -39.625,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        1,
+        3600,
+        7
+      ]
+    }
+  ],
+  "full_combined_GPU_training_smoke_run": false,
+  "loss_scale": 1.0,
+  "measurement_events": 330,
+  "nonzero_parameter_gradients_checked": true,
+  "numerical_values_checked": true,
+  "original_terminal_zero_was_analytic_not_executed_VJP": true,
+  "training_precision_pinned_to": {
+    "CPU_combined_verified": true,
+    "GPU_full_combined_training_backward_executed": false,
+    "GPU_native_box_verified_photos": 1,
+    "GPU_positive_KD_components_verified": true,
+    "GradScaler": false,
+    "TF32": false,
+    "box_backward": "Native FP16 box branch with FP32 loss/master gradients",
+    "classification_backward": "E3 FP32 observed-node adjoint for ALL classification terms;exact observed forward;not legacy rounded FP16 adjoint",
+    "classification_source": "tools/phase10e3-v1/stable3.py",
+    "forward": "FP16 CUDA autocast",
+    "implementation": "tools/phase10e4-v1/precision4.py:combined",
+    "loss": "FP32 unchanged C11/C8corrected base+fixedcoefficient*selectiveMSE",
+    "loss_scale": 1.0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "GPU_additional_attempts": 0,
+  "coefficient": 7.063459015854303e-06,
+  "coefficient_proposed_not_authorized_for_training": true,
+  "performance_improvement_claimed": false,
+  "reason": "All15 active source groups recovered finite nonzero parameter gradients with unchanged states;one conservative training-only coefficient bounded by positive gradients.",
+  "remaining_cautions": [
+    "Local Euclidean first-order bound,not an AdamW-preconditioned update guarantee",
+    "15 source groups only;267terms mostly already-confident negatives;other6classes unanchored",
+    "All measured KD directions conflict with positive gradients;small coefficient is intentional",
+    "Does not prove shared seven-class confidence drift will fall or detection precision/recall improve",
+    "Box backward checked on one adapted photograph;not every future training state",
+    "No development or independent evaluation data used for coefficient selection"
+  ],
+  "status": "FINITE_NONZERO_RECOVERY",
+  "training_authorized": false,
+  "training_ready": true
+}

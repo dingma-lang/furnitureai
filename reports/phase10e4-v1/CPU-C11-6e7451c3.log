@@ -1,0 +1,26 @@
+test_changed_optimizer_hyperparameter_rejected (test_preflight10.ScopeTests.test_changed_optimizer_hyperparameter_rejected) ... ok
+test_checkpoint_CPU_serialization_roundtrip (test_preflight10.ScopeTests.test_checkpoint_CPU_serialization_roundtrip) ... ok
+test_checkpoint_calibration_mismatch_rejected (test_preflight10.ScopeTests.test_checkpoint_calibration_mismatch_rejected) ... ok
+test_checkpoint_legacy_inference_head_compatibility (test_preflight10.ScopeTests.test_checkpoint_legacy_inference_head_compatibility) ... ok
+test_checkpoint_nonfinite_moment_rejected (test_preflight10.ScopeTests.test_checkpoint_nonfinite_moment_rejected) ... ok
+test_checkpoint_optimizer_bad_lr_rejected_before_copy (test_preflight10.ScopeTests.test_checkpoint_optimizer_bad_lr_rejected_before_copy) ... ok
+test_exact_frozen_identities_and_count (test_preflight10.ScopeTests.test_exact_frozen_identities_and_count) ... ok
+test_frozen_gradients_remain_none (test_preflight10.ScopeTests.test_frozen_gradients_remain_none) ... ok
+test_frozen_value_mutation_rejected (test_preflight10.ScopeTests.test_frozen_value_mutation_rejected) ... ok
+test_full_75_synthetic_updates_preserve_calibration (test_preflight10.ScopeTests.test_full_75_synthetic_updates_preserve_calibration) ... ok
+test_full_backbone_mutation_rejected (test_preflight10.ScopeTests.test_full_backbone_mutation_rejected) ... ok
+test_legacy_reenable_is_detected_not_silently_repaired (test_preflight10.ScopeTests.test_legacy_reenable_is_detected_not_silently_repaired) ... ok
+test_nonfinite_trainable_gradient_rejected (test_preflight10.ScopeTests.test_nonfinite_trainable_gradient_rejected) ... ok
+test_optimizer_excludes_all_four_calibration_tensors (test_preflight10.ScopeTests.test_optimizer_excludes_all_four_calibration_tensors) ... ok
+test_optimizer_with_frozen_parameter_rejected (test_preflight10.ScopeTests.test_optimizer_with_frozen_parameter_rejected) ... ok
+test_over_budget_checkpoint_rejected (test_preflight10.ScopeTests.test_over_budget_checkpoint_rejected) ... ok
+test_persistent_across_training_eval_and_updates (test_preflight10.ScopeTests.test_persistent_across_training_eval_and_updates) ... ok
+test_pristine_checkpoint_initialization (test_preflight10.ScopeTests.test_pristine_checkpoint_initialization) ... ok
+test_stray_zero_frozen_gradient_is_rejected (test_preflight10.ScopeTests.test_stray_zero_frozen_gradient_is_rejected) ... ok
+test_wrong_binding_rejected (test_preflight10.ScopeTests.test_wrong_binding_rejected) ... ok
+test_wrong_training_scope_and_shape_rejected (test_preflight10.ScopeTests.test_wrong_training_scope_and_shape_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 1.195s
+
+OK

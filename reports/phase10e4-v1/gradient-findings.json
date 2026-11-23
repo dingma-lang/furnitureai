@@ -1,0 +1,221 @@
+{
+  "GPU_execution_new_attempts": 1,
+  "KD_displacement_cosines": {
+    "count": 15,
+    "maximum": 0.1438444094766922,
+    "mean": 0.11866169342946908,
+    "median": 0.11499410744018307,
+    "minimum": 0.10652459060846878
+  },
+  "KD_opposes_past_displacement_photos": 15,
+  "VJPs": 31,
+  "all_adapted_forwards_bit_identical": true,
+  "backward": "FP32 observed-node classification adjoint;one native box VJP at scale1",
+  "box_probe": {
+    "backward": "Native FP16 box-head adjoint;FP32 loss and master gradients;not the classification repair",
+    "box_output": {
+      "L2": 13.463494159876888,
+      "device": "cuda:0",
+      "dtype": "torch.float32",
+      "elements": 14400,
+      "finite": true,
+      "finite_subset_L2": 13.463494159876888,
+      "maximum": 8.061101913452148,
+      "maximum_absolute": 8.061101913452148,
+      "minimum": -6.127159595489502,
+      "nonfinite": 0,
+      "present": true,
+      "shape": [
+        3600,
+        4
+      ]
+    },
+    "box_parameters": [
+      {
+        "L2": 0.39220629172775767,
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "elements": 768,
+        "finite": true,
+        "finite_subset_L2": 0.39220629172775767,
+        "maximum": 0.0648193359375,
+        "maximum_absolute": 0.0648193359375,
+        "minimum": -0.041107177734375,
+        "nonfinite": 0,
+        "present": true,
+        "shape": [
+          768
+        ]
+      },
+      {
+        "L2": 11.027970122011734,
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "elements": 589824,
+        "finite": true,
+        "finite_subset_L2": 11.027970122011734,
+        "maximum": 1.2861328125,
+        "maximum_absolute": 1.2861328125,
+        "minimum": -0.81884765625,
+        "nonfinite": 0,
+        "present": true,
+        "shape": [
+          768,
+          768
+        ]
+      },
+      {
+        "L2": 0.26263482770811897,
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "elements": 768,
+        "finite": true,
+        "finite_subset_L2": 0.26263482770811897,
+        "maximum": 0.08740234375,
+        "maximum_absolute": 0.08740234375,
+        "minimum": -0.042449951171875,
+        "nonfinite": 0,
+        "present": true,
+        "shape": [
+          768
+        ]
+      },
+      {
+        "L2": 5.861214086771078,
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "elements": 589824,
+        "finite": true,
+        "finite_subset_L2": 5.861214086771078,
+        "maximum": 0.30712890625,
+        "maximum_absolute": 0.30712890625,
+        "minimum": -0.1505126953125,
+        "nonfinite": 0,
+        "present": true,
+        "shape": [
+          768,
+          768
+        ]
+      },
+      {
+        "L2": 2.2638767205699875,
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "elements": 4,
+        "finite": true,
+        "finite_subset_L2": 2.2638767205699875,
+        "maximum": 1.3984375,
+        "maximum_absolute": 1.572265625,
+        "minimum": -1.572265625,
+        "nonfinite": 0,
+        "present": true,
+        "shape": [
+          4
+        ]
+      },
+      {
+        "L2": 61.72633512002964,
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "elements": 3072,
+        "finite": true,
+        "finite_subset_L2": 61.72633512002964,
+        "maximum": 4.8515625,
+        "maximum_absolute": 5.9921875,
+        "minimum": -5.9921875,
+        "nonfinite": 0,
+        "present": true,
+        "shape": [
+          4,
+          768
+        ]
+      }
+    ],
+    "image_id": "coco2017:000000002347",
+    "loss": 0.21332596242427826,
+    "loss_scale": 1.0,
+    "projection_gradients_none": true
+  },
+  "coefficient": 7.063459015854303e-06,
+  "contractions": 16,
+  "cosines": {
+    "count": 15,
+    "maximum": -0.4094320478440906,
+    "mean": -0.6837574731482429,
+    "median": -0.7139289348987586,
+    "minimum": -0.8999028148386528
+  },
+  "formula": "0.5*min(min_photo(||g_positive||/||g_unit_KD||),||sum_source_mean(g_positive)||/||sum_source_mean(g_unit_KD)||)",
+  "forwards": 16,
+  "limitations": [
+    "Local Euclidean first-order bound,not an AdamW-preconditioned update guarantee",
+    "15 source groups only;267terms mostly already-confident negatives;other6classes unanchored",
+    "All measured KD directions conflict with positive gradients;small coefficient is intentional",
+    "Does not prove shared seven-class confidence drift will fall or detection precision/recall improve",
+    "Box backward checked on one adapted photograph;not every future training state",
+    "No development or independent evaluation data used for coefficient selection"
+  ],
+  "loss_scale": 1.0,
+  "measurement_dtypes": [
+    "torch.float32"
+  ],
+  "numerical_earliest_nonfinite": null,
+  "optimizer_updates": 0,
+  "original_KD_loss": 0.0,
+  "original_exact_zero": true,
+  "original_forward_logit_max_error": 0.0,
+  "peak_allocated_bytes": 1695398400,
+  "peak_reserved_bytes": 2325741568,
+  "photograph_bound": 1.4126918031708607e-05,
+  "photos": 15,
+  "positive_KD_opposition_photos": 15,
+  "positive_descent_fractions": {
+    "count": 15,
+    "maximum": 0.9998453072086971,
+    "mean": 0.9381570109298774,
+    "median": 0.9956411182223545,
+    "minimum": 0.6409740156142113
+  },
+  "positive_projection_L2": {
+    "count": 15,
+    "maximum": 29.346977861544097,
+    "mean": 5.112271777337771,
+    "median": 1.6065566573855004,
+    "minimum": 0.01650979175255533
+  },
+  "protected_output_overlaps": 0,
+  "ratios": {
+    "count": 15,
+    "maximum": 70786.84804112601,
+    "mean": 12045.743677648528,
+    "median": 864.375953797658,
+    "minimum": 47.30661207658415
+  },
+  "seconds": 26.04842213098891,
+  "selected_Chair_scores_ge015": 2,
+  "source_groups": 15,
+  "source_norm_share_is_not_vector_sum_share": true,
+  "source_sum_bound": 0.003135172531630899,
+  "source_sum_cosine": -0.6675367357610615,
+  "status": "PASS",
+  "terms": 267,
+  "top1_share_individual_KD_norms": 0.15840427726108652,
+  "top3_share_individual_KD_norms": 0.30452309926036736,
+  "typed_measurement_telemetry_events": 330,
+  "unit_KD_projection_L2": {
+    "count": 15,
+    "maximum": 3470.3353926284085,
+    "mean": 1460.539430135253,
+    "median": 1349.8286478826772,
+    "minimum": 1016.8052550234204
+  },
+  "wall_seconds": 26.699562741967384,
+  "weighted_ratios": {
+    "count": 15,
+    "maximum": 0.5,
+    "mean": 0.08508461678255647,
+    "median": 0.0061054841239397304,
+    "minimum": 0.0003341483155818704
+  },
+  "weighted_source_sum_ratio": 0.002252972984609537
+}

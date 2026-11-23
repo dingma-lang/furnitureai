@@ -1,0 +1,38 @@
+{
+  "GPU_calls": 0,
+  "passed": 85,
+  "phase_lifecycle_exclusions": [
+    {
+      "reason": "Passed pre-GPU;its recovery-directory-must-not-exist assertion is no longer applicable after authorized E4 creation. Original source unchanged.",
+      "test": "test_recovery_proposal_and_execution_disabled"
+    }
+  ],
+  "real_model_updates": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "reports/phase10e4-v1/CPU-E4-7a40ec48.log",
+      "passed": 7,
+      "sha256": "180eae0fb64efc89d52d9e0c157e88b701156733e30e77b5b32cb18be617d767",
+      "suite": "E4"
+    },
+    {
+      "log": "reports/phase10e4-v1/CPU-E3-3eb161d4.log",
+      "passed": 37,
+      "sha256": "56d9b2f35261040e587b18d72ae5751b1973f2e5a572f80d85055d16219de0a5",
+      "suite": "E3"
+    },
+    {
+      "log": "reports/phase10e4-v1/CPU-E1-4044b6e6.log",
+      "passed": 20,
+      "sha256": "10121382b0521f9ba5932f99ff05689107dd5e916d5a5b0b038c9a6c39eae7e8",
+      "suite": "E1"
+    },
+    {
+      "log": "reports/phase10e4-v1/CPU-C11-7f3d9ea0.log",
+      "passed": 21,
+      "sha256": "02644dc5f15067a9981f57c5ef095d15ead77ce5b0ce650853adc52d1886cfe7",
+      "suite": "C11"
+    }
+  ]
+}

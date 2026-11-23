@@ -1,0 +1,253 @@
+{
+  "GPU_calls": 0,
+  "active_groups": 15,
+  "active_photos": 15,
+  "active_records": [
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/02.npz",
+      "cache_sha256": "ae9430f3f7d749c042999f078433f553ff3a0427fc068738d220f83ce83e42c3",
+      "historical_index": 2,
+      "image_id": "coco2017:000000002347",
+      "mask_sha256": "c6dd2b5d171f642b9e928276d27fcc175e77c127bae7deea6d263fcecfa66d15",
+      "source_group": "flickr-account:68258082@n06",
+      "terms": 1
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/03.npz",
+      "cache_sha256": "c959bd97fdb560ed8b584c4c0adfbd6da340ba4fa5fdb9af4cf3213702df0cbf",
+      "historical_index": 3,
+      "image_id": "coco2017:000000030347",
+      "mask_sha256": "35fc1eba0a8efc163704905903b01a7253829fc15c90f0611edf7e406241ceb5",
+      "source_group": "flickr-account:mikecogh",
+      "terms": 6
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/04.npz",
+      "cache_sha256": "38f7c94c03e0b8c684886461775ddab6a2107c6e25f71846723f69bdd85d70d1",
+      "historical_index": 4,
+      "image_id": "coco2017:000000037367",
+      "mask_sha256": "f2f3d1be8a1ff57862e1a9eb2b2ef4191c59085bb10a42ceed15fa318b02de8e",
+      "source_group": "flickr-account:davidgiesberg",
+      "terms": 2
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/05.npz",
+      "cache_sha256": "ccc908da2f7cd739efaf629d584a2d36ad53ecbdb9fffb4190d56ab61a781f13",
+      "historical_index": 5,
+      "image_id": "coco2017:000000074638",
+      "mask_sha256": "d2360531ab8eab22709724f47f5b218751d3eca34c6f9188b9731c0d8a3c10b7",
+      "source_group": "flickr-account:98894271@n00",
+      "terms": 26
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/06.npz",
+      "cache_sha256": "43d0624fad062b504cdbfb68860ad6d49493d5eb76dd219b8d192b16d138eb40",
+      "historical_index": 6,
+      "image_id": "coco2017:000000108375",
+      "mask_sha256": "eee91b1ef1f7786028039223f0fc13d3886870dcda9bf95aeb61120fdcd9e7c4",
+      "source_group": "flickr-account:laruth",
+      "terms": 11
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/07.npz",
+      "cache_sha256": "4a151fbfff19adafcb1fd6e00ffb6e7a67d07505173dfc642dceafedd75f183d",
+      "historical_index": 7,
+      "image_id": "coco2017:000000114729",
+      "mask_sha256": "950ebd943c14658943434c7312f1d75a6c1cf1aa867ebc471181b6715851c02a",
+      "source_group": "flickr-account:johanl",
+      "terms": 7
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/09.npz",
+      "cache_sha256": "1ef5f7a83824be50ebb577bf13b6a6ae445114e03e931c4e56cf338ec2897a17",
+      "historical_index": 9,
+      "image_id": "coco2017:000000165742",
+      "mask_sha256": "90f89c237d56feb2f50d1f958931b88effad31846d1d7f59fbfb89c30bf9eb2a",
+      "source_group": "flickr-account:pagel",
+      "terms": 49
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/11.npz",
+      "cache_sha256": "b437cbb1e8bea999c1336095e726e22cd72158e34eb604cc49ce463caa5fea44",
+      "historical_index": 11,
+      "image_id": "coco2017:000000192834",
+      "mask_sha256": "570d597af85b2270e34a11facf39f07c509fc866186a55188cf41b2b445d526e",
+      "source_group": "flickr-account:vxla",
+      "terms": 33
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/12.npz",
+      "cache_sha256": "dcc81a2dfe894f8d759f0c9f22d2d9ee8def8deedb3d52d5aa4e3e39c5406285",
+      "historical_index": 12,
+      "image_id": "coco2017:000000195507",
+      "mask_sha256": "2160b3e0b9c8b472517160007bce55aaa0283267fd87bedfc3ce6fa14ca2e4e0",
+      "source_group": "flickr-account:emilysnuffer",
+      "terms": 14
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/15.npz",
+      "cache_sha256": "3790c6b1ec13f9ca89e34c4c4d3f4888e6a499f5b6173143377daed63d708ef6",
+      "historical_index": 15,
+      "image_id": "coco2017:000000263212",
+      "mask_sha256": "ed905c0e318274e671ed68c13aae806596c9a3ddb0845ca8919e723f6260b721",
+      "source_group": "flickr-account:jonnygoldstein",
+      "terms": 1
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/16.npz",
+      "cache_sha256": "0dc75dc35d2824ca2800cade0527216723b2cf71cb601f6a803ba50fe64dbc7b",
+      "historical_index": 16,
+      "image_id": "coco2017:000000294698",
+      "mask_sha256": "9f8cc00df435b47c756a9f835ad73509e671835c22a6e9b220081169e3feb7bf",
+      "source_group": "flickr-account:mikebabcock",
+      "terms": 27
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/17.npz",
+      "cache_sha256": "348c7e947efd4f36ec03b2e3a49a94cf6b62c2747c48f3f717e11cebd9b92f8f",
+      "historical_index": 17,
+      "image_id": "coco2017:000000373101",
+      "mask_sha256": "fc8bd2870726b05d91e753c0b840135b539596dcbe763036f8a8675eaba6e5de",
+      "source_group": "flickr-account:kojach",
+      "terms": 62
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/22.npz",
+      "cache_sha256": "66ff219e44aa325e6adca3b585369229b0df34ec1277ffe0156ca295fbb11754",
+      "historical_index": 22,
+      "image_id": "coco2017:000000477263",
+      "mask_sha256": "8ae6f972c3189f88b69fc772813382e26de024b56a07baaf3b740e490c9d4fb1",
+      "source_group": "flickr-account:deepphoto",
+      "terms": 11
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/23.npz",
+      "cache_sha256": "ee7685b549c2b30d57a1018df7395f3930a611bca0a1b81627789006fe89c117",
+      "historical_index": 23,
+      "image_id": "coco2017:000000543194",
+      "mask_sha256": "112b6446c77b38c02dad7ea2eaa6b3989c76f1a08aeb7553c252da4d81b238f7",
+      "source_group": "flickr-account:marcusspaapen",
+      "terms": 3
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/24.npz",
+      "cache_sha256": "3ebeaed0a557232e2ae068965f38e64c1e43c610c2062b7d414cd613d35ec9c9",
+      "historical_index": 24,
+      "image_id": "coco2017:000000580827",
+      "mask_sha256": "c3d9d294d6564821097b8539cadc9d901ba462981975e428aea3dc6ad083bd37",
+      "source_group": "flickr-account:oldrebel",
+      "terms": 14
+    }
+  ],
+  "adapted_terms": 267,
+  "classification_adjoint": "FP32 observed-node;scale1",
+  "coefficient": null,
+  "limits": {
+    "VJPs": 48,
+    "VRAM_bytes": 6979321856,
+    "contractions": 25,
+    "forwards": 25,
+    "optimizer_updates": 0,
+    "output_bytes": 134217728,
+    "seconds": 240
+  },
+  "optimization_photos": 59,
+  "original_tensors": 418,
+  "original_terms": 278,
+  "positive_boxes": 182,
+  "scope_verified": true,
+  "skipped_zero_photos": [
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/01.npz",
+      "cache_sha256": "e135b71b71a2fe5b1ac3876106ca8079df3b7b2afad8c43631a533a78fff42f0",
+      "historical_index": 1,
+      "image_id": "coco2017:000000002270",
+      "mask_sha256": "d254f55b2b40b53ed015ee795b480c5c5c0740c2f0fbac38422e4e580235119d",
+      "reason": "Saved immutable C11 outputs give zero selective terms;no GPU replay or invented gradients",
+      "source_group": "flickr-account:_cck_",
+      "terms": 0
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/08.npz",
+      "cache_sha256": "2aabf99640dbf054ee0875f41b7cc295cde93ccc3e3b5be417e9ac5d40fcbad5",
+      "historical_index": 8,
+      "image_id": "coco2017:000000121824",
+      "mask_sha256": "d254f55b2b40b53ed015ee795b480c5c5c0740c2f0fbac38422e4e580235119d",
+      "reason": "Saved immutable C11 outputs give zero selective terms;no GPU replay or invented gradients",
+      "source_group": "flickr-account:picturesbyann",
+      "terms": 0
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/10.npz",
+      "cache_sha256": "e245ff190f2478184ff3688287b2feb9c25386823e7faa63a8c1ffbabc9a6c60",
+      "historical_index": 10,
+      "image_id": "coco2017:000000178671",
+      "mask_sha256": "d254f55b2b40b53ed015ee795b480c5c5c0740c2f0fbac38422e4e580235119d",
+      "reason": "Saved immutable C11 outputs give zero selective terms;no GPU replay or invented gradients",
+      "source_group": "flickr-account:portobaytrade",
+      "terms": 0
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/13.npz",
+      "cache_sha256": "0838022d622b1cba7f3f76c7b80e6ae69f7fca6962ff0ec489371d984e4b9690",
+      "historical_index": 13,
+      "image_id": "coco2017:000000197201",
+      "mask_sha256": "d254f55b2b40b53ed015ee795b480c5c5c0740c2f0fbac38422e4e580235119d",
+      "reason": "Saved immutable C11 outputs give zero selective terms;no GPU replay or invented gradients",
+      "source_group": "flickr-account:kassandrabay",
+      "terms": 0
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/14.npz",
+      "cache_sha256": "ef69f2a1b7b083982347a74535a301758a4a4a7acecf617a831131dec4e1ff4d",
+      "historical_index": 14,
+      "image_id": "coco2017:000000231450",
+      "mask_sha256": "d254f55b2b40b53ed015ee795b480c5c5c0740c2f0fbac38422e4e580235119d",
+      "reason": "Saved immutable C11 outputs give zero selective terms;no GPU replay or invented gradients",
+      "source_group": "flickr-account:mugland",
+      "terms": 0
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/18.npz",
+      "cache_sha256": "1517fc81e311c9751d88eda1e55cb92e1d6858160817772ffee326a3b1fcfb69",
+      "historical_index": 18,
+      "image_id": "coco2017:000000404592",
+      "mask_sha256": "d254f55b2b40b53ed015ee795b480c5c5c0740c2f0fbac38422e4e580235119d",
+      "reason": "Saved immutable C11 outputs give zero selective terms;no GPU replay or invented gradients",
+      "source_group": "flickr-account:vintagedept",
+      "terms": 0
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/19.npz",
+      "cache_sha256": "727e66054e8bb0a2628119a30dd86eb27edf25bd038af830cf2760773805b696",
+      "historical_index": 19,
+      "image_id": "coco2017:000000421108",
+      "mask_sha256": "d254f55b2b40b53ed015ee795b480c5c5c0740c2f0fbac38422e4e580235119d",
+      "reason": "Saved immutable C11 outputs give zero selective terms;no GPU replay or invented gradients",
+      "source_group": "flickr-account:nduran",
+      "terms": 0
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/20.npz",
+      "cache_sha256": "a2e6728b2042622da82df6b24ff0e3421994f766b1028f18c157b6335d36f3e3",
+      "historical_index": 20,
+      "image_id": "coco2017:000000449850",
+      "mask_sha256": "d254f55b2b40b53ed015ee795b480c5c5c0740c2f0fbac38422e4e580235119d",
+      "reason": "Saved immutable C11 outputs give zero selective terms;no GPU replay or invented gradients",
+      "source_group": "flickr-account:donabelandewen",
+      "terms": 0
+    },
+    {
+      "cache": "data/open-images/experiments/phase10c10-calibration-frozen-v1/probes/epoch-5/21.npz",
+      "cache_sha256": "e517415b85f2384f3c4738207c28b980b0ff6e94545d3cff3cee2252ed18f6dc",
+      "historical_index": 21,
+      "image_id": "coco2017:000000463290",
+      "mask_sha256": "d254f55b2b40b53ed015ee795b480c5c5c0740c2f0fbac38422e4e580235119d",
+      "reason": "Saved immutable C11 outputs give zero selective terms;no GPU replay or invented gradients",
+      "source_group": "flickr-account:snaks",
+      "terms": 0
+    }
+  ],
+  "status": "PASS",
+  "teacher_caches": 59
+}

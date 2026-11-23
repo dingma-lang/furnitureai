@@ -1,0 +1,42 @@
+test_box_gradient_rejected (test_numerics3.NumericsTests.test_box_gradient_rejected) ... ok
+test_cpu_bf16_observed_nodes_match_fp64_reference (test_numerics3.NumericsTests.test_cpu_bf16_observed_nodes_match_fp64_reference) ... ok
+test_cpu_fp16_observed_nodes_match_fp64_reference (test_numerics3.NumericsTests.test_cpu_fp16_observed_nodes_match_fp64_reference) ... ok
+test_disabled_by_default (test_numerics3.NumericsTests.test_disabled_by_default) ... ok
+test_empty_coverage_zero_loss_and_gradient (test_numerics3.NumericsTests.test_empty_coverage_zero_loss_and_gradient) ... ok
+test_exact_forward_and_masks_unchanged (test_numerics3.NumericsTests.test_exact_forward_and_masks_unchanged) ... ok
+test_finite_terminal_nonfinite_half_upstream_synthetic (test_numerics3.NumericsTests.test_finite_terminal_nonfinite_half_upstream_synthetic) ... ok
+test_fp32_matches_independent_fp64_reference (test_numerics3.NumericsTests.test_fp32_matches_independent_fp64_reference) ... ok
+test_fp32_native_head_autograd_agrees (test_numerics3.NumericsTests.test_fp32_native_head_autograd_agrees) ... ok
+test_invalid_numerical_gradient_stops (test_numerics3.NumericsTests.test_invalid_numerical_gradient_stops) ... ok
+test_large_adjoint_reference (test_numerics3.NumericsTests.test_large_adjoint_reference) ... ok
+test_large_logit_deviation_remains_finite (test_numerics3.NumericsTests.test_large_logit_deviation_remains_finite) ... ok
+test_original_teacher_agreement_zero (test_numerics3.NumericsTests.test_original_teacher_agreement_zero) ... ok
+test_parameter_routing_and_no_accumulation (test_numerics3.NumericsTests.test_parameter_routing_and_no_accumulation) ... ok
+test_scaled_unscaled_fp32_adjoint_agree (test_numerics3.NumericsTests.test_scaled_unscaled_fp32_adjoint_agree) ... ok
+test_shared_representation_gradient_rejected (test_numerics3.NumericsTests.test_shared_representation_gradient_rejected) ... ok
+test_small_nonzero_deviation (test_numerics3.NumericsTests.test_small_nonzero_deviation) ... ok
+test_stale_snapshot_or_changed_scope_rejected (test_numerics3.NumericsTests.test_stale_snapshot_or_changed_scope_rejected) ... ok
+test_unfrozen_calibration_rejected (test_numerics3.NumericsTests.test_unfrozen_calibration_rejected) ... ok
+test_widened_projection_fp16_overflow_sensitive (test_numerics3.NumericsTests.test_widened_projection_fp16_overflow_sensitive) ... ok
+test_zero_projection_norm_reference (test_numerics3.NumericsTests.test_zero_projection_norm_reference) ... ok
+test_atomic_no_overwrite (test_numerics3.PersistenceTests.test_atomic_no_overwrite) ... ok
+test_hook_failure_persists_exception_and_first_observation (test_numerics3.PersistenceTests.test_hook_failure_persists_exception_and_first_observation) ... ok
+test_nonfinite_stats_stay_json_serializable (test_numerics3.PersistenceTests.test_nonfinite_stats_stay_json_serializable) ... ok
+test_positive_component_survives_later_failure (test_numerics3.PersistenceTests.test_positive_component_survives_later_failure) ... ok
+test_stats_avoid_half_reduction_overflow (test_numerics3.PersistenceTests.test_stats_avoid_half_reduction_overflow) ... ok
+test_storage_limit (test_numerics3.PersistenceTests.test_storage_limit) ... ok
+test_complete_components_preserve_annotations_and_scope (test_integration3.IntegrationTests.test_complete_components_preserve_annotations_and_scope) ... ok
+test_positive_persisted_before_distillation_failure (test_integration3.IntegrationTests.test_positive_persisted_before_distillation_failure) ... ok
+test_hook_exception_is_recorded_without_suppressing (test_integration3.IntegrationTests.test_hook_exception_is_recorded_without_suppressing) ... ok
+test_source_group_or_hash_change_rejected_before_output (test_integration3.IntegrationTests.test_source_group_or_hash_change_rejected_before_output) ... ok
+test_development_or_reserved_row_cannot_be_used (test_integration3.IntegrationTests.test_development_or_reserved_row_cannot_be_used) ... ok
+test_original_source_annotation_never_mutated_on_failure (test_integration3.IntegrationTests.test_original_source_annotation_never_mutated_on_failure) ... ok
+test_diagnostic_disabled_before_any_output (test_integration3.IntegrationTests.test_diagnostic_disabled_before_any_output) ... ok
+test_no_overwrite_resume (test_integration3.IntegrationTests.test_no_overwrite_resume) ... ok
+test_bad_snapshot_reconstruction_rejected (test_integration3.IntegrationTests.test_bad_snapshot_reconstruction_rejected) ... ok
+test_no_cuda_initialization (test_integration3.IntegrationTests.test_no_cuda_initialization) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.134s
+
+OK

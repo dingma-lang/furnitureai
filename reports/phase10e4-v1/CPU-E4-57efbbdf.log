@@ -1,0 +1,12 @@
+test_exact_budgets (test_recovery4.BoundaryTests.test_exact_budgets) ... ok
+test_modules_import_without_torch_or_cuda_execution (test_recovery4.BoundaryTests.test_modules_import_without_torch_or_cuda_execution) ... ok
+test_worker_never_constructs_optimizer_or_steps (test_recovery4.BoundaryTests.test_worker_never_constructs_optimizer_or_steps) ... ok
+test_box_helper_matches_original_scalar (test_recovery4.PrecisionTests.test_box_helper_matches_original_scalar) ... ok
+test_combined_backward_eight_tensors_no_frozen_gradients_or_updates (test_recovery4.PrecisionTests.test_combined_backward_eight_tensors_no_frozen_gradients_or_updates) ... ok
+test_training_precision_requires_explicit_opt_in (test_recovery4.PrecisionTests.test_training_precision_requires_explicit_opt_in) ... ok
+test_zero_coefficient_same_loss_and_gradients_on_same_widened_path (test_recovery4.PrecisionTests.test_zero_coefficient_same_loss_and_gradients_on_same_widened_path) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.209s
+
+OK

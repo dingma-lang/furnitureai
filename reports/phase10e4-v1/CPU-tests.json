@@ -1,0 +1,32 @@
+{
+  "GPU_calls": 0,
+  "passed": 86,
+  "real_model_updates": 0,
+  "status": "PASS",
+  "suites": [
+    {
+      "log": "reports/phase10e4-v1/CPU-E4-57efbbdf.log",
+      "passed": 7,
+      "sha256": "123dfccf8b992e49de1aaa5dc0b56389a1702f8e8506a12489cb02a87ab90bf8",
+      "suite": "E4"
+    },
+    {
+      "log": "reports/phase10e4-v1/CPU-E3-7fda7912.log",
+      "passed": 38,
+      "sha256": "65d2ee788a56c31b18f15d0fdb89aadc02b18a9e9089607cf754e5b2cb8dbfd1",
+      "suite": "E3"
+    },
+    {
+      "log": "reports/phase10e4-v1/CPU-E1-b2425dd2.log",
+      "passed": 20,
+      "sha256": "816ee7aac5ab83c5442ce7d5ca2f5fc53fafac54c372d4552c1498ea6060b441",
+      "suite": "E1"
+    },
+    {
+      "log": "reports/phase10e4-v1/CPU-C11-6e7451c3.log",
+      "passed": 21,
+      "sha256": "78f3574da35566d0b9fef25a0c640592dcaf80a680b3f55f8f49e7cbf7155e5a",
+      "suite": "C11"
+    }
+  ]
+}

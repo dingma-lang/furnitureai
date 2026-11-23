@@ -1,0 +1,11 @@
+test_absent_training_authorization_blocks_before_output_or_torch (test_future4.FutureTests.test_absent_training_authorization_blocks_before_output_or_torch) ... ok
+test_fixed_one_arm_and_bounds (test_future4.FutureTests.test_fixed_one_arm_and_bounds) ... ok
+test_future_has_explicit_scale_and_cpu_syntax (test_future4.FutureTests.test_future_has_explicit_scale_and_cpu_syntax) ... ok
+test_pinned_files_and_original_sources (test_future4.FutureTests.test_pinned_files_and_original_sources) ... ok
+test_proposed_coefficient_non_domination_on_all_actual_groups (test_future4.FutureTests.test_proposed_coefficient_non_domination_on_all_actual_groups) ... ok
+test_wrong_training_permit_limits_or_coefficient_rejected (test_future4.FutureTests.test_wrong_training_permit_limits_or_coefficient_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.714s
+
+OK
