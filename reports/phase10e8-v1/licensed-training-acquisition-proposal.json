@@ -1,0 +1,127 @@
+{
+  "approved": false,
+  "categories": {
+    "bed": {
+      "metadata_candidate_images": 13,
+      "native_boxes": 18
+    },
+    "cabinet": {
+      "metadata_candidate_images": 0,
+      "native_boxes": 0
+    },
+    "chair": {
+      "metadata_candidate_images": 63,
+      "native_boxes": 169
+    },
+    "desk": {
+      "metadata_candidate_images": 0,
+      "native_boxes": 0
+    },
+    "lamp": {
+      "metadata_candidate_images": 0,
+      "native_boxes": 0
+    },
+    "sofa": {
+      "metadata_candidate_images": 12,
+      "native_boxes": 19
+    },
+    "table": {
+      "metadata_candidate_images": 51,
+      "native_boxes": 62
+    }
+  },
+  "desired_content": [
+    "People/body/clothing with clearly annotated seating nearby",
+    "Handbags and household object hardware",
+    "Screens,reflective surfaces and kitchen appliances",
+    "Plant/decoration versus real seating frames",
+    "Multiple fully boxed real Chairs and seating/bar stools,including occluded and partial cases"
+  ],
+  "exact_manifest": "data/open-images/preparation/phase10e8-v1/licensed-training-rights-candidates-v1.json",
+  "exact_manifest_sha256": "50e29c7b64b4ca67b695df5c941e4bb3c930ffe483e25d0de731ac9e22c86466",
+  "exact_source_ids": 64,
+  "future_GPU_or_training": "No inference/training approval implied. After approved acquisition and annotation audit,request separate bounded actual-query coverage verification before any loss/training change.",
+  "independent_evaluation": "Separate newfullyannotatedseven-classsource-disjointcollection;none of these64trainingcandidates becomes acceptance material",
+  "licence_policy": {
+    "metadata_license4_not_rights_clearance": true,
+    "photo_specific_evidence_required": true,
+    "preferred": [
+      "CC0",
+      "CC BY"
+    ],
+    "quarantine": [
+      "Unverified or conflicting ownership/license",
+      "NC/ND/restricted/noncommercial terms",
+      "Inaccessible evidence",
+      "Creator/source/capture relationship with evaluation or historical groups"
+    ],
+    "require": [
+      "Exactphotoidentity",
+      "Currentacceptablephoto-specificlicenseandversion",
+      "Creatorcreditandoriginalsource",
+      "EvidenceURL/hash/timestamp",
+      "Attribution text and license URL"
+    ]
+  },
+  "masks": "COCOinstance annotations are available locally;selected native annotation IDs preserved. Exact usable visible-mask counts and annotation completeness must be checked before photo acquisition;no new labels or complete supervision are promised.",
+  "native_COCO_class_ids": {
+    "bed": 65,
+    "chair": 62,
+    "couch": 63,
+    "dining table": 67
+  },
+  "photo_acquisition_ready": false,
+  "reason_for_expansion": "Closed21candidate audit:zero new trusted high-confidence queries. Seek more independently licensed,source-complete room supervision rather than repeating training on unchanged easy negatives.",
+  "required_annotations": [
+    "Preserve original native IDs,boxes,visible masks and image dimensions",
+    "Explicit project Chair plus seating/bar-stool taxonomy;footstools/ottomans/step stools separated",
+    "Source-backed visible negative regions with actual scene/crop inspection;no whole-photo absence inferred from missing labels",
+    "Whole-object extents and ignored/ambiguous furniture retained",
+    "Separate additional annotation approval if existing native evidence is incomplete"
+  ],
+  "source_availability_rechecked_online": false,
+  "source_group_isolation": "Creator/capture groups currently unknown remain quarantined. Preserve existing partitions;new shortlisted IDs remain training-only candidates. No frozen or independent-acceptance sources may be used.",
+  "sources": "Already-local officialCOCO2017metadata;exact HTTPSFlickrphoto-page resolvers and officialHTTPSimages.cocodataset S3objects are in the manifest",
+  "stage": "RIGHTS_EVIDENCE_APPROVAL_REQUIRED",
+  "stage_A": {
+    "TLS_verification_required": true,
+    "destination": "data/coco/rights-audits/phase10e8-v1/",
+    "do_not_resume_previously_paused296": true,
+    "maximum_allocated_storage_bytes": 134217728,
+    "maximum_evidence_attempts_per_ID": 1,
+    "maximum_response_body_bytes": 32000000,
+    "minimum_provider_request_interval_seconds": 3,
+    "no_access_bypass": true,
+    "one_worker": true,
+    "optional_HEAD_only_after_rights_checks": "At most one HEAD for each exact official image URL;HEAD is only size/availability evidence,not copyright proof",
+    "respect_Retry_After": true,
+    "scope": "Exactly64frozen IDs:photo-specific rights,creator/source/capture grouping,evidence hashes/timestamps;no photograph bodies",
+    "separate_approval_required": true,
+    "stop_provider_on_429_or_restriction": true
+  },
+  "stage_B": {
+    "destination": "data/coco/image-pilots/phase10e8-v1/",
+    "estimated_image_transfer_bytes": [
+      9600000,
+      25600000
+    ],
+    "estimates_not_HEAD_verified": true,
+    "guaranteed_verified_count": 0,
+    "maximum_attempts_per_image": 2,
+    "maximum_images": 64,
+    "maximum_new_storage_bytes": 536870912,
+    "maximum_transfer_bytes": 100000000,
+    "no_substitutions": true,
+    "per_image_maximum_bytes": 3145728,
+    "scope": "Only exact rights/identity-cleared survivors;request another frozen photograph manifest approval",
+    "separate_approval_required": true
+  },
+  "total_native_furniture_boxes": 268,
+  "unsupported_COCO_categories": [
+    "desk",
+    "cabinet",
+    "lamp"
+  ],
+  "verified_eligible_new_hard_negatives": 0,
+  "verified_photo_rights": 0
+}

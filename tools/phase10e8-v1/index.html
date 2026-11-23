@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Furniture AI · E8 automatic candidate qualification</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body><header><p class="eyebrow">Furniture AI · Phase 10E.8 · Local evidence dashboard</p><h1>Chair-confusion qualification</h1>
+<p>21 optimization-training queries. Decisions are automatic source/mask checks plus actual assistant visual inspection. <strong>No human confirmations or training activation.</strong></p>
+<p>Chair includes ordinary chairs, seating stools and bar stools. Footstools, ottomans and step stools remain separate or protected. Missing annotations never prove absence.</p>
+<div id="counts" class="counts" aria-live="polite"></div>
+<div class="controls"><label>Decision <select id="filter"><option value="all">All 21 candidates</option><option value="trusted_negative">Trusted negative</option><option value="unverified_candidate">Unverified candidate</option><option value="protected_unsuitable">Protected / unsuitable</option></select></label>
+<label>Search <input id="search" type="search" placeholder="Photo, object, sample or evidence"></label><span id="visible"></span><a href="/decisions.csv">Export decision CSV</a></div>
+<p class="legend">Red: E5 query · Blue: original same-index query (not guaranteed same object) · Teal: original visible masks · Purple: protected/native furniture</p>
+</header><main id="cards" aria-live="polite"><p>Loading the sealed local review…</p></main>
+<dialog id="detail"><button id="close" type="button">Close</button><h2 id="detail-title"></h2><p id="detail-evidence"></p>
+<div class="controls"><label><input id="show-native" type="checkbox" checked> Native boxes</label><label><input id="show-masks" type="checkbox" checked> Native visible masks</label><label>Mask <select id="mask-choice"><option value="best">Best mask + original bbox source</option><option value="all">All overlapping native masks</option></select></label><label><input id="show-original" type="checkbox" checked> Original query</label><label>Zoom <input id="zoom" type="range" min="0.5" max="3" step="0.25" value="1"></label></div>
+<p>Coordinates refer to the original pixels, without clipping or EXIF rotation. Overlay colors are diagnostic; they do not establish new ground truth.</p><div class="canvas-scroll"><canvas id="canvas"></canvas></div><div id="detail-tables"></div></dialog>
+<footer>Read only · no drawing, approval or training controls · independent evaluation material is not included · no external scripts, fonts or image requests</footer></body></html>

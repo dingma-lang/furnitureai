@@ -1,0 +1,31 @@
+test_actual_inspection_not_human_or_training_activation (test_qualification8.ActualDatasetTests.test_actual_inspection_not_human_or_training_activation) ... ok
+test_all_new_manifest_tiers_disjoint_and_complete (test_qualification8.ActualDatasetTests.test_all_new_manifest_tiers_disjoint_and_complete) ... ok
+test_bbox_labels_are_not_visible_mask_identity (test_qualification8.ActualDatasetTests.test_bbox_labels_are_not_visible_mask_identity) ... ok
+test_coverage_is_real_zero_not_synthetic_probe_count (test_qualification8.ActualDatasetTests.test_coverage_is_real_zero_not_synthetic_probe_count) ... ok
+test_exact21_and_source_training_isolation (test_qualification8.ActualDatasetTests.test_exact21_and_source_training_isolation) ... ok
+test_existing_source_instance_not_counted_as_new_hard_object (test_qualification8.ActualDatasetTests.test_existing_source_instance_not_counted_as_new_hard_object) ... ok
+test_handbag_partial_queries_are_not_independent_objects (test_qualification8.ActualDatasetTests.test_handbag_partial_queries_are_not_independent_objects) ... ok
+test_no_inference_training_or_downloader_entrypoints (test_qualification8.ActualDatasetTests.test_no_inference_training_or_downloader_entrypoints) ... ok
+test_original_decisions_preserved_in_separate_phase (test_qualification8.ActualDatasetTests.test_original_decisions_preserved_in_separate_phase) ... ok
+test_unverified_rights_candidates_never_cleared_automatically (test_qualification8.ActualDatasetTests.test_unverified_rights_candidates_never_cleared_automatically) ... ok
+test_csv_has21_actual_decisions_and_no_human_flags (test_qualification8.DashboardTests.test_csv_has21_actual_decisions_and_no_human_flags) ... ok
+test_dashboard_counts_and_all21_rows (test_qualification8.DashboardTests.test_dashboard_counts_and_all21_rows) ... ok
+test_every_plate_and_static_asset_loads (test_qualification8.DashboardTests.test_every_plate_and_static_asset_loads) ... ok
+test_mutations_and_path_escape_rejected (test_qualification8.DashboardTests.test_mutations_and_path_escape_rejected) ... ok
+test_only_training_sources_served (test_qualification8.DashboardTests.test_only_training_sources_served) ... ok
+test_ambiguous_and_overexposed_remain_inactive (test_qualification8.DecisionTests.test_ambiguous_and_overexposed_remain_inactive) ... ok
+test_clear_appearance_alone_does_not_invent_negative (test_qualification8.DecisionTests.test_clear_appearance_alone_does_not_invent_negative) ... ok
+test_clear_source_supported_and_high_confidence_needed (test_qualification8.DecisionTests.test_clear_source_supported_and_high_confidence_needed) ... ok
+test_ignored_native_annotation_cannot_authorize_negative (test_qualification8.DecisionTests.test_ignored_native_annotation_cannot_authorize_negative) ... ok
+test_real_seating_or_furniture_fragment_always_protected (test_qualification8.DecisionTests.test_real_seating_or_furniture_fragment_always_protected) ... ok
+test_concave_mask_notch_is_not_filled (test_qualification8.GeometryTests.test_concave_mask_notch_is_not_filled) ... ok
+test_exact_interior_requires_boundary_clearance (test_qualification8.GeometryTests.test_exact_interior_requires_boundary_clearance) ... ok
+test_no_sum_across_overlapping_masks (test_qualification8.GeometryTests.test_no_sum_across_overlapping_masks) ... ok
+test_partial_area_cannot_certify_absence (test_qualification8.GeometryTests.test_partial_area_cannot_certify_absence) ... ok
+test_positive_or_ignored_overlap_blocks_admission (test_qualification8.GeometryTests.test_positive_or_ignored_overlap_blocks_admission) ... ok
+test_tiny_and_out_of_frame_rejected (test_qualification8.GeometryTests.test_tiny_and_out_of_frame_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 1.056s
+
+OK

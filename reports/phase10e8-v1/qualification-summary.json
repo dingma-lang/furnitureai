@@ -1,0 +1,52 @@
+{
+  "GPU_forwards": 0,
+  "assistant_visual_reviews": 21,
+  "decisions": {
+    "protected_unsuitable": 16,
+    "unverified_candidate": 5
+  },
+  "downloads": 0,
+  "exact_candidates": 21,
+  "existing_regions_preserved": 41,
+  "extra_partial_queries_not_independent": 4,
+  "human_reviews_created": 0,
+  "independent_acceptance_photos": 0,
+  "native_full_query_geometry_supported": 0,
+  "new_high_confidence_Chair_query_coverage": 0,
+  "new_source_groups_with_trusted_negatives": 0,
+  "new_trusted_negatives": 0,
+  "object_assessments": {
+    "ambiguous_background": 1,
+    "ambiguous_dark_object_boundary": 1,
+    "ambiguous_overexposed_person_background": 1,
+    "ambiguous_reflection_decoration": 1,
+    "appliance_annotation_low_resolution": 1,
+    "mixed_body_plant_background": 1,
+    "mixed_person_furniture_boundary": 1,
+    "other_object_appliance": 1,
+    "other_object_handbag": 5,
+    "other_object_sink_and_clutter": 1,
+    "other_object_toilet_fragment": 1,
+    "person_clothing_fragment": 2,
+    "possible_furniture_fragment": 4
+  },
+  "photographs": 10,
+  "prior_C21_regions_remain_inactive": 5,
+  "repeated_source_instance_groups": [
+    {
+      "annotation_key": "COCO:2078705",
+      "candidate_ids": [
+        "HN-894e0f11b84320c59b4c",
+        "HN-3bc874f58f0dd6a4a970",
+        "HN-1962e9ea2a77fe257f30",
+        "HN-875c039da4380207eb55",
+        "HN-d044e71aed720f82c6a7"
+      ],
+      "extra_observations": 4,
+      "representative": "HN-894e0f11b84320c59b4c",
+      "source_photo_id": "flickr-photo:3192462392"
+    }
+  ],
+  "source_groups": 10,
+  "training_activated": false
+}

@@ -1,0 +1,13 @@
+test_actual_forward_and_parameter_fingerprints (test_analysis7.CacheIntegrityTests.test_actual_forward_and_parameter_fingerprints) ... ok
+test_deduplication_does_not_add_repeated_states_as_examples (test_analysis7.CacheIntegrityTests.test_deduplication_does_not_add_repeated_states_as_examples) ... ok
+test_exact_raw_membership_source_hashes_and_arrays (test_analysis7.CacheIntegrityTests.test_exact_raw_membership_source_hashes_and_arrays) ... ok
+test_no_candidate_activated_or_human_evidence_fabricated (test_analysis7.CacheIntegrityTests.test_no_candidate_activated_or_human_evidence_fabricated) ... ok
+test_thresholds_monotonic_all_seven_categories (test_analysis7.CacheIntegrityTests.test_thresholds_monotonic_all_seven_categories) ... ok
+test_fragment_and_unknown_are_kept_inactive (test_analysis7.EvidenceGateTests.test_fragment_and_unknown_are_kept_inactive) ... ok
+test_real_Chair_overlap_never_becomes_negative (test_analysis7.EvidenceGateTests.test_real_Chair_overlap_never_becomes_negative) ... ok
+test_region_overlap_is_not_full_containment (test_analysis7.EvidenceGateTests.test_region_overlap_is_not_full_containment) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.946s
+
+OK

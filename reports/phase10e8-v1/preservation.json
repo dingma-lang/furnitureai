@@ -1,0 +1,69 @@
+{
+  "E5_sha256": "416620a947a96579bdd20c85e7adeb8b60f65c8983e73d3b3943a58ceabef4f0",
+  "E7_E6_E5_E4_seals_verified": true,
+  "Mac_application_accessed": false,
+  "backward_calls": 0,
+  "bound_sources_and_masks_unchanged": true,
+  "downloads": 0,
+  "evaluation_photographs_decoded_or_mined": false,
+  "historical": {
+    "C11_C13": {
+      "phase10c11-v1": {
+        "private": 626,
+        "public": 31
+      },
+      "phase10c13-v1": {
+        "private": 625,
+        "public": 26
+      }
+    },
+    "C17": {
+      "private_files": 528,
+      "public_files": 14
+    },
+    "C18": {
+      "private_files": 681,
+      "public_files": 15
+    },
+    "C19": {
+      "private_files": 37,
+      "public_files": 16
+    },
+    "C20": {
+      "private_files": 1128,
+      "public_files": 17
+    },
+    "C21": true,
+    "C8": 1310,
+    "D": true,
+    "E1": true,
+    "E2": true,
+    "E3": true,
+    "GPU_model_forwards": 0,
+    "Mac_project_modified": false,
+    "adapted_sha256": "44690ee1b148e1815d97cd25ba9aa693c8d7a582a2b13ac30d3c0676d74e365f",
+    "annotation_overlays_activated": 0,
+    "datasets_or_models_downloaded": 0,
+    "eligible_image_hashes": 78,
+    "historical_check_only": true,
+    "historical_data_model_files": 9973,
+    "historical_data_modified": false,
+    "historical_implementation_files": 27,
+    "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+    "original_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+    "phase10b_report_artifacts": 24,
+    "phase10b_snapshots": 160,
+    "reserved_or_frozen_images_decoded": 0,
+    "source_group_isolation": true,
+    "status": "PASS",
+    "training_updates": 0
+  },
+  "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "model_construction": 0,
+  "new_GPU_forwards": 0,
+  "optimizer_updates": 0,
+  "original_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "read_only_historical_file_checksum_checks": true,
+  "source_annotations_or_partitions_modified": false,
+  "status": "PASS"
+}

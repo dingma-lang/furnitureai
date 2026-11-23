@@ -1,0 +1,22 @@
+sample_id,image_id,query_index,E5_Chair_score,original_Chair_score,best_visible_native_label,best_single_polygon_fraction,decision,object_assessment,human_reviewed,training_activated
+E7V01,coco2017:000000165742,1317,0.7638362701347781,0.10743747660842012,wineglass,0.17883078475468517,protected_unsuitable,possible_furniture_fragment,False,False
+E7V02,coco2017:000000165742,1184,0.7631308939755528,0.11879340050844574,handbag,0.8775542127762962,unverified_candidate,other_object_handbag,False,False
+E7V03,coco2017:000000165742,1368,0.7279754489059775,0.05602938511788175,handbag,0.8743268000215686,protected_unsuitable,other_object_handbag,False,False
+E7V04,coco2017:000000199688,979,0.7127323093746221,0.046205749035319515,refrigerator,0.9816916256217056,protected_unsuitable,other_object_appliance,False,False
+E7V05,coco2017:000000230617,1627,0.6927459230951387,0.06075190308755833,sink,0.5859451519973997,unverified_candidate,other_object_sink_and_clutter,False,False
+E7V06,coco2017:000000477263,1874,0.6845804137825603,0.08479540782206828,person,0.16623547541536038,protected_unsuitable,possible_furniture_fragment,False,False
+E7V07,coco2017:000000263212,1648,0.6676895962849432,0.08108211382389394,person,0.9630360616297496,protected_unsuitable,person_clothing_fragment,False,False
+E7V08,coco2017:000000263212,1468,0.6465718017413457,0.018941707825185387,person,0.7291342274869002,protected_unsuitable,mixed_person_furniture_boundary,False,False
+E7V09,coco2017:000000165742,1358,0.6221724185820512,0.05834584061168106,handbag,0.7715686996118603,protected_unsuitable,other_object_handbag,False,False
+E7V10,coco2017:000000294698,500,0.5817189821347214,0.09929539778264558,person,0.49770327159875993,protected_unsuitable,possible_furniture_fragment,False,False
+E7V11,coco2017:000000165742,1181,0.5739769297514116,0.032344332381157095,handbag,0.9194248545861521,protected_unsuitable,other_object_handbag,False,False
+E7V12,coco2017:000000165742,1299,0.5669778239066745,0.03032925698427897,handbag,0.8711310747428775,protected_unsuitable,other_object_handbag,False,False
+E7V13,coco2017:000000575837,2150,0.5636181634322939,0.022977369910025615,toilet,0.6325912928284133,unverified_candidate,other_object_toilet_fragment,False,False
+E7V14,coco2017:000000402655,986,0.5394078412601166,0.02849004258632246,microwave,1.0,protected_unsuitable,appliance_annotation_low_resolution,False,False
+E7V15,coco2017:000000165742,1253,0.5381641503305545,0.0283283119798864,wineglass,0.21801899692906385,unverified_candidate,ambiguous_dark_object_boundary,False,False
+E7V16,coco2017:000000294698,171,0.5315741407755985,0.07030384998194615,person,0.6037530213503878,protected_unsuitable,ambiguous_overexposed_person_background,False,False
+E7V17,coco2017:000000489700,507,0.5192470765640772,0.04940524518550734,mirror,0.1800593194137971,protected_unsuitable,ambiguous_reflection_decoration,False,False
+E7V18,coco2017:000000165742,1111,0.5154827194709088,0.02630528053441999,person,0.0,protected_unsuitable,ambiguous_background,False,False
+E7V19,coco2017:000000477263,1044,0.5141487485110504,0.05665242530797383,potted plant,0.36327438851334853,protected_unsuitable,mixed_body_plant_background,False,False
+E7V20,coco2017:000000165742,765,0.5050543017103727,0.040769266244388154,potted plant,0.19675284529701131,protected_unsuitable,possible_furniture_fragment,False,False
+E7V21,coco2017:000000536923,1814,0.5012187933624046,0.01652955655765428,person,0.693800550185633,unverified_candidate,person_clothing_fragment,False,False

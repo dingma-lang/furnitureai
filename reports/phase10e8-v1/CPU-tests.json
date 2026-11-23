@@ -1,0 +1,31 @@
+{
+  "GPU_forwards": 0,
+  "passed": 80,
+  "status": "PASS",
+  "suites": [
+    {
+      "name": "E8",
+      "passed": 26,
+      "path": "reports/phase10e8-v1/CPU-E8-173b9f67.log",
+      "sha256": "241974b19d87ef30b6a168e934ac104bb37739b13670613ac0b834b9acb9e4af"
+    },
+    {
+      "name": "E7-cache",
+      "passed": 8,
+      "path": "reports/phase10e8-v1/CPU-E7-cache-11e5fe09.log",
+      "sha256": "b62bf950a6d888eb15a67483b06b6e8638a32794712c0146c2c8914cb4fd8c20"
+    },
+    {
+      "name": "E6-evidence",
+      "passed": 26,
+      "path": "reports/phase10e8-v1/CPU-E6-evidence-f1b604a0.log",
+      "sha256": "9f66cec2aac60f673747dcc737d935efcdb6ed5ce24d2118baf4831c0ff90f78"
+    },
+    {
+      "name": "E1-mask-cache",
+      "passed": 20,
+      "path": "reports/phase10e8-v1/CPU-E1-mask-cache-9bcdb00c.log",
+      "sha256": "93d4c51aa7c9dc18cbe426af455c4d7ff722f7ac5da44483064ec63be5891c13"
+    }
+  ]
+}

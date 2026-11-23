@@ -1,0 +1,18 @@
+{
+  "HTTP_status": 200,
+  "all_source_images_training_only": true,
+  "bind": "127.0.0.1",
+  "browser_automation_available": false,
+  "candidates": 21,
+  "component_hashes_verified": 6,
+  "decisions": {
+    "protected_unsuitable": 16,
+    "unverified_candidate": 5
+  },
+  "drawing_or_human_approval_controls": false,
+  "read_only": true,
+  "status": "PASS",
+  "third_party_asset_requests": 0,
+  "url": "http://localhost:8778",
+  "verification": "Real localhost HTTP API and CPU integration tests ofall21plates/10sources,CSV,static assets,path restrictions and rejected mutation methods. No browser dependency installed."
+}
