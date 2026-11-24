@@ -1,0 +1,9 @@
+{
+  "Commons": "Public API documents accessible, but robots denies this client the query path. No queries or alternate endpoints used. Provider clarification required under the user no-bypass boundary.",
+  "Flickr": "A documented API route exists technically. No process credential or permission for this specific commercial-ML use established; zero calls to the64records. SDK retrieved; help403 preserved. User must seek legitimate commercial app access and applicable terms clarification. Key possession is not copyright permission.",
+  "Library_of_Congress": "JSON API documentation accessible; collection-specific rights URL returned403. Stopped without alternate API/host requests. Highsmith/HABS remain discovery channels, not rights-cleared records in this phase.",
+  "Metropolitan_Museum": "Rights-policy documentation returned429; Retry-After evidence retained if sent. No alternate collection API or retries. No individual images cleared.",
+  "NASA": "Official media guidance accessible. Image-specific third-party rights remain necessary; NASA identifiers and personal-rights constraints are material to its SI/training guidance. No NASA image metadata candidates or bodies requested.",
+  "Smithsonian": "Official OpenAccess repository documents public metadata; current rights/FAQ page403. Stopped; no S3 metadata substitution or assumed image rights.",
+  "Wellcome": "Official repository and developer docs explicitly permit no-auth search metadata. Image-level catalogue licences and credits yielded76supported,2unresolved. Historical and medical domain mismatch, missing annotations and unknown identities prevent a training recommendation."
+}

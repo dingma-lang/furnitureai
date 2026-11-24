@@ -1,0 +1,21 @@
+{
+  "count": 0,
+  "future_protocol": {
+    "Chair_taxonomy": "Ordinary chairs, seating stools and bar stools; ottomans/footstools/step stools separate",
+    "all_seven_category_positive_and_negative_completeness_review": true,
+    "counts_are_planning_targets_not_verified": true,
+    "exclude_all_current_training_and_exposed_sources": true,
+    "exclude_current_seven_training_side_candidates": true,
+    "freeze_manifest_hashes_before_any_model_scoring": true,
+    "minimum_independent_contributor_groups": 5,
+    "no_hyperparameter_selection": true,
+    "source_creator_capture_and_room_groups_disjoint": true,
+    "target_initial_rooms": 20,
+    "two_pass_annotation_and_blind_review": true
+  },
+  "no_training_labels_created": true,
+  "photograph_acquisition_authorized": false,
+  "reason": "No source-disjoint, modern, seven-category, fully annotated room pool established from metadata",
+  "records": [],
+  "version": "phase10e10-v1"
+}

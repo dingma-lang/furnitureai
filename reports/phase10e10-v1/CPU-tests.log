@@ -1,0 +1,43 @@
+test_acquisition_purpose_separation (test_discovery10.CompletionTests.test_acquisition_purpose_separation) ... ok
+test_all_unresolved_retained (test_discovery10.CompletionTests.test_all_unresolved_retained) ... ok
+test_authoritative_manifest_hash (test_discovery10.CompletionTests.test_authoritative_manifest_hash) ... ok
+test_final_rights_counts_and_scope (test_discovery10.CompletionTests.test_final_rights_counts_and_scope) ... ok
+test_grant_still_requires_evidence_verification (test_discovery10.CompletionTests.test_grant_still_requires_evidence_verification) ... ok
+test_no_download_URL_can_be_fetched_by_current_client (test_discovery10.CompletionTests.test_no_download_URL_can_be_fetched_by_current_client) ... ok
+test_no_empty_consent_approval (test_discovery10.CompletionTests.test_no_empty_consent_approval) ... ok
+test_only_supported_in_supported_manifest (test_discovery10.CompletionTests.test_only_supported_in_supported_manifest) ... ok
+test_seven_sources_info_and_evidence_hashes (test_discovery10.CompletionTests.test_seven_sources_info_and_evidence_hashes) ... ok
+test_source_network_within_cap_and_closed (test_discovery10.CompletionTests.test_source_network_within_cap_and_closed) ... ok
+test_429_durable_and_no_retry (test_discovery10.NetworkTests.test_429_durable_and_no_retry) ... ok
+test_TLS_measurement_and_allowance_separate (test_discovery10.NetworkTests.test_TLS_measurement_and_allowance_separate) ... ok
+test_body_size_limit_before_read (test_discovery10.NetworkTests.test_body_size_limit_before_read) ... ok
+test_cap_before_request (test_discovery10.NetworkTests.test_cap_before_request) ... ok
+test_closed_audit_cannot_resume_network (test_discovery10.NetworkTests.test_closed_audit_cannot_resume_network) ... ok
+test_interrupted_intent_cannot_auto_retry (test_discovery10.NetworkTests.test_interrupted_intent_cannot_auto_retry) ... ok
+test_no_redirect_follow (test_discovery10.NetworkTests.test_no_redirect_follow) ... ok
+test_photo_forbidden_before_socket (test_discovery10.NetworkTests.test_photo_forbidden_before_socket) ... ok
+test_unexpected_image_mime_refused (test_discovery10.NetworkTests.test_unexpected_image_mime_refused) ... ok
+test_NC_incompatible (test_discovery10.RightsTests.test_NC_incompatible) ... ok
+test_access_advisory_protected (test_discovery10.RightsTests.test_access_advisory_protected) ... ok
+test_conflicting_licence_unresolved (test_discovery10.RightsTests.test_conflicting_licence_unresolved) ... ok
+test_duplicate_and_maximum_guard (test_discovery10.RightsTests.test_duplicate_and_maximum_guard) ... ok
+test_file_specific_licence_and_credit (test_discovery10.RightsTests.test_file_specific_licence_and_credit) ... ok
+test_licence_domain_lookalike (test_discovery10.RightsTests.test_licence_domain_lookalike) ... ok
+test_metadata_hints_not_chair_absence_or_stool_mapping (test_discovery10.RightsTests.test_metadata_hints_not_chair_absence_or_stool_mapping) ... ok
+test_missing_license_not_cleared (test_discovery10.RightsTests.test_missing_license_not_cleared) ... ok
+test_no_invented_negative_labels (test_discovery10.RightsTests.test_no_invented_negative_labels) ... ok
+test_sharealike_not_automatically_prohibited (test_discovery10.RightsTests.test_sharealike_not_automatically_prohibited) ... ok
+test_unknown_creators_not_distinct_groups (test_discovery10.RightsTests.test_unknown_creators_not_distinct_groups) ... ok
+test_E9_preserved_status (test_discovery10.SafetyTests.test_E9_preserved_status) ... ok
+test_budget_reservation (test_discovery10.SafetyTests.test_budget_reservation) ... ok
+test_commons_robot_denied_path_blocked (test_discovery10.SafetyTests.test_commons_robot_denied_path_blocked) ... ok
+test_no_credentials (test_discovery10.SafetyTests.test_no_credentials) ... ok
+test_no_cross_host_or_userinfo (test_discovery10.SafetyTests.test_no_cross_host_or_userinfo) ... ok
+test_no_flickr_api_without_permission (test_discovery10.SafetyTests.test_no_flickr_api_without_permission) ... ok
+test_photo_hosts_rejected (test_discovery10.SafetyTests.test_photo_hosts_rejected) ... ok
+test_tls_only (test_discovery10.SafetyTests.test_tls_only) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.168s
+
+OK

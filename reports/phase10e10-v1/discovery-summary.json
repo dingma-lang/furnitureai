@@ -1,0 +1,66 @@
+{
+  "Bed_hints_from_bedroom_context_not_verified_objects": true,
+  "Cabinet_hints_have_whole_object_vs_front_ambiguity": true,
+  "Chair_hints_are_restraint_chair_and_sedan_chair_not_accepted_target_labels": true,
+  "GPU_calls": 0,
+  "allocated_bytes_before_final_reports": 2772992,
+  "available_native_detection_boxes": 0,
+  "available_native_instance_masks": 0,
+  "categories_with_metadata_hints": {
+    "Bed": 2,
+    "Cabinet": 2,
+    "Chair": 2,
+    "Desk": 0,
+    "Lamp": 0,
+    "Sofa": 0,
+    "Table": 2
+  },
+  "conservative_new_record_count": 98,
+  "final_partition_assignments": 0,
+  "image_rights_supported": 76,
+  "image_rights_unresolved": 2,
+  "image_rights_unsuitable": 0,
+  "independent_evaluation_proposal": 0,
+  "initial_work_metadata_records": 20,
+  "meaningful_training_data_improvement_established": false,
+  "network": {
+    "TLS_bytes": 1056793,
+    "blocked_hosts": [
+      "www.flickrhelp.com",
+      "www.loc.gov",
+      "www.metmuseum.org",
+      "www.si.edu"
+    ],
+    "cap": 32000000,
+    "conservative_charge": 4071449,
+    "photo_requests": 0,
+    "physical_IP_DNS_retransmissions_not_measured": true,
+    "requests": 46,
+    "response_body_bytes": 589786,
+    "retries": 0
+  },
+  "new_record_limit": 200,
+  "new_training_labels": 0,
+  "new_unique_image_metadata_records": 78,
+  "parent": "9835343ee1beeb2c96e7f739143c02d5d35bd6bb",
+  "photo_downloads": 0,
+  "prior64_Flickr_counts": {
+    "A": 0,
+    "B": 64,
+    "C": 0
+  },
+  "provisional_source_group_buckets": 8,
+  "source_metadata_has_historical_medical_or_unrelated_content": true,
+  "status": "METADATA_DISCOVERY_COMPLETE_NO_MODEL_EXECUTION",
+  "storage_cap": 134217728,
+  "thumbnail_or_preview_downloads": 0,
+  "total_new_metadata_status_counts": {
+    "A": 76,
+    "B": 22,
+    "C": 0
+  },
+  "training_side_inspection_proposal": 7,
+  "verified_hard_negatives": 0,
+  "verified_independent_groups": 0,
+  "visually_verified_room_photos": 0
+}

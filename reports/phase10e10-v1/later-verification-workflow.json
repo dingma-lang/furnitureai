@@ -1,0 +1,26 @@
+{
+  "acquisition_gate": "Separate exact-scope approval and current provider/licence recheck; HTTPS, metered caps, no new IDs or redirects",
+  "annotation_checks": [
+    "No native boxes/masks available in discovered pool; preserve this absence",
+    "Propose all seven categories with future separately authorized annotation tooling",
+    "Protect ordinary chairs and seating/bar stools; preserve other stool/ottoman classes",
+    "Leave uncertain categories, fragments, mixed boxes, occluded furniture and unreviewed areas ignored",
+    "Completeness requires affirmative evidence; missing annotations are never negatives"
+  ],
+  "evidence_types": [
+    "source-supported",
+    "automatic-unverified",
+    "human-confirmed-only-after-real-review"
+  ],
+  "image_checks": [
+    "SHA256/decode/dimensions/orientation",
+    "Exact/perceptual duplicate and reprint detection",
+    "Creator/room/capture identity against all historical pools",
+    "Room relevance, privacy/sensitive content, quality and domain gap"
+  ],
+  "independent_evaluation": "Separate source/creator/capture groups, complete seven-class independent annotations, blind review, frozen membership and scoring once; no tuning",
+  "manual_rectangles_mandatory": false,
+  "model_query_coverage": "Future separately approved inference only; match actual query boxes to evidence-backed regions with protected-positive checks",
+  "preferred_next_development": "Recruit genuinely independent modern room photographs with explicit photographer reuse/annotation/ML consent; collect room/capture/source identity, privacy and commercial-use conditions before transfer",
+  "training_gate": "Do not propose GPU training until a materially larger and more diverse reliably supervised real-room pool passes integrity/completeness checks"
+}

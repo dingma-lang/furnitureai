@@ -1,0 +1,44 @@
+{
+  "commons": {
+    "API_documentation": "https://www.mediawiki.org/wiki/API:Imageinfo",
+    "decision": "No Commons query requests under current no-robots-bypass restriction; obtain provider clarification before query use. General API policy alone does not override this audit gate.",
+    "photo_or_query_requests": 0,
+    "robots_query_path_allowed": false,
+    "robots_url": "https://commons.wikimedia.org/robots.txt",
+    "usage_policy": "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_API_Usage_Guidelines"
+  },
+  "commons_bounded_API_permitted": false,
+  "flickr": {
+    "API_key_required": true,
+    "SDK_evidence": "https://raw.githubusercontent.com/flickr/flickr-sdk/main/README.md",
+    "credentials_available_in_current_process": false,
+    "current_terms_retrieval_status": "Flickrhelp HTTP403; stop this provider",
+    "documented_methods": [
+      "flickr.photos.getInfo",
+      "flickr.photos.licenses.getInfo"
+    ],
+    "permission_for_intended_commercial_ML_use_not_established": true,
+    "photo_rights_not_established_by_API_key": true,
+    "source_records_queried": 0,
+    "user_actions": [
+      "Use your Windows browser to review https://www.flickr.com/services/api/ and https://www.flickr.com/services/api/tos/ plus the current Flickr Terms.",
+      "If eligible, request the correct commercial application access at https://www.flickr.com/services/apps/create/ with an accurate description of metadata auditing and planned ML use; ask Flickr for written clarification if needed.",
+      "Do not request access to private photographs. Public-record metadata access, photograph licences, downloading permission and commercial ML compatibility are separate checks.",
+      "If access is granted, keep credentials in a local ignored secret store or process environment, outside Git/chat/logs. Provide only confirmation that permitted access is configured, not credential values.",
+      "A subsequent explicitly permitted API audit should query only the preserved64photo IDs, resolve licence IDs with flickr.photos.licenses.getInfo, and record creator, exact source identity, licence evidence and access conditions. No API calls are authorized by a key alone."
+    ]
+  },
+  "no_alternate_endpoint_for_blocked_provider": true,
+  "no_credentials_requested_created_printed_or_stored": true,
+  "no_user_agent_rotation": true,
+  "other_provider_stops": {
+    "www.flickrhelp.com": "HTTP403",
+    "www.metmuseum.org": "HTTP429",
+    "www.si.edu": "HTTP403"
+  },
+  "previous64_status": {
+    "rights_supported": 0,
+    "unresolved": 64,
+    "unsuitable": 0
+  }
+}

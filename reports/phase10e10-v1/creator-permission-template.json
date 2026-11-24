@@ -1,0 +1,22 @@
+{
+  "affirmative_signature_or_evidence": null,
+  "automatic_approval": false,
+  "capture_or_room_group_ids": [],
+  "creator_or_rightsholder": null,
+  "evaluation_or_training_purpose": null,
+  "grant_timestamp": null,
+  "not_an_actual_grant": true,
+  "notes": "Collect explicit real consent and legal-policy review before any use. Original-photo redistribution is optional and not assumed. Never put private signatures/contact details into public Git.",
+  "other_people_or_third_party_rights_resolved": null,
+  "photograph_ids": [],
+  "rights_holder_authority_confirmed": null,
+  "scopes": {
+    "annotate_and_modify": null,
+    "commercial_ML_training": null,
+    "distribute_trained_model": null,
+    "redistribute_original_photographs": null,
+    "store_photographs": null
+  },
+  "source_group_id": null,
+  "template_only": true
+}

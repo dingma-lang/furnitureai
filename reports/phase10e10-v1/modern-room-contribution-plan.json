@@ -1,0 +1,32 @@
+{
+  "collection_gate": "Exact image IDs, actual grants, source groups, sizes and approval frozen before any transfer; no messages to creators sent automatically",
+  "creator_and_room_groups_disjoint_between_purposes": true,
+  "independent_annotation": "Complete seven-category boxes/masks where practical, occlusion/truncation/ignore flags and explicit reviewed category completeness; protected stool taxonomy",
+  "new_photos_currently_authorized": 0,
+  "no_private_or_unauthorized_photographs": true,
+  "not_verified_counts": true,
+  "proposal_only": true,
+  "release_gate": "Do not train until new evidence is materially more diverse and reliable than the previous59photos; retain every historical holdout",
+  "scene_targets": [
+    "modern living rooms",
+    "bedrooms",
+    "offices/desks",
+    "kitchens/dining areas",
+    "seating/bar stools",
+    "plants/TV/appliances",
+    "clutter, occlusion, small lamps and cabinet fronts with explicit semantics"
+  ],
+  "target_categories": [
+    "Sofa",
+    "Chair",
+    "Table",
+    "Bed",
+    "Desk",
+    "Cabinet",
+    "Lamp"
+  ],
+  "target_evaluation_contributor_groups": 5,
+  "target_independent_evaluation_photographs": 30,
+  "target_new_training_photographs": 100,
+  "target_training_contributor_groups": 10
+}

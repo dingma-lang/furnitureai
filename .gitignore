@@ -323,3 +323,11 @@ dist/
 *.tar.gz
 *.tgz
 *.7z
+
+# Approved small Phase10E.10 discovery metadata, code evidence and reports.
+!/reports/phase10e10-v1/
+/reports/phase10e10-v1/*
+!/reports/phase10e10-v1/*.md
+!/reports/phase10e10-v1/*.json
+!/reports/phase10e10-v1/SHA256SUMS
+!/reports/phase10e10-v1/CPU-*.log

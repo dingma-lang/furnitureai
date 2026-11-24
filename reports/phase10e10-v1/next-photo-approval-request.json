@@ -1,0 +1,40 @@
+{
+  "approval_requested": "Seven-photograph training-side inspection pilot only, not training or evaluation",
+  "attribution": "Wellcome Collection, linked source work and CC BY4.0; identify resized derivatives and preserve any declared creator credit",
+  "destination": "data/licensed-rooms/image-pilots/phase10e11-wellcome-v1/",
+  "exact_ids": [
+    "efqgz854",
+    "bpxzpgg7",
+    "x6v3kwb7",
+    "y4n8bmat",
+    "vugqdsr7",
+    "mhnzfe6b",
+    "mqxh737p"
+  ],
+  "expected_size_reason": "IIIF metadata exposes dimensions but not encoded JPEG byte lengths; no image HEAD or body requested",
+  "expected_transfer": null,
+  "manifest": "reports/phase10e10-v1/potential-training-acquisition.json",
+  "manifest_SHA256": "53ce3a31a7d85dae17b374746f7705fd814f968cea3774834d63600b4c824be6",
+  "max_dimension": 1600,
+  "maximum_attempts_per_image": 2,
+  "maximum_bytes_per_image": 512000,
+  "maximum_cumulative_transfer": 8000000,
+  "maximum_new_allocated_storage": 67108864,
+  "maximum_photographs": 7,
+  "maximum_single_successful_copy_payload": 3584000,
+  "no_GPU_or_model_inference_authorized": true,
+  "no_independent_evaluation_membership": true,
+  "no_training_labels_created": true,
+  "no_training_or_certified_negatives": true,
+  "photograph_acquisition_authorized": false,
+  "preserve_creator_unknown_status": true,
+  "quarantine_instead_of_replace": true,
+  "stops": [
+    "Changed licence or access restrictions",
+    "Conflicting source or identity evidence",
+    "Image integrity failure",
+    "Resource limit",
+    "Existing destination"
+  ],
+  "version": "phase10e10-v1"
+}

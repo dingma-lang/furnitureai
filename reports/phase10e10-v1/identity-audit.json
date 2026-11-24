@@ -1,0 +1,107 @@
+{
+  "declared_group_buckets": 8,
+  "exact_image_metadata_URL_duplicate_groups": [],
+  "group_ids_not_proof_of_independent_physical_rooms": true,
+  "historical_licence_ledgers": {
+    "data/coco/image-pilots/phase6d-v1/license-and-provenance-ledger.json": "8ea5080ff2701860af9b794e135dac2302ff72149e8e99209c43d28d7690080a",
+    "data/coco/rights-audits/phase10e8-v1/license-attribution-ledger.json": "b8cee3d9e8c3493d50d8f67de3ab01451169404dd48c6d9427605008e4d55fba",
+    "data/coco/rights-audits/phase6c-v1/license-attribution-ledger.json": "9cfd915fa9e502820a8cb31dd46455d2a7689caa2557e9c5fa91de47d2f3ba6a",
+    "data/lvis/image-pilots/phase7-v1/license-and-provenance-ledger.json": "1de507322771bb05b7c3a722e0edc52e001369a0c193374477a5ebd23193f53f",
+    "data/lvis/image-pilots/phase8b-v1/license-and-provenance-ledger.json": "b24551c26aaa750de3a3da89fd283323ebab8981f993663dcdbefb25f17ef12b",
+    "data/lvis/rights-audits/phase7-v1/license-and-attribution-ledger.json": "b717e887052b9f6649c000fd41e0c999885cd8ca025a4ca0eef95e445830e888",
+    "data/lvis/rights-audits/phase8a-v1/license-attribution-ledger.json": "0ae26e976181a5e47a992c2b6c64f9774b034a5045ab4fa33b8abaf22dc7eef0",
+    "data/open-images/preparation/phase6a-v1/license-attribution-ledger.json": "c82ceae65431d9d2b7bc7876fe54e2e03f1f23537dadcac3273865d535e1f337"
+  },
+  "historical_registry": "data/coco/rights-audits/phase10e8-v1/historical-exclusion-registry.json",
+  "historical_registry_sha256": "aef47c15c89ecac4d0f4befbbd27b3d488eccea6b9bdd7a872392659211e6697",
+  "known_ID_URL_matches": [],
+  "known_contributor_name_matches": [],
+  "named_contributor_buckets": 7,
+  "pixel_hash_and_perceptual_checks_performed": false,
+  "previous_registry_counts": {
+    "image_ids": 691,
+    "previous_attempted_or_paused_ids": 844,
+    "source_groups": 976,
+    "source_photo_ids": 286
+  },
+  "same_title_contributor_possible_reprints": [
+    [
+      "wellcome-image:akra5tx6",
+      "wellcome-image:p49zxvb9",
+      "wellcome-image:rnvh5um6",
+      "wellcome-image:vrg75fbt"
+    ],
+    [
+      "wellcome-image:bcdw3vp2",
+      "wellcome-image:fa8cwpw4"
+    ],
+    [
+      "wellcome-image:c4wcekrm",
+      "wellcome-image:g2jyer72"
+    ],
+    [
+      "wellcome-image:cygx578k",
+      "wellcome-image:x8gwd29c"
+    ],
+    [
+      "wellcome-image:dyedmfuk",
+      "wellcome-image:j9f3qvcd",
+      "wellcome-image:kjfztmbs"
+    ],
+    [
+      "wellcome-image:f5km4jqs",
+      "wellcome-image:pky96w2e",
+      "wellcome-image:y5xnsjys"
+    ],
+    [
+      "wellcome-image:g3nxwzkr",
+      "wellcome-image:hntsd7jc",
+      "wellcome-image:n4e65erf",
+      "wellcome-image:yqt8s59x",
+      "wellcome-image:yu6bpvg9"
+    ],
+    [
+      "wellcome-image:gmr8d6hk",
+      "wellcome-image:me3t5b4k",
+      "wellcome-image:v9p7mz8p"
+    ],
+    [
+      "wellcome-image:jq256qsd",
+      "wellcome-image:mha58suc",
+      "wellcome-image:qjup6mj2",
+      "wellcome-image:z3dv82tx"
+    ],
+    [
+      "wellcome-image:kfgwdvq3",
+      "wellcome-image:zecz34hk"
+    ],
+    [
+      "wellcome-image:ksswad8x",
+      "wellcome-image:vhfnn9hn"
+    ],
+    [
+      "wellcome-image:mpmm9wfm",
+      "wellcome-image:pkvxhwmk",
+      "wellcome-image:xj3e59y5"
+    ],
+    [
+      "wellcome-image:nxs7jwqs",
+      "wellcome-image:v85avg58"
+    ],
+    [
+      "wellcome-image:pkfs5nrf",
+      "wellcome-image:xb4gjrqu"
+    ],
+    [
+      "wellcome-image:r9r3ppmt",
+      "wellcome-image:zj3n5brt"
+    ],
+    [
+      "wellcome-image:s85pjrv6",
+      "wellcome-image:znmjqxzc"
+    ]
+  ],
+  "source_reuploads_unresolved": true,
+  "unknown_creator_photographs": 23,
+  "verified_independent_creator_or_capture_groups": 0
+}

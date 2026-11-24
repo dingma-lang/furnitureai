@@ -1,0 +1,861 @@
+{
+  "count": 22,
+  "no_historical_rights_updates": true,
+  "no_training_labels_created": true,
+  "photograph_acquisition_authorized": false,
+  "preserved_Flickr_records_path": "reports/phase10e9-v1/rights-by-ID.json",
+  "preserved_Flickr_status_counts": {
+    "A": 0,
+    "B": 64,
+    "C": 0
+  },
+  "records": [
+    {
+      "candidate_id": "wellcome-work:jbgr93bc",
+      "digital_locations": [],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 painting watercolour and gouache on paper",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/jbgr93bc",
+      "title": "\"My bedroom\""
+    },
+    {
+      "candidate_id": "wellcome-work:smuzxp4x",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24958815"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/smuzxp4x",
+      "title": "Nurses\u2019 bedroom"
+    },
+    {
+      "candidate_id": "wellcome-work:seabj4sc",
+      "digital_locations": [],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/seabj4sc",
+      "title": "'Each nurse has a single bedroom'; (nurse standing in bedroom)"
+    },
+    {
+      "candidate_id": "wellcome-work:k8vfjepm",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24952047"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/k8vfjepm",
+      "title": "Smaller shared bedroom"
+    },
+    {
+      "candidate_id": "wellcome-work:evahd4md",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "cc-by",
+            "label": "Attribution 4.0 International (CC BY 4.0)",
+            "type": "License",
+            "url": "http://creativecommons.org/licenses/by/4.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b21897852"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/evahd4md",
+      "title": "MacNiven House bedroom"
+    },
+    {
+      "candidate_id": "wellcome-work:khjchn65",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24945043"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/khjchn65",
+      "title": "Naomi Ward single bedroom"
+    },
+    {
+      "candidate_id": "wellcome-work:yupb83vb",
+      "digital_locations": [],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/yupb83vb",
+      "title": "4th Gallery bedroom"
+    },
+    {
+      "candidate_id": "wellcome-work:mhvfzc4z",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24936662"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "3 photographs",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/mhvfzc4z",
+      "title": "Woman shown in modernised single bedroom"
+    },
+    {
+      "candidate_id": "wellcome-work:burmacsk",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24948147"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "2 photographs",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/burmacsk",
+      "title": "Shared bedroom with new cubicles"
+    },
+    {
+      "candidate_id": "wellcome-work:ntzfp9v5",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24957495"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/ntzfp9v5",
+      "title": "Bedroom at Garrow Hill House"
+    },
+    {
+      "candidate_id": "wellcome-work:afpyh829",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "cc-by",
+            "label": "Attribution 4.0 International (CC BY 4.0)",
+            "type": "License",
+            "url": "http://creativecommons.org/licenses/by/4.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b21897694"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "2 photographs",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/afpyh829",
+      "title": "Bedroom, possibly ward 2"
+    },
+    {
+      "candidate_id": "wellcome-work:k6bwqkb7",
+      "digital_locations": [],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/k6bwqkb7",
+      "title": "Bedroom, Women's Hospital, interior"
+    },
+    {
+      "candidate_id": "wellcome-work:dkhqvqs6",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24959960"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/dkhqvqs6",
+      "title": "Bedroom interior"
+    },
+    {
+      "candidate_id": "wellcome-work:h9hpw7ph",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24946667"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/h9hpw7ph",
+      "title": "Bedroom interior"
+    },
+    {
+      "candidate_id": "wellcome-work:r4ssvwdp",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24937046"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 photograph",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/r4ssvwdp",
+      "title": "Single bedroom, man  shown writing at table in corner"
+    },
+    {
+      "candidate_id": "wellcome-work:h8p8u2m8",
+      "digital_locations": [],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 sheet : monochrome (black) ; 8 x 11 cm",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/h8p8u2m8",
+      "title": "Bedroom delights by saucy young model : open late,open late."
+    },
+    {
+      "candidate_id": "wellcome-work:ncy48b8h",
+      "digital_locations": [],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 sheet ; 8 x 11 cm",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/ncy48b8h",
+      "title": "Bedroom delights by saucy young model : open late, open late."
+    },
+    {
+      "candidate_id": "wellcome-work:ugdav45r",
+      "digital_locations": [],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "1 sheet : monochrome (black) ; 11 x 15 cm",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/ugdav45r",
+      "title": "Bedroom delights with 18yr old : sex kitten : open late, Mayfair."
+    },
+    {
+      "candidate_id": "wellcome-work:t2dav2gn",
+      "digital_locations": [
+        {
+          "accessConditions": [
+            {
+              "method": {
+                "id": "view-online",
+                "label": "View online",
+                "type": "AccessMethod"
+              },
+              "status": {
+                "id": "open-with-advisory",
+                "label": "Open with advisory",
+                "type": "AccessStatus"
+              },
+              "terms": "Works in this archive created by or for The Retreat, York  are available under a CC-BY-NC license. Please be aware that works in this archive created by other organisations and individuals are not covered under this license, and you should obtain any necessary permissions before copyright or adapting any such works.",
+              "type": "AccessCondition"
+            }
+          ],
+          "license": {
+            "id": "inc",
+            "label": "In copyright",
+            "type": "License",
+            "url": "http://rightsstatements.org/vocab/InC/1.0/"
+          },
+          "locationType": {
+            "id": "iiif-presentation",
+            "label": "IIIF Presentation API",
+            "type": "LocationType"
+          },
+          "type": "DigitalLocation",
+          "url": "https://iiif.wellcomecollection.org/presentation/v2/b24947003"
+        }
+      ],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "2 photographs",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/t2dav2gn",
+      "title": "Lounge and study bedroom (Retreat nursing publicity in 1966)"
+    },
+    {
+      "candidate_id": "wellcome-work:vhtpnmg4",
+      "digital_locations": [],
+      "evidence": {
+        "sha256": "f8a90343bf81ecf56e7531f8fe11952406bd19a5c74baa573c09851072b3a444",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/works?query=bedroom&pageSize=20&include=items%2Cproduction%2Ccontributors%2Cgenres%2Csubjects"
+      },
+      "final_partition": null,
+      "physical_description": "371 pages ; 25 cm",
+      "reason": "Work-level discovery only; no exact photograph/canvas, attribution or sufficient reuse grant verified",
+      "rights_status": "B_unresolved",
+      "source_specific_restriction_text_preserved": true,
+      "source_url": "https://wellcomecollection.org/works/vhtpnmg4",
+      "title": "The bedroom : an intimate history / Michelle Perrot ; translated by Lauren Elkin."
+    },
+    {
+      "Chair_absence_verified": false,
+      "access_terms": [],
+      "aspect_ratio": 1.1976047904191616,
+      "attribution_requirements": {
+        "changes_must_be_indicated": true,
+        "declared_contributors": [],
+        "licence_URL": "http://creativecommons.org/licenses/by/4.0/",
+        "source_credits": [],
+        "source_link_required": true
+      },
+      "candidate_id": "wellcome-image:zj3n5brt",
+      "canonical_source_url": "https://wellcomecollection.org/works/awct3kzq",
+      "capture_group_id": null,
+      "category_hints": [],
+      "commercial_conditions": "CC BY permits commercial copying/adaptation subject to its conditions; CC0 dedicates covered rights. No endorsement, ownership warranty, privacy/publicity or trademark clearance inferred.",
+      "creator_identity_verified": false,
+      "credit": [],
+      "declared_contributors": [],
+      "discovery_themes": [
+        "interior"
+      ],
+      "distractor_hints": [],
+      "eligible_for_later_download_proposal": false,
+      "evidence": {
+        "checked_UTC": "2026-11-24T03:26:34.403893+00:00",
+        "response_path": "data/rights-discovery/phase10e10-v1/responses/035.document",
+        "sha256": "4cf9060e034df33ec38b02689579ac76b672252c109c445aade63ff8bc0129e1",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/images?query=interior&pageSize=20&include=source.contributors%2Csource.genres%2Csource.subjects&locations.license=cc-by%2Ccc0&source.genres.label=Photographs"
+      },
+      "exact_download_URL": null,
+      "expected_bytes": null,
+      "final_partition": null,
+      "group_basis": "All unknown creators provisionally grouped together; not treated as independent rooms or photographers",
+      "height": null,
+      "human_confirmed": false,
+      "image_metadata_URL": "https://iiif.wellcomecollection.org/image/b1539282x_539282i.JP2/info.json",
+      "intended_ML_use": "Conditionally supported for photograph copying/annotation by the attached grant; not an explicit guarantee of model rights or all jurisdictions. Image-level third-party/personal rights still need review.",
+      "licence_family": "CC_BY",
+      "licence_grant_evidence_provider": "Wellcome Collection first-party image catalogue",
+      "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+      "metadata_genres": [
+        "Photographic prints",
+        "Photographs"
+      ],
+      "metadata_subjects": [
+        "Plague",
+        "Plague - Hospitals",
+        "Mumbai"
+      ],
+      "metadata_title": "Bombay plague epidemic, 1896-1897: interior of a temporary hospital for plague victims. Photograph.",
+      "modification_redistribution_conditions": "Retain credit, link licence, indicate modifications; do not impose inconsistent restrictions on licensed photograph",
+      "native_annotations": {
+        "boxes": 0,
+        "masks": 0,
+        "negative_completeness": false
+      },
+      "original_image_id": "b1539282x_539282i.JP2",
+      "partition_eligibility": "pending_source_and_capture_identity_checks",
+      "photo_download_approved": false,
+      "photographer": null,
+      "provider_access": {
+        "evidence": "https://raw.githubusercontent.com/wellcomecollection/catalogue-api/main/README.md",
+        "status": "documented_public_no_auth_API"
+      },
+      "rights_holder": null,
+      "rights_reason": "Missing licence, attribution, or conflicting source terms",
+      "rights_status": "B_unresolved",
+      "source": "Wellcome Collection",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_image_id": "zj3n5brt",
+      "source_work_id": "awct3kzq",
+      "verified_negative_regions": 0,
+      "visual_relevance": {
+        "people_present_unverified": true,
+        "photograph_genre_claim": true,
+        "room_scene_verified": false,
+        "status": "metadata_only",
+        "visual_difficulty_verified": false
+      },
+      "width": null
+    },
+    {
+      "Chair_absence_verified": false,
+      "access_terms": [],
+      "aspect_ratio": 0.735,
+      "attribution_requirements": {
+        "changes_must_be_indicated": true,
+        "declared_contributors": [],
+        "licence_URL": "http://creativecommons.org/licenses/by/4.0/",
+        "source_credits": [],
+        "source_link_required": true
+      },
+      "candidate_id": "wellcome-image:znmjqxzc",
+      "canonical_source_url": "https://wellcomecollection.org/works/gw9brf46",
+      "capture_group_id": null,
+      "category_hints": [],
+      "commercial_conditions": "CC BY permits commercial copying/adaptation subject to its conditions; CC0 dedicates covered rights. No endorsement, ownership warranty, privacy/publicity or trademark clearance inferred.",
+      "creator_identity_verified": false,
+      "credit": [],
+      "declared_contributors": [],
+      "discovery_themes": [
+        "interior"
+      ],
+      "distractor_hints": [],
+      "eligible_for_later_download_proposal": false,
+      "evidence": {
+        "checked_UTC": "2026-11-24T03:26:34.403893+00:00",
+        "response_path": "data/rights-discovery/phase10e10-v1/responses/035.document",
+        "sha256": "4cf9060e034df33ec38b02689579ac76b672252c109c445aade63ff8bc0129e1",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/images?query=interior&pageSize=20&include=source.contributors%2Csource.genres%2Csource.subjects&locations.license=cc-by%2Ccc0&source.genres.label=Photographs"
+      },
+      "exact_download_URL": null,
+      "expected_bytes": null,
+      "final_partition": null,
+      "group_basis": "All unknown creators provisionally grouped together; not treated as independent rooms or photographers",
+      "height": null,
+      "human_confirmed": false,
+      "image_metadata_URL": "https://iiif.wellcomecollection.org/image/b20448193_L0077105.JP2/info.json",
+      "intended_ML_use": "Conditionally supported for photograph copying/annotation by the attached grant; not an explicit guarantee of model rights or all jurisdictions. Image-level third-party/personal rights still need review.",
+      "licence_family": "CC_BY",
+      "licence_grant_evidence_provider": "Wellcome Collection first-party image catalogue",
+      "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+      "metadata_genres": [
+        "Photographic prints",
+        "Photographs"
+      ],
+      "metadata_subjects": [
+        "Malaria - Prevention",
+        "Culicidae",
+        "Annaba"
+      ],
+      "metadata_title": "Annaba, Algeria: power spraying the exterior of thatched huts to prevent the departure of mosquitoes. Photograph, 1944.",
+      "modification_redistribution_conditions": "Retain credit, link licence, indicate modifications; do not impose inconsistent restrictions on licensed photograph",
+      "native_annotations": {
+        "boxes": 0,
+        "masks": 0,
+        "negative_completeness": false
+      },
+      "original_image_id": "b20448193_L0077105.JP2",
+      "partition_eligibility": "pending_source_and_capture_identity_checks",
+      "photo_download_approved": false,
+      "photographer": null,
+      "provider_access": {
+        "evidence": "https://raw.githubusercontent.com/wellcomecollection/catalogue-api/main/README.md",
+        "status": "documented_public_no_auth_API"
+      },
+      "rights_holder": null,
+      "rights_reason": "Missing licence, attribution, or conflicting source terms",
+      "rights_status": "B_unresolved",
+      "source": "Wellcome Collection",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_image_id": "znmjqxzc",
+      "source_work_id": "gw9brf46",
+      "verified_negative_regions": 0,
+      "visual_relevance": {
+        "people_present_unverified": true,
+        "photograph_genre_claim": true,
+        "room_scene_verified": false,
+        "status": "metadata_only",
+        "visual_difficulty_verified": false
+      },
+      "width": null
+    }
+  ],
+  "version": "phase10e10-v1"
+}

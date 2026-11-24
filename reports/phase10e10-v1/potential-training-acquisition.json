@@ -1,0 +1,665 @@
+{
+  "additional_rights_supported_images_not_proposed": 69,
+  "all_unknown_creators_grouped_together": true,
+  "count": 7,
+  "no_training_labels_created": true,
+  "photograph_acquisition_authorized": false,
+  "records": [
+    {
+      "Chair_absence_verified": false,
+      "IIIF_info_sha256": "d58dfff71b41e2d5333640dc613521b284d69d9e137fc6726f945d2e7bcaca07",
+      "access_terms": [],
+      "all_training_and_hard_negative_eligibility_checks_pending": true,
+      "aspect_ratio": 1.556420233463035,
+      "attribution_requirements": {
+        "changes_must_be_indicated": true,
+        "declared_contributors": [],
+        "licence_URL": "http://creativecommons.org/licenses/by/4.0/",
+        "source_credits": [
+          "Wellcome Collection"
+        ],
+        "source_link_required": true
+      },
+      "candidate_id": "wellcome-image:efqgz854",
+      "canonical_source_url": "https://wellcomecollection.org/works/apxrab5f",
+      "capture_group_id": null,
+      "category_hints": [],
+      "commercial_conditions": "CC BY permits commercial copying/adaptation subject to its conditions; CC0 dedicates covered rights. No endorsement, ownership warranty, privacy/publicity or trademark clearance inferred.",
+      "creator_identity_verified": false,
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "declared_contributors": [],
+      "discovery_themes": [
+        "kitchen"
+      ],
+      "distractor_hints": [
+        "kitchen"
+      ],
+      "eligible_for_later_download_proposal": true,
+      "evidence": {
+        "checked_UTC": "2026-11-24T03:25:16.611864+00:00",
+        "response_path": "data/rights-discovery/phase10e10-v1/responses/027.document",
+        "sha256": "ea06f4367bad3fe8b0d4ff5be4196c8011c526d4fa1fdd9470399cf1c3ebc7ba",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/images?query=kitchen&pageSize=20&include=source.contributors%2Csource.genres%2Csource.subjects&locations.license=cc-by%2Ccc0&source.genres.label=Photographs"
+      },
+      "exact_download_URL": "https://iiif.wellcomecollection.org/image/L0028138/full/!1600,1600/0/default.jpg",
+      "expected_bytes": null,
+      "final_partition": null,
+      "group_basis": "All unknown creators provisionally grouped together; not treated as independent rooms or photographers",
+      "height": 1106,
+      "human_confirmed": false,
+      "image_metadata_URL": "https://iiif.wellcomecollection.org/image/L0028138/info.json",
+      "intended_ML_use": "Conditionally supported for photograph copying/annotation by the attached grant; not an explicit guarantee of model rights or all jurisdictions. Image-level third-party/personal rights still need review.",
+      "licence_family": "CC_BY",
+      "licence_grant_evidence_provider": "Wellcome Collection first-party image catalogue",
+      "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+      "maximum_bytes_per_object": 512000,
+      "metadata_genres": [
+        "Photographic postcards",
+        "Photographic prints",
+        "Photographs"
+      ],
+      "metadata_subjects": [
+        "Kitchens",
+        "German Hospital"
+      ],
+      "metadata_title": "The German Hospital, Dalston: the main kitchen. Photograph.",
+      "modification_redistribution_conditions": "Retain credit, link licence, indicate modifications; do not impose inconsistent restrictions on licensed photograph",
+      "native_annotations": {
+        "boxes": 0,
+        "masks": 0,
+        "negative_completeness": false
+      },
+      "object_size_not_known_until_future_acquisition": true,
+      "original_image_id": "L0028138",
+      "partition_eligibility": "pending_source_and_capture_identity_checks",
+      "photo_download_approved": false,
+      "photographer": null,
+      "privacy_and_sensitive_context_review_required": true,
+      "proposal_purpose": "training-side visual and annotation-feasibility inspection only",
+      "provider_access": {
+        "evidence": "https://raw.githubusercontent.com/wellcomecollection/catalogue-api/main/README.md",
+        "status": "documented_public_no_auth_API"
+      },
+      "rights_holder": null,
+      "rights_reason": "First-party catalogue attaches CC BY/CC0 and attribution to this exact image; ownership and noncopyright rights are not guaranteed",
+      "rights_status": "A_rights_supported",
+      "source": "Wellcome Collection",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_image_id": "efqgz854",
+      "source_work_id": "apxrab5f",
+      "verified_negative_regions": 0,
+      "visual_relevance": {
+        "people_present_unverified": true,
+        "photograph_genre_claim": true,
+        "room_scene_verified": false,
+        "status": "metadata_only",
+        "visual_difficulty_verified": false
+      },
+      "width": 1724
+    },
+    {
+      "Chair_absence_verified": false,
+      "IIIF_info_sha256": "efd8c8babf85536be315cf59daa5ce707b2dd297ccdc4e08542b896f54bd14ed",
+      "access_terms": [],
+      "all_training_and_hard_negative_eligibility_checks_pending": true,
+      "aspect_ratio": 1.3289036544850499,
+      "attribution_requirements": {
+        "changes_must_be_indicated": true,
+        "declared_contributors": [],
+        "licence_URL": "http://creativecommons.org/licenses/by/4.0/",
+        "source_credits": [
+          "Wellcome Collection"
+        ],
+        "source_link_required": true
+      },
+      "candidate_id": "wellcome-image:bpxzpgg7",
+      "canonical_source_url": "https://wellcomecollection.org/works/hvr4st5w",
+      "capture_group_id": null,
+      "category_hints": [],
+      "commercial_conditions": "CC BY permits commercial copying/adaptation subject to its conditions; CC0 dedicates covered rights. No endorsement, ownership warranty, privacy/publicity or trademark clearance inferred.",
+      "creator_identity_verified": false,
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "declared_contributors": [],
+      "discovery_themes": [
+        "interior"
+      ],
+      "distractor_hints": [],
+      "eligible_for_later_download_proposal": true,
+      "evidence": {
+        "checked_UTC": "2026-11-24T03:26:34.403893+00:00",
+        "response_path": "data/rights-discovery/phase10e10-v1/responses/035.document",
+        "sha256": "4cf9060e034df33ec38b02689579ac76b672252c109c445aade63ff8bc0129e1",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/images?query=interior&pageSize=20&include=source.contributors%2Csource.genres%2Csource.subjects&locations.license=cc-by%2Ccc0&source.genres.label=Photographs"
+      },
+      "exact_download_URL": "https://iiif.wellcomecollection.org/image/L0014195/full/!1600,1600/0/default.jpg",
+      "expected_bytes": null,
+      "final_partition": null,
+      "group_basis": "All unknown creators provisionally grouped together; not treated as independent rooms or photographers",
+      "height": 1218,
+      "human_confirmed": false,
+      "image_metadata_URL": "https://iiif.wellcomecollection.org/image/L0014195/info.json",
+      "intended_ML_use": "Conditionally supported for photograph copying/annotation by the attached grant; not an explicit guarantee of model rights or all jurisdictions. Image-level third-party/personal rights still need review.",
+      "licence_family": "CC_BY",
+      "licence_grant_evidence_provider": "Wellcome Collection first-party image catalogue",
+      "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+      "maximum_bytes_per_object": 512000,
+      "metadata_genres": [
+        "Albumen prints",
+        "Photographs"
+      ],
+      "metadata_subjects": [],
+      "metadata_title": "The interior of a pharmaceutical or chemical laboratory with a bench in the centre and books and papers on shelves around the walls. Photograph.",
+      "modification_redistribution_conditions": "Retain credit, link licence, indicate modifications; do not impose inconsistent restrictions on licensed photograph",
+      "native_annotations": {
+        "boxes": 0,
+        "masks": 0,
+        "negative_completeness": false
+      },
+      "object_size_not_known_until_future_acquisition": true,
+      "original_image_id": "L0014195",
+      "partition_eligibility": "pending_source_and_capture_identity_checks",
+      "photo_download_approved": false,
+      "photographer": null,
+      "privacy_and_sensitive_context_review_required": true,
+      "proposal_purpose": "training-side visual and annotation-feasibility inspection only",
+      "provider_access": {
+        "evidence": "https://raw.githubusercontent.com/wellcomecollection/catalogue-api/main/README.md",
+        "status": "documented_public_no_auth_API"
+      },
+      "rights_holder": null,
+      "rights_reason": "First-party catalogue attaches CC BY/CC0 and attribution to this exact image; ownership and noncopyright rights are not guaranteed",
+      "rights_status": "A_rights_supported",
+      "source": "Wellcome Collection",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_image_id": "bpxzpgg7",
+      "source_work_id": "hvr4st5w",
+      "verified_negative_regions": 0,
+      "visual_relevance": {
+        "people_present_unverified": true,
+        "photograph_genre_claim": true,
+        "room_scene_verified": false,
+        "status": "metadata_only",
+        "visual_difficulty_verified": false
+      },
+      "width": 1618
+    },
+    {
+      "Chair_absence_verified": false,
+      "IIIF_info_sha256": "4600b084086167f219a94f54e929731ede9e866bc70366cb1963d40880d15210",
+      "access_terms": [],
+      "all_training_and_hard_negative_eligibility_checks_pending": true,
+      "aspect_ratio": 1.3513513513513513,
+      "attribution_requirements": {
+        "changes_must_be_indicated": true,
+        "declared_contributors": [],
+        "licence_URL": "http://creativecommons.org/licenses/by/4.0/",
+        "source_credits": [
+          "Wellcome Collection"
+        ],
+        "source_link_required": true
+      },
+      "candidate_id": "wellcome-image:x6v3kwb7",
+      "canonical_source_url": "https://wellcomecollection.org/works/kg99p5vb",
+      "capture_group_id": null,
+      "category_hints": [
+        "Cabinet"
+      ],
+      "commercial_conditions": "CC BY permits commercial copying/adaptation subject to its conditions; CC0 dedicates covered rights. No endorsement, ownership warranty, privacy/publicity or trademark clearance inferred.",
+      "creator_identity_verified": false,
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "declared_contributors": [],
+      "discovery_themes": [
+        "cabinet",
+        "interior"
+      ],
+      "distractor_hints": [],
+      "eligible_for_later_download_proposal": true,
+      "evidence": {
+        "checked_UTC": "2026-11-24T03:25:20.605554+00:00",
+        "response_path": "data/rights-discovery/phase10e10-v1/responses/029.document",
+        "sha256": "7fb167cfeeb2537494492fe1d4de951b4d660d3b9dce165bba9535f8c40611f4",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/images?query=cabinet&pageSize=20&include=source.contributors%2Csource.genres%2Csource.subjects&locations.license=cc-by%2Ccc0&source.genres.label=Photographs"
+      },
+      "exact_download_URL": "https://iiif.wellcomecollection.org/image/L0014196/full/!1600,1600/0/default.jpg",
+      "expected_bytes": null,
+      "final_partition": null,
+      "group_basis": "All unknown creators provisionally grouped together; not treated as independent rooms or photographers",
+      "height": 3648,
+      "human_confirmed": false,
+      "image_metadata_URL": "https://iiif.wellcomecollection.org/image/L0014196/info.json",
+      "intended_ML_use": "Conditionally supported for photograph copying/annotation by the attached grant; not an explicit guarantee of model rights or all jurisdictions. Image-level third-party/personal rights still need review.",
+      "licence_family": "CC_BY",
+      "licence_grant_evidence_provider": "Wellcome Collection first-party image catalogue",
+      "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+      "maximum_bytes_per_object": 512000,
+      "metadata_genres": [
+        "Albumen prints",
+        "Photographs"
+      ],
+      "metadata_subjects": [],
+      "metadata_title": "The interior of a pharmaceutical or chemical laboratory, with two long benches in the centre and glass-fronted cabinets along the right wall. Photograph.",
+      "modification_redistribution_conditions": "Retain credit, link licence, indicate modifications; do not impose inconsistent restrictions on licensed photograph",
+      "native_annotations": {
+        "boxes": 0,
+        "masks": 0,
+        "negative_completeness": false
+      },
+      "object_size_not_known_until_future_acquisition": true,
+      "original_image_id": "L0014196",
+      "partition_eligibility": "pending_source_and_capture_identity_checks",
+      "photo_download_approved": false,
+      "photographer": null,
+      "privacy_and_sensitive_context_review_required": true,
+      "proposal_purpose": "training-side visual and annotation-feasibility inspection only",
+      "provider_access": {
+        "evidence": "https://raw.githubusercontent.com/wellcomecollection/catalogue-api/main/README.md",
+        "status": "documented_public_no_auth_API"
+      },
+      "rights_holder": null,
+      "rights_reason": "First-party catalogue attaches CC BY/CC0 and attribution to this exact image; ownership and noncopyright rights are not guaranteed",
+      "rights_status": "A_rights_supported",
+      "source": "Wellcome Collection",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_image_id": "x6v3kwb7",
+      "source_work_id": "kg99p5vb",
+      "verified_negative_regions": 0,
+      "visual_relevance": {
+        "people_present_unverified": true,
+        "photograph_genre_claim": true,
+        "room_scene_verified": false,
+        "status": "metadata_only",
+        "visual_difficulty_verified": false
+      },
+      "width": 4937
+    },
+    {
+      "Chair_absence_verified": false,
+      "IIIF_info_sha256": "5c87f743b290f286ca2d7232ff0a240f725a07da1376bffb54453dc4c23d5e70",
+      "access_terms": [],
+      "all_training_and_hard_negative_eligibility_checks_pending": true,
+      "aspect_ratio": 1.3559322033898304,
+      "attribution_requirements": {
+        "changes_must_be_indicated": true,
+        "declared_contributors": [],
+        "licence_URL": "http://creativecommons.org/licenses/by/4.0/",
+        "source_credits": [
+          "Wellcome Collection"
+        ],
+        "source_link_required": true
+      },
+      "candidate_id": "wellcome-image:y4n8bmat",
+      "canonical_source_url": "https://wellcomecollection.org/works/yxzdb8kb",
+      "capture_group_id": null,
+      "category_hints": [
+        "Cabinet"
+      ],
+      "commercial_conditions": "CC BY permits commercial copying/adaptation subject to its conditions; CC0 dedicates covered rights. No endorsement, ownership warranty, privacy/publicity or trademark clearance inferred.",
+      "creator_identity_verified": false,
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "declared_contributors": [],
+      "discovery_themes": [
+        "cabinet",
+        "interior"
+      ],
+      "distractor_hints": [],
+      "eligible_for_later_download_proposal": true,
+      "evidence": {
+        "checked_UTC": "2026-11-24T03:25:20.605554+00:00",
+        "response_path": "data/rights-discovery/phase10e10-v1/responses/029.document",
+        "sha256": "7fb167cfeeb2537494492fe1d4de951b4d660d3b9dce165bba9535f8c40611f4",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/images?query=cabinet&pageSize=20&include=source.contributors%2Csource.genres%2Csource.subjects&locations.license=cc-by%2Ccc0&source.genres.label=Photographs"
+      },
+      "exact_download_URL": "https://iiif.wellcomecollection.org/image/L0014193/full/!1600,1600/0/default.jpg",
+      "expected_bytes": null,
+      "final_partition": null,
+      "group_basis": "All unknown creators provisionally grouped together; not treated as independent rooms or photographers",
+      "height": 1198,
+      "human_confirmed": false,
+      "image_metadata_URL": "https://iiif.wellcomecollection.org/image/L0014193/info.json",
+      "intended_ML_use": "Conditionally supported for photograph copying/annotation by the attached grant; not an explicit guarantee of model rights or all jurisdictions. Image-level third-party/personal rights still need review.",
+      "licence_family": "CC_BY",
+      "licence_grant_evidence_provider": "Wellcome Collection first-party image catalogue",
+      "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+      "maximum_bytes_per_object": 512000,
+      "metadata_genres": [
+        "Albumen prints",
+        "Photographs"
+      ],
+      "metadata_subjects": [],
+      "metadata_title": "The interior of a pharmaceutical or chemical laboratory, with two long benches in the centre, glass-fronted cabinets and a coal-burner along the left wall. Photograph.",
+      "modification_redistribution_conditions": "Retain credit, link licence, indicate modifications; do not impose inconsistent restrictions on licensed photograph",
+      "native_annotations": {
+        "boxes": 0,
+        "masks": 0,
+        "negative_completeness": false
+      },
+      "object_size_not_known_until_future_acquisition": true,
+      "original_image_id": "L0014193",
+      "partition_eligibility": "pending_source_and_capture_identity_checks",
+      "photo_download_approved": false,
+      "photographer": null,
+      "privacy_and_sensitive_context_review_required": true,
+      "proposal_purpose": "training-side visual and annotation-feasibility inspection only",
+      "provider_access": {
+        "evidence": "https://raw.githubusercontent.com/wellcomecollection/catalogue-api/main/README.md",
+        "status": "documented_public_no_auth_API"
+      },
+      "rights_holder": null,
+      "rights_reason": "First-party catalogue attaches CC BY/CC0 and attribution to this exact image; ownership and noncopyright rights are not guaranteed",
+      "rights_status": "A_rights_supported",
+      "source": "Wellcome Collection",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_image_id": "y4n8bmat",
+      "source_work_id": "yxzdb8kb",
+      "verified_negative_regions": 0,
+      "visual_relevance": {
+        "people_present_unverified": true,
+        "photograph_genre_claim": true,
+        "room_scene_verified": false,
+        "status": "metadata_only",
+        "visual_difficulty_verified": false
+      },
+      "width": 1622
+    },
+    {
+      "Chair_absence_verified": false,
+      "IIIF_info_sha256": "1d47012c7ccb2b979d2d24118eca7051341907d931da239bfc997ac0edd89906",
+      "access_terms": [],
+      "all_training_and_hard_negative_eligibility_checks_pending": true,
+      "aspect_ratio": 1.3245033112582782,
+      "attribution_requirements": {
+        "changes_must_be_indicated": true,
+        "declared_contributors": [],
+        "licence_URL": "http://creativecommons.org/licenses/by/4.0/",
+        "source_credits": [
+          "Wellcome Collection"
+        ],
+        "source_link_required": true
+      },
+      "candidate_id": "wellcome-image:vugqdsr7",
+      "canonical_source_url": "https://wellcomecollection.org/works/csrt6jh5",
+      "capture_group_id": null,
+      "category_hints": [
+        "Table"
+      ],
+      "commercial_conditions": "CC BY permits commercial copying/adaptation subject to its conditions; CC0 dedicates covered rights. No endorsement, ownership warranty, privacy/publicity or trademark clearance inferred.",
+      "creator_identity_verified": false,
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "declared_contributors": [],
+      "discovery_themes": [
+        "table"
+      ],
+      "distractor_hints": [],
+      "eligible_for_later_download_proposal": true,
+      "evidence": {
+        "checked_UTC": "2026-11-24T03:26:32.419952+00:00",
+        "response_path": "data/rights-discovery/phase10e10-v1/responses/034.document",
+        "sha256": "132933059cc7958979dfaf266f9a153e70ed460a1eb79e7e32294af5215cfc91",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/images?query=table&pageSize=20&include=source.contributors%2Csource.genres%2Csource.subjects&locations.license=cc-by%2Ccc0&source.genres.label=Photographs"
+      },
+      "exact_download_URL": "https://iiif.wellcomecollection.org/image/V0031425/full/!1600,1600/0/default.jpg",
+      "expected_bytes": null,
+      "final_partition": null,
+      "group_basis": "All unknown creators provisionally grouped together; not treated as independent rooms or photographers",
+      "height": 2317,
+      "human_confirmed": false,
+      "image_metadata_URL": "https://iiif.wellcomecollection.org/image/V0031425/info.json",
+      "intended_ML_use": "Conditionally supported for photograph copying/annotation by the attached grant; not an explicit guarantee of model rights or all jurisdictions. Image-level third-party/personal rights still need review.",
+      "licence_family": "CC_BY",
+      "licence_grant_evidence_provider": "Wellcome Collection first-party image catalogue",
+      "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+      "maximum_bytes_per_object": 512000,
+      "metadata_genres": [
+        "Photographs"
+      ],
+      "metadata_subjects": [
+        "Libraries",
+        "Shelving for books",
+        "Library Services",
+        "Books",
+        "Wellcome Historical Medical Library"
+      ],
+      "metadata_title": "The Wellcome Building, Euston Road, London: the American Room showing a reader's table and display case with automatic guide lecture equipment. Photograph.",
+      "modification_redistribution_conditions": "Retain credit, link licence, indicate modifications; do not impose inconsistent restrictions on licensed photograph",
+      "native_annotations": {
+        "boxes": 0,
+        "masks": 0,
+        "negative_completeness": false
+      },
+      "object_size_not_known_until_future_acquisition": true,
+      "original_image_id": "V0031425",
+      "partition_eligibility": "pending_source_and_capture_identity_checks",
+      "photo_download_approved": false,
+      "photographer": null,
+      "privacy_and_sensitive_context_review_required": true,
+      "proposal_purpose": "training-side visual and annotation-feasibility inspection only",
+      "provider_access": {
+        "evidence": "https://raw.githubusercontent.com/wellcomecollection/catalogue-api/main/README.md",
+        "status": "documented_public_no_auth_API"
+      },
+      "rights_holder": null,
+      "rights_reason": "First-party catalogue attaches CC BY/CC0 and attribution to this exact image; ownership and noncopyright rights are not guaranteed",
+      "rights_status": "A_rights_supported",
+      "source": "Wellcome Collection",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_image_id": "vugqdsr7",
+      "source_work_id": "csrt6jh5",
+      "verified_negative_regions": 0,
+      "visual_relevance": {
+        "people_present_unverified": true,
+        "photograph_genre_claim": true,
+        "room_scene_verified": false,
+        "status": "metadata_only",
+        "visual_difficulty_verified": false
+      },
+      "width": 3071
+    },
+    {
+      "Chair_absence_verified": false,
+      "IIIF_info_sha256": "cd09350c8d5f8d38d9a96f77ef41b39bc7a6cc9fc004b17587db1af917d8137b",
+      "access_terms": [],
+      "all_training_and_hard_negative_eligibility_checks_pending": true,
+      "aspect_ratio": 1.550387596899225,
+      "attribution_requirements": {
+        "changes_must_be_indicated": true,
+        "declared_contributors": [],
+        "licence_URL": "http://creativecommons.org/licenses/by/4.0/",
+        "source_credits": [
+          "Wellcome Collection"
+        ],
+        "source_link_required": true
+      },
+      "candidate_id": "wellcome-image:mhnzfe6b",
+      "canonical_source_url": "https://wellcomecollection.org/works/sdevj3f8",
+      "capture_group_id": null,
+      "category_hints": [
+        "Bed"
+      ],
+      "commercial_conditions": "CC BY permits commercial copying/adaptation subject to its conditions; CC0 dedicates covered rights. No endorsement, ownership warranty, privacy/publicity or trademark clearance inferred.",
+      "creator_identity_verified": false,
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "declared_contributors": [],
+      "discovery_themes": [
+        "bedroom"
+      ],
+      "distractor_hints": [
+        "patient"
+      ],
+      "eligible_for_later_download_proposal": true,
+      "evidence": {
+        "checked_UTC": "2026-11-24T03:23:58.298094+00:00",
+        "response_path": "data/rights-discovery/phase10e10-v1/responses/023.document",
+        "sha256": "25a0b3f18ea0d0036d8a4f93913634df3b3b0e935221270b4b18e14ab0d85f07",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/images?query=bedroom&pageSize=20&include=source.contributors%2Csource.genres%2Csource.subjects&locations.license=cc-by%2Ccc0&source.genres.label=Photographs"
+      },
+      "exact_download_URL": "https://iiif.wellcomecollection.org/image/L0028136/full/!1600,1600/0/default.jpg",
+      "expected_bytes": null,
+      "final_partition": null,
+      "group_basis": "All unknown creators provisionally grouped together; not treated as independent rooms or photographers",
+      "height": 1062,
+      "human_confirmed": false,
+      "image_metadata_URL": "https://iiif.wellcomecollection.org/image/L0028136/info.json",
+      "intended_ML_use": "Conditionally supported for photograph copying/annotation by the attached grant; not an explicit guarantee of model rights or all jurisdictions. Image-level third-party/personal rights still need review.",
+      "licence_family": "CC_BY",
+      "licence_grant_evidence_provider": "Wellcome Collection first-party image catalogue",
+      "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+      "maximum_bytes_per_object": 512000,
+      "metadata_genres": [
+        "Photographic postcards",
+        "Photographic prints",
+        "Photographs"
+      ],
+      "metadata_subjects": [
+        "Bedrooms",
+        "Dalston (London, England)",
+        "German Hospital"
+      ],
+      "metadata_title": "The German Hospital, Dalston: a room for a single patient, probably in the new wing (1936). Photograph.",
+      "modification_redistribution_conditions": "Retain credit, link licence, indicate modifications; do not impose inconsistent restrictions on licensed photograph",
+      "native_annotations": {
+        "boxes": 0,
+        "masks": 0,
+        "negative_completeness": false
+      },
+      "object_size_not_known_until_future_acquisition": true,
+      "original_image_id": "L0028136",
+      "partition_eligibility": "pending_source_and_capture_identity_checks",
+      "photo_download_approved": false,
+      "photographer": null,
+      "privacy_and_sensitive_context_review_required": true,
+      "proposal_purpose": "training-side visual and annotation-feasibility inspection only",
+      "provider_access": {
+        "evidence": "https://raw.githubusercontent.com/wellcomecollection/catalogue-api/main/README.md",
+        "status": "documented_public_no_auth_API"
+      },
+      "rights_holder": null,
+      "rights_reason": "First-party catalogue attaches CC BY/CC0 and attribution to this exact image; ownership and noncopyright rights are not guaranteed",
+      "rights_status": "A_rights_supported",
+      "source": "Wellcome Collection",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_image_id": "mhnzfe6b",
+      "source_work_id": "sdevj3f8",
+      "verified_negative_regions": 0,
+      "visual_relevance": {
+        "people_present_unverified": true,
+        "photograph_genre_claim": true,
+        "room_scene_verified": false,
+        "status": "metadata_only",
+        "visual_difficulty_verified": false
+      },
+      "width": 1646
+    },
+    {
+      "Chair_absence_verified": false,
+      "IIIF_info_sha256": "9b9b02cd0414e899c7c49ea43d17c1776d0320bc8ea578d88f5b79642460012b",
+      "access_terms": [],
+      "all_training_and_hard_negative_eligibility_checks_pending": true,
+      "aspect_ratio": 1.556420233463035,
+      "attribution_requirements": {
+        "changes_must_be_indicated": true,
+        "declared_contributors": [],
+        "licence_URL": "http://creativecommons.org/licenses/by/4.0/",
+        "source_credits": [
+          "Wellcome Collection"
+        ],
+        "source_link_required": true
+      },
+      "candidate_id": "wellcome-image:mqxh737p",
+      "canonical_source_url": "https://wellcomecollection.org/works/xhtm8xzz",
+      "capture_group_id": null,
+      "category_hints": [
+        "Bed"
+      ],
+      "commercial_conditions": "CC BY permits commercial copying/adaptation subject to its conditions; CC0 dedicates covered rights. No endorsement, ownership warranty, privacy/publicity or trademark clearance inferred.",
+      "creator_identity_verified": false,
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "declared_contributors": [],
+      "discovery_themes": [
+        "bedroom"
+      ],
+      "distractor_hints": [
+        "patient"
+      ],
+      "eligible_for_later_download_proposal": true,
+      "evidence": {
+        "checked_UTC": "2026-11-24T03:23:58.298094+00:00",
+        "response_path": "data/rights-discovery/phase10e10-v1/responses/023.document",
+        "sha256": "25a0b3f18ea0d0036d8a4f93913634df3b3b0e935221270b4b18e14ab0d85f07",
+        "url": "https://api.wellcomecollection.org/catalogue/v2/images?query=bedroom&pageSize=20&include=source.contributors%2Csource.genres%2Csource.subjects&locations.license=cc-by%2Ccc0&source.genres.label=Photographs"
+      },
+      "exact_download_URL": "https://iiif.wellcomecollection.org/image/L0028137/full/!1600,1600/0/default.jpg",
+      "expected_bytes": null,
+      "final_partition": null,
+      "group_basis": "All unknown creators provisionally grouped together; not treated as independent rooms or photographers",
+      "height": 1094,
+      "human_confirmed": false,
+      "image_metadata_URL": "https://iiif.wellcomecollection.org/image/L0028137/info.json",
+      "intended_ML_use": "Conditionally supported for photograph copying/annotation by the attached grant; not an explicit guarantee of model rights or all jurisdictions. Image-level third-party/personal rights still need review.",
+      "licence_family": "CC_BY",
+      "licence_grant_evidence_provider": "Wellcome Collection first-party image catalogue",
+      "licence_url": "http://creativecommons.org/licenses/by/4.0/",
+      "maximum_bytes_per_object": 512000,
+      "metadata_genres": [
+        "Photographic postcards",
+        "Photographic prints",
+        "Photographs"
+      ],
+      "metadata_subjects": [
+        "Bedrooms",
+        "German Hospital"
+      ],
+      "metadata_title": "The German Hospital, Dalston: a room for two patients, probably in the new wing (1936). Photograph.",
+      "modification_redistribution_conditions": "Retain credit, link licence, indicate modifications; do not impose inconsistent restrictions on licensed photograph",
+      "native_annotations": {
+        "boxes": 0,
+        "masks": 0,
+        "negative_completeness": false
+      },
+      "object_size_not_known_until_future_acquisition": true,
+      "original_image_id": "L0028137",
+      "partition_eligibility": "pending_source_and_capture_identity_checks",
+      "photo_download_approved": false,
+      "photographer": null,
+      "privacy_and_sensitive_context_review_required": true,
+      "proposal_purpose": "training-side visual and annotation-feasibility inspection only",
+      "provider_access": {
+        "evidence": "https://raw.githubusercontent.com/wellcomecollection/catalogue-api/main/README.md",
+        "status": "documented_public_no_auth_API"
+      },
+      "rights_holder": null,
+      "rights_reason": "First-party catalogue attaches CC BY/CC0 and attribution to this exact image; ownership and noncopyright rights are not guaranteed",
+      "rights_status": "A_rights_supported",
+      "source": "Wellcome Collection",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_image_id": "mqxh737p",
+      "source_work_id": "xhtm8xzz",
+      "verified_negative_regions": 0,
+      "visual_relevance": {
+        "people_present_unverified": true,
+        "photograph_genre_claim": true,
+        "room_scene_verified": false,
+        "status": "metadata_only",
+        "visual_difficulty_verified": false
+      },
+      "width": 1705
+    }
+  ],
+  "scope": "Seven source-supported room-scene photographs for inspection, not approved training data",
+  "source_group_count": 1,
+  "verified_independent_groups": 0,
+  "version": "phase10e10-v1"
+}
