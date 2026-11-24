@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import io
 import json
 import math
 from pathlib import Path
@@ -8,6 +9,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 from .geometry import validate_box
+from .persistence import atomic_json
 
 CATEGORIES = ("sofa", "chair", "table", "bed", "desk", "cabinet", "lamp")
 
@@ -18,11 +20,7 @@ def read_json(path):
 
 
 def write_json(path, value):
-    path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(value, indent=2, ensure_ascii=False, allow_nan=False) + "\n", encoding="utf-8"
-    )
+    atomic_json(path, value)
 
 
 def digest(path) -> str:
@@ -37,6 +35,17 @@ def load_image(path):
     """All boxes and masks use EXIF-transposed RGB pixel coordinates."""
     with Image.open(path) as image:
         return ImageOps.exif_transpose(image).convert("RGB")
+
+
+def load_image_with_digest(path, expected_sha256=None):
+    """Decode and hash one immutable compressed-byte snapshot of the source file."""
+    payload = Path(path).read_bytes()
+    actual = hashlib.sha256(payload).hexdigest()
+    if expected_sha256 is not None and actual != expected_sha256:
+        raise ValueError("image bytes changed between manifest validation and processing")
+    with Image.open(io.BytesIO(payload)) as image:
+        displayed = ImageOps.exif_transpose(image).convert("RGB")
+    return displayed, actual
 
 
 def validate_label(label):

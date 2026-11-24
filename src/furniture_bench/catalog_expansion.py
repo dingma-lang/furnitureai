@@ -17,6 +17,7 @@ import numpy as np
 from PIL import Image
 
 from .data import digest, read_json
+from .persistence import atomic_json as _atomic_json, atomic_write
 
 
 class BudgetExceeded(RuntimeError):
@@ -24,11 +25,7 @@ class BudgetExceeded(RuntimeError):
 
 
 def atomic_json(path, value):
-    path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(json.dumps(value, indent=2) + "\n")
-    os.replace(temporary, path)
+    _atomic_json(path, value, ensure_ascii=True)
 
 
 def validate_source(source):
@@ -185,31 +182,76 @@ def validate_catalog(catalog, root="."):
     return {"products": len(ids), "images": sum(len(p["images"]) for p in catalog["products"])}
 
 
-def incremental_embeddings(rows, directory, model_signature, encoder, batch_size=8):
-    """Per-image checkpoints bind identity, original bytes and exact model configuration."""
+def _read_feature(path, contract=None):
+    if contract is None:
+        value = np.load(path, allow_pickle=False)
+        if not isinstance(value, np.ndarray):
+            value.close()
+            raise ValueError("Legacy feature cache must contain a single NumPy array")
+    else:
+        from .cache import canonical
+        with np.load(path, allow_pickle=False) as archive:
+            if set(archive.files) != {"vector", "inference", "vector_sha256", "schema_version"}:
+                raise ValueError("Incomplete v2 feature artifact")
+            if (
+                archive["schema_version"].item() != 2
+                or archive["inference"].item() != canonical(contract["inference"])
+            ):
+                raise ValueError("Feature provenance differs from requested inference")
+            value = archive["vector"].copy()
+            if (
+                value.dtype != np.float32
+                or hashlib.sha256(value.tobytes()).hexdigest() != archive["vector_sha256"].item()
+            ):
+                raise ValueError("Feature integrity mismatch")
+    if (
+        value.ndim != 1
+        or not np.isfinite(value).all()
+        or not np.isclose(np.linalg.norm(value), 1, atol=1e-4)
+    ):
+        raise ValueError("Invalid cached feature")
+    return value
+
+
+def incremental_embeddings(rows, directory, model_signature, encoder, batch_size=8, *, cache_contracts=None):
+    """Preserve legacy keys; explicit contracts opt into single-file v2 features.
+
+    Label/group-only changes update returned context fingerprints, not raw vectors.
+    No historical cache is migrated, rewritten or removed automatically.
+    """
+    if not isinstance(batch_size, int) or isinstance(batch_size, bool) or batch_size < 1:
+        raise ValueError("Positive integer batch size required")
+    if not rows:
+        raise ValueError("No image rows")
+    if cache_contracts is not None:
+        ids = [r["image_id"] for r in rows]
+        if len(ids) != len(set(ids)) or not isinstance(cache_contracts, dict) or set(cache_contracts) != set(ids):
+            raise ValueError("Exact unique image-to-contract map required")
     directory = Path(directory)
     directory.mkdir(parents=True, exist_ok=True)
-    vectors, reused, seconds = [], 0, 0.0
-    pending = []
-    paths = []
+    vectors, reused, seconds = [None] * len(rows), 0, 0.0
+    pending, paths, contracts = [], [], []
     for i, row in enumerate(rows):
         if digest(row["file"]) != row["sha256"]:
             raise ValueError("Source bytes changed before embedding")
-        key = hashlib.sha256(
-            json.dumps([row["image_id"], row["sha256"], model_signature], sort_keys=True).encode()
-        ).hexdigest()
-        path = directory / (key + ".npy")
+        if cache_contracts is None:
+            legacy_identity = [row["image_id"], row["sha256"], model_signature]
+            key = hashlib.sha256(json.dumps(legacy_identity, sort_keys=True).encode()).hexdigest()
+            path = directory / (key + ".npy")
+            contract = None
+        else:
+            from .cache import validate_contract
+            contract = validate_contract(
+                cache_contracts[row["image_id"]], image_id=row["image_id"],
+                image_sha256=row["sha256"], model=model_signature,
+            )
+            if contract["inference"]["task"] != "image_embedding":
+                raise ValueError("Image embeddings require an image-only cache contract")
+            path = directory / "features-v2" / (contract["inference_key"] + ".npz")
         paths.append(path)
-        vectors.append(None)
+        contracts.append(contract)
         if path.exists():
-            value = np.load(path, allow_pickle=False)
-            if (
-                value.ndim != 1
-                or not np.isfinite(value).all()
-                or not np.isclose(np.linalg.norm(value), 1, atol=1e-4)
-            ):
-                raise ValueError("Invalid cached feature")
-            vectors[i] = value
+            vectors[i] = _read_feature(path, contract)
             reused += 1
         else:
             pending.append(i)
@@ -224,20 +266,30 @@ def incremental_embeddings(rows, directory, model_signature, encoder, batch_size
             or not np.allclose(np.linalg.norm(values, axis=1), 1, atol=1e-4)
         ):
             raise ValueError("Encoder returned invalid or non-unit features")
+        # Recheck after the caller's encoder: never publish features under changed bytes.
+        if any(digest(rows[i]["file"]) != rows[i]["sha256"] for i in indices):
+            raise ValueError("Source bytes changed during embedding")
         seconds += elapsed
         for i, vector in zip(indices, values):
-            temporary = paths[i].with_suffix(".tmp")
-            with temporary.open("wb") as stream:
-                np.save(stream, vector)
-            os.replace(temporary, paths[i])
+            contract = contracts[i]
+
+            def writer(stream):
+                if contract is None:
+                    np.save(stream, vector, allow_pickle=False)
+                else:
+                    from .cache import canonical
+                    np.savez(
+                        stream, vector=vector,
+                        inference=np.array(canonical(contract["inference"])),
+                        vector_sha256=np.array(hashlib.sha256(vector.tobytes()).hexdigest()),
+                        schema_version=np.array(2),
+                    )
+            atomic_write(paths[i], writer, validator=lambda p: _read_feature(p, contract), overwrite=False)
             vectors[i] = vector
-    if not rows:
-        raise ValueError("No image rows")
-    return np.stack(vectors), {
-        "reused": reused,
-        "new_encodings": len(pending),
-        "inference_seconds": seconds,
-    }
+    report = {"reused": reused, "new_encodings": len(pending), "inference_seconds": seconds}
+    if cache_contracts is not None:
+        report.update(cache_schema_version=2, context_keys={r["image_id"]: c["context_key"] for r, c in zip(rows, contracts)})
+    return np.stack(vectors), report
 
 
 def validate_nested_galleries(galleries, queries):

@@ -1,0 +1,108 @@
+{
+  "errors_remaining": 0,
+  "passed": 10,
+  "production_PDF_support_not_claimed_on_WSL": true,
+  "records": [
+    {
+      "cause": "Optional PyPDF2 import happened before corrupt-PDF error path; the unit test assumed the package was installed",
+      "change": "Keep ordinary invalid-image tests; inject a synthetic invalid-PDF parser to test error propagation. Real native PDF test remains unavailable.",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_home_transfer.TransferTests.test_invalid_uploads"
+    },
+    {
+      "cause": "PyPDF2 absent; actual renderer also requires macOS PDFKit and Swift",
+      "change": "Explicit native-platform/dependency requirement; no replacement renderer or blanket skip",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "explicitly_unavailable",
+      "test": "test_home_transfer.TransferTests.test_pdf_pages_locally_rendered"
+    },
+    {
+      "cause": "Unit test assumed external data/catalogs/abo-phase6d/catalog.json existed",
+      "change": "Explicit synthetic product metadata with width/height/reported length and a descriptor-only synthetic image ID; no real catalogue restored",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_owned_inventory.OwnedInventoryTests.test_catalog_reported_fields_not_verified_or_length_invented_as_depth"
+    },
+    {
+      "cause": "Synthetic model queue test called real configuration(), requiring missing examples/furniture-prompts-v2.json and local model inventory",
+      "change": "Deterministic synthetic configuration at the test seam; fake model runner preserved",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_photo_projects.PhotoProjectTests.test_corrections_undo_and_persistence_do_not_change_predictions"
+    },
+    {
+      "cause": "Synthetic model queue test called real configuration(), requiring missing examples/furniture-prompts-v2.json and local model inventory",
+      "change": "Deterministic synthetic configuration at the test seam; fake model runner preserved",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_photo_projects.PhotoProjectTests.test_independent_stage_failure_and_cached_reuse"
+    },
+    {
+      "cause": "Synthetic model queue test called real configuration(), requiring missing examples/furniture-prompts-v2.json and local model inventory",
+      "change": "Deterministic synthetic configuration at the test seam; fake model runner preserved",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_photo_projects.PhotoProjectTests.test_interrupted_session_requires_retry_and_duplicate_submit_runs_once"
+    },
+    {
+      "cause": "Synthetic model queue test called real configuration(), requiring missing examples/furniture-prompts-v2.json and local model inventory",
+      "change": "Deterministic synthetic configuration at the test seam; fake model runner preserved",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_photo_projects.PhotoProjectTests.test_manual_observation_before_inference_survives_and_ai_rows_are_added"
+    },
+    {
+      "cause": "Synthetic model queue test called real configuration(), requiring missing examples/furniture-prompts-v2.json and local model inventory",
+      "change": "Deterministic synthetic configuration at the test seam; fake model runner preserved",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_photo_projects.PhotoProjectTests.test_measurements_and_explicit_demo_association_never_calibrate_photo"
+    },
+    {
+      "cause": "Unit test assumed external data/catalogs/abo-phase6d/catalog.json existed",
+      "change": "Explicit synthetic product metadata with width/height/reported length and a descriptor-only synthetic image ID; no real catalogue restored",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_replacements.ReplacementTests.test_candidate_selection_uses_saved_production_results"
+    },
+    {
+      "cause": "Preset integration assumed reports/phase5-public-room/quick-room.json existed in this workspace",
+      "change": "Valid deterministic synthetic partial-room JSON in TemporaryDirectory; real preset lookup and validation exercised",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_room_viewer.RoomViewerTests.test_import_does_not_read_untrusted_external_asset_paths"
+    },
+    {
+      "cause": "Preset integration assumed reports/phase5-public-room/quick-room.json existed in this workspace",
+      "change": "Valid deterministic synthetic partial-room JSON in TemporaryDirectory; real preset lookup and validation exercised",
+      "fixture_generation_previously_broken": false,
+      "historical_dataset_fabricated": false,
+      "incorrect_test_path": false,
+      "status": "PASS",
+      "test": "test_room_viewer.RoomViewerTests.test_partial_presets_never_enable_placement_even_with_flag"
+    }
+  ],
+  "source_problems_separate_from_test_fixtures": true,
+  "unavailable": 1
+}

@@ -1,0 +1,43 @@
+test_invalid_uploads (test_home_transfer.TransferTests.test_invalid_uploads) ... ok
+test_pdf_pages_locally_rendered (test_home_transfer.TransferTests.test_pdf_pages_locally_rendered) ... skipped 'Native PDF rendering requires macOS PDFKit, Swift and PyPDF2; not a synthetic-renderer test'
+test_catalog_reported_fields_not_verified_or_length_invented_as_depth (test_owned_inventory.OwnedInventoryTests.test_catalog_reported_fields_not_verified_or_length_invented_as_depth) ... ok
+test_corrections_undo_and_persistence_do_not_change_predictions (test_photo_projects.PhotoProjectTests.test_corrections_undo_and_persistence_do_not_change_predictions) ... ok
+test_independent_stage_failure_and_cached_reuse (test_photo_projects.PhotoProjectTests.test_independent_stage_failure_and_cached_reuse) ... ok
+test_interrupted_session_requires_retry_and_duplicate_submit_runs_once (test_photo_projects.PhotoProjectTests.test_interrupted_session_requires_retry_and_duplicate_submit_runs_once) ... ok
+test_manual_observation_before_inference_survives_and_ai_rows_are_added (test_photo_projects.PhotoProjectTests.test_manual_observation_before_inference_survives_and_ai_rows_are_added) ... ok
+test_measurements_and_explicit_demo_association_never_calibrate_photo (test_photo_projects.PhotoProjectTests.test_measurements_and_explicit_demo_association_never_calibrate_photo) ... ok
+test_candidate_selection_uses_saved_production_results (test_replacements.ReplacementTests.test_candidate_selection_uses_saved_production_results) ... ERROR
+test_import_does_not_read_untrusted_external_asset_paths (test_room_viewer.RoomViewerTests.test_import_does_not_read_untrusted_external_asset_paths) ... ok
+test_partial_presets_never_enable_placement_even_with_flag (test_room_viewer.RoomViewerTests.test_partial_presets_never_enable_placement_even_with_flag) ... ok
+
+======================================================================
+ERROR: test_candidate_selection_uses_saved_production_results (test_replacements.ReplacementTests.test_candidate_selection_uses_saved_production_results)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_replacements.py", line 448, in test_candidate_selection_uses_saved_production_results
+    self.act("update", candidate_id=product["product_id"])
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tristary/furniture-ai-ml/tests/test_replacements.py", line 58, in act
+    return self.store.action(
+           ~~~~~~~~~~~~~~~~~^
+        self.pid,
+        ^^^^^^^^^
+        {"operation": operation, "layout_id": self.lid, "proposal_id": self.key, **extra},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/replacements.py", line 506, in action
+    self.edit(p, body)
+    ~~~~~~~~~^^^^^^^^^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/replacements.py", line 335, in edit
+    for c in self.candidates(p["original_inventory_item_id"])
+             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/replacements.py", line 300, in candidates
+    "image_url": "/api/catalog/images/" + product["images"][0]["image_id"],
+                                          ~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.102s
+
+FAILED (errors=1, skipped=1)

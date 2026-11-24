@@ -1,0 +1,18 @@
+{
+  "GPU_calls": 0,
+  "downloads": 0,
+  "errors": [],
+  "excluded_actual_model_forwards": [],
+  "failures": [],
+  "log_sha256": "3bb7cbf89140acac28e6d7ef8e970aa22489004e5a23f7f18c68e7b942e75757",
+  "model_forwards": 0,
+  "passed": 10,
+  "ran": 11,
+  "skipped": [
+    {
+      "reason": "Native PDF rendering requires macOS PDFKit, Swift and PyPDF2; not a synthetic-renderer test",
+      "test": "test_home_transfer.TransferTests.test_pdf_pages_locally_rendered"
+    }
+  ],
+  "status": "PASS"
+}

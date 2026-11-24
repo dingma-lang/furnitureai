@@ -6,6 +6,7 @@ import zipfile
 from unittest.mock import patch
 
 from PIL import Image
+from synthetic_support import synthetic_model_configuration
 
 from room_reconstruction.demo import demo_scene
 from room_viewer.photo_jobs import PhotoJobs
@@ -20,6 +21,9 @@ def png():
 
 class PhotoProjectTests(unittest.TestCase):
     def setUp(self):
+        config = patch("room_viewer.photo_jobs.configuration", side_effect=synthetic_model_configuration)
+        config.start()
+        self.addCleanup(config.stop)
         self.tmp = tempfile.TemporaryDirectory()
         self.store = ProjectStore(self.tmp.name)
         self.project = self.store.create("Synthetic offline test")

@@ -1,0 +1,113 @@
+{
+  "Mac_application_modified": false,
+  "actual_abrupt_exit_recovery_test": true,
+  "atomic_writes": true,
+  "automatic_cache_migration": false,
+  "baseline": {
+    "errors": 11,
+    "passed": 336,
+    "ran": 379,
+    "skipped": 32
+  },
+  "broad": {
+    "errors": 0,
+    "excluded_real_model_forwards": 2,
+    "failures": 0,
+    "passed": 391,
+    "ran": 424,
+    "skipped": 33
+  },
+  "cache_schema": 2,
+  "dense_filter_ratio": 1.0068008173788754,
+  "downloads": 0,
+  "former_errors": {
+    "passed": 10,
+    "unavailable_native_test": 1
+  },
+  "geometry_and_fingerprint_equivalence": {
+    "EXIF_and_colour_mode_cases": 12,
+    "geometry_cases": 25000,
+    "official_holdout_scoring": false,
+    "saved_filter_cases": 9,
+    "status": "EXACT_MATCH",
+    "synthetic_matching_protocols": 3
+  },
+  "geometry_optimized": false,
+  "image_snapshot_binding": true,
+  "legacy_cache_names_and_arrays_preserved": true,
+  "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "model_or_GPU_forwards": 0,
+  "new_datasets": 0,
+  "optimizer_updates": 0,
+  "parent": "5e9c53d446c5659c2ef82bb17a91372bc88cda4d",
+  "preservation": {
+    "after_files": 29229,
+    "before_files": 29225,
+    "dataset_or_model_changes": 0,
+    "deleted_files": 0,
+    "historical_report_changes": 0,
+    "historical_tool_changes": 0,
+    "intended_changes": [
+      {
+        "after": "b71e8c5d7bd2e8c62840aff99f0dbefc56159f5f288cf6536a41e95338c85de2",
+        "before": "eff19973ca520d3ee85ad96614e723e585bb114546dd67b1af312cf82c7272d5",
+        "path": "src/furniture_bench/catalog_expansion.py"
+      },
+      {
+        "after": "b1b84ab7a84384b898811e9f41ea3fa7ece2b90fc8fffb7bb3fab516c0fa02a3",
+        "before": "19a6ae128381d08107f2cbcb8519b571067a019bd15f9679c108b3713a280bf9",
+        "path": "src/furniture_bench/data.py"
+      },
+      {
+        "after": "33a8d0a3ebeafe806d90bde43c969e510b7463e376c02203f553fae0112a02a9",
+        "before": "77d029770ca0869e79dce2dae68a9597cd931d2f7f5544f0ae8d193bf77aa266",
+        "path": "src/furniture_bench/pipeline.py"
+      },
+      {
+        "after": "e154586ebdfd9d7650a2f3831bb5cb9d4a004f4d7ff303969bf272e39c2d6b7e",
+        "before": "4887de57f2feac64fe46ef3293699314743e8843bafbdec591c8870e8985d8e8",
+        "path": "src/furniture_bench/retrieval.py"
+      },
+      {
+        "after": "6e4554e06b10a76ddf3be35f51d2dd62ef695e79193df7dad4fd2b8a21d08077",
+        "before": "352ec674fc91a3e8abc975e65a32e0d4d776d5d317b5c1ab9fb77968ce6cf721",
+        "path": "tests/test_home_transfer.py"
+      },
+      {
+        "after": "2d025232211c7a421ce21e9245bac6a560df3d2e636781a0968bf98d1b72a9d0",
+        "before": "e6e563652a7fc1a088f45f47409c0a861c4347509cb1fb233e7ada809c777c6a",
+        "path": "tests/test_owned_inventory.py"
+      },
+      {
+        "after": "078d1b75a84eb9ba91bc70bd04edfa644f1df2a7625bc6714cfec58c80411c16",
+        "before": "b46230ecc61387d7695dc8edf8661ccb24c8e4104599a11689c42c4831d46ea7",
+        "path": "tests/test_photo_projects.py"
+      },
+      {
+        "after": "4379059117a42f4dcc444a953af427988d8cc04f6feefbb349e33c7d12a38345",
+        "before": "cc92242adf137cc43e26b5afd7ab9f1af598147873ce88290629cc7e65d8ae5d",
+        "path": "tests/test_replacements.py"
+      },
+      {
+        "after": "cb2c258564170bb3488e22d822b829b209246a94e57b8a6e3cb54da2a373c457",
+        "before": "adb8650f574a0f0f85b3b498aa292d03c5dba687bb56f969daf52839dd89ba79",
+        "path": "tests/test_room_viewer.py"
+      }
+    ],
+    "new_files": [
+      "src/furniture_bench/cache.py",
+      "src/furniture_bench/persistence.py",
+      "tests/synthetic_support.py",
+      "tests/test_reliability.py"
+    ],
+    "parent_commit": "5e9c53d446c5659c2ef82bb17a91372bc88cda4d",
+    "private_after_sha256": "9f7e43efbf3e252071e0ada780359fc0e4046ecf6adb0a56b8a12aebc98b6669",
+    "private_before_sha256": "ed24c412503058cefb6991bf15d6e09f0642874e47d332d2da683994240150ab",
+    "status": "PASS",
+    "unchanged_data_models_and_historical_reports": 28310,
+    "unchanged_original_files": 29216
+  },
+  "representative_filter_ratio": 1.0292673405828339,
+  "status": "COMPLETE_WITH_EXPLICIT_OPTIONAL_REQUIREMENTS",
+  "targeted_passed": 45
+}

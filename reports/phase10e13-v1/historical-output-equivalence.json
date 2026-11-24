@@ -1,0 +1,8 @@
+{
+  "EXIF_and_colour_mode_cases": 12,
+  "geometry_cases": 25000,
+  "official_holdout_scoring": false,
+  "saved_filter_cases": 9,
+  "status": "EXACT_MATCH",
+  "synthetic_matching_protocols": 3
+}

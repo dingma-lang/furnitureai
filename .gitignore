@@ -348,3 +348,11 @@ dist/
 !/reports/phase10e12-v1/CPU-*.log
 !/reports/phase10e12-v1/SHA256SUMS
 !/reports/phase10e12-v1/SHA256SUMS-replay
+
+# Small Phase10E.13 CPU reliability evidence; private inventories stay local.
+!/reports/phase10e13-v1/
+/reports/phase10e13-v1/*
+!/reports/phase10e13-v1/*.md
+!/reports/phase10e13-v1/*.json
+!/reports/phase10e13-v1/CPU-*.log
+!/reports/phase10e13-v1/SHA256SUMS

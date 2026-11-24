@@ -1,5 +1,6 @@
 import copy
 import unittest
+from synthetic_support import synthetic_partial_preset
 
 from room_reconstruction.demo import demo_scene
 from room_layout.scene import validate_photo_scene
@@ -54,7 +55,8 @@ class RoomViewerTests(unittest.TestCase):
             edit_scene(scene, {"type": "remove", "id": "chair"})
 
     def test_partial_presets_never_enable_placement_even_with_flag(self):
-        result = load_preset("single-photo")
+        with synthetic_partial_preset():
+            result = load_preset("single-photo")
         validate_photo_scene(result["scene"])
         forged = copy.deepcopy(result["scene"])
         forged["physical_accuracy_verified"] = True
@@ -63,7 +65,8 @@ class RoomViewerTests(unittest.TestCase):
             edit_scene(result["scene"], {"type": "resize", "dimensions": [6, 5, 3]})
 
     def test_import_does_not_read_untrusted_external_asset_paths(self):
-        scene = load_preset("single-photo")["scene"]
+        with synthetic_partial_preset():
+            scene = load_preset("single-photo")["scene"]
         scene["sensor_reconstruction"] = {"point_cloud": {"file": "/etc/passwd"}}
         self.assertEqual(presentation(scene)["observed"], {})
 

@@ -1,16 +1,16 @@
 import copy
-import json
 import tempfile
 import unittest
 from unittest.mock import patch
 from uuid import uuid4
+from synthetic_support import synthetic_product
 
 from room_viewer.furniture_budget import BudgetStore
 from room_viewer.home_transfer import TransferStore
 from room_viewer.inventory import InventoryStore
 from room_viewer.photo_projects import ProjectStore
 from room_viewer.replacements import ReplacementStore, proposals
-from room_viewer.service import ROOT, presentation
+from room_viewer.service import presentation
 
 
 class ReplacementTests(unittest.TestCase):
@@ -398,8 +398,7 @@ class ReplacementTests(unittest.TestCase):
 
     def test_candidate_selection_uses_saved_production_results(self):
         # Unit-only observation fixture; real retrieval/browser evidence is exercised separately.
-        catalog = json.loads((ROOT / "data/catalogs/abo-phase6d/catalog.json").read_text())
-        product = next(p for p in catalog["products"] if p["label"] == "sofa")
+        product = synthetic_product()
         source = self.projects.create("Candidate source fixture")
         doc = self.projects.read(source["id"])
         photo_id = uuid4().hex
@@ -444,12 +443,13 @@ class ReplacementTests(unittest.TestCase):
 
         atomic_json(self.inventory.path, library)
         self.create()
-        self.act("update", candidate_id=product["product_id"])
-        p = self.proposal()
-        self.assertEqual(product["product_id"], p["catalog_candidate"]["product_id"])
-        self.assertFalse(p["catalog_candidate"]["identity_verified"])
-        with self.assertRaises(ValueError):
-            self.act("update", candidate_id="unseen-retailer-listing")
+        with patch("room_viewer.replacements.read_json", return_value={"products": [product]}):
+            self.act("update", candidate_id=product["product_id"])
+            p = self.proposal()
+            self.assertEqual(product["product_id"], p["catalog_candidate"]["product_id"])
+            self.assertFalse(p["catalog_candidate"]["identity_verified"])
+            with self.assertRaises(ValueError):
+                self.act("update", candidate_id="unseen-retailer-listing")
 
     def test_applied_visual_replacement_without_purchase_link_is_unbudgeted(self):
         self.create()

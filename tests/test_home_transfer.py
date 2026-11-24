@@ -1,4 +1,9 @@
 import copy
+import importlib.util
+import shutil
+import sys
+from types import SimpleNamespace
+from unittest.mock import Mock, patch
 import io
 import tempfile
 import unittest
@@ -99,10 +104,13 @@ class TransferTests(unittest.TestCase):
             (b"bad", True, 0),
             (self.image(), True, 1),
             (self.image(), True, -1),
-            (b"%PDF-bad", True, 0),
         ]:
             with self.assertRaises(ValueError):
                 self.store.upload(self.pid, raw, "bad", rights, page)
+        # Exercise corrupt-PDF error handling with a synthetic parser, not unavailable PDFKit.
+        parser = SimpleNamespace(PdfReader=Mock(side_effect=ValueError("Synthetic corrupt PDF")))
+        with patch.dict(sys.modules, {"PyPDF2": parser}), self.assertRaises(ValueError):
+            self.store.upload(self.pid, b"%PDF-bad", "synthetic.pdf", True)
 
     def test_scale_units(self):
         self.plan()
@@ -357,6 +365,8 @@ class TransferTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_home(h)
 
+    @unittest.skipUnless(sys.platform == "darwin" and shutil.which("swift") and importlib.util.find_spec("PyPDF2"),
+                         "Native PDF rendering requires macOS PDFKit, Swift and PyPDF2; not a synthetic-renderer test")
     def test_pdf_pages_locally_rendered(self):
         from PyPDF2 import PdfWriter
 

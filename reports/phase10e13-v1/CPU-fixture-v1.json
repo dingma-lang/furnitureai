@@ -1,0 +1,23 @@
+{
+  "GPU_calls": 0,
+  "downloads": 0,
+  "errors": [
+    {
+      "test": "test_replacements.ReplacementTests.test_candidate_selection_uses_saved_production_results",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/tristary/furniture-ai-ml/tests/test_replacements.py\", line 448, in test_candidate_selection_uses_saved_production_results\n    self.act(\"update\", candidate_id=product[\"product_id\"])\n    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tristary/furniture-ai-ml/tests/test_replacements.py\", line 58, in act\n    return self.store.action(\n           ~~~~~~~~~~~~~~~~~^\n        self.pid,\n        ^^^^^^^^^\n        {\"operation\": operation, \"layout_id\": self.lid, \"proposal_id\": self.key, **extra},\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/home/tristary/furniture-ai-ml/src/room_viewer/replacements.py\", line 506, in action\n    self.edit(p, body)\n    ~~~~~~~~~^^^^^^^^^\n  File \"/home/tristary/furniture-ai-ml/src/room_viewer/replacements.py\", line 335, in edit\n    for c in self.candidates(p[\"original_inventory_item_id\"])\n             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tristary/furniture-ai-ml/src/room_viewer/replacements.py\", line 300, in candidates\n    \"image_url\": \"/api/catalog/images/\" + product[\"images\"][0][\"image_id\"],\n                                          ~~~~~~~~~~~~~~~~~^^^\nIndexError: list index out of range\n"
+    }
+  ],
+  "excluded_actual_model_forwards": [],
+  "failures": [],
+  "log_sha256": "24ae803bfed48e58369430f34a785ea6cb25afa143b02aea965306d6f65fdde7",
+  "model_forwards": 0,
+  "passed": 9,
+  "ran": 11,
+  "skipped": [
+    {
+      "reason": "Native PDF rendering requires macOS PDFKit, Swift and PyPDF2; not a synthetic-renderer test",
+      "test": "test_home_transfer.TransferTests.test_pdf_pages_locally_rendered"
+    }
+  ],
+  "status": "FAIL"
+}

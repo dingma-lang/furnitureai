@@ -7,8 +7,8 @@ from pathlib import Path
 from unittest.mock import patch
 
 from PIL import Image
+from synthetic_support import synthetic_product
 
-from furniture_bench.data import read_json
 from room_viewer.inventory import (
     InventoryStore,
     active_dimensions,
@@ -18,7 +18,7 @@ from room_viewer.inventory import (
     validate_item,
 )
 from room_viewer.photo_projects import ProjectStore
-from room_viewer.service import ROOT, presentation
+from room_viewer.service import presentation
 
 
 class OwnedInventoryTests(unittest.TestCase):
@@ -161,7 +161,7 @@ class OwnedInventoryTests(unittest.TestCase):
                 )
 
     def test_catalog_reported_fields_not_verified_or_length_invented_as_depth(self):
-        product = read_json(ROOT / "data/catalogs/abo-phase6d/catalog.json")["products"][0]
+        product = synthetic_product()
         item = self.measured(self.create())
         prior = item["specifications"]["width"]["active_evidence_id"]
         attach_catalog(item, product, {"similarity": 0.8})

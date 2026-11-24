@@ -5,7 +5,7 @@ from time import perf_counter
 
 import numpy as np
 
-from .data import digest, load_image, load_manifest, read_json, write_json
+from .data import digest, load_image_with_digest, load_manifest, read_json, write_json
 from .faiss_worker import FaissWorker
 
 
@@ -85,6 +85,15 @@ class CatalogIndex:
         for key in ("model_id", "requested_revision", "feature", "preprocessing"):
             if original.get(key) != embedding.get(key):
                 raise ValueError(f"catalog/query embedding mismatch: {key}; rebuild the index")
+        # Explicit v2 identities fail closed on missing/asymmetric provenance.
+        strong = ("model_fingerprint", "preprocessing_fingerprint")
+        if any(key in metadata for metadata in (original, embedding) for key in strong):
+            from .cache import require_sha
+            for key in strong:
+                require_sha(original.get(key), key)
+                require_sha(embedding.get(key), key)
+                if original[key] != embedding[key]:
+                    raise ValueError(f"catalog/query fingerprint mismatch: {key}; rebuild explicitly")
         # If both hub commit hashes are known, require the same actual weights.
         old, new = original.get("resolved_revision"), embedding.get("resolved_revision")
         if old and new and old != new:
@@ -127,16 +136,19 @@ def build_catalog(manifest, output, embedder):
     # Bound image and tensor memory; fail explicitly if any catalog image cannot load.
     for offset in range(0, len(rows), embedder.batch_size):
         batch = rows[offset : offset + embedder.batch_size]
-        images = [load_image(row["resolved_file"]) for row in batch]
+        snapshots = [load_image_with_digest(row["resolved_file"], row.get("image_sha256")) for row in batch]
+        images = [image for image, _ in snapshots]
         vectors, seconds = embedder.encode(images)
+        if any(digest(row["resolved_file"]) != captured_sha for row, (_, captured_sha) in zip(batch, snapshots)):
+            raise ValueError("Catalog source bytes changed during embedding")
         total_seconds += seconds
         vector_batches.append(vectors)
         products.extend(
             {
                 **{key: value for key, value in row.items() if key != "resolved_file"},
-                "image_sha256": digest(row["resolved_file"]),
+                "image_sha256": image_sha256,
             }
-            for row in batch
+            for row, (_, image_sha256) in zip(batch, snapshots)
         )
     index = CatalogIndex.build(np.concatenate(vector_batches), products, embedder.metadata())
     index.metadata.update(

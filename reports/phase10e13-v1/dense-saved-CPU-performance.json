@@ -1,0 +1,50 @@
+{
+  "exact_output_sha256": {
+    "inline_original": "9acc949caf1cc41807a6f498034acd4e17084f0ae9cb9c39375942731ad153d1",
+    "shared_current": "9acc949caf1cc41807a6f498034acd4e17084f0ae9cb9c39375942731ad153d1"
+  },
+  "geometry_optimization_applied": false,
+  "ground_truth_used_for_filtering_or_scoring": false,
+  "heldout_scoring": false,
+  "images": 19,
+  "limitations": "Saved already-filtered/capped outputs, not raw3600queries or full detector latency; exposed internal data only.",
+  "maximum_per_image": 300,
+  "median_seconds": {
+    "inline_original": 0.09398193747620098,
+    "shared_current": 0.0946210914698895
+  },
+  "model_forward_calls": 0,
+  "nms_iou": 0.5,
+  "partition_metadata_read": true,
+  "photographs_decoded": 0,
+  "ratio_shared_to_inline": 1.0068008173788754,
+  "repeats": 3,
+  "rounds": 8,
+  "saved_predictions": 5700,
+  "seconds": {
+    "inline_original": [
+      0.09385304898023605,
+      0.09945624496322125,
+      0.09205190098145977,
+      0.10130220203427598,
+      0.09671043697744608,
+      0.09160187799716368,
+      0.09196736000012606,
+      0.09411082597216591
+    ],
+    "shared_current": [
+      0.09393934201216325,
+      0.09589141100877896,
+      0.09938854596111923,
+      0.09478862100513652,
+      0.09251323802163824,
+      0.09429659001762047,
+      0.09461513895075768,
+      0.09462704398902133
+    ]
+  },
+  "settings_not_tuned": true,
+  "source": "data/open-images/experiments/phase10e-distillation-fp32-v1/CPU-analysis/predictions-E5.json",
+  "source_sha256": "1ae5d4580f1254285552cfb0e1fd5d3367801f9b183639023bd5b98fdf14992c",
+  "threshold": 0.15
+}

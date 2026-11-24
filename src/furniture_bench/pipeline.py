@@ -4,7 +4,7 @@ import hashlib
 from pathlib import Path
 from time import perf_counter
 
-from .data import digest, load_image, load_manifest, write_json
+from .data import digest, load_image_with_digest, load_manifest, write_json
 from .geometry import crop_bounds
 from .runtime import environment
 from .visualization import annotate
@@ -36,10 +36,10 @@ def run_experiment(manifest, output, detector, embedder=None, catalog=None, segm
         stage = "image_load"
         detection_completed = False
         try:
-            image = load_image(row["resolved_file"])
+            image, image_sha256 = load_image_with_digest(row["resolved_file"], row.get("image_sha256"))
             record.update(
                 {
-                    "image_sha256": digest(row["resolved_file"]),
+                    "image_sha256": image_sha256,
                     "width": image.width,
                     "height": image.height,
                 }

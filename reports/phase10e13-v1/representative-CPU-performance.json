@@ -1,0 +1,50 @@
+{
+  "actual_model_inference": false,
+  "case_count": 9,
+  "detections_per_source": [
+    12,
+    1,
+    12
+  ],
+  "limitation": "Warm saved-candidate CPU workload, only three rooms; no GPU, detector latency or end-to-end improvement inference",
+  "median_seconds": {
+    "inline_original": 0.02789549549925141,
+    "shared_current": 0.028711922466754913
+  },
+  "optimization_decision": "No geometry optimization or threshold change; shared semantics retained.",
+  "output_sha256": {
+    "inline_original": "a4128d5f814ac5aa82236876939ce6d8580badc932de55e53c9672fc71976ecf",
+    "shared_current": "a4128d5f814ac5aa82236876939ce6d8580badc932de55e53c9672fc71976ecf"
+  },
+  "ratio_shared_to_inline": 1.0292673405828339,
+  "repeats_per_case_per_round": 200,
+  "rounds": 10,
+  "seconds": {
+    "inline_original": [
+      0.02967283403268084,
+      0.0315912640071474,
+      0.029222981014754623,
+      0.028662508993875235,
+      0.029056194005534053,
+      0.027128482004627585,
+      0.02676553896162659,
+      0.02613551600370556,
+      0.02580429398221895,
+      0.026717142027337104
+    ],
+    "shared_current": [
+      0.030286483000963926,
+      0.03119571303250268,
+      0.027028687007259578,
+      0.02569583896547556,
+      0.029311108984984457,
+      0.03125806001480669,
+      0.02991029800614342,
+      0.027253334992565215,
+      0.02769881801214069,
+      0.02811273594852537
+    ]
+  },
+  "source_images": 3,
+  "thresholds_are_frozen_fixture_settings_not_selected": true
+}
