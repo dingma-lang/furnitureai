@@ -1,0 +1,2095 @@
+{
+  "count": 95,
+  "groups": [
+    [
+      {
+        "decision_proxy": 27,
+        "line": 44,
+        "lines": 41,
+        "name": "run",
+        "path": "tools/phase5b-v1/baseline.py"
+      },
+      {
+        "decision_proxy": 27,
+        "line": 44,
+        "lines": 41,
+        "name": "run",
+        "path": "tools/phase5c-v1/baseline.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 20,
+        "line": 71,
+        "lines": 39,
+        "name": "__init__",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/review_server.py"
+      },
+      {
+        "decision_proxy": 20,
+        "line": 48,
+        "lines": 39,
+        "name": "__init__",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/repair-20261104-v1/original-review_server.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 54,
+        "line": 51,
+        "lines": 35,
+        "name": "evaluate",
+        "path": "tools/phase5b-v1/metrics.py"
+      },
+      {
+        "decision_proxy": 54,
+        "line": 51,
+        "lines": 35,
+        "name": "evaluate",
+        "path": "tools/phase5c-v1/metrics.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 18,
+        "line": 47,
+        "lines": 31,
+        "name": "detection_loss",
+        "path": "tools/phase5b-v1/adaptation.py"
+      },
+      {
+        "decision_proxy": 18,
+        "line": 35,
+        "lines": 31,
+        "name": "detection_loss",
+        "path": "tools/phase5c-v1/adaptation.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 16,
+        "line": 16,
+        "lines": 30,
+        "name": "one",
+        "path": "tools/phase7-rights-v1/run.py"
+      },
+      {
+        "decision_proxy": 16,
+        "line": 16,
+        "lines": 30,
+        "name": "one",
+        "path": "tools/phase8b-v1/run.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 24,
+        "line": 40,
+        "lines": 29,
+        "name": "lock_dataset",
+        "path": "tools/phase5b-v1/common.py"
+      },
+      {
+        "decision_proxy": 24,
+        "line": 40,
+        "lines": 29,
+        "name": "lock_dataset",
+        "path": "tools/phase5c-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 5,
+        "line": 69,
+        "lines": 18,
+        "name": "evaluate_raw",
+        "path": "tools/phase10c10-v1/future_worker10.py"
+      },
+      {
+        "decision_proxy": 5,
+        "line": 72,
+        "lines": 18,
+        "name": "evaluate_raw",
+        "path": "tools/phase10c11-v1/worker11.py"
+      },
+      {
+        "decision_proxy": 5,
+        "line": 75,
+        "lines": 18,
+        "name": "evaluate_raw",
+        "path": "tools/phase10c12-v1/future_worker12.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 27,
+        "line": 6,
+        "lines": 26,
+        "name": "run",
+        "path": "tools/phase10c15-v1/prepare15.py"
+      },
+      {
+        "decision_proxy": 27,
+        "line": 6,
+        "lines": 26,
+        "name": "run",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/prepare15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 27,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase6b-v1/common.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 27,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase6c-v1/common.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 21,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase7-acquisition-v1/core.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 22,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase7-images-v1/pilot_core.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 23,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase7-rights-v1/audit_core.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 13,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase8a-v1/prep_core.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 26,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase8b-v1/audit_core.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 22,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase8c-v1/pilot_core.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 25,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase9-v1/core.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 26,
+        "lines": 5,
+        "name": "sha",
+        "path": "data/coco/metadata/phase6b-v1/executed-acquisition-code-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 29,
+        "line": 22,
+        "lines": 21,
+        "name": "match",
+        "path": "tools/phase5b-v1/metrics.py"
+      },
+      {
+        "decision_proxy": 29,
+        "line": 22,
+        "lines": 21,
+        "name": "match",
+        "path": "tools/phase5c-v1/metrics.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 11,
+        "line": 7,
+        "lines": 21,
+        "name": "run",
+        "path": "tools/phase7-images-v1/contacts.py"
+      },
+      {
+        "decision_proxy": 11,
+        "line": 7,
+        "lines": 21,
+        "name": "run",
+        "path": "tools/phase8c-v1/contacts.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 7,
+        "line": 46,
+        "lines": 13,
+        "name": "forward",
+        "path": "tools/phase10c10-v1/future_worker10.py"
+      },
+      {
+        "decision_proxy": 7,
+        "line": 49,
+        "lines": 13,
+        "name": "forward",
+        "path": "tools/phase10c11-v1/worker11.py"
+      },
+      {
+        "decision_proxy": 7,
+        "line": 52,
+        "lines": 13,
+        "name": "forward",
+        "path": "tools/phase10c12-v1/future_worker12.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 28,
+        "line": 9,
+        "lines": 19,
+        "name": "annotation_check",
+        "path": "tools/phase7-images-v1/screen.py"
+      },
+      {
+        "decision_proxy": 28,
+        "line": 9,
+        "lines": 19,
+        "name": "annotation_check",
+        "path": "tools/phase8c-v1/screen.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 25,
+        "line": 7,
+        "lines": 18,
+        "name": "inspect_archive",
+        "path": "tools/phase6b-v1/extract.py"
+      },
+      {
+        "decision_proxy": 25,
+        "line": 7,
+        "lines": 18,
+        "name": "inspect_archive",
+        "path": "data/coco/metadata/phase6b-v1/executed-acquisition-code-v1/extract.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 12,
+        "line": 26,
+        "lines": 17,
+        "name": "gallery",
+        "path": "tools/phase5b-v1/baseline.py"
+      },
+      {
+        "decision_proxy": 12,
+        "line": 26,
+        "lines": 17,
+        "name": "gallery",
+        "path": "tools/phase5c-v1/baseline.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 13,
+        "line": 43,
+        "lines": 16,
+        "name": "do_POST",
+        "path": "tools/phase10c5-v1/g5_server.py"
+      },
+      {
+        "decision_proxy": 13,
+        "line": 43,
+        "lines": 16,
+        "name": "do_POST",
+        "path": "tools/phase10c5-v2/server2.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 5,
+        "line": 26,
+        "lines": 14,
+        "name": "snapshot",
+        "path": "tools/phase5b-v1/checkpoints.py"
+      },
+      {
+        "decision_proxy": 5,
+        "line": 26,
+        "lines": 14,
+        "name": "snapshot",
+        "path": "tools/phase5c-v1/checkpoints.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 3,
+        "line": 6,
+        "lines": 12,
+        "name": "run",
+        "path": "tools/phase10c15-v1/launch15.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 6,
+        "lines": 12,
+        "name": "run",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/launch15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 6,
+        "line": 13,
+        "lines": 12,
+        "name": "predict",
+        "path": "tools/phase5b-v1/baseline.py"
+      },
+      {
+        "decision_proxy": 6,
+        "line": 13,
+        "lines": 12,
+        "name": "predict",
+        "path": "tools/phase5c-v1/baseline.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 3,
+        "line": 6,
+        "lines": 8,
+        "name": "signature",
+        "path": "tools/phase6d-v1/screen.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 4,
+        "lines": 8,
+        "name": "signature",
+        "path": "tools/phase7-images-v1/signatures.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 4,
+        "lines": 8,
+        "name": "signature",
+        "path": "tools/phase8c-v1/signatures.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 3,
+        "line": 57,
+        "lines": 11,
+        "name": "evidence_choices",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/review_server.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 34,
+        "lines": 11,
+        "name": "evidence_choices",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/repair-20261104-v1/original-review_server.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 16,
+        "line": 59,
+        "lines": 10,
+        "name": "probe",
+        "path": "tools/phase10c10-v1/future_worker10.py"
+      },
+      {
+        "decision_proxy": 16,
+        "line": 62,
+        "lines": 10,
+        "name": "probe",
+        "path": "tools/phase10c11-v1/worker11.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 13,
+        "line": 34,
+        "lines": 10,
+        "name": "inputs15",
+        "path": "tools/phase10c15-v1/common15.py"
+      },
+      {
+        "decision_proxy": 13,
+        "line": 34,
+        "lines": 10,
+        "name": "inputs15",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/common15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 8,
+        "line": 20,
+        "lines": 10,
+        "name": "retry_not_before",
+        "path": "tools/phase7-rights-v1/transport.py"
+      },
+      {
+        "decision_proxy": 8,
+        "line": 20,
+        "lines": 10,
+        "name": "retry_not_before",
+        "path": "tools/phase8b-v1/transport.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 11,
+        "line": 41,
+        "lines": 10,
+        "name": "__init__",
+        "path": "tools/phase7-rights-v1/transport.py"
+      },
+      {
+        "decision_proxy": 11,
+        "line": 41,
+        "lines": 10,
+        "name": "__init__",
+        "path": "tools/phase8b-v1/transport.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 4,
+        "line": 27,
+        "lines": 6,
+        "name": "monitor",
+        "path": "tools/phase10c10-v1/future_worker10.py"
+      },
+      {
+        "decision_proxy": 4,
+        "line": 30,
+        "lines": 6,
+        "name": "monitor",
+        "path": "tools/phase10c11-v1/worker11.py"
+      },
+      {
+        "decision_proxy": 4,
+        "line": 33,
+        "lines": 6,
+        "name": "monitor",
+        "path": "tools/phase10c12-v1/future_worker12.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 10,
+        "line": 34,
+        "lines": 6,
+        "name": "guard",
+        "path": "tools/phase10c10-v1/future_worker10.py"
+      },
+      {
+        "decision_proxy": 10,
+        "line": 37,
+        "lines": 6,
+        "name": "guard",
+        "path": "tools/phase10c11-v1/worker11.py"
+      },
+      {
+        "decision_proxy": 10,
+        "line": 40,
+        "lines": 6,
+        "name": "guard",
+        "path": "tools/phase10c12-v1/future_worker12.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 5,
+        "line": 20,
+        "lines": 9,
+        "name": "atomic_bytes",
+        "path": "tools/phase10c15-v1/common15.py"
+      },
+      {
+        "decision_proxy": 5,
+        "line": 20,
+        "lines": 9,
+        "name": "atomic_bytes",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/common15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 40,
+        "lines": 9,
+        "name": "test_429_durably_blocks_not_yet_attempted_candidates",
+        "path": "tools/phase7-rights-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 40,
+        "lines": 9,
+        "name": "test_429_durably_blocks_not_yet_attempted_candidates",
+        "path": "tools/phase8b-v1/test_safety.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 5,
+        "line": 102,
+        "lines": 9,
+        "name": "decoded",
+        "path": "tools/phase7-rights-v1/transport.py"
+      },
+      {
+        "decision_proxy": 5,
+        "line": 106,
+        "lines": 9,
+        "name": "decoded",
+        "path": "tools/phase8b-v1/transport.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 6,
+        "line": 118,
+        "lines": 9,
+        "name": "checked_path",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/review_server.py"
+      },
+      {
+        "decision_proxy": 6,
+        "line": 95,
+        "lines": 9,
+        "name": "checked_path",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/repair-20261104-v1/original-review_server.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 7,
+        "line": 128,
+        "lines": 9,
+        "name": "validate_event",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/review_server.py"
+      },
+      {
+        "decision_proxy": 7,
+        "line": 105,
+        "lines": 9,
+        "name": "validate_event",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/repair-20261104-v1/original-review_server.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 3,
+        "line": 213,
+        "lines": 9,
+        "name": "send",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/review_server.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 185,
+        "lines": 9,
+        "name": "send",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/repair-20261104-v1/original-review_server.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 18,
+        "lines": 9,
+        "name": "save",
+        "path": "tools/phase10b-v1/p10.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 22,
+        "lines": 8,
+        "name": "save",
+        "path": "tools/phase10c-v1/c10.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 4,
+        "line": 87,
+        "lines": 8,
+        "name": "snapshot",
+        "path": "tools/phase10c10-v1/future_worker10.py"
+      },
+      {
+        "decision_proxy": 4,
+        "line": 90,
+        "lines": 8,
+        "name": "snapshot",
+        "path": "tools/phase10c11-v1/worker11.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 7,
+        "lines": 8,
+        "name": "state_fingerprint",
+        "path": "tools/phase10c15-v1/gpu15.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 7,
+        "lines": 8,
+        "name": "state_fingerprint",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/gpu15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 5,
+        "line": 39,
+        "lines": 8,
+        "name": "monitor",
+        "path": "tools/phase10c18-v1/worker18.py"
+      },
+      {
+        "decision_proxy": 5,
+        "line": 44,
+        "lines": 8,
+        "name": "monitor",
+        "path": "tools/phase10c20-v1/worker20.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 7,
+        "line": 76,
+        "lines": 8,
+        "name": "image_path",
+        "path": "tools/phase5b-v1/common.py"
+      },
+      {
+        "decision_proxy": 7,
+        "line": 76,
+        "lines": 8,
+        "name": "image_path",
+        "path": "tools/phase5c-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 10,
+        "lines": 5,
+        "name": "test_pinned_size_version_and_jpeg",
+        "path": "tools/phase6d-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 10,
+        "lines": 5,
+        "name": "test_pinned_size_version_and_jpeg",
+        "path": "tools/phase7-images-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 10,
+        "lines": 5,
+        "name": "test_pinned_size_version_and_jpeg",
+        "path": "tools/phase8c-v1/test_safety.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 19,
+        "lines": 5,
+        "name": "test_exclusive_publish_preserves_old_file",
+        "path": "tools/phase6d-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 19,
+        "lines": 5,
+        "name": "test_exclusive_publish_preserves_old_file",
+        "path": "tools/phase7-images-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 19,
+        "lines": 5,
+        "name": "test_exclusive_publish_preserves_old_file",
+        "path": "tools/phase8c-v1/test_safety.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 43,
+        "lines": 7,
+        "name": "click",
+        "path": "scripts/verify_replacement_integrity.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 58,
+        "lines": 7,
+        "name": "click_rep",
+        "path": "scripts/verify_replacements.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 7,
+        "line": 86,
+        "lines": 7,
+        "name": "load_delta",
+        "path": "tools/phase5b-v1/adaptation.py"
+      },
+      {
+        "decision_proxy": 7,
+        "line": 74,
+        "lines": 7,
+        "name": "load_delta",
+        "path": "tools/phase5c-v1/adaptation.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 4,
+        "line": 27,
+        "lines": 7,
+        "name": "verify_sums",
+        "path": "tools/phase5b-v1/common.py"
+      },
+      {
+        "decision_proxy": 4,
+        "line": 27,
+        "lines": 7,
+        "name": "verify_sums",
+        "path": "tools/phase5c-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 8,
+        "line": 14,
+        "lines": 7,
+        "name": "nms",
+        "path": "tools/phase5b-v1/metrics.py"
+      },
+      {
+        "decision_proxy": 8,
+        "line": 14,
+        "lines": 7,
+        "name": "nms",
+        "path": "tools/phase5c-v1/metrics.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 4,
+        "line": 13,
+        "lines": 7,
+        "name": "sums",
+        "path": "tools/phase6a-acquisition-v1/verify.py"
+      },
+      {
+        "decision_proxy": 4,
+        "line": 10,
+        "lines": 7,
+        "name": "sums",
+        "path": "tools/phase6c-v1/verify.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 24,
+        "lines": 7,
+        "name": "test_completed_body_decodes_without_network",
+        "path": "tools/phase6d-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 24,
+        "lines": 7,
+        "name": "test_completed_body_decodes_without_network",
+        "path": "tools/phase7-images-v1/test_safety.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 9,
+        "line": 8,
+        "lines": 7,
+        "name": "category_counts",
+        "path": "tools/phase7-rights-v1/finalize.py"
+      },
+      {
+        "decision_proxy": 9,
+        "line": 8,
+        "lines": 7,
+        "name": "category_counts",
+        "path": "tools/phase8b-v1/finalize.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 4,
+        "line": 156,
+        "lines": 7,
+        "name": "data",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/review_server.py"
+      },
+      {
+        "decision_proxy": 4,
+        "line": 134,
+        "lines": 7,
+        "name": "data",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/repair-20261104-v1/original-review_server.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 3,
+        "line": 66,
+        "lines": 7,
+        "name": "monitor",
+        "path": "tools/phase10e4-v1/worker4.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 44,
+        "lines": 6,
+        "name": "monitor",
+        "path": "tools/phase10e5-v1/worker5.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 51,
+        "lines": 4,
+        "name": "current",
+        "path": "scripts/verify_replacement_integrity.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 45,
+        "lines": 4,
+        "name": "proposal",
+        "path": "scripts/verify_replacements.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 54,
+        "lines": 4,
+        "name": "prop",
+        "path": "scripts/verify_unified_workflow.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 4,
+        "line": 42,
+        "lines": 6,
+        "name": "monitor",
+        "path": "tools/phase10c15-v1/gpu15.py"
+      },
+      {
+        "decision_proxy": 4,
+        "line": 42,
+        "lines": 6,
+        "name": "monitor",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/gpu15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 61,
+        "lines": 6,
+        "name": "test_atomic_records_cannot_overwrite",
+        "path": "tools/phase10c15-v1/test_smoke15.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 61,
+        "lines": 6,
+        "name": "test_atomic_records_cannot_overwrite",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/test_smoke15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 4,
+        "line": 18,
+        "lines": 6,
+        "name": "reply",
+        "path": "tools/phase10c5-v1/g5_server.py"
+      },
+      {
+        "decision_proxy": 4,
+        "line": 18,
+        "lines": 6,
+        "name": "reply",
+        "path": "tools/phase10c5-v2/server2.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 8,
+        "line": 44,
+        "lines": 6,
+        "name": "ap101",
+        "path": "tools/phase5b-v1/metrics.py"
+      },
+      {
+        "decision_proxy": 8,
+        "line": 44,
+        "lines": 6,
+        "name": "ap101",
+        "path": "tools/phase5c-v1/metrics.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 9,
+        "line": 11,
+        "lines": 4,
+        "name": "validate_headers",
+        "path": "tools/phase6d-v1/acquire.py"
+      },
+      {
+        "decision_proxy": 9,
+        "line": 11,
+        "lines": 4,
+        "name": "validate_headers",
+        "path": "tools/phase7-images-v1/acquire.py"
+      },
+      {
+        "decision_proxy": 9,
+        "line": 11,
+        "lines": 4,
+        "name": "validate_headers",
+        "path": "tools/phase8c-v1/acquire.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 20,
+        "lines": 6,
+        "name": "inspect_download",
+        "path": "tools/phase6d-v1/acquire.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 20,
+        "lines": 6,
+        "name": "inspect_download",
+        "path": "tools/phase7-images-v1/acquire.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 9,
+        "line": 15,
+        "lines": 4,
+        "name": "duplicate",
+        "path": "tools/phase6d-v1/screen.py"
+      },
+      {
+        "decision_proxy": 9,
+        "line": 13,
+        "lines": 4,
+        "name": "duplicate",
+        "path": "tools/phase7-images-v1/signatures.py"
+      },
+      {
+        "decision_proxy": 9,
+        "line": 13,
+        "lines": 4,
+        "name": "duplicate",
+        "path": "tools/phase8c-v1/signatures.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 15,
+        "lines": 4,
+        "name": "test_range_resume_requires_exact_tail",
+        "path": "tools/phase6d-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 15,
+        "lines": 4,
+        "name": "test_range_resume_requires_exact_tail",
+        "path": "tools/phase7-images-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 15,
+        "lines": 4,
+        "name": "test_range_resume_requires_exact_tail",
+        "path": "tools/phase8c-v1/test_safety.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 9,
+        "lines": 6,
+        "name": "base_record",
+        "path": "tools/phase7-rights-v1/run.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 9,
+        "lines": 6,
+        "name": "base_record",
+        "path": "tools/phase8b-v1/run.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 13,
+        "lines": 6,
+        "name": "classify",
+        "path": "tools/phase7-rights-v1/source_evidence.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 13,
+        "lines": 6,
+        "name": "classify",
+        "path": "tools/phase8b-v1/source_evidence.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 9,
+        "lines": 4,
+        "name": "find",
+        "path": "tools/phase7-rights-v1/test_identity.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 11,
+        "lines": 4,
+        "name": "find",
+        "path": "tools/phase8b-v1/test_identity.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 100,
+        "lines": 4,
+        "name": "find",
+        "path": "tools/weak-training-v1/pipeline.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 29,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase6a-v1/core.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 17,
+        "lines": 6,
+        "name": "sha",
+        "path": "tools/phase7-v1/contracts.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 513,
+        "lines": 5,
+        "name": "__init__",
+        "path": "src/room_viewer/furniture_budget.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 223,
+        "lines": 5,
+        "name": "__init__",
+        "path": "src/room_viewer/replacements.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 19,
+        "lines": 5,
+        "name": "csv_file",
+        "path": "scripts/audit_product_quality.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 23,
+        "lines": 5,
+        "name": "csv_file",
+        "path": "scripts/evaluate_quality_retrieval.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 62,
+        "lines": 5,
+        "name": "count_forward",
+        "path": "tools/phase10c15-v1/gpu15.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 62,
+        "lines": 5,
+        "name": "count_forward",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/gpu15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 6,
+        "line": 34,
+        "lines": 5,
+        "name": "gradients",
+        "path": "tools/phase10c15-v1/loss15.py"
+      },
+      {
+        "decision_proxy": 6,
+        "line": 32,
+        "lines": 5,
+        "name": "gradients",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/loss15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 11,
+        "lines": 5,
+        "name": "fixture",
+        "path": "tools/phase10c15-v1/test_smoke15.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 11,
+        "lines": 5,
+        "name": "fixture",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/test_smoke15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 51,
+        "lines": 5,
+        "name": "test_BCE_numerically_stable_on_extreme_logits",
+        "path": "tools/phase10c15-v1/test_smoke15.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 51,
+        "lines": 5,
+        "name": "test_BCE_numerically_stable_on_extreme_logits",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/test_smoke15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 10,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase10e10-v1/common10.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 14,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase10e11-v1/common11.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 3,
+        "line": 79,
+        "lines": 5,
+        "name": "trainable_hash",
+        "path": "tools/phase5b-v1/adaptation.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 67,
+        "lines": 5,
+        "name": "trainable_hash",
+        "path": "tools/phase5c-v1/adaptation.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 20,
+        "lines": 5,
+        "name": "commit_json",
+        "path": "tools/phase5b-v1/checkpoints.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 20,
+        "lines": 5,
+        "name": "commit_json",
+        "path": "tools/phase5c-v1/checkpoints.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 13,
+        "lines": 5,
+        "name": "__enter__",
+        "path": "tools/phase5b-v1/checkpoints.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 13,
+        "lines": 5,
+        "name": "__enter__",
+        "path": "tools/phase5c-v1/checkpoints.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 17,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase5b-v1/common.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 17,
+        "lines": 5,
+        "name": "sha",
+        "path": "tools/phase5c-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 5,
+        "line": 70,
+        "lines": 5,
+        "name": "load_rows",
+        "path": "tools/phase5b-v1/common.py"
+      },
+      {
+        "decision_proxy": 5,
+        "line": 70,
+        "lines": 5,
+        "name": "load_rows",
+        "path": "tools/phase5c-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 9,
+        "line": 20,
+        "lines": 5,
+        "name": "validate_headers",
+        "path": "tools/phase6b-v1/acquire.py"
+      },
+      {
+        "decision_proxy": 9,
+        "line": 20,
+        "lines": 5,
+        "name": "validate_headers",
+        "path": "data/coco/metadata/phase6b-v1/executed-acquisition-code-v1/acquire.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 8,
+        "line": 56,
+        "lines": 5,
+        "name": "approved",
+        "path": "tools/phase6b-v1/common.py"
+      },
+      {
+        "decision_proxy": 8,
+        "line": 43,
+        "lines": 5,
+        "name": "approved",
+        "path": "data/coco/metadata/phase6b-v1/executed-acquisition-code-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 32,
+        "lines": 5,
+        "name": "commit",
+        "path": "tools/phase6c-v1/common.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 26,
+        "lines": 5,
+        "name": "commit",
+        "path": "tools/phase6d-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 27,
+        "lines": 5,
+        "name": "commit",
+        "path": "tools/phase7-images-v1/pilot_core.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 27,
+        "lines": 5,
+        "name": "commit",
+        "path": "tools/phase8c-v1/pilot_core.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 3,
+        "line": 16,
+        "lines": 5,
+        "name": "fixtures",
+        "path": "tools/phase7-rights-v1/test_identity.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 18,
+        "lines": 5,
+        "name": "fixtures",
+        "path": "tools/phase8b-v1/test_identity.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 4,
+        "line": 21,
+        "lines": 5,
+        "name": "fixture",
+        "path": "tools/phase7-rights-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 4,
+        "line": 21,
+        "lines": 5,
+        "name": "fixture",
+        "path": "tools/phase8b-v1/test_safety.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 50,
+        "lines": 5,
+        "name": "load_evaluator",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/review_server.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 27,
+        "lines": 5,
+        "name": "load_evaluator",
+        "path": "data/abo/evaluation/phase2b-v1/evidence-completion-v1/repair-20261104-v1/original-review_server.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 15,
+        "lines": 5,
+        "name": "find",
+        "path": "tools/phase10a-v1/policy.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 8,
+        "lines": 4,
+        "name": "find",
+        "path": "tools/phase6c-v1/integrity.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 15,
+        "lines": 4,
+        "name": "count",
+        "path": "scripts/report_furniture_budget.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 14,
+        "lines": 4,
+        "name": "count",
+        "path": "scripts/report_unified_experience.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 25,
+        "lines": 4,
+        "name": "test_unknown_high_score_query_stays_ignored",
+        "path": "tools/phase10c15-v1/test_smoke15.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 25,
+        "lines": 4,
+        "name": "test_unknown_high_score_query_stays_ignored",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/test_smoke15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 47,
+        "lines": 4,
+        "name": "test_nonfinite_loss_input_rejected",
+        "path": "tools/phase10c15-v1/test_smoke15.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 47,
+        "lines": 4,
+        "name": "test_nonfinite_loss_input_rejected",
+        "path": "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/test_smoke15.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 15,
+        "lines": 4,
+        "name": "exported",
+        "path": "tools/phase10c5-v1/g5_browser_test.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 15,
+        "lines": 4,
+        "name": "exported",
+        "path": "tools/phase10c5-v2/browser_test.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 39,
+        "lines": 4,
+        "name": "pair_iou",
+        "path": "tools/phase5b-v1/adaptation.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 27,
+        "lines": 4,
+        "name": "pair_iou",
+        "path": "tools/phase5c-v1/adaptation.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 35,
+        "lines": 4,
+        "name": "verify_acquisition",
+        "path": "tools/phase5b-v1/common.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 35,
+        "lines": 4,
+        "name": "verify_acquisition",
+        "path": "tools/phase5c-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 3,
+        "line": 15,
+        "lines": 4,
+        "name": "opener",
+        "path": "tools/phase6b-v1/acquire.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 15,
+        "lines": 4,
+        "name": "opener",
+        "path": "data/coco/metadata/phase6b-v1/executed-acquisition-code-v1/acquire.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 52,
+        "lines": 4,
+        "name": "space",
+        "path": "tools/phase6b-v1/common.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 39,
+        "lines": 4,
+        "name": "space",
+        "path": "data/coco/metadata/phase6b-v1/executed-acquisition-code-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 37,
+        "lines": 4,
+        "name": "atomic",
+        "path": "tools/phase6c-v1/common.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 31,
+        "lines": 4,
+        "name": "atomic",
+        "path": "tools/phase6d-v1/common.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 1,
+        "line": 32,
+        "lines": 4,
+        "name": "atomic",
+        "path": "tools/phase7-images-v1/pilot_core.py"
+      },
+      {
+        "decision_proxy": 1,
+        "line": 32,
+        "lines": 4,
+        "name": "atomic",
+        "path": "tools/phase8c-v1/pilot_core.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 21,
+        "lines": 4,
+        "name": "test_cross_partition_creator_group_quarantined_not_reassigned",
+        "path": "tools/phase7-rights-v1/test_identity.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 23,
+        "lines": 4,
+        "name": "test_cross_partition_creator_group_quarantined_not_reassigned",
+        "path": "tools/phase8b-v1/test_identity.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 2,
+        "line": 53,
+        "lines": 4,
+        "name": "test_missing_creator_and_licence_never_verified",
+        "path": "tools/phase7-rights-v1/test_safety.py"
+      },
+      {
+        "decision_proxy": 2,
+        "line": 53,
+        "lines": 4,
+        "name": "test_missing_creator_and_licence_never_verified",
+        "path": "tools/phase8b-v1/test_safety.py"
+      }
+    ],
+    [
+      {
+        "decision_proxy": 3,
+        "line": 31,
+        "lines": 4,
+        "name": "allowed_request",
+        "path": "tools/phase7-rights-v1/transport.py"
+      },
+      {
+        "decision_proxy": 3,
+        "line": 31,
+        "lines": 4,
+        "name": "allowed_request",
+        "path": "tools/phase8b-v1/transport.py"
+      }
+    ]
+  ],
+  "historical_functions_not_rewritten": true,
+  "module_basename_collisions": {
+    "__init__": [
+      "src/furniture_bench/__init__.py",
+      "src/furniture_bench/detection/__init__.py",
+      "src/furniture_bench/embedding/__init__.py",
+      "src/furniture_bench/segmentation/__init__.py",
+      "src/inpainting_eval/__init__.py",
+      "src/photo_simulator/__init__.py",
+      "src/room_layout/__init__.py",
+      "src/room_multiview/__init__.py",
+      "src/room_reconstruction/__init__.py",
+      "src/room_viewer/__init__.py",
+      "tools/phase3-v1/checks/__init__.py"
+    ],
+    "__main__": [
+      "src/furniture_bench/__main__.py",
+      "src/inpainting_eval/__main__.py",
+      "src/room_layout/__main__.py",
+      "src/room_multiview/__main__.py",
+      "src/room_reconstruction/__main__.py"
+    ],
+    "acquire": [
+      "tools/phase3-v1/acquire.py",
+      "tools/phase5-metadata-v1/acquire.py",
+      "tools/phase6a-v1/acquire.py",
+      "tools/phase6b-v1/acquire.py",
+      "tools/phase6d-v1/acquire.py",
+      "tools/phase7-acquisition-v1/acquire.py",
+      "tools/phase7-images-v1/acquire.py",
+      "tools/phase8c-v1/acquire.py",
+      "data/coco/metadata/phase6b-v1/executed-acquisition-code-v1/acquire.py"
+    ],
+    "adaptation": [
+      "tools/phase5b-v1/adaptation.py",
+      "tools/phase5c-v1/adaptation.py"
+    ],
+    "analyze": [
+      "tools/phase10c-v1/analyze.py",
+      "tools/phase9-v1/analyze.py",
+      "data/open-images/preparation/phase10b-v1/execution-v1/analyze.py"
+    ],
+    "analyze7": [
+      "tools/phase10c7-v1/analyze7.py",
+      "tools/phase10e7-v1/analyze7.py"
+    ],
+    "audit": [
+      "tools/chair-fp-audit-v1/audit.py",
+      "tools/phase10a-v1/audit.py",
+      "tools/phase6b-v1/audit.py",
+      "tools/phase7-v1/audit.py"
+    ],
+    "audit_core": [
+      "tools/phase7-rights-v1/audit_core.py",
+      "tools/phase8b-v1/audit_core.py"
+    ],
+    "baseline": [
+      "tools/phase5b-v1/baseline.py",
+      "tools/phase5c-v1/baseline.py"
+    ],
+    "checkpoints": [
+      "tools/phase5b-v1/checkpoints.py",
+      "tools/phase5c-v1/checkpoints.py"
+    ],
+    "cli": [
+      "src/furniture_bench/cli.py",
+      "src/room_layout/cli.py",
+      "src/room_multiview/cli.py",
+      "src/room_reconstruction/cli.py"
+    ],
+    "closeout": [
+      "tools/phase10a-v1/closeout.py",
+      "tools/phase10b-v1/closeout.py",
+      "tools/phase8b-v1/closeout.py",
+      "tools/phase8c-v1/closeout.py",
+      "tools/phase9-v1/closeout.py"
+    ],
+    "common": [
+      "tools/phase10a-v1/common.py",
+      "tools/phase3-v1/common.py",
+      "tools/phase5b-v1/common.py",
+      "tools/phase5c-v1/common.py",
+      "tools/phase6b-v1/common.py",
+      "tools/phase6c-v1/common.py",
+      "tools/phase6d-v1/common.py",
+      "data/coco/metadata/phase6b-v1/executed-acquisition-code-v1/common.py"
+    ],
+    "common10": [
+      "tools/phase10c10-v1/common10.py",
+      "tools/phase10e10-v1/common10.py"
+    ],
+    "common11": [
+      "tools/phase10c11-v1/common11.py",
+      "tools/phase10e11-v1/common11.py"
+    ],
+    "common15": [
+      "tools/phase10c15-v1/common15.py",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/common15.py"
+    ],
+    "common7": [
+      "tools/phase10c7-v1/common7.py",
+      "tools/phase10e7-v1/common7.py"
+    ],
+    "common9": [
+      "tools/phase10c9-v1/common9.py",
+      "tools/phase10e9-v1/common9.py"
+    ],
+    "compare": [
+      "tools/phase3-gpu-v1/compare.py",
+      "tools/phase5c-v1/compare.py"
+    ],
+    "contacts": [
+      "tools/phase6a-acquisition-v1/contacts.py",
+      "tools/phase6d-v1/contacts.py",
+      "tools/phase7-images-v1/contacts.py",
+      "tools/phase8c-v1/contacts.py"
+    ],
+    "core": [
+      "tools/phase10c4-v1/core.py",
+      "tools/phase6a-v1/core.py",
+      "tools/phase7-acquisition-v1/core.py",
+      "tools/phase9-v1/core.py"
+    ],
+    "corrections": [
+      "src/furniture_bench/corrections.py",
+      "src/room_layout/corrections.py"
+    ],
+    "data": [
+      "src/furniture_bench/data.py",
+      "tools/phase9-v1/data.py"
+    ],
+    "dry_run": [
+      "tools/phase10b-v1/dry_run.py",
+      "tools/phase6a-v1/dry_run.py"
+    ],
+    "evaluate": [
+      "src/inpainting_eval/evaluate.py",
+      "data/abo/evaluation/phase2b-v1/evaluate.py"
+    ],
+    "evaluation": [
+      "src/furniture_bench/evaluation.py",
+      "src/room_layout/evaluation.py",
+      "src/room_multiview/evaluation.py",
+      "tools/phase10a-v1/evaluation.py"
+    ],
+    "extract": [
+      "tools/phase6b-v1/extract.py",
+      "data/coco/metadata/phase6b-v1/executed-acquisition-code-v1/extract.py"
+    ],
+    "finalize": [
+      "tools/phase5-images-v1/finalize.py",
+      "tools/phase6a-v1/finalize.py",
+      "tools/phase6c-v1/finalize.py",
+      "tools/phase7-rights-v1/finalize.py",
+      "tools/phase8b-v1/finalize.py"
+    ],
+    "gallery": [
+      "tools/phase8c-v1/gallery.py",
+      "tools/phase9-v1/gallery.py"
+    ],
+    "geometry": [
+      "src/furniture_bench/geometry.py",
+      "src/room_layout/geometry.py",
+      "src/room_multiview/geometry.py"
+    ],
+    "gpu15": [
+      "tools/phase10c15-v1/gpu15.py",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/gpu15.py"
+    ],
+    "inventory": [
+      "src/room_viewer/inventory.py",
+      "tools/phase10a-v1/inventory.py",
+      "tools/phase7-v1/inventory.py"
+    ],
+    "launch15": [
+      "tools/phase10c15-v1/launch15.py",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/launch15.py"
+    ],
+    "launch7": [
+      "tools/phase10c7-v1/launch7.py",
+      "tools/phase10e7-v1/launch7.py"
+    ],
+    "loss15": [
+      "tools/phase10c15-v1/loss15.py",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/loss15.py"
+    ],
+    "metrics": [
+      "tools/phase5b-v1/metrics.py",
+      "tools/phase5c-v1/metrics.py",
+      "tools/phase9-v1/metrics.py"
+    ],
+    "network": [
+      "tools/phase5-images-v1/network.py",
+      "tools/phase6a-v1/network.py",
+      "tools/phase6c-v1/network.py"
+    ],
+    "pilot_core": [
+      "tools/phase7-images-v1/pilot_core.py",
+      "tools/phase8c-v1/pilot_core.py"
+    ],
+    "pipeline": [
+      "src/furniture_bench/pipeline.py",
+      "src/room_layout/pipeline.py",
+      "src/room_multiview/pipeline.py",
+      "tools/weak-training-v1/pipeline.py"
+    ],
+    "preflight": [
+      "tools/phase10c3-v1/preflight.py",
+      "tools/phase6d-v1/preflight.py",
+      "tools/phase7-acquisition-v1/preflight.py",
+      "tools/phase7-images-v1/preflight.py",
+      "tools/phase7-rights-v1/preflight.py",
+      "tools/phase8b-v1/preflight.py",
+      "tools/phase8c-v1/preflight.py",
+      "tools/phase9-v1/preflight.py"
+    ],
+    "prepare": [
+      "tools/phase10c2-v1/prepare.py",
+      "tools/phase10c4-v1/prepare.py",
+      "tools/phase3-v1/prepare.py",
+      "tools/phase5c-v1/prepare.py",
+      "tools/phase6a-v1/prepare.py",
+      "data/abo/training-prep/phase1d-v1/prepare.py"
+    ],
+    "prepare15": [
+      "tools/phase10c15-v1/prepare15.py",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/prepare15.py"
+    ],
+    "prepare8": [
+      "tools/phase10c8-v1/prepare8.py",
+      "tools/phase10e8-v1/prepare8.py"
+    ],
+    "prepare_pilot": [
+      "tools/phase5-metadata-v1/prepare_pilot.py",
+      "data/abo/image-pilots/phase1b-v1/prepare_pilot.py"
+    ],
+    "prepare_review": [
+      "tools/phase10b-v1/prepare_review.py",
+      "data/abo/evaluation/phase2b-v1/prepare_review.py"
+    ],
+    "readiness": [
+      "tools/phase6d-v1/readiness.py",
+      "tools/phase7-images-v1/readiness.py",
+      "tools/phase8c-v1/readiness.py",
+      "data/abo/training-prep/phase1d-v1/readiness.py"
+    ],
+    "recovery": [
+      "src/room_multiview/recovery.py",
+      "tools/phase10a-v1/recovery.py"
+    ],
+    "refine": [
+      "tools/phase6a-acquisition-v1/refine.py",
+      "tools/phase6d-v1/refine.py",
+      "tools/phase7-images-v1/refine.py",
+      "tools/phase8c-v1/refine.py"
+    ],
+    "registration": [
+      "tools/phase7-images-v1/registration.py",
+      "tools/phase7-rights-v1/registration.py",
+      "tools/phase8a-v1/registration.py"
+    ],
+    "report": [
+      "tools/phase3-gpu-v1/report.py",
+      "tools/phase5c-v1/report.py",
+      "tools/phase6a-acquisition-v1/report.py",
+      "tools/phase6a-v1/report.py",
+      "tools/phase6b-v1/report.py",
+      "tools/phase6c-v1/report.py",
+      "tools/phase6d-v1/report.py",
+      "tools/phase7-acquisition-v1/report.py",
+      "tools/phase7-images-v1/report.py",
+      "tools/phase7-rights-v1/report.py",
+      "tools/phase8a-v1/report.py",
+      "tools/phase8b-v1/report.py",
+      "tools/phase8c-v1/report.py",
+      "tools/phase9-v1/report.py",
+      "tools/weak-training-v1/report.py"
+    ],
+    "review_server": [
+      "tools/phase10b-v1/review_server.py",
+      "data/abo/evaluation/phase2b-v1/evidence-completion-v1/review_server.py"
+    ],
+    "rights": [
+      "tools/phase10a-v1/rights.py",
+      "tools/phase6a-v1/rights.py"
+    ],
+    "run": [
+      "tools/phase6c-v1/run.py",
+      "tools/phase7-rights-v1/run.py",
+      "tools/phase8b-v1/run.py"
+    ],
+    "run_queue": [
+      "tools/phase5b-v1/run_queue.py",
+      "tools/weak-training-v1/run_queue.py"
+    ],
+    "run_tests": [
+      "tools/phase7-images-v1/run_tests.py",
+      "tools/phase7-rights-v1/run_tests.py",
+      "tools/phase7-v1/run_tests.py",
+      "tools/phase8a-v1/run_tests.py",
+      "tools/phase8b-v1/run_tests.py",
+      "tools/phase8c-v1/run_tests.py"
+    ],
+    "screen": [
+      "tools/phase3-acquisition-v1/screen.py",
+      "tools/phase5-images-v1/screen.py",
+      "tools/phase6a-v1/screen.py",
+      "tools/phase6d-v1/screen.py",
+      "tools/phase7-images-v1/screen.py",
+      "tools/phase8c-v1/screen.py"
+    ],
+    "server": [
+      "src/photo_simulator/server.py",
+      "src/room_viewer/server.py",
+      "tools/phase10c4-v1/server.py"
+    ],
+    "signatures": [
+      "tools/phase7-images-v1/signatures.py",
+      "tools/phase8c-v1/signatures.py"
+    ],
+    "source_evidence": [
+      "tools/phase7-rights-v1/source_evidence.py",
+      "tools/phase8b-v1/source_evidence.py"
+    ],
+    "test_acquisition": [
+      "tools/phase3-acquisition-v1/test_acquisition.py",
+      "tools/phase6a-acquisition-v1/test_acquisition.py",
+      "tools/phase7-acquisition-v1/test_acquisition.py"
+    ],
+    "test_audit": [
+      "tools/chair-fp-audit-v1/test_audit.py",
+      "tools/phase6b-v1/test_audit.py",
+      "tools/phase7-acquisition-v1/test_audit.py"
+    ],
+    "test_evaluation": [
+      "tests_inpainting_eval/test_evaluation.py",
+      "data/abo/evaluation/phase2b-v1/test_evaluation.py"
+    ],
+    "test_identity": [
+      "tools/phase7-rights-v1/test_identity.py",
+      "tools/phase8b-v1/test_identity.py"
+    ],
+    "test_preflight": [
+      "tools/phase10a-v1/test_preflight.py",
+      "tools/phase10c3-v1/test_preflight.py"
+    ],
+    "test_preparation": [
+      "tools/phase8a-v1/test_preparation.py",
+      "data/abo/training-prep/phase1d-v1/test_preparation.py"
+    ],
+    "test_safety": [
+      "tools/phase6b-v1/test_safety.py",
+      "tools/phase6d-v1/test_safety.py",
+      "tools/phase7-images-v1/test_safety.py",
+      "tools/phase7-rights-v1/test_safety.py",
+      "tools/phase8b-v1/test_safety.py",
+      "tools/phase8c-v1/test_safety.py"
+    ],
+    "test_screening": [
+      "tools/phase6d-v1/test_screening.py",
+      "tools/phase7-images-v1/test_screening.py",
+      "tools/phase8c-v1/test_screening.py"
+    ],
+    "test_smoke15": [
+      "tools/phase10c15-v1/test_smoke15.py",
+      "data/open-images/experiments/phase10c15-source-negative-gradient-smoke-v1/executed-source-v1/test_smoke15.py"
+    ],
+    "train": [
+      "tools/phase3-gpu-v1/train.py",
+      "tools/phase5b-v1/train.py"
+    ],
+    "transport": [
+      "tools/phase7-rights-v1/transport.py",
+      "tools/phase8b-v1/transport.py"
+    ],
+    "verify": [
+      "tools/phase10c-v1/verify.py",
+      "tools/phase5-images-v1/verify.py",
+      "tools/phase5b-v1/verify.py",
+      "tools/phase6a-acquisition-v1/verify.py",
+      "tools/phase6a-v1/verify.py",
+      "tools/phase6b-v1/verify.py",
+      "tools/phase6c-v1/verify.py",
+      "tools/phase6d-v1/verify.py",
+      "tools/phase7-acquisition-v1/verify.py",
+      "tools/phase7-images-v1/verify.py",
+      "tools/phase7-rights-v1/verify.py",
+      "tools/phase8a-v1/verify.py",
+      "tools/phase8b-v1/verify.py",
+      "tools/phase8c-v1/verify.py",
+      "tools/phase9-v1/verify.py"
+    ],
+    "verify10": [
+      "tools/phase10c10-v1/verify10.py",
+      "tools/phase10e10-v1/verify10.py"
+    ],
+    "verify2": [
+      "tools/phase10c5-v2/verify2.py",
+      "tools/phase10e2-v1/verify2.py"
+    ],
+    "verify7": [
+      "tools/phase10c7-v1/verify7.py",
+      "tools/phase10e7-v1/verify7.py"
+    ],
+    "verify8": [
+      "tools/phase10c8-v1/verify8.py",
+      "tools/phase10e8-v1/verify8.py"
+    ],
+    "verify9": [
+      "tools/phase10c9-v1/verify9.py",
+      "tools/phase10e9-v1/verify9.py"
+    ],
+    "visualization": [
+      "src/furniture_bench/visualization.py",
+      "src/room_layout/visualization.py",
+      "src/room_multiview/visualization.py"
+    ],
+    "visualize": [
+      "scripts/visualize.py",
+      "tools/chair-fp-audit-v1/visualize.py"
+    ],
+    "worker": [
+      "src/photo_simulator/worker.py",
+      "src/room_layout/worker.py",
+      "tools/phase10b-v1/worker.py",
+      "tools/phase5c-v1/worker.py"
+    ]
+  },
+  "scope": "Exact AST function-body plus argument matches, excluding docstrings; does not prove identical imported globals/configuration",
+  "sys_path_insert_calls": 252
+}

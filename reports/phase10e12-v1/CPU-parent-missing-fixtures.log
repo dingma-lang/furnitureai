@@ -1,0 +1,205 @@
+test_invalid_uploads (test_home_transfer.TransferTests.test_invalid_uploads) ... ERROR
+test_pdf_pages_locally_rendered (test_home_transfer.TransferTests.test_pdf_pages_locally_rendered) ... ERROR
+test_catalog_reported_fields_not_verified_or_length_invented_as_depth (test_owned_inventory.OwnedInventoryTests.test_catalog_reported_fields_not_verified_or_length_invented_as_depth) ... ERROR
+test_corrections_undo_and_persistence_do_not_change_predictions (test_photo_projects.PhotoProjectTests.test_corrections_undo_and_persistence_do_not_change_predictions) ... ERROR
+test_independent_stage_failure_and_cached_reuse (test_photo_projects.PhotoProjectTests.test_independent_stage_failure_and_cached_reuse) ... ERROR
+test_interrupted_session_requires_retry_and_duplicate_submit_runs_once (test_photo_projects.PhotoProjectTests.test_interrupted_session_requires_retry_and_duplicate_submit_runs_once) ... ERROR
+test_manual_observation_before_inference_survives_and_ai_rows_are_added (test_photo_projects.PhotoProjectTests.test_manual_observation_before_inference_survives_and_ai_rows_are_added) ... ERROR
+test_measurements_and_explicit_demo_association_never_calibrate_photo (test_photo_projects.PhotoProjectTests.test_measurements_and_explicit_demo_association_never_calibrate_photo) ... ERROR
+test_candidate_selection_uses_saved_production_results (test_replacements.ReplacementTests.test_candidate_selection_uses_saved_production_results) ... ERROR
+test_import_does_not_read_untrusted_external_asset_paths (test_room_viewer.RoomViewerTests.test_import_does_not_read_untrusted_external_asset_paths) ... ERROR
+test_partial_presets_never_enable_placement_even_with_flag (test_room_viewer.RoomViewerTests.test_partial_presets_never_enable_placement_even_with_flag) ... ERROR
+
+======================================================================
+ERROR: test_invalid_uploads (test_home_transfer.TransferTests.test_invalid_uploads)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_home_transfer.py", line 105, in test_invalid_uploads
+    self.store.upload(self.pid, raw, "bad", rights, page)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/home_transfer.py", line 719, in upload
+    from PyPDF2 import PdfReader
+ModuleNotFoundError: No module named 'PyPDF2'
+
+======================================================================
+ERROR: test_pdf_pages_locally_rendered (test_home_transfer.TransferTests.test_pdf_pages_locally_rendered)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_home_transfer.py", line 361, in test_pdf_pages_locally_rendered
+    from PyPDF2 import PdfWriter
+ModuleNotFoundError: No module named 'PyPDF2'
+
+======================================================================
+ERROR: test_catalog_reported_fields_not_verified_or_length_invented_as_depth (test_owned_inventory.OwnedInventoryTests.test_catalog_reported_fields_not_verified_or_length_invented_as_depth)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_owned_inventory.py", line 164, in test_catalog_reported_fields_not_verified_or_length_invented_as_depth
+    product = read_json(ROOT / "data/catalogs/abo-phase6d/catalog.json")["products"][0]
+              ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tristary/furniture-ai-ml/src/furniture_bench/data.py", line 16, in read_json
+    with Path(path).open(encoding="utf-8") as stream:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/data/catalogs/abo-phase6d/catalog.json'
+
+======================================================================
+ERROR: test_corrections_undo_and_persistence_do_not_change_predictions (test_photo_projects.PhotoProjectTests.test_corrections_undo_and_persistence_do_not_change_predictions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_photo_projects.py", line 98, in test_corrections_undo_and_persistence_do_not_change_predictions
+    project, _ = self.infer(photo)
+                 ~~~~~~~~~~^^^^^^^
+  File "/home/tristary/furniture-ai-ml/tests/test_photo_projects.py", line 48, in infer
+    jobs = PhotoJobs(self.store, self.fake_runner(calls, fail_seg))
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 44, in __init__
+    self.settings = configuration()
+                    ~~~~~~~~~~~~~^^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 30, in configuration
+    prompts = read_json(ROOT / "examples/furniture-prompts-v2.json")
+  File "/home/tristary/furniture-ai-ml/src/furniture_bench/data.py", line 16, in read_json
+    with Path(path).open(encoding="utf-8") as stream:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/examples/furniture-prompts-v2.json'
+
+======================================================================
+ERROR: test_independent_stage_failure_and_cached_reuse (test_photo_projects.PhotoProjectTests.test_independent_stage_failure_and_cached_reuse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_photo_projects.py", line 85, in test_independent_stage_failure_and_cached_reuse
+    project, calls = self.infer(photo_id, fail_seg=True)
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tristary/furniture-ai-ml/tests/test_photo_projects.py", line 48, in infer
+    jobs = PhotoJobs(self.store, self.fake_runner(calls, fail_seg))
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 44, in __init__
+    self.settings = configuration()
+                    ~~~~~~~~~~~~~^^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 30, in configuration
+    prompts = read_json(ROOT / "examples/furniture-prompts-v2.json")
+  File "/home/tristary/furniture-ai-ml/src/furniture_bench/data.py", line 16, in read_json
+    with Path(path).open(encoding="utf-8") as stream:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/examples/furniture-prompts-v2.json'
+
+======================================================================
+ERROR: test_interrupted_session_requires_retry_and_duplicate_submit_runs_once (test_photo_projects.PhotoProjectTests.test_interrupted_session_requires_retry_and_duplicate_submit_runs_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_photo_projects.py", line 182, in test_interrupted_session_requires_retry_and_duplicate_submit_runs_once
+    jobs = PhotoJobs(self.store, self.fake_runner(calls))
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 44, in __init__
+    self.settings = configuration()
+                    ~~~~~~~~~~~~~^^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 30, in configuration
+    prompts = read_json(ROOT / "examples/furniture-prompts-v2.json")
+  File "/home/tristary/furniture-ai-ml/src/furniture_bench/data.py", line 16, in read_json
+    with Path(path).open(encoding="utf-8") as stream:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/examples/furniture-prompts-v2.json'
+
+======================================================================
+ERROR: test_manual_observation_before_inference_survives_and_ai_rows_are_added (test_photo_projects.PhotoProjectTests.test_manual_observation_before_inference_survives_and_ai_rows_are_added)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_photo_projects.py", line 160, in test_manual_observation_before_inference_survives_and_ai_rows_are_added
+    project, _ = self.infer(photo)
+                 ~~~~~~~~~~^^^^^^^
+  File "/home/tristary/furniture-ai-ml/tests/test_photo_projects.py", line 48, in infer
+    jobs = PhotoJobs(self.store, self.fake_runner(calls, fail_seg))
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 44, in __init__
+    self.settings = configuration()
+                    ~~~~~~~~~~~~~^^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 30, in configuration
+    prompts = read_json(ROOT / "examples/furniture-prompts-v2.json")
+  File "/home/tristary/furniture-ai-ml/src/furniture_bench/data.py", line 16, in read_json
+    with Path(path).open(encoding="utf-8") as stream:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/examples/furniture-prompts-v2.json'
+
+======================================================================
+ERROR: test_measurements_and_explicit_demo_association_never_calibrate_photo (test_photo_projects.PhotoProjectTests.test_measurements_and_explicit_demo_association_never_calibrate_photo)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_photo_projects.py", line 115, in test_measurements_and_explicit_demo_association_never_calibrate_photo
+    self.infer(photo)
+    ~~~~~~~~~~^^^^^^^
+  File "/home/tristary/furniture-ai-ml/tests/test_photo_projects.py", line 48, in infer
+    jobs = PhotoJobs(self.store, self.fake_runner(calls, fail_seg))
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 44, in __init__
+    self.settings = configuration()
+                    ~~~~~~~~~~~~~^^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/photo_jobs.py", line 30, in configuration
+    prompts = read_json(ROOT / "examples/furniture-prompts-v2.json")
+  File "/home/tristary/furniture-ai-ml/src/furniture_bench/data.py", line 16, in read_json
+    with Path(path).open(encoding="utf-8") as stream:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/examples/furniture-prompts-v2.json'
+
+======================================================================
+ERROR: test_candidate_selection_uses_saved_production_results (test_replacements.ReplacementTests.test_candidate_selection_uses_saved_production_results)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_replacements.py", line 401, in test_candidate_selection_uses_saved_production_results
+    catalog = json.loads((ROOT / "data/catalogs/abo-phase6d/catalog.json").read_text())
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 788, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/data/catalogs/abo-phase6d/catalog.json'
+
+======================================================================
+ERROR: test_import_does_not_read_untrusted_external_asset_paths (test_room_viewer.RoomViewerTests.test_import_does_not_read_untrusted_external_asset_paths)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_room_viewer.py", line 66, in test_import_does_not_read_untrusted_external_asset_paths
+    scene = load_preset("single-photo")["scene"]
+            ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/service.py", line 173, in load_preset
+    scene = read_json(path)
+  File "/home/tristary/furniture-ai-ml/src/furniture_bench/data.py", line 16, in read_json
+    with Path(path).open(encoding="utf-8") as stream:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/reports/phase5-public-room/quick-room.json'
+
+======================================================================
+ERROR: test_partial_presets_never_enable_placement_even_with_flag (test_room_viewer.RoomViewerTests.test_partial_presets_never_enable_placement_even_with_flag)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_room_viewer.py", line 57, in test_partial_presets_never_enable_placement_even_with_flag
+    result = load_preset("single-photo")
+  File "/home/tristary/furniture-ai-ml/src/room_viewer/service.py", line 173, in load_preset
+    scene = read_json(path)
+  File "/home/tristary/furniture-ai-ml/src/furniture_bench/data.py", line 16, in read_json
+    with Path(path).open(encoding="utf-8") as stream:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/reports/phase5-public-room/quick-room.json'
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.083s
+
+FAILED (errors=11)

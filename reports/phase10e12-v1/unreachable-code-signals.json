@@ -1,0 +1,5 @@
+{
+  "automatic_deletions": 0,
+  "scope": "AST statement blocks only; excludes dynamic entry-point/import analysis",
+  "signals": []
+}

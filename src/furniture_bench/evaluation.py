@@ -14,7 +14,7 @@ from .data import (
     validate_prediction,
     write_json,
 )
-from .geometry import iou
+from .geometry import intersection_area, iou
 
 
 def in_ignored_region(prediction, regions):
@@ -22,9 +22,7 @@ def in_ignored_region(prediction, regions):
     area = (box[2] - box[0]) * (box[3] - box[1])
     for region in regions:
         other = region["box"]
-        intersection = max(0, min(box[2], other[2]) - max(box[0], other[0])) * max(
-            0, min(box[3], other[3]) - max(box[1], other[1])
-        )
+        intersection = intersection_area(box, other)
         if intersection / area >= 0.5:
             return True
     return False

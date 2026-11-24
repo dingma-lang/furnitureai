@@ -1,0 +1,25 @@
+{
+  "code": {
+    "src/furniture_bench/data.py": "19a6ae128381d08107f2cbcb8519b571067a019bd15f9679c108b3713a280bf9",
+    "src/furniture_bench/dataset_quality.py": "1a4f1de9a84666e782b773ea58fc85547a0a6e9e0118853a016458b8a6171ee2",
+    "src/furniture_bench/evaluation.py": "02dc8a0dc13cd9afa7235ab9d3a7bc675b25b07ae3ca489c529f1df16cb4885b",
+    "src/furniture_bench/geometry.py": "dbede50290530cdc0c7e50f8a76963f12bcdf9c003bf93e13805ebb94c7de77b",
+    "src/furniture_bench/postprocessing.py": "7a972c89099fc07ff8f802fdb461fdb17f1ffba8a5c787c630b787110b1aa4a6",
+    "tests/test_audit_regressions.py": "2fb52ba980fcf99f4909b9b3e132b095add51106f6b999ab40475302cdf5df3a",
+    "tools/phase10e12-v1/audit12.py": "8bc5d2040dcd18f76b53bd4cad3636d6376c6c66d309ed5d7cd44769123b13d2",
+    "tools/phase10e12-v1/check_legacy_failures12.py": "46515375610999f59935e90a75f6e98c768496ea93264c7110d71a787744096c",
+    "tools/phase10e12-v1/checks12.py": "4c576c7d3f20c56fe7e0f994b5b94665ce62dd682b44c73b4900ca55e7c63b18",
+    "tools/phase10e12-v1/measure12.py": "ec2ec93364ac64d58a18574a453484806ef93522979ae103081ed8e9e74eb167",
+    "tools/phase10e12-v1/verify12.py": "edec4837a234a29b18b966995d9f65b9f1bf9a2c9729234edd79a97c24c09129"
+  },
+  "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "model_or_dataset_changes": 0,
+  "original_commit": "5818ab333dfd239d581129e02af93238bc85e191",
+  "private_audit_indexes": {
+    "reports/phase10e12-v1/private/AST-after.json": "12420b673a43b1daac25316fa5584f76b1229624a18519f1914987cb96c85b4a",
+    "reports/phase10e12-v1/private/AST-before.json": "aecde74fb23a04933f62857a72527815049b18370eb1b175fff62838462f77d7",
+    "reports/phase10e12-v1/private/checkpoint-inventory.json": "37b987d814295da065fd4db6e906b5e8baa78848940775d0ea6d92c2a28ddb6c",
+    "reports/phase10e12-v1/private/protected-after.json": "9639a30f522bca5d315b62e1c99478c351a4bcebf2e6e8bd8ab47b0faadd942f",
+    "reports/phase10e12-v1/private/protected-before.json": "3786b64f00ebcc04daa3681b86ba130d7b1d8bab1317e6bd03ad5ed56c3f5930"
+  }
+}

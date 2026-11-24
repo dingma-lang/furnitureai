@@ -1,0 +1,145 @@
+{
+  "AST_syntax_errors": 0,
+  "CPU_microbenchmark": {
+    "actual_model_inference": false,
+    "alternating_order": true,
+    "benchmark": "scalar IoU kernel only",
+    "calls_per_round": 80000,
+    "identical_accumulated_float_hex": {
+      "after": "0x1.39f1856dd8a3ep+12",
+      "before": "0x1.39f1856dd8a3ep+12"
+    },
+    "limitation": "Single-process microbenchmark with warm data and shared VM; do not infer detector latency, memory savings, or application speedup.",
+    "median_seconds": {
+      "after": 0.019297271501272917,
+      "before": 0.018226026004413143
+    },
+    "ratio_after_to_before": 1.0587755935715437,
+    "rounds_per_version": 8,
+    "seconds": {
+      "after": [
+        0.019204036972951144,
+        0.021976553020067513,
+        0.018422228982672095,
+        0.01862900296691805,
+        0.01939050602959469,
+        0.019739766023121774,
+        0.021225988981314003,
+        0.01912953204009682
+      ],
+      "before": [
+        0.018324333999771625,
+        0.01812771800905466,
+        0.019148347026202828,
+        0.017410736996680498,
+        0.01865164696937427,
+        0.017468472011387348,
+        0.019299068953841925,
+        0.018088232958689332
+      ]
+    },
+    "threads_or_GPU_used": false
+  },
+  "GPU_forwards": 0,
+  "GPU_reproduction_not_executed": true,
+  "Mac_application_modified": false,
+  "baseline_Python_lines": 84333,
+  "behavioral_equivalence": {
+    "EXIF_and_mode_image_fixtures": 12,
+    "all_json_and_array_hashes_equal": true,
+    "geometry_float_hex_cases": 25000,
+    "intentional_difference": "Malformed room manifests cannot validate a different resolved_file than the file consumed; stale resolved_file values are ignored consistently. Valid-file outputs and numeric policy definitions unchanged.",
+    "official_holdout_scoring": false,
+    "saved_prediction_filter_cases": 9,
+    "saved_prediction_photographs": 3,
+    "status": "EXACT_MATCH",
+    "synthetic_matching_policies": 3
+  },
+  "branch": "experiment/phase10e12-codebase-audit",
+  "broader_errors_reproduced_using_parent_code": true,
+  "broader_suite_discovered": 379,
+  "broader_suite_errors": 11,
+  "broader_suite_passed": 336,
+  "broader_suite_skipped": 32,
+  "changed_application_modules": [
+    "src/furniture_bench/data.py",
+    "src/furniture_bench/dataset_quality.py",
+    "src/furniture_bench/evaluation.py",
+    "src/furniture_bench/geometry.py",
+    "src/furniture_bench/postprocessing.py"
+  ],
+  "dataset_or_checkpoint_changes": 0,
+  "downloads": 0,
+  "environment_changes": false,
+  "historical_experiment_code_changes": 0,
+  "historical_report_changes": 0,
+  "historical_seals_passed": true,
+  "latest_E11_seal_passed": true,
+  "main_unchanged": true,
+  "modules_audited_before": 845,
+  "new_regression_tests": 12,
+  "official_holdout_scoring": false,
+  "original_versions_retained_in_Git": true,
+  "parent_commit": "5818ab333dfd239d581129e02af93238bc85e191",
+  "preservation": {
+    "after_regular_files": 29082,
+    "before_regular_files": 29081,
+    "data_model_or_historical_report_changes": 0,
+    "historical_tool_or_script_changes": 0,
+    "intentional_source_changes": [
+      {
+        "after_sha256": "19a6ae128381d08107f2cbcb8519b571067a019bd15f9679c108b3713a280bf9",
+        "before_sha256": "6737a46f76315627bdfeb8c7bd6337563d4f0a0354d1ab048c783a948c5c1b2d",
+        "path": "src/furniture_bench/data.py"
+      },
+      {
+        "after_sha256": "1a4f1de9a84666e782b773ea58fc85547a0a6e9e0118853a016458b8a6171ee2",
+        "before_sha256": "ab793a2de26889cf0bc374182e129efc6bf5f534ba78124724862b3bbb20c8f1",
+        "path": "src/furniture_bench/dataset_quality.py"
+      },
+      {
+        "after_sha256": "02dc8a0dc13cd9afa7235ab9d3a7bc675b25b07ae3ca489c529f1df16cb4885b",
+        "before_sha256": "eadb9ba1d35086fdcbab4a0b91535bc71cf776adeb4aa697c71920114b4502ed",
+        "path": "src/furniture_bench/evaluation.py"
+      },
+      {
+        "after_sha256": "dbede50290530cdc0c7e50f8a76963f12bcdf9c003bf93e13805ebb94c7de77b",
+        "before_sha256": "c59ae1f72e221145555c8c5975555faa959a4e77aa00512a1bf5f3f8bb041cf1",
+        "path": "src/furniture_bench/geometry.py"
+      },
+      {
+        "after_sha256": "7a972c89099fc07ff8f802fdb461fdb17f1ffba8a5c787c630b787110b1aa4a6",
+        "before_sha256": "b1a74f4b8378819e8c8456ee0eaf7003f3d106615a703e5b3c63ac07aa76b5b6",
+        "path": "src/furniture_bench/postprocessing.py"
+      }
+    ],
+    "new_test_files": [
+      "tests/test_audit_regressions.py"
+    ],
+    "no_Mac_application_access": true,
+    "original_parent_commit": "5818ab333dfd239d581129e02af93238bc85e191",
+    "private_after_manifest_sha256": "9639a30f522bca5d315b62e1c99478c351a4bcebf2e6e8bd8ab47b0faadd942f",
+    "private_before_manifest_sha256": "3786b64f00ebcc04daa3681b86ba130d7b1d8bab1317e6bd03ad5ed56c3f5930",
+    "removed_files": [],
+    "scope_exclusions": [
+      ".git",
+      ".venv",
+      ".runtime",
+      ".cache",
+      ".local-simulations",
+      "__pycache__",
+      "Apple resource-fork files",
+      "new E12 audit/report outputs"
+    ],
+    "status": "PASS",
+    "unchanged_data_model_historical_report_files": 28173,
+    "unchanged_original_files": 29076
+  },
+  "production_deployment": false,
+  "real_model_forward_tests_intentionally_excluded": 2,
+  "selected_existing_tests_after": 101,
+  "selected_existing_tests_before": 101,
+  "source_hash_binding_bug_confirmed_and_fixed": true,
+  "status": "COMPLETE_WITH_DOCUMENTED_PREEXISTING_TEST_BLOCKERS",
+  "training_updates": 0
+}

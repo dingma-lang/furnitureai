@@ -1,0 +1,28 @@
+{
+  "errors": 11,
+  "failures": 0,
+  "missing_paths": [
+    "/home/tristary/furniture-ai-ml/data/catalogs/abo-phase6d/catalog.json",
+    "/home/tristary/furniture-ai-ml/examples/furniture-prompts-v2.json",
+    "/home/tristary/furniture-ai-ml/reports/phase5-public-room/quick-room.json"
+  ],
+  "models_run": 0,
+  "parent": "5818ab333dfd239d581129e02af93238bc85e191",
+  "production_or_historical_files_changed": false,
+  "ran": 11,
+  "same_missing_fixture_errors": true,
+  "source_loaded_from_git_into_memory_only": true,
+  "test_ids": [
+    "test_home_transfer.TransferTests.test_invalid_uploads",
+    "test_home_transfer.TransferTests.test_pdf_pages_locally_rendered",
+    "test_owned_inventory.OwnedInventoryTests.test_catalog_reported_fields_not_verified_or_length_invented_as_depth",
+    "test_photo_projects.PhotoProjectTests.test_corrections_undo_and_persistence_do_not_change_predictions",
+    "test_photo_projects.PhotoProjectTests.test_independent_stage_failure_and_cached_reuse",
+    "test_photo_projects.PhotoProjectTests.test_interrupted_session_requires_retry_and_duplicate_submit_runs_once",
+    "test_photo_projects.PhotoProjectTests.test_manual_observation_before_inference_survives_and_ai_rows_are_added",
+    "test_photo_projects.PhotoProjectTests.test_measurements_and_explicit_demo_association_never_calibrate_photo",
+    "test_replacements.ReplacementTests.test_candidate_selection_uses_saved_production_results",
+    "test_room_viewer.RoomViewerTests.test_import_does_not_read_untrusted_external_asset_paths",
+    "test_room_viewer.RoomViewerTests.test_partial_presets_never_enable_placement_even_with_flag"
+  ]
+}

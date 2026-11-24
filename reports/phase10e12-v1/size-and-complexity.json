@@ -1,0 +1,42 @@
+{
+  "EXIF_RGB_loading_implementations_in_fingerprint_path_after": 1,
+  "EXIF_RGB_loading_implementations_in_fingerprint_path_before": 2,
+  "baseline_application_historical_and_test_corpus": {
+    "functions": 5091,
+    "lines": 84333,
+    "modules": 845
+  },
+  "complexity_definition": "decision proxy=1+if/for/while/except/conditional-expr/boolean edges/comprehensions/match branches; nested functions excluded. Not external-tool McCabe.",
+  "final_Python_total_including_new_audit_tools": {
+    "lines": 84724,
+    "modules": 851
+  },
+  "historical_duplicates_deliberately_unchanged": true,
+  "line_count_reduction_not_claimed": true,
+  "modified_active_modules_after": {
+    "bytes": 33796,
+    "decision_proxy_sum": 277,
+    "functions": 35,
+    "lines": 820,
+    "modules": 5
+  },
+  "modified_active_modules_before": {
+    "bytes": 33859,
+    "decision_proxy_sum": 277,
+    "functions": 34,
+    "lines": 819,
+    "modules": 5
+  },
+  "new_audit_utilities": {
+    "lines": 271,
+    "modules": 5
+  },
+  "original_AST_duplicate_groups": 95,
+  "repeated_active_intersection_calculations_after": 1,
+  "repeated_active_intersection_calculations_before": 3,
+  "same_corpus_plus_new_regression_test": {
+    "functions": 5107,
+    "lines": 84453,
+    "modules": 846
+  }
+}

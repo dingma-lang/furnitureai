@@ -1,0 +1,75 @@
+{
+  "no_external_workspaces_traversed": true,
+  "records": [
+    {
+      "path": "LICENSE",
+      "sha256": "6d8b8ae35f33d68c19d85a827c94a262bee55c2e41f5e3a76cb06752c19e100a",
+      "size": 1068
+    },
+    {
+      "path": "PHOTO_SIMULATOR.md",
+      "sha256": "34784820de600c5fcc7cc58bd9428ff65e2642121df018e84a59a2f68e498dc9",
+      "size": 8459
+    },
+    {
+      "path": "README.md",
+      "sha256": "1d67bed3c9473c86eca1d774da4240f73655d996c7f1463dc0e429d31259036f",
+      "size": 4574
+    },
+    {
+      "path": "furniture-ai-extra-images-20261103.tar.gz",
+      "sha256": "51bd6356a43a7e9ae29f1c60764b88efda18fdb664fab6bf357b40fc6cbbf482",
+      "size": 274241
+    },
+    {
+      "path": "furniture-ai-gpu-code-20261103.tar.gz",
+      "sha256": "7a06d425e195a5013564e5189bddba04be3eec7cab3d67320b4fee70bdbee795",
+      "size": 379597
+    },
+    {
+      "path": "furniture-ai-pilot-20261103.tar.gz",
+      "sha256": "f7a09373aee41b5ca44db6597924bd7da6c1c1d54dcffc1d47b46597f779f034",
+      "size": 544386
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "51a5f5e95c8a50bfa489a5019ed2476ff14cd2849ef6322d2764a55cf758cad1",
+      "size": 1048
+    },
+    {
+      "path": "requirements-documents.txt",
+      "sha256": "c25a53bc4d4e7a2a156cafc540248e2fdc2fa593cdda4d764a360efa7e886d06",
+      "size": 98
+    },
+    {
+      "path": "requirements-layout.txt",
+      "sha256": "16c00762d941874745dc807273acd192b6cd7f94e139b7ea39ea213616d1e481",
+      "size": 104
+    },
+    {
+      "path": "requirements-multiview.txt",
+      "sha256": "3e4bb5fa2eece0f189e5255ef9c05ffd356ab2bc9d809afe5feb04fac2f14c95",
+      "size": 129
+    },
+    {
+      "path": "requirements-odometry.txt",
+      "sha256": "5a32ba95c5ee4a93b4b543e0bcf43540e1f399b67a19757823a27fd6a6c7c884",
+      "size": 133
+    },
+    {
+      "path": "requirements-test.txt",
+      "sha256": "0bdc6bef9ee65ac296efbcb5205e024de741b2773fd15c596758f2e8d96c023e",
+      "size": 84
+    },
+    {
+      "path": "requirements-viewer-test.txt",
+      "sha256": "64fa8bfc3af91a452f9c294a7cfbb35aed4dc6d904c7850acdf20751d1467856",
+      "size": 89
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "00b1493b0c0d25a919cac1a559c574e18ea031ec1ccdd15293451f21e2629e10",
+      "size": 104
+    }
+  ]
+}

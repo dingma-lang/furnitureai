@@ -5,14 +5,12 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass, field
 
 from .data import validate_label, validate_prediction
-from .geometry import iou
+from .geometry import intersection_area, iou
 
 
 def containment(a, b):
     """Intersection divided by smaller area; not IoU."""
-    intersection = max(0, min(a[2], b[2]) - max(a[0], b[0])) * max(
-        0, min(a[3], b[3]) - max(a[1], b[1])
-    )
+    intersection = intersection_area(a, b)
     area_a = (a[2] - a[0]) * (a[3] - a[1])
     area_b = (b[2] - b[0]) * (b[3] - b[1])
     return intersection / min(area_a, area_b)

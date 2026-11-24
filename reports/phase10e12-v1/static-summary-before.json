@@ -1,0 +1,54 @@
+{
+  "by_root": {
+    "data": {
+      "functions": 413,
+      "lines": 5397,
+      "modules": 33
+    },
+    "scripts": {
+      "functions": 181,
+      "lines": 10690,
+      "modules": 63
+    },
+    "src": {
+      "functions": 475,
+      "lines": 16006,
+      "modules": 98
+    },
+    "tests": {
+      "functions": 476,
+      "lines": 6423,
+      "modules": 23
+    },
+    "tests_inpainting_eval": {
+      "functions": 18,
+      "lines": 44,
+      "modules": 1
+    },
+    "tests_photo_simulator": {
+      "functions": 61,
+      "lines": 424,
+      "modules": 5
+    },
+    "tools": {
+      "functions": 3467,
+      "lines": 45349,
+      "modules": 622
+    }
+  },
+  "complexity_definition": "decision proxy=1+if/for/while/except/conditional-expr/boolean edges/comprehensions/match branches; nested functions excluded. Not external-tool McCabe.",
+  "duplicate_group_count": 95,
+  "parse_errors": [],
+  "signals": {
+    "broad_exception_handlers": 130,
+    "load_or_pretrained_calls": 323,
+    "modules_with_absolute_home_paths": 7,
+    "sys_path_insert_calls": 252
+  },
+  "stage": "before",
+  "totals": {
+    "functions": 5091,
+    "lines": 84333,
+    "modules": 845
+  }
+}

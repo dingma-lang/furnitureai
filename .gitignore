@@ -339,3 +339,12 @@ dist/
 !/reports/phase10e11-v1/*.json
 !/reports/phase10e11-v1/*.csv
 !/reports/phase10e11-v1/SHA256SUMS
+
+# Small Phase10E.12 audit results; detailed private file indexes stay local.
+!/reports/phase10e12-v1/
+/reports/phase10e12-v1/*
+!/reports/phase10e12-v1/*.md
+!/reports/phase10e12-v1/*.json
+!/reports/phase10e12-v1/CPU-*.log
+!/reports/phase10e12-v1/SHA256SUMS
+!/reports/phase10e12-v1/SHA256SUMS-replay

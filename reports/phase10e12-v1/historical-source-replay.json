@@ -1,0 +1,192 @@
+{
+  "current_branch_hash_mismatch_is_expected_for_five_refactored_active_modules": true,
+  "old_records_not_rebound_to_new_hashes": true,
+  "original_hash_records_unchanged": true,
+  "parent": "5818ab333dfd239d581129e02af93238bc85e191",
+  "safe_replay": "With a clean working tree, git switch experiment/phase10e11-wellcome-suitability; models/data remain in place. No reset, history rewrite or dataset copies.",
+  "snapshots": [
+    {
+      "bindings": [
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/data.py",
+          "recorded_sha256": "6737a46f76315627bdfeb8c7bd6337563d4f0a0354d1ab048c783a948c5c1b2d"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/dataset_quality.py",
+          "recorded_sha256": "ab793a2de26889cf0bc374182e129efc6bf5f534ba78124724862b3bbb20c8f1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/evaluation.py",
+          "recorded_sha256": "eadb9ba1d35086fdcbab4a0b91535bc71cf776adeb4aa697c71920114b4502ed"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/geometry.py",
+          "recorded_sha256": "c59ae1f72e221145555c8c5975555faa959a4e77aa00512a1bf5f3f8bb041cf1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/postprocessing.py",
+          "recorded_sha256": "b1a74f4b8378819e8c8456ee0eaf7003f3d106615a703e5b3c63ac07aa76b5b6"
+        }
+      ],
+      "snapshot": "data/abo/curation/phase1c-v1/preservation-before.json",
+      "snapshot_sha256": "37ae36da7710bc70dc546b02d13e06ca4c6a5676f0ee1d15f8d4f38050c7cf28"
+    },
+    {
+      "bindings": [
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/data.py",
+          "recorded_sha256": "6737a46f76315627bdfeb8c7bd6337563d4f0a0354d1ab048c783a948c5c1b2d"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/dataset_quality.py",
+          "recorded_sha256": "ab793a2de26889cf0bc374182e129efc6bf5f534ba78124724862b3bbb20c8f1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/evaluation.py",
+          "recorded_sha256": "eadb9ba1d35086fdcbab4a0b91535bc71cf776adeb4aa697c71920114b4502ed"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/geometry.py",
+          "recorded_sha256": "c59ae1f72e221145555c8c5975555faa959a4e77aa00512a1bf5f3f8bb041cf1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/postprocessing.py",
+          "recorded_sha256": "b1a74f4b8378819e8c8456ee0eaf7003f3d106615a703e5b3c63ac07aa76b5b6"
+        }
+      ],
+      "snapshot": "data/abo/evaluation/phase2b-v1/preservation-before.json",
+      "snapshot_sha256": "11428714dabc48535479fe70c062f455aa0831ccbf5519bcce978940779f5def"
+    },
+    {
+      "bindings": [
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/data.py",
+          "recorded_sha256": "6737a46f76315627bdfeb8c7bd6337563d4f0a0354d1ab048c783a948c5c1b2d"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/dataset_quality.py",
+          "recorded_sha256": "ab793a2de26889cf0bc374182e129efc6bf5f534ba78124724862b3bbb20c8f1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/evaluation.py",
+          "recorded_sha256": "eadb9ba1d35086fdcbab4a0b91535bc71cf776adeb4aa697c71920114b4502ed"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/geometry.py",
+          "recorded_sha256": "c59ae1f72e221145555c8c5975555faa959a4e77aa00512a1bf5f3f8bb041cf1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/postprocessing.py",
+          "recorded_sha256": "b1a74f4b8378819e8c8456ee0eaf7003f3d106615a703e5b3c63ac07aa76b5b6"
+        }
+      ],
+      "snapshot": "data/abo/experiments/phase2a-v1/preservation-before.json",
+      "snapshot_sha256": "2ea598136c6e39a7a388b53f83f50928687814e7b7fab1be934d1732613b9133"
+    },
+    {
+      "bindings": [
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/data.py",
+          "recorded_sha256": "6737a46f76315627bdfeb8c7bd6337563d4f0a0354d1ab048c783a948c5c1b2d"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/dataset_quality.py",
+          "recorded_sha256": "ab793a2de26889cf0bc374182e129efc6bf5f534ba78124724862b3bbb20c8f1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/evaluation.py",
+          "recorded_sha256": "eadb9ba1d35086fdcbab4a0b91535bc71cf776adeb4aa697c71920114b4502ed"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/geometry.py",
+          "recorded_sha256": "c59ae1f72e221145555c8c5975555faa959a4e77aa00512a1bf5f3f8bb041cf1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/postprocessing.py",
+          "recorded_sha256": "b1a74f4b8378819e8c8456ee0eaf7003f3d106615a703e5b3c63ac07aa76b5b6"
+        }
+      ],
+      "snapshot": "data/abo/image-pilots/phase1b-v1/preservation-before.json",
+      "snapshot_sha256": "a74492ce6ef1707c6b0978f05651c1e2de56570309d4de13476c8e0559d337eb"
+    },
+    {
+      "bindings": [
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/data.py",
+          "recorded_sha256": "6737a46f76315627bdfeb8c7bd6337563d4f0a0354d1ab048c783a948c5c1b2d"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/dataset_quality.py",
+          "recorded_sha256": "ab793a2de26889cf0bc374182e129efc6bf5f534ba78124724862b3bbb20c8f1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/evaluation.py",
+          "recorded_sha256": "eadb9ba1d35086fdcbab4a0b91535bc71cf776adeb4aa697c71920114b4502ed"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/geometry.py",
+          "recorded_sha256": "c59ae1f72e221145555c8c5975555faa959a4e77aa00512a1bf5f3f8bb041cf1"
+        },
+        {
+          "matches_parent": true,
+          "matches_refactored_branch": false,
+          "path": "src/furniture_bench/postprocessing.py",
+          "recorded_sha256": "b1a74f4b8378819e8c8456ee0eaf7003f3d106615a703e5b3c63ac07aa76b5b6"
+        }
+      ],
+      "snapshot": "data/abo/training-prep/phase1d-v1/preservation-before.json",
+      "snapshot_sha256": "4b99c35ff96a73887c6bfa235ddb36304659df234e1d11bd3b7550d4961e1769"
+    }
+  ],
+  "status": "PARENT_SOURCE_BINDINGS_VERIFIED",
+  "strict_old_source_checks_require_matching_original_commit": true,
+  "total_source_bindings": 25
+}

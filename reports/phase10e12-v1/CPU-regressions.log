@@ -1,0 +1,17 @@
+test_disjoint_touching_and_nested_boxes (test_audit_regressions.GeometryPolicyTests.test_disjoint_touching_and_nested_boxes) ... ok
+test_ignore_coverage_boundary_still_inclusive (test_audit_regressions.GeometryPolicyTests.test_ignore_coverage_boundary_still_inclusive) ... ok
+test_intersection_retains_integer_precision (test_audit_regressions.GeometryPolicyTests.test_intersection_retains_integer_precision) ... ok
+test_matching_tie_order_and_one_to_one_policy_unchanged (test_audit_regressions.GeometryPolicyTests.test_matching_tie_order_and_one_to_one_policy_unchanged) ... ok
+test_nms_threshold_still_strict_and_categories_separate (test_audit_regressions.GeometryPolicyTests.test_nms_threshold_still_strict_and_categories_separate) ... ok
+test_actual_hash_wins_over_untrusted_resolved_file (test_audit_regressions.ManifestFingerprintTests.test_actual_hash_wins_over_untrusted_resolved_file) ... ok
+test_cached_resolved_file_still_works_when_consistent (test_audit_regressions.ManifestFingerprintTests.test_cached_resolved_file_still_works_when_consistent) ... ok
+test_decoy_resolved_file_cannot_validate_other_image (test_audit_regressions.ManifestFingerprintTests.test_decoy_resolved_file_cannot_validate_other_image) ... ok
+test_manifest_and_source_bytes_are_unchanged_by_validation (test_audit_regressions.ManifestFingerprintTests.test_manifest_and_source_bytes_are_unchanged_by_validation) ... ok
+test_missing_consumed_file_cannot_hide_behind_existing_decoy (test_audit_regressions.ManifestFingerprintTests.test_missing_consumed_file_cannot_hide_behind_existing_decoy) ... ok
+test_relative_and_absolute_file_names_resolve_to_same_hash (test_audit_regressions.ManifestFingerprintTests.test_relative_and_absolute_file_names_resolve_to_same_hash) ... ok
+test_symlink_file_uses_actual_target (test_audit_regressions.ManifestFingerprintTests.test_symlink_file_uses_actual_target) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+OK

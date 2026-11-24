@@ -1,0 +1,11 @@
+{
+  "EXIF_and_mode_image_fixtures": 12,
+  "all_json_and_array_hashes_equal": true,
+  "geometry_float_hex_cases": 25000,
+  "intentional_difference": "Malformed room manifests cannot validate a different resolved_file than the file consumed; stale resolved_file values are ignored consistently. Valid-file outputs and numeric policy definitions unchanged.",
+  "official_holdout_scoring": false,
+  "saved_prediction_filter_cases": 9,
+  "saved_prediction_photographs": 3,
+  "status": "EXACT_MATCH",
+  "synthetic_matching_policies": 3
+}

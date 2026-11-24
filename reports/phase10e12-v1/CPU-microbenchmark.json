@@ -1,0 +1,40 @@
+{
+  "actual_model_inference": false,
+  "alternating_order": true,
+  "benchmark": "scalar IoU kernel only",
+  "calls_per_round": 80000,
+  "identical_accumulated_float_hex": {
+    "after": "0x1.39f1856dd8a3ep+12",
+    "before": "0x1.39f1856dd8a3ep+12"
+  },
+  "limitation": "Single-process microbenchmark with warm data and shared VM; do not infer detector latency, memory savings, or application speedup.",
+  "median_seconds": {
+    "after": 0.019297271501272917,
+    "before": 0.018226026004413143
+  },
+  "ratio_after_to_before": 1.0587755935715437,
+  "rounds_per_version": 8,
+  "seconds": {
+    "after": [
+      0.019204036972951144,
+      0.021976553020067513,
+      0.018422228982672095,
+      0.01862900296691805,
+      0.01939050602959469,
+      0.019739766023121774,
+      0.021225988981314003,
+      0.01912953204009682
+    ],
+    "before": [
+      0.018324333999771625,
+      0.01812771800905466,
+      0.019148347026202828,
+      0.017410736996680498,
+      0.01865164696937427,
+      0.017468472011387348,
+      0.019299068953841925,
+      0.018088232958689332
+    ]
+  },
+  "threads_or_GPU_used": false
+}

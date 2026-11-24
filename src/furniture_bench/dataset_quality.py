@@ -9,9 +9,9 @@ import json
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageOps
+from PIL import Image
 
-from .data import digest, read_json, write_json
+from .data import digest, load_image, read_json, write_json
 from .retrieval_experiments import category_scores
 
 QUALITY_LABELS = (
@@ -36,15 +36,14 @@ ROLES = (
 
 def fingerprint(path):
     """Conservative crop-normalized screening; not proof of independent capture."""
-    with Image.open(path) as source:
-        image = ImageOps.exif_transpose(source).convert("RGB")
-        a = np.asarray(image)
-        mask = np.any(a < 240, axis=2)
-        y, x = np.nonzero(mask)
-        if len(x) and mask.mean() >= 0.03:
-            image = image.crop((int(x.min()), int(y.min()), int(x.max() + 1), int(y.max() + 1)))
-        rgb = np.asarray(image.resize((32, 32)), dtype=np.int16)
-        gray = np.asarray(image.convert("L").resize((9, 8)))
+    image = load_image(path)
+    a = np.asarray(image)
+    mask = np.any(a < 240, axis=2)
+    y, x = np.nonzero(mask)
+    if len(x) and mask.mean() >= 0.03:
+        image = image.crop((int(x.min()), int(y.min()), int(x.max() + 1), int(y.max() + 1)))
+    rgb = np.asarray(image.resize((32, 32)), dtype=np.int16)
+    gray = np.asarray(image.convert("L").resize((9, 8)))
     return {"sha256": digest(path), "rgb": rgb, "bits": gray[:, 1:] > gray[:, :-1]}
 
 

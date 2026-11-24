@@ -92,6 +92,7 @@ def load_manifest(path, kind: str):
         seen.add(row[id_key])
         require_string(row.get("file"), "file")
         validate_rights(row)
+        resolved_file = (path.parent / row["file"]).resolve()
         if kind == "rooms":
             if row.get("annotation", {}).get(
                 "status"
@@ -104,10 +105,7 @@ def load_manifest(path, kind: str):
                 require_string(region.get("reason"), "ignore region reason")
             if (
                 "image_sha256" in row
-                and digest(
-                    row["resolved_file"] if "resolved_file" in row else path.parent / row["file"]
-                )
-                != row["image_sha256"]
+                and digest(resolved_file) != row["image_sha256"]
             ):
                 raise ValueError("image bytes differ from annotated manifest fingerprint")
             objects = row.get("objects")
@@ -132,7 +130,7 @@ def load_manifest(path, kind: str):
                         require_string(obj.get("product_id"), "verified product_id")
         else:
             validate_label(row.get("label"))
-        row["resolved_file"] = str((path.parent / row["file"]).resolve())
+        row["resolved_file"] = str(resolved_file)
     return rows
 
 

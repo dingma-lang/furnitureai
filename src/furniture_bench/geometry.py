@@ -27,10 +27,18 @@ def clip_box(box: Sequence[float], width: int, height: int):
     return clipped
 
 
-def iou(a: Sequence[float], b: Sequence[float]) -> float:
-    intersection = max(0.0, min(a[2], b[2]) - max(a[0], b[0])) * max(
+def intersection_area(a: Sequence[float], b: Sequence[float]) -> float:
+    """Intersection of two xyxy boxes in the same coordinate frame.
+
+    Callers retain their own validation and normalization policies.
+    """
+    return max(0.0, min(a[2], b[2]) - max(a[0], b[0])) * max(
         0.0, min(a[3], b[3]) - max(a[1], b[1])
     )
+
+
+def iou(a: Sequence[float], b: Sequence[float]) -> float:
+    intersection = intersection_area(a, b)
     union = (a[2] - a[0]) * (a[3] - a[1]) + (b[2] - b[0]) * (b[3] - b[1]) - intersection
     return intersection / union if union > 0 else 0.0
 

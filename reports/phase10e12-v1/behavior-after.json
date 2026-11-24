@@ -1,0 +1,86 @@
+{
+  "fingerprint_fixtures": [
+    {
+      "bits_sha256": "2f7978bc8006b035a4b145b282bd08a692eb15a0aa306658a7ddc29b402834df",
+      "name": "orientation-1.jpg",
+      "rgb_sha256": "7a02de76aa34204e2f4bf51249154a8889fbfe12166875408b9e7375e5964ea9",
+      "sha256": "ab519c4bdd7720c849a7aad540cf51e99befe662e2f1a28a546ba2ac91233f3c"
+    },
+    {
+      "bits_sha256": "75afbaa5dba3e1e30a7ebf31170c2135e706fb8b49b55e2ca89b5410287791a5",
+      "name": "orientation-2.jpg",
+      "rgb_sha256": "63c7e74f047a87bbc573dc4d082b1d79c9d6f8e068b941d7bd0abce5044e1be8",
+      "sha256": "50fed5975e18cf332ee4a2c73b136e2d887b1d292b4ee4e8239b8e9fa40da636"
+    },
+    {
+      "bits_sha256": "dd6ea929d7277e3587ec120a5b4f3732ba6b6371b9c0e2b0dc50541fc1655b74",
+      "name": "orientation-3.jpg",
+      "rgb_sha256": "3af713c824cfe11b4dfce49d1947ab5ad5f1a843a7be6a320bc7808cdc8b7205",
+      "sha256": "2a476d3b6cc89e79988db1c0dac2d24b81afcbd0330cae327edd4f23daf16b7d"
+    },
+    {
+      "bits_sha256": "945b996bbdeaa88770975675f67d2fddf9749899aeaa1a13c3b6bce424ac77c3",
+      "name": "orientation-4.jpg",
+      "rgb_sha256": "268fcab7429d3743eb2572996cbd8cf527669bd30dbfc855bdf767cf63dd1607",
+      "sha256": "0ce2034de2f6221561c76460f9c1a0c3f809db9a29c99d28688710390a42ff50"
+    },
+    {
+      "bits_sha256": "a74a816af39b83ccf64126224311688b759d34e4b9b530baa93a617fa6612a69",
+      "name": "orientation-5.jpg",
+      "rgb_sha256": "6c1b12fc83c56eac0b924ce3368cfdcbde82a638fb359640d2941e7baa653263",
+      "sha256": "2d3c6eedfa6d8a4cc989b1eda0813e620fb17ffc5e3eb4d152e22f5b690b779c"
+    },
+    {
+      "bits_sha256": "8f7058b7d9dca9044ea5dfcfb0583641a7f2d1449559acd4628c6078923b3149",
+      "name": "orientation-6.jpg",
+      "rgb_sha256": "30612165344cb08aa87a74c10b8eb3394279bc64bbf5646decdbdd5c75fb340a",
+      "sha256": "83513a596ebe30bea757aba46dd40c50acbe737a13488da8de3902d971672f4e"
+    },
+    {
+      "bits_sha256": "03c57d4e15552335995accbb1995e389ef1c2be28789f90446e3981318d26bc6",
+      "name": "orientation-7.jpg",
+      "rgb_sha256": "5a473f09e41ecb611bf91569b306945020141f469688692301278fb18eb44a8a",
+      "sha256": "586f4cca08420929616e9f74fa4d19117c4e2bb1a9be01e07039bd3e9e1241ba"
+    },
+    {
+      "bits_sha256": "2db529d02a884c9466424ad06a78a7c71c12ed6ef9e4e86778a43fa44e7a9e42",
+      "name": "orientation-8.jpg",
+      "rgb_sha256": "f6e0c8d8b2bce10e0bef549a31fd419379bc794ac42e9f66a6998107c18af768",
+      "sha256": "29e6c9292c89c34055fc2014db421633428423acc02938aa594241263dc15ab5"
+    },
+    {
+      "bits_sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "name": "RGBA.png",
+      "rgb_sha256": "23b98f7214b8945bf2dcd9bfe9533a9b4f47f80e0c700658bd8bb7f2273270bd",
+      "sha256": "76f1558a21bdfa7f2630e63335469703dc8ebd6ce0d763826b2266fcad27e474"
+    },
+    {
+      "bits_sha256": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+      "name": "L.png",
+      "rgb_sha256": "aab50cfb6f9618dea6336947324d42a9580449c41fee3c3a715311baff1eb3db",
+      "sha256": "b8199b712a0e88ab0871454deebeff10de54deaf49b274a82d29952aaa25808f"
+    },
+    {
+      "bits_sha256": "0a91e47d999d5b58e88274a9d999b11ac077d4ce28c084041051756b075d9f95",
+      "name": "CMYK.jpg",
+      "rgb_sha256": "5ffe48614a1b17cbaf79f265671c76ecfc85ea139c33de6fb09a308e6f25bcac",
+      "sha256": "4205b830c86a46e0d8e9e716e70dce70d0641051ad696155fbfe1a364b2f12db"
+    },
+    {
+      "bits_sha256": "cd6766985be7bce589c4ad1688ec6a4b6bb49ea22d1f50a5b818aedd86c2a19a",
+      "name": "P.gif",
+      "rgb_sha256": "772e69ad502d0276ba6dfb69bd3cceb8a50b9654ea14724fd096f9714dfb5f99",
+      "sha256": "dc9a719643c748504277e7f1f7aed07c901007b3b5abece11fcad957e91e97e6"
+    }
+  ],
+  "geometry_cases": 25000,
+  "geometry_float_hex_and_ignore_SHA256": "cc42e0e1dc89623ac49c6bf87b49e16bd7c4f5ad220c1c2729074b89eafa3eef",
+  "models_loaded": 0,
+  "official_holdout_scoring": false,
+  "saved_filter_cases": 9,
+  "saved_filter_outputs_sha256": "4f00bf140f998c075344f73e7517cd89aa833cebf2b222ecaec5d73114dd5c76",
+  "saved_prediction_source": "reports/gpu-owlv2-rtx4070-test01/predictions.json",
+  "saved_prediction_source_sha256": "9e303cca9be0b06ddbe75f4d4b6133f6068af035b1ebfc7d1693f8ecc054b957",
+  "saved_room_images": 3,
+  "synthetic_matching_sha256": "76bfd3a2c627ddfa3ad46d50fc7411b79c8eac05e85042f752f1432b8b43d2f7"
+}
