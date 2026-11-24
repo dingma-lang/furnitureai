@@ -331,3 +331,11 @@ dist/
 !/reports/phase10e10-v1/*.json
 !/reports/phase10e10-v1/SHA256SUMS
 !/reports/phase10e10-v1/CPU-*.log
+
+# Approved small Phase10E.11 photo-pilot metadata and reports; no photograph bodies.
+!/reports/phase10e11-v1/
+/reports/phase10e11-v1/*
+!/reports/phase10e11-v1/*.md
+!/reports/phase10e11-v1/*.json
+!/reports/phase10e11-v1/*.csv
+!/reports/phase10e11-v1/SHA256SUMS

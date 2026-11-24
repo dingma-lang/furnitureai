@@ -1,0 +1,21 @@
+{
+  "GPU_calls": 0,
+  "command": "CUDA_VISIBLE_DEVICES='' .venv/bin/python -B -m unittest discover -s tools/phase10e11-v1 -p test_pilot11.py -v",
+  "coverage": [
+    "scope and immutable manifest",
+    "current rights and image evidence hashes",
+    "JPEG decoding and dimensions",
+    "resource and MIME limits",
+    "429/redirect/interruption protection",
+    "exact-file gallery",
+    "creator consent and group conflicts",
+    "no activated labels"
+  ],
+  "exit_code": 0,
+  "models_loaded": 0,
+  "observed_UTC": "2026-11-24T04:11:52.195413+00:00",
+  "passed": 30,
+  "real_network_calls_in_tests": 0,
+  "status": "PASS",
+  "test_source_sha256": "2f44c6c0b579a6776d4b9b5f05505f832adc31a5229dc390c8218b966c49580b"
+}

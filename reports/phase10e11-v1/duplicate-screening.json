@@ -1,0 +1,9 @@
+{
+  "exact_pilot_duplicate_pairs": [],
+  "frozen_or_reserved_images_read": 0,
+  "historical_matches_or_flags": [],
+  "perceptual_hashes_are_heuristics_not_identity_proof": true,
+  "perceptual_pilot_flags": [],
+  "reference_count": 78,
+  "scene_or_room_identity_unverified": true
+}

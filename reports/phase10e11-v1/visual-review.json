@@ -1,0 +1,368 @@
+{
+  "records": [
+    {
+      "all_other_classes_status": "unknown_or_not_observed; not verified absent",
+      "annotation": "Protect people and any ambiguous seating; review prep table vs counter and island vs whole Cabinet. Ceiling globes are not standalone Lamp positives.",
+      "annotation_active": false,
+      "chairs": "No definite chair established; clutter and occlusion prevent absence certification",
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "definite": [],
+      "definite_visual_category_observations": [],
+      "distractors": "People, cookware, appliance fronts, pipes, sinks, repeated handles and pendant fixtures",
+      "final_partition": null,
+      "hard_negative_status": "potential_distractors_only; no trusted negatives or actual model-query coverage established",
+      "human_reviewed": false,
+      "image_id": "efqgz854",
+      "image_sha256": "1b9e6f174271c63114cd0682a646dc4d887e988f53dc57228535888d94370ce7",
+      "licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "modern_room_qualified": false,
+      "observations": "Freestanding preparation surface behind workers, long foreground counter/island, drawers, ovens, pots, pipes, clock and ceiling globes. Prep tables/counters and cabinetry need whole-object taxonomy decisions.",
+      "people_visible": true,
+      "possible": [
+        "Table",
+        "Cabinet"
+      ],
+      "possible_or_taxonomy_uncertain_categories": [
+        "Table",
+        "Cabinet"
+      ],
+      "primary_medical_subject": false,
+      "quality": "Sharp room layout with grain, deep shadows and some clipped highlights. Foreground counter is truncated; distant/occluded work surfaces are harder to box.",
+      "review_type": "assistant_visual_inspection_of_acquired_photograph",
+      "rights_status": "source_supported_conditional_CC_BY4",
+      "scene": "Historical institutional kitchen; two people preparing food",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_native_detection_boxes": 0,
+      "source_native_image": "L0028138",
+      "source_native_instance_masks": 0,
+      "source_url": "https://iiif.wellcomecollection.org/image/L0028138/full/!1600,1600/0/default.jpg",
+      "source_work": "https://wellcomecollection.org/works/apxrab5f",
+      "suitability": "B_limited_use_historical_or_atypical",
+      "verified_negative_regions": 0,
+      "visual_observations_are_not_ground_truth": true
+    },
+    {
+      "all_other_classes_status": "unknown_or_not_observed; not verified absent",
+      "annotation": "Review each visible chair fragment; distinguish furniture from scientific apparatus. Full object extent and Table/Desk/bench/Cabinet semantics remain unresolved.",
+      "annotation_active": false,
+      "chairs": "A curved chair back behind the work surface is visible; foreground curved seating fragment also needs protection",
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "definite": [
+        "Chair"
+      ],
+      "definite_visual_category_observations": [
+        "Chair"
+      ],
+      "distractors": "Bottles, tubing, scientific apparatus, shelf edges, papers and chair-like curved forms",
+      "final_partition": null,
+      "hard_negative_status": "potential_distractors_only; no trusted negatives or actual model-query coverage established",
+      "human_reviewed": false,
+      "image_id": "bpxzpgg7",
+      "image_sha256": "24f4a72d3c80f92a9ab9a9c7f2664346e882b519dd6f5fd115eec22fdba44d24",
+      "licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "modern_room_qualified": false,
+      "observations": "Scientific glassware, shelves, cabinets/book storage and a worktable fill the frame; genuine seating is partly hidden. Do not mark the bench area wholesale Chair-negative.",
+      "people_visible": false,
+      "possible": [
+        "Table",
+        "Cabinet"
+      ],
+      "possible_or_taxonomy_uncertain_categories": [
+        "Table",
+        "Cabinet"
+      ],
+      "primary_medical_subject": false,
+      "quality": "Fine grain and usable detail, but strong shadows, bright windows, cut-off foreground furniture and partial chairs.",
+      "review_type": "assistant_visual_inspection_of_acquired_photograph",
+      "rights_status": "source_supported_conditional_CC_BY4",
+      "scene": "Historical laboratory, close view of a cluttered work surface",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_native_detection_boxes": 0,
+      "source_native_image": "L0014195",
+      "source_native_instance_masks": 0,
+      "source_url": "https://iiif.wellcomecollection.org/image/L0014195/full/!1600,1600/0/default.jpg",
+      "source_work": "https://wellcomecollection.org/works/hvr4st5w",
+      "suitability": "B_limited_use_historical_or_atypical",
+      "verified_negative_regions": 0,
+      "visual_observations_are_not_ground_truth": true
+    },
+    {
+      "all_other_classes_status": "unknown_or_not_observed; not verified absent",
+      "annotation": "Do not convert ambiguous stool-like forms to negatives. Separate built-in storage/fronts and workbench from whole Cabinet/Table/Desk labels.",
+      "annotation_active": false,
+      "chairs": "Small dark stool-like form near the back-left bench and curved fittings are ambiguous; protect pending closer evidence",
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "definite": [],
+      "definite_visual_category_observations": [],
+      "distractors": "Plumbing, glassware, drawer fronts, scientific apparatus and repeated vertical supports",
+      "final_partition": null,
+      "hard_negative_status": "potential_distractors_only; no trusted negatives or actual model-query coverage established",
+      "human_reviewed": false,
+      "image_id": "x6v3kwb7",
+      "image_sha256": "09aea71642126c2ea62bee85f464fa54d4e8c58f9d0a89b8bd66095383115694",
+      "licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "modern_room_qualified": false,
+      "observations": "Long laboratory bench, drawers, glass-front storage, bottles, pipes and instruments. Could be another view of the laboratory in the other two photographs; room identity not proven.",
+      "people_visible": false,
+      "possible": [
+        "Chair",
+        "Table",
+        "Cabinet"
+      ],
+      "possible_or_taxonomy_uncertain_categories": [
+        "Chair",
+        "Table",
+        "Cabinet"
+      ],
+      "primary_medical_subject": false,
+      "quality": "Cabinet structures clear but left shadows and window highlights obscure small seating/objects; right edge clips storage.",
+      "review_type": "assistant_visual_inspection_of_acquired_photograph",
+      "rights_status": "source_supported_conditional_CC_BY4",
+      "scene": "Historical laboratory, longer room view with glass-front storage",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_native_detection_boxes": 0,
+      "source_native_image": "L0014196",
+      "source_native_instance_masks": 0,
+      "source_url": "https://iiif.wellcomecollection.org/image/L0014196/full/!1600,1600/0/default.jpg",
+      "source_work": "https://wellcomecollection.org/works/kg99p5vb",
+      "suitability": "B_limited_use_historical_or_atypical",
+      "verified_negative_regions": 0,
+      "visual_observations_are_not_ground_truth": true
+    },
+    {
+      "all_other_classes_status": "unknown_or_not_observed; not verified absent",
+      "annotation": "Protect visible/possible seating before any hard-negative proposal. Review complete cabinet extent, workbench mapping and fixture semantics.",
+      "annotation_active": false,
+      "chairs": "Bentwood seating behind the central workbench is visible; left-midframe seating/curved object needs review",
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "definite": [
+        "Chair"
+      ],
+      "definite_visual_category_observations": [
+        "Chair"
+      ],
+      "distractors": "Scientific glassware, tubing, hanging fittings, cabinet divisions, drawers and supports",
+      "final_partition": null,
+      "hard_negative_status": "potential_distractors_only; no trusted negatives or actual model-query coverage established",
+      "human_reviewed": false,
+      "image_id": "y4n8bmat",
+      "image_sha256": "38125873aa72f913acfdbb59f26f952b24b9028d2508723b6b921de18fe868a0",
+      "licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "modern_room_qualified": false,
+      "observations": "Real seating, central drawer workbench, glass-front cases, hanging fittings and many instruments. Likely related room/capture context to the other laboratory views, not an independent room claim.",
+      "people_visible": false,
+      "possible": [
+        "Table",
+        "Cabinet"
+      ],
+      "possible_or_taxonomy_uncertain_categories": [
+        "Table",
+        "Cabinet"
+      ],
+      "primary_medical_subject": false,
+      "quality": "Good architectural detail with glare, shadowed cabinets, foreground truncation and partial seating.",
+      "review_type": "assistant_visual_inspection_of_acquired_photograph",
+      "rights_status": "source_supported_conditional_CC_BY4",
+      "scene": "Historical laboratory, opposite-side view with windows and work island",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_native_detection_boxes": 0,
+      "source_native_image": "L0014193",
+      "source_native_instance_masks": 0,
+      "source_url": "https://iiif.wellcomecollection.org/image/L0014193/full/!1600,1600/0/default.jpg",
+      "source_work": "https://wellcomecollection.org/works/yxzdb8kb",
+      "suitability": "B_limited_use_historical_or_atypical",
+      "verified_negative_regions": 0,
+      "visual_observations_are_not_ground_truth": true
+    },
+    {
+      "all_other_classes_status": "unknown_or_not_observed; not verified absent",
+      "annotation": "Table and Chair boxes are feasible after actual annotation review. Bookcases/display case are not automatically Cabinet; hanging fixtures not standalone Lamp. Address identifiable-person reuse conditions.",
+      "annotation_active": false,
+      "chairs": "Several upholstered/wood-frame chairs are clearly visible, including occupied/partly occluded seating",
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "definite": [
+        "Chair",
+        "Table"
+      ],
+      "definite_visual_category_observations": [
+        "Chair",
+        "Table"
+      ],
+      "distractors": "Book rows, display case legs, telephone cords, light fittings and seated person",
+      "final_partition": null,
+      "hard_negative_status": "potential_distractors_only; no trusted negatives or actual model-query coverage established",
+      "human_reviewed": false,
+      "image_id": "vugqdsr7",
+      "image_sha256": "952e22431ff72e8b1afbe80261d6d808d0c4ef573cebdb41c4e461e1372362fd",
+      "licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "modern_room_qualified": false,
+      "observations": "Large reading table, chairs, wall bookcases, glass-topped display case, suspended lights and telephone/guide equipment. Closest of the seven to a generic office/reading room, but still historical monochrome.",
+      "people_visible": true,
+      "possible": [],
+      "possible_or_taxonomy_uncertain_categories": [],
+      "primary_medical_subject": false,
+      "quality": "Best general furniture visibility in the pilot; large clear table/chairs. Some occlusion and frame-edge cuts remain.",
+      "review_type": "assistant_visual_inspection_of_acquired_photograph",
+      "rights_status": "source_supported_conditional_CC_BY4",
+      "scene": "Historical library/reading or museum room; one person reading",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_native_detection_boxes": 0,
+      "source_native_image": "V0031425",
+      "source_native_instance_masks": 0,
+      "source_url": "https://iiif.wellcomecollection.org/image/V0031425/full/!1600,1600/0/default.jpg",
+      "source_work": "https://wellcomecollection.org/works/csrt6jh5",
+      "suitability": "B_limited_use_historical_or_atypical",
+      "verified_negative_regions": 0,
+      "visual_observations_are_not_ground_truth": true
+    },
+    {
+      "all_other_classes_status": "unknown_or_not_observed; not verified absent",
+      "annotation": "Protect both clear chairs and possible left-edge seating. Review bedside furniture taxonomy and hospital-bed scope. Wall fixtures not automatically standalone Lamps.",
+      "annotation_active": false,
+      "chairs": "Central upholstered armchair and cropped right-side wooden chair are visible",
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "definite": [
+        "Chair",
+        "Bed"
+      ],
+      "definite_visual_category_observations": [
+        "Chair",
+        "Bed"
+      ],
+      "distractors": "Telephone, sink, grab/bed fittings, flowers, curtains and wall fixtures",
+      "final_partition": null,
+      "hard_negative_status": "potential_distractors_only; no trusted negatives or actual model-query coverage established",
+      "human_reviewed": false,
+      "image_id": "mhnzfe6b",
+      "image_sha256": "90c6ec03cb2a0501975ab17ef2ad6ea9502d877f0636f00dbd2377f07a603bf8",
+      "licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "modern_room_qualified": false,
+      "observations": "One hospital bed, armchair, partial chair, bedside phone cabinet, partial tray/worktop, sink, flowers and wall fixtures. A room scene rather than a medical-body subject.",
+      "people_visible": false,
+      "possible": [
+        "Table",
+        "Cabinet"
+      ],
+      "possible_or_taxonomy_uncertain_categories": [
+        "Table",
+        "Cabinet"
+      ],
+      "primary_medical_subject": false,
+      "quality": "Large useful Bed/Chair shapes with monochrome grain. Bed/tray/chair ends are clipped or overlap; full boxes need an explicit visible-vs-full extent policy.",
+      "review_type": "assistant_visual_inspection_of_acquired_photograph",
+      "rights_status": "source_supported_conditional_CC_BY4",
+      "scene": "Historical single-patient hospital room, apparently unoccupied",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_native_detection_boxes": 0,
+      "source_native_image": "L0028136",
+      "source_native_instance_masks": 0,
+      "source_url": "https://iiif.wellcomecollection.org/image/L0028136/full/!1600,1600/0/default.jpg",
+      "source_work": "https://wellcomecollection.org/works/sdevj3f8",
+      "suitability": "B_limited_use_historical_or_atypical",
+      "verified_negative_regions": 0,
+      "visual_observations_are_not_ground_truth": true
+    },
+    {
+      "all_other_classes_status": "unknown_or_not_observed; not verified absent",
+      "annotation": "Never label the folding privacy screen or bed-rail frames Chair solely by shape. Protect actual chairs; annotate cropped beds and uncertain bedside furniture explicitly.",
+      "annotation_active": false,
+      "chairs": "Wooden side chair and upholstered armchair are clearly visible",
+      "credit": [
+        "Wellcome Collection"
+      ],
+      "definite": [
+        "Chair",
+        "Bed"
+      ],
+      "definite_visual_category_observations": [
+        "Chair",
+        "Bed"
+      ],
+      "distractors": "Folding screen/frame, bed rails, telephone, plants, basin and bedside frames",
+      "final_partition": null,
+      "hard_negative_status": "potential_distractors_only; no trusted negatives or actual model-query coverage established",
+      "human_reviewed": false,
+      "image_id": "mqxh737p",
+      "image_sha256": "a6d5858a2a24deac016370848a7d74229f3d7c6d6a7f68d0d078f5de6b6fea19",
+      "licence_URL": "https://creativecommons.org/licenses/by/4.0/",
+      "modern_room_qualified": false,
+      "observations": "Two hospital beds, two clear chairs, bedside furniture/tray, telephone, plants, sink and a folding privacy screen. Foreground bed is strongly cropped.",
+      "people_visible": false,
+      "possible": [
+        "Table",
+        "Cabinet"
+      ],
+      "possible_or_taxonomy_uncertain_categories": [
+        "Table",
+        "Cabinet"
+      ],
+      "primary_medical_subject": false,
+      "quality": "Furniture shapes reasonably distinct, but foreground clipping, occlusion, grain and vintage layout limit transfer to modern rooms.",
+      "review_type": "assistant_visual_inspection_of_acquired_photograph",
+      "rights_status": "source_supported_conditional_CC_BY4",
+      "scene": "Historical two-patient hospital room, apparently unoccupied",
+      "source_group_id": "wellcome-unknown-creator-shared",
+      "source_native_detection_boxes": 0,
+      "source_native_image": "L0028137",
+      "source_native_instance_masks": 0,
+      "source_url": "https://iiif.wellcomecollection.org/image/L0028137/full/!1600,1600/0/default.jpg",
+      "source_work": "https://wellcomecollection.org/works/xhtm8xzz",
+      "suitability": "B_limited_use_historical_or_atypical",
+      "verified_negative_regions": 0,
+      "visual_observations_are_not_ground_truth": true
+    }
+  ],
+  "summary": {
+    "activated_annotations": 0,
+    "actual_room_scenes": 7,
+    "assistant_visual_category_image_counts": {
+      "Bed": 2,
+      "Cabinet": 0,
+      "Chair": 5,
+      "Desk": 0,
+      "Lamp": 0,
+      "Sofa": 0,
+      "Table": 1
+    },
+    "conservative_source_group_buckets": 1,
+    "counts_are_not_source_labels_or_complete_instance_counts": true,
+    "credible_modern_room_training_improvement": false,
+    "independent_source_groups_verified": 0,
+    "people_visible_photos": 2,
+    "possible_or_taxonomy_uncertain_image_counts": {
+      "Bed": 0,
+      "Cabinet": 6,
+      "Chair": 1,
+      "Desk": 0,
+      "Lamp": 0,
+      "Sofa": 0,
+      "Table": 6
+    },
+    "primarily_medical_subject_photos": 0,
+    "recommendation": "Close further Wellcome acquisition for modern-room expansion. Retain these immutable7 as limited-use inspection assets; prioritize explicitly consented modern rooms. No training justified.",
+    "related_cluster_not_asserted_pixel_duplicate": true,
+    "suitability_counts": {
+      "A_modern": 0,
+      "B_historical_or_atypical": 7,
+      "C_unsuitable": 0
+    },
+    "tentative_related_capture_cluster": [
+      "bpxzpgg7",
+      "x6v3kwb7",
+      "y4n8bmat"
+    ],
+    "verified_hard_negatives": 0
+  }
+}

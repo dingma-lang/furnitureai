@@ -1,0 +1,115 @@
+{
+  "CPU_tests_passed": 30,
+  "E10_preserved": true,
+  "GPU_calls": 0,
+  "Mac_application_accessed": false,
+  "acquired": 7,
+  "all_response_body_bytes": 2436491,
+  "allocation_before_seal": 3543040,
+  "allocation_limit": 67108864,
+  "annotations_activated": 0,
+  "attempts_per_image": 1,
+  "conservative_transfer_charge": 3398381,
+  "duplicates": {
+    "exact_pilot_duplicate_pairs": [],
+    "frozen_or_reserved_images_read": 0,
+    "historical_matches_or_flags": [],
+    "perceptual_hashes_are_heuristics_not_identity_proof": true,
+    "perceptual_pilot_flags": [],
+    "reference_count": 78,
+    "scene_or_room_identity_unverified": true
+  },
+  "exact_approved_images": 7,
+  "gallery": "data/licensed-rooms/image-pilots/phase10e11-wellcome-v1/gallery.html",
+  "historical_preservation": "PASS",
+  "human_reviews_fabricated": 0,
+  "image_bytes": 2406919,
+  "image_dimensions": {
+    "bpxzpgg7": [
+      1600,
+      1204
+    ],
+    "efqgz854": [
+      1600,
+      1026
+    ],
+    "mhnzfe6b": [
+      1600,
+      1032
+    ],
+    "mqxh737p": [
+      1600,
+      1027
+    ],
+    "vugqdsr7": [
+      1600,
+      1207
+    ],
+    "x6v3kwb7": [
+      1600,
+      1182
+    ],
+    "y4n8bmat": [
+      1600,
+      1182
+    ]
+  },
+  "independent_evaluation_images": 0,
+  "intake": "data/licensed-rooms/image-pilots/phase10e11-wellcome-v1/creator-intake.html",
+  "integrity_rejected": 0,
+  "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "model_inference": 0,
+  "native_boxes": 0,
+  "native_masks": 0,
+  "no_alternatives_used": true,
+  "observed_TLS_bytes": 2644717,
+  "original_model_sha256": "e1e130b9e404cf91a75ad45644c1da9d7fa5284085eecc864266a6923efb99e7",
+  "parent": "376aef7ef9d806f278da634f3a3a143fcaad7380",
+  "quarantined": 0,
+  "rights_rejected": 0,
+  "source_rights_supported": 7,
+  "training_updates": 0,
+  "transfer_limit": 8000000,
+  "version": "phase10e11-v1",
+  "visual_summary": {
+    "activated_annotations": 0,
+    "actual_room_scenes": 7,
+    "assistant_visual_category_image_counts": {
+      "Bed": 2,
+      "Cabinet": 0,
+      "Chair": 5,
+      "Desk": 0,
+      "Lamp": 0,
+      "Sofa": 0,
+      "Table": 1
+    },
+    "conservative_source_group_buckets": 1,
+    "counts_are_not_source_labels_or_complete_instance_counts": true,
+    "credible_modern_room_training_improvement": false,
+    "independent_source_groups_verified": 0,
+    "people_visible_photos": 2,
+    "possible_or_taxonomy_uncertain_image_counts": {
+      "Bed": 0,
+      "Cabinet": 6,
+      "Chair": 1,
+      "Desk": 0,
+      "Lamp": 0,
+      "Sofa": 0,
+      "Table": 6
+    },
+    "primarily_medical_subject_photos": 0,
+    "recommendation": "Close further Wellcome acquisition for modern-room expansion. Retain these immutable7 as limited-use inspection assets; prioritize explicitly consented modern rooms. No training justified.",
+    "related_cluster_not_asserted_pixel_duplicate": true,
+    "suitability_counts": {
+      "A_modern": 0,
+      "B_historical_or_atypical": 7,
+      "C_unsuitable": 0
+    },
+    "tentative_related_capture_cluster": [
+      "bpxzpgg7",
+      "x6v3kwb7",
+      "y4n8bmat"
+    ],
+    "verified_hard_negatives": 0
+  }
+}

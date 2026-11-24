@@ -1,0 +1,28 @@
+{
+  "complete_annotation_checklist": [
+    "Sofa",
+    "Chair",
+    "Table",
+    "Bed",
+    "Desk",
+    "Cabinet",
+    "Lamp"
+  ],
+  "creator_source_room_capture_groups_required": true,
+  "future_duplicate_checks": [
+    "source IDs/URLs",
+    "original and modified SHA256 trail",
+    "perceptual duplicates/crops",
+    "room and creator aliases"
+  ],
+  "interface": "creator-intake.html",
+  "no_original_photo_redistribution_grant_assumed": true,
+  "optional_annotation_UI": "Later proposed-box/mask overlays with accept/edit/ignore controls; no manual coordinate entry required. Not a model annotator or training approval.",
+  "permission_template": "Local browser page; no boxes prechecked or reviews fabricated",
+  "photos_obtained_or_third_parties_contacted": 0,
+  "precise_addresses_required": false,
+  "privacy_guidance_present": true,
+  "proposed_masks_remain_inactive": true,
+  "split_policy": "Fix photographer/source/physical-room groups before model use; independent evaluation separate from training and exposed development",
+  "workflow_only": true
+}
