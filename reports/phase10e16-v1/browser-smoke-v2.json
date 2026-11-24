@@ -1,0 +1,23 @@
+{
+  "attempts": 1,
+  "browser": "existing Windows Chrome, isolated fresh profile",
+  "checks": {
+    "actual_photos": [],
+    "error": "Error: Bounded DOM wait expired",
+    "grants_or_reviews_fabricated": false,
+    "model_calls": 0,
+    "real_annotations": 0,
+    "source_boxes_test": "not_run",
+    "status": "INCOMPLETE_OR_FAIL"
+  },
+  "exit_code": 0,
+  "final_allocated_bytes": 24305664,
+  "local_HTTP_response_body_bytes": 4096248,
+  "maximum_runtime_seconds": 30,
+  "peak_observed_allocated_bytes": 24301568,
+  "profile_increment_cap": 67108864,
+  "real_model_calls": 0,
+  "runtime_seconds": 4.5541125910240225,
+  "source_requests_during_browser": 0,
+  "status": "INCOMPLETE_OR_FAIL"
+}

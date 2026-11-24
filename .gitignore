@@ -372,3 +372,12 @@ dist/
 !/reports/phase10e15-v1/*.json
 !/reports/phase10e15-v1/CPU-*.log
 !/reports/phase10e15-v1/SHA256SUMS
+
+# Phase10E.16 public code/metadata/reports; original photos and browser profiles stay local.
+!/reports/phase10e16-v1/
+/reports/phase10e16-v1/*
+!/reports/phase10e16-v1/*.md
+!/reports/phase10e16-v1/*.json
+!/reports/phase10e16-v1/*.csv
+!/reports/phase10e16-v1/CPU-*.log
+!/reports/phase10e16-v1/SHA256SUMS

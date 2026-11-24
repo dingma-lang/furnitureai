@@ -1,0 +1,39 @@
+{
+  "schema": "targeted-modern-room-next-stage-v1",
+  "status": "PROPOSAL_ONLY_NOT_AN_EXECUTABLE_ACQUISITION_MANIFEST",
+  "recommendation": "Eight creator-consented modern room photographs, prioritizing whole Beds, dedicated Desks, whole Cabinets and standalone Lamps",
+  "target_photos": 8,
+  "training_side": {
+    "photos": 6,
+    "scenes": {"bedrooms_with_beds_and_bedside_lamps": 2, "home_or_small_offices_with_whole_desks_and_cabinets": 2, "dining_room_with_seating_or_bar_stools": 1, "cluttered_living_room_with_chairs_and_nonfurniture_distractors": 1},
+    "minimum_creator_room_components": 4
+  },
+  "independent_evaluation_side": {
+    "photos": 2,
+    "scenes": {"separately_sourced_bedroom_with_lamp": 1, "separately_sourced_office_with_desk_and_cabinet": 1},
+    "minimum_creator_room_components": 2,
+    "complete_seven_category_annotation_required": true,
+    "no_training_or_exposed_development_source_relationships": true
+  },
+  "exact_new_source_IDS_available": [],
+  "creator_grants_currently_received": 0,
+  "no_invented_candidate_IDS": true,
+  "automatic_outreach_or_substitutions": false,
+  "estimated_transfer_range_bytes_not_observed": [25165824, 67108864],
+  "proposed_future_cumulative_transfer_cap": 120000000,
+  "proposed_future_per_image_cap": 12582912,
+  "proposed_future_max_attempts": 2,
+  "proposed_future_storage_cap": 268435456,
+  "requires_new_approval": true,
+  "before_approval": [
+    "Identify exact photographs and uploader/creator permission for ML use and commercial derived models",
+    "Resolve third-party privacy/property conditions; do not contact creators automatically",
+    "Freeze source IDs, sizes, grants and creator/source/room/capture connected components",
+    "Prepare exact import/acquisition manifest; never collect unidentified replacements",
+    "Complete the local intake browser walkthrough before relying on human annotation exports"
+  ],
+  "existing_three_pilot_training_activation": false,
+  "existing_three_pilot_independent_evaluation_allocation": 0,
+  "original_24_photo_target_remains_a_quality_target_not_a_verified_dataset": true,
+  "three_photos_not_sufficient_for_retraining_or_acceptance_accuracy": true
+}

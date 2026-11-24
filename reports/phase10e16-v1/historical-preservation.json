@@ -1,0 +1,10 @@
+{
+  "E15_artifacts_unchanged": true,
+  "core_code_unchanged": true,
+  "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "new_dataset_partitions_or_annotations": false,
+  "original_pilot_photos_unchanged": 3,
+  "previous_historical_photos_verified": 130,
+  "status": "PASS",
+  "verification_scope": "E15 input/source/photo preservation plus parent code/report seals and pilot hashes; no exhaustive new code audit"
+}

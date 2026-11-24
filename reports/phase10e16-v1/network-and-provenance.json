@@ -1,0 +1,13 @@
+{
+  "actual_max_attempts": 1,
+  "cap": 60000000,
+  "conservative_transfer_charge": 22128235,
+  "image_body_bytes": 21251887,
+  "observed_bidirectional_TLS_bytes": 21472875,
+  "overhead_allowance_per_request": 65536,
+  "physical_IP_DNS_TCP_retransmissions_not_directly_measured": true,
+  "redirects_followed": 0,
+  "requests": 10,
+  "response_body_bytes": 21354997,
+  "retries": 0
+}

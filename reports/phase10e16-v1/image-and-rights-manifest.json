@@ -1,0 +1,85 @@
+{
+  "records": [
+    {
+      "bytes": 4073349,
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "evaluation_active": false,
+      "file": "data/licensed-rooms/image-pilots/modern-room-screening-v1/images/150832261.jpg",
+      "rights": {
+        "checked_utc": "2026-11-24T09:32:42.867275+00:00",
+        "creator_credit": "FreshDev",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "ownership_privacy_property_releases_not_inferred": true,
+        "source_id": "commons-page:150832261",
+        "source_object_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Workspace_Setup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Workspace_Setup.jpg",
+        "status": "current_file_specific_copyright_declaration_supported",
+        "training_active": false
+      },
+      "sha256": "c7af3ff454bcd76638c6f387a036c8d55dfbc287b7f5bf5e1f9b97305e280a8b",
+      "source_group_id": "commons-user:FreshDev",
+      "source_id": "commons-page:150832261",
+      "source_sha1": "4e8287f094f0562445062e8414525e73a54ca8f5",
+      "suitability": "C",
+      "training_active": false
+    },
+    {
+      "bytes": 6356815,
+      "dimensions": [
+        4608,
+        3456
+      ],
+      "evaluation_active": false,
+      "file": "data/licensed-rooms/image-pilots/modern-room-screening-v1/images/178637758.jpg",
+      "rights": {
+        "checked_utc": "2026-11-24T09:32:42.867301+00:00",
+        "creator_credit": "Alexhalipchuk",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "ownership_privacy_property_releases_not_inferred": true,
+        "source_id": "commons-page:178637758",
+        "source_object_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Living_room_in_Winnipeg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Living_room_in_Winnipeg.jpg",
+        "status": "current_file_specific_copyright_declaration_supported",
+        "training_active": false
+      },
+      "sha256": "afac29a2a9fd5c2789617a8da267d1f47377768369c46ad2f3a9a8921b494179",
+      "source_group_id": "commons-user:Alexhalipchuk",
+      "source_id": "commons-page:178637758",
+      "source_sha1": "a3f4dbdd25ba4fc4a070b8696b92bbe6dc9419f4",
+      "suitability": "B",
+      "training_active": false
+    },
+    {
+      "bytes": 10821723,
+      "dimensions": [
+        6016,
+        4016
+      ],
+      "evaluation_active": false,
+      "file": "data/licensed-rooms/image-pilots/modern-room-screening-v1/images/195256255.jpg",
+      "rights": {
+        "checked_utc": "2026-11-24T09:32:42.867311+00:00",
+        "creator_credit": "Shixart1985",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "ownership_privacy_property_releases_not_inferred": true,
+        "source_id": "commons-page:195256255",
+        "source_object_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cozy_living_room_with_a_view_of_the_lake_and_trees_in_the_background_at_midday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Cozy_living_room_with_a_view_of_the_lake_and_trees_in_the_background_at_midday.jpg",
+        "status": "current_file_specific_copyright_declaration_supported",
+        "training_active": false
+      },
+      "sha256": "7db18d8b012eaa8e5f2b9ec3c794ae477e6256aa9a93a441f7ac6240838c31e4",
+      "source_group_id": "commons-user:Shixart1985",
+      "source_id": "commons-page:195256255",
+      "source_sha1": "991dcbdd4d4aa06b8b81072fc320c4068723e3da",
+      "suitability": "A",
+      "training_active": false
+    }
+  ]
+}

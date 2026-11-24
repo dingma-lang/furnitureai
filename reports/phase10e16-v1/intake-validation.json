@@ -1,0 +1,62 @@
+{
+  "all_human_confirmations_preserved_unconfirmed": true,
+  "independent_evaluation_allocation": 0,
+  "native_annotation_import": "not applicable: zero source annotations",
+  "records": [
+    {
+      "actual_image_content_verified": true,
+      "annotations_active": false,
+      "annotations_imported_or_fabricated": 0,
+      "expected_missing_human_or_privacy_confirmations": [
+        "Consent absent: annotation_and_modification",
+        "Consent absent: commercial_model_distribution",
+        "Consent absent: model_training_or_evaluation",
+        "Consent absent: storage",
+        "Explicit creator confirmation required",
+        "Missing explicit_confirmation",
+        "Orientation confirmation required",
+        "Other rights unresolved"
+      ],
+      "native_boxes_available": 0,
+      "source_id": "commons-page:150832261",
+      "status": "invalid_or_incomplete"
+    },
+    {
+      "actual_image_content_verified": true,
+      "annotations_active": false,
+      "annotations_imported_or_fabricated": 0,
+      "expected_missing_human_or_privacy_confirmations": [
+        "Consent absent: annotation_and_modification",
+        "Consent absent: commercial_model_distribution",
+        "Consent absent: model_training_or_evaluation",
+        "Consent absent: storage",
+        "Explicit creator confirmation required",
+        "Missing explicit_confirmation",
+        "Orientation confirmation required",
+        "Other rights unresolved"
+      ],
+      "native_boxes_available": 0,
+      "source_id": "commons-page:178637758",
+      "status": "invalid_or_incomplete"
+    },
+    {
+      "actual_image_content_verified": true,
+      "annotations_active": false,
+      "annotations_imported_or_fabricated": 0,
+      "expected_missing_human_or_privacy_confirmations": [
+        "Consent absent: annotation_and_modification",
+        "Consent absent: commercial_model_distribution",
+        "Consent absent: model_training_or_evaluation",
+        "Consent absent: storage",
+        "Explicit creator confirmation required",
+        "Missing explicit_confirmation",
+        "Orientation confirmation required",
+        "Other rights unresolved"
+      ],
+      "native_boxes_available": 0,
+      "source_id": "commons-page:195256255",
+      "status": "invalid_or_incomplete"
+    }
+  ],
+  "source_import_correction_regressions": "E15 synthetic tests only; real photographs have no fabricated boxes"
+}

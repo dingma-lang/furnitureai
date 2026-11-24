@@ -1,0 +1,17 @@
+test_corrupt_jpeg_not_committed (test_pilot16.ScopeTests.test_corrupt_jpeg_not_committed) ... ok
+test_exact_ids_and_sources (test_pilot16.ScopeTests.test_exact_ids_and_sources) ... ok
+test_image_checks_source_hash_and_dimensions (test_pilot16.ScopeTests.test_image_checks_source_hash_and_dimensions) ... ok
+test_rights_changes_stop (test_pilot16.ScopeTests.test_rights_changes_stop) ... ok
+test_byte_budget_stops_before_socket (test_pilot16.TransportTests.test_byte_budget_stops_before_socket) ... ok
+test_changed_head_size_refuses_image_body (test_pilot16.TransportTests.test_changed_head_size_refuses_image_body) ... ok
+test_closed_or_interrupted_pilot_refuses_network (test_pilot16.TransportTests.test_closed_or_interrupted_pilot_refuses_network) ... ok
+test_provider_429_stops_without_retry (test_pilot16.TransportTests.test_provider_429_stops_without_retry) ... ok
+test_redirects_accounted_never_followed (test_pilot16.TransportTests.test_redirects_accounted_never_followed) ... ok
+test_success_persisted_and_not_repeated (test_pilot16.TransportTests.test_success_persisted_and_not_repeated) ... ok
+test_truncated_metadata_body_fails (test_pilot16.TransportTests.test_truncated_metadata_body_fails) ... ok
+test_unexpected_MIME_refuses_body (test_pilot16.TransportTests.test_unexpected_MIME_refuses_body) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.050s
+
+OK

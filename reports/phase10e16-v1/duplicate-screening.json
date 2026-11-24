@@ -1,0 +1,9 @@
+{
+  "exact_pilot_pairs": [],
+  "exposed_reference_flags": [],
+  "frozen_or_reserved_photos_decoded": 0,
+  "heuristics_not_independence_proof": true,
+  "perceptual_pilot_flags": [],
+  "reference_count": 78,
+  "verified_physical_room_or_capture_independence": false
+}

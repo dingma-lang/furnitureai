@@ -1,0 +1,14 @@
+{
+  "attempts": 1,
+  "browser": "existing Windows Chrome, isolated fresh profile",
+  "final_allocated_bytes": 23621632,
+  "local_HTTP_response_body_bytes": 4096248,
+  "maximum_runtime_seconds": 30,
+  "peak_observed_allocated_bytes": 23613440,
+  "profile_increment_cap": 67108864,
+  "real_model_calls": 0,
+  "reason": "FileNotFoundError: [Errno 2] No such file or directory: '/home/tristary/furniture-ai-ml/data/licensed-rooms/image-pilots/modern-room-screening-v1/phase10e16-profile-00b2fef4558049f3b52e2a48c25f4484/Default/Site Characteristics Database/a8e6e0f4-fa1d-4b92-810c-c1d5ee37b9b4.tmp'",
+  "runtime_seconds": 2.8117812710115686,
+  "source_requests_during_browser": 0,
+  "status": "UNVERIFIED"
+}
