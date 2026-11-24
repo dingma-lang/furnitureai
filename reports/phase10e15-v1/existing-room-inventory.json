@@ -1,0 +1,131 @@
+{
+  "active_training": {
+    "boxes": 182,
+    "groups": 56,
+    "images": 59,
+    "per_category": {
+      "bed": {
+        "boxes": 28,
+        "groups": 22,
+        "images": 25,
+        "masks": 15
+      },
+      "cabinet": {
+        "boxes": 0,
+        "groups": 0,
+        "images": 0,
+        "masks": 0
+      },
+      "chair": {
+        "boxes": 114,
+        "groups": 40,
+        "images": 42,
+        "masks": 88
+      },
+      "desk": {
+        "boxes": 0,
+        "groups": 0,
+        "images": 0,
+        "masks": 0
+      },
+      "lamp": {
+        "boxes": 0,
+        "groups": 0,
+        "images": 0,
+        "masks": 0
+      },
+      "sofa": {
+        "boxes": 40,
+        "groups": 32,
+        "images": 34,
+        "masks": 38
+      },
+      "table": {
+        "boxes": 0,
+        "groups": 0,
+        "images": 0,
+        "masks": 0
+      }
+    }
+  },
+  "annotations_activated": 0,
+  "exposed_internal_development": {
+    "boxes": 61,
+    "groups": 19,
+    "images": 19,
+    "per_category": {
+      "bed": {
+        "boxes": 9,
+        "groups": 6,
+        "images": 6,
+        "masks": 4
+      },
+      "cabinet": {
+        "boxes": 0,
+        "groups": 0,
+        "images": 0,
+        "masks": 0
+      },
+      "chair": {
+        "boxes": 39,
+        "groups": 11,
+        "images": 11,
+        "masks": 29
+      },
+      "desk": {
+        "boxes": 0,
+        "groups": 0,
+        "images": 0,
+        "masks": 0
+      },
+      "lamp": {
+        "boxes": 0,
+        "groups": 0,
+        "images": 0,
+        "masks": 0
+      },
+      "sofa": {
+        "boxes": 13,
+        "groups": 9,
+        "images": 9,
+        "masks": 13
+      },
+      "table": {
+        "boxes": 0,
+        "groups": 0,
+        "images": 0,
+        "masks": 0
+      }
+    }
+  },
+  "historical_integration": {
+    "exhaustive_labels": false,
+    "exposed": true,
+    "new_ML_rights_status": "Unsplash purpose-specific ML permission not established; do not count as cleared new training data",
+    "photos": 3
+  },
+  "inactive_known_groups": 39,
+  "inactive_unassigned_images": 42,
+  "modern_fully_annotated_independent_acceptance_images_verified_for_this_pilot": 0,
+  "new_usable_training_images_added": 0,
+  "per_category_counts_are_overlapping": true,
+  "scope": "Existing declared source eligibility, not proof every source photograph is a representative modern room",
+  "source_detection_pool_images": 120,
+  "source_detection_unique_hashes": 120,
+  "wellcome": {
+    "acquired": 7,
+    "category_visual_observations": {
+      "Bed": 2,
+      "Cabinet": 0,
+      "Chair": 5,
+      "Desk": 0,
+      "Lamp": 0,
+      "Sofa": 0,
+      "Table": 1
+    },
+    "modern_qualified": 0,
+    "native_boxes": 0,
+    "native_masks": 0,
+    "source_rights_supported": 7
+  }
+}

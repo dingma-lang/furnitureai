@@ -1,0 +1,26 @@
+{
+  "files": {
+    ".gitignore": "8e2607b417205ef39f2e73abac0fb42f8089fa7cd151e24ec58cb36dcfe27b91",
+    "reports/phase10e15-v1/CPU-intake-tests-final.log": "e006c464dd78dd39678119fcfa0c818dcf4fd4bd515ad8aa14bacb635602b091",
+    "reports/phase10e15-v1/CPU-intake-tests.log": "3d81161a9dc16325d46146cc96a50d792a222116c74524e84a6fe6c9688502b1",
+    "reports/phase10e15-v1/collection-plan.json": "5dd5d6eb1d71082c5b2f02798c99d7df9044b5b3ce2f5b83a13316690c79a5d9",
+    "reports/phase10e15-v1/commons-metadata-access.json": "73344df4f90110dd7b4113f110d421543565ed8227d1149f00f0d199ff1e3d99",
+    "reports/phase10e15-v1/existing-room-inventory.json": "a66cd0a8ef3ae485f07a2a96901175f5098c156470925680ed0f74c245e1360a",
+    "reports/phase10e15-v1/input-preservation.json": "1ab4659a1335992e4c38d7825cc1fd3134ba174b4e3c27932c7473c174c9310b",
+    "reports/phase10e15-v1/preservation-final.json": "1e1ad452b57ca3e5adb0e3500d491dd0572f933706b6b38c55ef26dcc4cd9b6c",
+    "reports/phase10e15-v1/proposed-photo-acquisition.json": "22daba25dec7227bfd7697f454f0cdb3f668e332710e856e972d4f514b488e17",
+    "reports/phase10e15-v1/reliability-baseline.json": "8267b6d04e7acaa5ce1a20779193c2316379fce7227129d912b40d9da89f18f9",
+    "reports/phase10e15-v1/report.md": "579f4db2c4b0588f146d6318ca2f34943167cb55c81f9241e8a3d88ea1f3989f",
+    "reports/phase10e15-v1/seven-category-annotation-spec.md": "1349e5886b52ac672c2829f3b70f2085346ccc4a1c49102f780d4dd209d5d1a0",
+    "tools/phase10e15-v1/README.md": "043a3438d7053ce3a2959d0e1fcdfa528aff318ed4e3120b6446afc42cae230a",
+    "tools/phase10e15-v1/intake.html": "8f77d11c5aa1566931a4c2e3949a97b84f25e08e3a76546842370b831216504b",
+    "tools/phase10e15-v1/intake.js": "436b31ed2a1b0879ca1bea4a21a1c0f311d91abbefe5d8188ec649abcfc0d98d",
+    "tools/phase10e15-v1/intake15.py": "43e8d544c3cf48c408b9c512aaa1d990ee7a6025b2521f91803eef1c019bb38a",
+    "tools/phase10e15-v1/prepare15.py": "bcf2c59bb469a5f8bbe1120c95694970c20ed9f71b1587e67b4bd5f033b364e5",
+    "tools/phase10e15-v1/serve15.py": "388ae7290e95578906af3edc503af43d10e77816256d87b0d1229b085e213548",
+    "tools/phase10e15-v1/test_intake15.py": "24634be86f2099213f41e27b9124e44b95d3f9be68ab23c789e343ceedc993cb",
+    "tools/phase10e15-v1/verify15.py": "9a265e258b1ac10424698fbaebd594d6c6b59062bf77bc4fb3e55bc44321b282"
+  },
+  "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "parent": "f9a06a6103428bee4915acbde03862c498b66c92"
+}

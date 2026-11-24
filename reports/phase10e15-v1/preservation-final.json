@@ -1,0 +1,13 @@
+{
+  "E14_baseline_not_rerun": true,
+  "all_preexisting_tracked_content_unchanged_except_gitignore": true,
+  "historical_annotations_and_checkpoints_modified": false,
+  "historical_input_files": 11,
+  "historical_photos_verified": 130,
+  "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "new_images_downloaded": 0,
+  "new_real_annotations": 0,
+  "no_core_ML_code_changes": true,
+  "note": "Targeted source/photo and recorded parent-seal checks; not a new exhaustive checkpoint audit",
+  "status": "PASS"
+}

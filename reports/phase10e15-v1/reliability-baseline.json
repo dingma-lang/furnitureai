@@ -1,0 +1,13 @@
+{
+  "CPU_passed": 425,
+  "baseline_branch": "experiment/phase10e14-synthetic-pipeline",
+  "documented_skips": 33,
+  "historical_data_model_report_files_preserved": 28342,
+  "initial_worktree_clean": true,
+  "new_synthetic_passed": 34,
+  "parent": "f9a06a6103428bee4915acbde03862c498b66c92",
+  "source": "reports/phase10e14-v1/summary-final.json",
+  "source_sha256": "859f6837f5f8db8e9e6f3a14ca16f766dca1fec37e9877cc9d306cffd1978719",
+  "test_errors": 0,
+  "tests_rerun": false
+}

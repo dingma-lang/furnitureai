@@ -1,0 +1,295 @@
+{
+  "requested_titles": [
+    "File:Living room in Winnipeg.jpg",
+    "File:Workspace Setup.jpg",
+    "File:Cozy living room with a view of the lake and trees in the background at midday.jpg"
+  ],
+  "source_url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ALiving+room+in+Winnipeg.jpg%7CFile%3AWorkspace+Setup.jpg%7CFile%3ACozy+living+room+with+a+view+of+the+lake+and+trees+in+the+background+at+midday.jpg&prop=imageinfo&iiprop=url%7Csize%7Csha1%7Cextmetadata&format=json",
+  "image_bodies_requested": 0,
+  "attempts": 1,
+  "status": "metadata_received",
+  "body_bytes": 6570,
+  "document": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "195256255": {
+          "pageid": 195256255,
+          "ns": 6,
+          "title": "File:Cozy living room with a view of the lake and trees in the background at midday.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 10821723,
+              "width": 6016,
+              "height": 4016,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cozy_living_room_with_a_view_of_the_lake_and_trees_in_the_background_at_midday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cozy_living_room_with_a_view_of_the_lake_and_trees_in_the_background_at_midday.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/195256255",
+              "sha1": "991dcbdd4d4aa06b8b81072fc320c4068723e3da",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-07-06 21:36:53",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Cozy living room with a view of the lake and trees in the background at midday",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Living rooms|Indoor|Self-published work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "A living room shows a view of the lake through large windows. Furniture includes a couch and a coffee table. Sunlight fills the room during the day.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2026-07-04 14:01:02",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Shixart1985\" title=\"User:Shixart1985\">Shixart1985</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "178637758": {
+          "pageid": 178637758,
+          "ns": 6,
+          "title": "File:Living room in Winnipeg.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 6356815,
+              "width": 4608,
+              "height": 3456,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Living_room_in_Winnipeg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Living_room_in_Winnipeg.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/178637758",
+              "sha1": "a3f4dbdd25ba4fc4a070b8696b92bbe6dc9419f4",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-11-17 20:04:41",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Living room in Winnipeg",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Living rooms|Christmas trees|Self-published work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Living room during christmas in winnipeg manitoba canada",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2022-01-01 18:51:59",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Alexhalipchuk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Alexhalipchuk (page does not exist)\">Alexhalipchuk</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "150832261": {
+          "pageid": 150832261,
+          "ns": 6,
+          "title": "File:Workspace Setup.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 4073349,
+              "width": 4032,
+              "height": 3024,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Workspace_Setup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Workspace_Setup.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/150832261",
+              "sha1": "4e8287f094f0562445062e8414525e73a54ca8f5",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-07-26 09:55:36",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Workspace Setup",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|Self-published work|WIki Mentor Africa Hackathon Buea Cameroon",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "This is a picture of my work setup at home I use on a daily basis for work.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2024-06-09 09:13:06",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FreshDev&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FreshDev (page does not exist)\">FreshDev</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

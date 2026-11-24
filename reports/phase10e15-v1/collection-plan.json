@@ -1,0 +1,49 @@
+{
+  "schema": "modern-room-collection-plan-v1",
+  "proposal_only": true,
+  "target_photos": 24,
+  "target_is_not_observed_availability": true,
+  "training_target": 16,
+  "independent_evaluation_target": 8,
+  "training_minimum_creator_room_components": 6,
+  "independent_evaluation_minimum_creator_room_components": 4,
+  "scene_targets": {
+    "living_rooms": {"training": 4, "evaluation": 2},
+    "dining_rooms_and_seating_stools": {"training": 3, "evaluation": 1},
+    "bedrooms_with_lamps": {"training": 4, "evaluation": 2},
+    "home_or_small_offices_with_desks_and_cabinets": {"training": 4, "evaluation": 2},
+    "mixed_cluttered_occluded_rooms": {"training": 1, "evaluation": 1}
+  },
+  "creator_submitted_photos_currently_identified_or_consented": 0,
+  "exact_licensed_collection_leads": "proposed-photo-acquisition.json",
+  "exact_licensed_collection_lead_count": 3,
+  "licensed_lead_allocation": "training-side suitability inspection only; zero independent evaluation",
+  "creator_submission_target_if_all_three_leads_suitable": {"training": 13, "evaluation": 8},
+  "no_automatic_replacements_if_leads_unsuitable": true,
+  "new_images_acquired_or_annotated": 0,
+  "rights_cleared_new_evaluation_images": 0,
+  "before_model_use": [
+    "Freeze exact IDs, image hashes, rights evidence and source/creator/room/capture components",
+    "Preserve all exposed development and historical frozen partitions",
+    "Keep machine proposals inactive; qualify native and corrected annotations",
+    "Complete all applicable seven-category annotation and independent verification for evaluation",
+    "Aim for at least five confirmed objects per category across at least three evaluation groups; report shortfalls rather than invent coverage",
+    "Freeze model/checkpoint, prompts, preprocessing, confidence/IoU protocol and success criteria before evaluation"
+  ],
+  "future_evaluation": {
+    "scope": "small data-quality pilot; not a precise estimate of real-world accuracy",
+    "metrics": ["precision and recall at pinned confidence", "AP50", "AP75", "PR curves", "per-category TP/FP/FN", "duplicates", "fragmentation/localization", "group-bootstrap uncertainty"],
+    "do_not_tune_on_acceptance_set": true,
+    "release_target_80_precision_90_recall_not_established_by_8_images": true,
+    "training_only_internal_development": "choose whole source components only after qualified training records are available; do not borrow acceptance photos for tuning"
+  },
+  "future_creator_intake_budget_requires_separate_approval": {
+    "maximum_photos": 24,
+    "maximum_bytes_per_photo": 20971520,
+    "maximum_total_original_photo_bytes": 503316480,
+    "maximum_private_working_storage_bytes": 1073741824,
+    "automatic_outreach": false,
+    "network_download_authorization": false,
+    "exact_IDS_and_grants_required_before_collection": true
+  }
+}

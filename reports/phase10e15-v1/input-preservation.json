@@ -1,0 +1,52 @@
+{
+  "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "model_operations": 0,
+  "real_images_downloaded": 0,
+  "records": [
+    {
+      "path": "reports/phase10e14-v1/summary-final.json",
+      "sha256": "859f6837f5f8db8e9e6f3a14ca16f766dca1fec37e9877cc9d306cffd1978719"
+    },
+    {
+      "path": "data/open-images/preparation/phase10b-v1/eligibility-manifest.json",
+      "sha256": "ec55e01d968b584819c790de2c2a843bd87d9af960642601d65187807800b937"
+    },
+    {
+      "path": "data/open-images/preparation/phase10e6-v1/source-lineage-v1.json",
+      "sha256": "14144ccefa204232045ed8a852b33be7d98005e0aa8bd584804fdc62531f4d02"
+    },
+    {
+      "path": "data/open-images/preparation/phase10e6-v1/inactive-local-candidates-v1.json",
+      "sha256": "1445de153b2818fd252870d318bd250ce3e49a11f56987824699cd4b90d9083e"
+    },
+    {
+      "path": "reports/phase10e11-v1/image-and-rights-manifest.json",
+      "sha256": "d99809a791562282957c932c24f3dacbecdb9a9394c3f53c8ebaba6172d2e18e"
+    },
+    {
+      "path": "reports/phase10e11-v1/summary.json",
+      "sha256": "8ba19c5b764e24d40f8a9e6107331eb8aa8b5b908f496653f50d5aef918f9cd8"
+    },
+    {
+      "path": "reports/phase4-room-comparison-v1/input-lock.json",
+      "sha256": "04d99aaa59dea52e9d6bfdd76c246d20184aab472281927207db7a68273a1b76"
+    },
+    {
+      "path": "data/open-images/preparation/phase10e6-v1/independent-exclusion-registry.json",
+      "sha256": "b7c5a237c224c71292c7774453523e73e24dd953f37c9cef665af90cde72b07a"
+    },
+    {
+      "path": "data/open-images/preparation/phase10e1-v1/training-context.json",
+      "sha256": "0b04b67086e2256c89806cc0ce86f86517a3f8fd8fc30fbfba770569d353f9ed"
+    },
+    {
+      "path": "reports/phase10e14-v1/artifact-seal.json",
+      "sha256": "6637b865839d2c480b8a9eadd27ead4acff8b8e374407695b303817201e8832b"
+    },
+    {
+      "path": "reports/phase10e11-v1/artifact-seal.json",
+      "sha256": "413fe4ad60db4ee9805aa4ef09646c27407a4aa83c25ecdfe09db6e24b974318"
+    }
+  ],
+  "source_images_verified": 120
+}

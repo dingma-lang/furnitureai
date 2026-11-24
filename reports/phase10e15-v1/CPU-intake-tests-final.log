@@ -1,0 +1,17 @@
+test_UI_has_no_prechecked_grants_or_external_scripts (test_intake15.IntakeTests.test_UI_has_no_prechecked_grants_or_external_scripts) ... ok
+test_actual_image_hash_and_EXIF_dimensions_checked_when_explicitly_requested (test_intake15.IntakeTests.test_actual_image_hash_and_EXIF_dimensions_checked_when_explicitly_requested) ... ok
+test_all_categories_have_unknown_completeness_by_default (test_intake15.IntakeTests.test_all_categories_have_unknown_completeness_by_default) ... ok
+test_complete_metadata_is_not_a_rights_or_training_approval (test_intake15.IntakeTests.test_complete_metadata_is_not_a_rights_or_training_approval) ... ok
+test_cross_purpose_capture_creator_and_room_group_conflicts (test_intake15.IntakeTests.test_cross_purpose_capture_creator_and_room_group_conflicts) ... ok
+test_grant_scope_evidence_and_confirmation_are_required (test_intake15.IntakeTests.test_grant_scope_evidence_and_confirmation_are_required) ... ok
+test_historical_hashes_and_groups_prevent_new_independent_use (test_intake15.IntakeTests.test_historical_hashes_and_groups_prevent_new_independent_use) ... ok
+test_independent_review_must_be_complete_and_unexposed (test_intake15.IntakeTests.test_independent_review_must_be_complete_and_unexposed) ... ok
+test_invalid_box_and_fake_confirmation_rejected (test_intake15.IntakeTests.test_invalid_box_and_fake_confirmation_rejected) ... ok
+test_source_annotation_ids_and_native_provenance_required (test_intake15.IntakeTests.test_source_annotation_ids_and_native_provenance_required) ... ok
+test_static_server_denies_uploads_private_paths_and_rebinding (test_intake15.IntakeTests.test_static_server_denies_uploads_private_paths_and_rebinding) ... ok
+test_unreviewed_source_boxes_do_not_become_verified (test_intake15.IntakeTests.test_unreviewed_source_boxes_do_not_become_verified) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.514s
+
+OK

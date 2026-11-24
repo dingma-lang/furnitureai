@@ -364,3 +364,11 @@ dist/
 !/reports/phase10e14-v1/*.json
 !/reports/phase10e14-v1/CPU-*.log
 !/reports/phase10e14-v1/SHA256SUMS
+
+# Phase10E.15 public planning/source metadata only; intake photos/evidence stay ignored.
+!/reports/phase10e15-v1/
+/reports/phase10e15-v1/*
+!/reports/phase10e15-v1/*.md
+!/reports/phase10e15-v1/*.json
+!/reports/phase10e15-v1/CPU-*.log
+!/reports/phase10e15-v1/SHA256SUMS
