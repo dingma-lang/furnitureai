@@ -1,0 +1,32 @@
+{
+  "NMS_synthetic_test_only": {
+    "detection_accuracy_jaccard": 0.6363636363636364,
+    "false_negatives": 1,
+    "false_positives": 3,
+    "precision": 0.7,
+    "recall": 0.875,
+    "true_positives": 7
+  },
+  "edited_synthetic_box": {
+    "detection_accuracy_jaccard": 0.7777777777777778,
+    "false_negatives": 1,
+    "false_positives": 1,
+    "precision": 0.875,
+    "recall": 0.875,
+    "true_positives": 7
+  },
+  "original": {
+    "detection_accuracy_jaccard": 1.0,
+    "false_negatives": 0,
+    "false_positives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_positives": 8
+  },
+  "raw_recomputed_for_label_or_NMS_change": false,
+  "real_model_forwards": 0,
+  "runs_have_distinct_keys": true,
+  "source_annotations_changed": "temporary generated fixture only; zero real annotations changed",
+  "synthetic_only": true,
+  "total_synthetic_detector_calls": 3
+}

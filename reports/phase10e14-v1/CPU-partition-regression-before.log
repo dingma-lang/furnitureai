@@ -1,0 +1,25 @@
+test_crossrun_partition_reassignment_is_rejected (test_pipeline_reliability.EndToEndTests.test_crossrun_partition_reassignment_is_rejected) ... FAIL
+test_crossrun_source_group_conflicts_are_rejected (test_pipeline_reliability.EndToEndTests.test_crossrun_source_group_conflicts_are_rejected) ... FAIL
+
+======================================================================
+FAIL: test_crossrun_partition_reassignment_is_rejected (test_pipeline_reliability.EndToEndTests.test_crossrun_partition_reassignment_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_pipeline_reliability.py", line 176, in test_crossrun_partition_reassignment_is_rejected
+    with self.assertRaisesRegex(ValueError,'partition assignment'):self.run_pipeline()
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_crossrun_source_group_conflicts_are_rejected (test_pipeline_reliability.EndToEndTests.test_crossrun_source_group_conflicts_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_pipeline_reliability.py", line 181, in test_crossrun_source_group_conflicts_are_rejected
+    with self.assertRaisesRegex(ValueError,'partition assignment'):self.run_pipeline()
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.049s
+
+FAILED (failures=2)

@@ -1,0 +1,248 @@
+{
+  "old_seals_rebound": false,
+  "parent": "743c39180868162cb009740a95d8e528b8513537",
+  "prior_source_checks_require_recorded_commit": true,
+  "records": [
+    {
+      "current_matches": false,
+      "parent_matches": true,
+      "path": ".gitignore"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-broad-final.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-broad-final.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-broad-v1.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-broad-v1.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-direct-entrypoint.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-fixture-v1.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-fixture-v1.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-fixture-v2.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-fixture-v2.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-final.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-final.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-v1.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-v1.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-v2.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-v2.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-v3.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-v3.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-v4.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/CPU-reliability-v4.log"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/behavior-current.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/dense-saved-CPU-performance.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/eleven-test-status.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/historical-output-equivalence.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/historical-source-replay.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/preservation.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/report.md"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/representative-CPU-performance.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "reports/phase10e13-v1/summary.json"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "src/furniture_bench/cache.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "src/furniture_bench/catalog_expansion.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "src/furniture_bench/data.py"
+    },
+    {
+      "current_matches": false,
+      "parent_matches": true,
+      "path": "src/furniture_bench/persistence.py"
+    },
+    {
+      "current_matches": false,
+      "parent_matches": true,
+      "path": "src/furniture_bench/pipeline.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "src/furniture_bench/retrieval.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tests/synthetic_support.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tests/test_home_transfer.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tests/test_owned_inventory.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tests/test_photo_projects.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tests/test_reliability.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tests/test_replacements.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tests/test_room_viewer.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tools/phase10e13-v1/README.md"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tools/phase10e13-v1/closeout13.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tools/phase10e13-v1/dense_benchmark13.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tools/phase10e13-v1/measure13.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tools/phase10e13-v1/run_checks13.py"
+    },
+    {
+      "current_matches": true,
+      "parent_matches": true,
+      "path": "tools/phase10e13-v1/verify13.py"
+    }
+  ],
+  "status": "PASS"
+}

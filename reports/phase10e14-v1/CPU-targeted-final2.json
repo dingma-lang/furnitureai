@@ -1,0 +1,13 @@
+{
+  "GPU_calls": 0,
+  "downloads": 0,
+  "errors": [],
+  "excluded_actual_model_forwards": [],
+  "failures": [],
+  "log_sha256": "ad7589c4cc35519ed36862e917be6ecccf278e20855487eac47db555278abad4",
+  "model_forwards": 0,
+  "passed": 34,
+  "ran": 34,
+  "skipped": [],
+  "status": "PASS"
+}

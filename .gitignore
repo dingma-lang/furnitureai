@@ -356,3 +356,11 @@ dist/
 !/reports/phase10e13-v1/*.json
 !/reports/phase10e13-v1/CPU-*.log
 !/reports/phase10e13-v1/SHA256SUMS
+
+# Synthetic-only Phase10E.14 evidence; private preservation indexes remain local.
+!/reports/phase10e14-v1/
+/reports/phase10e14-v1/*
+!/reports/phase10e14-v1/*.md
+!/reports/phase10e14-v1/*.json
+!/reports/phase10e14-v1/CPU-*.log
+!/reports/phase10e14-v1/SHA256SUMS

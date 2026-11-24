@@ -10,6 +10,12 @@ from .runtime import environment
 from .visualization import annotate
 
 
+def run_cached_detection(*args, **kwargs):
+    """Opt-in detection-only v2 persistence; the legacy runner below is unchanged."""
+    from .cached_pipeline import run_cached_detection as cached
+    return cached(*args, **kwargs)
+
+
 def run_experiment(manifest, output, detector, embedder=None, catalog=None, segmenter=None):
     """One record per input, including failures. No substitute/fallback detections."""
     if (embedder is None) != (catalog is None):

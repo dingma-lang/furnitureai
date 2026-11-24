@@ -1,0 +1,149 @@
+{
+  "GPU_calls": 0,
+  "downloads": 0,
+  "errors": [],
+  "excluded_actual_model_forwards": [
+    "test_benchmark.TinyTransformersTests.test_real_owlv2_forward_and_postprocessing",
+    "test_benchmark.TinyTransformersTests.test_real_siglip2_image_features"
+  ],
+  "failures": [],
+  "log_sha256": "c6d416aeb16aad64e461f5590d3790988ee1e80e3f00f8a4989140b9963fbaad",
+  "model_forwards": 0,
+  "passed": 424,
+  "ran": 457,
+  "skipped": [
+    {
+      "reason": "Native PDF rendering requires macOS PDFKit, Swift and PyPDF2; not a synthetic-renderer test",
+      "test": "test_home_transfer.TransferTests.test_pdf_pages_locally_rendered"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_calibration_rejects_invalid_or_unsourced_input"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_empty_features_and_spatial_coverage"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_inconsistent_existing_map_stops_fusion"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_missing_intrinsics_matches_only_no_3d"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_plane_patches_have_no_fabricated_extents"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_pnp_registers_existing_frame_and_rejects_mismatches"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_progressive_third_view_keeps_map_frame_and_landmarks"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_pure_rotation_not_a_room_reconstruction"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_single_photo_pipeline_offline_and_resume_identity"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_tiny_baseline_has_no_usable_parallax"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_triangulation_known_synthetic_points"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_multiview.MultiViewGeometryTests.test_two_view_pose_with_outliers"
+    },
+    {
+      "reason": "Optional document extractor not installed",
+      "test": "test_owned_inventory.OwnedInventoryTests.test_actual_pdf_text_extracts_suggestions_without_applying_measurements"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.BundleRefinementTests.test_refinement_preserves_source_gauge_and_user_provenance"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.MeasuredDepthTests.test_backprojection_uses_sensor_scale_not_relative_depth"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.MeasuredDepthTests.test_depth_edges_holes_and_unknowns_remain_missing"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.MeasuredDepthTests.test_metric_rigid_registration_with_outliers_and_bad_overlap"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.MeasuredDepthTests.test_partial_mesh_does_not_bridge_holes_or_furniture"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.MeasuredDepthTests.test_relative_depth_cannot_enter_sensor_pipeline"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.MeasuredDepthTests.test_sensor_hash_scale_and_timestamp_validation"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.MeasuredDepthTests.test_sensor_scale_preserves_raw_map_and_rejects_disagreement"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.MeasuredDepthTests.test_structural_plane_requires_semantic_and_multiview_support"
+    },
+    {
+      "reason": "optional multiview dependencies absent",
+      "test": "test_phase5_geometry.MeasuredDepthTests.test_voxel_support_counts_distinct_views_and_semantic_conflict"
+    },
+    {
+      "reason": "optional geometry packages absent",
+      "test": "test_registration_recovery.GeometryRegressionTests.test_bad_depth_voxel_and_rigid_fit_inputs_refused"
+    },
+    {
+      "reason": "optional geometry packages absent",
+      "test": "test_registration_recovery.GeometryRegressionTests.test_camera_evaluation_does_not_fit_away_metric_error"
+    },
+    {
+      "reason": "optional geometry packages absent",
+      "test": "test_registration_recovery.GeometryRegressionTests.test_degenerate_rgbd_and_pnp_reject_without_native_error"
+    },
+    {
+      "reason": "optional geometry packages absent",
+      "test": "test_registration_recovery.GeometryRegressionTests.test_identical_and_collinear_matches_do_not_create_pose"
+    },
+    {
+      "reason": "optional geometry packages absent",
+      "test": "test_registration_recovery.GeometryRegressionTests.test_line_warning_regression_and_invalid_inputs"
+    },
+    {
+      "reason": "optional geometry packages absent",
+      "test": "test_registration_recovery.GeometryRegressionTests.test_recovery_rejects_heldout_depth_alias_before_fusion"
+    },
+    {
+      "reason": "optional geometry packages absent",
+      "test": "test_registration_recovery.GeometryRegressionTests.test_singular_huge_or_nonfinite_calibration_refused"
+    },
+    {
+      "reason": "optional geometry packages absent",
+      "test": "test_registration_recovery.GeometryRegressionTests.test_worker_launcher_preserves_virtual_environment_symlink_path"
+    },
+    {
+      "reason": "optional geometry packages absent",
+      "test": "test_registration_recovery.GeometryRegressionTests.test_zero_baseline_and_near_parallel_rays_remain_invalid"
+    }
+  ],
+  "status": "PASS"
+}

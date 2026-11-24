@@ -1,0 +1,19 @@
+test_interrupted_initial_adapter_manifest_can_resume_without_deleting_orphans (test_pipeline_reliability.ProcessTests.test_interrupted_initial_adapter_manifest_can_resume_without_deleting_orphans) ... ERROR
+
+======================================================================
+ERROR: test_interrupted_initial_adapter_manifest_can_resume_without_deleting_orphans (test_pipeline_reliability.ProcessTests.test_interrupted_initial_adapter_manifest_can_resume_without_deleting_orphans)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_pipeline_reliability.py", line 402, in test_interrupted_initial_adapter_manifest_can_resume_without_deleting_orphans
+    result=self.run_pipeline()
+  File "/home/tristary/furniture-ai-ml/tests/test_pipeline_reliability.py", line 74, in run_pipeline
+    return run_cached_detection(self.manifest,self.output,self.detector,
+        spec=self.spec,model_files=self.weights,processor_files=self.processor,**kwargs)
+  File "/home/tristary/furniture-ai-ml/src/furniture_bench/cached_pipeline.py", line 240, in run_cached_detection
+    raise ValueError('Existing legacy/unmarked output cannot be reused; choose a fresh v2 root')
+ValueError: Existing legacy/unmarked output cannot be reused; choose a fresh v2 root
+
+----------------------------------------------------------------------
+Ran 1 test in 0.162s
+
+FAILED (errors=1)

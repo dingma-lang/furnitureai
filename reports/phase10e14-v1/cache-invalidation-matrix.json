@@ -1,0 +1,148 @@
+{
+  "limitations": [
+    "Unsupported preprocessing protocols are rejected by this adapter.",
+    "Category/prompt meaning changes require raw recomputation; description-only taxonomy changes do not.",
+    "Partition reassignment is rejected, not merely invalidated."
+  ],
+  "raw": "pre-NMS candidates at explicit acquisition floor; NMS/confidence above floor are separate",
+  "rows": [
+    {
+      "action": "versioned-recompute",
+      "change": "image bytes",
+      "invalidates": [
+        "raw",
+        "postprocessed",
+        "evaluation",
+        "supervision"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "orientation/preprocessing",
+      "invalidates": [
+        "raw",
+        "postprocessed",
+        "evaluation",
+        "supervision"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "checkpoint",
+      "invalidates": [
+        "raw",
+        "postprocessed",
+        "evaluation"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "processor",
+      "invalidates": [
+        "raw",
+        "postprocessed",
+        "evaluation"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "prompt order",
+      "invalidates": [
+        "raw",
+        "postprocessed",
+        "evaluation"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "category order",
+      "invalidates": [
+        "raw",
+        "postprocessed",
+        "evaluation"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "taxonomy description only",
+      "invalidates": [
+        "evaluation",
+        "supervision"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "ground truth boxes",
+      "invalidates": [
+        "evaluation",
+        "supervision"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "annotation completeness",
+      "invalidates": [
+        "evaluation",
+        "supervision"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "ignored regions",
+      "invalidates": [
+        "evaluation",
+        "supervision"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "protected regions",
+      "invalidates": [
+        "evaluation",
+        "supervision"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "source group same partition",
+      "invalidates": [
+        "evaluation",
+        "supervision"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "NMS",
+      "invalidates": [
+        "postprocessed",
+        "evaluation"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "confidence",
+      "invalidates": [
+        "postprocessed",
+        "evaluation"
+      ]
+    },
+    {
+      "action": "versioned-recompute",
+      "change": "matching IoU",
+      "invalidates": [
+        "evaluation"
+      ]
+    },
+    {
+      "action": "reject, never migrate implicitly",
+      "change": "unsupported schema",
+      "invalidates": [
+        "raw",
+        "postprocessed",
+        "evaluation",
+        "supervision"
+      ]
+    }
+  ],
+  "supervision": "geometry descriptor, not model-query target tensor"
+}

@@ -5,6 +5,8 @@ import json
 import os
 import stat
 import tempfile
+import time
+from contextlib import contextmanager
 from pathlib import Path
 
 
@@ -72,3 +74,36 @@ def atomic_json(path, value, *, ensure_ascii=False, overwrite=True):
             json.load(stream)
 
     atomic_write(path, lambda stream: stream.write(payload), validator=validate, overwrite=overwrite)
+
+
+@contextmanager
+def artifact_lock(path, *, timeout=30.):
+    """POSIX process lock; crash releases ownership, stable lock inode is retained.
+
+    Only cooperating writers are serialized. Never unlink a lock file on exit:
+    doing so could let later writers lock a different inode at the same path.
+    """
+    if os.name != 'posix':
+        raise RuntimeError('Artifact locking requires POSIX/WSL; no unsafe fallback')
+    import fcntl
+
+    if not isinstance(timeout, (int, float)) or not 0 <= timeout < float('inf'):
+        raise ValueError('Finite nonnegative lock timeout required')
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.is_symlink():
+        raise ValueError('Lock paths must not be symbolic links')
+    with path.open('a+b') as stream:
+        deadline = time.monotonic()+timeout
+        while True:
+            try:
+                fcntl.flock(stream, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                break
+            except BlockingIOError:
+                if time.monotonic() >= deadline:
+                    raise TimeoutError('Artifact is owned by another writer')
+                time.sleep(.01)
+        try:
+            yield
+        finally:
+            fcntl.flock(stream, fcntl.LOCK_UN)

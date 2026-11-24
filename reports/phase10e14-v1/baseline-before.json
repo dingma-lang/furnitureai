@@ -1,0 +1,405 @@
+{
+  "source_commit": "743c39180868162cb009740a95d8e528b8513537",
+  "synthetic_only": true,
+  "real_model_forwards": 0,
+  "synthetic_calls": 3,
+  "semantic": {
+    "images": [
+      {
+        "image_id": "SYNTHETIC-ONLY-0",
+        "width": 120,
+        "height": 80,
+        "image_sha256": "6670779edff569b0f9baba7e1c3e476f5ab08a00fc161b02947e9c589559a09f",
+        "detections": [
+          {
+            "label": "sofa",
+            "box": [
+              2,
+              3,
+              16,
+              23
+            ],
+            "score": 0.9,
+            "query_id": 0,
+            "logits": [
+              2.1972245773362196,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0
+            ]
+          },
+          {
+            "label": "chair",
+            "box": [
+              20,
+              3,
+              34,
+              23
+            ],
+            "score": 0.87,
+            "query_id": 1,
+            "logits": [
+              -9.0,
+              1.900958761193047,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0
+            ]
+          },
+          {
+            "label": "table",
+            "box": [
+              38,
+              3,
+              52,
+              23
+            ],
+            "score": 0.8400000000000001,
+            "query_id": 2,
+            "logits": [
+              -9.0,
+              -9.0,
+              1.658228076603533,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0
+            ]
+          },
+          {
+            "label": "chair",
+            "box": [
+              98,
+              40,
+              118,
+              60
+            ],
+            "score": 0.8,
+            "query_id": 12,
+            "logits": [
+              -9.0,
+              1.3862943611198908,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0
+            ]
+          }
+        ]
+      },
+      {
+        "image_id": "SYNTHETIC-ONLY-1",
+        "width": 80,
+        "height": 120,
+        "image_sha256": "fa261c9e08e76d2eb4a3a57e755f5c691651ffd960190fea458b7c3757a62806",
+        "detections": [
+          {
+            "label": "bed",
+            "box": [
+              2,
+              3,
+              16,
+              23
+            ],
+            "score": 0.9,
+            "query_id": 0,
+            "logits": [
+              -9.0,
+              -9.0,
+              -9.0,
+              2.1972245773362196,
+              -9.0,
+              -9.0,
+              -9.0
+            ]
+          },
+          {
+            "label": "desk",
+            "box": [
+              20,
+              3,
+              34,
+              23
+            ],
+            "score": 0.87,
+            "query_id": 1,
+            "logits": [
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              1.900958761193047,
+              -9.0,
+              -9.0
+            ]
+          },
+          {
+            "label": "cabinet",
+            "box": [
+              38,
+              3,
+              52,
+              23
+            ],
+            "score": 0.8400000000000001,
+            "query_id": 2,
+            "logits": [
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              1.658228076603533,
+              -9.0
+            ]
+          },
+          {
+            "label": "lamp",
+            "box": [
+              56,
+              3,
+              70,
+              23
+            ],
+            "score": 0.81,
+            "query_id": 3,
+            "logits": [
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              1.4500101755059986
+            ]
+          },
+          {
+            "label": "chair",
+            "box": [
+              58,
+              40,
+              78,
+              60
+            ],
+            "score": 0.8,
+            "query_id": 12,
+            "logits": [
+              -9.0,
+              1.3862943611198908,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0
+            ]
+          }
+        ]
+      },
+      {
+        "image_id": "SYNTHETIC-ONLY-2",
+        "width": 120,
+        "height": 80,
+        "image_sha256": "6ee3633b783e8be9dae01de355520fc4e6a6d863c37c6f6b0d083db5dea04a8c",
+        "detections": [
+          {
+            "label": "chair",
+            "box": [
+              2,
+              3,
+              16,
+              23
+            ],
+            "score": 0.9,
+            "query_id": 0,
+            "logits": [
+              -9.0,
+              2.1972245773362196,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0
+            ]
+          },
+          {
+            "label": "chair",
+            "box": [
+              98,
+              40,
+              118,
+              60
+            ],
+            "score": 0.8,
+            "query_id": 12,
+            "logits": [
+              -9.0,
+              1.3862943611198908,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0,
+              -9.0
+            ]
+          }
+        ]
+      }
+    ],
+    "detection": {
+      "true_positives": 8,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "detection_accuracy_jaccard": 1.0
+    },
+    "per_category": {
+      "sofa": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "detection_accuracy_jaccard": 1.0
+      },
+      "chair": {
+        "true_positives": 2,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "detection_accuracy_jaccard": 1.0
+      },
+      "table": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "detection_accuracy_jaccard": 1.0
+      },
+      "bed": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "detection_accuracy_jaccard": 1.0
+      },
+      "desk": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "detection_accuracy_jaccard": 1.0
+      },
+      "cabinet": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "detection_accuracy_jaccard": 1.0
+      },
+      "lamp": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "detection_accuracy_jaccard": 1.0
+      }
+    },
+    "ignored_predictions": 3,
+    "per_image": [
+      {
+        "image_id": "SYNTHETIC-ONLY-0",
+        "true_positives": 3,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "matched_pairs": [
+          {
+            "prediction_index": 0,
+            "object_id": "object-0",
+            "iou": 1.0
+          },
+          {
+            "prediction_index": 1,
+            "object_id": "object-1",
+            "iou": 1.0
+          },
+          {
+            "prediction_index": 2,
+            "object_id": "object-2",
+            "iou": 1.0
+          }
+        ],
+        "false_positive_indices": [],
+        "ignored_indices": [
+          3
+        ],
+        "missed_objects": [],
+        "label_confusions": []
+      },
+      {
+        "image_id": "SYNTHETIC-ONLY-1",
+        "true_positives": 4,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "matched_pairs": [
+          {
+            "prediction_index": 0,
+            "object_id": "object-0",
+            "iou": 1.0
+          },
+          {
+            "prediction_index": 1,
+            "object_id": "object-1",
+            "iou": 1.0
+          },
+          {
+            "prediction_index": 2,
+            "object_id": "object-2",
+            "iou": 1.0
+          },
+          {
+            "prediction_index": 3,
+            "object_id": "object-3",
+            "iou": 1.0
+          }
+        ],
+        "false_positive_indices": [],
+        "ignored_indices": [
+          4
+        ],
+        "missed_objects": [],
+        "label_confusions": []
+      },
+      {
+        "image_id": "SYNTHETIC-ONLY-2",
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "matched_pairs": [
+          {
+            "prediction_index": 0,
+            "object_id": "object-0",
+            "iou": 1.0
+          }
+        ],
+        "false_positive_indices": [],
+        "ignored_indices": [
+          1
+        ],
+        "missed_objects": [],
+        "label_confusions": []
+      }
+    ]
+  }
+}

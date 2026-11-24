@@ -1,0 +1,63 @@
+{
+  "GPU_calls": 0,
+  "broad": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 425,
+    "ran": 458,
+    "real_forward_tests_excluded": 2,
+    "skipped": 33
+  },
+  "concurrency": "cooperative POSIX/WSL locks + atomic no-clobber + immutable partition bindings",
+  "critical_CPU_reliability_blockers": [],
+  "decision": "READY for separately authorized dataset acquisition and bounded model experiments using versioned adapters and existing preflights; no further routine cleanup needed",
+  "downloads": 0,
+  "historical_preservation": {
+    "after_files": 29270,
+    "before_files": 29268,
+    "checkpoint_changes": 0,
+    "dataset_changes": 0,
+    "deleted_files": 0,
+    "historical_report_changes": 0,
+    "historical_tool_changes": 0,
+    "modified": [
+      {
+        "after": "bb94d63fd5241c0a729b5bbd4e909d72d70fd9a59af18278ad94c7ee53bc5125",
+        "before": "cf179b271184afeb6e0b2d9f986e13972147707e46e1ed5e53a5737285dc6401",
+        "path": "src/furniture_bench/persistence.py"
+      },
+      {
+        "after": "ed4ba556455f29cfa80591d49093d4fdd08903c54dc20e454e729c2edbfc09be",
+        "before": "33a8d0a3ebeafe806d90bde43c969e510b7463e376c02203f553fae0112a02a9",
+        "path": "src/furniture_bench/pipeline.py"
+      }
+    ],
+    "new_files": [
+      "src/furniture_bench/cached_pipeline.py",
+      "tests/test_pipeline_reliability.py"
+    ],
+    "note": "Synthetic fixture was created and included before baseline capture and preservation snapshot; new phase tools/reports are sealed separately.",
+    "private_after_sha256": "f5855a43042856f6772d6a010ac012a6bf5710572a427385258e1bd554b98ca4",
+    "private_before_sha256": "c17a74d6920575bfe2d20516a29a4491213ec014f3c449a66e7d3bb4314a4f1c",
+    "status": "PASS",
+    "unchanged_data_models_and_historical_reports": 28342,
+    "unchanged_original_files": 29266
+  },
+  "invalidation_matrix_rows": 16,
+  "limitations": [
+    "No live model execution was tested.",
+    "Legacy UI caches are not converted or endorsed as v2.",
+    "Cross-root unknown identity relationships need authoritative dataset registry checks.",
+    "Native PDF integration remains unavailable on WSL.",
+    "Supervision output is provenance/geometry, not generated model-query training targets."
+  ],
+  "main": "e14c4c253d4680e7d3c2a87d0d896c6d20e86aa6",
+  "multi_file_commit": "validated immutable artifact list + atomic completed.json",
+  "parent": "743c39180868162cb009740a95d8e528b8513537",
+  "real_annotation_changes": 0,
+  "real_model_forwards": 0,
+  "status": "COMPLETE",
+  "synthetic_equivalence": "EXACT_MATCH",
+  "targeted_passed": 34,
+  "zero_update": true
+}

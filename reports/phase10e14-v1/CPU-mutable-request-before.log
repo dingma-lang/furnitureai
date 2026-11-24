@@ -1,0 +1,15 @@
+test_caller_mutation_cannot_change_an_inflight_request (test_pipeline_reliability.EndToEndTests.test_caller_mutation_cannot_change_an_inflight_request) ... FAIL
+
+======================================================================
+FAIL: test_caller_mutation_cannot_change_an_inflight_request (test_pipeline_reliability.EndToEndTests.test_caller_mutation_cannot_change_an_inflight_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/tristary/furniture-ai-ml/tests/test_pipeline_reliability.py", line 230, in test_caller_mutation_cannot_change_an_inflight_request
+    self.assertEqual(result['artifacts']['evaluation.json']['detection']['true_positives'],8)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 8
+
+----------------------------------------------------------------------
+Ran 1 test in 0.027s
+
+FAILED (failures=1)
